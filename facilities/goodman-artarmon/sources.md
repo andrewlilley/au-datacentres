@@ -1,0 +1,12 @@
+# Sources: goodman-artarmon
+Access date for all: 2026-09-27. Note: direct page fetches were blocked by the session's network egress proxy; facts were taken from web-search result text quoting these pages.
+
+1. Urban Digest, "Goodman Gains Approval for $845m Artarmon Data Centre" - https://urbandigest.com.au/goodman-gains-approval-for-845m-artarmon-data-centre/ - address, CIV $845.85m, approval 11 Apr 2025, 669 construction jobs, SSD ref, 80MW.
+2. ArchitectureAu, "Data centre approved for development in growing North Sydney technology hub" - https://architectureau.com/articles/Data-centre-approved-for-development-in-growing-North-Sydney-technology-hub/ - IPC as consent authority, site area, allotments.
+3. Goodman, "Goodman marks construction of data centre in Sydney's north as global work in progress grows to $18 billion" (2026) - https://www.goodman.com/investor-centre/announcements-media/2026/syd01-construction - 61MW IT, 90MW utility, ~700 construction / 30 operational jobs, first phase Q2 2028.
+4. w.media, "Goodman breaks ground on 90MW Sydney DC as pipeline reaches AUD 18bn" - https://w.media/goodman-breaks-ground-on-90mw-sydney-dc-pipeline-reaches-aud-18bn/ - construction start, capacity.
+5. A W Edwards, "Goodman SYD01" project page - https://awedwards.com.au/project/goodman-syd01/ - builder, 7 levels, 60,320 sqm, five stages, early 2028 first phase, commencement 3 Mar.
+6. Goodman LinkedIn post (dated 3 Mar 2026 by post id) - https://www.linkedin.com/posts/goodman_today-alongside-paul-scully-and-a-w-edwards-activity-7434470192832880640-VaT5 - start of construction with A W Edwards.
+7. A W Edwards LinkedIn "CONTRACT AWARD" (4 Mar 2026 by post id) - https://www.linkedin.com/posts/a-w-edwards-pty-limited_partnership-datacentre-teamwork-activity-7434746109043970049-3P9H - builder.
+8. NSW Planning Portal, Lanceley Place Data Centre Artarmon - https://www.planningportal.nsw.gov.au/major-projects/projects/lanceley-place-data-centre-artarmon - 80MVA description, status (not fetched). Modifications: https://www.planningportal.nsw.gov.au/major-projects/projects/modification-1-lanceley-place-data-centre-artarmon ; https://www.planningportal.nsw.gov.au/major-projects/projects/modification-2-lanceley-place-data-centre
+9. NSW major projects portal document SSD-66777221 "1 Development details" (attachment 2024-01-22T22:32 GMT) - https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-66777221%2120240122T223251.819+GMT - approximate lodgement date.

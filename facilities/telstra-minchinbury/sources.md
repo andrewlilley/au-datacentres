@@ -1,0 +1,7 @@
+# Sources: Telstra InfraCo Minchinbury
+
+Note: all direct page fetches were blocked by the session egress proxy; facts below were taken from web-search result text/snippets of these pages (accessed 2026-09-27).
+
+1. PR Newswire (12-13 Nov 2025) - Starwood Capital Group, Doma Infrastructure Group and Telstra InfraCo Announce Agreement to Develop 62MW AI-Optimised Data Centre in Western Sydney. https://www.prnewswire.com/apac/news-releases/starwood-capital-group-doma-infrastructure-group-and-telstra-infraco-announce-agreement-to-develop-62mw-ai-optimised-data-centre-in-western-sydney-302613655.html (also https://www.domainfra.com/resource/optimised-data-centre-in-western-sydney) - accessed 2026-09-27. Supports: developer roles, 62MW IT, 90MVA envelope, development approval secured, construction early 2026, RFS early Q1 2028, adjacent to Eastern Creek cluster.
+2. Mingtiandi - Starwood Teams With Doma, Telstra on 62MW Sydney Data Centre. https://www.mingtiandi.com/real-estate/data-centres/starwood-teams-with-doma-telstra-to-develop-62mw-sydney-data-centre/ ; DCD https://www.datacenterdynamics.com/en/news/starwood-doma-and-telstra-plan-62mw-data-center-in-sydney/ - accessed 2026-09-27. Supports: same facts (corroboration).
+3. Baxtel - Starwood-Doma: Minchinbury Data Center. https://baxtel.com/data-center/starwood-doma-minchinbury ; datacentermap https://www.datacentermap.com/australia/sydney/telstra-minchinbury/ - accessed 2026-09-27. Supports: location Minchinbury NSW 2770.

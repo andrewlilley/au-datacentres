@@ -1,0 +1,105 @@
+{
+  "id": "telstra-minchinbury",
+  "name": "Telstra InfraCo Minchinbury",
+  "operator": "Telstra InfraCo / Starwood / Doma",
+  "status": "approved",
+  "location": {
+    "address": {
+      "value": null,
+      "source": null,
+      "note": "street address not published; site 'adjacent to the Eastern Creek data centre cluster'"
+    },
+    "suburb": "Minchinbury",
+    "state": "NSW",
+    "postcode": {
+      "value": "2770",
+      "source": 3,
+      "note": "Minchinbury suburb postcode"
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "no address to geocode"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "no address to geocode"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null
+  },
+  "developer": {
+    "value": "Starwood Capital Group and Doma Infrastructure Group",
+    "source": 1,
+    "note": "Starwood/Doma finance, develop, build and manage; Telstra InfraCo contributes land and connectivity"
+  },
+  "mw_it": {
+    "value": 62,
+    "source": 1
+  },
+  "mw_grid": {
+    "value": 90,
+    "source": 1,
+    "note": "90MVA power envelope (MVA, not MW)"
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null
+  },
+  "planning": {
+    "authority": {
+      "value": null,
+      "source": null,
+      "note": "likely Blacktown City Council or NSW DPHI; not found"
+    },
+    "pathway": {
+      "value": null,
+      "source": null
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": "not found in planning portal / council searches"
+    },
+    "lodged": {
+      "value": null,
+      "source": null
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "note": "release (Nov 2025) says development approval already secured; date not given"
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null
+  },
+  "jobs_operational": {
+    "value": null,
+    "source": null
+  },
+  "construction_start": {
+    "value": "2026",
+    "source": 1,
+    "precision": "year",
+    "note": "planned 'early 2026' as at Nov 2025; actual start not confirmed"
+  },
+  "construction_end": {
+    "value": "2028",
+    "source": 1,
+    "precision": "year",
+    "note": "target Ready for Service early Q1 2028"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "planning reference/authority/date not found",
+    "street address not found",
+    "construction start (planned early 2026) not confirmed - status may be under_construction",
+    "builder unknown"
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": "greensquaredc-syd1",
+  "name": "SYD1 Norwest expansion",
+  "operator": "GreenSquareDC",
+  "status": "under_construction",
+  "location": {
+    "address": {
+      "value": "3 Brookhollow Avenue, Norwest NSW 2153",
+      "source": 1,
+      "note": "SSD-81928961 site; 51,867 sqm site"
+    },
+    "suburb": "Norwest (Baulkham Hills)",
+    "state": "NSW",
+    "postcode": {
+      "value": "2153",
+      "source": 5,
+      "note": "postcode shown on Planning Alerts/Hills Shire DA listings for 3 Brookhollow Ave"
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "lat/lon not geocoded: WebFetch (incl. nominatim) was blocked by the session egress proxy"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "lat/lon not geocoded: WebFetch (incl. nominatim) was blocked by the session egress proxy"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": "Erilyan is GC for Stage 1 only (see greensquaredc-syd1-stage1); no Stage 2 contractor found"
+  },
+  "developer": {
+    "value": "GreenSquareDC",
+    "source": 1,
+    "note": "backed by Partners Group (acquired GreenSquareDC 2025; up to AUD 1.2bn commitment)"
+  },
+  "mw_it": {
+    "value": 96,
+    "source": 2,
+    "note": "Stage 2 additional IT capacity per DCD/datacentermap and CertifiedStrategic; SDJ described Stage 2 as ~80MW full build-out; whole campus ~110MW incl. 15MW Stage 1"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": "no CIV found (planning portal blocked). AUD 1.2bn is Partners Group funding commitment for the platform/campus, not a CIV; AUD 110m was the land/site deal"
+  },
+  "planning": {
+    "authority": {
+      "value": "NSW DPHI",
+      "source": 1,
+      "note": "SSD application; determining authority not confirmed"
+    },
+    "pathway": {
+      "value": "SSD",
+      "source": 1,
+      "note": ""
+    },
+    "reference": {
+      "value": "SSD-81928961",
+      "source": 1,
+      "note": ""
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": "DCD reported the SSD filing in Jan 2026; search snippets show status variously as 'Prepare EIS' and 'Exhibition'"
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "note": "No SSD determination found. CertifiedStrategic (Apr 2026) says The Hills Shire Council 'endorsed' the Stage 2 DA - may be a council submission rather than a determination"
+    },
+    "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/brookhollow-avenue-data-centre-expansion-norwest"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": "master.csv note says construction from Jan 2026 - not verified; the construction under way is Stage 1"
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": ""
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "scope: Stage 2 SSD-81928961 approval not confirmed (found at EIS/exhibition stage; 'council endorsed' Apr 2026 claim unverified) - may not be planning-approved",
+    "status under_construction not supported for Stage 2; construction evidence relates to Stage 1 refit",
+    "overlap: this record is Stage 2 (96MW new build) of the same 3 Brookhollow Ave campus as greensquaredc-syd1-stage1 (15MW refit); ensure MW not double-counted",
+    "cost, jobs, lodged date not found (planning portal blocked in this session)"
+  ]
+}

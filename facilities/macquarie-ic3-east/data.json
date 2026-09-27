@@ -1,0 +1,110 @@
+{
+  "id": "macquarie-ic3-east",
+  "name": "Macquarie Data Centres IC3 East",
+  "operator": "Macquarie Data Centres",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "17-23 Talavera Road, Macquarie Park NSW",
+      "source": 1,
+      "note": "Macquarie Park Data Centre Campus"
+    },
+    "suburb": "Macquarie Park",
+    "state": "NSW",
+    "postcode": {
+      "value": "2113",
+      "source": null,
+      "note": "standard Australia Post postcode for Macquarie Park; not shown in a source read this session"
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "lat/lon not geocoded: WebFetch (incl. nominatim) was blocked by the session egress proxy"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "lat/lon not geocoded: WebFetch (incl. nominatim) was blocked by the session egress proxy"
+    }
+  },
+  "builder": {
+    "value": "FDC Construction",
+    "source": 2,
+    "note": "FDC broke ground on 'Hyperscale IC3 facility' on 5 Dec (2019), its 4th project with Macquarie DC"
+  },
+  "developer": {
+    "value": "Macquarie Data Centres",
+    "source": 1,
+    "note": "Macquarie Telecom (now Macquarie Technology Group) subsidiary"
+  },
+  "mw_it": {
+    "value": 12,
+    "source": 1,
+    "note": "current 12MW IT per operator; Phase 1 delivered 11MW IT, 13,400 sqm"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": 80,
+    "source": 3,
+    "note": "'initial investment of around $80m' at groundbreaking; >$85m cited at official launch (Mar 2022)"
+  },
+  "planning": {
+    "authority": {
+      "value": "City of Ryde Council",
+      "source": 4,
+      "note": "local DA"
+    },
+    "pathway": {
+      "value": "Local DA",
+      "source": 4,
+      "note": ""
+    },
+    "reference": {
+      "value": "LDA2018/0322",
+      "source": 4,
+      "note": "referenced in SSD-24299707 docs as the approved data centre consent for the site; a Concept/amending DA LDA2020/0229 was determined by Sydney North Planning Panel on 2020-12-15"
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": "2018 per DA number"
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "note": "not found"
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": 1200,
+    "source": 3,
+    "note": "'approximately 1,200 jobs in construction, engineering and architecture' (operator at groundbreaking)"
+  },
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_start": {
+    "value": "2019-12",
+    "source": 3,
+    "precision": "month",
+    "note": "groundbreaking Dec 2019 (Minister Dominello attended)"
+  },
+  "construction_end": {
+    "value": "2020",
+    "source": 1,
+    "precision": "year",
+    "note": "Phase 1 completed 2020 per operator (delayed to 2H 2020 by planning approvals, ARN); official opening by PM Morrison Mar 2022"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "confirm LDA2018/0322 determination date and whether LDA2020/0229 (SNPP 2020-12-15) applies to IC3 East",
+    "confirm FDC Dec-5 groundbreaking year is 2019"
+  ]
+}

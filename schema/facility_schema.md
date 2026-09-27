@@ -41,14 +41,36 @@ when not found. Never estimate without saying so in `note`.
     "determined": {"value": "2024-10-15", "source": 1},
     "url": "https://..."
   },
-  "jobs_construction": {"value": 800, "source": 1},
-  "jobs_operational": {"value": 150, "source": 1},
+  "jobs_construction": {"value": 800, "source": 1, "basis": "peak", "scope": "direct",
+                        "note": "EIS: 'up to 800 workers at peak'"},
+  "jobs_construction_other": [
+    {"value": 1200, "source": 5, "basis": "fte_years", "scope": "direct", "note": "economic impact appendix"},
+    {"value": 2100, "source": 5, "basis": "fte_years", "scope": "direct_indirect", "note": ""}
+  ],
+  "jobs_operational": {"value": 150, "source": 1, "basis": "ongoing_headcount", "scope": "direct"},
+  "jobs_operational_other": [],
   "construction_start": {"value": "2024-12", "source": 4, "precision": "month"},
   "construction_end": {"value": "2026-06", "source": 4, "precision": "month", "note": "expected"},
   "last_checked": "2026-09-27",
   "open_questions": []
 }
 ```
+
+### Jobs
+
+Planning documents report jobs on different bases, and they are not comparable.
+Record **every** figure a source gives, each tagged:
+
+- `basis`: `peak` (max on-site workforce), `average` (average workforce over
+  the build), `total_headcount` (distinct workers over the build), `fte_years`
+  (full-time-equivalent job-years), `ongoing_headcount` (operational staff),
+  `unstated` (source gives a number with no definition; quote it in `note`)
+- `scope`: `direct` (on-site / by the project), `direct_indirect` (includes
+  flow-on or supply-chain jobs), `unstated`
+
+Put the direct peak figure (construction) or direct ongoing figure
+(operational) in the primary field when available; everything else goes in the
+`_other` arrays. Quote the source's exact wording in `note`.
 
 Dates are ISO strings at the precision known (`YYYY`, `YYYY-MM`, `YYYY-MM-DD`).
 Costs in AUD millions, nominal, as stated by the source.
