@@ -7,7 +7,7 @@
     "address": {
       "value": "552-578 Lorimer Street, Port Melbourne VIC",
       "source": 4,
-      "note": ""
+      "note": "Equinix ME2 page (source 5) gives '578 Lorimer Street'; City of Melbourne list gives 600 Lorimer St for ME1/ME2 (source 10)"
     },
     "suburb": "Port Melbourne",
     "state": "VIC",
@@ -40,7 +40,7 @@
   "mw_it": {
     "value": null,
     "source": null,
-    "note": "not published by Equinix; aggregators give 2-3 MW (source 6) — unverified; 3,000 cabinets at full build"
+    "note": "not published by Equinix; aggregators give 3 MW ('Total power 3000 kW', 3 kW per cabinet — inflect, source 11; datacentermap 2-3 MW, source 6) — unverified; ~3,000 cabinets at full build after phase 3 (source 9)"
   },
   "mw_grid": {
     "value": null,
@@ -48,25 +48,25 @@
     "note": ""
   },
   "cost_aud_m": {
-    "value": 117,
-    "source": 2,
-    "note": "A$117m (US$84m) initial investment; phase 2 added A$23m (source 3)"
+    "value": 116,
+    "source": 1,
+    "note": "Equinix opening release (24 Feb 2020): US$77.5m (approx A$116m); announcement coverage (ARN, 12 Mar 2019) gave A$117m (US$84m). Phase 2 added A$23m (completed Aug 2022, source 8); phase 3 is part of an A$240m Sydney+Melbourne investment (June 2024, source 9) with no ME2 split"
   },
   "planning": {
     "authority": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "Minister for Planning",
+      "source": 10,
+      "note": "inferred from ministerial ref PA1600153 / TPM prefix; tracker labels pathway 'Ministerial fast-track'"
     },
     "pathway": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "ministerial permit",
+      "source": 10,
+      "note": "tracker label 'Ministerial fast-track'; inferred from PA ref"
     },
     "reference": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "PA1600153",
+      "source": 10,
+      "note": "City of Melbourne data-centre list entry for 'Equinix ME1/ME2' (600 Lorimer St) lists permits TP-2012-1007, TP-2012-1007/A, TPM-2016-26, TPM-2016-26/A and ministerial ref PA1600153; attribution of the 2016 ministerial permit to ME2 (opened 2020) is inferred, not stated"
     },
     "lodged": {
       "value": null,
@@ -108,11 +108,12 @@
     "value": "2020-02",
     "source": 1,
     "precision": "month",
-    "note": "phase 1 (1,000 cabinets) opened Feb 2020 (24 or 27 Feb per sources); phase 2 to 1,500 cabinets completed later (~2021-22)"
+    "note": "phase 1 opened: Equinix release dated 24 Feb 2020 (source 1, verified), IT Brief 27 Feb 2020; phase 2 (+500 cabinets to 1,500) completed Aug 2022 (source 8); phase 3 (+1,500 cabinets to ~3,000) expected Q3 2024 (source 9)"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "scope: MW not published; aggregators suggest 2-3 MW (< 5 MW threshold) — likely out of scope",
-    "builder and planning permit not found"
+    "scope: MW not published; aggregators suggest ~3 MW (< 5 MW threshold) — likely out of scope",
+    "builder not found",
+    "planning ref PA1600153 attributed to ME2 by inference from a combined ME1/ME2 list entry"
   ]
 }

@@ -7,7 +7,7 @@
     "address": {
       "value": "22 Delivery Drive, Truganina VIC",
       "source": 2,
-      "note": ""
+      "note": "City of Melbourne consolidated data-centre list (June 2026, via Civic Interplay tracker, source 4) gives '16-22 Delivery Dr', zone UGZ2"
     },
     "suburb": "Truganina",
     "state": "VIC",
@@ -56,7 +56,7 @@
     "authority": {
       "value": null,
       "source": null,
-      "note": ""
+      "note": "not found; site zoned UGZ2 per source 4"
     },
     "pathway": {
       "value": null,
@@ -113,6 +113,7 @@
   "last_checked": "2026-09-27",
   "open_questions": [
     "scope: MW unknown; site attribution to AWS is third-party only (AWS does not confirm)",
-    "no planning permit found (Wyndham City Council likely authority, unverified)"
+    "no planning permit found (Wyndham City Council likely authority, unverified)",
+    "aggregator sources (datacentermap, datacenters.com) not re-fetchable (HTTP 429); values rest on first-pass snippets"
   ]
 }

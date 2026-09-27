@@ -14,7 +14,7 @@
     "postcode": {
       "value": "3026",
       "source": null,
-      "note": "Derrimut postcode 3026 per master.csv; some aggregators give 3030"
+      "note": "Derrimut postcode 3026 per master.csv; PeeringDB (fac 5529, source 9) and City of Melbourne list give 3030"
     },
     "lat": {
       "value": -37.80074,
@@ -28,9 +28,9 @@
     }
   },
   "builder": {
-    "value": null,
-    "source": null,
-    "note": "not found; DEM was Stage 1 architect (source 4), not head contractor"
+    "value": "FDC Construction & Fitout",
+    "source": 7,
+    "note": "FDC project page: conversion of the existing industrial building into data halls (52 weeks) for AirTrunk Melbourne — matches the Building 1 retrofit; FDC page gives no year. DEM was Stage 1 architect (source 4), not builder"
   },
   "developer": {
     "value": "AirTrunk",
@@ -40,12 +40,12 @@
   "mw_it": {
     "value": 25,
     "source": 3,
-    "note": "aggregator figure for Building 1 (phases 1-3); phase 1 opened with 5 MW (source 1)"
+    "note": "aggregator figure for Building 1 (phases 1-3; datacentermap, not re-fetchable: HTTP 429); phase 1 opened 2017; phase 3 20+MW completed May 2023 (source 5). FDC page quotes 'more than 84MW' and 34 data halls (campus-level)"
   },
   "mw_grid": {
     "value": null,
     "source": null,
-    "note": ""
+    "note": "FDC page: site connected to adjacent power station 'up to 50MW' (campus supply, not a building grid figure)"
   },
   "cost_aud_m": {
     "value": null,
@@ -108,12 +108,13 @@
     "value": "2017",
     "source": 1,
     "precision": "year",
-    "note": "phase 1 (5 MW) established 2017; building is a retrofit of an existing building (source 2); later fit-out phases incl. a 20+MW expansion completed May 2023 (source 5)"
+    "note": "campus established 2017 (source 1, verified); existing building dates from 2006 per datacenterHawk (source 8, retrofit); later fit-out phase: '20+MW expansion' completed 22 May 2023, 'delivered in under 33 weeks' (source 5, verified)"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "scope: Building 1 phase 1 completed 2017, before 2018-09-01 cutoff; later fit-out phases (20+MW completed May 2023) are post-cutoff — decide whether a post-cutoff fit-out counts",
-    "builder / planning permit for Building 1 not found",
-    "MW for Building 1 only from aggregator (25 MW)"
+    "scope: Building 1 phase 1 completed 2017, before 2018-09-01 cutoff; the 20+MW fit-out completed May 2023 is post-cutoff — decide whether a post-cutoff fit-out counts",
+    "planning permit for Building 1 (Brimbank City Council, presumably) not found",
+    "MW for Building 1 only from aggregator (25 MW), not re-verified (datacentermap 429)",
+    "builder FDC attributed from FDC project page scope (retrofit of existing building); page does not name the building or year"
   ]
 }

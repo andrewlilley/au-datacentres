@@ -30,7 +30,7 @@
   "builder": {
     "value": null,
     "source": null,
-    "note": "not found"
+    "note": "not found; Built reported as builder of 'CDC Laverton Data Centre' (PPTEU post, see cdc-laverton-lv1) - building not specified"
   },
   "developer": {
     "value": "CDC Data Centres",
@@ -40,7 +40,7 @@
   "mw_it": {
     "value": 300,
     "source": 1,
-    "note": "ITK 'Campus Two' 300MW (per master.csv); not confirmed by CDC; may be campus-level"
+    "note": "RenewMap 'CDC Laverton Campus Two' 300MW, status Construction (src 6, verified); ITK 'Campus Two' 300MW (src 1) and notes Campus One/Two are phasing of one master plan, not separate sites; CDC says Laverton >400MW overall; not confirmed by CDC per building"
   },
   "mw_grid": {
     "value": null,
@@ -50,7 +50,7 @@
   "cost_aud_m": {
     "value": null,
     "source": null,
-    "note": "not found"
+    "note": "not found; campus-level figures: CDC '$2.7 billion into the economy during construction'; union post $1.5bn 'estimated project value' (see cdc-laverton-lv1)"
   },
   "planning": {
     "authority": {
@@ -66,13 +66,13 @@
     "reference": {
       "value": null,
       "source": null,
-      "note": "WYP14905/24 (lodged Dec 2024, same site) is described as a follow-up earthworks application, not a data centre building permit; LV2-specific permit not identified"
+      "note": "WYP14905/24 (same site) is 'construct a building or construct or carry out works for a working platform and associated earthworks' - not a data centre use permit; ITK lists WYP14790/24 and WYP14905/24 under Campus Two. LV2-specific permit not identified"
     },
     "lodged": {
       "value": null,
       "source": null,
       "precision": null,
-      "note": "WYP14905/24 received ~11 Dec 2024 (8 days before 19 Dec 2024 capture)"
+      "note": "WYP14905/24 published 19 Dec 2024; PlanningAlerts shows received '11 December 2022' (apparently a data error for 2024)"
     },
     "determined": {
       "value": null,
@@ -102,7 +102,7 @@
     "value": null,
     "source": null,
     "precision": null,
-    "note": "ITK says under construction; master notes Feb 2025 (ITK) / Feb 2026 (DCD) - unconfirmed for LV2"
+    "note": "campus groundbreaking 17 Feb 2025 (CDC); RenewMap and ITK list Campus Two as under construction; no LV2-specific start date"
   },
   "construction_end": {
     "value": null,
@@ -112,8 +112,8 @@
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "scope: LV2-specific planning approval not confirmed (WYP14905/24 appears to be earthworks); may be planned only",
-    "status under_construction unverified (datacentermap lists Planned)",
-    "300MW Campus Two figure unverified"
+    "scope: LV2-specific planning approval not confirmed (WYP14905/24 is earthworks/working platform); may rely on campus permit WYP14790/24",
+    "status under_construction per RenewMap/ITK but datacentermap (unverified) lists Planned",
+    "300MW Campus Two figure not confirmed by CDC"
   ]
 }

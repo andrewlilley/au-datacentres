@@ -40,7 +40,7 @@
   "mw_it": {
     "value": 105,
     "source": 3,
-    "note": "aggregator figure; AirTrunk says 'over 100MW of new IT load' (source 1); campus total 185MW"
+    "note": "aggregator figure (datacentermap, not re-fetchable: HTTP 429); AirTrunk says 'over 100MW of new IT load' (source 1, verified); campus total 185MW (Aug 2024). AirTrunk's Dec 2025 MEL2 release quotes MEL1 at 276MW+ (source 7)"
   },
   "mw_grid": {
     "value": null,
@@ -50,7 +50,7 @@
   "cost_aud_m": {
     "value": 1000,
     "source": 1,
-    "note": "'over one billion dollars of direct investment' over 18 months — lower bound"
+    "note": "'over one billion-dollars of direct investment in Melbourne' over the next 18 months (source 1, verified; w.media: 'over AU$1 billion (US$665m)') — lower bound"
   },
   "planning": {
     "authority": {
@@ -87,7 +87,7 @@
     "source": 1,
     "basis": "unstated",
     "scope": "unstated",
-    "note": "'more than 1,000 jobs during the construction phase' — lower bound"
+    "note": "'more than 1,000 jobs during the construction phase' (source 1, verified) — lower bound"
   },
   "jobs_construction_other": [],
   "jobs_operational": {
@@ -95,25 +95,26 @@
     "source": null,
     "basis": null,
     "scope": null,
-    "note": "'significant number' of operational jobs, no figure"
+    "note": "'a significant number of new highly skilled technical and operational jobs in the Western Melbourne area' — no figure (source 1)"
   },
   "jobs_operational_other": [],
   "construction_start": {
     "value": "2024-08",
     "source": 2,
     "precision": "month",
-    "note": "announced 2024-08-09; w.media reports construction had started (one source says announced June 2024)"
+    "note": "announced 2024-08-09 (source 1); w.media (2024-08-21) reports AirTrunk 'has started on the expansion' following an announcement in June 2024"
   },
   "construction_end": {
     "value": null,
     "source": null,
     "precision": null,
-    "note": "18-month delivery from Aug 2024 implies ~early 2026; completion not confirmed by any source found"
+    "note": "18-month delivery from Aug 2024 implies ~early 2026 (not recorded); Baxtel lists 'Year Built: 2023' and 'Fully operational with expansion in progress' (source 6) — 2023 likely refers to the earlier 20+MW phase; completion not confirmed by AirTrunk"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "status: operational (datacentermap) not confirmed by AirTrunk; 18-month build from Aug 2024",
+    "status: operational (datacentermap/Baxtel) not confirmed by AirTrunk; 18-month build from Aug 2024",
     "planning permit / authority not found",
-    "builder not found"
+    "builder not found",
+    "location: a Jan 2021 photo (Flickr, source 8) captions 'AirTrunk data centre construction site at 210 Swann Drive' (4.5 ha site sold 2019, source 9) — Building 2 may be at 210 Swann Dr rather than 176; unverified"
   ]
 }
