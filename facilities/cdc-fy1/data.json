@@ -1,0 +1,116 @@
+{
+  "id": "cdc-fy1",
+  "name": "CDC Fyshwick 1 (FY1)",
+  "operator": "CDC Data Centres",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "11 Tom Price Street, Fyshwick ACT 2609",
+      "source": 1,
+      "note": "campus address per CDC/DCM listings (via search snippets); A+P Leemhuis award text refers to a CDC building at 2 Leonora Street, Fyshwick"
+    },
+    "suburb": "Fyshwick",
+    "state": "ACT",
+    "postcode": {
+      "value": "2609",
+      "source": 1,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: nominatim and other geocoders blocked by network egress proxy in this session"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: nominatim and other geocoders blocked by network egress proxy in this session"
+    }
+  },
+  "builder": {
+    "value": "A+P Leemhuis Builders",
+    "source": 2,
+    "note": "builder of CDC Fyshwick data storage facility per builder's project page (search snippet); Master Builders 2016 award for CDC building at 2 Leonora St Fyshwick - exact building (FY1 vs extension) not confirmed"
+  },
+  "developer": {
+    "value": "CDC Data Centres",
+    "source": 1,
+    "note": "owner/operator (Canberra Data Centres Pty Ltd)"
+  },
+  "mw_it": {
+    "value": 18,
+    "source": 3,
+    "note": "'existing Fyshwick data centre with 18 MW capacity' per DCD 2017 (search snippet); FY1+FY2 campus later listed as 45 MW"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "planning": {
+    "authority": {
+      "value": null,
+      "source": null,
+      "note": "ACT DA not identified"
+    },
+    "pathway": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": "",
+    "basis": null,
+    "scope": null
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": "",
+    "basis": null,
+    "scope": null
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_end": {
+    "value": "2014-01",
+    "source": 2,
+    "note": "campus commenced operation January 2014 (search snippet from builder/listing results)",
+    "precision": "month"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "scope: completed/operational January 2014, before 2018-09-01 cutoff - out of scope",
+    "builder address discrepancy (2 Leonora St vs 11 Tom Price St)",
+    "lat/lon not geocoded (egress blocked)"
+  ]
+}

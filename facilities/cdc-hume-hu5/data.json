@@ -1,0 +1,117 @@
+{
+  "id": "cdc-hume-hu5",
+  "name": "CDC Hume 5 (HU5)",
+  "operator": "CDC Data Centres",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "7 Tralee Street, Hume ACT 2620",
+      "source": 1,
+      "note": ""
+    },
+    "suburb": "Hume",
+    "state": "ACT",
+    "postcode": {
+      "value": "2620",
+      "source": 1,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: nominatim and other geocoders blocked by network egress proxy in this session"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: nominatim and other geocoders blocked by network egress proxy in this session"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": "not found; Sainsbury (mechanical) and Sense Constructions (doors/frames) were trade subcontractors, not head contractor"
+  },
+  "developer": {
+    "value": "CDC Data Centres",
+    "source": 1,
+    "note": "owner/operator (Canberra Data Centres Pty Ltd)"
+  },
+  "mw_it": {
+    "value": 22,
+    "source": 2,
+    "note": "Infratil Feb 2022 (master.csv lead, not re-verified); = campus 51 MW minus HU4 29 MW"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "planning": {
+    "authority": {
+      "value": null,
+      "source": null,
+      "note": "DA not confirmed; DA 202038149 (5 Tralee St, 3-storey data centre with link bridge to buildings 4 and 5, notified Feb 2021) may relate but wording suggests a separate building"
+    },
+    "pathway": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": "",
+    "basis": null,
+    "scope": null
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": "",
+    "basis": null,
+    "scope": null
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "note": "under construction in 2022 per Infratil (master.csv lead)"
+  },
+  "construction_end": {
+    "value": "2023",
+    "source": 3,
+    "note": "Baxtel: opened 2023 (master.csv lead, not re-verified)",
+    "precision": "year"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "planning ref: is DA 202038149 HU5 or another building?",
+    "builder unknown",
+    "completion date only from Baxtel",
+    "lat/lon not geocoded (egress blocked)"
+  ]
+}

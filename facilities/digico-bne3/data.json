@@ -4,30 +4,110 @@
   "operator": "DigiCo Infrastructure REIT",
   "status": "under_construction",
   "location": {
-    "address": {"value": "6 Cycas Lane, Brisbane Airport QLD 4008", "source": 2, "note": "per datacentermap; DigiCo describes site only as land adjacent to BNE2"},
+    "address": {
+      "value": "6 Cycas Lane, Brisbane Airport QLD 4008",
+      "source": 2,
+      "note": "per datacentermap; DigiCo describes site only as land adjacent to BNE2"
+    },
     "suburb": "Brisbane Airport",
     "state": "QLD",
-    "postcode": {"value": "4008", "source": 2, "note": ""},
-    "lat": {"value": null, "source": null, "note": "not geocoded: geocoding services unreachable from this session"},
-    "lon": {"value": null, "source": null, "note": "not geocoded: geocoding services unreachable from this session"}
+    "postcode": {
+      "value": "4008",
+      "source": 2,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: geocoding services unreachable from this session"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: geocoding services unreachable from this session"
+    }
   },
-  "builder": {"value": null, "source": null, "note": ""},
-  "developer": {"value": "DigiCo Infrastructure REIT", "source": 1, "note": "HMC Capital-managed REIT; site held via option to expand lease with Brisbane Airport Corporation"},
-  "mw_it": {"value": 19.6, "source": 1, "note": "'estimated to deliver 19.6MW of IT capacity' on 9,786 m2 of land"},
-  "mw_grid": {"value": null, "source": null, "note": ""},
-  "cost_aud_m": {"value": null, "source": null, "note": ""},
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "developer": {
+    "value": "DigiCo Infrastructure REIT",
+    "source": 1,
+    "note": "HMC Capital-managed REIT; site held via option to expand lease with Brisbane Airport Corporation"
+  },
+  "mw_it": {
+    "value": 19.6,
+    "source": 1,
+    "note": "'estimated to deliver 19.6MW of IT capacity' on 9,786 m2 of land"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
   "planning": {
-    "authority": {"value": null, "source": null, "note": "Brisbane Airport Corporation land (Airports Act 1996) - approval body presumably BAC/Commonwealth, not council; not confirmed"},
-    "pathway": {"value": null, "source": null, "note": ""},
-    "reference": {"value": null, "source": null, "note": ""},
-    "lodged": {"value": null, "source": null, "note": ""},
-    "determined": {"value": null, "source": null, "note": ""},
+    "authority": {
+      "value": null,
+      "source": null,
+      "note": "Brisbane Airport Corporation land (Airports Act 1996) - approval body presumably BAC/Commonwealth, not council; not confirmed"
+    },
+    "pathway": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
     "url": null
   },
-  "jobs_construction": {"value": null, "source": null, "note": ""},
-  "jobs_operational": {"value": null, "source": null, "note": ""},
-  "construction_start": {"value": null, "source": null, "precision": null, "note": ""},
-  "construction_end": {"value": "2027", "source": 1, "precision": "year", "note": "expected; 'construction completion estimated in calendar year 2027'"},
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": ""
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": ""
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": ""
+  },
+  "construction_end": {
+    "value": "2027",
+    "source": 1,
+    "precision": "year",
+    "note": "expected; 'construction completion estimated in calendar year 2027'"
+  },
   "last_checked": "2026-09-27",
   "open_questions": [
     "status: under_construction kept from master.csv but no evidence construction has started; DigiCo describes it as a greenfield development with a lease option - may only be planned",

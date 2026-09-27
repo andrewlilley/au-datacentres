@@ -1,0 +1,118 @@
+{
+  "id": "nextdc-d2",
+  "name": "NEXTDC D2 Darwin",
+  "operator": "NEXTDC",
+  "status": "under_construction",
+  "location": {
+    "address": {
+      "value": "2-6 Ryko Court, Darwin City NT",
+      "source": 2,
+      "note": "DCD reportedly gives 2 Harvey St (D1's address); Ryko Court adjoins the D1 site area"
+    },
+    "suburb": "Darwin City",
+    "state": "NT",
+    "postcode": {
+      "value": "0800",
+      "source": null,
+      "note": "Standard Darwin City postcode; not stated in a cited source"
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "Not geocoded: geocoding services (Nominatim) and source pages were unreachable from this session (egress blocked)"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "Not geocoded: geocoding services (Nominatim) and source pages were unreachable from this session (egress blocked)"
+    }
+  },
+  "builder": {
+    "value": "Kapitol",
+    "source": 3,
+    "note": "head contractor per Kapitol project page"
+  },
+  "developer": {
+    "value": "NEXTDC",
+    "source": 4,
+    "note": ""
+  },
+  "mw_it": {
+    "value": 6,
+    "source": 1,
+    "note": "'a further 6MW of AI-ready capacity'"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "planning": {
+    "authority": {
+      "value": null,
+      "source": null,
+      "note": "NT DCA approval not found"
+    },
+    "pathway": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": ""
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": ""
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "note": "underway by Aug 2025 (source 5); exact start not found"
+  },
+  "construction_end": {
+    "value": "2026-12",
+    "source": 1,
+    "note": "target: practical completion 1H FY27 (Jul-Dec 2026); topped out ~Mar 2026. A Jul 2026 report says 'due live in 2027'",
+    "precision": "month"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "planning approval (NT DCA) reference and date",
+    "cost and jobs not found",
+    "construction start date",
+    "address conflict 2-6 Ryko Court vs 2 Harvey St",
+    "lat/lon not geocoded"
+  ]
+}

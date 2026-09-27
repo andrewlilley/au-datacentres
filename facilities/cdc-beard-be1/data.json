@@ -1,0 +1,127 @@
+{
+  "id": "cdc-beard-be1",
+  "name": "CDC Beard 1 (BE1)",
+  "operator": "CDC Data Centres",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "Block 25 Section 11, Beard ACT 2620",
+      "source": 1,
+      "note": "47,644 sqm block"
+    },
+    "suburb": "Beard",
+    "state": "ACT",
+    "postcode": {
+      "value": "2620",
+      "source": 1,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: nominatim and other geocoders blocked by network egress proxy in this session"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: nominatim and other geocoders blocked by network egress proxy in this session"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": "head contractor not found; Green Civil Australia delivered civil works"
+  },
+  "developer": {
+    "value": "CDC Data Centres",
+    "source": 1,
+    "note": "owner/operator (Canberra Data Centres Pty Ltd)"
+  },
+  "mw_it": {
+    "value": 39,
+    "source": 1,
+    "note": "planned campus/BE1 capacity 39 MW per DCM/CDC; ABC Aug 2026 says 40 MW; Infratil 2025 cites 110 MW for Beard (whole campus)"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": "not found; the '$200 million' figure is for Beard 2 (BE2), a separate DA"
+  },
+  "planning": {
+    "authority": {
+      "value": "ACT Planning and Land Authority",
+      "source": 2,
+      "note": ""
+    },
+    "pathway": {
+      "value": "Development application (ACT Planning and Development Act 2007)",
+      "source": 2,
+      "note": ""
+    },
+    "reference": {
+      "value": "DA 202341501",
+      "source": 2,
+      "note": "siteworks DA only (earthworks, stormwater, utilities, civil works on Blocks 7&8 Sec 1 and Block 25 Sec 11); building DA not identified"
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "determined": {
+      "value": "2023-07-17",
+      "source": 2,
+      "note": "Notice of Decision date per search snippet; approved with conditions",
+      "precision": "day"
+    },
+    "url": "https://dafinder.blob.core.windows.net/dadocuments/DOCs/NOTICEOFDECISION-202341501-SIGNED.pdf"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": "",
+    "basis": null,
+    "scope": null
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": "",
+    "basis": null,
+    "scope": null
+  },
+  "jobs_operational_other": [
+    {
+      "value": 54,
+      "source": 5,
+      "basis": "unstated",
+      "scope": "direct",
+      "note": "'It is expected that 54 employees will be present at any one time across the entire campus' (Beard 2 proposal; whole campus BE1+BE2, not BE1 alone)"
+    }
+  ],
+  "construction_start": {
+    "value": "2024",
+    "source": 1,
+    "note": "construction began on Beard campus in 2024",
+    "precision": "year"
+  },
+  "construction_end": {
+    "value": "2026",
+    "source": 3,
+    "note": "Infratil/CDC Mar 2026: nearing completion / work completed, inaugural operations in 2026; ABC Aug 2026 says still being fitted out",
+    "precision": "year"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "building DA reference not found (202341501 is siteworks)",
+    "builder unknown",
+    "completion vs fit-out status in 2026",
+    "lat/lon not geocoded (egress blocked)"
+  ]
+}

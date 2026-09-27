@@ -1,0 +1,118 @@
+{
+  "id": "cdc-fyshwick-fy2",
+  "name": "CDC Fyshwick 2 (FY2)",
+  "operator": "CDC Data Centres",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "11 Tom Price Street, Fyshwick ACT 2609",
+      "source": 1,
+      "note": ""
+    },
+    "suburb": "Fyshwick",
+    "state": "ACT",
+    "postcode": {
+      "value": "2609",
+      "source": 1,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: nominatim and other geocoders blocked by network egress proxy in this session"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: nominatim and other geocoders blocked by network egress proxy in this session"
+    }
+  },
+  "builder": {
+    "value": "Hindmarsh",
+    "source": 2,
+    "note": "'Fyshwick Campus One - F2' project: Hindmarsh delivered the building structure; CDC bought major plant and engaged mechanical/electrical contractors directly (Sainsbury did mechanical services)"
+  },
+  "developer": {
+    "value": "CDC Data Centres",
+    "source": 1,
+    "note": "owner/operator (Canberra Data Centres Pty Ltd)"
+  },
+  "mw_it": {
+    "value": 20,
+    "source": 3,
+    "note": "20 MW announced at ground-breaking 2017; Infratil Feb 2022 investor day lists 26 MW (from master.csv lead, not re-verified)"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": 150,
+    "source": 3,
+    "note": "'AU$150m' / 'more than $150 million' investment per DCD/Computerworld 2017"
+  },
+  "planning": {
+    "authority": {
+      "value": null,
+      "source": null,
+      "note": "ACT DA reference not found"
+    },
+    "pathway": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": 100,
+    "source": 3,
+    "basis": "unstated",
+    "scope": "unstated",
+    "note": "'will create 100 jobs during the construction phase' / 'Around 100 jobs were created during construction' (DCD/Computerworld 2017); not defined as peak - only figure available"
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": 12,
+    "source": 3,
+    "basis": "ongoing_headcount",
+    "scope": "direct",
+    "note": "'about a dozen highly-skilled personnel will be hired to run the new data centre in the long term' - approximate"
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": "2017",
+    "source": 4,
+    "note": "ground broken 2017 (Computerworld/DCD 2017; Infratil 2019 presentation says construction commenced 2017); month not confirmed",
+    "precision": "year"
+  },
+  "construction_end": {
+    "value": "2018",
+    "source": 3,
+    "note": "'slated to come online in 2018'; completion month not found",
+    "precision": "year"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "scope: completed 2018, month unknown - may be before 2018-09-01 cutoff",
+    "MW 20 (2017) vs 26 (Infratil 2022)",
+    "planning DA reference not found",
+    "lat/lon not geocoded (egress blocked)"
+  ]
+}

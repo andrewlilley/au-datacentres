@@ -1,0 +1,118 @@
+{
+  "id": "cdc-hume-hu4",
+  "name": "CDC Hume 4 (HU4)",
+  "operator": "CDC Data Centres",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "7 Tralee Street, Hume ACT 2620",
+      "source": 1,
+      "note": "some sources give 5 Tralee Street"
+    },
+    "suburb": "Hume",
+    "state": "ACT",
+    "postcode": {
+      "value": "2620",
+      "source": 1,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: nominatim and other geocoders blocked by network egress proxy in this session"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: nominatim and other geocoders blocked by network egress proxy in this session"
+    }
+  },
+  "builder": {
+    "value": "Hindmarsh",
+    "source": 2,
+    "note": "'Hume Campus Two - H4': Hindmarsh delivered the building structure; CDC procured major plant and engaged M&E contractors directly"
+  },
+  "developer": {
+    "value": "CDC Data Centres",
+    "source": 1,
+    "note": "owner/operator (Canberra Data Centres Pty Ltd)"
+  },
+  "mw_it": {
+    "value": 29,
+    "source": 4,
+    "note": "Infratil Feb 2022 (master.csv lead, not re-verified); Hume Campus Two (HU4+HU5) = 51 MW per CDC/DCM listings"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": 100,
+    "source": 2,
+    "note": "Hindmarsh lists it as a '$100m' project - builder's project value, likely excludes CDC-procured plant/M&E; not total capex"
+  },
+  "planning": {
+    "authority": {
+      "value": null,
+      "source": null,
+      "note": "ACT DA reference not found"
+    },
+    "pathway": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": "",
+    "basis": null,
+    "scope": null
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": "",
+    "basis": null,
+    "scope": null
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": "2018",
+    "source": 3,
+    "note": "Infratil Oct 2019 presentation: construction began 2018 with 66% of capacity committed (search snippet)",
+    "precision": "year"
+  },
+  "construction_end": {
+    "value": "2019-11",
+    "source": 3,
+    "note": "Infratil Oct 2019 presentation: completion November 2019 (likely forecast at the time); Baxtel says opened 2020",
+    "precision": "month"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "IT MW vs campus allocation unclear",
+    "cost is builder project value only",
+    "planning DA reference not found",
+    "lat/lon not geocoded (egress blocked)"
+  ]
+}

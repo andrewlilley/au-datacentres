@@ -1,0 +1,11 @@
+# Sources: nextdc-d1
+
+Access date for all: 2026-09-27. Note: WebFetch was egress-blocked this session; content was read from web-search result snippets.
+
+1. NEXTDC, 'NEXTDC Breaks Ground on $80M Data Centre in Darwin' (news release, Nov 2023) - via web search snippets. https://www.nextdc.com/news/breaks-ground-data-centre-d1-darwin (accessed 2026-09-27). Supports: cost $80m, builder Kapitol Group, groundbreaking 22 Nov 2023, target completion June 2024, >200 jobs (construction + operations), 8 MW IT.
+2. NEXTDC, 'NEXTDC opens $80m data centre in Darwin with NT Gov and Vocus' (news release, Aug 2024) - via web search snippets. https://www.nextdc.com/news/nextdc-opens-80m-data-centre-in-darwin-with-nt-gov-and-vocus-in-major-boost-to-the-regions-growing-digital-economy (accessed 2026-09-27). Supports: opened 14 Aug 2024, $80m, Tier IV.
+3. NEXTDC, D1 Darwin facility page - via web search snippets. https://www.nextdc.com/data-centres/darwin-data-centres/d1-darwin (accessed 2026-09-27). Supports: 7+ MW Tier IV design capacity.
+4. Datacentermap, NEXTDC D1 Darwin. https://www.datacentermap.com/australia/darwin/nextdc-d1/ (accessed 2026-09-27). Supports: address 2 Harvey Street; ~1 MW built.
+5. NEXTDC & NT Government, 'NEXTDC and Northern Territory Government release data centre development plans' / ARN 'NextDC plots second Darwin data centre'. https://www.arnnet.com.au/article/696654/nextdc-plots-second-darwin-data-centre/ (accessed 2026-09-27). Supports: 2 Harvey Street Darwin CBD, ~8 MW across 3,000 sqm technical space; developer NEXTDC selected via NT Govt EOI.
+6. NT Development Consent Authority, Darwin Division, Minutes of Meeting No. 408, 18 Aug 2023 (seen only via search snippet; PDF not reachable). https://environment.nt.gov.au/media/docs/boards-and-committees/development-consent-authority/dca-minutes/2023/darwin/mindcadar408-18-8-23.pdf (accessed 2026-09-27). Supports: planning authority DCA Darwin Division; NEXTDC data centre application heard 18 Aug 2023 with conditions.
+7. Kapitol, NEXTDC D1 Darwin Data Centre project page / Kapitol Group 'Project Win: Darwin D1 Data Centre with NEXTDC'. https://www.kapitol.com/our-projects/industrial/nextdc-d1-darwin-data-centre (accessed 2026-09-27). Supports: builder Kapitol Group.

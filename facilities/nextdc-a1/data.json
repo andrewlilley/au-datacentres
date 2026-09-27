@@ -1,0 +1,127 @@
+{
+  "id": "nextdc-a1",
+  "name": "NEXTDC A1 Adelaide",
+  "operator": "NEXTDC",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "125 Frome Street, Adelaide SA 5000",
+      "source": 1,
+      "note": "corner Frome and Pirie Streets; DCD gives 211 Pirie St (same corner site)"
+    },
+    "suburb": "Adelaide",
+    "state": "SA",
+    "postcode": {
+      "value": "5000",
+      "source": 1,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "Not geocoded: geocoding services (Nominatim) and source pages were unreachable from this session (egress blocked)"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "Not geocoded: geocoding services (Nominatim) and source pages were unreachable from this session (egress blocked)"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": "head contractor not identified in any source found"
+  },
+  "developer": {
+    "value": "NEXTDC",
+    "source": 2,
+    "note": ""
+  },
+  "mw_it": {
+    "value": 5,
+    "source": 4,
+    "note": "target capacity 5 MW (originally announced as 10 MW in 2022 per master.csv notes)"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": 100,
+    "source": 2,
+    "note": "'$100m' (DTI: 'in excess of $100 million')"
+  },
+  "planning": {
+    "authority": {
+      "value": null,
+      "source": null,
+      "note": "likely SCAP (Adelaide CBD) but not confirmed"
+    },
+    "pathway": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": "DTI states 150 jobs, not split between construction and operations"
+  },
+  "jobs_construction_other": [
+    {
+      "value": 150,
+      "source": 3,
+      "basis": "unstated",
+      "scope": "unstated",
+      "note": "DTI SA: 'investing in excess of $100 million in a state-of-the-art data centre, creating 150 jobs for South Australians' - not split construction/operational"
+    }
+  ],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": ""
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_end": {
+    "value": "2024-09-04",
+    "source": 4,
+    "note": "official opening",
+    "precision": "day"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "builder not found",
+    "planning approval (SCAP/PlanSA) reference and dates not found",
+    "construction start date",
+    "150 jobs figure not split construction/operational",
+    "scope: exactly 5 MW - borderline threshold",
+    "lat/lon not geocoded"
+  ]
+}

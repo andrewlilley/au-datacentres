@@ -82,15 +82,37 @@
     "url": null
   },
   "jobs_construction": {
-    "value": 380,
-    "source": 3,
-    "note": "'more than 380' per Firmus"
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": ""
   },
+  "jobs_construction_other": [
+    {
+      "value": 380,
+      "source": 3,
+      "basis": "unstated",
+      "scope": "unstated",
+      "note": "Firmus via w.media: 'more than 380' construction jobs; no peak/average definition given"
+    }
+  ],
   "jobs_operational": {
-    "value": 115,
-    "source": 3,
-    "note": "'more than 115 permanent local roles' per Firmus"
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": ""
   },
+  "jobs_operational_other": [
+    {
+      "value": 115,
+      "source": 3,
+      "basis": "ongoing_headcount",
+      "scope": "unstated",
+      "note": "Firmus via w.media: 'more than 115 permanent local roles'; not stated whether direct only"
+    }
+  ],
   "construction_start": {
     "value": null,
     "source": null,

@@ -1,0 +1,117 @@
+{
+  "id": "nextdc-b2-stage2",
+  "name": "B2 Brisbane Stage 2 expansion",
+  "operator": "NEXTDC",
+  "status": "under_construction",
+  "location": {
+    "address": {
+      "value": "454 St Pauls Terrace, Fortitude Valley QLD (DA site also incl. 51, 57, 61 Misterton St and 216 Constance St)",
+      "source": 2,
+      "note": ""
+    },
+    "suburb": "Fortitude Valley",
+    "state": "QLD",
+    "postcode": {
+      "value": "4006",
+      "source": null,
+      "note": "Standard Fortitude Valley postcode; not stated in a cited source"
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "Not geocoded: geocoding services (Nominatim) and source pages were unreachable from this session (egress blocked)"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "Not geocoded: geocoding services (Nominatim) and source pages were unreachable from this session (egress blocked)"
+    }
+  },
+  "builder": {
+    "value": "Multiplex",
+    "source": 1,
+    "note": "head contractor for B2 Stage 2 expansion/fit-out"
+  },
+  "developer": {
+    "value": "NEXTDC",
+    "source": 2,
+    "note": ""
+  },
+  "mw_it": {
+    "value": 6,
+    "source": 1,
+    "note": "increment: Multiplex says project doubles long-term IT capacity from 6 MW to 12 MW"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": "The DCD '$75m' B2 approval refers to the original 2016-17 B2, not Stage 2"
+  },
+  "planning": {
+    "authority": {
+      "value": "Brisbane City Council",
+      "source": 2,
+      "note": ""
+    },
+    "pathway": {
+      "value": "Development application",
+      "source": 2,
+      "note": ""
+    },
+    "reference": {
+      "value": "A006268579",
+      "source": 2,
+      "note": ""
+    },
+    "lodged": {
+      "value": "2023-05-08",
+      "source": 2,
+      "note": "",
+      "precision": "day"
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "note": "decision not found"
+    },
+    "url": "https://yourneighbourhood.com.au/nextdc-hq-data-centre-expansion-fortitude-valley/"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": ""
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": ""
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "note": "Multiplex describes project as being completed (2026); no date"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "BCC decision date for A006268579 not found",
+    "whether Multiplex data-hall fit-out is the same project as the 9-storey HQ/data hall DA",
+    "cost, jobs, construction dates not found",
+    "lat/lon not geocoded"
+  ]
+}

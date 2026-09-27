@@ -1,0 +1,119 @@
+{
+  "id": "nextdc-sc2",
+  "name": "SC2 Sunshine Coast",
+  "operator": "NEXTDC",
+  "status": "under_construction",
+  "location": {
+    "address": {
+      "value": "10 South Sea Islander Way, Maroochydore QLD 4558 (Lot 10 on SP305311)",
+      "source": 1,
+      "note": ""
+    },
+    "suburb": "Maroochydore",
+    "state": "QLD",
+    "postcode": {
+      "value": "4558",
+      "source": 1,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "Not geocoded: geocoding services (Nominatim) and source pages were unreachable from this session (egress blocked)"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "Not geocoded: geocoding services (Nominatim) and source pages were unreachable from this session (egress blocked)"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": "not identified"
+  },
+  "developer": {
+    "value": "NEXTDC",
+    "source": 1,
+    "note": "applicant NEXTDC Limited c/- Ethos Urban"
+  },
+  "mw_it": {
+    "value": 6,
+    "source": 2,
+    "note": "~1 MW initial build per investor presentation (source 3)"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": 200,
+    "source": 4,
+    "note": "'$200m investment'; ChannelLife headline says USD but other reports describe it as a $200m Queensland commitment - currency assumed AUD, unverified"
+  },
+  "planning": {
+    "authority": {
+      "value": "Minister for Economic Development Queensland (EDQ)",
+      "source": 1,
+      "note": ""
+    },
+    "pathway": {
+      "value": "PDA development permit - Maroochydore City Centre PDA (Economic Development Act 2012)",
+      "source": 1,
+      "note": ""
+    },
+    "reference": {
+      "value": "DEV2025/1604",
+      "source": 1,
+      "note": ""
+    },
+    "lodged": {
+      "value": "2025-03-18",
+      "source": 1,
+      "note": "",
+      "precision": "day"
+    },
+    "determined": {
+      "value": "2025-06-30",
+      "source": 1,
+      "note": "approved",
+      "precision": "day"
+    },
+    "url": "https://edqdad.dsdip.qld.gov.au/developmentAssessments/view/front/1641/"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": ""
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": ""
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_end": {
+    "value": "2027-06",
+    "source": 3,
+    "note": "target: online Jan-Jun 2027 (2H FY27)",
+    "precision": "month"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "builder not found",
+    "cost currency (USD vs AUD) of $200m",
+    "jobs and construction start not found",
+    "lat/lon not geocoded"
+  ]
+}

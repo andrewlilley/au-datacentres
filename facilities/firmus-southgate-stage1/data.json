@@ -84,13 +84,27 @@
   "jobs_construction": {
     "value": 400,
     "source": 3,
-    "note": "peak on-site workforce per Firmus spokesperson (Examiner, ~Mar 2026: 80 on site rising to 400); >1000 workers incl. off-site contractors"
+    "basis": "peak",
+    "scope": "direct",
+    "note": "Firmus spokesperson (The Examiner, ~Mar 2026): about 80 workers on site, rising to 400 at peak"
   },
+  "jobs_construction_other": [
+    {
+      "value": 1000,
+      "source": 3,
+      "basis": "total_headcount",
+      "scope": "unstated",
+      "note": "The Examiner: 'more than 1,000' workers in total including off-site contractors (lower bound)"
+    }
+  ],
   "jobs_operational": {
     "value": 100,
     "source": 1,
-    "note": "'up to 100 direct jobs' in first stage"
+    "basis": "ongoing_headcount",
+    "scope": "direct",
+    "note": "DCD/w.media: 'up to 100 direct jobs' in the first stage"
   },
+  "jobs_operational_other": [],
   "construction_start": {
     "value": null,
     "source": null,

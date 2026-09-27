@@ -1,0 +1,126 @@
+{
+  "id": "nextdc-d1",
+  "name": "NEXTDC D1 Darwin",
+  "operator": "NEXTDC",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "2 Harvey Street, Darwin City NT",
+      "source": 4,
+      "note": "Also given as 2 Harvey St by NEXTDC/NT Govt plans (source 5). Master list flagged Ryko Court; datacentermap gives 2-6 Ryko Court for D2, not D1."
+    },
+    "suburb": "Darwin City",
+    "state": "NT",
+    "postcode": {
+      "value": "0800",
+      "source": null,
+      "note": "Standard Darwin City postcode; not stated in a cited source"
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "Not geocoded: geocoding services (Nominatim) and source pages were unreachable from this session (egress blocked)"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "Not geocoded: geocoding services (Nominatim) and source pages were unreachable from this session (egress blocked)"
+    }
+  },
+  "builder": {
+    "value": "Kapitol Group",
+    "source": 1,
+    "note": "head contractor; Kapitol's first major interstate project for NEXTDC"
+  },
+  "developer": {
+    "value": "NEXTDC",
+    "source": 5,
+    "note": "selected by NT Government via Expression of Interest"
+  },
+  "mw_it": {
+    "value": 7,
+    "source": 3,
+    "note": "NEXTDC: 7+ MW design capacity. Earlier announcements (sources 1,5) said ~8 MW. Only ~1 MW initially built (source 4)."
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": 80,
+    "source": 1,
+    "note": "$80m project cost per NEXTDC"
+  },
+  "planning": {
+    "authority": {
+      "value": "NT Development Consent Authority (Darwin Division)",
+      "source": 6,
+      "note": ""
+    },
+    "pathway": {
+      "value": "Development application under NT Planning Act",
+      "source": 6,
+      "note": "inferred from DCA hearing"
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": "PA number not retrieved; minutes PDF unreachable"
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "determined": {
+      "value": "2023-08-18",
+      "source": 6,
+      "note": "DCA meeting 408 date; snippet shows conditions attached, implying consent, but decision text not verified",
+      "precision": "day"
+    },
+    "url": "https://environment.nt.gov.au/media/docs/boards-and-committees/development-consent-authority/dca-minutes/2023/darwin/mindcadar408-18-8-23.pdf"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": "NEXTDC: 'more than 200 jobs' across construction and operations combined - not split"
+  },
+  "jobs_construction_other": [
+    {
+      "value": 200,
+      "source": 1,
+      "basis": "unstated",
+      "scope": "unstated",
+      "note": "NEXTDC: 'expected to create more than 200 jobs in the region throughout the life of the project and into the daily operation of the facility' - combined construction + operations, lower bound"
+    }
+  ],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": ""
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": "2023-11-22",
+    "source": 1,
+    "note": "groundbreaking ceremony",
+    "precision": "day"
+  },
+  "construction_end": {
+    "value": "2024-08-14",
+    "source": 2,
+    "note": "official opening",
+    "precision": "day"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "DCA application number and confirmation that 18 Aug 2023 item was approved (and that it was D1)",
+    "lat/lon not geocoded",
+    "scope: 7 MW design but only ~1 MW built initially"
+  ]
+}

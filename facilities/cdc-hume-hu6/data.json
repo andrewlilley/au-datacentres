@@ -1,0 +1,117 @@
+{
+  "id": "cdc-hume-hu6",
+  "name": "CDC Hume 6 (HU6)",
+  "operator": "CDC Data Centres",
+  "status": "under_construction",
+  "location": {
+    "address": {
+      "value": "62 Sawmill Circuit / 5 Tralee Street, Hume ACT 2620",
+      "source": 1,
+      "note": "blocks 99 and 103 (lease variation to consolidate)"
+    },
+    "suburb": "Hume",
+    "state": "ACT",
+    "postcode": {
+      "value": "2620",
+      "source": 1,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: nominatim and other geocoders blocked by network egress proxy in this session"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: nominatim and other geocoders blocked by network egress proxy in this session"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "developer": {
+    "value": "CDC Data Centres",
+    "source": 1,
+    "note": "owner/operator (Canberra Data Centres Pty Ltd)"
+  },
+  "mw_it": {
+    "value": null,
+    "source": null,
+    "note": "not stated; infrastructure report cites ~20 MVA site electrical demand (master.csv lead)"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": "~20 MVA site demand per infrastructure report (MVA, not converted)"
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "planning": {
+    "authority": {
+      "value": "ACT Planning and Land Authority",
+      "source": 2,
+      "note": ""
+    },
+    "pathway": {
+      "value": "Development application (ACT Planning and Development Act)",
+      "source": 2,
+      "note": ""
+    },
+    "reference": {
+      "value": "DA 202443633",
+      "source": 2,
+      "note": ""
+    },
+    "lodged": {
+      "value": "2024-10",
+      "source": 1,
+      "note": "infrastructure report dated 17 Oct 2024 prepared for DA lodgement; PlanningAlerts notice 15 Feb 2025",
+      "precision": "month"
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "note": "decision not found"
+    },
+    "url": "https://www.planningalerts.org.au/applications/3259525"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": "",
+    "basis": null,
+    "scope": null
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": "",
+    "basis": null,
+    "scope": null
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "DA approval not confirmed",
+    "under_construction status from Infratil Sep 2025 (master.csv lead) not re-verified",
+    "IT MW unknown",
+    "lat/lon not geocoded (egress blocked)"
+  ]
+}

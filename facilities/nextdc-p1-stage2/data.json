@@ -82,15 +82,29 @@
     "url": "https://echonewspaper.com.au/news/malaga-data-centre-approved/"
   },
   "jobs_construction": {
-    "value": 95,
-    "source": 5,
-    "note": "workers on site each day during construction (daily headcount, not total jobs); 154,055 hours worked to top-out"
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": ""
   },
+  "jobs_construction_other": [
+    {
+      "value": 95,
+      "source": 5,
+      "basis": "unstated",
+      "scope": "direct",
+      "note": "techpartner.news at top-out (Nov 2025): about 95 workers on site each day; point-in-time daily headcount, not stated as peak; 154,055 hours worked to top-out"
+    }
+  ],
   "jobs_operational": {
     "value": null,
     "source": null,
+    "basis": null,
+    "scope": null,
     "note": "DA condition limits site to max 38 people (staff and customers) at any one time (source 4); not an operational jobs figure"
   },
+  "jobs_operational_other": [],
   "construction_start": {
     "value": null,
     "source": null,
