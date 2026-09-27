@@ -50,35 +50,35 @@
   "cost_aud_m": {
     "value": 145,
     "source": 3,
-    "note": "A W Edwards project value $145m (construction contract value, not planning CIV)"
+    "note": "A W Edwards project value $145m (construction contract value, not planning CIV). DA16/1217 estimated cost of work $19,784,342 (source 6)."
   },
   "planning": {
     "authority": {
-      "value": null,
-      "source": null,
-      "note": "not found; Erskine Park Data Centre MP08_0109 (Part 3A, Minister-approved) exists on planning portal but link to SYD11 unconfirmed"
+      "value": "Penrith City Council (staff delegate)",
+      "source": 6,
+      "note": "Determined under delegated authority (Principal Planner). MP08_0109 'Erskine Park Data Centre' is an unrelated 2008 Woolworths project at Lot 8 John Morphett Place (source 4)."
     },
     "pathway": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "Local DA",
+      "source": 6,
+      "note": "Staged construction of data centre; modification DA16/1217.01 (building height) received Sep 2017 (source 7)"
     },
     "reference": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "DA16/1217",
+      "source": 6,
+      "note": "Applicant Digital Erskine Park 2 LLC; Lot 3 DP 1160603; estimated cost of work $19,784,342"
     },
     "lodged": {
-      "value": null,
-      "source": null,
+      "value": "2016-11-17",
+      "source": 6,
       "note": ""
     },
     "determined": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "2017-05-23",
+      "source": 6,
+      "note": "approved; consent operative from 29 Jun 2017"
     },
-    "url": null
+    "url": "https://datracker.penrithcity.nsw.gov.au/track/Pages/XC.Track/SearchApplication.aspx?id=374264"
   },
   "jobs_construction": {
     "value": null,
@@ -109,7 +109,5 @@
     "note": "Opened Nov 2018 (first phase, 7,000 m2 / 17.4 MW). A W Edwards lists completion 2019 (full works)."
   },
   "last_checked": "2026-09-27",
-  "open_questions": [
-    "planning pathway/reference not found (possibly Penrith DA or MP08_0109 modification)"
-  ]
+  "open_questions": []
 }

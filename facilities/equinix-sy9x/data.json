@@ -5,24 +5,24 @@
   "status": "operational",
   "location": {
     "address": {
-      "value": "10 Grand Avenue, Rosehill NSW 2142",
-      "source": 4,
-      "note": "Address in DA PPSSCC-64 (DA/751/2019) and datacenters.com. master.csv has '8A Grand Avenue'; a May 2025 DA for Phase 2 internal M&E works in the existing data centre is listed at 8 Grand Avenue (source 7) - likely same landholding/lot."
+      "value": "8 Grand Avenue, Rosehill NSW 2142",
+      "source": 9,
+      "note": "Council assessment report for DA/751/2019: 8 Grand Avenue, Lot 2 DP 1258587 (site since re-described as Lot 10 DP 1275083, shared with SY10x - SSD-53338465 report). The panel project listing gives '10 Grand Avenue' (source 10); Equinix/master.csv use 8A Grand Avenue."
     },
     "suburb": "Rosehill",
     "state": "NSW",
     "postcode": {
       "value": "2142",
-      "source": 4,
+      "source": 9,
       "note": ""
     },
     "lat": {
-      "value": -33.82198,
+      "value": -33.82358,
       "source": 8,
-      "note": "geocoded: address point for 10 Grand Avenue (DA address); 8A Grand Ave point is -33.82358,151.03490"
+      "note": "geocoded: NSW address point for 8A Grand Avenue (eastern part of the 8 Grand Ave site; SY10 occupies the western part). Previous value -33.82198,151.03614 was the 10 Grand Avenue address point, which is now a separate property."
     },
     "lon": {
-      "value": 151.03614,
+      "value": 151.0349,
       "source": 8,
       "note": "see lat"
     }
@@ -33,9 +33,9 @@
     "note": "Head contractor per MBC Group (principal certifier) project page."
   },
   "developer": {
-    "value": "Equinix Australia Pty Ltd (DA applicant); owned by Equinix/PGIM Real Estate xScale JV",
-    "source": 4,
-    "note": "JV closed Mar 2022, PGIM 80% / Equinix 20% (source 6); Equinix operates."
+    "value": "Equinix Australia Pty Ltd (landowner); owned by Equinix/PGIM Real Estate xScale JV",
+    "source": 9,
+    "note": "DA applicant Greenbox Architecture Pty Ltd c/- Mecone; owner Equinix Australia Pty Ltd. JV closed Mar 2022, PGIM 80% / Equinix 20% (source 6); Equinix operates."
   },
   "mw_it": {
     "value": 28,
@@ -48,14 +48,14 @@
     "note": "not stated"
   },
   "cost_aud_m": {
-    "value": 44.72,
-    "source": 4,
-    "note": "Capital investment value $44,717,186 for DA/751/2019 (Stage 1 building + Stage 2 concept). JV headline US$575m covers SY9x and SY10x."
+    "value": 49.24,
+    "source": 9,
+    "note": "Council-accepted genuine cost of development $49,242,580 (independent QS review) for DA/751/2019 (Stage 1 + Stage 2 concept). Applicant QS estimate / panel-listed CIV $44,717,186 (source 10). JV headline US$575m covers SY9x and SY10x."
   },
   "planning": {
     "authority": {
       "value": "Sydney Central City Planning Panel (City of Parramatta DA)",
-      "source": 4,
+      "source": 11,
       "note": ""
     },
     "pathway": {
@@ -65,20 +65,20 @@
     },
     "reference": {
       "value": "DA/751/2019 (PPSSCC-64)",
-      "source": 4,
-      "note": ""
+      "source": 10,
+      "note": "Modified 5 times: /A-/E (2021-2024), incl. /C PPSSCC-308 (22 Jun 2022)"
     },
     "lodged": {
-      "value": null,
-      "source": null,
-      "note": "2019 per DA number; exact date not found"
+      "value": "2019-12-23",
+      "source": 10,
+      "note": "also 'Date of DA lodgement 23 December 2019' in council assessment report"
     },
     "determined": {
-      "value": null,
-      "source": null,
-      "note": "Approved; panel documents dated Jul 2020 (clause 4.6 request) suggest determination c. mid/late 2020 - not confirmed"
+      "value": "2020-07-31",
+      "source": 11,
+      "note": "approved, unanimous (papers circulated 24-31 Jul 2020); also confirmed by SSD-53338465 assessment report"
     },
-    "url": "https://apps.planningportal.nsw.gov.au/prweb/PRRestService/DocMgmt/v1/PublicDocuments/DATA-WORKATTACH-FILE%20PEC-DPE-EP-WORK%20PPSSCC-64!20200724T004550.262%20GMT"
+    "url": "https://www.planningportal.nsw.gov.au/planning-panel/data-centre-4"
   },
   "jobs_construction": {
     "value": null,
@@ -89,11 +89,11 @@
   },
   "jobs_construction_other": [],
   "jobs_operational": {
-    "value": null,
-    "source": null,
-    "basis": null,
-    "scope": null,
-    "note": ""
+    "value": 50,
+    "source": 9,
+    "basis": "ongoing_headcount",
+    "scope": "direct",
+    "note": "Council assessment report: stage 1 building 'will generate the following on a daily basis: 30 full-time equivalent staff, 20 maintenance/security staff' (plus 15 customers). SSD-53338465 report likewise gives 'the existing SY9 facility seeing the equivalent of 50'."
   },
   "jobs_operational_other": [],
   "construction_start": {
@@ -109,8 +109,5 @@
     "note": "Opened 13 Jun 2022 with >14 MW (first phase); further fit-out to 28 MW"
   },
   "last_checked": "2026-09-27",
-  "open_questions": [
-    "planning.determined date for DA/751/2019 not found (planning portal blocked from session)",
-    "address: 10 Grand Avenue (DA) vs 8A/8 Grand Avenue (master.csv, 2025 DA) - confirm lot"
-  ]
+  "open_questions": []
 }
