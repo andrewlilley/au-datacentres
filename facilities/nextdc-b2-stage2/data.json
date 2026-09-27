@@ -5,16 +5,16 @@
   "status": "under_construction",
   "location": {
     "address": {
-      "value": "454 St Pauls Terrace, Fortitude Valley QLD (DA site also incl. 51, 57, 61 Misterton St and 216 Constance St)",
+      "value": "454 St Pauls Terrace, Fortitude Valley QLD 4006 (DA site also incl. 51, 57, 61 Misterton St and 216 Constance St)",
       "source": 2,
-      "note": ""
+      "note": "BCC register lists the DA at 454 St Pauls Tce over 3+ land parcels (source 6)"
     },
     "suburb": "Fortitude Valley",
     "state": "QLD",
     "postcode": {
       "value": "4006",
-      "source": null,
-      "note": "Standard Fortitude Valley postcode; not stated in a cited source"
+      "source": 6,
+      "note": ""
     },
     "lat": {
       "value": -27.45372,
@@ -39,8 +39,8 @@
   },
   "mw_it": {
     "value": 6,
-    "source": 1,
-    "note": "increment: Multiplex says project doubles long-term IT capacity from 6 MW to 12 MW"
+    "source": 8,
+    "note": "increment: B2 total power planned 12 MW with 6 MW built (FY26 results, source 8); Multiplex also says 6 MW to 12 MW (source 1). Only 2 MW of Stage 2 currently under construction."
   },
   "mw_grid": {
     "value": null,
@@ -55,31 +55,32 @@
   "planning": {
     "authority": {
       "value": "Brisbane City Council",
-      "source": 2,
+      "source": 6,
       "note": ""
     },
     "pathway": {
-      "value": "Development application",
-      "source": 2,
-      "note": ""
+      "value": "Development application (impact assessment): Material Change of Use + Carry Out Building Work, Planning Act 2016 (Qld)",
+      "source": 6,
+      "note": "uses: research and technology industry, office, educational establishment, special industry"
     },
     "reference": {
       "value": "A006268579",
-      "source": 2,
+      "source": 6,
       "note": ""
     },
     "lodged": {
       "value": "2023-05-08",
-      "source": 2,
+      "source": 6,
       "note": "",
       "precision": "day"
     },
     "determined": {
-      "value": null,
-      "source": null,
-      "note": "decision not found"
+      "value": "2024-05-31",
+      "source": 6,
+      "note": "decision: Approved (BCC Development.i register); appeal result Not Applicable",
+      "precision": "day"
     },
-    "url": "https://yourneighbourhood.com.au/nextdc-hq-data-centre-expansion-fortitude-valley/"
+    "url": "https://developmenti.brisbane.qld.gov.au/Geo/GetApplicationById?applicationId=A006268579&appType=development"
   },
   "jobs_construction": {
     "value": null,
@@ -100,17 +101,17 @@
   "construction_start": {
     "value": null,
     "source": null,
-    "note": ""
+    "note": "FY25 results (Aug 2025, source 7): 'expansion works underway'; exact start not found"
   },
   "construction_end": {
-    "value": null,
-    "source": null,
-    "note": "Multiplex describes project as being completed (2026); no date"
+    "value": "2026-12",
+    "source": 7,
+    "note": "target: 'Stage 2 P. Completion 1H FY27' (FY25 results); FY26 results (Aug 2026) say building expansion works continue with 2 MW under construction, no date",
+    "precision": "month"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "BCC decision date for A006268579 not found",
-    "whether Multiplex data-hall fit-out is the same project as the 9-storey HQ/data hall DA",
-    "cost, jobs, construction dates not found"
+    "whether Multiplex data-hall fit-out is the same project as the 9-storey HQ/data hall DA A006268579 (Multiplex site blocked, 403)",
+    "cost, jobs, construction start not found"
   ]
 }

@@ -39,8 +39,8 @@
   },
   "mw_it": {
     "value": 6,
-    "source": 2,
-    "note": "~1 MW initial build per investor presentation (source 3)"
+    "source": 5,
+    "note": "NEXTDC facility page 6MW; results presentations: ~6MW planned, ~1MW initial (sources 6,7)"
   },
   "mw_grid": {
     "value": null,
@@ -49,17 +49,17 @@
   },
   "cost_aud_m": {
     "value": 200,
-    "source": 4,
-    "note": "'$200m investment'; ChannelLife headline says USD but other reports describe it as a $200m Queensland commitment - currency assumed AUD, unverified"
+    "source": 3,
+    "note": "Sunshine Coast News: 'A $200 million AI-ready data centre already under construction'. ChannelLife (source 4) says 'USD $200 million' - no NEXTDC primary statement found, so currency unconfirmed; AUD assumed from Australian local reporting."
   },
   "planning": {
     "authority": {
-      "value": "Minister for Economic Development Queensland (EDQ)",
+      "value": "Minister for Economic Development Queensland (MEDQ) / Economic Development Queensland",
       "source": 1,
       "note": ""
     },
     "pathway": {
-      "value": "PDA development permit - Maroochydore City Centre PDA (Economic Development Act 2012)",
+      "value": "PDA development permit, Material Change of Use (Research and technology industry) - Maroochydore City Centre PDA, Economic Development Act 2012 s.85(4)(b)",
       "source": 1,
       "note": ""
     },
@@ -71,13 +71,13 @@
     "lodged": {
       "value": "2025-03-18",
       "source": 1,
-      "note": "",
+      "note": "lodgement date from DAD register search snippet; decision notice gives 'properly made' date 10 Apr 2025",
       "precision": "day"
     },
     "determined": {
       "value": "2025-06-30",
       "source": 1,
-      "note": "approved",
+      "note": "approved; decision notice dated 30 June 2025, currency period 6 years",
       "precision": "day"
     },
     "url": "https://edqdad.dsdip.qld.gov.au/developmentAssessments/view/front/1641/"
@@ -101,18 +101,18 @@
   "construction_start": {
     "value": null,
     "source": null,
-    "note": ""
+    "note": "under construction by Jul 2026 (source 3); FY26: '1MW in progress for new contracted submarine cable'. Start date not found."
   },
   "construction_end": {
-    "value": "2027-06",
-    "source": 3,
-    "note": "target: online Jan-Jun 2027 (2H FY27)",
+    "value": "2027-12",
+    "source": 7,
+    "note": "target: practical completion 1HFY28 (Jul-Dec 2027) per FY26 results (27 Aug 2026) - slipped from 2HFY27 in FY25 and 1H26 results (sources 8,6); Sunshine Coast News (Jul 2026) said online Jan-Jun 2027",
     "precision": "month"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
     "builder not found",
-    "cost currency (USD vs AUD) of $200m",
+    "cost currency of $200m (USD per ChannelLife vs AUD per local press) - no NEXTDC primary source",
     "jobs and construction start not found"
   ]
 }

@@ -7,7 +7,7 @@
     "address": {
       "value": "125 Frome Street, Adelaide SA 5000",
       "source": 1,
-      "note": "corner Frome and Pirie Streets; DCD gives 211 Pirie St (same corner site)"
+      "note": "corner Frome and Pirie Streets; NEXTDC's 2022 announcement and SCAP-era reports give 211 Pirie Street (sources 6,7) - same corner site"
     },
     "suburb": "Adelaide",
     "state": "SA",
@@ -28,9 +28,9 @@
     }
   },
   "builder": {
-    "value": null,
-    "source": null,
-    "note": "head contractor not identified in any source found"
+    "value": "Lendlease",
+    "source": 8,
+    "note": "per building certifier BCA Concepts project page ('BUILDER Lendlease'); not confirmed by NEXTDC or Lendlease"
   },
   "developer": {
     "value": "NEXTDC",
@@ -39,8 +39,8 @@
   },
   "mw_it": {
     "value": 5,
-    "source": 4,
-    "note": "target capacity 5 MW (originally announced as 10 MW in 2022 per master.csv notes)"
+    "source": 1,
+    "note": "tech specs: 'Total power planned 5MW', 'IT load target capacity of 5 MW'. Announced in Feb 2022 as up to 10 MW (source 6). FY26 results (source 9): 'Additional 2MW in progress to support AI deployment'; datacentermap now lists 6 MW."
   },
   "mw_grid": {
     "value": null,
@@ -50,23 +50,23 @@
   "cost_aud_m": {
     "value": 100,
     "source": 2,
-    "note": "'$100m' (DTI: 'in excess of $100 million')"
+    "note": "'$100 million data centre' (InDaily 2024); DTI 2022: 'in excess of $100 million' (source 3). Building certifier BCA Concepts gives 'project value $80M' (source 8), likely construction value."
   },
   "planning": {
     "authority": {
-      "value": null,
-      "source": null,
-      "note": "likely SCAP (Adelaide CBD) but not confirmed"
+      "value": "State Commission Assessment Panel (SCAP), SA",
+      "source": 7,
+      "note": ""
     },
     "pathway": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "Development application under the Planning, Development and Infrastructure Act 2016 (Capital City Zone), SCAP as relevant authority",
+      "source": 7,
+      "note": "planning report by State planning officer to SCAP; applicant's consultant Urbis"
     },
     "reference": {
       "value": null,
       "source": null,
-      "note": ""
+      "note": "DA number not found (SCAP / PlanSA pages return 403)"
     },
     "lodged": {
       "value": null,
@@ -76,9 +76,9 @@
     "determined": {
       "value": null,
       "source": null,
-      "note": ""
+      "note": "SCAP was to assess the 6-storey, 34 m proposal on Wed 14 Dec 2022 with an officer recommendation to approve (source 7); decision and date not verified"
     },
-    "url": null
+    "url": "https://www.indailysa.com.au/news/archive/2022/12/12/shrinking-building-plan-for-city-beach-volleyball-site"
   },
   "jobs_construction": {
     "value": null,
@@ -107,7 +107,7 @@
   "construction_start": {
     "value": null,
     "source": null,
-    "note": ""
+    "note": "DTI (Feb 2022): 'Work will commence in the second half of 2022'; Dec 2022 InDaily: NEXTDC expected to begin development in FY23. Actual start not found."
   },
   "construction_end": {
     "value": "2024-09-04",
@@ -117,10 +117,10 @@
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "builder not found",
-    "planning approval (SCAP/PlanSA) reference and dates not found",
+    "SCAP DA number and decision date not verified (planning pages 403)",
     "construction start date",
+    "builder (Lendlease) from certifier page only",
     "150 jobs figure not split construction/operational",
-    "scope: exactly 5 MW - borderline threshold"
+    "scope: 5 MW design (at threshold); FY26 says additional 2MW in progress"
   ]
 }

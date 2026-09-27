@@ -7,7 +7,7 @@
     "address": {
       "value": "2-6 Ryko Court, Darwin City NT",
       "source": 2,
-      "note": "DCD reportedly gives 2 Harvey St (D1's address); Ryko Court adjoins the D1 site area"
+      "note": "Datacentermap (snippet). DCA minutes 440 (source 8, snippet) describe D2 as the second stage beside the first-stage data centre at 8 Ryko Court (D1, whose street address is 2 Harvey St). Kapitol: close to Darwin CBD and CDU campus."
     },
     "suburb": "Darwin City",
     "state": "NT",
@@ -30,7 +30,7 @@
   "builder": {
     "value": "Kapitol",
     "source": 3,
-    "note": "head contractor per Kapitol project page"
+    "note": "Kapitol project page (read 2026-09-27), status 'Under Construction'; architect Hames Sharley; seven-level building, 4 data halls, 6 generators"
   },
   "developer": {
     "value": "NEXTDC",
@@ -39,8 +39,8 @@
   },
   "mw_it": {
     "value": 6,
-    "source": 1,
-    "note": "'a further 6MW of AI-ready capacity'"
+    "source": 4,
+    "note": "NEXTDC: 'will add a further 6 MW of capacity'; results presentations: ~6MW+ planned, ~1.5MW initial (sources 6,7)"
   },
   "mw_grid": {
     "value": null,
@@ -54,19 +54,19 @@
   },
   "planning": {
     "authority": {
-      "value": null,
-      "source": null,
-      "note": "NT DCA approval not found"
+      "value": "NT Development Consent Authority (Darwin Division)",
+      "source": 8,
+      "note": "from DCA minutes 440 snippet"
     },
     "pathway": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "Development application under NT Planning Act 1999",
+      "source": 8,
+      "note": "inferred from DCA hearing (snippet)"
     },
     "reference": {
       "value": null,
       "source": null,
-      "note": ""
+      "note": "PA/DP number not retrieved (minutes PDF 403)"
     },
     "lodged": {
       "value": null,
@@ -76,9 +76,9 @@
     "determined": {
       "value": null,
       "source": null,
-      "note": ""
+      "note": "D2 proposal ('second stage of NextDC's regional data centre presence') was before DCA Darwin meeting 440 on 4 Apr 2025 (source 8, snippet); decision and date not verified"
     },
-    "url": null
+    "url": "https://environment.nt.gov.au/media/docs/boards-and-committees/development-consent-authority/dca-minutes/2025/darwin/mindcadar440-4-4-25_.pdf"
   },
   "jobs_construction": {
     "value": null,
@@ -99,19 +99,18 @@
   "construction_start": {
     "value": null,
     "source": null,
-    "note": "underway by Aug 2025 (source 5); exact start not found"
+    "note": "FY25 results (28 Aug 2025, source 5): 'D2 Darwin works underway'; exact start not found"
   },
   "construction_end": {
     "value": "2026-12",
-    "source": 1,
-    "note": "target: practical completion 1H FY27 (Jul-Dec 2026); topped out ~Mar 2026. A Jul 2026 report says 'due live in 2027'",
+    "source": 7,
+    "note": "target: practical completion 1HFY27 (Jul-Dec 2026) per FY26 results (27 Aug 2026), unchanged from FY25 and 1H26; topped out ~Mar 2026 (source 1)",
     "precision": "month"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "planning approval (NT DCA) reference and date",
+    "NT DCA decision (meeting 440, 4 Apr 2025?) and permit number not verified - minutes PDF blocked (403)",
     "cost and jobs not found",
-    "construction start date",
-    "address conflict 2-6 Ryko Court vs 2 Harvey St"
+    "construction start date"
   ]
 }

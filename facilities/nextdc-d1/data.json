@@ -5,16 +5,16 @@
   "status": "operational",
   "location": {
     "address": {
-      "value": "2 Harvey Street, Darwin City NT",
-      "source": 4,
-      "note": "Also given as 2 Harvey St by NEXTDC/NT Govt plans (source 5). Master list flagged Ryko Court; datacentermap gives 2-6 Ryko Court for D2, not D1."
+      "value": "2 Harvey Street, Darwin NT 0800",
+      "source": 8,
+      "note": "Address per NEXTDC D1 tech specs (source 8) and NEXTDC/NT Govt plans release (source 11). DCA Darwin minutes (source 10, search snippet only) describe the D1 permit site as 8 Ryko Court (the lot appears to front both streets). D2 is at 2-6 Ryko Court."
     },
     "suburb": "Darwin City",
     "state": "NT",
     "postcode": {
       "value": "0800",
-      "source": null,
-      "note": "Standard Darwin City postcode; not stated in a cited source"
+      "source": 8,
+      "note": ""
     },
     "lat": {
       "value": -12.45675,
@@ -30,7 +30,7 @@
   "builder": {
     "value": "Kapitol Group",
     "source": 1,
-    "note": "head contractor; Kapitol's first major interstate project for NEXTDC"
+    "note": "head contractor (Kapitol Group NT per source 9); confirmed on Kapitol project page (source 7), architect Hames Sharley"
   },
   "developer": {
     "value": "NEXTDC",
@@ -39,8 +39,8 @@
   },
   "mw_it": {
     "value": 7,
-    "source": 3,
-    "note": "NEXTDC: 7+ MW design capacity. Earlier announcements (sources 1,5) said ~8 MW. Only ~1 MW initially built (source 4)."
+    "source": 2,
+    "note": "target capacity 7 MW (opening release; facility page says 7+ MW design, source 3). Groundbreaking release and Kapitol page said 8 MW (sources 1,7). Facility page shows 1MW+ built."
   },
   "mw_grid": {
     "value": null,
@@ -50,7 +50,7 @@
   "cost_aud_m": {
     "value": 80,
     "source": 1,
-    "note": "$80m project cost per NEXTDC"
+    "note": "'$80 million D1 Darwin data centre facility' (NEXTDC); same in opening release (source 2)"
   },
   "planning": {
     "authority": {
@@ -59,14 +59,14 @@
       "note": ""
     },
     "pathway": {
-      "value": "Development application under NT Planning Act",
-      "source": 6,
-      "note": "inferred from DCA hearing"
+      "value": "Development application under NT Planning Act 1999 (consent required: data centre undefined use, NT Planning Scheme 2020)",
+      "source": 10,
+      "note": "from DCA minutes search snippet"
     },
     "reference": {
-      "value": null,
-      "source": null,
-      "note": "PA number not retrieved; minutes PDF unreachable"
+      "value": "DP23/0213",
+      "source": 10,
+      "note": "Development permit number cited in DCA Darwin minutes No. 440 (4 Apr 2025) for the 'first stage ... data centre located at 8 Ryko Court'; seen via search snippet only (PDF behind Cloudflare, 403). PA application number not found."
     },
     "lodged": {
       "value": null,
@@ -76,17 +76,17 @@
     "determined": {
       "value": "2023-08-18",
       "source": 6,
-      "note": "DCA meeting 408 date; snippet shows conditions attached, implying consent, but decision text not verified",
+      "note": "DCA Darwin Division meeting 408 heard the NEXTDC data centre application; permit DP23/0213 (2023 series) consistent with this. Decision text not read (PDF 403).",
       "precision": "day"
     },
     "url": "https://environment.nt.gov.au/media/docs/boards-and-committees/development-consent-authority/dca-minutes/2023/darwin/mindcadar408-18-8-23.pdf"
   },
   "jobs_construction": {
-    "value": null,
-    "source": null,
-    "basis": null,
-    "scope": null,
-    "note": "NEXTDC: 'more than 200 jobs' across construction and operations combined - not split"
+    "value": 200,
+    "source": 9,
+    "basis": "unstated",
+    "scope": "unstated",
+    "note": "NT Chief Minister: 'Supporting over 200 jobs during construction and 20 jobs when operational' (lower bound)"
   },
   "jobs_construction_other": [
     {
@@ -94,32 +94,32 @@
       "source": 1,
       "basis": "unstated",
       "scope": "unstated",
-      "note": "NEXTDC: 'expected to create more than 200 jobs in the region throughout the life of the project and into the daily operation of the facility' - combined construction + operations, lower bound"
+      "note": "NEXTDC: 'will create more than 200 jobs in the region throughout the life of the project and into the daily operation of the facility' - combined construction + operations"
     }
   ],
   "jobs_operational": {
-    "value": null,
-    "source": null,
-    "basis": null,
-    "scope": null,
-    "note": ""
+    "value": 20,
+    "source": 9,
+    "basis": "ongoing_headcount",
+    "scope": "unstated",
+    "note": "NT Chief Minister: '20 jobs when operational'"
   },
   "jobs_operational_other": [],
   "construction_start": {
     "value": "2023-11-22",
     "source": 1,
-    "note": "groundbreaking ceremony",
+    "note": "groundbreaking; construction commenced (source 9)",
     "precision": "day"
   },
   "construction_end": {
     "value": "2024-08-14",
     "source": 2,
-    "note": "official opening",
+    "note": "official opening; Kapitol says 'completed in July 2024' (source 7)",
     "precision": "day"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "DCA application number and confirmation that 18 Aug 2023 item was approved (and that it was D1)",
-    "scope: 7 MW design but only ~1 MW built initially"
+    "DCA minutes 408 and 440 are behind Cloudflare (403): DP23/0213 number and 18 Aug 2023 consent known only from search snippets",
+    "scope: 7 MW target design but only ~1 MW+ built initially (facility page '1MW+')"
   ]
 }
