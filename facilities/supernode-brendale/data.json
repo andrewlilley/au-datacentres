@@ -7,7 +7,7 @@
     "address": {
       "value": "83 Kremzow Road, Brendale QLD 4500",
       "source": 5,
-      "note": "from master.csv; sources confirm Kremzow Road site adjacent to South Pine substation (source 3)"
+      "note": "From master.csv; QLD cadastre (source 7): 81/83 Kremzow Road = Lot 121 M31114 (16.2 ha). Sources describe a 30 ha site adjacent to South Pine substation. The BESS development permit DA/2023/1419 is mapped on Lot 3 SP213172 (10.0 ha, ~1.4 km south of the 83 Kremzow Rd point), so the campus may span several lots and the Kremzow Road address is unconfirmed."
     },
     "suburb": "Brendale",
     "state": "QLD",
@@ -45,28 +45,28 @@
   "mw_grid": {
     "value": 800,
     "source": 1,
-    "note": "'up to 800 MW of power supply capacity' via three HV connections - campus supply capacity, not confirmed DC demand"
+    "note": "Quinbrook: 'up to 800 MWs of power supply capacity' (via South Pine substation, three HV connections) - site supply capacity, not confirmed DC demand; BESS also uses this connection (780 MW/3,074 MWh BESS campus planned per source 4)."
   },
   "cost_aud_m": {
     "value": 2500,
     "source": 1,
-    "note": "'up to $2.5 billion' for data storage plus BESS infrastructure when fully built; includes battery stages"
+    "note": "Quinbrook: 'estimated capital investment of up to $2.5 billion when fully constructed'; QLD Govt: '$2.5 billion-plus'. Includes BESS; no split published. BESS Stage 1 financing $325m; Stage 3 debt financing A$469m (source 4)."
   },
   "planning": {
     "authority": {
       "value": "Moreton Bay Regional Council",
       "source": 1,
-      "note": "plus FIRB approval"
+      "note": "Quinbrook (8 Jul 2022): obtained 'Foreign Investment Review Board' approval and 'local planning permissions from Moreton Bay Regional Council'. No data centre application identified in council's open DA dataset (source 8)."
     },
     "pathway": {
       "value": null,
       "source": null,
-      "note": "council development approval; type not found"
+      "note": "Type of council permission for the data centres not found. The BESS has its own code-assessable permit: DA/2023/1419 'Reconfiguring a Lot ... Material Change of Use - Development Permit for Battery Storage Facility and Building Works', lodged 2023-04-18, approved 2023-11-17 (source 8) - not the DC approval."
     },
     "reference": {
       "value": null,
       "source": null,
-      "note": ""
+      "note": "DC approval reference not found. DA/36991/2018/V2L (cited by search results for 107-109 Kremzow Road) is a residential/preliminary approval, unrelated. BESS: DA/2023/1419."
     },
     "lodged": {
       "value": null,
@@ -77,7 +77,7 @@
       "value": "2022",
       "source": 1,
       "precision": "year",
-      "note": "approval obtained before July 2022 launch announcement"
+      "note": "Approval obtained before the 8 July 2022 launch announcement (Quinbrook release; QLD ministerial statement dated Friday 8 July 2022). Exact date not found."
     },
     "url": null
   },
@@ -107,13 +107,14 @@
     "value": null,
     "source": null,
     "precision": null,
-    "note": "BESS Stage 1 operational Feb 2026, Stage 2 mid-2026, Stage 3 committed Aug 2026; data centre timing unknown (Baxtel shows 2028-2031)"
+    "note": "BESS Stage 1 operational Feb 2026; Stage 2 (250 MW/1,040 MWh) operating late Jul 2026; Stage 3 (260 MW/1,216 MWh) financed Aug 2026 (ESS News, read in full). No data centre component mentioned. Data centre timing unknown (Baxtel shows 2028-2031)."
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "no evidence data centre buildings have started; only BESS stages built",
+    "scope: no evidence any data centre building has been designed, lodged or started; the 2022 'local planning permissions' are unspecified and no DC application appears in council's DA dataset - the approval claim is unverified",
     "per-building IT MW unknown; should split into up to 4 rows once known",
-    "council DA reference and date not found",
-    "cost $2.5bn includes BESS"
+    "council DA reference, type and date for the data centres not found (BESS permit DA/2023/1419 found)",
+    "site lots/address: 83 Kremzow Rd (Lot 121 M31114) vs BESS lot 3 SP213172",
+    "cost $2.5bn includes BESS; no split"
   ]
 }

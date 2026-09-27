@@ -5,9 +5,9 @@
   "status": "operational",
   "location": {
     "address": {
-      "value": "11 Tom Price Street, Fyshwick ACT 2609",
-      "source": 1,
-      "note": "campus address per CDC/DCM listings (via search snippets); A+P Leemhuis award text refers to a CDC building at 2 Leonora Street, Fyshwick"
+      "value": "2 Leonora Street, Fyshwick ACT 2609 (Block 6 Section 85 Fyshwick)",
+      "source": 7,
+      "note": "probable FY1 building address: A+P Leemhuis (FY1 builder) describes '12,000 m2 on a 12,000 m2 block'; ACT cadastre Block 6 Sec 85 (2 Leonora St) is 12,564 sqm and adjoins Block 7 Sec 85 (11 Tom Price St, 12,292 sqm); Master Builders award text refers to CDC building at 2 Leonora St; OSM names the 11 Tom Price St building 'Fyshwick 2'. CDC/DCM give the campus address as 11 Tom Price Street"
     },
     "suburb": "Fyshwick",
     "state": "ACT",
@@ -17,20 +17,20 @@
       "note": ""
     },
     "lat": {
-      "value": -35.33804,
-      "source": null,
-      "note": "Geocoded 2026-09-27 from '11 Tom Price Street, Fyshwick ACT 2609' with the ArcGIS World Geocoder (PointAddress, score 100). Cross-check: the OpenStreetMap building footprint ('Fyshwick 2, 11, Tom Price Street, Fyshwick, Canberra, Distri') is 25m away."
+      "value": -35.33755,
+      "source": 7,
+      "note": "Changed 2026-09-27 to the centroid of ACT cadastre Block 6 Section 85 Fyshwick (2 Leonora St) from ACTmapi ACTGOV_BLOCKS (outSR=4326), because FY1 appears to be on that block. Previous value -35.33804,149.18315 was the ArcGIS geocode of the campus address 11 Tom Price St (Block 7, the FY2 building), ~60 m away"
     },
     "lon": {
-      "value": 149.18315,
-      "source": null,
+      "value": 149.18227,
+      "source": 7,
       "note": "see lat note"
     }
   },
   "builder": {
     "value": "A+P Leemhuis Builders",
     "source": 2,
-    "note": "builder of CDC Fyshwick data storage facility per builder's project page (search snippet); Master Builders 2016 award for CDC building at 2 Leonora St Fyshwick - exact building (FY1 vs extension) not confirmed"
+    "note": "builder's project page: 'Construction of a new purpose built data storage facility for CDC Data Centres. It was the first TIA-942 approved facility in Australia'; supervised all trades"
   },
   "developer": {
     "value": "CDC Data Centres",
@@ -39,8 +39,8 @@
   },
   "mw_it": {
     "value": 18,
-    "source": 3,
-    "note": "'existing Fyshwick data centre with 18 MW capacity' per DCD 2017 (search snippet); FY1+FY2 campus later listed as 45 MW"
+    "source": 4,
+    "note": "'one Fyshwick facility with 18 MW capacity' (GovTechReview/iTWire/Canberra Times Aug 2017); CDC lists Fyshwick campus FY1+FY2 at 45 MW operating"
   },
   "mw_grid": {
     "value": null,
@@ -48,35 +48,37 @@
     "note": ""
   },
   "cost_aud_m": {
-    "value": null,
-    "source": null,
-    "note": ""
+    "value": 110,
+    "source": 2,
+    "note": "A+P Leemhuis project page lists '$110M' - builder's project value, not confirmed as total capex"
   },
   "planning": {
     "authority": {
-      "value": null,
-      "source": null,
-      "note": "ACT DA not identified"
+      "value": "ACT Planning and Land Authority",
+      "source": 7,
+      "note": ""
     },
     "pathway": {
-      "value": null,
-      "source": null,
+      "value": "Development application (ACT Planning and Development Act 2007)",
+      "source": 7,
       "note": ""
     },
     "reference": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "DA 201323908",
+      "source": 7,
+      "note": "probable, not confirmed: ACT completed-DA register shows DA 201323908 on Block 6 Sec 85 Fyshwick (subclasses commercial, industrial, design and siting, consolidating land, lease variation); proposal text and notice of decision not retrieved. CDC says FY1 construction commenced 2013. An earlier DA 201221350 (2012) was on adjoining Block 7"
     },
     "lodged": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "2013-07-24",
+      "source": 7,
+      "note": "for DA 201323908",
+      "precision": "day"
     },
     "determined": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "2013-11-11",
+      "source": 7,
+      "note": "approval conditional, for DA 201323908",
+      "precision": "day"
     },
     "url": null
   },
@@ -97,19 +99,21 @@
   },
   "jobs_operational_other": [],
   "construction_start": {
-    "value": null,
-    "source": null,
-    "note": ""
+    "value": "2013",
+    "source": 5,
+    "note": "CDC About us timeline: '2013 Fyshwick campus - Construction of FY1 commences'",
+    "precision": "year"
   },
   "construction_end": {
-    "value": "2014-01",
-    "source": 2,
-    "note": "campus commenced operation January 2014 (search snippet from builder/listing results)",
-    "precision": "month"
+    "value": "2015",
+    "source": 6,
+    "note": "CDC Mar 2026 investor presentation timeline: '2015 Fyshwick - Fyshwick 1 becomes operational'. Earlier search snippet said January 2014; either way before the 2018-09-01 cutoff",
+    "precision": "year"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "scope: completed/operational January 2014, before 2018-09-01 cutoff - out of scope",
-    "builder address discrepancy (2 Leonora St vs 11 Tom Price St)"
+    "scope: completed/operational 2015 (CDC; Jan 2014 per earlier snippet), before 2018-09-01 cutoff - out of scope",
+    "FY1 address/lat-lon (2 Leonora St, Block 6 Sec 85) inferred from block size and DA register, not confirmed by CDC",
+    "planning DA 201323908 probable only"
   ]
 }

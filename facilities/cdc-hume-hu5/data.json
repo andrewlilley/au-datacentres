@@ -7,7 +7,7 @@
     "address": {
       "value": "7 Tralee Street, Hume ACT 2620",
       "source": 1,
-      "note": ""
+      "note": "CDC/DCM/PeeringDB address for Hume Campus Two; ACT cadastre and DA 202038149 use 5 Tralee Street (Block 103 Section 7 Hume)"
     },
     "suburb": "Hume",
     "state": "ACT",
@@ -40,7 +40,7 @@
   "mw_it": {
     "value": 22,
     "source": 2,
-    "note": "Infratil Feb 2022 (master.csv lead, not re-verified); = campus 51 MW minus HU4 29 MW"
+    "note": "Infratil Feb 2022 (master.csv lead, not re-accessed; infratil.com returns 403); = Hume Campus Two 51 MW (CDC, source 11) minus HU4 29 MW"
   },
   "mw_grid": {
     "value": null,
@@ -54,31 +54,33 @@
   },
   "planning": {
     "authority": {
-      "value": null,
-      "source": null,
-      "note": "DA not confirmed; DA 202038149 (5 Tralee St, 3-storey data centre with link bridge to buildings 4 and 5, notified Feb 2021) may relate but wording suggests a separate building"
+      "value": "ACT Planning and Land Authority",
+      "source": 4,
+      "note": ""
     },
     "pathway": {
-      "value": null,
-      "source": null,
+      "value": "Development application (ACT Planning and Development Act 2007)",
+      "source": 6,
       "note": ""
     },
     "reference": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "DA 202038149",
+      "source": 4,
+      "note": "probable: 'PROPOSAL FOR COMMERCIAL BUILDING - Construction of 3 storey data centre facility, warehouse and offices. Construction of a link bridge to buildings 4 and 5, onsite power generators, landscaping and associated works' at 5 Tralee St (Block 103 Sec 7 Hume). It is the only CDC data-centre building DA on Block 103 after HU4, and its timing matches CDC's 'HU5 under construction' in 2021 (source 8); HU6 is a separate two-storey building on Block 99 (DA 202443633). The phrase 'link bridge to buildings 4 and 5' does not fit a building that is itself HU5, so CDC's internal building numbering may differ - not confirmed. Related: DA 202038049 (amendment to a three-storey warehouse/office approval incl. chiller deck and lease variation raising allowable GFA to 31,550 sqm, lodged 2021-01-22, approved 2021-04-08, source 7)"
     },
     "lodged": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "2021-02-11",
+      "source": 6,
+      "note": "ACT completed-DA register (PlanningAlerts first saw it 20 Feb 2021)",
+      "precision": "day"
     },
     "determined": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "2021-03-26",
+      "source": 6,
+      "note": "approval conditional (ACT completed-DA register)",
+      "precision": "day"
     },
-    "url": null
+    "url": "https://www.planningalerts.org.au/applications/1894858"
   },
   "jobs_construction": {
     "value": null,
@@ -97,20 +99,21 @@
   },
   "jobs_operational_other": [],
   "construction_start": {
-    "value": null,
-    "source": null,
-    "note": "under construction in 2022 per Infratil (master.csv lead)"
+    "value": "2021",
+    "source": 8,
+    "note": "CDC About us timeline: '2021 EC, Hume campus development - EC4 and HU5 under construction'; month not found",
+    "precision": "year"
   },
   "construction_end": {
     "value": "2023",
     "source": 3,
-    "note": "Baxtel: opened 2023 (master.csv lead, not re-verified)",
+    "note": "Baxtel: opened 2023 (master.csv lead; Baxtel returns 403). Consistent with CDC showing HU5 operational and its generators/conduits already serving the HU6 site in Oct 2024 (source 10)",
     "precision": "year"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "planning ref: is DA 202038149 HU5 or another building?",
+    "planning ref DA 202038149 is probable (description mentions link bridge to buildings 4 and 5)",
     "builder unknown",
-    "completion date only from Baxtel"
+    "completion year only from Baxtel"
   ]
 }

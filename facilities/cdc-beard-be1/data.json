@@ -5,9 +5,9 @@
   "status": "operational",
   "location": {
     "address": {
-      "value": "Block 25 Section 11, Beard ACT 2620",
-      "source": 1,
-      "note": "47,644 sqm block"
+      "value": "23 Tantalum Street, Beard ACT 2620 (Block 25 Section 11 Beard)",
+      "source": 8,
+      "note": "street address from ACT cadastre (ACTGOV_BLOCKS ADDRESSES field for Block 25 Sec 11 Beard); block area 47,644 sqm (4.764 ha). DA describes site as corner of Copper Cl/Crescent and Nickel St, access from Tantalum St; the approved works also covered Blocks 7-8 Section 1 Beard"
     },
     "suburb": "Beard",
     "state": "ACT",
@@ -17,20 +17,20 @@
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: nominatim and other geocoders blocked by network egress proxy in this session"
+      "value": -35.34022,
+      "source": 8,
+      "note": "Centroid of the ACT cadastre polygon for Block 25 Section 11 Beard (ACTmapi ArcGIS REST ACTGOV_BLOCKS/FeatureServer/0, query DIVISION_NAME='BEARD' AND SECTION_NUMBER=11 AND BLOCK_NUMBER=25, outSR=4326; returnCentroid and a computed area-weighted polygon centroid agree to <1 m), 2026-09-27. Block-level point; the BE1 building occupies the northern part of the block (BE2 site is the undeveloped southern ~9,010 sqm)"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: nominatim and other geocoders blocked by network egress proxy in this session"
+      "value": 149.20925,
+      "source": 8,
+      "note": "see lat note"
     }
   },
   "builder": {
     "value": null,
     "source": null,
-    "note": "head contractor not found; Green Civil Australia delivered civil works"
+    "note": "head contractor not found in DA documents or CDC/Infratil material; Green Civil Australia delivered civil works (source 6, search snippet)"
   },
   "developer": {
     "value": "CDC Data Centres",
@@ -39,8 +39,8 @@
   },
   "mw_it": {
     "value": 39,
-    "source": 1,
-    "note": "planned campus/BE1 capacity 39 MW per DCM/CDC; ABC Aug 2026 says 40 MW; Infratil 2025 cites 110 MW for Beard (whole campus)"
+    "source": 12,
+    "note": "CDC Canberra page: Beard campus (BE1) 'Total capacity 39 MW'; Infratil investor day Mar 2024 lists Canberra under construction 39 MW (= BE1, source 11). Alternatives: Stantec traffic report for BE2 DA (Mar 2026) calls BE1 'a 35 MW, two storey data centre with 10 data halls' (source 9); ABC Aug 2026 says 40 MW (source 4); Infratil 2025 cites 110 MW for Beard (whole campus incl. BE2)"
   },
   "mw_grid": {
     "value": null,
@@ -50,36 +50,37 @@
   "cost_aud_m": {
     "value": null,
     "source": null,
-    "note": "not found; the '$200 million' figure is for Beard 2 (BE2), a separate DA"
+    "note": "not found; the '$200 million' figure is for Beard 2 (BE2), a separate DA (202645149)"
   },
   "planning": {
     "authority": {
       "value": "ACT Planning and Land Authority",
-      "source": 2,
+      "source": 7,
       "note": ""
     },
     "pathway": {
-      "value": "Development application (ACT Planning and Development Act 2007)",
-      "source": 2,
+      "value": "Development application, merit track (ACT Planning and Development Act 2007)",
+      "source": 7,
       "note": ""
     },
     "reference": {
-      "value": "DA 202341501",
-      "source": 2,
-      "note": "siteworks DA only (earthworks, stormwater, utilities, civil works on Blocks 7&8 Sec 1 and Block 25 Sec 11); building DA not identified"
+      "value": "DA 202341644",
+      "source": 7,
+      "note": "building DA: 'stage 1 construction of a data centre comprising of two (2) storey building with 10 data halls, a storage and ancillary office area, on-site building backup electricity generators, electrical substation, site access from Tantalum Street, on-site car parking...' at Blocks 7-8 and 25 Sections 1 and 11 Beard. Earlier siteworks DA 202341501 (earthworks, stormwater, utilities, civil works; lodged 2023-05-17, approved 2023-07-17, source 2). Stage 2 (BE2) is DA 202645149, lodged 2026-08-20, under assessment"
     },
     "lodged": {
-      "value": null,
-      "source": null,
-      "note": ""
-    },
-    "determined": {
-      "value": "2023-07-17",
-      "source": 2,
-      "note": "Notice of Decision date per search snippet; approved with conditions",
+      "value": "2023-05-19",
+      "source": 7,
+      "note": "",
       "precision": "day"
     },
-    "url": "https://dafinder.blob.core.windows.net/dadocuments/DOCs/NOTICEOFDECISION-202341501-SIGNED.pdf"
+    "determined": {
+      "value": "2023-10-03",
+      "source": 7,
+      "note": "Notice of Decision signed 3 Oct 2023: approved subject to conditions (delegate Joshua Dobing); further information lodged 28 Jun and 24 Aug 2023",
+      "precision": "day"
+    },
+    "url": "https://dafinder.blob.core.windows.net/dadocuments/DOCs/NOTICEOFDECISION-202341644-SIGNED.pdf"
   },
   "jobs_construction": {
     "value": null,
@@ -99,29 +100,34 @@
   "jobs_operational_other": [
     {
       "value": 54,
-      "source": 5,
+      "source": 9,
       "basis": "unstated",
       "scope": "direct",
-      "note": "'It is expected that 54 employees will be present at any one time across the entire campus' (Beard 2 proposal; whole campus BE1+BE2, not BE1 alone)"
+      "note": "'It is anticipated that up to 54 staff members may be present on the site at any one time' - whole Beard site BE1+BE2 once BE2 is built (Stantec transport assessment for BE2 DA, Mar 2026; also Region Canberra, source 5). Includes customers, security and visitors; not BE1 alone"
+    },
+    {
+      "value": 25,
+      "source": 9,
+      "basis": "unstated",
+      "scope": "unstated",
+      "note": "staff table: 'CDC Staff/Customers (Daytime 8am-5pm) 25 BE1', plus 5 CDC shift staff (24h), 4 security staff and 5 visitors shared between BE1/BE2. Mixes staff and customers, so not a jobs count"
     }
   ],
   "construction_start": {
     "value": "2024",
-    "source": 1,
-    "note": "construction began on Beard campus in 2024",
+    "source": 3,
+    "note": "CDC Mar 2026 investor presentation timeline: '2024 Beard - CDC's fourth Canberra campus begins construction'. Siteworks DA approved Jul 2023 and building DA Oct 2023, so site works may have started late 2023",
     "precision": "year"
   },
   "construction_end": {
-    "value": "2026",
-    "source": 3,
-    "note": "Infratil/CDC Mar 2026: nearing completion / work completed, inaugural operations in 2026; ABC Aug 2026 says still being fitted out",
-    "precision": "year"
+    "value": null,
+    "source": null,
+    "note": "not dated: Infratil investor day Mar 2024 still listed BE1 as under construction (source 11); CDC Mar 2026 presentation lists 'Completed work at BK2, BE1 and HV2' and shows BE1 as operational (source 3); Stantec Mar 2026 says BE1 'is now operational' and the BE2 Development Outcomes Report says BE1 'was completed as part of the Stage 1 works' (sources 9,10). So completed between Mar 2024 and Mar 2026 (Baxtel/DCM say 2025). ABC Aug 2026 says still being fitted out"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "building DA reference not found (202341501 is siteworks)",
-    "builder unknown",
-    "completion vs fit-out status in 2026",
-    "lat/lon not geocoded (egress blocked)"
+    "builder (head contractor) unknown",
+    "completion date: between Mar 2024 and Mar 2026 (2025 per Baxtel/DCM), not confirmed",
+    "IT MW: 39 (CDC) vs 35 (Stantec 2026) vs 40 (ABC)"
   ]
 }

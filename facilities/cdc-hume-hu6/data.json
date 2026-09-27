@@ -5,9 +5,9 @@
   "status": "under_construction",
   "location": {
     "address": {
-      "value": "62 Sawmill Circuit / 5 Tralee Street, Hume ACT 2620",
+      "value": "62 Sawmill Circuit, Hume ACT 2620 (Block 99 Section 7 Hume; lease to be consolidated with Block 103, 5 Tralee Street)",
       "source": 1,
-      "note": "blocks 99 and 103 (lease variation to consolidate)"
+      "note": "Stantec infrastructure report: 'The proposed project site is located at 62 Sawmill Circuit, Hume, ACT 2620'; DA 202443633 covers Blocks 99 & 103 Sec 7 Hume"
     },
     "suburb": "Hume",
     "state": "ACT",
@@ -40,12 +40,12 @@
   "mw_it": {
     "value": null,
     "source": null,
-    "note": "not stated; infrastructure report cites ~20 MVA site electrical demand (master.csv lead)"
+    "note": "not stated in DA documents or CDC material"
   },
   "mw_grid": {
     "value": null,
-    "source": null,
-    "note": "~20 MVA site demand per infrastructure report (MVA, not converted)"
+    "source": 1,
+    "note": "'The calculated demand for the Hu6 development is circa 20MVA' (Stantec infrastructure report, 17 Oct 2024); 4 x 11 kV utility supplies from 2 existing EvoEnergy switching stations; standby power from the 11 kV generators built with HU5. MVA, not converted to MW"
   },
   "cost_aud_m": {
     "value": null,
@@ -54,32 +54,33 @@
   },
   "planning": {
     "authority": {
-      "value": "ACT Planning and Land Authority",
-      "source": 2,
-      "note": ""
+      "value": "ACT Territory Planning Authority",
+      "source": 4,
+      "note": "decision by delegate of the Territory Planning Authority (Planning Act 2023)"
     },
     "pathway": {
-      "value": "Development application (ACT Planning and Development Act)",
-      "source": 2,
+      "value": "Development application with lease variation (ACT Planning Act 2023)",
+      "source": 4,
       "note": ""
     },
     "reference": {
       "value": "DA 202443633",
-      "source": 2,
-      "note": ""
+      "source": 4,
+      "note": "'Construction of a new two-storey data centre, associated plant equipment, services, loading and storage, air bridge between new and existing building on adjoining block ... LEASE VARIATION to add data centre as a permitted use for block 99 and consolidate the Crown leases of blocks 99 and 103'. Max height 14.5 m, 2 storeys. Amendments: S205D lodged 2025-10-23 (underground electrical/comms conduits over Block 26) and S205E lodged 2026-04-01 (glazing, link bridge length, risers, acoustic wall) (source 5). Applicant agent: Canberra Town Planning Pty Ltd"
     },
     "lodged": {
-      "value": "2024-10",
-      "source": 1,
-      "note": "infrastructure report dated 17 Oct 2024 prepared for DA lodgement; PlanningAlerts notice 15 Feb 2025",
-      "precision": "month"
+      "value": "2025-02-06",
+      "source": 4,
+      "note": "Notice of Decision lodgement date; public notification 17 Feb - 7 Mar 2025, no representations. Supporting reports dated Oct 2024",
+      "precision": "day"
     },
     "determined": {
-      "value": null,
-      "source": null,
-      "note": "decision not found"
+      "value": "2025-06-12",
+      "source": 4,
+      "note": "approved subject to conditions (delegate Fawzia Majid)",
+      "precision": "day"
     },
-    "url": "https://www.planningalerts.org.au/applications/3259525"
+    "url": "https://dafinder.blob.core.windows.net/dadocuments/DOCs/NOTICEOFDECISION-202443633-SIGNED.pdf"
   },
   "jobs_construction": {
     "value": null,
@@ -100,7 +101,7 @@
   "construction_start": {
     "value": null,
     "source": null,
-    "note": ""
+    "note": "under construction by Mar 2026 (CDC investor presentation map shows HU6 as 'Data centre under construction', source 6); start date not found (DA approved Jun 2025)"
   },
   "construction_end": {
     "value": null,
@@ -109,8 +110,8 @@
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "DA approval not confirmed",
-    "under_construction status from Infratil Sep 2025 (master.csv lead) not re-verified",
-    "IT MW unknown"
+    "IT MW unknown (site demand ~20 MVA)",
+    "builder unknown",
+    "construction start/end dates not found"
   ]
 }

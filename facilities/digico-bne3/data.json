@@ -7,7 +7,7 @@
     "address": {
       "value": "6 Cycas Lane, Brisbane Airport QLD 4008",
       "source": 2,
-      "note": "per datacentermap; DigiCo describes site only as land adjacent to BNE2"
+      "note": "Per datacentermap (search extract; page returned 429). Baxtel (read in full) gives '4 Cycas La'. DigiCo PDS says only '9,786 square metres of land adjacent to BNE2'. Street number unconfirmed."
     },
     "suburb": "Brisbane Airport",
     "state": "QLD",
@@ -34,13 +34,13 @@
   },
   "developer": {
     "value": "DigiCo Infrastructure REIT",
-    "source": 1,
-    "note": "HMC Capital-managed REIT; site held via option to expand lease with Brisbane Airport Corporation"
+    "source": 4,
+    "note": "HMC Capital-managed REIT. PDS: 'DigiCo REIT has an option to expand its current lease with Brisbane Airport Corporation to include this site.'"
   },
   "mw_it": {
     "value": 19.6,
-    "source": 1,
-    "note": "'estimated to deliver 19.6MW of IT capacity' on 9,786 m2 of land"
+    "source": 4,
+    "note": "PDS (Dec 2024), where the site was called BNE4: 'greenfield development estimated to deliver 19.6MW of IT Capacity and 2,496 approximately racks across on 9,786 square metres of land', tier 4. FY25 results (Aug 2025, source 5), after renaming to BNE3: '~10,000sqm ... expected to deliver 20MW of IT Capacity'."
   },
   "mw_grid": {
     "value": null,
@@ -56,12 +56,12 @@
     "authority": {
       "value": null,
       "source": null,
-      "note": "Brisbane Airport Corporation land (Airports Act 1996) - approval body presumably BAC/Commonwealth, not council; not confirmed"
+      "note": "Brisbane Airport Corporation land: would need BAC consent + Airport Building Controller approval under the Airports (Building Control) Regulations 1996 (source 7). No approval found."
     },
     "pathway": {
       "value": null,
       "source": null,
-      "note": ""
+      "note": "Airports Act 1996 building control; no application or approval found."
     },
     "reference": {
       "value": null,
@@ -104,14 +104,15 @@
   },
   "construction_end": {
     "value": "2027",
-    "source": 1,
+    "source": 4,
     "precision": "year",
-    "note": "expected; 'construction completion estimated in calendar year 2027'"
+    "note": "Expected at PDS: 'Construction completion is estimated in calendar year 2027.' Superseded: by Aug 2025 DigiCo was still 'in discussions with Brisbane Airport Corporation' (source 5), and the FY26 results/Annual Report 2026 portfolio lists no BNE3 at all (source 6)."
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "status: under_construction kept from master.csv but no evidence construction has started; DigiCo describes it as a greenfield development with a lease option - may only be planned",
-    "scope: no planning/Airports Act approval found - may not meet 'approved' criterion",
+    "scope: not approved and not under construction. Naming: PDS (Dec 2024) called this greenfield site 'BNE4' (the PDS 'BNE3' is the 0.3 MW Woolloongabba site, since renamed 'BNE'); renamed BNE3 in Aug 2025. FY25 results (Aug 2025): DigiCo 'in discussions with Brisbane Airport Corporation, to develop an additional campus site adjacent to existing facility at BNE2'. FY26 results and Annual Report 2026 portfolio lists (Aug/Sep 2026) omit BNE3 entirely and describe greenfield only as 'evaluation and planning on select greenfield sites'. Should be moved to excluded (announced only / apparently dropped).",
+    "status: 'under_construction' (from master.csv) is contradicted by DigiCo disclosures; schema has no 'announced' value",
+    "street number (4 vs 6 Cycas Lane) unconfirmed",
     "builder, cost, jobs not found"
   ]
 }

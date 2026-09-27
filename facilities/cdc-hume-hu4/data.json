@@ -7,7 +7,7 @@
     "address": {
       "value": "7 Tralee Street, Hume ACT 2620",
       "source": 1,
-      "note": "some sources give 5 Tralee Street"
+      "note": "address used by CDC/DCM/PeeringDB for Hume Campus Two; the ACT cadastre lists the campus block (Block 103 Section 7 Hume, 32,893 sqm) as 5 Tralee Street (source 7)"
     },
     "suburb": "Hume",
     "state": "ACT",
@@ -30,7 +30,7 @@
   "builder": {
     "value": "Hindmarsh",
     "source": 2,
-    "note": "'Hume Campus Two - H4': Hindmarsh delivered the building structure; CDC procured major plant and engaged M&E contractors directly"
+    "note": "'Hume Campus Two - H4': delivery model Construction Management; Hindmarsh delivered the building structure while CDC procured major plant and engaged M&E contractors directly"
   },
   "developer": {
     "value": "CDC Data Centres",
@@ -40,7 +40,7 @@
   "mw_it": {
     "value": 29,
     "source": 4,
-    "note": "Infratil Feb 2022 (master.csv lead, not re-verified); Hume Campus Two (HU4+HU5) = 51 MW per CDC/DCM listings"
+    "note": "Infratil Feb 2022 (master.csv lead, not re-accessed; infratil.com returns 403). Hindmarsh project page gives '25MW total capacity' (source 2). CDC lists Hume Campus Two (HU4+HU5) at 51 MW operating (source 5)"
   },
   "mw_grid": {
     "value": null,
@@ -48,35 +48,37 @@
     "note": ""
   },
   "cost_aud_m": {
-    "value": 100,
+    "value": 75,
     "source": 2,
-    "note": "Hindmarsh lists it as a '$100m' project - builder's project value, likely excludes CDC-procured plant/M&E; not total capex"
+    "note": "Hindmarsh project page lists 'Value $75M' (corrects earlier $100m snippet) - construction-management value, excludes CDC-procured plant/M&E; not total capex"
   },
   "planning": {
     "authority": {
-      "value": null,
-      "source": null,
-      "note": "ACT DA reference not found"
+      "value": "ACT Planning and Land Authority",
+      "source": 7,
+      "note": ""
     },
     "pathway": {
-      "value": null,
-      "source": null,
+      "value": "Development application (ACT Planning and Development Act 2007)",
+      "source": 7,
       "note": ""
     },
     "reference": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "DA 201732336",
+      "source": 7,
+      "note": "probable, not confirmed: ACT completed-DA register shows DA 201732336 on Blocks 42, 43 and 103 Sec 7 Hume (consolidation into Block 103 = 5 Tralee St; subclasses commercial, industrial, design and siting, lease variation, clause changes); timing matches HU4 construction start 2018. A later DA 201834342 (lodged 2018-09-03, approved 2018-11-05, Blocks 103/104) may be an amendment or another building. Proposal text not retrieved"
     },
     "lodged": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "2017-08-28",
+      "source": 7,
+      "note": "for DA 201732336",
+      "precision": "day"
     },
     "determined": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "2017-12-01",
+      "source": 7,
+      "note": "approval conditional, for DA 201732336",
+      "precision": "day"
     },
     "url": null
   },
@@ -98,20 +100,21 @@
   "jobs_operational_other": [],
   "construction_start": {
     "value": "2018",
-    "source": 3,
-    "note": "Infratil Oct 2019 presentation: construction began 2018 with 66% of capacity committed (search snippet)",
+    "source": 6,
+    "note": "CDC About us timeline: '2018 New Hume campus HU4 construction begins'; Infratil Oct 2019 presentation also says 2018 (source 3, snippet)",
     "precision": "year"
   },
   "construction_end": {
     "value": "2019-11",
     "source": 3,
-    "note": "Infratil Oct 2019 presentation: completion November 2019 (likely forecast at the time); Baxtel says opened 2020",
+    "note": "Infratil Oct 2019 presentation: completion November 2019 (search snippet; likely a forecast at the time); Baxtel says opened 2020",
     "precision": "month"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "IT MW vs campus allocation unclear",
-    "cost is builder project value only",
-    "planning DA reference not found"
+    "IT MW 29 (Infratil 2022) vs 25 (Hindmarsh)",
+    "completion Nov 2019 (forecast) vs 2020 (Baxtel)",
+    "cost is builder's CM value only",
+    "planning DA 201732336 probable only"
   ]
 }

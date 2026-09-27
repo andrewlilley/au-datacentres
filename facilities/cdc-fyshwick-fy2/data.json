@@ -5,9 +5,9 @@
   "status": "operational",
   "location": {
     "address": {
-      "value": "11 Tom Price Street, Fyshwick ACT 2609",
+      "value": "11 Tom Price Street, Fyshwick ACT 2609 (Block 7 Section 85 Fyshwick)",
       "source": 1,
-      "note": ""
+      "note": "block from ACT cadastre (source 11); OSM names the building at 11 Tom Price St 'Fyshwick 2'"
     },
     "suburb": "Fyshwick",
     "state": "ACT",
@@ -30,7 +30,7 @@
   "builder": {
     "value": "Hindmarsh",
     "source": 2,
-    "note": "'Fyshwick Campus One - F2' project: Hindmarsh delivered the building structure; CDC bought major plant and engaged mechanical/electrical contractors directly (Sainsbury did mechanical services)"
+    "note": "Hindmarsh project page 'Fyshwick Campus One - F2': delivery model Construction Management; 'Hindmarsh leading the delivery of the building structure whilst the client purchased large items of plant, and engaged mechanical and electrical contractors directly' (Sainsbury did mechanical services)"
   },
   "developer": {
     "value": "CDC Data Centres",
@@ -39,8 +39,8 @@
   },
   "mw_it": {
     "value": 20,
-    "source": 3,
-    "note": "20 MW announced at ground-breaking 2017; Infratil Feb 2022 investor day lists 26 MW (from master.csv lead, not re-verified)"
+    "source": 7,
+    "note": "'Fyshwick 2 data centre will have 20MW of capacity' at ground-breaking Aug 2017 (iTWire, GovTechReview, Canberra Times). Alternatives: Hindmarsh project page '21MW Capacity' (source 2); Infratil Feb 2022 investor day 26 MW (master.csv lead, not re-accessed); CDC lists Fyshwick campus FY1+FY2 at 45 MW"
   },
   "mw_grid": {
     "value": null,
@@ -49,69 +49,71 @@
   },
   "cost_aud_m": {
     "value": 150,
-    "source": 3,
-    "note": "'AU$150m' / 'more than $150 million' investment per DCD/Computerworld 2017"
+    "source": 8,
+    "note": "'Costing $150 million' (Canberra Times Aug 2017); 'investment in Fyshwick 2 exceeding $150 million' (IT Brief). Hindmarsh lists its construction-management value as $122M (source 2), which excludes CDC-procured plant/M&E"
   },
   "planning": {
     "authority": {
-      "value": null,
-      "source": null,
-      "note": "ACT DA reference not found"
+      "value": "ACT Planning and Land Authority",
+      "source": 11,
+      "note": ""
     },
     "pathway": {
-      "value": null,
-      "source": null,
+      "value": "Development application (ACT Planning and Development Act 2007)",
+      "source": 11,
       "note": ""
     },
     "reference": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "DA 201629351",
+      "source": 11,
+      "note": "probable, not confirmed: ACT completed-DA register shows DA 201629351 on Block 7 Sec 85 Fyshwick (11 Tom Price St; subclasses commercial, industrial, design and siting, demolition, consolidating land, lease variation, clause changes); proposal text and notice of decision not retrieved"
     },
     "lodged": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "2016-05-05",
+      "source": 11,
+      "note": "for DA 201629351",
+      "precision": "day"
     },
     "determined": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "2016-06-23",
+      "source": 11,
+      "note": "approval conditional, for DA 201629351",
+      "precision": "day"
     },
     "url": null
   },
   "jobs_construction": {
     "value": 100,
-    "source": 3,
+    "source": 8,
+    "note": "'the new project will create 100 jobs during construction' (Canberra Times, 27 Aug 2017); DCD: 'Around 100 jobs were created during construction'. Not defined as peak - only figure available",
     "basis": "unstated",
-    "scope": "unstated",
-    "note": "'will create 100 jobs during the construction phase' / 'Around 100 jobs were created during construction' (DCD/Computerworld 2017); not defined as peak - only figure available"
+    "scope": "unstated"
   },
   "jobs_construction_other": [],
   "jobs_operational": {
     "value": 12,
-    "source": 3,
+    "source": 7,
+    "note": "'On completion, around a dozen highly skilled personnel will be hired to run Fyshwick 2' (iTWire 24 Aug 2017) - approximate",
     "basis": "ongoing_headcount",
-    "scope": "direct",
-    "note": "'about a dozen highly-skilled personnel will be hired to run the new data centre in the long term' - approximate"
+    "scope": "direct"
   },
   "jobs_operational_other": [],
   "construction_start": {
-    "value": "2017",
-    "source": 4,
-    "note": "ground broken 2017 (Computerworld/DCD 2017; Infratil 2019 presentation says construction commenced 2017); month not confirmed",
-    "precision": "year"
+    "value": "2017-08",
+    "source": 7,
+    "note": "iTWire 24 Aug 2017: CDC 'has started work on its $150 million Fyshwick 2 data centre'; ground-breaking launched by Chief Minister Andrew Barr (Canberra Times 27 Aug 2017); CDC About us: '2017 ... Construction of FY2 commences'",
+    "precision": "month"
   },
   "construction_end": {
     "value": "2018",
-    "source": 3,
-    "note": "'slated to come online in 2018'; completion month not found",
+    "source": 9,
+    "note": "CDC About us timeline: '2018 Fyshwick campus Capacity growth FY2 data centre goes live'; completion month not found",
     "precision": "year"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "scope: completed 2018, month unknown - may be before 2018-09-01 cutoff",
-    "MW 20 (2017) vs 26 (Infratil 2022)",
-    "planning DA reference not found"
+    "scope: FY2 went live in 2018, month unknown - may be before 2018-09-01 cutoff",
+    "MW 20 (2017 announcement) vs 21 (Hindmarsh) vs 26 (Infratil 2022)",
+    "planning DA 201629351 probable only"
   ]
 }

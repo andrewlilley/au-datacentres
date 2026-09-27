@@ -6,14 +6,14 @@
   "location": {
     "address": {
       "value": "2 Cycas Lane, Brisbane Airport QLD 4008",
-      "source": 1,
-      "note": "Sources differ: 2 Cycas Lane (master.csv/datacentermap) vs 4 Cycas Lane (fire engineering report describes the Stage 2 building at 4 Cycas Lane, source 4). 4 Cycas Lane may be the correct lot for the Stage 2 building."
+      "source": 6,
+      "note": "2 Cycas Lane per Baxtel/datacentermap. The fire engineer's project page (source 4, read in full) describes 'Stage 2 of the iSeek Data Centre project' at '4 Cycas Lane Brisbane Airport, QLD 4008' - the Stage 2 building may sit on a separately numbered lot. DigiCo PDS (source 7) says only 'Brisbane Airport', 'adjacent to BNE1'."
     },
     "suburb": "Brisbane Airport",
     "state": "QLD",
     "postcode": {
       "value": "4008",
-      "source": 1,
+      "source": 6,
       "note": ""
     },
     "lat": {
@@ -30,17 +30,17 @@
   "builder": {
     "value": "FDC Construction & Fitout",
     "source": 3,
-    "note": "Project builder per A.G. Coombs case study (A.G. Coombs mechanical D&C subcontract awarded Dec 2019). Note FDC's own 'iSeek Data Centre' project page (4m, 3,380 sqm) appears to describe the original ~2010 iseek DC (BNE1), not LDR2."
+    "note": "A.G. Coombs case study (read in full): 'Builder: FDC Construction & Fitout', client iseek, A.G. Coombs mechanical D&C; completion late 2020. FDC's own 'iSeek Data Centre' page appears to describe the original ~2010 BNE1 build."
   },
   "developer": {
     "value": "iseek",
     "source": 2,
-    "note": "Developed by iseek; acquired by DigiCo Infrastructure REIT (HMC Capital) in 2024 as part of the iseek acquisition."
+    "note": "Developed by iseek; iseek (incl. BNE2) acquired by DigiCo Infrastructure REIT (HMC Capital) at its Dec 2024 IPO (source 7)."
   },
   "mw_it": {
-    "value": 6,
-    "source": 2,
-    "note": "6 MW design figure from Feb 2019 announcement; DigiCo reports much lower installed IT (~1.7 MW per master.csv notes)."
+    "value": 1.7,
+    "source": 7,
+    "note": "DigiCo PDS (Dec 2024) key metrics for BNE2: Installed IT Capacity 1.7 MW, Future Expansion IT Capacity '-', Planned IT Capacity 1.7 MW; 6,195 m2 land, 1,232 m2 NLA, ~620 racks, Tier IV design, year built 2020. Alternative: iseek's Feb 2019 announcement (source 2) described 'a new 6MW facility being built in its Eagle Farm campus' - probably total facility/power capacity or original design; not IT load as built."
   },
   "mw_grid": {
     "value": null,
@@ -56,12 +56,12 @@
     "authority": {
       "value": null,
       "source": null,
-      "note": "site on leased federal airport land (Brisbane Airport Corporation) so approval presumably under Airports Act 1996 via BAC, not council; not confirmed"
+      "note": "Commonwealth-leased Brisbane Airport land: building activity needs Airport Lessee Company Consent from Brisbane Airport Corporation and approval of the Airport Building Controller under the Airports (Building Control) Regulations 1996 (source 8, general regime). No record of this specific approval found."
     },
     "pathway": {
       "value": null,
       "source": null,
-      "note": "Airport land: approval via BAC/Airports Act rather than council; not confirmed."
+      "note": "Airports Act 1996 building control (BAC consent + Airport Building Controller) presumed per source 8; specific approval not found."
     },
     "reference": {
       "value": null,
@@ -100,19 +100,20 @@
     "value": null,
     "source": null,
     "precision": null,
-    "note": "Announced Feb 2019 targeting Q1 2020 completion; mechanical subcontract awarded Dec 2019. Actual start not found."
+    "note": "Not found. A.G. Coombs mechanical works 'commenced in early 2020' (source 3); main building works may have started earlier. Announced Feb 2019 (source 2)."
   },
   "construction_end": {
     "value": "2020",
     "source": 3,
     "precision": "year",
-    "note": "Practical completion 'late 2020' per contractor case studies; original target was Q1 2020 (source 2)."
+    "note": "'Completion Date: Late 2020' (A.G. Coombs); SRA Solutions also 'late 2020'; PDS 'Year built 2020' (source 7)."
   },
   "last_checked": "2026-09-27",
   "open_questions": [
+    "scope: DigiCo PDS gives BNE2 Installed and Planned IT Capacity of 1.7 MW with no future expansion - below the 5 MW threshold; only iseek's 2019 '6MW facility' announcement supports >=5 MW (likely facility/power capacity). Probably out of scope.",
     "address: 2 vs 4 Cycas Lane for the Stage 2 building",
-    "installed IT (~1.7 MW) vs 6 MW design; confirm >=5 MW design",
-    "Airports Act approval reference and dates not found",
-    "cost not found"
+    "Airports Act (BAC/Airport Building Controller) approval reference and dates not found",
+    "cost not found",
+    "construction start not found"
   ]
 }
