@@ -7,7 +7,7 @@
     "address": {
       "value": "83 Kremzow Road, Brendale QLD 4500",
       "source": 5,
-      "note": "From master.csv; QLD cadastre (source 7): 81/83 Kremzow Road = Lot 121 M31114 (16.2 ha). Sources describe a 30 ha site adjacent to South Pine substation. The BESS development permit DA/2023/1419 is mapped on Lot 3 SP213172 (10.0 ha, ~1.4 km south of the 83 Kremzow Rd point), so the campus may span several lots and the Kremzow Road address is unconfirmed."
+      "note": "From master.csv. QLD cadastre (source 7): 81, 83 and 87-93 Kremzow Road = Lot 121 M31114 (161,874 m2), zoned Industry - General industry precinct (source 10). Private Energy Partners' schematic site map (May 2026, source 9) places the 'Supernode BESS site boundary' on the south side of Kremzow Road directly north of the South Pine Switchyard, i.e. this lot; the mapped area is entirely BESS (built and 'in development') plus substations, with no data centre footprint shown. Council's DA dataset maps the BESS permit DA/2023/1419 to a point in Lot 3 SP213172 (26 Cribb Road, ~1.3 km south), so the DA may span several lots; not verified. The 30 ha campus lot list is not published."
     },
     "suburb": "Brendale",
     "state": "QLD",
@@ -30,7 +30,7 @@
   "builder": {
     "value": null,
     "source": null,
-    "note": "no data centre builder; BESS stages built separately"
+    "note": "No data centre builder. BESS designed/procured/built by Quinbrook affiliate Private Energy Partners (source 9)."
   },
   "developer": {
     "value": "Quinbrook Infrastructure Partners",
@@ -39,34 +39,34 @@
   },
   "mw_it": {
     "value": null,
-    "source": null,
-    "note": "up to four hyperscale data centres; per-building IT MW not stated. The 800 MW figure is site power supply capacity from South Pine substation"
+    "source": 9,
+    "note": "Per-building IT MW not published. Private Energy Partners (Quinbrook affiliate) states '500 MW-IT potential data centre capacity on-site' and the precinct 'is capable of hosting 500MW of capacity' - a site-potential figure, not an approved or designed load, so not entered as the value."
   },
   "mw_grid": {
     "value": 800,
     "source": 1,
-    "note": "Quinbrook: 'up to 800 MWs of power supply capacity' (via South Pine substation, three HV connections) - site supply capacity, not confirmed DC demand; BESS also uses this connection (780 MW/3,074 MWh BESS campus planned per source 4)."
+    "note": "Quinbrook 2022: 'up to 800 MWs of power supply capacity' via South Pine substation (three HV connections) - site supply capacity shared with the BESS (780 MW / 3,073 MWh across Stages 1-3, source 9), not DC demand."
   },
   "cost_aud_m": {
     "value": 2500,
     "source": 1,
-    "note": "Quinbrook: 'estimated capital investment of up to $2.5 billion when fully constructed'; QLD Govt: '$2.5 billion-plus'. Includes BESS; no split published. BESS Stage 1 financing $325m; Stage 3 debt financing A$469m (source 4)."
+    "note": "Quinbrook 2022: 'up to $2.5 billion when fully constructed' (whole campus incl. BESS). Later figures: 'more than A$3 billion of investment is projected for the Supernode precinct' across all stages (source 9); BESS Stages 1-3 'expected to exceed A$1.4 billion' (source 9). No data centre-only cost published; the DC share is at most ~A$1.1-1.6bn by subtraction, which is an inference, not a stated figure."
   },
   "planning": {
     "authority": {
-      "value": "Moreton Bay Regional Council",
+      "value": "City of Moreton Bay (Moreton Bay Regional Council)",
       "source": 1,
-      "note": "Quinbrook (8 Jul 2022): obtained 'Foreign Investment Review Board' approval and 'local planning permissions from Moreton Bay Regional Council'. No data centre application identified in council's open DA dataset (source 8)."
+      "note": "Quinbrook (8 Jul 2022) claimed 'local planning permissions from Moreton Bay Regional Council'. Site is not in a Priority Development Area (PDA DAs in council's dataset are at The Mill, Petrie) and no state/ministerial approval pathway was found."
     },
     "pathway": {
       "value": null,
-      "source": null,
-      "note": "Type of council permission for the data centres not found. The BESS has its own code-assessable permit: DA/2023/1419 'Reconfiguring a Lot ... Material Change of Use - Development Permit for Battery Storage Facility and Building Works', lodged 2023-04-18, approved 2023-11-17 (source 8) - not the DC approval."
+      "source": 10,
+      "note": "No DC approval found. Under the MBRC Planning Scheme (V4 eff. 29 Jan 2020 and V7 eff. 30 Oct 2024), Table 5.5.7.3.1 Industry zone - General industry precinct: 'Research and technology industry' (the Planning Regulation 2017 use term whose examples include computer server facilities - from the Regulation's definition, not re-read in this pass) and 'Low impact industry' are 'Assessable development - Code assessment ... In all instances' (source 10). A data centre building on Lot 121 M31114 would therefore need a council development permit, which would appear in the DA dataset. The only Supernode permit found is DA/2023/1419 (RoL - subdivision by lease and access easement; MCU and Building Works - Development Permit for Battery Storage Facility), lodged 2023-04-18, approved 2023-11-17 (source 8) - a BESS approval, not a DC approval."
     },
     "reference": {
       "value": null,
-      "source": null,
-      "note": "DC approval reference not found. DA/36991/2018/V2L (cited by search results for 107-109 Kremzow Road) is a residential/preliminary approval, unrelated. BESS: DA/2023/1419."
+      "source": 8,
+      "note": "No data centre DA exists in the City of Moreton Bay open DA dataset (16,519 applications lodged Feb 2016 - 2026, queried 2026-09-27): no application on or intersecting Lot 121 M31114 at all; none mentioning 'data', 'server' or Supernode; the only 'research and technology industry' permits nearby are unrelated (DA/34673/2017/V2N, 2017, ~1 km north). BESS permit: DA/2023/1419. DA/36991/2018/V2L is an unrelated residential preliminary approval."
     },
     "lodged": {
       "value": null,
@@ -74,19 +74,18 @@
       "note": ""
     },
     "determined": {
-      "value": "2022",
-      "source": 1,
-      "precision": "year",
-      "note": "Approval obtained before the 8 July 2022 launch announcement (Quinbrook release; QLD ministerial statement dated Friday 8 July 2022). Exact date not found."
+      "value": null,
+      "source": null,
+      "note": "No DC approval date. The 2022 'local planning permissions' claim (source 1) is not matched by any council record; PEP describes 2022 only as 'Masterplan & regulatory approvals - Integrated campus vision confirmed for data + battery storage' (source 9). Even the BESS needed its own permit in 2023, so the 2022 'permissions' were not a development permit for the built works."
     },
-    "url": null
+    "url": "https://services-ap1.arcgis.com/152ojN3Ts9H3cdtl/ArcGIS/rest/services/MyStreet/FeatureServer/0"
   },
   "jobs_construction": {
     "value": null,
     "source": null,
     "basis": null,
     "scope": null,
-    "note": ""
+    "note": "No jobs figures found for the data centre. PEP community hub says only that the project 'has created, and will continue to create, jobs in both the construction and operational phases' (source 9)."
   },
   "jobs_construction_other": [],
   "jobs_operational": {
@@ -101,20 +100,19 @@
     "value": null,
     "source": null,
     "precision": null,
-    "note": "Site works began June 2024 for BESS Stage 1 only; no data centre building construction found"
+    "note": "'Construction begins onsite in June 2024' (source 9) refers to BESS Stage 1; no data centre construction found. Quinbrook's Supernode DC project page shows 'Status Construction' (source 9) but gives no DC works; the May 2026 site map shows only BESS."
   },
   "construction_end": {
     "value": null,
     "source": null,
     "precision": null,
-    "note": "BESS Stage 1 operational Feb 2026; Stage 2 (250 MW/1,040 MWh) operating late Jul 2026; Stage 3 (260 MW/1,216 MWh) financed Aug 2026 (ESS News, read in full). No data centre component mentioned. Data centre timing unknown (Baxtel shows 2028-2031)."
+    "note": "BESS Stage 1 (260 MW / 619 MWh) commercial operations Feb 2026; Stage 2 July 2026 (Stages 1+2 = 520 MW / 1,858 MWh); Stage 3 (Stanwell offtake) under construction (sources 4, 9). No data centre timing; Baxtel's 2028-2031 is unsourced."
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "scope: no evidence any data centre building has been designed, lodged or started; the 2022 'local planning permissions' are unspecified and no DC application appears in council's DA dataset - the approval claim is unverified",
-    "per-building IT MW unknown; should split into up to 4 rows once known",
-    "council DA reference, type and date for the data centres not found (BESS permit DA/2023/1419 found)",
-    "site lots/address: 83 Kremzow Rd (Lot 121 M31114) vs BESS lot 3 SP213172",
-    "cost $2.5bn includes BESS; no split"
+    "scope: recommend exclude as announced/unapproved (move to excluded.csv) - no data centre planning approval found. Data centre use (research and technology industry) is code-assessable in the General industry precinct and so needs a council permit, but council's DA dataset (2016-2026) has no DC application for the site; the only Supernode approval is BESS permit DA/2023/1419 (approved 2023-11-17). The 2022 'local planning permissions' claim is unsubstantiated, Quinbrook markets the DC as 'powered land'/potential '500 MW-IT', no tenant is announced, and the May 2026 site map shows the Kremzow Road site used entirely for BESS",
+    "council DA Tracker and planning-scheme PDFs return 403 to scripts; DA/2023/1419 documents (lot list, applicant) not read - confirm whether it covers Lot 121 M31114 as well as Lot 3 SP213172",
+    "location of any future data centre pad within the '30 ha' campus unknown (Lot 121 M31114 appears fully allocated to BESS per May 2026 map)",
+    "per-building IT MW, tenant, cost split and jobs unknown; revisit if a DC DA (MCU for research and technology industry) is lodged"
   ]
 }
