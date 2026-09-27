@@ -17,14 +17,14 @@
       "note": "Standard Fortitude Valley postcode; not stated in a cited source"
     },
     "lat": {
-      "value": null,
+      "value": -27.45372,
       "source": null,
-      "note": "Not geocoded: geocoding services (Nominatim) and source pages were unreachable from this session (egress blocked)"
+      "note": "Geocoded 2026-09-27 from '454 St Pauls Terrace, Fortitude Valley QLD 4006' with the ArcGIS World Geocoder (PointAddress, score 100). Cross-check: the OpenStreetMap building footprint ('454, Saint Pauls Terrace, Fortitude Valley, Brisbane, Queens') is 18m away. Point for 454 St Pauls Tce (existing B2); the DA site also takes in Misterton/Constance St lots."
     },
     "lon": {
-      "value": null,
+      "value": 153.03302,
       "source": null,
-      "note": "Not geocoded: geocoding services (Nominatim) and source pages were unreachable from this session (egress blocked)"
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -111,7 +111,6 @@
   "open_questions": [
     "BCC decision date for A006268579 not found",
     "whether Multiplex data-hall fit-out is the same project as the 9-storey HQ/data hall DA",
-    "cost, jobs, construction dates not found",
-    "lat/lon not geocoded"
+    "cost, jobs, construction dates not found"
   ]
 }

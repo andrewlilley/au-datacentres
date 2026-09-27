@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
+      "value": -32.05965,
       "source": null,
-      "note": "not geocoded: WebFetch/geocoder blocked in this session"
+      "note": "Geocoded 2026-09-27 from '1 Martin Place, Canning Vale WA 6155' with the ArcGIS World Geocoder (PointAddress, score 100). Cross-check: the OpenStreetMap building footprint ('Pier Data Centre, 1, Martin Place, Canning Vale, Perth, West') is 29m away."
     },
     "lon": {
-      "value": null,
+      "value": 115.91607,
       "source": null,
-      "note": ""
+      "note": "see lat note"
     }
   },
   "builder": {

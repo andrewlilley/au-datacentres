@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
+      "value": -27.41577,
       "source": null,
-      "note": "not geocoded: geocoding services unreachable from this session"
+      "note": "Geocoded 2026-09-27 from '2 Cycas Lane, Brisbane Airport QLD 4008' with the ArcGIS World Geocoder (PointAddress, score 100). Cross-check: the OpenStreetMap building footprint ('DigiCo BNE1, 2, Cycas Lane, Brisbane International Export Pa') is 27m away."
     },
     "lon": {
-      "value": null,
+      "value": 153.09171,
       "source": null,
-      "note": "not geocoded: geocoding services unreachable from this session"
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -113,7 +113,6 @@
     "address: 2 vs 4 Cycas Lane for the Stage 2 building",
     "installed IT (~1.7 MW) vs 6 MW design; confirm >=5 MW design",
     "Airports Act approval reference and dates not found",
-    "cost not found",
-    "lat/lon not geocoded (geocoder blocked)"
+    "cost not found"
   ]
 }

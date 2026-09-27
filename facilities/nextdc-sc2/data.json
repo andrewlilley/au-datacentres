@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
+      "value": -26.66002,
       "source": null,
-      "note": "Not geocoded: geocoding services (Nominatim) and source pages were unreachable from this session (egress blocked)"
+      "note": "Geocoded 2026-09-27 from '10 South Sea Islander Way, Maroochydore QLD 4558' with the ArcGIS World Geocoder (PointAddress, score 100)."
     },
     "lon": {
-      "value": null,
+      "value": 153.09247,
       "source": null,
-      "note": "Not geocoded: geocoding services (Nominatim) and source pages were unreachable from this session (egress blocked)"
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -113,7 +113,6 @@
   "open_questions": [
     "builder not found",
     "cost currency (USD vs AUD) of $200m",
-    "jobs and construction start not found",
-    "lat/lon not geocoded"
+    "jobs and construction start not found"
   ]
 }

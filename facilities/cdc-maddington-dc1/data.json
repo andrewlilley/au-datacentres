@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
+      "value": -32.03248,
       "source": null,
-      "note": "not geocoded: geocoding services unreachable from this session (egress blocked)"
+      "note": "Geocoded 2026-09-27 from '307 Kenwick Road, Maddington WA 6109' with the ArcGIS World Geocoder (PointAddress, score 100). Campus-level point for the lot at 307 Kenwick Rd; the building's position on the campus is unknown."
     },
     "lon": {
-      "value": null,
+      "value": 116.00415,
       "source": null,
-      "note": "not geocoded: see lat"
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -115,7 +115,6 @@
     "builder unknown",
     "per-building MW unknown (150MW DAP vs 200MW marketed)",
     "DAP report PDF not read directly (egress blocked): cost/jobs in report unverified",
-    "exact determination date (10 Sep vs 22 Sep 2025)",
-    "lat/lon not geocoded"
+    "exact determination date (10 Sep vs 22 Sep 2025)"
   ]
 }

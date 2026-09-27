@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
+      "value": -31.9488,
       "source": null,
-      "note": "not geocoded: geocoding services unreachable from this session (egress blocked)"
+      "note": "Geocoded 2026-09-27 from '37 Abernethy Road, Belmont WA 6104' with the ArcGIS World Geocoder (PointAddress, score 100). Campus-level point for 37-39 Abernethy Rd."
     },
     "lon": {
-      "value": null,
+      "value": 115.92211,
       "source": null,
-      "note": "not geocoded: see lat"
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -113,7 +113,6 @@
   "last_checked": "2026-09-27",
   "open_questions": [
     "scope: approval may have lapsed - Oct 2022 DAP approval with no evidence of substantial commencement or extension found by Sept 2026",
-    "DAP reference number and approval expiry condition not found",
-    "lat/lon not geocoded"
+    "DAP reference number and approval expiry condition not found"
   ]
 }

@@ -17,14 +17,14 @@
       "note": "Standard Darwin City postcode; not stated in a cited source"
     },
     "lat": {
-      "value": null,
+      "value": -12.4568,
       "source": null,
-      "note": "Not geocoded: geocoding services (Nominatim) and source pages were unreachable from this session (egress blocked)"
+      "note": "Geocoded 2026-09-27 from '2 Ryko Court, Darwin City NT 0800' with the ArcGIS World Geocoder (PointAddress, score 100). Point is 2 Ryko Court, which sits beside D1 (2 Harvey St), about 10 m from D1's geocode."
     },
     "lon": {
-      "value": null,
+      "value": 130.84357,
       "source": null,
-      "note": "Not geocoded: geocoding services (Nominatim) and source pages were unreachable from this session (egress blocked)"
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -112,7 +112,6 @@
     "planning approval (NT DCA) reference and date",
     "cost and jobs not found",
     "construction start date",
-    "address conflict 2-6 Ryko Court vs 2 Harvey St",
-    "lat/lon not geocoded"
+    "address conflict 2-6 Ryko Court vs 2 Harvey St"
   ]
 }

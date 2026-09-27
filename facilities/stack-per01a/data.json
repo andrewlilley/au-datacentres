@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
+      "value": -31.79616,
       "source": null,
-      "note": "not geocoded: geocoder (nominatim) and map sources blocked by network egress in this session"
+      "note": "Geocoded 2026-09-27 from '92 Windsor Road, Wangara WA 6065' with the ArcGIS World Geocoder (PointAddress, score 100). Campus-level point for 92 Windsor Rd."
     },
     "lon": {
-      "value": null,
+      "value": 115.82479,
       "source": null,
-      "note": "not geocoded: geocoder (nominatim) and map sources blocked by network egress in this session"
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -114,7 +114,6 @@
     "approval date, authority and reference not found (City of Wanneroo or Metro Outer DAP)",
     "approval validity: DA reported 2022, construction never started; WA approvals typically lapse if not substantially commenced within the approval period (often 2-4 years) - likely lapsed but unconfirmed",
     "current status unclear per DCD June 2026; no evidence of construction",
-    "lat/lon not geocoded (egress blocked)",
     "scope: approval likely lapsed and project not progressed since 2022 - consider removing if lapse confirmed"
   ]
 }

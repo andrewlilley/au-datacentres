@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
+      "value": -34.9257,
       "source": null,
-      "note": "Not geocoded: geocoding services (Nominatim) and source pages were unreachable from this session (egress blocked)"
+      "note": "Geocoded 2026-09-27 from '125 Frome Street, Adelaide SA 5000' with the ArcGIS World Geocoder (PointAddress, score 100). Cross-check: the OpenStreetMap building footprint ('NextDC A1, 125, Frome Street, Adelaide, South Australia, 500') is 1m away."
     },
     "lon": {
-      "value": null,
+      "value": 138.60786,
       "source": null,
-      "note": "Not geocoded: geocoding services (Nominatim) and source pages were unreachable from this session (egress blocked)"
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -121,7 +121,6 @@
     "planning approval (SCAP/PlanSA) reference and dates not found",
     "construction start date",
     "150 jobs figure not split construction/operational",
-    "scope: exactly 5 MW - borderline threshold",
-    "lat/lon not geocoded"
+    "scope: exactly 5 MW - borderline threshold"
   ]
 }

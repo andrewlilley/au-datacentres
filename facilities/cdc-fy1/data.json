@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
+      "value": -35.33804,
       "source": null,
-      "note": "not geocoded: nominatim and other geocoders blocked by network egress proxy in this session"
+      "note": "Geocoded 2026-09-27 from '11 Tom Price Street, Fyshwick ACT 2609' with the ArcGIS World Geocoder (PointAddress, score 100). Cross-check: the OpenStreetMap building footprint ('Fyshwick 2, 11, Tom Price Street, Fyshwick, Canberra, Distri') is 25m away."
     },
     "lon": {
-      "value": null,
+      "value": 149.18315,
       "source": null,
-      "note": "not geocoded: nominatim and other geocoders blocked by network egress proxy in this session"
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -110,7 +110,6 @@
   "last_checked": "2026-09-27",
   "open_questions": [
     "scope: completed/operational January 2014, before 2018-09-01 cutoff - out of scope",
-    "builder address discrepancy (2 Leonora St vs 11 Tom Price St)",
-    "lat/lon not geocoded (egress blocked)"
+    "builder address discrepancy (2 Leonora St vs 11 Tom Price St)"
   ]
 }

@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
+      "value": -35.39711,
       "source": null,
-      "note": "not geocoded: nominatim and other geocoders blocked by network egress proxy in this session"
+      "note": "Geocoded 2026-09-27 from '62 Sawmill Circuit, Hume ACT 2620' with the ArcGIS World Geocoder (PointAddress, score 100)."
     },
     "lon": {
-      "value": null,
+      "value": 149.16392,
       "source": null,
-      "note": "not geocoded: nominatim and other geocoders blocked by network egress proxy in this session"
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -111,7 +111,6 @@
   "open_questions": [
     "DA approval not confirmed",
     "under_construction status from Infratil Sep 2025 (master.csv lead) not re-verified",
-    "IT MW unknown",
-    "lat/lon not geocoded (egress blocked)"
+    "IT MW unknown"
   ]
 }

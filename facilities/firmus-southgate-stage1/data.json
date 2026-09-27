@@ -17,14 +17,14 @@
       "note": "St Leonards TAS believed 7250; not confirmed from a source"
     },
     "lat": {
-      "value": null,
+      "value": -41.44088,
       "source": null,
-      "note": "not geocoded: WebFetch/geocoder blocked in this session"
+      "note": "Geocoded 2026-09-27 from '23 Killafaddy Road, St Leonards TAS 7250' with the ArcGIS World Geocoder (PointAddress, score 100). Cross-check: the OpenStreetMap building footprint ('Firmus LST01, 23, Killafaddy Road, Killafaddy, St Leonards, ') is 65m away."
     },
     "lon": {
-      "value": null,
+      "value": 147.17577,
       "source": null,
-      "note": ""
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -122,7 +122,6 @@
     "planning reference (DA number) not found",
     "builder not found",
     "construction start date not found",
-    "Stage 1a/1b could be split into separate rows",
-    "lat/lon not geocoded (fetch blocked)"
+    "Stage 1a/1b could be split into separate rows"
   ]
 }

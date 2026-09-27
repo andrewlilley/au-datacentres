@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
+      "value": -27.31856,
       "source": null,
-      "note": "not geocoded: geocoding services unreachable from this session"
+      "note": "Geocoded 2026-09-27 from '83 Kremzow Road, Brendale QLD 4500' with the ArcGIS World Geocoder (PointAddress, score 100)."
     },
     "lon": {
-      "value": null,
+      "value": 152.9726,
       "source": null,
-      "note": "not geocoded: geocoding services unreachable from this session"
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -114,7 +114,6 @@
     "no evidence data centre buildings have started; only BESS stages built",
     "per-building IT MW unknown; should split into up to 4 rows once known",
     "council DA reference and date not found",
-    "cost $2.5bn includes BESS",
-    "lat/lon not geocoded (geocoder blocked)"
+    "cost $2.5bn includes BESS"
   ]
 }

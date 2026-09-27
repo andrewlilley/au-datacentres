@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
+      "value": -27.41547,
       "source": null,
-      "note": "not geocoded: geocoding services unreachable from this session"
+      "note": "Geocoded 2026-09-27 from '6 Cycas Lane, Brisbane Airport QLD 4008' with the ArcGIS World Geocoder (StreetAddressExt, score 98.9). Street-interpolated (StreetAddressExt), not an address point: approximate."
     },
     "lon": {
-      "value": null,
+      "value": 153.09147,
       "source": null,
-      "note": "not geocoded: geocoding services unreachable from this session"
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -112,7 +112,6 @@
   "open_questions": [
     "status: under_construction kept from master.csv but no evidence construction has started; DigiCo describes it as a greenfield development with a lease option - may only be planned",
     "scope: no planning/Airports Act approval found - may not meet 'approved' criterion",
-    "builder, cost, jobs not found",
-    "lat/lon not geocoded (geocoder blocked)"
+    "builder, cost, jobs not found"
   ]
 }

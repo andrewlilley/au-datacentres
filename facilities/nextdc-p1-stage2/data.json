@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
+      "value": -31.8644,
       "source": null,
-      "note": "not geocoded: geocoder (nominatim) and map sources blocked by network egress in this session"
+      "note": "Geocoded 2026-09-27 from '4 Millrose Drive, Malaga WA 6090' with the ArcGIS World Geocoder (PointAddress, score 100)."
     },
     "lon": {
-      "value": null,
+      "value": 115.89593,
       "source": null,
-      "note": "not geocoded: geocoder (nominatim) and map sources blocked by network egress in this session"
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -121,7 +121,6 @@
   "open_questions": [
     "construction start date not found",
     "DAP reference number not found",
-    "confirm practical completion (scheduled Q3 2026)",
-    "lat/lon not geocoded (egress blocked)"
+    "confirm practical completion (scheduled Q3 2026)"
   ]
 }

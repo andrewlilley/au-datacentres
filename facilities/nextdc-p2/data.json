@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
+      "value": -31.95009,
       "source": null,
-      "note": "not geocoded: geocoder (nominatim) and map sources blocked by network egress in this session"
+      "note": "Geocoded 2026-09-27 from '11 Newcastle Street, Perth WA 6000' with the ArcGIS World Geocoder (PointAddress, score 100)."
     },
     "lon": {
-      "value": null,
+      "value": 115.86819,
       "source": null,
-      "note": "not geocoded: geocoder (nominatim) and map sources blocked by network egress in this session"
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -113,7 +113,6 @@
     "planning approval authority/reference/date not found",
     "cost not found",
     "jobs not found",
-    "construction start is an estimate (18-month build)",
-    "lat/lon not geocoded (egress blocked)"
+    "construction start is an estimate (18-month build)"
   ]
 }

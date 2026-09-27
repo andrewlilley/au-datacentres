@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
+      "value": -31.95482,
       "source": null,
-      "note": "not geocoded: WebFetch/geocoder blocked in this session"
+      "note": "Geocoded 2026-09-27 from '37 Lemnos Street, Shenton Park WA 6008' with the ArcGIS World Geocoder (PointAddress, score 100). Cross-check: the OpenStreetMap building footprint ('37, Lemnos Street, Shenton Park, Perth, Western Australia, 6') is 187m away."
     },
     "lon": {
-      "value": null,
+      "value": 115.79755,
       "source": null,
-      "note": ""
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -112,7 +112,6 @@
   "open_questions": [
     "scope: MW not published, DC Atlas est. ~3 MW live; may be under 5 MW",
     "planning approval not found",
-    "construction start not found",
-    "lat/lon not geocoded (fetch blocked)"
+    "construction start not found"
   ]
 }

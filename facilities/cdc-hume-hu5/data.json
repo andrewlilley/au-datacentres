@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
+      "value": -35.39576,
       "source": null,
-      "note": "not geocoded: nominatim and other geocoders blocked by network egress proxy in this session"
+      "note": "Geocoded 2026-09-27 from '7 Tralee Street, Hume ACT 2620' with the ArcGIS World Geocoder (PointAddress, score 100). Site-level point for the Tralee St campus; 5 Tralee St geocodes to the same point."
     },
     "lon": {
-      "value": null,
+      "value": 149.16328,
       "source": null,
-      "note": "not geocoded: nominatim and other geocoders blocked by network egress proxy in this session"
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -111,7 +111,6 @@
   "open_questions": [
     "planning ref: is DA 202038149 HU5 or another building?",
     "builder unknown",
-    "completion date only from Baxtel",
-    "lat/lon not geocoded (egress blocked)"
+    "completion date only from Baxtel"
   ]
 }
