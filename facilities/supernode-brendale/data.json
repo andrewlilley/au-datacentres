@@ -110,7 +110,7 @@
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "scope: recommend exclude as announced/unapproved (move to excluded.csv) - no data centre planning approval found. Data centre use (research and technology industry) is code-assessable in the General industry precinct and so needs a council permit, but council's DA dataset (2016-2026) has no DC application for the site; the only Supernode approval is BESS permit DA/2023/1419 (approved 2023-11-17). The 2022 'local planning permissions' claim is unsubstantiated, Quinbrook markets the DC as 'powered land'/potential '500 MW-IT', no tenant is announced, and the May 2026 site map shows the Kremzow Road site used entirely for BESS",
+    "scope: excluded - no data centre planning approval found (BESS-only DA/2023/1419); removed from master.csv and listed in excluded.csv (decision 2026-09-27)",
     "council DA Tracker and planning-scheme PDFs return 403 to scripts; DA/2023/1419 documents (lot list, applicant) not read - confirm whether it covers Lot 121 M31114 as well as Lot 3 SP213172",
     "location of any future data centre pad within the '30 ha' campus unknown (Lot 121 M31114 appears fully allocated to BESS per May 2026 map)",
     "per-building IT MW, tenant, cost split and jobs unknown; revisit if a DC DA (MCU for research and technology industry) is lodged"
