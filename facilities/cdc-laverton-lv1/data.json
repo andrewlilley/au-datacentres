@@ -85,13 +85,19 @@
   "jobs_construction": {
     "value": null,
     "source": null,
+    "basis": null,
+    "scope": null,
     "note": "CDC says 'thousands of local jobs' (campus-level, no number)"
   },
+  "jobs_construction_other": [],
   "jobs_operational": {
     "value": null,
     "source": null,
+    "basis": null,
+    "scope": null,
     "note": ""
   },
+  "jobs_operational_other": [],
   "construction_start": {
     "value": "2025-02-18",
     "source": 3,

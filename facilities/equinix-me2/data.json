@@ -40,7 +40,7 @@
   "mw_it": {
     "value": null,
     "source": null,
-    "note": "not published by Equinix; aggregators give 2-3 MW (source 6) \u2014 unverified; 3,000 cabinets at full build"
+    "note": "not published by Equinix; aggregators give 2-3 MW (source 6) — unverified; 3,000 cabinets at full build"
   },
   "mw_grid": {
     "value": null,
@@ -85,13 +85,19 @@
   "jobs_construction": {
     "value": null,
     "source": null,
+    "basis": null,
+    "scope": null,
     "note": ""
   },
+  "jobs_construction_other": [],
   "jobs_operational": {
     "value": null,
     "source": null,
+    "basis": null,
+    "scope": null,
     "note": ""
   },
+  "jobs_operational_other": [],
   "construction_start": {
     "value": null,
     "source": null,
@@ -106,7 +112,7 @@
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "scope: MW not published; aggregators suggest 2-3 MW (< 5 MW threshold) \u2014 likely out of scope",
+    "scope: MW not published; aggregators suggest 2-3 MW (< 5 MW threshold) — likely out of scope",
     "builder and planning permit not found",
     "lat/lon not geocoded"
   ]

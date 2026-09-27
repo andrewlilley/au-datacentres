@@ -85,13 +85,19 @@
   "jobs_construction": {
     "value": null,
     "source": null,
+    "basis": null,
+    "scope": null,
     "note": ""
   },
+  "jobs_construction_other": [],
   "jobs_operational": {
     "value": null,
     "source": null,
+    "basis": null,
+    "scope": null,
     "note": ""
   },
+  "jobs_operational_other": [],
   "construction_start": {
     "value": null,
     "source": null,
@@ -106,7 +112,7 @@
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "scope: Building 1 phase 1 completed 2017, before 2018-09-01 cutoff; later fit-out phases (20+MW completed May 2023) are post-cutoff \u2014 decide whether a post-cutoff fit-out counts",
+    "scope: Building 1 phase 1 completed 2017, before 2018-09-01 cutoff; later fit-out phases (20+MW completed May 2023) are post-cutoff — decide whether a post-cutoff fit-out counts",
     "builder / planning permit for Building 1 not found",
     "MW for Building 1 only from aggregator (25 MW)"
   ]

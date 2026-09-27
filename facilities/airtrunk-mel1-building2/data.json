@@ -50,7 +50,7 @@
   "cost_aud_m": {
     "value": 1000,
     "source": 1,
-    "note": "'over one billion dollars of direct investment' over 18 months \u2014 lower bound"
+    "note": "'over one billion dollars of direct investment' over 18 months — lower bound"
   },
   "planning": {
     "authority": {
@@ -85,13 +85,19 @@
   "jobs_construction": {
     "value": 1000,
     "source": 1,
-    "note": "'more than 1,000 jobs during the construction phase' \u2014 lower bound"
+    "basis": "unstated",
+    "scope": "unstated",
+    "note": "'more than 1,000 jobs during the construction phase' — lower bound"
   },
+  "jobs_construction_other": [],
   "jobs_operational": {
     "value": null,
     "source": null,
+    "basis": null,
+    "scope": null,
     "note": "'significant number' of operational jobs, no figure"
   },
+  "jobs_operational_other": [],
   "construction_start": {
     "value": "2024-08",
     "source": 2,

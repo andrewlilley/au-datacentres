@@ -85,13 +85,34 @@
   "jobs_construction": {
     "value": null,
     "source": null,
+    "basis": null,
+    "scope": null,
     "note": "Dover: >1,750 FTE construction jobs (>750 direct, >1,000 indirect) for the SM project overall (SM1A+SM1B), not SM1A alone"
   },
+  "jobs_construction_other": [
+    {
+      "value": 750,
+      "source": 1,
+      "basis": "unstated",
+      "scope": "direct",
+      "note": "Dover: '>750 direct' of '>1,750 FTE construction jobs'; covers the whole SM project (SM1A+SM1B), not SM1A alone; lower bound"
+    },
+    {
+      "value": 1750,
+      "source": 1,
+      "basis": "unstated",
+      "scope": "direct_indirect",
+      "note": "Dover: '>1,750 FTE construction jobs' (>750 direct, >1,000 indirect); whole SM project (SM1A+SM1B); lower bound"
+    }
+  ],
   "jobs_operational": {
     "value": null,
     "source": null,
+    "basis": null,
+    "scope": null,
     "note": ""
   },
+  "jobs_operational_other": [],
   "construction_start": {
     "value": null,
     "source": null,

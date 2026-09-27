@@ -50,7 +50,7 @@
   "cost_aud_m": {
     "value": null,
     "source": null,
-    "note": "AWS announced A$6.8bn for the Melbourne region 2022-2037 (region-wide, not site-level) \u2014 not recorded"
+    "note": "AWS announced A$6.8bn for the Melbourne region 2022-2037 (region-wide, not site-level) — not recorded"
   },
   "planning": {
     "authority": {
@@ -85,13 +85,19 @@
   "jobs_construction": {
     "value": null,
     "source": null,
+    "basis": null,
+    "scope": null,
     "note": ""
   },
+  "jobs_construction_other": [],
   "jobs_operational": {
     "value": null,
     "source": null,
+    "basis": null,
+    "scope": null,
     "note": ""
   },
+  "jobs_operational_other": [],
   "construction_start": {
     "value": null,
     "source": null,

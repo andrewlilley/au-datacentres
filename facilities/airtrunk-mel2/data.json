@@ -85,13 +85,19 @@
   "jobs_construction": {
     "value": 4000,
     "source": 1,
+    "basis": "unstated",
+    "scope": "unstated",
     "note": "'over 4,000 jobs' across multi-phase construction"
   },
+  "jobs_construction_other": [],
   "jobs_operational": {
     "value": 200,
     "source": 1,
+    "basis": "ongoing_headcount",
+    "scope": "direct",
     "note": "'over 200 direct jobs' once operational"
   },
+  "jobs_operational_other": [],
   "construction_start": {
     "value": null,
     "source": null,
