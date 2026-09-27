@@ -39,23 +39,23 @@
   "mw_it": {
     "value": 250,
     "source": 1,
-    "note": "SSD-63741210 describes a 250 MW data centre. NEXTDC/Multiplex market S4 as 350 MW (NEXTDC later quotes 365 MW total, including a Phase 2 SSD); the 2021 ASX release targeted 300 MW"
+    "note": "portal project description: 'six data centre buildings ... operational capacity of 250 MW'. The Assessment Report (source 8) describes the approved amended development as 'power consumption of 294 MW' (original EIS 232 MW); NEXTDC now markets S4 at 365 MW IT (source 11), which appears to include the separate Phase 2 SSD-108864209 (134.4 MW max power consumption, source 12). Multiplex says 350 MW; the 2021 ASX release targeted 300 MW"
   },
   "mw_grid": {
-    "value": null,
-    "source": null,
-    "note": "dual 330 kV feeders from Transgrid Sydney West substation; grid MW not found"
+    "value": 294,
+    "source": 8,
+    "note": "'power consumption of 294 MW' for the development as amended (Sept 2025) and approved; the EIS as exhibited was 232 MW. Two 330 kV underground lines (2.6 km) from Transgrid Sydney West substation"
   },
   "cost_aud_m": {
-    "value": 1100,
-    "source": 4,
-    "note": "media figure (The Urban Developer headline, 'NextDC $1.1bn data centre under way'), not the planning CIV. Other reports say $1.2bn. EIS CIV not seen because the planning portal was unreachable. Land cost about $124m in 2021 (source 5)"
+    "value": 3177.4,
+    "source": 8,
+    "note": "estimated development cost $3,177,382,221 (excl. GST) for the amended application, per the Department's Assessment Report and the RTS/Amendment Report (source 10); includes $155m for the HV connection. The EIS as exhibited had an EDC of $2,378,800,000 (source 9). Earlier value 1100 was a media figure (The Urban Developer, $1.1bn, apparently the first stage); land cost about $124m in 2021 (source 5)"
   },
   "planning": {
     "authority": {
       "value": "NSW Department of Planning, Housing and Infrastructure",
-      "source": 1,
-      "note": "determined by an Executive Director under delegation"
+      "source": 8,
+      "note": "determined by the Executive Director, Energy, Resources and Industry Assessments, under delegation"
     },
     "pathway": {
       "value": "SSD",
@@ -64,17 +64,17 @@
     "reference": {
       "value": "SSD-63741210",
       "source": 1,
-      "note": "SEARs request 16 Oct 2023 under PDA-63433217. There is a separate 'NEXTDC S4 Data Centre Phase 2' project on the portal (reference not found)"
+      "note": "SEARs request 16 Oct 2023 under PDA-63433217. Mod-1 (SSD-63741210-Mod-1, design modifications) approved 07/08/2026 (source 13). Separate project 'NEXTDC S4 Data Centre Phase 2, Horsley Park' is SSD-108864209 (at Prepare EIS stage, source 12)"
     },
     "lodged": {
       "value": "2024-06",
-      "source": 2,
-      "note": "estimate: inferred from the June 2024 (2024-06-20) upload timestamps of the SSDA documents on the portal. Exact lodgement date not confirmed"
+      "source": 9,
+      "note": "estimate: the EIS is dated 20 June 2024 and SSDA documents were uploaded 20 June 2024; exhibited 26 Jul - 22 Aug 2024. Amended application accepted 9 Sep 2025. Exact lodgement date not stated"
     },
     "determined": {
       "value": "2025-12-24",
       "source": 1,
-      "note": "Mod-1 approved Aug 2026 per master.csv notes (not re-verified)"
+      "note": "portal Project Details: Decision Approved, Determination Date 24/12/2025, Decider Executive Director. Mod-1 approved 07/08/2026"
     },
     "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-horsley-park"
   },
@@ -83,9 +83,30 @@
     "source": 3,
     "basis": "peak",
     "scope": "direct",
-    "note": "Multiplex: 1,800 workers onsite at peak construction"
+    "note": "Multiplex: 1,800 workers onsite at peak construction (not re-verified: multiplex.global returns 403). Much higher than the planning documents' on-site figure (250-300 daily workers at peak, Stage 1), which may reflect a different stage or definition"
   },
   "jobs_construction_other": [
+    {
+      "value": 1111,
+      "source": 8,
+      "basis": "unstated",
+      "scope": "unstated",
+      "note": "Assessment Report: 'up to 1,111 full-time equivalent construction jobs'; EIS (source 9): 'Approximately 1,111 full-time equivalent employees' (construction). Period not stated; tagged as FTE | basis set to unstated: 'full-time equivalent construction jobs' does not say headcount vs job-years or the period"
+    },
+    {
+      "value": 300,
+      "source": 10,
+      "basis": "peak",
+      "scope": "direct",
+      "note": "RTS/Amendment Report, construction traffic: 'around 250-300 construction workers will access the site daily' during peak construction (Stage 1, about 18 months). Upper end of range recorded"
+    },
+    {
+      "value": 70,
+      "source": 10,
+      "basis": "peak",
+      "scope": "direct",
+      "note": "HV transmission line works only: 'Peak construction workforce of around 70 personnel (excludes traffic management personnel)'"
+    },
     {
       "value": 500,
       "source": 5,
@@ -95,13 +116,21 @@
     }
   ],
   "jobs_operational": {
-    "value": null,
-    "source": null,
-    "basis": null,
-    "scope": null,
-    "note": ""
+    "value": 411,
+    "source": 9,
+    "basis": "ongoing_headcount",
+    "scope": "direct",
+    "note": "EIS and RTS: 'Operation: Approximately 411 specialist and related full-time roles (maximum of 196 staff at any given time)'; Assessment Report: '411 full-time operational jobs'"
   },
-  "jobs_operational_other": [],
+  "jobs_operational_other": [
+    {
+      "value": 196,
+      "source": 9,
+      "basis": "ongoing_headcount",
+      "scope": "direct",
+      "note": "'maximum of 196 staff at any given time' (three 8-hour shifts)"
+    }
+  ],
   "construction_start": {
     "value": "2026-03",
     "source": 3,
@@ -112,14 +141,13 @@
     "value": "2027",
     "source": 3,
     "precision": "year",
-    "note": "expected mid-2027 for the first stage (two four-storey buildings, 30,743 sqm)"
+    "note": "expected mid-2027 for the first stage (Multiplex). Planning documents: construction in four stages over about five years (Stage 1 = Building C, HV switching building, 330 kV substation), operations to commence 2028 (RTS)"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "capital investment value in EIS/assessment report not verified (planning portal blocked); $1.1bn is a media figure",
-    "exact SSD lodgement date and operational jobs figure not found",
-    "MW: consent 250 MW vs marketed 350/365 MW; Phase 2 SSD reference and scope unknown",
-    "number of buildings: SSD search summary says 5, master.csv note says 6; stage 1 is 2 buildings",
-    "jobs: basis/scope tagged from search-result wording; confirm against planning documents"
+    "exact SSD lodgement date not stated (EIS dated 20 June 2024)",
+    "MW: portal description 250 MW vs approved power consumption 294 MW vs NEXTDC 365 MW IT; Phase 2 SSD-108864209 (134.4 MW, 2 buildings, Prepare EIS) may need its own record or merging",
+    "buildings: portal description says six; EIS had five; amended/approved scheme is two adjoined four-storey buildings (AB and CD)",
+    "Multiplex 1,800 peak workers and construction start (Mar 2026) not re-verified (multiplex.global returns 403)"
   ]
 }

@@ -1,6 +1,6 @@
 {
   "id": "microsoft-seven-hills-b2",
-  "name": "Microsoft Seven Hills (Station Road) Building 2",
+  "name": "Microsoft Seven Hills (Station Road) Building 2 (SYD08)",
   "operator": "Microsoft",
   "status": "operational",
   "location": {
@@ -29,7 +29,7 @@
   "builder": {
     "value": "Taylor Construction",
     "source": 1,
-    "note": "General Contractor for second building (Taylor project code SYD08)"
+    "note": "General Contractor for Building Two; Taylor Construction Group prepared the CEMP approved 23 Feb 2023 (source 12); Taylor project code SYD08"
   },
   "developer": {
     "value": "Microsoft",
@@ -37,76 +37,83 @@
   },
   "mw_it": {
     "value": 19.2,
-    "source": 3,
-    "note": "stated as a '19.2MW data centre' (Northrop; press); not explicit whether IT or total load"
+    "source": 10,
+    "note": "CTMP: 'data-storage capacity of 19.2 megawatts'; EIS (source 8) describes the same 19.2MW as 'Total power consumption capacity up to 19.2 MW', so it may be total load rather than IT"
   },
   "mw_grid": {
     "value": null,
     "source": null,
-    "note": "SSD documents say total power consumption exceeds 10MW"
+    "note": "EIS: total power consumption up to 19.2MW for SYD08; site total with SYD09 = 20.4MW (EIS Table 7)"
   },
   "cost_aud_m": {
-    "value": null,
-    "source": null,
-    "note": "CIV in SSD-33781208 EIS not retrieved (portal blocked)"
+    "value": 167.63,
+    "source": 8,
+    "note": "EIS CIV $167,632,802 (excl. GST)"
   },
   "planning": {
     "authority": {
       "value": "NSW DPE",
-      "source": 5
+      "source": 9,
+      "note": "consent signed by Chris Ritchie, Director Industry Assessments, as delegate of the Minister"
     },
     "pathway": {
       "value": "SSD",
-      "source": 4
+      "source": 9
     },
     "reference": {
       "value": "SSD-33781208",
-      "source": 4
+      "source": 9
     },
     "lodged": {
       "value": "2022-07",
-      "source": 4,
-      "note": "inferred from EIS exhibition document dates (July 2022)"
+      "source": 11,
+      "note": "not stated; EIS dated 9 June 2022 (source 8); DPE requested agency comments on 11 July 2022 (source 11)"
     },
     "determined": {
-      "value": "2022",
-      "source": 5,
-      "note": "'late 2022'; exact date not retrieved"
+      "value": "2022-12-16",
+      "source": 9
     },
     "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/station-road-data-centre-expansion"
   },
   "jobs_construction": {
-    "value": null,
-    "source": null,
-    "basis": null,
-    "scope": null,
-    "note": ""
+    "value": 250,
+    "source": 8,
+    "basis": "peak",
+    "scope": "direct",
+    "note": "EIS: 'a peak of up to 250 workers per day'; also 'Up to 250 construction jobs'"
   },
-  "jobs_construction_other": [],
+  "jobs_construction_other": [
+    {
+      "value": 100,
+      "source": 8,
+      "basis": "average",
+      "scope": "direct",
+      "note": "EIS/CTMP: 'typically be around 100 construction workers on site daily'"
+    }
+  ],
   "jobs_operational": {
-    "value": null,
-    "source": null,
-    "basis": null,
-    "scope": null,
-    "note": ""
+    "value": 36,
+    "source": 8,
+    "basis": "ongoing_headcount",
+    "scope": "direct",
+    "note": "EIS: '36 operational full time employees' / 'full time staff at the site will comprise 36 operational staff and 4 visitors/contractor staff (e.g. security guards)'"
   },
   "jobs_operational_other": [],
   "construction_start": {
     "value": "2023-06",
     "source": 1,
     "precision": "month",
-    "note": "Taylor started works June 2023 (master.csv says Jul 2023)"
+    "note": "Microsoft Local: Taylor to start works June 2023. CTMP (source 10) planned Stage 1 structure from Jan 2023; CEMP approved 23 Feb 2023 (source 12)"
   },
   "construction_end": {
     "value": null,
     "source": null,
     "precision": null,
-    "note": "originally expected late 2024; later Microsoft update said structure, roofing and facade nearing completion; completion date not confirmed"
+    "note": "planned Sept 2024 (CTMP Stage 2 fit-out end); Microsoft Local Jul 2024: structure, roofing and facade nearing completion; actual completion not published"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "status operational not confirmed - completion date not found",
-    "CIV and jobs from SSD-33781208 EIS/assessment report not retrieved (portal fetch blocked)",
-    "exact determination date not found"
+    "completion date not published; status 'operational' not confirmed by a primary source",
+    "mw_it 19.2: CTMP calls it data-storage capacity, EIS calls it total power consumption - IT vs total unclear"
   ]
 }

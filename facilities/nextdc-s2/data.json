@@ -6,8 +6,8 @@
   "location": {
     "address": {
       "value": "6-8 Giffnock Avenue, Macquarie Park NSW",
-      "source": 2,
-      "note": "datacentermap lists '6/8 Giffnock Ave'; Sydney North Planning Panel 'Giffnock Data Centre' DA matches (source 3)"
+      "source": 3,
+      "note": "address as given on the planning panel page and in the SNPP determination (sources 3, 8); datacentermap lists '6/8 Giffnock Ave'"
     },
     "suburb": "Macquarie Park",
     "state": "NSW",
@@ -47,13 +47,13 @@
   "cost_aud_m": {
     "value": 97.3,
     "source": 3,
-    "note": "capital investment value $97,317,480 for DA LDA2017/0192 (8-storey data centre building, subdivision, new road). Likely excludes later fit-out"
+    "note": "capital investment value $97,317,480 for DA LDA2017/0192 (planning panel page, verified 2026-09-27). Covers the 8-storey data centre building, 2-lot subdivision and new road; likely excludes later fit-out"
   },
   "planning": {
     "authority": {
       "value": "Sydney North Planning Panel",
-      "source": 3,
-      "note": "DA lodged with City of Ryde, determined by the regional planning panel"
+      "source": 8,
+      "note": "City of Ryde DA determined by the regional panel (panel ref PPS-2017SNH049), 'General development over $20 million'"
     },
     "pathway": {
       "value": "Regionally significant DA (council DA determined by planning panel)",
@@ -62,16 +62,17 @@
     "reference": {
       "value": "LDA2017/0192",
       "source": 3,
-      "note": "City of Ryde DA number"
+      "note": "City of Ryde DA number; panel reference PPS-2017SNH049. Applicant/owner Next DC Limited"
     },
     "lodged": {
-      "value": "2017",
+      "value": "2017-05-29",
       "source": 3,
-      "note": "year inferred from the DA number LDA2017/0192"
+      "note": "lodgement date on the planning panel page; referred to panel 31/05/2017. Assessment report also says 'lodged on 29 May 2017'"
     },
     "determined": {
-      "value": null,
-      "source": null
+      "value": "2017-08-07",
+      "source": 8,
+      "note": "approved unanimously at SNPP public meeting 7 August 2017 (Determination and Statement of Reasons)"
     },
     "url": "https://www.planningportal.nsw.gov.au/planning-panel/giffnock-data-centre"
   },
@@ -80,7 +81,7 @@
     "source": null,
     "basis": null,
     "scope": null,
-    "note": ""
+    "note": "no construction jobs figure in the DA assessment report or determination"
   },
   "jobs_construction_other": [],
   "jobs_operational": {
@@ -90,20 +91,30 @@
     "scope": null,
     "note": ""
   },
-  "jobs_operational_other": [],
+  "jobs_operational_other": [
+    {
+      "value": 50,
+      "source": 9,
+      "basis": "unstated",
+      "scope": "unstated",
+      "note": "Council assessment report (26 July 2017): 'The Data Centre will accommodate 50 people on a typical day, both permanent and visiting. 5 staff will be on site overnight.' Includes visitors, so not a staff count; report adds the development 'will not provide a significant number of employment opportunities'"
+    }
+  ],
   "construction_start": {
-    "value": null,
-    "source": null
+    "value": "2017",
+    "source": 6,
+    "precision": "year",
+    "note": "DA approved 7 Aug 2017; NEXTDC statement (Dec 2017, quoted by iTnews 2 Jan 2018): 'Development and construction of S2 is currently underway and the site is expected to open in 1HFY19 with an initial capacity of 6MW'. So work started between Aug and Dec 2017; exact month unknown"
   },
   "construction_end": {
     "value": "2020",
     "source": 5,
     "precision": "year",
-    "note": "reported as completed/opened 2020; 'full fit-out' July 2020 per a search summary. iTnews reported 20 of 30 MW taken at opening. A Dec 2017 iTnews story ('NextDC fast-tracks capacity for S2') suggests work was under way in 2017-18"
+    "note": "phased: S2 'opened for early customer access during 1H19' (i.e. Jul-Dec 2018) per NEXTDC 1H19 results (source 10) and 'commenced operations in 1H19. 22MW of fitout being delivered' per FY19 results deck (source 11). iTnews gallery 5 Aug 2020 calls S2 NEXTDC's 'latest facility to open', 20 of 30 MW contracted. 2020 = completion of the main 30 MW build-out"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "scope: confirm first-phase opening date is after 2018-09-01 (reported 2020, but construction was fast-tracked from 2017)",
-    "DA determination date and jobs figures not found (planning panel report not reachable)"
+    "scope: S2 first opened for early customer access in 1H FY19 (Jul-Dec 2018); exact date not found, so the initial 6 MW phase may pre-date 2018-09-01. The 22 MW fit-out continued to 2020, so the facility was being completed after the cutoff",
+    "builder (Multiplex) not re-verified: multiplex.global returns 403"
   ]
 }

@@ -32,65 +32,76 @@
     "note": "core-and-shell builder unknown"
   },
   "developer": {
-    "value": null,
-    "source": null,
-    "note": "the core and shell was built by a third party (vendor not disclosed) and bought by NEXTDC in March 2024; NEXTDC did the fit-out. inflect.com associates 3 Broadcast Way with Keppel Data Centres 'Sydney 1' (unverified)"
+    "value": "Lindsay Bennelong Developments",
+    "source": 7,
+    "note": "DA 2018/273 applicant (Lindsay Bennelong Developments Pty Ltd). Land owners at lodgement: Gore Hill Developments No 1, 2 and 3 Pty Ltd; owner at the 2019 modification: GH Cloud Management Pty Ltd (source 3). The modification report says the building 'will be operated concurrently with the existing Keppel data centre at 5 Broadcast Way'. Vendor to NEXTDC (Mar 2024) not named"
   },
   "mw_it": {
     "value": 13.5,
     "source": 1,
-    "note": "up to 13.5 MW across 4,000 sqm of data hall; master.csv notes 2.7 MW built and 10.8 MW in progress"
+    "note": "ASX release 12 Mar 2024: 'up to 13.5MW across 4,000m2 of data hall space' (verified); master.csv notes 2.7 MW built and 10.8 MW in progress"
   },
   "mw_grid": {
     "value": null,
     "source": null
   },
   "cost_aud_m": {
-    "value": null,
-    "source": null,
-    "note": "acquisition price A$184m (land plus completed core and shell, ASX release 12 Mar 2024), which is not a construction cost. SNPP report for DA 2018/273/A at 3 Broadcast Way gives a CIV of $37,176,000 (source 3); unverified whether this is the S6 building"
+    "value": 37.2,
+    "source": 6,
+    "note": "capital investment value $37,176,000 for DA 2018/273 (planning panel page; unchanged for mod DA 2018/273/A). Core-and-shell development CIV; NEXTDC paid A$184m for land plus completed core and shell (ASX 12 Mar 2024) and did its own fit-out"
   },
   "planning": {
     "authority": {
       "value": "Sydney North Planning Panel",
-      "source": 3,
-      "note": "Willoughby Council DA determined by the regional planning panel (PPSSNH-23)"
+      "source": 7,
+      "note": "Willoughby Council DA determined by the regional panel (panel ref PPS-2018SNH049; modification PPSSNH-23)"
     },
     "pathway": {
       "value": "Regionally significant DA (council DA determined by planning panel)",
-      "source": 3
+      "source": 6,
+      "note": "CIV over $30 million"
     },
     "reference": {
       "value": "DA 2018/273",
-      "source": 3,
-      "note": "inferred from the address match only (SNPP report on modification DA 2018/273/A, Feb 2020). Not confirmed that this DA covers the S6 data centre building"
+      "source": 6,
+      "note": "Willoughby DA for 'construction of a high technology industrial building for use as a purpose built data centre' at 3 Broadcast Way (Lot 3 DP 270714): four-storey building, data halls on floors 1, 2 and 4, 1,802 racks. Modified by DA 2018/273/A (lodged 13 Aug 2019, SNPP meeting 19 Feb 2020). An earlier DA 2014/223 (JRPP, CIV $24.64m) for a data centre on the same lot was superseded"
     },
     "lodged": {
-      "value": null,
-      "source": null
+      "value": "2018-08-22",
+      "source": 6,
+      "note": "lodgement date on the planning panel page and in the assessment report"
     },
     "determined": {
-      "value": null,
-      "source": null
+      "value": "2018-12-21",
+      "source": 7,
+      "note": "approved by SNPP, papers circulated electronically 14-21 Dec 2018 (Determination and Statement of Reasons)"
     },
-    "url": "https://apps.planningportal.nsw.gov.au/prweb/PRRestService/DocMgmt/v1/PublicDocuments/DATA-WORKATTACH-FILE%20PEC-DPE-EP-WORK%20PPSSNH-23!20200205T055149.467%20GMT"
+    "url": "https://www.planningportal.nsw.gov.au/planning-panel/data-centre-1"
   },
   "jobs_construction": {
     "value": null,
     "source": null,
     "basis": null,
     "scope": null,
-    "note": ""
+    "note": "no construction jobs figure in the DA documents"
   },
   "jobs_construction_other": [],
   "jobs_operational": {
-    "value": null,
-    "source": null,
-    "basis": null,
-    "scope": null,
-    "note": ""
+    "value": 20,
+    "source": 8,
+    "basis": "ongoing_headcount",
+    "scope": "direct",
+    "note": "Council assessment report (2018SNH049): 'the data centre proposes to employ approximately 20 staff and that only 75% of the staff would be on site at any one time'"
   },
-  "jobs_operational_other": [],
+  "jobs_operational_other": [
+    {
+      "value": 8,
+      "source": 3,
+      "basis": "ongoing_headcount",
+      "scope": "direct",
+      "note": "modification report (PPSSNH-23): 'the maximum number of occupants present in the subject building during day time will be 8 and that night time will be 4' (shared operational personnel with the Keppel data centre at 5 Broadcast Way)"
+    }
+  ],
   "construction_start": {
     "value": null,
     "source": null
@@ -99,12 +110,12 @@
     "value": "2022",
     "source": 1,
     "precision": "year",
-    "note": "core and shell completed 1H CY2022 (ASX release). NEXTDC fit-out and opening followed in 2024 (Wikipedia), which explains the 2022-vs-2024 conflict in master.csv"
+    "note": "ASX release (verified): 'Construction of the facility was completed in 1H of calendar 2022' (core and shell). NEXTDC fit-out and opening followed in 2024 (Wikipedia)"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "original developer/vendor and core-and-shell builder unknown",
-    "confirm DA 2018/273 (3 Broadcast Way) is the S6 building; its determination date and CIV",
-    "operational date: shell completed 1H 2022, NEXTDC opened 2024; fit-out builder unknown"
+    "core-and-shell builder unknown (Lindsay Bennelong was the DA applicant; whether it built the shell is unconfirmed); vendor to NEXTDC not named",
+    "construction start date unknown",
+    "NEXTDC fit-out builder and exact opening date (2024) not confirmed"
   ]
 }
