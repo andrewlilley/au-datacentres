@@ -1,0 +1,140 @@
+{
+  "id": "aws-gregory-hills",
+  "name": "AWS Gregory Hills (SYD091, 43-61 Turner Road Data Centre)",
+  "operator": "Amazon Web Services",
+  "status": "under_construction",
+  "location": {
+    "address": {
+      "value": "43-61 Turner Road, Gregory Hills NSW 2557",
+      "source": 5,
+      "note": "Consent Schedule 1: 'Lots 14-17 DP 28024, 43-61 Turner Road, Gregory Hills'. Site 9.74 ha in Camden LGA (AR, source 4)."
+    },
+    "suburb": "Gregory Hills",
+    "state": "NSW",
+    "postcode": {
+      "value": "2557",
+      "source": 8,
+      "note": "FDC/JBS&G Construction WMP s1.3: '43-61 Turner Road, Gregory Hills, NSW, 2557'."
+    },
+    "lat": {
+      "value": -34.02783,
+      "source": 17,
+      "note": "Geocoded from street address via NSW Spatial Services GNAF address point for '43 TURNER ROAD GREGORY HILLS' (-34.027825, 150.761057); '61 TURNER ROAD GREGORY HILLS' is at -34.028755, 150.762693. SSD application form (source 3) gives site coordinates -34.028123, 150.762. Address point, not building centroid."
+    },
+    "lon": {
+      "value": 150.76106,
+      "source": 17,
+      "note": ""
+    }
+  },
+  "builder": {
+    "value": "FDC Construction (NSW) Pty Ltd",
+    "source": 8,
+    "note": "Head contractor per construction sub-plans prepared by JBS&G for 'FDC Construction (NSW) Pty Ltd (FDC, the Client)' for 'the SYD091 Main Works project' under SSD-68013714, 'for incorporation with Construction Environmental Management Plan (CEMP) developed for the site by FDC'; 'FDC are currently delivering the SYD091 Early Works under a Camden Council DA Consent (DA/2024/616/1)' (sources 8, 9, 18, Mar 2026). The CEMP itself and a contractor press release were not found."
+  },
+  "developer": {
+    "value": "Amazon Web Services",
+    "source": 9,
+    "note": "Formal SSD applicant is ARUP Pty Limited (ABN 18000966165; sources 3, 5, 6), which per the Assessment Report 'acts on behalf of a multinational data centre operation' (source 4). AWS identity: engineering drawings in the Spill Management Plan (source 9) are marked 'AMAZON CONFIDENTIAL' and note the 132kV easement 'PROVIDED BY AWS'; project code SYD091 (AWS-style site code); The Urban Developer (source 16, Jan 2025) reports 'Amazon Corporate Services' as applicant for the $29m early works DA and that Amazon bought the site for $30.18m in March 2022. Successor to the withdrawn Smeaton Grange 'Station' SSD-60185233 (see aws-smeaton-grange-station)."
+  },
+  "mw_it": {
+    "value": 53,
+    "source": 4,
+    "note": "Assessment Report Table 1: 'Construction and operation of a 61.7 MW (53 MW IT Load) data centre containing 12 data halls over two-storeys'. EIS, application form and project page describe the proposal as ~53 MW 'power consumption/capacity' (sources 1-3); the SEARs request (source 12) gives 'IT MW capacity | approximately 53MW'."
+  },
+  "mw_grid": {
+    "value": 61.7,
+    "source": 5,
+    "note": "Consent Schedule 1: 'a data centre with a total power consumption of 61.7 megawatts'; AR 'Maximum power consumption 61.7 MW (53 MW IT Load)'; notice of commencement 'operational capacity of 61.7 MW' (source 7). Consent A6 caps back-up generators at 'a total installed generating capacity of 74 megawatts'."
+  },
+  "cost_aud_m": {
+    "value": 800,
+    "source": 6,
+    "note": "Notice of Decision: 'a capital investment of $800 million'; AR: 'Estimated Development Cost $800,000,000'; EIS: 'about $800M (excl. GST, see Appendix V Cost Summary)'. SSD application form (source 3) states 'Estimated Development Cost (excl GST) AUD859,709,407.00'. SEARs request (Feb 2024, source 12): 'expected CIV is approximately $450M'. Separate early works DA/2024/616/1 reported at $29m (source 16)."
+  },
+  "planning": {
+    "authority": {
+      "value": "NSW DPHI",
+      "source": 5,
+      "note": "Consent signed 21 Nov 2025 by Joanna Bakopanos, A/Director Industry Assessments, as delegate of the Minister for Planning and Public Spaces. Mod 1 (substation layout changes, s4.55(1A)) lodged 28 May 2026 and determined 26 June 2026 (sources 13-15). Early works approved separately by Camden Council, DA/2024/616/1, 17 July 2025 (source 4)."
+    },
+    "pathway": {
+      "value": "SSD",
+      "source": 1
+    },
+    "reference": {
+      "value": "SSD-68013714",
+      "source": 1
+    },
+    "lodged": {
+      "value": "2025-02-07",
+      "source": 3,
+      "precision": "day",
+      "note": "SSD application form 'Date Submitted: 07/02/2025'. Exhibited 5 March - 1 April 2025 (source 6). SEARs request letter dated 27 Feb 2024 (source 12); industry-specific SEARs cover letter posted on the portal 1 Mar 2024 (upload timestamp)."
+    },
+    "determined": {
+      "value": "2025-11-21",
+      "source": 6,
+      "precision": "day",
+      "note": "Notice of Decision 'Date of decision 21 November 2025'; project page Determination Date 21/11/2025, 'Last Modified By SSD-68013714-Mod-1, Last Modified On 26/06/2026' (source 1)."
+    },
+    "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/43-61-turner-road-data-centre"
+  },
+  "jobs_construction": {
+    "value": 100,
+    "source": 2,
+    "basis": "peak",
+    "scope": "direct",
+    "note": "EIS s3.9.3 Workforce: 'About 100 people would be needed to build the Proposal during peak construction stages (Activity 4 and Activity 5)'."
+  },
+  "jobs_construction_other": [
+    {
+      "value": 100,
+      "source": 4,
+      "basis": "unstated",
+      "scope": "unstated",
+      "note": "Assessment Report: 'up to 100 full-time equivalent construction jobs' (Table 1: '100 full-time equivalent construction jobs'); same number as EIS peak figure."
+    },
+    {
+      "value": 100,
+      "source": 6,
+      "basis": "unstated",
+      "scope": "unstated",
+      "note": "Notice of Decision: 'the creation of up to 100 construction jobs'. Application form (source 3): 'Indicative Construction Jobs 100'; SIA (source 10): 'The Proposal would generate 100 jobs during construction'."
+    }
+  ],
+  "jobs_operational": {
+    "value": 50,
+    "source": 2,
+    "basis": "ongoing_headcount",
+    "scope": "direct",
+    "note": "EIS: 'The Proposal would support up to 100 construction jobs and 50 full-time operational jobs'; traffic section: 'Up to 50 full-time employees, comprising 26 office personnel and 24 non-office personnel will be present onsite in a typical day'. NoD/AR: '50 operational jobs'."
+  },
+  "jobs_operational_other": [
+    {
+      "value": 70,
+      "source": 11,
+      "basis": "ongoing_headcount",
+      "scope": "direct",
+      "note": "Submissions Report parking response: '50 full-time staff, 10 contractors, and 10 visitors over a full day' (70 people incl. contractors and visitors; parking basis)."
+    }
+  ],
+  "construction_start": {
+    "value": "2026-04-17",
+    "source": 7,
+    "precision": "day",
+    "note": "Anticipated, not confirmed: Notice of Commencement (signed Simon Humphreys, dated 11 March 2026) 'anticipated commencement of construction date of 17th April 2026'; construction not staged. FDC's Construction WMP (source 8, 25 Mar 2026) program: Early Works (DA/2024/616/1) 'October 2025 to November 2028'; Main Works earthworks 'July 2026 to October 2026', structure and envelope Aug 2026 - Jun 2028; it reports the site has already 'undergone dam decommissioning, site clearance, bulk earthworks'. Status set to under_construction on the basis of FDC early works on site."
+  },
+  "construction_end": {
+    "value": "2028-11",
+    "source": 8,
+    "precision": "month",
+    "note": "Expected: Construction WMP program 'Commissioning April 2028 to November 2028'. EIS (source 2): building complete Q2 2027, 'fully operational in Q2 2028'."
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "Actual commencement of SSD main works (notice anticipated 17 Apr 2026; FDC program shows main-works earthworks from Jul 2026) not confirmed",
+    "Builder taken from FDC-commissioned construction sub-plans (WMP, spill and dust plans); CEMP / contractor announcement not found",
+    "Operator attribution to AWS rests on drawings marked 'AMAZON CONFIDENTIAL' / 'PROVIDED BY AWS' and press reporting of Amazon as early-works applicant; AWS has not publicly announced the site"
+  ]
+}

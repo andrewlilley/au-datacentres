@@ -153,10 +153,11 @@
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "Record scope: MP1 = 79 MW MP1.S2 (SSD) plus adjacent 5 MW MP1.S1 (Blacktown DA-24-00542, determined 14 Nov 2024, CIV $53.94m) and an 'MP1.EXT' extension; consider whether MP1.S1 (5 MW, apparently operational) needs its own record",
+    "MP1.S1 (5 MW, council DA-24-00542) now has its own record cdc-mp1-s1; campus jobs figures here still include it (noted)",
     "Actual start of SSD works (planned 1 Aug 2026) and MP1.S1 completion/operational date not confirmed",
     "Builder of MP1.S1 (Hindmarsh per iCost snippet) not verified; iCost page now 404",
     "Staging plan SYD-MP-SK-14 rev F (source 33) carries hidden 'Now referenced as MP2 / MP3 / MP4 / MPA Zone H' annotations, suggesting buildings may have been renumbered; mapping of current CDC building names to consent names not confirmed",
-    "Per-building IT MW may have increased: CDC Mar 2026 investor day says campus 700MW+ after densification (snippet); consent still caps campus at 720 MW power"
+    "Per-building IT MW may have increased: CDC Mar 2026 investor day says campus 700MW+ after densification (snippet); consent still caps campus at 720 MW power",
+    "MP1.EXT: Built CEMP drawings show 'DEVELOPMENT 01' = MP1.S1 5MW portion + 'MP1.EXT 7.5MW PORTION' (above-ground works underway Mar 2026); unclear whether MP1.EXT is part of this 79 MW MP1.S2 building or a further row"
   ]
 }

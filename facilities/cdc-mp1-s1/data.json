@@ -1,0 +1,126 @@
+{
+  "id": "cdc-mp1-s1",
+  "name": "CDC Marsden Park MP1 Stage 1 (MP1.S1 / MP1.1, 5 MW)",
+  "operator": "CDC Data Centres",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "105 Hollinsworth Road, Marsden Park NSW 2765",
+      "source": 2,
+      "note": "Panel determination: 'DA-24-00542 - 105 Hollinsworth Road, Marsden Park'. PlanningAlerts lodgement entry lists 105 and 113 Hollinsworth Road (source 8); part of the CDC Marsden Park campus (Lots 10-11 DP1262052), building sits beside MP1.S2 (see cdc-mp1)."
+    },
+    "suburb": "Marsden Park",
+    "state": "NSW",
+    "postcode": {
+      "value": "2765",
+      "source": 8
+    },
+    "lat": {
+      "value": -33.72261,
+      "source": 11,
+      "note": "Geocoded from street address via NSW Spatial Services GNAF address point for '105 HOLLINSWORTH ROAD MARSDEN PARK' (-33.722609, 150.836600). Address point for the whole campus lot, not the building centroid (same point as cdc-mp1)."
+    },
+    "lon": {
+      "value": 150.8366,
+      "source": 11,
+      "note": ""
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": "Not verified. iCost (consultant) project page, seen only as a search extract, names Hindmarsh Constructions as head contractor for an AU$65m CDC Marsden Park data centre package (plausibly this 5 MW building given its $53.94m EDC); the page returns HTTP 404 and Hindmarsh's website (projects list, site search) has no CDC/Marsden Park entry (checked 2026-09-27). Built Pty Ltd is head contractor for the later SSD works (cdc-mp1) and lists 'CDC MP1.1 Operational Facility' as a separate stakeholder (source 6)."
+  },
+  "developer": {
+    "value": "CDC Data Centres",
+    "source": 3,
+    "note": "Council assessment report: applicant/owner CDC Data Centres Pty Ltd."
+  },
+  "mw_it": {
+    "value": 5,
+    "source": 1,
+    "note": "Panel/DA description: 'Construction of a 5-megawatt data centre facility'; SSD EIS Table 4: 'two (2) data halls with a capacity of 5MW' (source 5); Built CEMP: 'single storey data centre building with 2 data halls a capacity of 5-megawatts' (source 6). Treated as IT capacity because the campus 504 MW IT total = 79 MW (MP1.S2) + 5 x 84 MW + 5 MW (this building); sources do not label the 5 MW explicitly as IT load. CEMP drawings also show an adjoining 'MP1.EXT 7.5MW PORTION' (not part of this DA)."
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": "Not stated. Four generators and 20 chillers (source 5)."
+  },
+  "cost_aud_m": {
+    "value": 53.94,
+    "source": 1,
+    "note": "Planning panel page: CIV $53,940,000; SSD EIS Table 4: 'Estimated Development Cost $53,940,000 including GST' (source 5); council report CIV $53,940,000 (source 3). iCost snippet (unverified, source 10) gives a AU$65m contract value."
+  },
+  "planning": {
+    "authority": {
+      "value": "Sydney Central City Planning Panel (Blacktown City Council DA)",
+      "source": 2,
+      "note": "Regionally significant development (EDC > $30m) determined by SCCPP, PPSSCC-562; decision unanimous."
+    },
+    "pathway": {
+      "value": "Regionally significant DA (council DA determined by planning panel)",
+      "source": 5
+    },
+    "reference": {
+      "value": "DA-24-00542 (PPSSCC-562)",
+      "source": 1,
+      "note": "Also PAN-435950 (NSW Planning Portal application number, source 5). s4.55(1A) modification to extend construction hours listed on PlanningAlerts 8 Jan 2025 (source 9)."
+    },
+    "lodged": {
+      "value": "2024-06-03",
+      "source": 1,
+      "precision": "day",
+      "note": "Panel page lodgement date 03/06/2024, referral 17/06/2024; council report and SSD EIS also give 3 June 2024."
+    },
+    "determined": {
+      "value": "2024-11-14",
+      "source": 2,
+      "precision": "day",
+      "note": "Panel determination 'DATE OF DETERMINATION 14 November 2024' (papers circulated electronically 11 Nov 2024). SSD-70889211 Assessment Report table gives 13 Nov 2024 (source 4)."
+    },
+    "url": "https://www.planningportal.nsw.gov.au/planning-panel/canberra-data-centre"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": "No building-specific construction jobs figure found (campus-level figures are in cdc-mp1)."
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": 25,
+    "source": 3,
+    "basis": "ongoing_headcount",
+    "scope": "direct",
+    "note": "Council assessment report s8.2.3: 'the applicant only proposes 25 staff and maximum 5 visitors to attend this facility.'"
+  },
+  "jobs_operational_other": [
+    {
+      "value": 25,
+      "source": 5,
+      "basis": "ongoing_headcount",
+      "scope": "direct",
+      "note": "SSD EIS Table 7 'Forecast Operational Employment Generation Across Campus', '5MW (inc. gatehouse)' column: 12 office staff, 3 security, 5 visitors, 5 contractor = 25 (includes visitors). Counted within the campus total of 265 in cdc-mp1."
+    }
+  ],
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": "Exact start not found. Campus ground-breaking 25 Oct 2024 (source 7) preceded the 14 Nov 2024 determination; a modification to extend construction hours was lodged Jan 2025 (source 9); SSD Assessment Report (Nov 2025) says emission-generating works were 'currently underway on-site via separate Council approvals (DA-24-00386 and DA-24-00542)'."
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": "Completion date not found. Built's CEMP Rev 3 (Dec 2025 - Apr 2026, approved Apr 2026) lists stakeholder 'CDC MP1.1 Operational Facility - Client (Operations Team)', implying the 5 MW building was operating by early 2026; iCost snippet (source 10, unverified) reported CDC announced completion of the first building. The staging plan (source 12, Nearmap 17 Mar 2026) shows 'MP1.EXT above ground works underway' next to MP1."
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "Operational status rests on Built's CEMP naming 'CDC MP1.1 Operational Facility' (and assumes MP1.1 = MP1.S1); completion / go-live date not found",
+    "Builder: Hindmarsh Constructions per iCost search extract only (page now 404; not on Hindmarsh website) - unverified",
+    "Relationship to 'MP1.EXT' (7.5 MW portion on CEMP drawings, under construction by Built in Mar 2026) unclear - may be an extension of this building under the SSD",
+    "5 MW treated as IT load by inference from campus arithmetic (504 = 79 + 5x84 + 5); not explicitly labelled IT"
+  ]
+}
