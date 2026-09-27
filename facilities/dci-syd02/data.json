@@ -2,7 +2,7 @@
   "id": "dci-syd02",
   "name": "DCI SYD02",
   "operator": "DCI Data Centers",
-  "status": "operational",
+  "status": "approved",
   "location": {
     "address": {
       "value": "90 Peter Brock Drive, Eastern Creek NSW",
@@ -30,7 +30,7 @@
   "builder": {
     "value": null,
     "source": 4,
-    "note": "Multiplex did early enabling works (demolition, stormwater, fencing); main-works head contractor not found"
+    "note": "not built to the Council-approved design. Multiplex did early enabling works (source 4, snippet); Multiplex is contracted as builder of the 'SYD02' building now being delivered under SSD-21342738 (see dci-syd03)"
   },
   "developer": {
     "value": "DCI Data Centers",
@@ -40,7 +40,7 @@
   "mw_it": {
     "value": 36,
     "source": 1,
-    "note": "36 MW as announced at DA approval; unclear whether IT or total"
+    "note": "DCI release (fetched): 'Development Approval for a 36-megawatt (MW) facility'; IT vs total not stated. Applies to the superseded Council-approved design"
   },
   "mw_grid": {
     "value": null,
@@ -50,34 +50,34 @@
   "cost_aud_m": {
     "value": 400,
     "source": 1,
-    "note": "announced investment AU$400m (World Construction Network reports US$308m); not a planning CIV"
+    "note": "DCI release: 'A$400 million facility, named SYD02'; announced investment, not a planning CIV"
   },
   "planning": {
     "authority": {
-      "value": "Blacktown City Council",
-      "source": 1,
-      "note": "local DA; possibly later superseded/expanded by SSD-21342738 (see dci-syd03)"
+      "value": "Blacktown City Council / Sydney Central City Planning Panel",
+      "source": 10,
+      "note": "DCI: 'Development Approval from Blacktown City Council'; the SPP- prefix denotes a Sydney planning panel reference (panel name not confirmed)"
     },
     "pathway": {
       "value": "Local DA",
       "source": 1,
-      "note": ""
+      "note": "regionally significant DA determined via Council/planning panel"
     },
     "reference": {
-      "value": null,
-      "source": null,
-      "note": "DA number not found"
+      "value": "SPP-19-00009",
+      "source": 10,
+      "note": "SSD-21342738 AR: '2020 Eastern Creek Data Centre Expansion (SPP-19-00009) - A separate DA permitted the partial demolition of the existing data centre and expansion ... involving the construction of an 8-storey extension (known as SYD02)'. Council DA number not found"
     },
     "lodged": {
       "value": null,
       "source": null,
-      "note": ""
+      "note": "reference implies 2019 lodgement; date not found"
     },
     "determined": {
-      "value": null,
-      "source": null,
-      "precision": null,
-      "note": "approval announced c. early 2021 (iTnews article 559599); exact date not confirmed"
+      "value": "2020",
+      "source": 10,
+      "precision": "year",
+      "note": "AR lists it as a 2020 approval; DCI announced the approval c. early 2021 (iTnews 559599, snippet)"
     },
     "url": null
   },
@@ -99,21 +99,19 @@
   "jobs_operational_other": [],
   "construction_start": {
     "value": null,
-    "source": null,
+    "source": 10,
     "precision": null,
-    "note": "Multiplex enabling works date not found"
+    "note": "SSD-21342738 AR (Sept 2023): 'the Applicant has not commenced construction of the approved data centre expansion under SPP-19-00009' and 'has committed to relinquishing SPP-19-00009 should the development be granted consent'"
   },
   "construction_end": {
-    "value": "2022",
-    "source": 1,
-    "precision": "year",
-    "note": "target Q4 2022 (planned, not actual); service readiness Q4 2022 as announced; actual completion not confirmed (datacentermap reportedly still lists 'planned')"
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": "never built as approved; original target 'service readiness in the fourth quarter of 2022' (source 1) was not met"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "scope: completion not confirmed - SYD02 may not have been built as the 2021 Blacktown DA design; SSD-21342738 (dci-syd03) is described by some listings as 'SYD02/SYD03' ~36 MW, so dci-syd02 and dci-syd03 may be the same building (possible duplicate)",
-    "main-works head contractor unknown (Multiplex only confirmed for enabling works)",
-    "Blacktown DA number and determination date not found",
-    "all facts from search snippets only; direct page fetches blocked - verify"
+    "scope: duplicate/superseded - the 2020 Council-approved 8-storey SYD02 (SPP-19-00009, 36 MW) was never commenced and DCI committed to relinquish it on grant of SSD-21342738 (approved 1 Sep 2023); DCI now uses the name 'SYD02' for the SSD-21342738 building (row dci-syd03). Recommend removing/merging this row; status 'operational' was wrong",
+    "whether SPP-19-00009 was formally surrendered not confirmed; Council determination date and panel not found"
   ]
 }

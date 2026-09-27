@@ -1,12 +1,17 @@
 # Sources: airtrunk-syd2-expansion
 
-Access date for all: 2026-09-27. Direct fetches of all sites were blocked by the session egress proxy; facts come from WebSearch result extracts and need re-verification.
+Access date for all: 2026-09-27. Sources 1-8 were first recorded from WebSearch extracts when direct fetches were blocked. In the 2026-09-27 gap-filling pass source 2 and new sources 9-13 (planning portal Mod 3 page and PDFs, DPHI post-approval letter, AirTrunk releases) were fetched and read directly and are verified. Sources 1, 3, 4, 6, 7 remain snippet-only (DCD 403; treesurvey 403; tfgroup under maintenance).
 
 1. https://www.datacenterdynamics.com/en/news/airtrunk-starts-70mw-expansion-of-syd2-campus-in-sydney-australia/ - June 2023: construction started on 70 MW expansion, the final two phases of SYD2; completion expected 2024; campus >120 MW.
-2. https://airtrunk.com/70-megawatt-expansion-underway-at-airtrunk-syd2/ - AirTrunk release on the 70 MW expansion (title only seen).
+2. https://airtrunk.com/70-megawatt-expansion-underway-at-airtrunk-syd2/ - (fetched, verified) AirTrunk 15 Jun 2023: 'Construction commences for the final two phases of SYD2 campus'; 70 MW expansion lifts total capacity to more than 120 MW; completion expected 2024; first phase early 2021, second phase early 2023.
 3. https://datacentrereview.com/2023/06/airtrunk-begins-expansion-of-syd2-site/ - expansion began June 2023.
 4. https://www.treesurvey.com.au/projects/airtrunk-data-centre/ - lead contractor "EMCK3" for SYD2 phase 3, which added 30 MW IT.
 5. https://datacenterhawk.com/marketplace/providers/airtrunk/1-sirius-road/syd2 - address 1 Sirius Road, Lane Cove West NSW 2066.
 6. https://tfgroup.com.au/our-projects/airtrunk-syd2-building-d-lane-cove-data-centre/ - formwork subcontract on SYD2 Building D (existence of Building D only).
 7. https://www.datacenterdynamics.com/en/news/45mw-data-center-proposed-next-to-airtrunk-syd2-site/ - separate 45 MW application (Apollo Place, SSD-67407231 per search extract) lodged 8 Feb (year not seen), adjoining 1 Sirius Rd; not this row.
 8. https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Geocoded_Addressing_Theme/FeatureServer/1 - accessed 2026-09-27 - NSW Spatial Services Geocoded Addressing Theme (GNAF-based address points), queried address = '1 SIRIUS ROAD LANE COVE WEST'; supports lat/lon.
+9. https://www.planningportal.nsw.gov.au/major-projects/projects/lane-cove-west-data-centre-mod-3-design-changes - accessed 2026-09-27 - SSD-9741-Mod-3 'Lane Cove West Data Centre MOD 3 - Design Changes', Approved, Determination Date 13/06/2024, Director.
+10. https://airtrunk.com/third-phase-of-syd2-completed-ahead-of-schedule/ - accessed 2026-09-27 - AirTrunk 29 Aug 2024: third phase of 120+MW SYD2 completed ahead of schedule, initial capacity in under 8.5 months; adds 30MW.
+11. https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-9741-MOD-3%2120240613T023700.178+GMT - accessed 2026-09-27 - Mod 3 Assessment Report (DPHI, June 2024): lodged 14 February 2023 by Greenbox Architecture under s4.55(2); data centre 'being constructed over four phases', phase 1 operating; capacity 138 MW no change; data halls 18 to 20; noise verification required after phases 2, 3 and 4.
+12. https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-9741-PA-19%2120251223T222311.413+GMT - accessed 2026-09-27 - DPHI letter 23 Dec 2025 to The Trustee for Airtrunk Lane Cove Trust approving updated CEMP 'prepared by AW Edwards Pty Ltd, dated 13 September 2025' and 'SYD2 CNVMP Update for MOD3 SSDA Construction Certificate Issue, prepared by AW Edwards Pty Ltd'.
+13. https://airtrunk.com/airtrunk-syd2-latest-expansion-has-topped-out/ - accessed 2026-09-27 - AirTrunk 14 Nov 2023: five-storey shell of latest SYD2 expansion topped out in under 20 weeks; adds more than 30MW.
