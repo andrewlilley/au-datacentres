@@ -111,10 +111,10 @@
     "note": "Exact start not found. Campus ground-breaking 25 Oct 2024 (source 7) preceded the 14 Nov 2024 determination; a modification to extend construction hours was lodged Jan 2025 (source 9); SSD Assessment Report (Nov 2025) says emission-generating works were 'currently underway on-site via separate Council approvals (DA-24-00386 and DA-24-00542)'."
   },
   "construction_end": {
-    "value": null,
-    "source": null,
-    "precision": null,
-    "note": "Completion date not found. Built's CEMP Rev 3 (Dec 2025 - Apr 2026, approved Apr 2026) lists stakeholder 'CDC MP1.1 Operational Facility - Client (Operations Team)', implying the 5 MW building was operating by early 2026; iCost snippet (source 10, unverified) reported CDC announced completion of the first building. The staging plan (source 12, Nearmap 17 Mar 2026) shows 'MP1.EXT above ground works underway' next to MP1."
+    "value": "2025-10",
+    "source": 14,
+    "precision": "month",
+    "note": "approximate: partial occupation certificate OC-25-02215 listed by PlanningAlerts 28 Oct 2025; full completion date not found"
   },
   "last_checked": "2026-09-27",
   "open_questions": [

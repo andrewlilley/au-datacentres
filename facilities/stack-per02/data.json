@@ -2,7 +2,7 @@
   "id": "stack-per02",
   "name": "STACK PER02 / PER01B Perth (Wangara)",
   "operator": "STACK Infrastructure",
-  "status": "approved",
+  "status": "withdrawn",
   "location": {
     "address": {
       "value": "92 Windsor Road, Wangara WA 6065",
@@ -111,8 +111,8 @@
   },
   "last_checked": "2026-09-27",
   "open_questions": [
+    "scope: status set to withdrawn (decision 2026-09-27) - same as stack-per01a.",
     "approval period of DA2022/157 not stated in the register; no extension found. WA deemed provisions default to 2 years unless the approval says otherwise, so it has likely lapsed (unconfirmed)",
-    "scope: approval likely lapsed and data centre abandoned - since 2025 the City approved storage units/warehouses at 92 Windsor Road (DA2024/1800 approved 2025-03-19; BA2025/2373 13 mini-warehouse tenancies 2025-07-29; DA2025/1320 storage units and warehouses 2025-12-04; sources 10-12). Unclear whether these cover the whole 2.2 ha campus; consider removing",
     "DCD (June 2026) says Perth project status unclear (source 2)",
     "same site and DA as stack-per01a (second building PER02, 16 MW); not a duplicate but shares one approval"
   ]

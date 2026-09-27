@@ -26,3 +26,4 @@ airtrunk-syd2-phase4
 airtrunk-syd2-apollo
 aws-gregory-hills
 cdc-mp1-s1
+cdc-mp1-ext

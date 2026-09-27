@@ -2,7 +2,7 @@
   "id": "greensquaredc-wai1-b2",
   "name": "WAi1 Building 2",
   "operator": "GreenSquareDC",
-  "status": "approved",
+  "status": "withdrawn",
   "location": {
     "address": {
       "value": "37-39 Abernethy Road, Belmont WA 6104",
@@ -128,7 +128,7 @@
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "scope: likely out of scope - no evidence of construction start; Baxtel lists WAi1 as withdrawn/cancelled before construction and DCD (Jan 2026) notes GreenSquareDC's website no longer mentions it; whether the Oct 2022 approval has lapsed or was extended is unverified",
+    "scope: status set to withdrawn (decision 2026-09-27) - same as greensquaredc-wai1-b1.",
     "DAP reference number and approval period/expiry condition not found (2022 JDAP report not online)"
   ]
 }

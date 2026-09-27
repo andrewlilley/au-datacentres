@@ -1,0 +1,130 @@
+{
+  "id": "cdc-mp1-ext",
+  "name": "CDC Marsden Park MP1.EXT (MP1 extension, 7.5 MW)",
+  "operator": "CDC Data Centres",
+  "status": "under_construction",
+  "location": {
+    "address": {
+      "value": "105 Hollinsworth Road, Marsden Park NSW 2765",
+      "source": 1,
+      "note": "Council DA-26-00662 and the three complying development certificates (CDC-25-01833, CDC-26-00180, CDC-26-00714) are all registered to 105 Hollinsworth Road, Lot 10 DP 1262052 (sources 1, 5-7). The SEE and risk screening describe the site as 105-113 Hollinsworth Road (Lots 10 & 11 DP1262052). The building adjoins the west side of the 5 MW MP1.S1 building (cdc-mp1-s1), on its former car park (CEMP site plan: 'MP1.EXT PROPOSED DEVELOPMENT', 'REVISED PARKING LAYOUT')."
+    },
+    "suburb": "Marsden Park",
+    "state": "NSW",
+    "postcode": {
+      "value": "2765",
+      "source": 1
+    },
+    "lat": {
+      "value": -33.72261,
+      "source": 11,
+      "note": "Geocoded from street address via NSW Spatial Services GNAF address point for '105 HOLLINSWORTH ROAD MARSDEN PARK' (-33.722609, 150.836600), same point as cdc-mp1 and cdc-mp1-s1. Address point for the whole lot, not the building centroid."
+    },
+    "lon": {
+      "value": 150.8366,
+      "source": 11,
+      "note": ""
+    }
+  },
+  "builder": {
+    "value": "Built",
+    "source": 8,
+    "note": "Built Pty Ltd's CEMP (approved Apr 2026) labels the building 'MP1.EXT BUILT PCBU' on its staging site plan and Table 3-1 says 'Built commence above ground works for MP1.Ext' (stage 1), 'Built continue above ground works for MP1.Ext' (stage 2), 'Handover of substation and MP1.Ext' (stage 3). BYD (BY Group) does piling/in-ground works across the campus; whether BYD did the MP1.EXT piling under CDC-25-01833 is not stated."
+  },
+  "developer": {
+    "value": "CDC Data Centres",
+    "source": 2,
+    "note": "SEE prepared by Willowtree Planning 'on behalf of CDC Data Centres (the Applicant)'; applicant for piling CDC-25-01833 is Canberra Data Centres Pty Ltd (source 5)."
+  },
+  "mw_it": {
+    "value": 7.5,
+    "source": 2,
+    "note": "SEE Table 3 'Total Power Consumption 7.5MW' and s4.3: 'The Proposal would have a total power consumption of 7.5MW' (used to show it is below the 15 MW SSD threshold). Risk screening (source 3): 'change the use of the MP1.EXT extension from Warehouse to a Data Centre with capacity of 7.5 MW'; CEMP drawings: 'DEVELOPMENT 01 MP1.EXT 7.5MW PORTION'. Not labelled as IT load; the SEE wording ('total power consumption') could mean facility power, in which case IT load is below 7.5 MW. Recorded here as the only capacity figure, consistent with how the 5 MW MP1.S1 figure is treated."
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": "Not separately stated (see mw_it note: SEE calls 7.5MW the 'total power consumption'). Risk screening: 'the new DA will not require any additional generators or chillers, and will rely on the existing 4 generators and 20 chiller units approved under DA-24-00542'."
+  },
+  "cost_aud_m": {
+    "value": 12.45,
+    "source": 1,
+    "note": "FIT-OUT/CHANGE OF USE ONLY: DA-26-00662 'Estimated Cost (Excluding GST) $12,452,900.00' (eTrack; SEE Table 3 EDC excl GST $12,452,900). The building structure was approved separately under complying development certificates: CDC-25-01833 piling and below-ground works $2,109,090.90 (source 5); CDC-26-00180 'Construction of a Warehouse Facility' $43,715,221 (source 6); CDC-26-00714 'Construction of a Warehouse Facility' $43,715,222 (source 7). CDC-26-00180 and CDC-26-00714 have the same description and near-identical cost and may be the same works re-certified, so the structure cost is not summed here. If they are one set of works, the total is about $58.3m excl GST."
+  },
+  "planning": {
+    "authority": {
+      "value": "Blacktown City Council",
+      "source": 1,
+      "note": "Data-centre use: council DA (EDC $12.45m, below the $30m regionally significant threshold, so not a Sydney Central City Planning Panel matter; SEE: below 15 MW SSD threshold). Building structure: complying development certificates issued by private certifiers and registered with Blacktown City Council (sources 5-7). Not part of SSD-70889211: risk screening says 'The development of the remainder of the site outside of the proposed DA and previous DA-24-00542 is subject to SSDA'."
+    },
+    "pathway": {
+      "value": "Complying development (warehouse structure) + council DA for internal fit-out and change of use to data centre (DA-26-00662, pending)",
+      "source": 2,
+      "note": "SEE: 'The structure of the two-storey building was approved under three (3) separate Complying Development Certificate (CDC) applications ... the scope of works for the Proposal only seek to provide an internal fit-out and use of the approved building as a data centre'. Risk screening: 'An extension warehouse (MP1.EXT) was later approved as part of a Complying Development Certificate. The proposed DA seeks approval to change the use of the MP1.EXT extension from Warehouse to a Data Centre'."
+    },
+    "reference": {
+      "value": "DA-26-00662",
+      "source": 1,
+      "note": "Also PAN-643060 (NSW Planning Portal number, on the DA document titles). Structure CDCs: CDC-25-01833 ('Piling and below ground works for a future warehouse development. - CDC Data Centre - MP1.S3', issued 2 Dec 2025), CDC-26-00180 (warehouse, issued 12 Feb 2026), CDC-26-00714 (warehouse, issued 11 May 2026). The CEMP drawing file for MP1.EXT is named 'SYD-MP1.3-AR-RVT', so MP1.S3 / MP1.3 appears to be an earlier name for MP1.EXT (inference)."
+    },
+    "lodged": {
+      "value": "2026-06-08",
+      "source": 1,
+      "precision": "day",
+      "note": "eTrack lodgement date 08/06/2026 (fees charged 3 Jun 2026); SEE dated 27 May 2026; PlanningAlerts found it 8 Jun 2026 (source 10)."
+    },
+    "determined": {
+      "value": null,
+      "source": 1,
+      "precision": null,
+      "note": "DA-26-00662 undetermined: eTrack status 'Current', Stage/Decision 'In Progress', no determination date (checked 2026-09-27). The structure CDCs were issued 2 Dec 2025, 12 Feb 2026 and 11 May 2026 (sources 5-7)."
+    },
+    "url": "https://blacktown-web.t1cloud.com/T1PRDefault/WebApps/eProperty/P1/eTrack/eTrackApplicationDetails.aspx?ApplicationId=DA-26-00662&f=%24P1.ETR.APPDET.VIW&r=BCC.P1.WEBGUEST"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": "No figure given. SEE s5.11 only says 'creating increased employment opportunities during both the construction and operational stages'."
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": 20,
+    "source": 2,
+    "basis": "ongoing_headcount",
+    "scope": "direct",
+    "note": "Upper end of a range. SEE Table 4 'Number of Staff 10-20 employees'."
+  },
+  "jobs_operational_other": [
+    {
+      "value": 10,
+      "source": 2,
+      "basis": "ongoing_headcount",
+      "scope": "direct",
+      "note": "Lower end of range. SEE Table 4 'Number of Staff 10-20 employees'."
+    }
+  ],
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": "Exact start not found. Piling and below-ground works CDC-25-01833 issued 2 Dec 2025 (source 5); warehouse CDC-26-00180 issued 12 Feb 2026 (source 6); EJE staging plan (Nearmap underlay 17 Mar 2026) Stage 0: 'Describes the current state of building works. MP1.EXT above ground works underway' (source 9). So works started between Dec 2025 and mid-Mar 2026. Risk screening (22 Apr 2026) calls it 'the existing MP1.EXT extension'."
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": "Not found. CEMP Table 3-1 schedules 'Handover of substation and MP1.Ext' in construction stage 3, after stage 1 (7 months) and stage 2 (24 months); the CEMP site plans label stage 1 'APRIL 26 - OCT 26' and stage 2 'OCT 26 - OCT 28'. Taken literally that puts handover no earlier than late 2028, but the table covers the whole campus and may not be building-specific. Data-centre use also needs DA-26-00662, still undetermined."
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "scope: data-centre use of MP1.EXT is not yet approved - DA-26-00662 (change of use from warehouse to data centre, lodged 8 Jun 2026) was still 'In Progress' on 2026-09-27. The building is under construction (Built) as a 'warehouse' under complying development certificates. Per list_schema a lodged-but-undetermined project is out of scope, so keep it out of in-scope counts until DA-26-00662 is determined",
+    "scope: 7.5 MW is described as 'Total Power Consumption' in the SEE (and 'capacity' in the risk screening), not as IT load; if it is facility power, IT load is below 7.5 MW (still likely >= 5 MW but unconfirmed)",
+    "Not part of SSD-70889211 or the 79 MW MP1.S2 building: MP1.EXT is a separate two-storey structure on the west side of MP1.S1 (the former MP1.S1 car park), outside the SSDA area (risk screening Fig. 3). Its 7.5 MW is additional to the SSD campus 504 MW and to MP1.S1's 5 MW. Drawings group MP1.S1 + MP1.EXT as 'DEVELOPMENT 01 / MP1' (12.5 MW together)",
+    "Which three CDCs the SEE's Appendices 14-16 are (likely CDC-25-01833, CDC-26-00180, CDC-26-00714) and whether CDC-26-00180 and CDC-26-00714 (both $43.7m 'Construction of a Warehouse Facility') are separate works or a re-certification; structure cost therefore uncertain",
+    "MP1.S3 (name in piling CDC-25-01833) is taken to be MP1.EXT based on the CEMP drawing file name 'SYD-MP1.3-AR-RVT' and the same location; not explicitly confirmed",
+    "eTrack lists CC-26-00624 ('ZONE H Stage 1 - Plant deck ...') as a child of DA-26-00662; relationship of 'Zone H' generators/plant to MP1.EXT unclear",
+    "Completion / handover date not found (CEMP stage 3 wording implies late 2028 or later, but that may be campus-level)"
+  ]
+}

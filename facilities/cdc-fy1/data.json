@@ -112,7 +112,7 @@
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "scope: completed/operational 2015 (CDC; Jan 2014 per earlier snippet), before 2018-09-01 cutoff - out of scope",
+    "scope: excluded - completed before 2016-01-01 (operational 2015 per CDC Mar 2026 deck; Jan 2014 per earlier report); removed from master.csv and listed in excluded.csv (decision 2026-09-27)",
     "FY1 address/lat-lon (2 Leonora St, Block 6 Sec 85) inferred from block size and DA register, not confirmed by CDC",
     "planning DA 201323908 probable only"
   ]
