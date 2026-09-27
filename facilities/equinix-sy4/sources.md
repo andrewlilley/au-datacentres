@@ -1,0 +1,13 @@
+# Sources: equinix-sy4
+
+Access date for all: 2026-09-27. Sources marked "(snippet only)" were seen only in web-search result snippets; all others were read in full.
+
+1. Equinix, 'Equinix Opens New Data Center in Sydney' (press release, 22 Aug 2016). https://investor.equinix.com/news-events/press-releases/detail/348/equinix-opens-new-data-center-in-sydney. Supports: SY4 opened Aug 2016 in Alexandria; phase one 1,500 cabinets; 3,000 cabinets and >135,000 sq ft at full build; US$97m; developer Equinix.
+2. iTnews, 'Equinix to build fourth Sydney data centre' (30 Apr 2015). https://www.itnews.com.au/news/equinix-to-build-fourth-sydney-data-centre-403368. Supports: US$97m (A$121m); 12,500 m2; 3,000 cabinets; first 1,500 due Q2 2016.
+3. iTnews, 'Equinix to fit out remaining part of SY4 data centre' (Jul 2017). https://www.itnews.com.au/news/equinix-to-fit-out-remaining-part-of-sy4-data-centre-468258. Also Equinix release 12 Jul 2017, https://investor.equinix.com/news-events/press-releases/detail/274/equinix-invests-us42-million-in-sy4-ibx-data-centre. Supports: phase 2 US$42m (A$54.7m), +1,500 cabinets, completion targeted end of 2017; two stages of 1,500 cabinets each.
+4. iTnews, 'Photos: Inside Equinix's new Sydney data centre' (23 Aug 2016). https://www.itnews.com.au/gallery/photos-inside-equinixs-new-sydney-data-centre-434607. Supports: A$128m investment; 12,600 m2 at full build; 1,800 kW UPS units; 3.0 MVA generators.
+5. techpartner.news (CRN Australia), 'Equinix grows Australian data centre footprint with Melbourne and Sydney cabinet additions' (14 Mar 2018). https://www.techpartner.news/news/equinix-grows-australian-data-centre-footprint-with-melbourne-and-sydney-cabinet-additions-486982. Supports: SY4 phase 2 complete, capacity doubled from 1,500 to 3,000 cabinets, >12,000 m2 usable; A$52.3m investment.
+6. DataCenterJournal, 'Equinix SY4 - Sydney'. https://www.datacenterjournal.com/data-centers/australia/sydney/equinix-sy4-sydney/. Also coloprice.com and hostdir.net listings. Supports: address Unit A, 200 Bourke Road, Alexandria NSW 2015.
+7. datacenterHawk, 'Equinix SY4 | A/200 Bourke Road' (snippet only; page returns 403). https://datacenterhawk.com/marketplace/providers/equinix/a-200-bourke-road/sy4. Supports: '12,000 kW of critical power'; opened August 2016.
+8. Baxtel, 'Equinix Sydney SY4 Data Center'. https://baxtel.com/data-center/equinix-sydney-sy4. Supports: opened 2016; phase two doubles capacity to 3,000 cabinets.
+9. NSW Spatial Services, NSW_Geocoded_Addressing_Theme FeatureServer/1. https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Geocoded_Addressing_Theme/FeatureServer/1 (queried address = '200 BOURKE ROAD ALEXANDRIA'). Supports: lat/lon.

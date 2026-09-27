@@ -1,0 +1,38 @@
+{
+  "id": "equinix-sy4",
+  "name": "Equinix SY4 Sydney",
+  "operator": "Equinix",
+  "status": "operational",
+  "location": {
+    "address": {"value": "Unit A, 200 Bourke Road, Alexandria NSW 2015", "source": 6, "note": "Equinix SY5 occupies Unit B of the same site"},
+    "suburb": "Alexandria",
+    "state": "NSW",
+    "postcode": {"value": "2015", "source": 6, "note": ""},
+    "lat": {"value": -33.91825, "source": 9, "note": "Geocoded 2026-09-27 from '200 BOURKE ROAD ALEXANDRIA' via NSW Spatial Services Geocoded Addressing Theme (address point type 1). Address point for the whole 200 Bourke Rd site (shared with SY5), not the SY4 building centroid."},
+    "lon": {"value": 151.1894, "source": 9, "note": "see lat note"}
+  },
+  "builder": {"value": null, "source": null, "note": "head contractor not found"},
+  "developer": {"value": "Equinix", "source": 1, "note": ""},
+  "mw_it": {"value": 12, "source": 7, "note": "datacenterHawk (search snippet only; page 403): '12,000 kW of critical power'. Equinix releases give cabinets not MW: 3,000 cabinets at full build (1,500 per phase). iTnews 2016 gallery: 1,800 kW UPS units and 3.0 MVA generators. Medium confidence."},
+  "mw_grid": {"value": null, "source": null, "note": ""},
+  "cost_aud_m": {"value": 180.3, "source": 4, "note": "Derived sum of two stated phase costs: phase 1 A$128m (iTnews Aug 2016, source 4; US$97m per Equinix, source 1; A$121m per iTnews 2015, source 2) + phase 2 A$52.3m (techpartner.news Mar 2018, source 5; US$42m / A$54.7m per Equinix and iTnews Jul 2017, source 3)."},
+  "planning": {
+    "authority": {"value": null, "source": null, "note": "Probably City of Sydney (Alexandria), not verified"},
+    "pathway": {"value": null, "source": null, "note": ""},
+    "reference": {"value": null, "source": null, "note": "DA not found"},
+    "lodged": {"value": null, "source": null, "note": ""},
+    "determined": {"value": null, "source": null, "note": ""},
+    "url": null
+  },
+  "jobs_construction": {"value": null, "source": null, "basis": null, "scope": null, "note": ""},
+  "jobs_construction_other": [],
+  "jobs_operational": {"value": null, "source": null, "basis": null, "scope": null, "note": ""},
+  "jobs_operational_other": [],
+  "construction_start": {"value": null, "source": 2, "note": "Project announced 29-30 Apr 2015 with phase 1 due Q2 2016; start date not stated"},
+  "construction_end": {"value": "2018-03", "source": 5, "precision": "month", "note": "Phase 1 (1,500 cabinets) opened Aug 2016 (Equinix release 22 Aug 2016, source 1); phase 2 (+1,500 cabinets, announced Jul 2017 for end-2017) reported complete Mar 2018 (source 5)"},
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "IT MW (12 MW) only from a datacenterHawk search snippet; Equinix publishes cabinets not MW",
+    "builder and planning approval (DA) not found"
+  ]
+}

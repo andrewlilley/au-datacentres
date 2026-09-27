@@ -40,7 +40,7 @@
   "mw_it": {
     "value": 25,
     "source": 3,
-    "note": "aggregator figure for Building 1 (phases 1-3; datacentermap, not re-fetchable: HTTP 429); phase 1 opened 2017; phase 3 20+MW completed May 2023 (source 5). FDC page quotes 'more than 84MW' and 34 data halls (campus-level)"
+    "note": "aggregator figure for Building 1 (phases 1-3; datacentermap, not re-fetchable: HTTP 429); phase 1 opened 2017; phase 3 20+MW completed May 2023 (source 5). FDC page quotes 'more than 84MW' and 34 data halls (campus-level); AirTrunk Nov 2017 release: 'in excess of 50 megawatts of IT load' across 20 data halls (source 11); CIO Nov 2019: initial 5 MW IT (source 12)"
   },
   "mw_grid": {
     "value": null,
@@ -89,7 +89,15 @@
     "scope": null,
     "note": ""
   },
-  "jobs_construction_other": [],
+  "jobs_construction_other": [
+    {
+      "value": 200,
+      "source": 11,
+      "basis": "unstated",
+      "scope": "unstated",
+      "note": "AirTrunk 16 Nov 2017: 'around 200 jobs during construction'"
+    }
+  ],
   "jobs_operational": {
     "value": null,
     "source": null,
@@ -108,11 +116,11 @@
     "value": "2017",
     "source": 1,
     "precision": "year",
-    "note": "campus established 2017 (source 1, verified); existing building dates from 2006 per datacenterHawk (source 8, retrofit); later fit-out phase: '20+MW expansion' completed 22 May 2023, 'delivered in under 33 weeks' (source 5, verified)"
+    "note": "campus established 2017 (source 1, verified); existing building dates from 2006 per datacenterHawk (source 8, retrofit); later fit-out phase: '20+MW expansion' completed 22 May 2023, 'delivered in under 33 weeks' (source 5, verified); AirTrunk announced the Melbourne opening 16 Nov 2017 (source 11)"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "scope: Building 1 phase 1 completed 2017, before 2018-09-01 cutoff; the 20+MW fit-out completed May 2023 is post-cutoff — decide whether a post-cutoff fit-out counts",
+    "mw_it for Building 1 open: 25 MW (aggregator) vs 'in excess of 50 MW' (AirTrunk Nov 2017, campus plan) vs 5 MW initial (CIO 2019; CRN snippet); phase 1 opened Nov 2017 so in scope under 2016 cutoff",
     "planning permit for Building 1 (Brimbank City Council, presumably) not found",
     "MW for Building 1 only from aggregator (25 MW), not re-verified (datacentermap 429)",
     "builder FDC attributed from FDC project page scope (retrofit of existing building); page does not name the building or year"

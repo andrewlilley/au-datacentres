@@ -12,3 +12,5 @@ Second pass 2026-09-27: sources 1, 4, 5, 7, 8, 9, 10 fetched and verified; 2 and
 8. datacenterHawk: AirTrunk MEL1, 176 Swann Drive — https://datacenterhawk.com/marketplace/providers/airtrunk/176-swann-drive/mel1 — accessed 2026-09-27 — supports: retrofit, year built 2006 (original building), 172,222 SF, commissioned
 9. PeeringDB: AirTrunk MEL1 (fac 5529) — https://www.peeringdb.com/api/fac/5529 — accessed 2026-09-27 — supports: address 176 Swann Drive Derrimut, postcode 3030 (alternative)
 10. Baxtel: AirTrunk Melbourne MEL1 — https://baxtel.com/data-center/airtrunk-melbourne-mel1 — accessed 2026-09-27 — supports: 'Year Built: 2017', 176 Swann Dr
+11. AirTrunk: AirTrunk opens Melbourne's largest hyperscale data centre campus (16 Nov 2017) — https://airtrunk.com/airtrunk-opens-melbournes-largest-hyperscale-data-centre-campus/ — accessed 2026-09-27 (Phase 2b discovery agent) — supports: opening Nov 2017; 'in excess of 50 megawatts of IT load'; 20 data halls; 'around 200 jobs during construction'
+12. CIO (Nov 2019), cited by Phase 2b discovery agent — supports: initial capacity 5 MW IT with plans for 50 MW (URL not recorded)

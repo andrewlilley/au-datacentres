@@ -110,7 +110,7 @@
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "scope: completed March 2018 (FKG) and officially opened 19 April 2018 (Computerworld/ECD Online) - before the 2018-09-01 cutoff; first building only 2.5 MW IT; operator states design up to 7.5 MW. Out of scope unless a later >=5 MW stage/building is found.",
+    "scope: completed Mar 2018 / opened 19 Apr 2018 - inside the 2016 cutoff; remaining question is the 5 MW floor: first building 2.5 MW IT installed vs operator 'design up to 7.5MW' (list_schema counts design/ultimate MW for the building, which would admit it)",
     "MW: 7.5 MW design (operator) vs 2.5 MW first building vs 10 MW (2017, likely facility power)",
     "lot: Lot 1 SP353522 vs Lot 3 SP329715 on Pipe Street not confirmed",
     "planning approval (Toowoomba Regional Council) not found"
