@@ -1,0 +1,39 @@
+{
+  "id": "digico-syd1e-stage2-3",
+  "name": "SYD1 East (ex-Global Switch Sydney East) Stages 2 and 3",
+  "operator": "DigiCo Infrastructure REIT",
+  "status": "operational",
+  "location": {
+    "address": {"value": "273 Pyrmont Street, Ultimo NSW 2007 (East building of the 390-422 Harris Street campus)", "source": 7, "note": "Baxtel gives 273 Pyrmont St for SYD1 East; SSD-69637456 EIS describes SYD1E as the eastern building fronting Pyrmont Street (source 6)"},
+    "suburb": "Ultimo",
+    "state": "NSW",
+    "postcode": {"value": "2007", "source": 6, "note": "Ultimo postcode"},
+    "lat": {"value": -33.87536, "source": 9, "note": "Geocoded 2026-09-27 from '273 PYRMONT STREET ULTIMO' via NSW Spatial Services Geocoded Addressing Theme (address point type 1); address point, not building centroid"},
+    "lon": {"value": 151.19802, "source": 9, "note": "see lat note"}
+  },
+  "builder": {"value": "Hutchinson Builders", "source": 1, "note": "Hutchies project page: Stages 2 and 3 of Sydney East, 88 weeks, completed 2017. Stage 1 (completed Sep 2014) was built by Icon (source 8). Kane Constructions later did a A$19m 33kV/UPS module upgrade (not dated; not this phase)."},
+  "developer": {"value": "Global Switch", "source": 2, "note": "developed by Global Switch; campus sold to HMC Capital / DigiCo in 2024"},
+  "mw_it": {"value": null, "source": null, "note": "Stage 2/3 IT MW not found. Icon (source 8) gives a 'total I.T. electrical load of 21.375MW' for the six-storey East building ('delivered over three separate stages'); Stage 1 share unknown. Stages 2-3 added 18,894 m2 of the East building's 31,226 m2 (source 1). Campus total 83 MVA utility (source 2)."},
+  "mw_grid": {"value": null, "source": null, "note": "83 MVA utility power is for the whole East+West campus (source 2)"},
+  "cost_aud_m": {"value": 150, "source": 1, "note": "Hutchinson Builders project value $150M for Stages 2-3. Global Switch release (Mar 2016) calls the whole Sydney East development A$300m (source 3); datacenternews.asia reports US$300m (source 2)."},
+  "planning": {
+    "authority": {"value": "NSW Minister for Planning (Part 3A)", "source": 6, "note": "EIS history table: SYD1E approved as MP08_0222 on 16 Nov 2010; determining body inferred from the Part 3A MP reference, not stated in the EIS extract"},
+    "pathway": {"value": "Part 3A Major Project approval (EP&A Act 1979)", "source": 6, "note": "MP08_0222; Mod-2 (1 Dec 2010) introduced staged construction; Mod-3 (15 Mar 2012) changed staging from two to three stages; Mod-7 (18 Apr 2017) construction hours"},
+    "reference": {"value": "MP08_0222", "source": 6, "note": "'A new wing, known as Global Switch Sydney 2 comprising a 6-storey commercial building with three basement levels'"},
+    "lodged": {"value": null, "source": null, "note": ""},
+    "determined": {"value": "2010-11-16", "source": 6, "precision": "day", "note": "original approval for the whole East building, not specific to stages 2-3"},
+    "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-69637456%2120250430T061311.003+GMT"
+  },
+  "jobs_construction": {"value": null, "source": null, "basis": null, "scope": null, "note": ""},
+  "jobs_construction_other": [],
+  "jobs_operational": {"value": null, "source": null, "basis": null, "scope": null, "note": ""},
+  "jobs_operational_other": [],
+  "construction_start": {"value": "2016-02", "source": 3, "precision": "month", "note": "Global Switch release dated 29 Feb / 1 Mar 2016 announcing it had commenced construction of the final stages"},
+  "construction_end": {"value": "2017", "source": 1, "precision": "year", "note": "Hutchies: completed 2017 (88-week build). Stage 2 was due Q2 2017 for pre-commitment customers (sources 2, 3). EIS structural section: East building 'constructed in two stages (2014, 2017)'. Conflict: EIS heritage section says 'the northern portion was developed first and completed in 2017, whilst the remaining portion of the building was completed in 2020' (source 6)."},
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "IT MW for stages 2-3 not found (East building total 21.375 MW IT per Icon; stages 2-3 = 18,894 of 31,226 m2)",
+    "completion: Hutchies says 2017; EIS heritage section says remaining portion completed 2020",
+    "planning determining authority inferred from Part 3A reference MP08_0222"
+  ]
+}
