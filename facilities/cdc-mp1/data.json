@@ -1,0 +1,112 @@
+{
+  "id": "cdc-mp1",
+  "name": "CDC Marsden Park MP1 (DC1)",
+  "operator": "CDC Data Centres",
+  "status": "under_construction",
+  "location": {
+    "address": {
+      "value": "105 & 113 Hollinsworth Road, Marsden Park NSW 2765",
+      "source": 2,
+      "note": "Campus street address (both lots); building position within campus not published."
+    },
+    "suburb": "Marsden Park",
+    "state": "NSW",
+    "postcode": {
+      "value": "2765",
+      "source": 2
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "Not geocoded: Nominatim and all mapping hosts blocked by the session egress proxy. Geocode from 105 Hollinsworth Road, Marsden Park NSW 2765 later."
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "Not geocoded: Nominatim and all mapping hosts blocked by the session egress proxy. Geocode from 105 Hollinsworth Road, Marsden Park NSW 2765 later."
+    }
+  },
+  "builder": {
+    "value": "Hindmarsh Constructions",
+    "source": 11,
+    "note": "Head contractor per iCost project page for an AU$65m CDC Marsden Park package; package scope (likely MP1 initial stage under DA-24-00542) not confirmed; builder for later MP1 stage (MP1.S2) unknown."
+  },
+  "developer": {
+    "value": "CDC Data Centres",
+    "source": 9,
+    "note": "Applicant for SSD-70889211 (Mecone acted as planning consultant)"
+  },
+  "mw_it": {
+    "value": 84,
+    "source": 17,
+    "note": "Estimate: campus 504 MW IT / 6 buildings = 84 MW average; datacentermap lists DC5 at 84 MW. Per-building IT MW in the EIS not confirmed (EIS not directly readable). CDC Mar 2026 says campus expanded to 700MW+ after densification, so per-building figure may rise."
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": "Not stated separately. SSD describes 'total power consumption of 504 MW' for the campus and a 720 MW/MVA substation (campus-level)."
+  },
+  "cost_aud_m": {
+    "value": 3100,
+    "source": 4,
+    "note": "Campus total capital investment value for all six buildings under SSD-70889211 (not broken down per building). SEARs request stated AU$1.4bn (source 7)."
+  },
+  "planning": {
+    "authority": {
+      "value": "NSW DPHI",
+      "source": 1,
+      "note": "Determined by departmental delegate (Director) per source 19"
+    },
+    "pathway": {
+      "value": "SSD",
+      "source": 1
+    },
+    "reference": {
+      "value": "SSD-70889211",
+      "source": 1
+    },
+    "lodged": {
+      "value": "2024-11",
+      "source": 3,
+      "precision": "month",
+      "note": "EIS documents dated 1-4 Nov 2024; SEARs requested 15 May 2024 (source 8). Exact lodgement date not confirmed."
+    },
+    "determined": {
+      "value": "2025-11",
+      "source": 6,
+      "precision": "month",
+      "note": "Approval announced 28 Nov 2025; project list notes cite 27 Nov 2025. Exact consent date not confirmed (portal blocked). MP1 initial stage also approved under council DA-24-00542 (source 12)."
+    },
+    "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/marsden-park-data-centre"
+  },
+  "jobs_construction": {
+    "value": 220,
+    "source": 4,
+    "note": "Campus total (all six buildings) per NSW ministerial release; Information Age reported 200 (source 18)."
+  },
+  "jobs_operational": {
+    "value": 265,
+    "source": 4,
+    "note": "Campus total (all six buildings) at full operation."
+  },
+  "construction_start": {
+    "value": "2024-10-25",
+    "source": 9,
+    "precision": "day",
+    "note": "Campus ground-breaking; initial works under council DA-24-00542 (5 MW facility)."
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": "iCost reports CDC announced completion of MP1 (first building); date not found. EIS: MP1.S2 in Stage 1 (1.5 yrs construction)."
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "MP1 appears split: initial 5 MW facility under Blacktown DA-24-00542 (SCCPP PPSSCC-562, CIV $53.94m, lodged ~17 Jun 2024) and MP1.S2 under SSD-70889211; determination date of DA-24-00542 not found",
+    "iCost reports MP1 completion announced; confirm date and whether full building or initial stage only",
+    "Builder for MP1.S2 / later stages unknown",
+    "Per-building IT MW not confirmed (master.csv had 79 MW, source unknown)",
+    "lat/lon not geocoded (network blocked)"
+  ]
+}
