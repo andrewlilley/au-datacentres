@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: geocoder and map sites blocked by session network proxy"
+      "value": -37.65091,
+      "source": 5,
+      "note": "geocoded: OSM address point 765 Plenty Road, South Morang; site also includes 525-535 McDonalds Rd"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: geocoder and map sites blocked by session network proxy"
+      "value": 145.08236,
+      "source": 5,
+      "note": "see lat note"
     }
   },
   "builder": {

@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: web fetch (nominatim, planning portal, datacentermap/baxtel) blocked from this session"
+      "value": -37.82816,
+      "source": 9,
+      "note": "geocoded: Photon/OSM feature \"127-169 Todd Road\", Port Melbourne; site-level point"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: web fetch (nominatim, planning portal, datacentermap/baxtel) blocked from this session"
+      "value": 144.91019,
+      "source": 9,
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -115,7 +115,6 @@
     "status: approved vs under_construction (early works progressing per FY26 results)",
     "mw_it: 162 vs 150",
     "builder not confirmed (Multiplex claim unverified)",
-    "lodged date approximate",
-    "lat/lon not geocoded (fetch blocked)"
+    "lodged date approximate"
   ]
 }

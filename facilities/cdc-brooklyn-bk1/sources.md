@@ -8,3 +8,4 @@ Note: page fetches were blocked by the session network proxy; facts were taken f
 4. CDC — Melbourne locations page — https://cdc.com/locations/melbourne/ — accessed 2026-09-27 — supports: developer/operator, campus >350MW
 5. datacenterHawk — CDC BK1/2, 594 Geelong Road — https://datacenterhawk.com/marketplace/providers/cdc/594-geelong-road/bk1-2 — accessed 2026-09-27 — supports: address 594 Geelong Road, 150MW critical load at full build
 6. Green Civil Australia — Brooklyn Data Centre VIC — https://greencivilau.com.au/brooklyn-data-centre-vic — accessed 2026-09-27 — supports: civil works subcontractor (not head contractor)
+7. OpenStreetMap geocode (Nominatim/Photon) — https://nominatim.openstreetmap.org/ui/details.html?osmtype=N&osmid=12419657559 — accessed 2026-09-27 — supports: lat, lon (OSM address point 598B Geelong Road, Brooklyn (sources give 594 or 598; no OSM point for 594); approximate campus location)

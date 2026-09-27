@@ -8,3 +8,4 @@ Note: page fetches were blocked by the session network proxy; facts were taken f
 4. ITK Research — data centres Australia top 10 construction — https://itkservices3.com/background/data_centres_australia_top10_construction — accessed 2026-09-27 — supports: WYP14790/24 & WYP14905/24 (earthworks) permits; Campus One 150MW
 5. datacenterHawk — CDC LV01, 28-30 Leakes Road — https://datacenterhawk.com/marketplace/providers/cdc/28-30-leakes-road/lv01 — accessed 2026-09-27 — supports: alternative street number
 6. PlanningAlerts — 20-38 Leakes Road Laverton North, 16 Jan 2026 (WYP14790/24.06 s72 amendment) — https://www.planningalerts.org.au/applications/3416754 — accessed 2026-09-27 — supports: permit amendment Jan 2026
+7. OpenStreetMap geocode (Nominatim/Photon) — https://nominatim.openstreetmap.org/ui/details.html?osmtype=W&osmid=263915226 — accessed 2026-09-27 — supports: lat, lon (centroid of OSM construction polygon "CDC Laverton" (20-38 Leakes Rd); campus-level point)

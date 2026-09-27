@@ -19,12 +19,12 @@
     "lat": {
       "value": null,
       "source": null,
-      "note": "not geocoded: web fetch (nominatim, planning portal, datacentermap/baxtel) blocked from this session"
+      "note": "not geocoded: no street number known (only \"Leakes Road\"); site unverified"
     },
     "lon": {
       "value": null,
       "source": null,
-      "note": "not geocoded: web fetch (nominatim, planning portal, datacentermap/baxtel) blocked from this session"
+      "note": "see lat note"
     }
   },
   "builder": {

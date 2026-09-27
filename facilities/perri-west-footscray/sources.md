@@ -6,3 +6,4 @@
 4. The Westsider - How West Footscray residents were hoodwinked... — https://thewestsider.com.au/how-west-footscray-residents-were-hoodwinked-and-ended-up-in-a-living-nightmare/ — accessed 2026-09-27 — supports: approved April 2025; 32 backup generators, 510,000 L diesel
 5. Greenbox Architecture - Perri Melbourne Data Centre — https://www.greenboxarchitecture.com/projects/perri-melbourne-data-centre/ — accessed 2026-09-27 — supports: architect (context)
 6. Woolpert - Perri Melbourne Data Centre design — https://woolpert.com/projects/perri-melbourne-data-centre/ — accessed 2026-09-27 — supports: design consultant (context)
+7. OpenStreetMap geocode (Nominatim/Photon) — https://nominatim.openstreetmap.org/ — accessed 2026-09-27 — supports: lat, lon (centroid of OSM building "Goldsborough Mort Wool Store", 63 Sunshine Rd (the heritage woolstore being converted))

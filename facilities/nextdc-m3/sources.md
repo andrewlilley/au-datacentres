@@ -7,3 +7,4 @@
 5. DCD - NEXTDC opens third Melbourne data center — https://www.datacenterdynamics.com/en/news/nextdc-opens-third-melbourne-data-center/ — accessed 2026-09-27 — supports: status, opening 2022 (from master.csv)
 6. Ministerial permit PA2604231 (M3 expansion, under assessment) — https://www.planning.vic.gov.au/planning-approvals/ministerial-permits-register/ministerial-permits/ef7039bf-cd0b-f111-8407-7c1e5262e60a — accessed 2026-09-27 — supports: context: expansion permit (not fetched)
 7. 4D Workshop - NextDC M3, West Footscray — https://4dworkshop.com.au/project/nextdc-m3-west-footscray/ — accessed 2026-09-27 — supports: alternative project value $1.5bn (search snippet)
+8. OpenStreetMap geocode (Nominatim/Photon) — https://nominatim.openstreetmap.org/ui/details.html?osmtype=W&osmid=1303950840 — accessed 2026-09-27 — supports: lat, lon (centroid of OSM building "NEXTDC M3 Melbourne Data Centre" (building=data_center))

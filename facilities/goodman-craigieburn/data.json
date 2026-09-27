@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: nominatim and map sites blocked by network proxy in this session"
+      "value": -37.56478,
+      "source": 5,
+      "note": "geocoded: Nominatim address point 80B Kinloch Court, Craigieburn (nearest match to 80 Kinloch Ct)"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: nominatim and map sites blocked by network proxy in this session"
+      "value": 144.95114,
+      "source": 5,
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -115,7 +115,6 @@
     "developer attribution (Goodman) unconfirmed by primary source",
     "Feb 2026 Craigieburn data centre site sale (~$40m, Green Street) may relate to this site",
     "MW, cost, jobs not found",
-    "construction status unknown",
-    "lat/lon not geocoded (proxy blocked)"
+    "construction status unknown"
   ]
 }

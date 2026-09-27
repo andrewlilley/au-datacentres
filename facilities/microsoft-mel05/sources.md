@@ -6,3 +6,4 @@
 4. Kapitol: Yarraville Data Centre Melbourne 2 — https://www.kapitol.com/our-projects/industrial/yarraville-data-centre-melbourne-2 — accessed 2026-09-27 — supports: builder (Kapitol) for second Yarraville building
 5. Kapitol: Microsoft Data Centres - Groundbreaking Ceremony — https://www.kapitol.com/insights/project-news/microsoft-data-centres-groundbreaking-ceremony — accessed 2026-09-27 — supports: groundbreaking 5 Dec 2022 at Yarraville and Truganina
 6. Datacentermap: Microsoft Cawley Road — https://www.datacentermap.com/australia/melbourne/microsoft-cawley-road/ — accessed 2026-09-27 — supports: MEL04 operational Feb 2025 (search extract)
+7. OpenStreetMap geocode (Nominatim/Photon) — https://nominatim.openstreetmap.org/ui/details.html?osmtype=W&osmid=1431195848 — accessed 2026-09-27 — supports: lat, lon (centroid of OSM building "Microsoft MEL05"; OSM gives its address as 385-397 Francis Street, Brooklyn 3012 (adjoins Cawley Rd site))

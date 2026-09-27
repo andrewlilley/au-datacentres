@@ -6,3 +6,4 @@
 4. datacenterHawk: Equinix ME2, 552-578 Lorimer Street (search snippet) — https://www.datacenterhawk.com/marketplace/providers/equinix/552-578-lorimer-street/me2 — accessed 2026-09-27 — supports: address
 5. Equinix: Melbourne ME2 location page — https://www.equinix.com/data-centers/asia-pacific-colocation/australia-colocation/melbourne-data-centers/me2 — accessed 2026-09-27 — supports: address, postcode 3207
 6. inflect / datacentermap specs (search snippets) — https://www.datacentermap.com/australia/melbourne/equinix-me2/specs/ — accessed 2026-09-27 — supports: aggregator power 2.0-3 MW (unverified)
+7. OpenStreetMap geocode (Nominatim/Photon) — https://nominatim.openstreetmap.org/ui/details.html?osmtype=W&osmid=1206579186 — accessed 2026-09-27 — supports: lat, lon (centroid of OSM building "Equinix ME2" (OSM address 522-578 Lorimer St vs 552-578 in sources))

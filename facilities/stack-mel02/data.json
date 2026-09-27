@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: nominatim and all map/aggregator pages unreachable from this session (egress blocked)"
+      "value": -37.8322,
+      "source": 7,
+      "note": "geocoded: Nominatim address point 200A Palmers Rd; the 200 Palmers Rd address is itself disputed (see address note), so treat as unverified"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: see lat note"
+      "value": 144.74819,
+      "source": 7,
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -114,7 +114,6 @@
     "phasing unclear (MEL02A 2026 / MEL02B 2027 per Baxtel)",
     "address conflict: 200 Palmers Rd also a logistics hub",
     "planning permit not found",
-    "construction start not found",
-    "lat/lon not geocoded (egress blocked)"
+    "construction start not found"
   ]
 }

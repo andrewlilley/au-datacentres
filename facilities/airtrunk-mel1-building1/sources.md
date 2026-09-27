@@ -5,3 +5,4 @@
 3. datacentermap: AirTrunk MEL1 - Building 1 (25 MW) (search result title) — https://www.datacentermap.com/australia/melbourne/airtrunk-mel1-building-1/ — accessed 2026-09-27 — supports: mw_it (25 MW, aggregator)
 4. DEM (Aust): AirTrunk Derrimut Data Centre (search snippet) — https://www.dem.com.au/airtrunk-derrimut-data-centre — accessed 2026-09-27 — supports: architect for Stage 1 (not builder)
 5. AirTrunk: MEL1 Melbourne 20+MW expansion completed — https://airtrunk.com/airtrunk-mel1-melbourne-20mw-expansion-completed/ — accessed 2026-09-27 — supports: later phase completion May 2023 (per master.csv notes; page not reachable from session)
+6. OpenStreetMap geocode (Nominatim/Photon) — https://nominatim.openstreetmap.org/ui/details.html?osmtype=W&osmid=698059700 — accessed 2026-09-27 — supports: lat, lon (centroid of OSM site polygon "AirTrunk MEL 1" (176 Swann Dr); campus-level point, not building 1 specifically)

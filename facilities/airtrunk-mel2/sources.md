@@ -6,3 +6,4 @@
 4. datacenterHawk: AirTrunk MEL2, 85-95 Sharps Road (search snippet) — https://datacenterhawk.com/marketplace/providers/airtrunk/85-95-sharps-road/mel2 — accessed 2026-09-27 — supports: address 85-95 Sharps Road; under construction
 5. Civic Interplay: AI Sovereignties (search snippet) — https://civicinterplay.io/sovereignties/ — accessed 2026-09-27 — supports: permit approved in name of EMKC3, AirTrunk name added after approval by correction
 6. Telecom Ramblings newswire: AirTrunk press release, Dec 2025 — https://newswire.telecomramblings.com/2025/12/airtrunk-expands-australian-platform-with-a-second-hyperscale-data-centre-campus-in-melbourne/ — accessed 2026-09-27 — supports: announcement date Dec 2025
+7. OpenStreetMap geocode (Nominatim/Photon) — https://nominatim.openstreetmap.org/ — accessed 2026-09-27 — supports: lat, lon (Nominatim building match for 85 Sharps Road, Tullamarine (permit address); site spans 85-95 Sharps Rd)

@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: web fetch (nominatim, planning portal, datacentermap/baxtel) blocked from this session"
+      "value": -37.70818,
+      "source": 6,
+      "note": "geocoded: OSM feature (man_made=works) at 43-45 Tullamarine Park Rd, Tullamarine"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: web fetch (nominatim, planning portal, datacentermap/baxtel) blocked from this session"
+      "value": 144.8719,
+      "source": 6,
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -114,7 +114,6 @@
   "open_questions": [
     "mw_it: 48 (Vantage) vs 64 (DCM/ITK)",
     "planning permit not found",
-    "builder not found",
-    "lat/lon not geocoded (fetch blocked)"
+    "builder not found"
   ]
 }

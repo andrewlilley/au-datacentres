@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: nominatim and map sites blocked by network proxy in this session"
+      "value": -37.68555,
+      "source": 6,
+      "note": "geocoded: centroid of OSM building \"Microsoft MEL07\", 70-90 Garden Dr"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: nominatim and map sites blocked by network proxy in this session"
+      "value": 144.87492,
+      "source": 6,
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -114,7 +114,6 @@
   "open_questions": [
     "permit number/decision date not found",
     "2025 re-application (Jul 2025) for the two data centres - scope of amendment unknown",
-    "actual completion date unknown",
-    "lat/lon not geocoded (proxy blocked)"
+    "actual completion date unknown"
   ]
 }

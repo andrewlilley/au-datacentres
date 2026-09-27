@@ -8,3 +8,4 @@
 6. The Urban Developer - NextDC $2bn Fishermans Bend Data Centre Wins Over Govt — https://www.theurbandeveloper.com/articles/nextdc-fishermans-bend-data-centre-m4 — accessed 2026-09-27 — supports: plans filed Jan 2025 (search snippet)
 7. EstimateOne - NEXTDC M4 Stage 1 — https://estimateone.com/project/nextdc-m4-stage-1/ — accessed 2026-09-27 — supports: stage 1 budget >$200m, tenders
 8. NEXTDC FY26 results announcement (Listcorp) — https://www.listcorp.com/asx/nxt/nextdc-limited/news/fy26-results-announcement-3397041.html — accessed 2026-09-27 — supports: early works progressing (from master.csv)
+9. OpenStreetMap geocode (Nominatim/Photon) — https://nominatim.openstreetmap.org/ — accessed 2026-09-27 — supports: lat, lon (Photon/OSM feature "127-169 Todd Road", Port Melbourne; site-level point)

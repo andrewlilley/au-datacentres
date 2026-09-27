@@ -5,3 +5,4 @@
 3. PlanningAlerts: 70-90 Garden Dr Tullamarine VIC 3043 (13 May 2022) — https://www.planningalerts.org.au/applications/2490264 — accessed 2026-09-27 — supports: address, planning application for two data centre facilities over two stages, Hume City Council, received ~Apr 2022
 4. PlanningAlerts: 70-90 Garden Dr Tullamarine VIC 3043 (11 Jul 2025) — https://www.planningalerts.org.au/applications/3321470 — accessed 2026-09-27 — supports: further 2025 application for the two data centres
 5. Delta Group: Microsoft Data Centre MEL07 — https://www.deltagroup.com.au/project/microsoft-data-centre-mel07/ — accessed 2026-09-27 — supports: MEL07 = Garden Drive (demolition/early works)
+6. OpenStreetMap geocode (Nominatim/Photon) — https://nominatim.openstreetmap.org/ui/details.html?osmtype=W&osmid=1341415586 — accessed 2026-09-27 — supports: lat, lon (centroid of OSM building "Microsoft MEL07", 70-90 Garden Dr)

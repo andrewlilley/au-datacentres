@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: web fetch (nominatim, planning portal, datacentermap/baxtel) blocked from this session"
+      "value": -37.80478,
+      "source": 8,
+      "note": "geocoded: centroid of OSM building \"NEXTDC M3 Melbourne Data Centre\" (building=data_center)"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: web fetch (nominatim, planning portal, datacentermap/baxtel) blocked from this session"
+      "value": 144.86562,
+      "source": 8,
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -113,7 +113,6 @@
   "last_checked": "2026-09-27",
   "open_questions": [
     "council permit number and dates not found (register not reachable)",
-    "phased campus: construction_end refers to stage 1 only",
-    "lat/lon not geocoded (fetch blocked)"
+    "phased campus: construction_end refers to stage 1 only"
   ]
 }

@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: web fetch (nominatim, planning portal, datacentermap/baxtel) blocked from this session"
+      "value": -37.8013,
+      "source": 7,
+      "note": "geocoded: centroid of OSM building \"Goldsborough Mort Wool Store\", 63 Sunshine Rd (the heritage woolstore being converted)"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: web fetch (nominatim, planning portal, datacentermap/baxtel) blocked from this session"
+      "value": 144.8698,
+      "source": 7,
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -113,7 +113,6 @@
   "last_checked": "2026-09-27",
   "open_questions": [
     "scope: MW capacity unknown - need to confirm >= 5 MW",
-    "builder and construction start unknown",
-    "lat/lon not geocoded (fetch blocked)"
+    "builder and construction start unknown"
   ]
 }

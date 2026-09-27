@@ -17,14 +17,14 @@
       "note": "postcode from master.csv address; source gives street address and suburb Yarraville"
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: nominatim and map sites blocked by network proxy in this session"
+      "value": -37.82254,
+      "source": 7,
+      "note": "geocoded: centroid of OSM building \"Microsoft MEL04\", 20-28 Cawley Rd"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: nominatim and map sites blocked by network proxy in this session"
+      "value": 144.85884,
+      "source": 7,
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -113,7 +113,6 @@
   "last_checked": "2026-09-27",
   "open_questions": [
     "planning permit number and dates not found",
-    "lat/lon not geocoded (proxy blocked)",
     "MW not public (~5,000 sqm data hall + plant)",
     "suburb Yarraville vs Brooklyn in Microsoft blog"
   ]

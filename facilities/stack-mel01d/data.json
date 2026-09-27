@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: nominatim and all map/aggregator pages unreachable from this session (egress blocked)"
+      "value": -37.82175,
+      "source": 8,
+      "note": "geocoded: centroid of OSM building \"Stack Infrastructure MEL01D\"; OSM address 369 Palmers Rd"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: see lat note"
+      "value": 144.74738,
+      "source": 8,
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -112,6 +112,6 @@
   "open_questions": [
     "construction start and expected completion not confirmed",
     "planning permit not found - possibly 369 Palmers Rd Wyndham application (Mar 2024)",
-    "lat/lon not geocoded (egress blocked)"
+    "address: OSM gives 369 Palmers Rd for this building (vs 399)"
   ]
 }

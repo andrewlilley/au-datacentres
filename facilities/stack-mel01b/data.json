@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: nominatim and all map/aggregator pages unreachable from this session (egress blocked)"
+      "value": -37.82048,
+      "source": 8,
+      "note": "geocoded: centroid of OSM building \"Stack Infrastructure MEL01B\", 399 Palmers Rd"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: see lat note"
+      "value": 144.7476,
+      "source": 8,
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -112,7 +112,6 @@
   "open_questions": [
     "construction start date not found",
     "planning permit not found",
-    "lat/lon not geocoded (egress blocked)",
     "MEL01B topping-out date unconfirmed (one search summary said Aug 2025)"
   ]
 }

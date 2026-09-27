@@ -17,14 +17,14 @@
       "note": "Derrimut postcode 3026 per master.csv; some aggregators give 3030"
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: geocoding services (nominatim) and aggregator pages blocked from this session"
+      "value": -37.80074,
+      "source": 6,
+      "note": "geocoded: centroid of OSM site polygon \"AirTrunk MEL 1\" (176 Swann Dr); campus-level point, not building 1 specifically"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded; see lat note"
+      "value": 144.77263,
+      "source": 6,
+      "note": "see lat note"
     }
   },
   "builder": {

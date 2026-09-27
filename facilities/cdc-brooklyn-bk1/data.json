@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: geocoder and map sites blocked by session network proxy"
+      "value": -37.81667,
+      "source": 7,
+      "note": "geocoded: OSM address point 598B Geelong Road, Brooklyn (sources give 594 or 598; no OSM point for 594); approximate campus location"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: geocoder and map sites blocked by session network proxy"
+      "value": 144.84641,
+      "source": 7,
+      "note": "see lat note"
     }
   },
   "builder": {

@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: geocoding services (nominatim) and aggregator pages blocked from this session"
+      "value": -37.82219,
+      "source": 7,
+      "note": "geocoded: centroid of OSM building \"Equinix ME2\" (OSM address 522-578 Lorimer St vs 552-578 in sources)"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded; see lat note"
+      "value": 144.91544,
+      "source": 7,
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -113,7 +113,6 @@
   "last_checked": "2026-09-27",
   "open_questions": [
     "scope: MW not published; aggregators suggest 2-3 MW (< 5 MW threshold) — likely out of scope",
-    "builder and planning permit not found",
-    "lat/lon not geocoded"
+    "builder and planning permit not found"
   ]
 }

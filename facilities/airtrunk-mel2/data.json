@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: geocoding services (nominatim) and aggregator pages blocked from this session"
+      "value": -37.70681,
+      "source": 7,
+      "note": "geocoded: Nominatim building match for 85 Sharps Road, Tullamarine (permit address); site spans 85-95 Sharps Rd"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded; see lat note"
+      "value": 144.86181,
+      "source": 7,
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -114,7 +114,6 @@
   "open_questions": [
     "planning permit lodged/determined dates not retrieved (register page blocked)",
     "builder not found",
-    "status under_construction only per aggregator (datacenterHawk 'speculatively under construction')",
-    "lat/lon not geocoded"
+    "status under_construction only per aggregator (datacenterHawk 'speculatively under construction')"
   ]
 }

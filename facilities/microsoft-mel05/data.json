@@ -17,14 +17,14 @@
       "note": "postcode from master.csv address; source gives street address and suburb Yarraville"
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: nominatim and map sites blocked by network proxy in this session"
+      "value": -37.82134,
+      "source": 7,
+      "note": "geocoded: centroid of OSM building \"Microsoft MEL05\"; OSM gives its address as 385-397 Francis Street, Brooklyn 3012 (adjoins Cawley Rd site)"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: nominatim and map sites blocked by network proxy in this session"
+      "value": 144.85743,
+      "source": 7,
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -115,6 +115,6 @@
     "status operational vs still in fit-out unconfirmed",
     "planning permit not found",
     "MW not public",
-    "lat/lon not geocoded (proxy blocked)"
+    "address: OSM names MEL05 at 385-397 Francis St, Brooklyn, not 20-28 Cawley Rd"
   ]
 }

@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: nominatim and map sites blocked by network proxy in this session"
+      "value": -37.80932,
+      "source": 5,
+      "note": "geocoded: centroid of OSM building named \"Microsoft MEL11\" at 283 Woods Rd"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: nominatim and map sites blocked by network proxy in this session"
+      "value": 144.72247,
+      "source": 5,
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -114,7 +114,6 @@
   "open_questions": [
     "address 281 vs 283 Woods Road",
     "planning authority/permit number not confirmed",
-    "status operational vs partly in fit-out",
-    "lat/lon not geocoded (proxy blocked)"
+    "status operational vs partly in fit-out"
   ]
 }

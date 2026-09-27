@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: geocoder and map sites blocked by session network proxy"
+      "value": -37.84152,
+      "source": 7,
+      "note": "geocoded: centroid of OSM construction polygon \"CDC Laverton\" (20-38 Leakes Rd); campus-level point"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: geocoder and map sites blocked by session network proxy"
+      "value": 144.7754,
+      "source": 7,
+      "note": "see lat note"
     }
   },
   "builder": {

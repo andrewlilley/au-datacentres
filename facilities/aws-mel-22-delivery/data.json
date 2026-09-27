@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: geocoding services (nominatim) and aggregator pages blocked from this session"
+      "value": -37.83881,
+      "source": 3,
+      "note": "geocoded: Nominatim address point for 22 Delivery Drive, Truganina"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded; see lat note"
+      "value": 144.75604,
+      "source": 3,
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -113,7 +113,6 @@
   "last_checked": "2026-09-27",
   "open_questions": [
     "scope: MW unknown; site attribution to AWS is third-party only (AWS does not confirm)",
-    "no planning permit found (Wyndham City Council likely authority, unverified)",
-    "lat/lon not geocoded"
+    "no planning permit found (Wyndham City Council likely authority, unverified)"
   ]
 }

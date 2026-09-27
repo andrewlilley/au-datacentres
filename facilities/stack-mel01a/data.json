@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: nominatim and all map/aggregator pages unreachable from this session (egress blocked)"
+      "value": -37.81993,
+      "source": 9,
+      "note": "geocoded: centroid of OSM building \"Stack Infrastructure MEL01A\", 399 Palmers Rd"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: see lat note"
+      "value": 144.74764,
+      "source": 9,
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -111,7 +111,6 @@
   "last_checked": "2026-09-27",
   "open_questions": [
     "planning permit (authority, reference, dates) not found - Wyndham council records not reachable",
-    "lat/lon not geocoded (egress blocked)",
     "whether AU$1.1bn figure is campus or Hickory national portfolio",
     "master note: possibly same site as Hickory 2021 '148 Leakes Rd' proposal - Wyndham 2021 committee papers describe a site on NW corner of Infinity Drive and Palmers Rd ~365m north of Leakes Rd; unverified"
   ]

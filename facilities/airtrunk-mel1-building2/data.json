@@ -17,14 +17,14 @@
       "note": "per master.csv"
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: geocoding services (nominatim) and aggregator pages blocked from this session"
+      "value": -37.80074,
+      "source": 5,
+      "note": "geocoded: centroid of OSM site polygon \"AirTrunk MEL 1\" (176 Swann Dr); campus-level point, not building 2 specifically"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded; see lat note"
+      "value": 144.77263,
+      "source": 5,
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -114,7 +114,6 @@
   "open_questions": [
     "status: operational (datacentermap) not confirmed by AirTrunk; 18-month build from Aug 2024",
     "planning permit / authority not found",
-    "builder not found",
-    "lat/lon not geocoded (services blocked)"
+    "builder not found"
   ]
 }
