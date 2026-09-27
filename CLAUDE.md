@@ -69,5 +69,8 @@ When done with the batch
   batches may have pushed.
 
 ## Later phases
-- Phase 3: build `site/` (static searchable table + map from facilities/*/data.json).
+- Phase 3 (built 2026-09-27): `site/build.py` rolls `list/master.csv` and
+  `facilities/*/data.json` into `site/data.json` and `site/index.html` from
+  `site/template.html`. Edit the template, never index.html. The GitHub
+  Actions workflow rebuilds and deploys to Pages on every push to main.
 - Phase 4: fact-check a sample against sources.

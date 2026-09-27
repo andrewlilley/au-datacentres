@@ -1,0 +1,391 @@
+<title>Australian Data Centre Register</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<style>
+:root{
+  --paper:#f3f5f4; --surface:#ffffff; --sunk:#e9eeed; --ink:#15222b; --muted:#56666e; --faint:#8a989e;
+  --line:#d6dedd; --accent:#0d6b7a; --accent-ink:#ffffff; --land:#e2e8e6; --land-edge:#bcc7c5; --sea:#f3f5f4;
+  --op:#1d7a55; --uc:#b86f0c; --ap:#3b5fb0; --wd:#8b969b;
+  --op-bg:#dcefe6; --uc-bg:#f6e8d2; --ap-bg:#dfe6f5; --wd-bg:#e7eaeb;
+  --shadow:0 12px 40px rgba(18,34,43,.18);
+  --f-disp:"IBM Plex Sans Condensed","Arial Narrow",Arial,sans-serif;
+  --f-body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --paper:#0e161b; --surface:#152128; --sunk:#1b2a32; --ink:#e3ebed; --muted:#9aabb2; --faint:#6d7e86;
+    --line:#2a3a43; --accent:#4fb6c6; --accent-ink:#06262c; --land:#1c2b33; --land-edge:#33464f; --sea:#0e161b;
+    --op:#5cc79a; --uc:#e8a748; --ap:#8aa6ec; --wd:#8a979d;
+    --op-bg:#15352a; --uc-bg:#3a2a12; --ap-bg:#1e2b4a; --wd-bg:#232e33;
+    --shadow:0 12px 40px rgba(0,0,0,.5);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --paper:#0e161b; --surface:#152128; --sunk:#1b2a32; --ink:#e3ebed; --muted:#9aabb2; --faint:#6d7e86;
+  --line:#2a3a43; --accent:#4fb6c6; --accent-ink:#06262c; --land:#1c2b33; --land-edge:#33464f; --sea:#0e161b;
+  --op:#5cc79a; --uc:#e8a748; --ap:#8aa6ec; --wd:#8a979d;
+  --op-bg:#15352a; --uc-bg:#3a2a12; --ap-bg:#1e2b4a; --wd-bg:#232e33;
+  --shadow:0 12px 40px rgba(0,0,0,.5);
+}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font:15px/1.5 var(--f-body);margin:0}
+a{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wrap{max-width:1440px;margin:0 auto;padding-inline:16px;padding-block:20px 48px}
+@media (min-width:760px){.wrap{padding-inline:28px}}
+.num{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+
+/* header */
+.head{display:flex;flex-wrap:wrap;gap:12px 32px;align-items:end;justify-content:space-between;padding-bottom:18px;border-bottom:2px solid var(--ink)}
+.eyebrow{font:600 12px/1 var(--f-disp);letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin:0 0 8px}
+h1{font:700 clamp(28px,4.2vw,44px)/1.02 var(--f-disp);letter-spacing:-.01em;margin:0;text-wrap:balance}
+.lede{margin:10px 0 0;max-width:62ch;color:var(--muted)}
+.built{font:12px/1.4 var(--f-mono);color:var(--faint);text-align:right}
+
+/* summary */
+.summary{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:0;margin:18px 0 6px;border:1px solid var(--line);background:var(--surface)}
+.stat{padding:14px 16px;border-right:1px solid var(--line);display:grid;gap:2px}
+.stat:last-child{border-right:0}
+.stat .k{font:600 12px/1.2 var(--f-disp);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);display:flex;align-items:center;gap:8px}
+.stat .n{font:500 30px/1.1 var(--f-mono);font-variant-numeric:tabular-nums}
+.stat .s{font-size:13px;color:var(--muted)}
+.caveat{font-size:13px;color:var(--muted);margin:6px 0 18px;max-width:90ch}
+.dot{width:10px;height:10px;border-radius:50%;display:inline-block;flex:none}
+.dot.operational{background:var(--op)}.dot.under_construction{background:var(--uc)}.dot.approved{background:var(--ap)}.dot.withdrawn{background:var(--wd)}
+
+/* controls */
+.controls{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center;margin-bottom:14px}
+.search{flex:1 1 260px;min-width:0;display:flex}
+.search input{width:100%;font:15px var(--f-body);padding:9px 12px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:4px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font:500 13px/1 var(--f-body);display:inline-flex;align-items:center;gap:7px;padding:8px 11px;border:1px solid var(--line);background:var(--surface);color:var(--muted);border-radius:999px;cursor:pointer}
+.chip[aria-pressed="true"]{color:var(--ink);border-color:var(--ink)}
+.chip[aria-pressed="false"] .dot{opacity:.35}
+select{font:14px var(--f-body);padding:8px 10px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:4px}
+.count{font:13px var(--f-mono);color:var(--muted);margin-left:auto}
+
+/* main */
+.main{display:grid;gap:18px;grid-template-columns:minmax(0,1fr)}
+@media (min-width:1080px){.main{grid-template-columns:minmax(0,5fr) minmax(0,7fr);align-items:start}.mapcol{position:sticky;top:calc(env(safe-area-inset-top,0px) + 12px)}}
+.map{position:relative;background:var(--surface);border:1px solid var(--line)}
+.map svg{display:block;width:100%;height:auto;background:var(--sea);touch-action:manipulation}
+.land{fill:var(--land);stroke:var(--land-edge);stroke-width:1;vector-effect:non-scaling-stroke}
+.pt{stroke:var(--surface);stroke-width:1;cursor:pointer;fill-opacity:.85;vector-effect:non-scaling-stroke}
+.pt.operational{fill:var(--op)}.pt.under_construction{fill:var(--uc)}.pt.approved{fill:var(--ap)}.pt.withdrawn{fill:var(--wd)}
+.pt:hover,.pt.sel{stroke:var(--ink);stroke-width:2.4;fill-opacity:1}
+.city{font:500 11px var(--f-disp);letter-spacing:.06em;text-transform:uppercase;fill:var(--faint)}
+.mapbar{display:flex;flex-wrap:wrap;gap:6px;padding:8px;border-top:1px solid var(--line);align-items:center}
+.mapbar button{font:500 13px var(--f-body);padding:6px 10px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:4px;cursor:pointer}
+.mapbar button[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.mapbar .note{font-size:12px;color:var(--faint);margin-left:auto}
+.tip{position:absolute;pointer-events:none;background:var(--ink);color:var(--paper);font:500 12px/1.3 var(--f-body);padding:5px 8px;border-radius:3px;white-space:nowrap;transform:translate(-50%,-130%)}
+
+/* table */
+.tablebox{background:var(--surface);border:1px solid var(--line);overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th{position:sticky;top:0;background:var(--sunk);text-align:left;font:600 12px/1.2 var(--f-disp);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding:0;border-bottom:1px solid var(--line);white-space:nowrap}
+th button{all:unset;display:block;padding:10px 10px;cursor:pointer;width:100%;box-sizing:border-box}
+th button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+th.r,td.r{text-align:right}
+th[aria-sort="ascending"] button::after{content:" ▲";font-size:9px}
+th[aria-sort="descending"] button::after{content:" ▼";font-size:9px}
+td{padding:9px 10px;}
+td:first-child{min-width:210px}
+td{border-bottom:1px solid var(--line);vertical-align:top}
+tbody tr{cursor:pointer}
+tbody tr:hover{background:var(--sunk)}
+tbody tr.sel{background:var(--sunk);box-shadow:inset 3px 0 0 var(--accent)}
+.fname{font-weight:600;line-height:1.3}
+.fsub{font-size:12.5px;color:var(--muted)}
+.pill{display:inline-block;font:600 11px/1 var(--f-disp);letter-spacing:.06em;text-transform:uppercase;padding:5px 7px;border-radius:3px;white-space:nowrap}
+.pill.operational{background:var(--op-bg);color:var(--op)}.pill.under_construction{background:var(--uc-bg);color:var(--uc)}.pill.approved{background:var(--ap-bg);color:var(--ap)}.pill.withdrawn{background:var(--wd-bg);color:var(--wd)}
+.basis{font:500 10.5px/1 var(--f-mono);color:var(--muted);display:block;margin-top:3px}
+.nil{color:var(--faint)}
+.empty{padding:28px;text-align:center;color:var(--muted)}
+
+/* detail drawer */
+.scrim{position:fixed;inset:0;background:rgba(10,20,26,.35);z-index:20}
+.drawer{position:fixed;z-index:21;top:0;right:0;bottom:0;width:min(520px,100%);background:var(--surface);box-shadow:var(--shadow);overflow-y:auto;padding:calc(env(safe-area-inset-top,0px) + 18px) 20px calc(env(safe-area-inset-bottom,0px) + 32px)}
+.dhead{display:flex;gap:12px;align-items:start;justify-content:space-between}
+.dhead h2{font:700 26px/1.1 var(--f-disp);margin:6px 0 4px;text-wrap:balance}
+.close{font:500 14px var(--f-body);border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:4px;padding:6px 10px;cursor:pointer;flex:none}
+.addr{color:var(--muted);font-size:14px;margin:0}
+.facts{display:grid;grid-template-columns:minmax(120px,38%) 1fr;gap:0;margin:18px 0;border-top:1px solid var(--line)}
+.facts dt,.facts dd{margin:0;padding:9px 0;border-bottom:1px solid var(--line)}
+.facts dt{font:600 12px/1.4 var(--f-disp);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding-right:12px}
+.facts dd{font-size:14px}
+.facts .big{font:500 18px/1.3 var(--f-mono)}
+.facts .note{display:block;font-size:12.5px;color:var(--muted);margin-top:3px;line-height:1.45}
+sup a{font:500 10px var(--f-mono);text-decoration:none;margin-left:2px}
+h3{font:600 13px/1.2 var(--f-disp);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:22px 0 8px}
+.alt{font-size:13px;margin:4px 0 0;padding-left:0;list-style:none}
+.alt li{padding:3px 0}
+.flag{font-size:13px;background:var(--uc-bg);color:var(--ink);padding:10px 12px;border-radius:4px;margin:12px 0}
+.srcs{list-style:none;padding:0;margin:0;font-size:13px;counter-reset:s}
+.srcs li{display:grid;grid-template-columns:2.2em 1fr;gap:4px;padding:6px 0;border-bottom:1px solid var(--line)}
+.srcs .sn{font:500 12px var(--f-mono);color:var(--faint)}
+.srcs a{word-break:break-all}
+.srcs .sd{color:var(--muted);display:block;margin-top:2px}
+.srcs li:target{background:var(--sunk)}
+
+.foot{margin-top:36px;padding-top:16px;border-top:1px solid var(--line);display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));font-size:13px;color:var(--muted)}
+.foot h4{font:600 12px/1.2 var(--f-disp);letter-spacing:.08em;text-transform:uppercase;color:var(--ink);margin:0 0 6px}
+.foot p{margin:0}
+@media (prefers-reduced-motion:no-preference){.drawer{animation:slide .18s ease-out}@keyframes slide{from{transform:translateX(24px);opacity:.6}to{transform:none;opacity:1}}}
+</style>
+
+<div class="wrap">
+  <header class="head">
+    <div>
+      <p class="eyebrow">Built since 2016 · under construction · approved · 5 MW and above</p>
+      <h1>Australian Data Centre Register</h1>
+      <p class="lede">Every data centre building or phase of 5 MW or more completed in Australia since January 2016, under construction, or holding planning approval. Each figure links back to its source: planning assessments, EIS documents, operator releases and contractor records.</p>
+    </div>
+    <div class="built" id="built"></div>
+  </header>
+
+  <section class="summary" id="summary" aria-label="Summary"></section>
+  <p class="caveat">Capacity is <strong>design IT capacity</strong> at full build for each building or phase, as stated in planning or operator documents. It is not the load energised today, which for part-built campuses can be far lower. Totals exclude withdrawn projects and rows with no published figure.</p>
+
+  <div class="controls">
+    <label class="search"><span hidden>Search</span><input id="q" type="search" placeholder="Search facility, operator, suburb, builder or planning ref" autocomplete="off"></label>
+    <div class="chips" id="chips" role="group" aria-label="Status"></div>
+    <select id="state" aria-label="State"></select>
+    <span class="count" id="count"></span>
+  </div>
+
+  <div class="main">
+    <div class="mapcol">
+      <div class="map" id="map">
+        <svg id="svg" viewBox="0 0 1000 800" role="img" aria-label="Map of facilities"></svg>
+        <div class="tip" id="tip" hidden></div>
+        <div class="mapbar" id="mapbar">
+          <button type="button" data-view="au">Australia</button>
+          <button type="button" data-view="syd">Sydney</button>
+          <button type="button" data-view="mel">Melbourne</button>
+          <button type="button" data-view="fit">Fit to list</button>
+          <span class="note">Dot size scales with design MW</span>
+        </div>
+      </div>
+    </div>
+    <div class="tablebox">
+      <table>
+        <thead><tr id="thead"></tr></thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <footer class="foot">
+    <div><h4>Jobs</h4><p>Planning documents report construction jobs on different bases. Each figure is tagged: <em>peak</em> on-site workforce, <em>avg</em> workforce over the build, <em>FTE-yrs</em>, <em>total</em> headcount, or <em>n/s</em> where the source gives no definition. Only like-for-like figures should be added together.</p></div>
+    <div><h4>Scope</h4><p>One row per building or phase. Completed facilities from 1 January 2016; announced or lodged-but-undecided projects are held in a separate excluded list in the repository. Status reflects the latest source found.</p></div>
+    <div><h4>Data</h4><p>Source data, per-facility records and method: <a href="https://github.com/andrewlilley/au-datacentres">github.com/andrewlilley/au-datacentres</a>. Coastline from Natural Earth (public domain). Locations are geocoded address points, not building footprints.</p></div>
+  </footer>
+</div>
+
+<div class="scrim" id="scrim" hidden></div>
+<aside class="drawer" id="drawer" hidden aria-labelledby="dname" role="dialog"></aside>
+
+<script>
+const DATA=/*__DATA__*/null;
+const COAST=/*__COAST__*/null;
+const F=DATA.facilities;
+const STATUS=[["operational","Operational"],["under_construction","Under construction"],["approved","Approved"],["withdrawn","Withdrawn"]];
+const SLABEL=Object.fromEntries(STATUS);
+const STATES=["NSW","VIC","QLD","WA","SA","TAS","ACT","NT"];
+const BASIS={peak:"peak",average:"avg",fte_years:"FTE-yrs",total_headcount:"total",ongoing_headcount:"",unstated:"n/s"};
+const VIEWS={au:[-44,-9.5,112,154.5],syd:[-34.15,-33.65,150.55,151.3],mel:[-38.05,-37.55,144.55,145.25]};
+const st={q:"",status:new Set(["operational","under_construction","approved"]),state:"ALL",sort:{k:"mw",d:-1},sel:null,view:"au"};
+
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const fmtMW=v=>v==null?null:(v<10?(+v.toFixed(1)).toString():Math.round(v).toLocaleString("en-AU"));
+const fmtCost=v=>v==null?null:(v>=1000?"$"+(v/1000).toFixed(v>=10000?0:1)+"bn":"$"+Math.round(v).toLocaleString("en-AU")+"m");
+const fmtN=v=>v==null?null:Math.round(v).toLocaleString("en-AU");
+const nil='<span class="nil">–</span>';
+const endYear=f=>{const e=f.end&&f.end.value;return (e&&String(e).slice(0,4))||f.year||null};
+
+function matches(f){
+  if(!st.status.has(f.status))return false;
+  if(st.state!=="ALL"&&f.state!==st.state)return false;
+  if(st.q){
+    const hay=[f.name,f.operator,f.suburb,f.state,f.builder,f.developer,f.planning.ref,f.address].join(" ").toLowerCase();
+    if(!st.q.toLowerCase().split(/\s+/).every(w=>hay.includes(w)))return false;
+  }
+  return true;
+}
+const COLS=[
+  {k:"name",l:"Facility",v:f=>f.name},
+  {k:"state",l:"State",v:f=>f.state},
+  {k:"status",l:"Status",v:f=>STATUS.findIndex(s=>s[0]===f.status)},
+  {k:"mw",l:"Design MW",r:1,v:f=>f.mw},
+  {k:"cost",l:"Cost",r:1,v:f=>f.cost},
+  {k:"jc",l:"Constr. jobs",r:1,v:f=>f.jobs_c&&f.jobs_c.value},
+  {k:"jo",l:"Ops jobs",r:1,v:f=>f.jobs_o&&f.jobs_o.value},
+  {k:"year",l:"Complete",r:1,v:f=>endYear(f)},
+];
+function sorted(list){
+  const c=COLS.find(c=>c.k===st.sort.k),d=st.sort.d;
+  return list.slice().sort((a,b)=>{
+    const x=c.v(a),y=c.v(b);
+    if(x==null&&y==null)return a.name.localeCompare(b.name);
+    if(x==null)return 1; if(y==null)return -1;
+    return (typeof x==="string"?x.localeCompare(y):x-y)*d||a.name.localeCompare(b.name);
+  });
+}
+
+function renderSummary(){
+  const pool=F.filter(f=>st.state==="ALL"||f.state===st.state);
+  const box=$("#summary");
+  box.innerHTML=STATUS.slice(0,3).map(([s,l])=>{
+    const rows=pool.filter(f=>f.status===s);
+    const mw=rows.reduce((a,f)=>a+(f.mw||0),0),miss=rows.filter(f=>f.mw==null).length;
+    return `<div class="stat"><span class="k"><i class="dot ${s}"></i>${l}</span><span class="n">${rows.length}</span><span class="s"><span class="num">${fmtN(mw)}</span> design MW${miss?` · ${miss} without a figure`:""}</span></div>`;
+  }).join("")+(()=>{
+    const live=pool.filter(f=>f.status!=="withdrawn");
+    const pk=live.filter(f=>f.jobs_c&&f.jobs_c.basis==="peak");
+    return `<div class="stat"><span class="k">Construction jobs</span><span class="n">${live.filter(f=>f.jobs_c).length}</span><span class="s">facilities with a figure · ${pk.length} as peak workforce</span></div>`;
+  })();
+}
+
+function renderChips(){
+  $("#chips").innerHTML=STATUS.map(([s,l])=>{
+    const n=F.filter(f=>f.status===s&&(st.state==="ALL"||f.state===st.state)).length;
+    return `<button type="button" class="chip" data-s="${s}" aria-pressed="${st.status.has(s)}"><i class="dot ${s}"></i>${l} <span class="num">${n}</span></button>`;
+  }).join("");
+}
+
+function jobsCell(j){
+  if(!j)return nil;
+  const b=BASIS[j.basis]??j.basis;
+  return `<span class="num">${fmtN(j.value)}</span>${b?`<span class="basis">${esc(b)}</span>`:""}`;
+}
+function renderTable(list){
+  $("#thead").innerHTML=COLS.map(c=>`<th class="${c.r?"r":""}" aria-sort="${st.sort.k===c.k?(st.sort.d>0?"ascending":"descending"):"none"}"><button type="button" data-k="${c.k}">${c.l}</button></th>`).join("");
+  const tb=$("#tbody");
+  if(!list.length){tb.innerHTML=`<tr><td colspan="${COLS.length}" class="empty">No facilities match. Clear the search or turn on more statuses.</td></tr>`;return}
+  tb.innerHTML=list.map(f=>`<tr data-id="${f.id}" class="${st.sel===f.id?"sel":""}" tabindex="0">
+    <td><div class="fname">${esc(f.name)}</div><div class="fsub">${esc(f.operator)} · ${esc(f.suburb||"")}</div></td>
+    <td>${esc(f.state)}</td>
+    <td><span class="pill ${f.status}">${esc(SLABEL[f.status]||f.status)}</span></td>
+    <td class="r num">${fmtMW(f.mw)??nil}</td>
+    <td class="r num">${fmtCost(f.cost)??nil}</td>
+    <td class="r">${jobsCell(f.jobs_c)}</td>
+    <td class="r">${jobsCell(f.jobs_o)}</td>
+    <td class="r num">${esc(endYear(f)||"")||nil}</td>
+  </tr>`).join("");
+}
+
+/* ---------- map ---------- */
+const W=1000;let H=800,proj=null;
+function makeProj(b){
+  let [la0,la1,lo0,lo1]=b;
+  const mid=(la0+la1)/2,kx=Math.cos(mid*Math.PI/180);
+  H=800;
+  let w=(lo1-lo0)*kx,h=la1-la0;
+  if(w/h>W/H){const nh=w*H/W,d=(nh-h)/2;la0-=d;la1+=d;h=nh}else{const nw=h*W/H,d=(nw-w)/2/kx;lo0-=d;lo1+=d;w=nw}
+  const s=W/w;
+  return {x:lo=>(lo-lo0)*kx*s,y:la=>(la1-la)*s,s};
+}
+function fitBounds(list){
+  const p=list.filter(f=>f.lat!=null&&f.lon!=null);
+  if(!p.length)return VIEWS.au;
+  let la0=Math.min(...p.map(f=>f.lat)),la1=Math.max(...p.map(f=>f.lat)),lo0=Math.min(...p.map(f=>f.lon)),lo1=Math.max(...p.map(f=>f.lon));
+  const pad=Math.max(.08,(la1-la0)*.12,(lo1-lo0)*.08);
+  return [la0-pad,la1+pad,lo0-pad,lo1+pad];
+}
+const CITIES=[["Sydney",-33.87,151.21],["Melbourne",-37.81,144.96],["Brisbane",-27.47,153.03],["Perth",-31.95,115.86],["Adelaide",-34.93,138.6],["Canberra",-35.28,149.13],["Hobart",-42.88,147.33],["Darwin",-12.46,130.84],["Launceston",-41.44,147.14]];
+function renderMap(list){
+  const b=st.view==="fit"?fitBounds(list):VIEWS[st.view];
+  proj=makeProj(b);
+  const svg=$("#svg");svg.setAttribute("viewBox",`0 0 ${W} ${H}`);
+  const land=COAST.map(r=>"M"+r.map(([lo,la])=>proj.x(lo).toFixed(1)+","+proj.y(la).toFixed(1)).join("L")+"Z").join("");
+  const k=W/Math.max(280,svg.clientWidth||600);  // viewBox units per screen px
+  const zoomed=st.view!=="au";
+  const pts=list.filter(f=>f.lat!=null&&f.lon!=null).sort((a,b)=>(b.mw||0)-(a.mw||0));
+  const cities=CITIES.map(([n,la,lo])=>{const x=proj.x(lo),y=proj.y(la);return x>20&&x<W-60&&y>14&&y<H-6?`<text class="city" style="font-size:${(10.5*k).toFixed(1)}px" x="${(x+9*k).toFixed(0)}" y="${(y+14*k).toFixed(0)}">${n}</text>`:""}).join("");
+  svg.innerHTML=`<path class="land" d="${land}"/>${cities}`+pts.map(f=>{
+    const r=(2.5+Math.sqrt(f.mw||4)*(zoomed?.55:.38))*k;
+    return `<circle class="pt ${f.status}${st.sel===f.id?" sel":""}" data-id="${f.id}" cx="${proj.x(f.lon).toFixed(1)}" cy="${proj.y(f.lat).toFixed(1)}" r="${r.toFixed(1)}"><title>${esc(f.name)}</title></circle>`;
+  }).join("");
+  document.querySelectorAll("#mapbar button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.view===st.view));
+}
+
+/* ---------- detail ---------- */
+function sup(n,f){return n&&f.sources.some(s=>s.n===n)?`<sup><a href="#src-${n}" data-src="${n}">[${n}]</a></sup>`:""}
+function jobsLine(j,f){
+  const b=BASIS[j.basis]??j.basis,sc=j.scope&&j.scope!=="unstated"?(j.scope==="direct_indirect"?"direct + indirect":j.scope):"";
+  return `<span class="num">${fmtN(j.value)}</span> ${[b&&b!=="n/s"?b:(j.basis==="unstated"?"basis not stated":""),sc].filter(Boolean).map(esc).join(", ")}${sup(j.source,f)}${j.note?`<span class="note">${esc(j.note)}</span>`:""}`;
+}
+function dateStr(d){return d&&d.value?esc(d.value):null}
+function openDetail(id,push=true){
+  const f=F.find(x=>x.id===id);if(!f)return;
+  st.sel=id;
+  const pl=f.planning;
+  const row=(k,v,note)=>`<dt>${k}</dt><dd>${v??nil}${note?`<span class="note">${esc(note)}</span>`:""}</dd>`;
+  const flags=[f.review,...(f.questions||[])].filter(Boolean);
+  $("#drawer").innerHTML=`
+    <div class="dhead"><div><span class="pill ${f.status}">${esc(SLABEL[f.status]||f.status)}</span><h2 id="dname">${esc(f.name)}</h2><p class="addr">${esc(f.operator)}${f.address?" · "+esc(f.address):" · "+esc(f.suburb+" "+f.state)}</p></div><button type="button" class="close" id="close">Close</button></div>
+    ${flags.length?`<div class="flag"><strong>Open questions:</strong> ${flags.map(esc).join(" · ")}</div>`:""}
+    <dl class="facts">
+      ${row("Design IT capacity",f.mw!=null?`<span class="big">${fmtMW(f.mw)} MW</span>`:null,f.mw_note)}
+      ${f.mw_grid!=null||f.mw_grid_note?row("Grid / facility demand",f.mw_grid!=null?`<span class="num">${fmtMW(f.mw_grid)} MW</span>`:null,f.mw_grid_note):""}
+      ${row("Cost",f.cost!=null?`<span class="big">${fmtCost(f.cost)}</span>`:null,f.cost_note)}
+      ${row("Builder",f.builder?esc(f.builder):null,f.builder_note)}
+      ${row("Developer",f.developer?esc(f.developer):null)}
+      ${row("Planning",[pl.pathway,pl.ref].filter(Boolean).length?(pl.url?`<a href="${esc(pl.url)}" target="_blank" rel="noopener">${esc([pl.pathway,pl.ref].filter(Boolean).join(" "))}</a>`:esc([pl.pathway,pl.ref].filter(Boolean).join(" "))):null,[pl.authority,pl.lodged&&"lodged "+pl.lodged,pl.determined&&"determined "+pl.determined].filter(Boolean).join(" · "))}
+      ${row("Construction start",dateStr(f.start),f.start&&f.start.note)}
+      ${row("Construction end",dateStr(f.end)||(f.year?esc(f.year):null),f.end&&f.end.note)}
+      ${row("Construction jobs",f.jobs_c?jobsLine(f.jobs_c,f):null)}
+      ${f.jobs_c_other.length?row("Other figures",`<ul class="alt">${f.jobs_c_other.map(j=>`<li>${jobsLine(j,f)}</li>`).join("")}</ul>`):""}
+      ${row("Operational jobs",f.jobs_o?jobsLine(f.jobs_o,f):null)}
+      ${f.jobs_o_other.length?row("Other figures",`<ul class="alt">${f.jobs_o_other.map(j=>`<li>${jobsLine(j,f)}</li>`).join("")}</ul>`):""}
+      ${row("Location",f.lat!=null?`<span class="num">${f.lat.toFixed(5)}, ${f.lon.toFixed(5)}</span>`:null,f.geo_note)}
+    </dl>
+    <h3>Sources</h3>
+    <ol class="srcs">${f.sources.map(s=>`<li id="src-${s.n}"><span class="sn">${s.n}</span><span>${s.url?`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.url)}</a>`:""}${s.desc?`<span class="sd">${esc(s.desc)}</span>`:""}</span></li>`).join("")||"<li>No sources recorded.</li>"}</ol>
+    <p class="addr" style="margin-top:14px">Record last checked ${esc(f.checked||"–")} · id <span class="num">${esc(f.id)}</span></p>`;
+  $("#drawer").hidden=false;$("#scrim").hidden=false;$("#drawer").scrollTop=0;
+  $("#close").focus();
+  if(push){try{history.replaceState(null,"","#"+id)}catch(e){location.hash=id}}
+  render(false);
+}
+function closeDetail(){
+  $("#drawer").hidden=true;$("#scrim").hidden=true;
+  const id=st.sel;st.sel=null;
+  try{history.replaceState(null,"",location.pathname+location.search)}catch(e){}
+  render(false);
+  const tr=document.querySelector(`tr[data-id="${id}"]`);if(tr)tr.focus();
+}
+
+/* ---------- wiring ---------- */
+function render(all=true){
+  const list=sorted(F.filter(matches));
+  if(all){renderSummary();renderChips()}
+  renderTable(list);renderMap(list);
+  $("#count").textContent=`${list.length} of ${F.length}`;
+}
+$("#built").innerHTML=`Data built ${esc(DATA.built)}<br>${F.length} records`;
+$("#state").innerHTML=`<option value="ALL">All states</option>`+STATES.filter(s=>F.some(f=>f.state===s)).map(s=>`<option>${s}</option>`).join("");
+$("#q").addEventListener("input",e=>{st.q=e.target.value.trim();render(false)});
+$("#state").addEventListener("change",e=>{st.state=e.target.value;st.view=st.state==="ALL"?"au":"fit";render()});
+$("#chips").addEventListener("click",e=>{const b=e.target.closest(".chip");if(!b)return;const s=b.dataset.s;st.status.has(s)?st.status.delete(s):st.status.add(s);render()});
+$("#thead").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;const k=b.dataset.k;st.sort=st.sort.k===k?{k,d:-st.sort.d}:{k,d:["name","state","status"].includes(k)?1:-1};render(false)});
+$("#tbody").addEventListener("click",e=>{const tr=e.target.closest("tr[data-id]");if(tr)openDetail(tr.dataset.id)});
+$("#tbody").addEventListener("keydown",e=>{if(e.key==="Enter"){const tr=e.target.closest("tr[data-id]");if(tr)openDetail(tr.dataset.id)}});
+$("#mapbar").addEventListener("click",e=>{const b=e.target.closest("button[data-view]");if(!b)return;st.view=b.dataset.view;render(false)});
+const svgEl=$("#svg"),tip=$("#tip");
+svgEl.addEventListener("click",e=>{const c=e.target.closest("circle[data-id]");if(c)openDetail(c.dataset.id)});
+svgEl.addEventListener("mousemove",e=>{const c=e.target.closest("circle[data-id]");if(!c){tip.hidden=true;return}const f=F.find(x=>x.id===c.dataset.id);const r=$("#map").getBoundingClientRect();tip.textContent=f.name+(f.mw!=null?` · ${fmtMW(f.mw)} MW`:"");tip.style.left=(e.clientX-r.left)+"px";tip.style.top=(e.clientY-r.top)+"px";tip.hidden=false});
+svgEl.addEventListener("mouseleave",()=>tip.hidden=true);
+$("#scrim").addEventListener("click",closeDetail);
+$("#drawer").addEventListener("click",e=>{if(e.target.id==="close")closeDetail();const a=e.target.closest("a[data-src]");if(a){e.preventDefault();const t=document.getElementById("src-"+a.dataset.src);if(t){t.scrollIntoView({block:"center"});t.style.background="var(--sunk)";setTimeout(()=>t.style.background="",1400)}}});
+document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!$("#drawer").hidden)closeDetail()});
+let rt;window.addEventListener("resize",()=>{clearTimeout(rt);rt=setTimeout(()=>render(false),150)});
+render();
+const h=(location.hash||"").slice(1);if(h&&F.some(f=>f.id===h))openDetail(h,false);
+</script>

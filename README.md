@@ -9,4 +9,4 @@ approval.
 - `list/merge.py` — merges candidates into `list/master.csv` and `list/excluded.csv`
 - `list/master.csv` — the working facility list; `conflicts` and `review` flag rows needing a decision
 - `facilities/<id>/` — per-facility data and sources (see `schema/facility_schema.md`)
-- `site/` — the web page
+- `site/` — the web page: `python3 site/build.py` regenerates `index.html` from `template.html` and the facility records; deployed to GitHub Pages by `.github/workflows/pages.yml`
