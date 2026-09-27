@@ -1,13 +1,13 @@
 {
   "id": "microsoft-kemps-creek-b1",
-  "name": "Microsoft Kemps Creek Building 1",
+  "name": "Microsoft Kemps Creek Building 1 (SYD05/SYD06)",
   "operator": "Microsoft",
   "status": "operational",
   "location": {
     "address": {
-      "value": "706-769 Mamre Road, Kemps Creek NSW",
-      "source": 1,
-      "note": "SSD site address; operator/listing sites give 769 Mamre Road"
+      "value": "706-769 Mamre Road, Kemps Creek NSW 2178",
+      "source": 2,
+      "note": "Assessment Report: site is Lot 2 (southernmost lot) of The Yards estate (SSD-9522), legally described at application as Lots X and Y DP 421633 and Lot 22 DP 258414; now Lot 2 DP 1293204 in the NSW cadastre (source 9). Operator/listing sites give 769 Mamre Road"
     },
     "suburb": "Kemps Creek",
     "state": "NSW",
@@ -16,14 +16,14 @@
       "source": 8
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: geocoding service (nominatim) blocked by session egress proxy"
+      "value": -33.83591,
+      "source": 9,
+      "note": "centroid of Lot 2 DP 1293204 (NSW cadastre), the lot containing the 769 Mamre Rd address point on the west side of Mamre Rd; matches Assessment Report (The Yards fronts Mamre Rd on its east and adjoins South Creek to the west; site = southernmost Lot 2). The 706-752 Mamre Rd address point (-33.83458,150.78671) falls in Lot 10 DP 1280592 on the east side and was rejected. Campus-level, not building-specific"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: geocoding service (nominatim) blocked by session egress proxy"
+      "value": 150.77442,
+      "source": 9,
+      "note": "see lat"
     }
   },
   "builder": {
@@ -34,81 +34,87 @@
   "developer": {
     "value": "Microsoft",
     "source": 4,
-    "note": "SSD applicant was ARUP Pty Ltd on Microsoft's behalf"
+    "note": "SSD applicant was Arup Pty Ltd on behalf of the end user (Microsoft asset numbers SYD05, SYD06, SYD07)"
   },
   "mw_it": {
     "value": null,
     "source": null,
-    "note": "per-building IT MW not found; campus ~96MW initially, expandable to 190MW (source 7)"
+    "note": "per-building IT MW not stated. Assessment Report (source 2) gives 'two data storage buildings with an operational capacity of 190 Megawatts (MW)' for the whole campus (total, not IT, and not split per building); 60 x 3MW data-hall generators. Press figure ~96MW initial (source 7) unverified"
   },
   "mw_grid": {
     "value": null,
-    "source": null
+    "source": null,
+    "note": "campus total 190MW 'operational capacity' (source 2) - not split per building"
   },
   "cost_aud_m": {
-    "value": 1300,
-    "source": 7,
-    "note": "campus total ($1.3bn) for both buildings under SSD-10101987; not split per building; not verified against EIS CIV"
+    "value": 1298.94,
+    "source": 2,
+    "note": "CIV $1,298,942,449 for the whole SSD-10101987 campus (both buildings), not split per building; replaces press '$1.3bn' (source 7)"
   },
   "planning": {
     "authority": {
       "value": "NSW DPE",
-      "source": 1,
-      "note": "determined by Director under delegation"
+      "source": 2,
+      "note": "determined 13 July 2023 by Chris Ritchie, Acting Executive Director, Energy, Resources and Industry Assessments, as delegate of the Minister"
     },
     "pathway": {
       "value": "SSD",
-      "source": 1
+      "source": 2
     },
     "reference": {
       "value": "SSD-10101987",
-      "source": 1
+      "source": 2
     },
     "lodged": {
       "value": "2021-09",
       "source": 3,
-      "note": "inferred from EIS attachment upload date 2021-09-14; EIS exhibition notified to EES 2021-11-17"
+      "note": "inferred from EIS attachment upload date 2021-09-14; Assessment Report (source 2) gives EIS exhibition 19 Nov - 16 Dec 2021; exact lodgement date not stated"
     },
     "determined": {
       "value": "2023-07-13",
-      "source": 1
+      "source": 2
     },
     "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/kemps-creek-data-centre"
   },
   "jobs_construction": {
     "value": 300,
-    "source": 6,
+    "source": 2,
     "basis": "unstated",
     "scope": "unstated",
-    "note": "~300 construction jobs; campus total (both buildings)"
+    "note": "Assessment Report Table 2: '300 full-time equivalent construction jobs'; elsewhere 'up to 300 construction jobs' - not defined as peak or FTE-years; campus total (both buildings). Press ~300 (source 6) agrees"
   },
   "jobs_construction_other": [],
   "jobs_operational": {
-    "value": 50,
-    "source": 6,
+    "value": 79,
+    "source": 2,
     "basis": "ongoing_headcount",
     "scope": "unstated",
-    "note": "'over 50' operational jobs; campus total"
+    "note": "Assessment Report: '79 operational jobs'; campus total (both buildings). Replaces press 'over 50' (source 6)"
   },
-  "jobs_operational_other": [],
+  "jobs_operational_other": [
+    {
+      "value": 50,
+      "source": 6,
+      "basis": "unstated",
+      "scope": "unstated",
+      "note": "press: 'over 50' operational jobs (campus)"
+    }
+  ],
   "construction_start": {
     "value": "2023-10",
     "source": 4,
-    "note": "AW Edwards began piling and excavation Oct 2023 (campus start, Building One)",
-    "precision": "month"
+    "precision": "month",
+    "note": "Microsoft Local Oct 2023 update: AW Edwards began piling and excavation (campus start, Building One); Aug 2023 update said construction to start with completion expected late 2025"
   },
   "construction_end": {
-    "value": null,
-    "source": null,
-    "precision": null,
-    "note": "Microsoft Local says Building One completed and handed over to operations; exact date not confirmed (master.csv note says May 2026)"
+    "value": "2026-05",
+    "source": 4,
+    "precision": "month",
+    "note": "Microsoft Local May 2026 update: 'Building One has now been completed and handed over to operations' - month of the update, actual handover on or before it. Building One = SYD05 (noise verification report titled SYD05); Assessment Report Stage 1 = SYD05 & SYD06 building"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "cost/jobs are campus totals, CIV not verified against EIS (portal fetch blocked)",
-    "Building 1 handover date not confirmed",
-    "per-building MW unknown",
-    "lat/lon not geocoded (geocoder blocked)",
-    "jobs: basis/scope tagged from search-result wording; confirm against planning documents"
+    "cost/jobs/MW are campus totals under SSD-10101987, not split per building",
+    "exact Building 1 handover date not published (reported in May 2026 update)"
   ]
 }

@@ -1,6 +1,6 @@
 # Sources: Macquarie Data Centres IC3 East
 
-Note: WebFetch was blocked by the session egress proxy; content was taken from WebSearch result summaries of the pages below.
+Note: sources listed before the verification-pass section were taken from WebSearch summaries (fetch was blocked then); sources in the 'Verification pass 2026-09-27' section were fetched and read directly.
 
 1. Macquarie Data Centres / Macquarie Telecom - IC3 East pages (via search snippets; fetch blocked)
    - URL: https://www.macquariedatacentres.com/data-centres/sydney/macquarie-park-campus/ic3-east/
@@ -18,3 +18,15 @@ Note: WebFetch was blocked by the session egress proxy; content was taken from W
    - URL: https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-24299707!20210812T054050.904+GMT
    - Accessed: 2026-09-27
    - Supports: planning authority, pathway, DA reference
+5. NSW Spatial Services Address Location service (maps.six.nsw.gov.au/services/public/Address_Location), GDA94 address point - geocoded 2026-09-27 - supports: lat/lon.
+
+Verification pass 2026-09-27 (fetched and read directly):
+
+6. NSW Department of Planning and Environment - Talavera Road Data Centre Campus Expansion (SSD-24299707) Assessment Report, Nov 2023, s1.5 'Related approvals'
+   - URL: https://www.ipcn.nsw.gov.au/sites/default/files/pac/projects/2023/11/talavera-road-data-centre-campus-expansion/case-referral-documents-from-dphi/assessment-report-talavera-rd.pdf
+   - Accessed: 2026-09-27
+   - Supports: LDA2018/0322 consent granted 20 Sep 2019 by NSW Land and Environment Court (s34 agreement); Stage 1 construction commenced Dec 2019, completed Mar 2022; Stage 1 = 6,731 m2 GFA, 45 m; Stage 2 not built
+7. Macquarie Data Centres - IC3 East page (fetched)
+   - URL: https://www.macquariedatacentres.com/data-centres/sydney/macquarie-park-campus/ic3-east/
+   - Accessed: 2026-09-27
+   - Supports: 12MW IT load, Tier III

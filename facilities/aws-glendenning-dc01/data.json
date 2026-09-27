@@ -6,8 +6,8 @@
   "location": {
     "address": {
       "value": "2 Glendenning Road, Glendenning NSW 2761",
-      "source": 3,
-      "note": "campus address; all three buildings on one 10.43 ha lot"
+      "source": 12,
+      "note": "campus address, Lot 2 DP 1137162 (10.44 ha) per development consent; all three buildings on one lot"
     },
     "suburb": "Glendenning",
     "state": "NSW",
@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: Nominatim blocked by session egress proxy (HTTP 403)"
+      "value": -33.75992,
+      "source": 10,
+      "note": "Geocoded from street address via NSW Spatial Services address point for 2 GLENDENNING ROAD GLENDENNING. Address point, not building centroid; campus spans a larger lot."
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: Nominatim blocked by session egress proxy (HTTP 403)"
+      "value": 150.85293,
+      "source": 10,
+      "note": ""
     }
   },
   "builder": {
@@ -34,87 +34,136 @@
   },
   "developer": {
     "value": "Amazon Web Services",
-    "source": 3,
-    "note": "reported as Amazon/AWS project (w.media, Telecompaper); formal SSD proponent is Lehr Consultants International (Australia)"
+    "source": 17,
+    "note": "Amazon bought 2 Glendenning Rd for $181m (settled 23 Dec 2022, source 17); w.media: 'reported to be an Amazon Web Services (AWS) development' (source 3). Formal SSD applicant is Lehr Consultants International (Australia) Pty Ltd (consent, source 12); planning documents do not name the operator"
   },
   "mw_it": {
     "value": 79.2,
-    "source": 3,
-    "note": "DC01 IT capacity per approval reporting; campus 193.6 MW IT"
+    "source": 13,
+    "note": "DC01 IT capacity per EIS: 'A total IT capacity of approximately 193.6MW (DC01 - 79.2MW, DC02 - 35.2MW and DC03 - 79.2MW)'; same split in Submissions Report."
   },
   "mw_grid": {
     "value": 235,
-    "source": 3,
-    "note": "CAMPUS TOTAL electrical maximum demand for all three buildings, not apportioned per building; SEARs stage quoted 202 MW / 202.4 MW"
+    "source": 12,
+    "note": "CAMPUS TOTAL, not apportioned per building: consent 'total power consumption of 235 megawatts'; assessment report 'Maximum power capacity 235 MW (IT load of 193.6 MW)'. SSD application form and portal description say 202.4 MW (application-stage figure)"
   },
   "cost_aud_m": {
-    "value": 2170,
-    "source": 2,
-    "note": "CAMPUS TOTAL capital investment value for all three stages, not apportioned; SEARs-stage/other reports give AU$2.3bn (sources 4, 9)"
+    "value": 2168.27,
+    "source": 11,
+    "note": "CAMPUS TOTAL capital investment value $2,168,267,746 for all three stages (assessment report; EIS EDC identical). EIS gives Stage 1 (DC01) construction cost $571,013,322 (construction cost only, not CIV; source 13). SEARs request (Jul 2024) gave AUD2.3bn (source 16)"
   },
   "planning": {
     "authority": {
       "value": "NSW Department of Planning, Housing and Infrastructure (DPHI)",
-      "source": 2,
-      "note": ""
+      "source": 12,
+      "note": "consent authority Minister for Planning and Public Spaces; determined by A/Director, Industry Assessments under delegation"
     },
     "pathway": {
       "value": "SSD",
-      "source": 2,
+      "source": 1,
       "note": ""
     },
     "reference": {
       "value": "SSD-73761707",
-      "source": 2,
+      "source": 1,
       "note": "single SSD covering all three stages"
     },
     "lodged": {
-      "value": "2025-03",
-      "precision": "month",
-      "source": 6,
-      "note": "estimate: EIS appendix attachment timestamped 2025-03-20; PlanningAlerts entry dated 16 May 2025 (possibly exhibition); SEARs requested 2024"
+      "value": "2025-03-21",
+      "precision": "day",
+      "source": 15,
+      "note": "SSD application form 'Date Submitted: 21/03/2025' (EIS uploaded 2025-03-20). SEARs issued 25 Jul 2024; exhibited 16 May - 12 Jun 2025"
     },
     "determined": {
       "value": "2026-09-14",
       "precision": "day",
-      "source": 2,
-      "note": "master.csv 'ops' note mentions 17 Sep 2026 per datacentermap; 14 Sep per urbandigest and w.media"
+      "source": 1,
+      "note": "portal: Decision Approved, Determination Date 14/09/2026, Decider Director; consent signed 'Sydney 14 September 2026' (source 12). Consent documents uploaded to portal 2026-09-16"
     },
     "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/glendenning-road-data-centre"
   },
   "jobs_construction": {
-    "value": 1076,
-    "source": 2,
-    "note": "CAMPUS TOTAL for all three stages, not apportioned. Urban Digest (search extract): '~1,076 direct construction jobs'; peak vs total not stated in extract - check assessment report",
-    "basis": "unstated",
-    "scope": "direct"
+    "value": 400,
+    "source": 13,
+    "basis": "average",
+    "scope": "direct",
+    "note": "EIS s1.6.1 for Stage 1 (DC01): construction cost $571,013,322, 3,726,613 total work hours over 53 months; 'The estimate of Full-Time Equivalent (FTE) jobs generated by Stage 1 is 400' (i.e. average daily work hours / 8; average FTE workforce over the stage, not peak)"
   },
-  "jobs_construction_other": [],
+  "jobs_construction_other": [
+    {
+      "value": 1076,
+      "source": 11,
+      "basis": "unstated",
+      "scope": "direct",
+      "note": "CAMPUS TOTAL (sum of the three stage FTE averages 400+333+343). Assessment report: 'up to 1,076 construction jobs' / '1,076 full-time equivalent construction jobs'; EIS: 'approximately 1,076 direct construction jobs'; application form 'Indicative Construction Jobs 1,076'"
+    },
+    {
+      "value": 1640,
+      "source": 14,
+      "basis": "fte_years",
+      "scope": "direct",
+      "note": "CAMPUS TOTAL. SEIA (Ethos Urban): 'directly support employment of 1,640 job-years' (based on $1.27bn direct construction cost)"
+    },
+    {
+      "value": 8720,
+      "source": 14,
+      "basis": "fte_years",
+      "scope": "direct_indirect",
+      "note": "CAMPUS TOTAL. SEIA: 'total state-wide economy effects ... employment of 8,720 job-years' (1,640 direct + 7,080 indirect)"
+    },
+    {
+      "value": 400,
+      "source": 16,
+      "basis": "unstated",
+      "scope": "unstated",
+      "note": "CAMPUS TOTAL at SEARs request (Jul 2024): 'Indicative Construction Jobs 400'"
+    }
+  ],
   "jobs_operational": {
     "value": 106,
-    "source": 2,
-    "note": "CAMPUS TOTAL, not apportioned. Urban Digest (search extract): '106 operational jobs'",
+    "source": 13,
     "basis": "ongoing_headcount",
-    "scope": "unstated"
+    "scope": "direct",
+    "note": "CAMPUS TOTAL, not apportioned. EIS s1.6.2: 'the total operational FTE employment roles for DC01, DC02 and DC03 is 106'; assessment report '106 operational jobs'"
   },
-  "jobs_operational_other": [],
+  "jobs_operational_other": [
+    {
+      "value": 124,
+      "source": 14,
+      "basis": "ongoing_headcount",
+      "scope": "direct",
+      "note": "CAMPUS TOTAL. SEIA: '124 direct FTE ongoing jobs once complete and fully operational' (differs from EIS figure 106)"
+    },
+    {
+      "value": 218,
+      "source": 14,
+      "basis": "ongoing_headcount",
+      "scope": "direct_indirect",
+      "note": "CAMPUS TOTAL. SEIA: 'FTE employment of 218 jobs supported' (124 direct + 94 indirect)"
+    },
+    {
+      "value": 100,
+      "source": 16,
+      "basis": "unstated",
+      "scope": "unstated",
+      "note": "CAMPUS TOTAL at SEARs request (Jul 2024): 'Indicative Operation Jobs 100'"
+    }
+  ],
   "construction_start": {
     "value": null,
     "precision": null,
     "source": null,
-    "note": "not announced (approved Sep 2026)"
+    "note": "not announced; no post-approval documents on portal at 2026-09-27. Assessment report notes demolition 'already commenced under a separate complying development certificate' (CDC-25-00506). Stage 1 comprises site preparation, bulk earthworks for Stages 1-2 and DC01"
   },
   "construction_end": {
     "value": null,
     "precision": null,
     "source": null,
-    "note": "not announced"
+    "note": "not announced. EIS jobs calculation assumes Stage 1 duration of 53 months; assessment report says 'each stage occurring over approximately 24 months'"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "lat/lon not geocoded (Nominatim blocked)",
-    "AWS as operator/developer is from media reports; formal proponent is Lehr Consultants International",
-    "confirm lodgement date and CIV/jobs in EIS & assessment report on the portal (blocked this session)",
-    "staging sequence/timing of each building not found"
+    "operator AWS rests on Amazon's 2022 purchase of the site and media reports; planning documents name only Lehr Consultants International as applicant",
+    "construction start and staging timetable (sequence of DC01-DC03 dates) not announced; builder not announced"
   ]
 }

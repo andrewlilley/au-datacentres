@@ -17,20 +17,20 @@
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: nominatim and map sites blocked by network proxy in this session"
+      "value": -37.68555,
+      "source": 6,
+      "note": "geocoded: centroid of OSM building \"Microsoft MEL07\", 70-90 Garden Dr"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: nominatim and map sites blocked by network proxy in this session"
+      "value": 144.87492,
+      "source": 6,
+      "note": "see lat note"
     }
   },
   "builder": {
     "value": "BESIX Watpac",
     "source": 2,
-    "note": "head contractor, awarded Aug 2022"
+    "note": "head contractor, awarded Aug 2022; Microsoft: 'Together with our general contractor, BESIX Watpac'"
   },
   "developer": {
     "value": "Microsoft",
@@ -61,18 +61,18 @@
     "pathway": {
       "value": "council planning permit",
       "source": 3,
-      "note": ""
+      "note": "'Use of the land and associated buildings and works for the purpose of two data centre facilities (over two stages)'"
     },
     "reference": {
-      "value": null,
-      "source": null,
-      "note": "council reference not shown in sources reached"
+      "value": "P24399",
+      "source": 3,
+      "note": "Hume City Council; amendment/secondary application P24399.01 received 10 Jul 2025 (source 4), same description"
     },
     "lodged": {
       "value": "2022-04",
       "source": 3,
       "precision": "month",
-      "note": "estimate: PlanningAlerts found it 13 May 2022 and says received about 1 month earlier"
+      "note": "estimate: PlanningAlerts found it 13 May 2022 and says received 'about 1 month earlier'"
     },
     "determined": {
       "value": null,
@@ -89,7 +89,15 @@
     "scope": null,
     "note": ""
   },
-  "jobs_construction_other": [],
+  "jobs_construction_other": [
+    {
+      "value": 40,
+      "source": 5,
+      "basis": "peak",
+      "scope": "direct",
+      "note": "Delta Group civil/remediation subcontract package only (client BESIX Watpac): 'Peak workforce: 40'; 'Total workhours: 31,800'. Not a whole-project figure"
+    }
+  ],
   "jobs_operational": {
     "value": null,
     "source": null,
@@ -102,19 +110,19 @@
     "value": "2022-10",
     "source": 2,
     "precision": "month",
-    "note": "groundworks commenced Oct 2022; sod turning 5 Dec 2022"
+    "note": "BESIX Watpac: groundworks commenced Oct 2022; sod turning 5 Dec 2022; Microsoft page says 'began construction ... in December 2022'"
   },
   "construction_end": {
     "value": null,
     "source": null,
     "precision": null,
-    "note": "Microsoft expected completion end-2024; master.csv note says ~60% operational Aug 2026 (not re-verified)"
+    "note": "Microsoft planned 'October 2022, through late 2024'; Feb 2025: structure, roof, facade complete, fit-out continuing, substation begun; Aug 2026: 'Approximately 60% of the site is now operational'"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "permit number/decision date not found",
-    "2025 re-application (Jul 2025) for the two data centres - scope of amendment unknown",
-    "actual completion date unknown",
-    "lat/lon not geocoded (proxy blocked)"
+    "permit decision date not found",
+    "planning: coverage of 2025 application P24399.01 unknown",
+    "completion date of remaining 40% (fit-out) unknown",
+    "MW not public"
   ]
 }

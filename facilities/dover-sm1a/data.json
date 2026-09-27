@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: geocoder and map sites blocked by session network proxy"
+      "value": -37.65091,
+      "source": 5,
+      "note": "geocoded: OSM address point 765 Plenty Road, South Morang; site also includes 525-535 McDonalds Rd"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: geocoder and map sites blocked by session network proxy"
+      "value": 145.08236,
+      "source": 5,
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -65,20 +65,20 @@
     },
     "reference": {
       "value": "PA2402997",
-      "source": 2,
+      "source": 1,
       "note": "amendment PA2402997-1"
     },
     "lodged": {
       "value": null,
       "source": null,
       "precision": null,
-      "note": ""
+      "note": "not found; City of Whittlesea says it lodged a submission opposing the application in July 2024 (src 6), so lodged before then"
     },
     "determined": {
-      "value": "2024-09-12",
-      "source": 3,
-      "precision": "day",
-      "note": "amendments approved 2 Jun 2025 and 30 Oct 2025"
+      "value": "2024-09",
+      "source": 1,
+      "precision": "month",
+      "note": "Dover and w.media: approved by Minister for Planning September 2024; first pass had 12 Sep 2024 from a search snippet (not confirmed on fetched pages; planning.vic register blocked). Amendments approved June 2025 and October 2025 (Dover). North Central Review says 'September 2025' - apparently an error"
     },
     "url": "https://www.planning.vic.gov.au/planning-approvals/ministerial-permits-register/ministerial-permits/1b31ed89-8d2e-ef11-840a-000d3acb3ea1"
   },
@@ -87,7 +87,7 @@
     "source": null,
     "basis": null,
     "scope": null,
-    "note": "Dover: >1,750 FTE construction jobs (>750 direct, >1,000 indirect) for the SM project overall (SM1A+SM1B), not SM1A alone"
+    "note": "Dover: '>1,750 new full-time-equivalent jobs during construction, comprising >750 direct and >1,000 indirect jobs' - SM project page (SM1A + SM1B), not SM1A alone"
   },
   "jobs_construction_other": [
     {
@@ -110,26 +110,42 @@
     "source": null,
     "basis": null,
     "scope": null,
-    "note": ""
+    "note": "Dover: '>600 new ongoing jobs in operations, comprising >200 direct and >400 indirect jobs' - SM project page covering SM1A + SM1B, so not recorded as SM1A primary value"
   },
-  "jobs_operational_other": [],
+  "jobs_operational_other": [
+    {
+      "value": 200,
+      "source": 1,
+      "basis": "ongoing_headcount",
+      "scope": "direct",
+      "note": "Dover: '>200 direct' of '>600 new ongoing jobs in operations'; whole SM project (SM1A+SM1B); lower bound"
+    },
+    {
+      "value": 600,
+      "source": 1,
+      "basis": "ongoing_headcount",
+      "scope": "direct_indirect",
+      "note": "Dover: '>600 new ongoing jobs in operations, comprising >200 direct and >400 indirect jobs'; whole SM project (SM1A+SM1B); lower bound"
+    }
+  ],
   "construction_start": {
     "value": null,
     "source": null,
     "precision": null,
-    "note": "expected late 2026 or early 2027 (Dover)"
+    "note": "expected 'Late 2026 / Early 2027' (Dover)"
   },
   "construction_end": {
     "value": null,
     "source": null,
     "precision": null,
-    "note": "first phase expected to launch 2028/2029 (Dover)"
+    "note": "commissioning/initial operations expected 'Late 2028 / Early 2029'; ultimate capacity 2031+ (Dover)"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
     "cost not found",
-    "lodged date not found",
+    "lodged date not found (before Jul 2024)",
+    "exact determination and amendment dates unverified (planning.vic register blocked)",
     "jobs only stated for SM1A+SM1B combined",
-    "local opposition: parliamentary petition >4,600 signatures"
+    "local opposition: parliamentary petition (4,213 signatures by Aug 2026 per NCR; >4,600 per first pass)"
   ]
 }

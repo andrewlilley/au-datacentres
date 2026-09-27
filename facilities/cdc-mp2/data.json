@@ -16,46 +16,46 @@
       "source": 2
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "Not geocoded: Nominatim and all mapping hosts blocked by the session egress proxy. Geocode from 105 Hollinsworth Road, Marsden Park NSW 2765 later."
+      "value": -33.72261,
+      "source": 20,
+      "note": "Geocoded from street address via NSW Spatial Services address point for 105 HOLLINSWORTH ROAD MARSDEN PARK (113 Hollinsworth Rd is at -33.72446,150.83675). Address point, not building centroid; campus spans a larger lot."
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "Not geocoded: Nominatim and all mapping hosts blocked by the session egress proxy. Geocode from 105 Hollinsworth Road, Marsden Park NSW 2765 later."
+      "value": 150.8366,
+      "source": 20,
+      "note": ""
     }
   },
   "builder": {
-    "value": null,
-    "source": null,
-    "note": "Head contractor not found"
+    "value": "Built",
+    "source": 28,
+    "note": "Built Pty Ltd is Principal/Head Contractor for the SSD campus works per its CEMP (source 28, approved by DPHI Apr 2026) and commencement notice for Stage 1-4 works (source 29); BY Group is head contractor for civil, stormwater and erosion control."
   },
   "developer": {
     "value": "CDC Data Centres",
-    "source": 9,
-    "note": "Applicant for SSD-70889211 (Mecone acted as planning consultant)"
+    "source": 21,
+    "note": "Applicant CDC Data Centres Pty Ltd (ABN 59125710394) per SSD application form; Patch Planners acted as planning consultant for the EIS/RTS (Mecone lodged the SEARs request)."
   },
   "mw_it": {
     "value": 84,
-    "source": 17,
-    "note": "Estimate: campus 504 MW IT / 6 buildings = 84 MW average; datacentermap lists DC5 at 84 MW. Per-building IT MW in the EIS not confirmed (EIS not directly readable). CDC Mar 2026 says campus expanded to 700MW+ after densification, so per-building figure may rise."
+    "source": 2,
+    "note": "EIS Figure 16 GFA table lists 'Development 2 (84MW)' and floor plans are for a 'Typical 84MW Data Centre'; Built's CEMP (source 28) also says each four-storey building has 'a capacity of 84-megawatts'. Assumes EIS 'Development 2' = MP2 (all Developments 2-6 are 84 MW, so value is unaffected). CDC Mar 2026 investor day (source 16, snippet) says campus now 700MW+ after densification, so per-building IT may rise."
   },
   "mw_grid": {
-    "value": null,
-    "source": null,
-    "note": "Not stated separately. SSD describes 'total power consumption of 504 MW' for the campus and a 720 MW/MVA substation (campus-level)."
+    "value": 120,
+    "source": 2,
+    "note": "Approximate. EIS infrastructure section: 'The calculated demand for the site is approx. 720MW, made up of six (6) similar buildings (circa 120MW each)'. Consent (source 24) approves 'a maximum power consumption of 720 megawatts' for the campus (AR: '720 MW (504 MW IT load)')."
   },
   "cost_aud_m": {
-    "value": 3100,
-    "source": 4,
-    "note": "Campus total capital investment value for all six buildings under SSD-70889211 (not broken down per building). SEARs request stated AU$1.4bn (source 7)."
+    "value": 3113.2,
+    "source": 22,
+    "note": "CAMPUS TOTAL capital investment value for all six SSD buildings (not broken down per building): EDC $3,113,226,273 excl GST ($3,424,550,000 incl GST) per Rider Levett Bucknall EDC letter 30 Oct 2024 (source 22), EIS, Assessment Report and notice of decision; ministerial release rounds to $3.1 billion. SEARs-stage figure was AU$1.4bn (source 7)."
   },
   "planning": {
     "authority": {
       "value": "NSW DPHI",
-      "source": 1,
-      "note": "Determined by departmental delegate (Director) per source 19"
+      "source": 24,
+      "note": "Consent signed 27 Nov 2025 by Joanna Bakopanos, A/Director Industry Assessments, as delegate (instrument cites delegation from the Independent Planning Commission; notice of decision cites delegation from the Minister for Planning and Public Spaces)."
     },
     "pathway": {
       "value": "SSD",
@@ -66,60 +66,88 @@
       "source": 1
     },
     "lodged": {
-      "value": "2024-11",
-      "source": 3,
-      "precision": "month",
-      "note": "EIS documents dated 1-4 Nov 2024; SEARs requested 15 May 2024 (source 8). Exact lodgement date not confirmed."
+      "value": "2024-11-04",
+      "source": 21,
+      "precision": "day",
+      "note": "SSD application form 'Date Submitted: 04/11/2024' (source 21); exhibited 14 Nov - 11 Dec 2024 (source 23). SEARs requested 15 May 2024 (source 8), SEARs issued 11 Jun 2024."
     },
     "determined": {
-      "value": "2025-11",
-      "source": 6,
-      "precision": "month",
-      "note": "Approval announced 28 Nov 2025; project list notes cite 27 Nov 2025. Exact consent date not confirmed (portal blocked)."
+      "value": "2025-11-27",
+      "source": 25,
+      "precision": "day",
+      "note": "Notice of decision: 'Date of decision 27 November 2025' (source 25); consent instrument dated 27 November 2025 (source 24); approval announced by minister 28 Nov 2025. Amended application (sewer connection removed) accepted 13 Nov 2025."
     },
     "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/marsden-park-data-centre"
   },
   "jobs_construction": {
     "value": 220,
-    "source": 4,
-    "note": "CAMPUS TOTAL (all six buildings). NSW ministerial release (search extract): '220 construction jobs'; basis not defined - check EIS",
-    "basis": "unstated",
-    "scope": "unstated"
+    "source": 2,
+    "basis": "peak",
+    "scope": "direct",
+    "note": "CAMPUS TOTAL (all six SSD buildings). EIS s3.1.1: 'CDC's Construction Operations team has identified that the proposal would generate up to a peak maximum of 220 construction workers during the life of the project, with an average of 150 construction workers.' EIS Table 6, application form (source 21) and Assessment Report (source 23) describe the same number as 'Up to 220 full-time equivalent (FTE) construction jobs' / '220 full-time equivalent construction jobs'; ministerial release: '220 construction jobs'."
   },
   "jobs_construction_other": [
+    {
+      "value": 150,
+      "source": 2,
+      "basis": "average",
+      "scope": "direct",
+      "note": "CAMPUS TOTAL. EIS s3.1.1: '...with an average of 150 construction workers.'"
+    },
     {
       "value": 200,
       "source": 18,
       "basis": "unstated",
       "scope": "unstated",
-      "note": "CAMPUS TOTAL. Information Age (search extract): '200 construction jobs'; differs from ministerial release"
+      "note": "CAMPUS TOTAL. Information Age: 'The NSW government has said the new data centre will create 200 construction jobs and 265 operational jobs'; conflicts with the ministerial release and planning documents (220), likely a reporting error."
+    },
+    {
+      "value": 10000,
+      "source": 9,
+      "basis": "unstated",
+      "scope": "unstated",
+      "note": "CAMPUS TOTAL. CDC ground-breaking release 25 Oct 2024: 'The campus development will generate over ten thousand jobs' (lower bound, undefined; not comparable with planning figures)."
     }
   ],
   "jobs_operational": {
     "value": 265,
-    "source": 4,
-    "note": "CAMPUS TOTAL at full operation. NSW ministerial release (search extract): '265 operational jobs'; Information Age also reports 265",
+    "source": 2,
     "basis": "ongoing_headcount",
-    "scope": "unstated"
+    "scope": "direct",
+    "note": "CAMPUS TOTAL at full operation, including the 5 MW MP1.S1 building. EIS s3.1.1: 'the proposal is expected to generate 265 FTE operational jobs'; Table 7 'Forecast Operational Employment Generation Across Campus' totals 265 = office staff 132, security 33, visitors 35, contractor 65 (so includes visitors). Assessment Report/consent: '265 operational jobs'."
   },
-  "jobs_operational_other": [],
+  "jobs_operational_other": [
+    {
+      "value": 40,
+      "source": 2,
+      "basis": "ongoing_headcount",
+      "scope": "direct",
+      "note": "PER BUILDING, stated by source. EIS Table 7 '84MW Typical' building: office staff 20, security 5, visitors 5, contractor 10 = 40 (includes 5 visitors)."
+    },
+    {
+      "value": 165,
+      "source": 23,
+      "basis": "ongoing_headcount",
+      "scope": "direct",
+      "note": "CAMPUS TOTAL. Assessment Report (traffic): 'car parking supply has been provided based on employee demand of 165 staff and excess for site visitors' (parking-demand basis)."
+    }
+  ],
   "construction_start": {
-    "value": null,
-    "source": null,
-    "precision": null,
-    "note": "EIS staging: Stage 2 - MP5 then MP2, 1.5 years construction. Start date not found."
+    "value": "2026-08-01",
+    "source": 29,
+    "precision": "day",
+    "note": "Planned (Stage 1 piling across MP1-MP5 pads). SSD Stage 1-4 works planned to commence from 1 August 2026 per Built's notice to CDC dated 14 Jul 2026 (source 29), 'subject to satisfaction and attainment of the Construction Certificate Approval ... and the completion of the preceding piling complying development works'. Actual commencement not confirmed. Post-approval staging approved by DPHI 24 Apr / 12 Jun 2026 (sources 30-31): Stage 1 piling (MP1-MP5 pads) and Stage 3 construction (MP2)."
   },
   "construction_end": {
     "value": null,
     "source": null,
     "precision": null,
-    "note": "Not found."
+    "note": "Not found. Staging: EIS s3.2.3: Stage 3 - MP5 (first) then MP2 (complete 3 years post approval); AR Table 2 Stage 2 (MP2 and MP5) - 18 months (whole campus over ~5 years). CDC May 2026: 555MW contracted capacity across its campuses under development to become operational over FY28 and FY29 (not building-specific)."
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "Construction status unknown: Infratil Apr 2026 says >200 MW commenced at Marsden Park but does not name buildings",
-    "Builder unknown",
-    "Per-building IT MW not confirmed",
-    "lat/lon not geocoded (network blocked)"
+    "Actual start of piling/SSD works (planned 1 Aug 2026) not confirmed; status left as 'approved' pending evidence (Infratil Apr 2026 says >200 MW commenced at Marsden Park but names no buildings)",
+    "Staging plan SYD-MP-SK-14 rev F (source 33) carries hidden 'Now referenced as MP2 / MP3 / MP4 / MPA Zone H' annotations, suggesting buildings may have been renumbered; mapping of current CDC building names to consent names not confirmed",
+    "Per-building IT MW may have increased: CDC Mar 2026 investor day says campus 700MW+ after densification (snippet); consent still caps campus at 720 MW power"
   ]
 }

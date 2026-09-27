@@ -17,25 +17,25 @@
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "Not geocoded: geocoding services (Nominatim etc.) blocked by session egress proxy; to be filled later."
+      "value": -33.91825,
+      "source": 8,
+      "note": "geocoded: address point for 200 Bourke Road (marketed address); DA address 506 Gardeners Rd point is -33.91948,151.18993, ~140 m away"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "Not geocoded: geocoding services (Nominatim etc.) blocked by session egress proxy; to be filled later."
+      "value": 151.1894,
+      "source": 8,
+      "note": "see lat"
     }
   },
   "builder": {
     "value": null,
     "source": null,
-    "note": "not found"
+    "note": "Stage 1 base-build head contractor not found. Erilyan delivered later works: SY5 '1P' services fit-out, Phase 2 data-hall fit-out and Phase 3 new-build extension (ECI & design & construct) (source 9)."
   },
   "developer": {
     "value": "Equinix Australia Pty Ltd",
     "source": 1,
-    "note": "DA applicant"
+    "note": "DA report: Developer Equinix Australia Pty Ltd; Applicant Aurecon Australasia Pty Ltd; Architect Warren and Mahoney; Owner The Trust Company Limited"
   },
   "mw_it": {
     "value": 54,
@@ -54,9 +54,9 @@
   },
   "planning": {
     "authority": {
-      "value": "City of Sydney",
-      "source": 1,
-      "note": ""
+      "value": "City of Sydney (CEO under delegation from Central Sydney Planning Committee)",
+      "source": 3,
+      "note": "CSPC on 21 Jun 2018 delegated determination to the CEO pending VPA exhibition"
     },
     "pathway": {
       "value": "Local DA (staged concept + Stage 1)",
@@ -74,9 +74,9 @@
       "note": ""
     },
     "determined": {
-      "value": null,
-      "source": null,
-      "note": "approved (consent referenced in D/2021/45 report); date not found, likely 2018"
+      "value": "2018-07-05",
+      "source": 3,
+      "note": "Deferred commencement consent granted by CEO 5 Jul 2018; activated 22 Oct 2018 after VPA execution. Modified /A (7 Aug 2018), /B (29 Oct 2018), /C-/E (2020-2021)."
     },
     "url": "https://meetings.cityofsydney.nsw.gov.au/documents/s14215/Development%20Application%20-%20506-518%20Gardeners%20Road%20Alexandria.pdf"
   },
@@ -110,9 +110,7 @@
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "planning.determined date for D/2017/1797 not found",
-    "builder (head contractor) not found",
-    "mw_it 54 is 'designed electrical capacity' - confirm IT vs total",
-    "lat/lon not geocoded (geocoder blocked)"
+    "builder (head contractor) of Stage 1 base building not found (Erilyan did later phases)",
+    "mw_it 54 is 'designed electrical capacity' - confirm IT vs total"
   ]
 }

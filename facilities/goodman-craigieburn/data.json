@@ -6,8 +6,8 @@
   "location": {
     "address": {
       "value": "80 Kinloch Court, Craigieburn VIC 3064",
-      "source": 1,
-      "note": ""
+      "source": 6,
+      "note": "Lot 18 on PS205835U; site 142,398 sqm (~14 ha) at Kinloch Court / Brookville Drive, within 'Kinetic Business Park' (source 6)"
     },
     "suburb": "Craigieburn",
     "state": "VIC",
@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: nominatim and map sites blocked by network proxy in this session"
+      "value": -37.56478,
+      "source": 5,
+      "note": "geocoded: Nominatim address point 80B Kinloch Court, Craigieburn (nearest match to 80 Kinloch Ct)"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: nominatim and map sites blocked by network proxy in this session"
+      "value": 144.95114,
+      "source": 5,
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -35,12 +35,12 @@
   "developer": {
     "value": "Goodman Group",
     "source": 2,
-    "note": "attribution from third-party directories only (datacenters.com, Baxtel); not confirmed by Goodman or the permit"
+    "note": "attribution from third-party directories only (datacenters.com, Baxtel); applicant redacted in the delegate report. Alternative: Maribyrnong River Waterkeepers position statement (Sep 2025) calls it 'Amazon Planning Permit No. PA2403014' (source 7). Baxtel places its 'Goodman: Craigieburn' in Amaroo Business Park, which may be a different site"
   },
   "mw_it": {
     "value": null,
     "source": null,
-    "note": "MW not stated in sources reached"
+    "note": "not stated in delegate report. Scale: two double-storey data centre buildings, GFA 8,449 sqm (A) + 11,910 sqm (B), 20,682 sqm all built form, plus shared 8,000 sqm substation"
   },
   "mw_grid": {
     "value": null,
@@ -50,35 +50,35 @@
   "cost_aud_m": {
     "value": null,
     "source": null,
-    "note": ""
+    "note": "delegate report only confirms DFP eligibility (cost >= $20m); a Quantity Surveyor Report (Linesight, 15 Mar 2024) was lodged but the figure is not in the report"
   },
   "planning": {
     "authority": {
       "value": "Minister for Planning (DTP)",
-      "source": 1,
-      "note": ""
+      "source": 6,
+      "note": "lodged under Clause 53.22 (Significant Economic Development), Category 1; determined under delegation"
     },
     "pathway": {
       "value": "Development Facilitation Program (DFP)",
-      "source": 1,
-      "note": ""
+      "source": 6,
+      "note": "DFP enquiry 24 Jan 2024; pre-application meeting 1 Mar 2024"
     },
     "reference": {
       "value": "PA2403014",
-      "source": 1,
+      "source": 6,
       "note": ""
     },
     "lodged": {
-      "value": null,
-      "source": null,
-      "precision": null,
-      "note": ""
+      "value": "2024-06-28",
+      "source": 6,
+      "precision": "day",
+      "note": "formal lodgement; further information received 5 Sep 2024"
     },
     "determined": {
       "value": "2024-10-04",
       "source": 1,
       "precision": "day",
-      "note": "register decision date 4/10/2024; master.csv had 17 Sep 2024; a further decision dated 20/8/2025 (likely amendment)"
+      "note": "register decision date 4/10/2024 (search snippet only; register blocked); delegate report records approval to determine under delegation on 9 Sep 2024 and recommends issue; master.csv had 17 Sep 2024; a further decision dated 20/8/2025 (likely amendment)"
     },
     "url": "https://www.planning.vic.gov.au/planning-approvals/ministerial-permits-register/ministerial-permits/2b5ec06b-0b35-ef11-8e4e-002248969b00"
   },
@@ -112,10 +112,10 @@
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "developer attribution (Goodman) unconfirmed by primary source",
+    "developer: Goodman (directories) vs Amazon (Waterkeepers statement); applicant redacted",
+    "exact decision date (4 Oct 2024 vs 17 Sep 2024) unverified; 20 Aug 2025 decision unexplained",
     "Feb 2026 Craigieburn data centre site sale (~$40m, Green Street) may relate to this site",
     "MW, cost, jobs not found",
-    "construction status unknown",
-    "lat/lon not geocoded (proxy blocked)"
+    "construction status unknown"
   ]
 }

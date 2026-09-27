@@ -16,20 +16,20 @@
       "source": 6
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "Not geocoded: Nominatim and other geocoders (and all planning/operator sites) were blocked by the session's egress proxy. Geocode 17 Roberts Road, Eastern Creek NSW 2766 (Lot 2 DP 1159804) later."
+      "value": -33.81826,
+      "source": 8,
+      "note": "Geocoded from street address via NSW Spatial Services address point for 17 ROBERTS ROAD EASTERN CREEK. Address point, not building centroid; campus spans a larger lot."
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "Not geocoded: Nominatim and other geocoders (and all planning/operator sites) were blocked by the session's egress proxy. Geocode 17 Roberts Road, Eastern Creek NSW 2766 (Lot 2 DP 1159804) later."
+      "value": 150.83863,
+      "source": 8,
+      "note": ""
     }
   },
   "builder": {
-    "value": null,
-    "source": null,
-    "note": "Not found."
+    "value": "Hindmarsh",
+    "source": 13,
+    "note": "Hindmarsh Constructions Australia. The Sept 2020 CEMP says HCA was engaged by CDC for a multi-staged construction of 'Four new buildings' at the site, and Green Civil (source 14) lists a Hindmarsh/CDC job from April 2019 covering 'four new data centre buildings and an extension to the existing building'. The four new buildings are taken to be EC3-EC6, but neither source names EC3 explicitly."
   },
   "developer": {
     "value": "CDC Data Centres",
@@ -46,21 +46,23 @@
   },
   "cost_aud_m": {
     "value": null,
-    "source": null
+    "source": null,
+    "note": "No EC3-specific cost found. The May 2019 SEARs request CIV of $506,109,930 (source 5) was for a four-building scheme that then included Building E3. E3 was removed from the SSD in Sept 2019, and the SSD CIV of $291,465,000 covers Buildings 4-6 only."
   },
   "planning": {
     "authority": {
-      "value": null,
-      "source": null,
-      "note": "Not identified. SSD-10330 was determined 14 Jul 2020 but EC3 was complete by Feb 2021, so EC3 may have been approved separately (council DA or other); unconfirmed."
+      "value": "Private certifier (complying development)",
+      "source": 9,
+      "note": "Groundworks/slab certificate certified by Certis Pty Ltd (EIS, source 10). Rooftop plant above 15 m approved by the NSW Minister for Planning and Public Spaces (delegate) under SSD-10330 Phase A, 14 Jul 2020."
     },
     "pathway": {
-      "value": null,
-      "source": null
+      "value": "Complying development (SEPP (Exempt and Complying Development Codes) 2008, Commercial and Industrial (New Buildings and Additions) Code)",
+      "source": 10
     },
     "reference": {
-      "value": null,
-      "source": null
+      "value": "CDC-19-01613",
+      "source": 9,
+      "note": "'Construction of Building E3, to a height of 15 m', 25 Oct 2019. Related certificates: CDC-19-01090 groundworks and first floor slab for Building E3 (26 Jul 2019); CDC-21-00681 Building E3 fit out - services and equipment (20 Apr 2021); CDC-21-01145 'Construction of a Data Center - Building EC3' (23 Jun 2021); CDC-23-01750 Construction of EC3 DH3.10 (8 Nov 2023) (sources 9, 12). E3 was removed from SSD-10330 in Sept 2019 (source 11); SSD-10330 Phase A covers only its rooftop plant and 12 generators."
     },
     "lodged": {
       "value": null,
@@ -68,16 +70,17 @@
       "precision": null
     },
     "determined": {
-      "value": null,
-      "source": null,
-      "precision": null
+      "value": "2019-10-25",
+      "source": 9,
+      "precision": "day",
+      "note": "Date of CDC-19-01613 (base building to 15 m). The first certificate (groundworks/slab, CDC-19-01090) was 26 Jul 2019."
     },
-    "url": null
+    "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-10330%2120200714T231209.227+GMT"
   },
   "jobs_construction": {
     "value": null,
     "source": null,
-    "note": "Not found; EIS jobs figures not accessible (portal blocked). CDC says campus construction since 2018 'created hundreds of jobs'.",
+    "note": "No EC3-specific figures. EC3 was built under complying development certificates, and the SSD-10330 jobs figures (448 construction, 350 peak on-site, 10 FTE operational) relate to Buildings 4-6 only.",
     "basis": null,
     "scope": null
   },
@@ -91,22 +94,21 @@
   },
   "jobs_operational_other": [],
   "construction_start": {
-    "value": null,
-    "source": null,
-    "precision": null,
-    "note": "CDC says Eastern Creek campus construction began in 2018; EC3-specific start not found."
+    "value": "2019",
+    "source": 10,
+    "precision": "year",
+    "note": "The groundworks/ground floor slab certificate for Building E3 was certified 26 Jul 2019. The EIS says the certificates were sought 'to expedite commencement of onsite works' so that operation could begin on 1 Sep 2020. Exact start date not stated. CDC (ARN) says campus construction began in 2018."
   },
   "construction_end": {
     "value": "2021-02",
     "source": 1,
     "precision": "month",
-    "note": "Reported as completed (fit-out ongoing) in 16 Feb 2021 presentation, i.e. completed on or before this; Baxtel gives operational 2021 (source 2)."
+    "note": "Reported as completed (fit-out ongoing) in 16 Feb 2021 presentation, i.e. completed on or before this; Baxtel gives operational 2021 (source 2). The EIS targeted operation from 1 Sep 2020. The Assessment Report (Jul 2020) says E3 construction was 'currently underway'. Later certificates for E3 fit-out (Apr 2021) and 'Construction of a Data Center - Building EC3' (Jun 2021) show works continued into 2021 (source 12)."
   },
   "open_questions": [
-    "planning approval pathway/reference for EC3 not found (SSD-10330 or separate DA?)",
-    "builder not found",
-    "mw_it: 42 MW (2022) vs 25 MW (2019 plan)",
-    "lat/lon not geocoded (geocoder blocked)."
+    "builder for EC3 not named explicitly (Hindmarsh inferred from its CEMP's 'four new buildings' scope)",
+    "mw_it: 42 MW (2022) vs 25 MW (2019 plan); both snippet-only (DCD/Infratil blocked)",
+    "exact construction start and completion dates not confirmed"
   ],
   "last_checked": "2026-09-27"
 }

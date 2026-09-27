@@ -6,57 +6,57 @@
   "location": {
     "address": {
       "value": "399 Palmers Road, Truganina VIC 3029",
-      "source": 1,
-      "note": ""
+      "source": 10,
+      "note": "STACK MEL01 page gives only 'Truganina'; 399 Palmers Rd per ITK Research (source 10) and OSM building tags (source 9); datacenterHawk listing (source 2) not fetchable (403). Tech Business News groundbreaking article (10 Dec 2021) lists 'Property Details Address 148-248 Leakes Road TRUGANINA' (lots L1 LP97487, LA PS812888, LS2 PS812889) - differs from 399 Palmers Rd (OSM-tagged MEL01A building, ITK, Baxtel); by OSM address numbering 148-248 Leakes Rd is the north side of Leakes Rd east of Palmers Rd, ~2km south of MEL01. Unresolved"
     },
     "suburb": "Truganina",
     "state": "VIC",
     "postcode": {
       "value": "3029",
-      "source": 1,
+      "source": 9,
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: nominatim and all map/aggregator pages unreachable from this session (egress blocked)"
+      "value": -37.81993,
+      "source": 9,
+      "note": "geocoded: centroid of OSM building \"Stack Infrastructure MEL01A\", 399 Palmers Rd"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: see lat note"
+      "value": 144.74764,
+      "source": 9,
+      "note": "see lat note"
     }
   },
   "builder": {
     "value": "Hickory",
-    "source": 3,
-    "note": "Hickory Group was builder (design & construct) as well as original developer"
+    "source": 4,
+    "note": "Hickory Aug 2023 release: 'Hickory commenced construction on stage one of the 72MW campus in 2021 and achieved an Occupancy Permit in August 2023'. A.G. Coombs was mechanical/building-services subcontractor for Stages 1 and 2 (source 12); Beon Energy delivered the campus substation EPC (source 13)"
   },
   "developer": {
     "value": "Hickory Data Centres / STACK Infrastructure",
     "source": 4,
-    "note": "Developed by Hickory Data Centres (site bought early 2021, ground broken Dec 2021); STACK took over / partnered in 2022 and operates it"
+    "note": "Hickory Data Centres (division of Hickory) acquired site early 2021 and broke ground Dec 2021 (sources 6,11); STACK took over Hickory's data centre projects in June 2022 ('STACK Australia is currently constructing a 72MW campus... two 36MW buildings', source 11) and operates it. Hickory project page lists it under 'Development' with STACK"
   },
   "mw_it": {
     "value": 36,
-    "source": 3,
-    "note": "36MW critical IT, 'North' building, nine data halls over three floors"
+    "source": 1,
+    "note": "STACK MEL01 page: MEL01A 36MW, North building, 9 data halls across 3 floors; confirmed by Hickory project page (source 3)"
   },
   "mw_grid": {
     "value": null,
     "source": null,
-    "note": "campus-level onsite 66kV/11kV substation of 135MW (source 1) - campus-level, not recorded for building"
+    "note": "STACK MEL01 page (fetched): campus 'dedicated onsite 66kV/11kV substation with 135MW total capacity'; Hickory Aug 2023 release says '105MW dedicated onsite substation' - campus-level, not recorded for building"
   },
   "cost_aud_m": {
     "value": null,
     "source": null,
-    "note": "AU$1.1bn 'at full build' reported at groundbreaking (sources 5,6) - unclear if 72MW campus or Hickory's whole national roadmap; not recorded"
+    "note": "Build Australia (15 Dec 2021, fetched): 'Upon full completion of each facility, it will constitute a $1.1 billion investment into the Australian market' (each facility = the 72MW Truganina campus and the Canberra site); campus-level (MEL01A+B) and not a building cost, so not recorded. Tech Capital headline frames it as a '$1.1bn data centre construction roadmap' (not fetchable, 403)"
   },
   "planning": {
     "authority": {
       "value": null,
       "source": null,
-      "note": "planning permit not found. Likely Wyndham City Council (site in Wyndham LGA) but not confirmed; PlanningAlerts shows a 20 Dec 2019 Wyndham application at 399 Palmers Rd for a warehouse (pre-Hickory purchase) and a March 2024 Wyndham application at 369 Palmers Rd for 'use and development of the land to construct a utility installation (data centre)' - applicant not identified"
+      "note": "planning permit for the data centre not found. Site is in Wyndham City Council; PlanningAlerts shows Wyndham application WYP12005/20 at 399 Palmers Rd (received ~19 Dec 2019) for a warehouse with ancillary office (pre-Hickory). The Wyndham refs WYP14790/24 and WYP14905/24 cited by ITK relate to CDC Laverton, not STACK"
     },
     "pathway": {
       "value": null,
@@ -98,21 +98,20 @@
   "jobs_operational_other": [],
   "construction_start": {
     "value": "2021-12",
-    "source": 3,
+    "source": 6,
     "precision": "month",
-    "note": "ground broken December 2021 (sources 3,5,6)"
+    "note": "Build Australia (published 15 Dec 2021) and Tech Business News (10 Dec 2021) report Hickory Data Centres breaking ground on the Truganina site; Hickory release (source 4): construction commenced 2021"
   },
   "construction_end": {
     "value": "2023-08",
     "source": 4,
     "precision": "month",
-    "note": "occupancy permit issued / delivery announced Aug 2023"
+    "note": "Hickory release (22 Aug 2023): 'achieved an Occupancy Permit in August 2023'; ribbon-cutting held. Original target was 'availability from Q4 2022' (source 6) / 'early in 2023' (source 11)"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "planning permit (authority, reference, dates) not found - Wyndham council records not reachable",
-    "lat/lon not geocoded (egress blocked)",
-    "whether AU$1.1bn figure is campus or Hickory national portfolio",
-    "master note: possibly same site as Hickory 2021 '148 Leakes Rd' proposal - Wyndham 2021 committee papers describe a site on NW corner of Infinity Drive and Palmers Rd ~365m north of Leakes Rd; unverified"
+    "planning permit for MEL01A/B (authority, reference, dates) not found - Wyndham council register not searchable; possibly issued as part of a campus permit",
+    "groundbreaking article gives property as 148-248 Leakes Road (see address note) - unexplained discrepancy with 399 Palmers Rd",
+    "the 2021 Wyndham committee site (NW corner Infinity Dr/Palmers Rd, ~365m N of Leakes Rd) is ~1.6km south of the OSM MEL01 buildings, so it is not this site"
   ]
 }

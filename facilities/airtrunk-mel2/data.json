@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: geocoding services (nominatim) and aggregator pages blocked from this session"
+      "value": -37.70681,
+      "source": 7,
+      "note": "geocoded: Nominatim building match for 85 Sharps Road, Tullamarine (permit address); site spans 85-95 Sharps Rd"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded; see lat note"
+      "value": 144.86181,
+      "source": 7,
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -35,12 +35,12 @@
   "developer": {
     "value": "AirTrunk",
     "source": 1,
-    "note": "planning permit applicant was EMKC3 Pty Ltd (developer); AirTrunk added to permit after approval (source 5)"
+    "note": "planning permit applicant was EMKC3 Pty Ltd; an 'Application to correct planning permit' names AirTrunk MEL2 Pty Ltd (sources 5, 8)"
   },
   "mw_it": {
     "value": 354,
     "source": 1,
-    "note": "'over 354MW' campus capacity at full build; likely IT capacity but not explicitly stated"
+    "note": "AirTrunk: 'Over 354MW capacity' (source 1, verified) / 'total capacity of 354+MW' (source 10); not explicitly stated as IT load"
   },
   "mw_grid": {
     "value": null,
@@ -50,7 +50,7 @@
   "cost_aud_m": {
     "value": 5000,
     "source": 1,
-    "note": "'more than A$5 billion' direct investment, full multi-phase campus"
+    "note": "'More than A$5 billion in new direct investment' (source 1, verified), full multi-phase campus"
   },
   "planning": {
     "authority": {
@@ -72,13 +72,13 @@
       "value": null,
       "source": null,
       "precision": null,
-      "note": "not found; register record created ~Dec 2024"
+      "note": "not found"
     },
     "determined": {
-      "value": null,
-      "source": null,
-      "precision": null,
-      "note": "approved (per source 5) but date not retrieved"
+      "value": "2025-03-28",
+      "source": 8,
+      "precision": "day",
+      "note": "permit date 28/3/2025 per Civic Interplay DA disclosure audit citing the register entry for PA2403452 (register itself not fetchable: Cloudflare)"
     },
     "url": "https://www.planning.vic.gov.au/planning-approvals/ministerial-permits-register/ministerial-permits/1ea17bd8-75be-ef11-b8e8-002248938a9c"
   },
@@ -87,7 +87,7 @@
     "source": 1,
     "basis": "unstated",
     "scope": "unstated",
-    "note": "'over 4,000 jobs' across multi-phase construction"
+    "note": "'Over 4,000 jobs during the multi-phase construction' (source 1, verified)"
   },
   "jobs_construction_other": [],
   "jobs_operational": {
@@ -95,26 +95,33 @@
     "source": 1,
     "basis": "ongoing_headcount",
     "scope": "direct",
-    "note": "'over 200 direct jobs' once operational"
+    "note": "'over 200 direct jobs, once operational' (source 1, verified)"
   },
-  "jobs_operational_other": [],
+  "jobs_operational_other": [
+    {
+      "value": 1000,
+      "source": 1,
+      "basis": "unstated",
+      "scope": "unstated",
+      "note": "'in excess of 1,000 full-time jobs to support its data centres' in the local supply chain — indirect jobs, possibly across AirTrunk's Melbourne data centres, not MEL2 only"
+    }
+  ],
   "construction_start": {
     "value": null,
     "source": null,
     "precision": null,
-    "note": "not found; site acquisition announced Dec 2025"
+    "note": "not found; AirTrunk exec LinkedIn post (Dec 2025, source 9) says MEL2 is 'tak[ing] shape', suggesting works underway by Dec 2025"
   },
   "construction_end": {
     "value": "2027",
-    "source": 1,
+    "source": 3,
     "precision": "year",
-    "note": "expected: first phase operational H2 2027; full multi-phase build later"
+    "note": "expected: CRN says operational by second half of 2027 (AirTrunk release itself gives no timeline); full multi-phase build later"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "planning permit lodged/determined dates not retrieved (register page blocked)",
+    "planning permit lodged date not found; determined date (2025-03-28) from secondary source only (register blocked)",
     "builder not found",
-    "status under_construction only per aggregator (datacenterHawk 'speculatively under construction')",
-    "lat/lon not geocoded"
+    "construction start date not found (status under_construction per datacenterHawk 'speculatively under construction' and Civic Interplay tracker)"
   ]
 }

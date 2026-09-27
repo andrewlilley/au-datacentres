@@ -6,31 +6,31 @@
   "location": {
     "address": {
       "value": "594 Geelong Road, Brooklyn VIC 3012",
-      "source": 5,
-      "note": "datacenterHawk/master use 594; Baxtel and 2022 Brimbank planning application use 598 Geelong Road (site spans 594-598)"
+      "source": 2,
+      "note": "Baxtel and datacenterHawk give 594 Geelong Rd; PeeringDB (src 8) and the 2021 planning application P652/2021 (src 3) give 598 Geelong Road; site spans 594-598"
     },
     "suburb": "Brooklyn",
     "state": "VIC",
     "postcode": {
       "value": "3012",
-      "source": 5,
+      "source": 8,
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: geocoder and map sites blocked by session network proxy"
+      "value": -37.81667,
+      "source": 7,
+      "note": "geocoded: OSM address point 598B Geelong Road, Brooklyn (no OSM point for 594); approximate campus location. PeeringDB gives -37.818303, 144.842294 for BK1 (~400 m WSW) - not adopted, precision unclear"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: geocoder and map sites blocked by session network proxy"
+      "value": 144.84641,
+      "source": 7,
+      "note": "see lat note"
     }
   },
   "builder": {
     "value": null,
     "source": null,
-    "note": "head contractor not found; Green Civil Australia did civil works (src 6); Icon Co was main contractor for BK2 but not confirmed for BK1"
+    "note": "not confirmed. Possible: Total Construction — inferred only from civil subcontractor Green Civil listing clients as \"Total Constructions and CDC\" (source 6); no head-contractor statement found"
   },
   "developer": {
     "value": "CDC Data Centres",
@@ -40,7 +40,7 @@
   "mw_it": {
     "value": 155,
     "source": 1,
-    "note": "datacentermap 'Brooklyn Campus One' 155MW (RenewMap per master.csv also 155); Baxtel says >150MW; may be first-stage/campus figure rather than single building"
+    "note": "RenewMap 'CDC Brooklyn Campus One' 155MW (operating); datacenterHawk says BK1/2 master-planned for 150,000 kW critical load at full build (src 5); CDC says Brooklyn campus >350MW at completion (src 4). 155 may be a campus-stage figure rather than a single building"
   },
   "mw_grid": {
     "value": null,
@@ -50,7 +50,7 @@
   "cost_aud_m": {
     "value": null,
     "source": null,
-    "note": "not found; DJSIR says CDC Brooklyn+Laverton developments contribute >$4bn economic value (not capex)"
+    "note": "not found; civil works package (Green Civil, src 6) valued $20m - subcontract only, not project cost; DJSIR says CDC Brooklyn+Laverton developments contribute >$4bn economic value (not capex)"
   },
   "planning": {
     "authority": {
@@ -64,15 +64,15 @@
       "note": "use and development for a data centre, DDO11, native vegetation removal, TZ2 access"
     },
     "reference": {
-      "value": null,
-      "source": null,
-      "note": "Brimbank permit number not found; PlanningAlerts application id 2332618"
+      "value": "P652/2021",
+      "source": 3,
+      "note": "Brimbank application: use and development of the land for a data centre (DDO11, native vegetation removal, TZ2 access) at 598 Geelong Road; PlanningAlerts id 2332618. Decision date not shown"
     },
     "lodged": {
       "value": "2022-02",
       "source": 3,
       "precision": "month",
-      "note": "approximate: first published on council site by 5 Feb 2022"
+      "note": "approximate: PlanningAlerts first published 5 Feb 2022; received date not recorded (ref suffix /2021 suggests lodged late 2021)"
     },
     "determined": {
       "value": null,
@@ -87,7 +87,7 @@
     "source": null,
     "basis": null,
     "scope": null,
-    "note": "only 'thousands of jobs' (campus-level, DJSIR)"
+    "note": "only 'thousands of jobs' across construction, engineering, trades, security and operations (campus-level, CDC Feb 2026 release, src 10)"
   },
   "jobs_construction_other": [],
   "jobs_operational": {
@@ -100,21 +100,20 @@
   "jobs_operational_other": [],
   "construction_start": {
     "value": "2022-05",
-    "source": 1,
+    "source": 6,
     "precision": "month",
-    "note": "per datacentermap as recorded in master.csv notes; page not re-fetched (blocked)"
+    "note": "Green Civil civil works duration May 2022 - July 2024 (covers both initial buildings' civil works); matches datacentermap per master.csv (not re-fetchable, 429)"
   },
   "construction_end": {
     "value": "2024-07",
-    "source": 2,
+    "source": 6,
     "precision": "month",
-    "note": "completed July 2024 (Baxtel/datacentermap)"
+    "note": "Green Civil completion July 2024; Baxtel year built 2024 (src 2); CDC: BK1 operational since 2024 (src 4)"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "builder (head contractor) for BK1 not found",
-    "planning permit number/decision date not found",
-    "address 594 vs 598 Geelong Road",
-    "mw_it 155 may be campus-stage not building"
+    "planning permit P652/2021 decision date not found",
+    "builder Total Construction inferred from subcontractor page only",
+    "mw_it 155 may be campus-stage not building (datacenterHawk 150MW for BK1/2 at full build)"
   ]
 }

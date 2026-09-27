@@ -17,20 +17,20 @@
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: web fetch (nominatim, planning portal, datacentermap/baxtel) blocked from this session"
+      "value": -37.82816,
+      "source": 9,
+      "note": "geocoded: Photon/OSM feature \"127-169 Todd Road\", Port Melbourne; site-level point"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: web fetch (nominatim, planning portal, datacentermap/baxtel) blocked from this session"
+      "value": 144.91019,
+      "source": 9,
+      "note": "see lat note"
     }
   },
   "builder": {
     "value": null,
     "source": null,
-    "note": "one search summary claimed Multiplex appointed for a 20MW stage 1 but a verification search found no such announcement for M4 - not recorded"
+    "note": "not found. A search-engine summary again claimed Multiplex was appointed for a '20MW stage 1', but no fetched page (NEXTDC releases, EstimateOne, Urban Developer, Architectus, Baxtel) names a builder; EstimateOne stage 1 trade tenders closed 28 Aug 2026 with builder not shown. Urban Developer notes Kapitol delivered M2/M3 but does not name it for M4"
   },
   "developer": {
     "value": "NEXTDC",
@@ -40,7 +40,7 @@
   "mw_it": {
     "value": 162,
     "source": 2,
-    "note": "campus IT capacity per NEXTDC approval release; Mingtiandi and NEXTDC site page say 150MW; phase 1 ~10MW"
+    "note": "162MW per NEXTDC approval release (19 Jan 2026) and Urban Developer; NEXTDC's June 2025 release, current M4 site page (150MW IT, 26,400 m2 technical space, 'In Planning'), Architectus and Mingtiandi say 150MW"
   },
   "mw_grid": {
     "value": null,
@@ -50,7 +50,7 @@
   "cost_aud_m": {
     "value": 2000,
     "source": 3,
-    "note": "campus-level investment (A$2bn) per NEXTDC; Mingtiandi's $1.3B is the USD conversion; EstimateOne gives stage 1 budget >$200m"
+    "note": "campus-level A$2bn per NEXTDC releases (June 2025, Jan 2026) and Premier's release; Mingtiandi's $1.3B is the USD conversion. The Jan 2025 application was reported as a '$200-million data centre' (Urban Developer, source 10); SMH (via source 12) described a NEXTDC Port Melbourne facility 'costing nearly $1 billion' approved in 75 days; EstimateOne gives stage 1 budget >$200m"
   },
   "planning": {
     "authority": {
@@ -69,16 +69,16 @@
       "note": ""
     },
     "lodged": {
-      "value": "2025",
-      "source": 6,
-      "precision": "year",
-      "note": "Urban Developer reported plans filed Jan 2025; exact lodgement date on register not checked"
+      "value": "2025-01",
+      "source": 10,
+      "precision": "month",
+      "note": "Urban Developer 10 Jan 2025 reported the $200m M4 plans (filed document); later articles say 'plans made public in January 2025'. Exact register lodgement date not checked (register blocked)"
     },
     "determined": {
       "value": "2026-01-16",
       "source": 4,
       "precision": "day",
-      "note": "permit announced 16 Jan 2026"
+      "note": "Middle.news (fetched): permit from the Victorian Minister for Planning announced 16 Jan 2026; NEXTDC release dated 19 Jan 2026"
     },
     "url": "https://www.planning.vic.gov.au/planning-approvals/ministerial-permits-register/ministerial-permits/76685df6-baaf-f011-bbd2-6045bdc32df2"
   },
@@ -87,7 +87,7 @@
     "source": null,
     "basis": null,
     "scope": null,
-    "note": "releases say 'thousands of jobs' without a construction figure"
+    "note": "NEXTDC, Premier (12 Jun 2025) and Urban Developer say M4 will 'support thousands of high-value jobs' / 'create thousands of jobs' - no construction or operational figure"
   },
   "jobs_construction_other": [],
   "jobs_operational": {
@@ -102,20 +102,19 @@
     "value": null,
     "source": null,
     "precision": null,
-    "note": "FY26 results: early works progressing; stage 1 trade tenders closed Aug 2026"
+    "note": "FY26 results (master.csv; Listcorp page 403 so not re-checked): early works progressing; EstimateOne stage 1 trade tenders closed 28 Aug 2026; NEXTDC site page still says 'In Planning'"
   },
   "construction_end": {
     "value": null,
     "source": null,
     "precision": null,
-    "note": ""
+    "note": "no date from operator; Baxtel (aggregator) says 'Site planned for 2027 and has expansions through 2029'"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "status: approved vs under_construction (early works progressing per FY26 results)",
-    "mw_it: 162 vs 150",
-    "builder not confirmed (Multiplex claim unverified)",
-    "lodged date approximate",
-    "lat/lon not geocoded (fetch blocked)"
+    "status: approved vs under_construction (early works per FY26 results; NEXTDC site page says 'In Planning')",
+    "mw_it: 162 (Jan 2026 release) vs 150 (site page)",
+    "builder not confirmed (Multiplex claim appears only in search summaries)",
+    "construction_start unknown"
   ]
 }

@@ -1,6 +1,6 @@
 # Sources: Macquarie Data Centres IC3 Super West
 
-Note: WebFetch was blocked by the session egress proxy; content was taken from WebSearch result summaries of the pages below.
+Note: sources listed before the verification-pass section were taken from WebSearch summaries (fetch was blocked then); sources in the 'Verification pass 2026-09-27' section were fetched and read directly.
 
 1. NSW IPC - Talavera Road Data Centre Campus Expansion case page, DPHI assessment report, statement of reasons and development consent SSD-24299707 (via search snippets; ipcn.nsw.gov.au fetch blocked)
    - URL: https://www.ipcn.nsw.gov.au/cases/2023/11/talavera-road-data-centre-campus-expansion
@@ -22,3 +22,21 @@ Note: WebFetch was blocked by the session egress proxy; content was taken from W
    - URL: https://www.capitalbrief.com/briefing/macquarie-technology-group-completes-construction-on-ic3-super-west-data-centre-7ebd8164-8fcd-46e4-a07a-065699065a53/
    - Accessed: 2026-09-27
    - Supports: construction complete on time/budget; first 6MW commissioning Sep 2026; ~100 operational jobs
+6. NSW Spatial Services Address Location service (maps.six.nsw.gov.au/services/public/Address_Location), GDA94 address point - geocoded 2026-09-27 - supports: lat/lon.
+
+Verification pass 2026-09-27 (primary documents fetched and read directly):
+
+7. NSW Department of Planning and Environment - Talavera Road Data Centre Campus Expansion, SSD-24299707, State Significant Development Assessment (Nov 2023), IPC case referral document
+   - URL: https://www.ipcn.nsw.gov.au/sites/default/files/pac/projects/2023/11/talavera-road-data-centre-campus-expansion/case-referral-documents-from-dphi/assessment-report-talavera-rd.pdf
+   - Accessed: 2026-09-27
+   - Supports: CIV $332,032,973; 38 MW (28 -> 66 MW site); lodged 12 Nov 2021; exhibition 18 Nov - 15 Dec 2021; 610 construction / 20 additional operational jobs; 150 max on-site workers; staff 29 + 20 = 49; construction programme; Lot 527 DP 752035
+8. NSW Independent Planning Commission - Statement of Reasons for Decision and Development Consent SSD-24299707 (19 Jan 2024)
+   - URL: https://www.ipcn.nsw.gov.au/sites/default/files/pac/projects/2023/11/talavera-road-data-centre-campus-expansion/case-outcome/statement-of-reasons-for-decision-talavera-road-ssd-24299707.pdf ; https://www.ipcn.nsw.gov.au/sites/default/files/pac/projects/2023/11/talavera-road-data-centre-campus-expansion/case-outcome/development-consent-talavera-road-ssd-24299707.pdf
+   - Accessed: 2026-09-27
+   - Supports: determination 19 Jan 2024 (approved), consent-authority reasons, 'investment of over $332 million', 610 construction / 20 operational jobs
+9. Macquarie Data Centres - IC3 Super West page (fetched)
+   - URL: https://www.macquariedatacentres.com/data-centres/sydney/macquarie-park-campus/ic3-super-west/
+   - Accessed: 2026-09-27
+   - Supports: 47MW IT load, 'currently under construction', 'ready for service in 2026', 'Coming Soon'
+
+Correction to source 2: the Willowtree Planning EIS (8 Nov 2021) was fetched and read: CIV $289,731,682; 'approximately 1,200 construction jobs' and 'approximately 49 operational jobs for the consolidated facility'; +33 MW (28 -> 61 MW). The $504,111,490 EDC previously attributed to it was not found.

@@ -17,20 +17,20 @@
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: Nominatim blocked by session egress proxy"
+      "value": -33.79898,
+      "source": 9,
+      "note": "Geocoded from street address via NSW Spatial Services address point for 51 HUNTINGWOOD DRIVE HUNTINGWOOD. Address point, not building centroid; campus spans a larger lot."
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: Nominatim blocked by session egress proxy"
+      "value": 150.87542,
+      "source": 9,
+      "note": ""
     }
   },
   "builder": {
     "value": "A W Edwards",
     "source": 3,
-    "note": "awarded contract to deliver the development"
+    "note": "project community site (fetched 2026-09-27): 'A W Edwards has been awarded the contract to deliver a new hyperscale data centre development at 51 Huntingwood Drive'"
   },
   "developer": {
     "value": "AirTrunk",
@@ -40,82 +40,88 @@
   "mw_it": {
     "value": 320,
     "source": 5,
-    "note": "320+ MW IT load per AirTrunk/DCD; campus now marketed as 400+ MW; community site gives 2x48 + 3x100 = 396 MW across five shells"
+    "note": "AirTrunk release (fetched): '320+ MW of IT load', nine phases (Nov 2021). Community site gives 2 x 48 MW + 3 x 100 MW = 396 MW across five shells (source 3), unclear whether IT or total; consent is for 400 MW total power consumption (mw_grid)"
   },
   "mw_grid": {
     "value": 400,
-    "source": 1,
-    "note": "SSD description: total power consumption / operational capacity 400 MW; Modification 1 'Reduced Scale' may change this"
+    "source": 10,
+    "note": "Assessment Report: 'operational capacity of 400 Megawatts (MW)' / 'Power Consumption 400 MW'. Withdrawn Mod 1 (source 6) proposed keeping 400 MW across fewer shells"
   },
   "cost_aud_m": {
-    "value": 1000,
-    "source": 4,
-    "note": "approximate: 'close to AU$1 billion' per DCD search extract; CRE described it as multi-billion; SSD CIV not found"
+    "value": 1075,
+    "source": 10,
+    "note": "capital investment value $1,074,990,484 in Assessment Report (Sept 2023). EIS (Sept 2022, source 11) estimated CIV 'approximately $974 Million (excluding GST)', cold-shell only, excluding tenant fit-out. Press reports 'close to AU$1bn' (source 4); AirTrunk calls it 'multi-billion-dollar' (source 5)"
   },
   "planning": {
     "authority": {
-      "value": "NSW Department of Planning (DPE, now DPHI)",
-      "source": 1,
-      "note": ""
+      "value": "NSW Department of Planning and Environment (now DPHI)",
+      "source": 10,
+      "note": "determined by Director under delegation"
     },
     "pathway": {
       "value": "SSD",
-      "source": 1,
+      "source": 10,
       "note": ""
     },
     "reference": {
       "value": "SSD-41589232",
       "source": 1,
-      "note": "plus Modification 1 (reduced scale)"
+      "note": "Modification 1 'Reduced Scale' (SSD-41589232-Mod-1, lodged Feb 2025) is shown as Withdrawn on the portal (source 6)"
     },
     "lodged": {
-      "value": null,
-      "precision": null,
-      "source": null,
-      "note": "architectural drawings dated Jul 2022 filed under SSD 2022-09-16 (source 2); scoping/other document Feb 2023; master notes say SSD lodged Jul 2023; exact lodgement date unconfirmed"
+      "value": "2022-09",
+      "precision": "month",
+      "source": 11,
+      "note": "EIS dated September 2022; EIS documents uploaded to the portal 16-30 Sep 2022. SEARs issued 2 May 2022. Exact lodgement date not stated in AR. Exhibited 20 Jan - 16 Feb 2023"
     },
     "determined": {
-      "value": null,
-      "precision": null,
+      "value": "2023-09-15",
+      "precision": "day",
       "source": 1,
-      "note": "portal shows Approved; date not found (construction commenced 2023, so likely 2023)"
+      "note": "portal Determination Date 15/09/2023; AR and consent dated 15 September 2023"
     },
     "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/51-huntingwood-drive-data-centre"
   },
   "jobs_construction": {
-    "value": null,
-    "source": null,
-    "note": "operator says 'hundreds' of construction and operational jobs",
-    "basis": null,
-    "scope": null
+    "value": 1333,
+    "source": 10,
+    "basis": "unstated",
+    "scope": "unstated",
+    "note": "AR: 'expected to generate 1,333 full-time equivalent construction jobs'; EIS: 'Construction jobs ... expected to be in the order of up to 1,333 full time jobs' (from QS certificate). Basis (peak vs total) not defined"
   },
-  "jobs_construction_other": [],
+  "jobs_construction_other": [
+    {
+      "value": 10000,
+      "source": 3,
+      "basis": "unstated",
+      "scope": "unstated",
+      "note": "community site: 'expected to create approximately 10,000 jobs during construction'; no definition"
+    }
+  ],
   "jobs_operational": {
-    "value": null,
-    "source": null,
-    "note": "",
-    "basis": null,
-    "scope": null
+    "value": 276,
+    "source": 10,
+    "basis": "ongoing_headcount",
+    "scope": "direct",
+    "note": "AR: '276 operational jobs'; EIS: 'approximately 276 jobs (which includes operational and customer staff and maintenance contractors)'; community site: '276 full-time operational roles'"
   },
   "jobs_operational_other": [],
   "construction_start": {
     "value": "2023",
     "precision": "year",
     "source": 3,
-    "note": ""
+    "note": "community site: 'Construction ... commenced in 2023'; Stage 1 (2023 to 2026) site establishment and bulk earthworks"
   },
   "construction_end": {
-    "value": null,
-    "precision": null,
-    "source": null,
-    "note": "Baxtel (per master notes): first capacity 2027, expansions to 2030"
+    "value": "2028",
+    "precision": "year",
+    "source": 3,
+    "note": "expected: community site gives Stage 2 (2025 to 2028). AR: three phases of 24 months each. Baxtel (source 8, not verified) says first capacity 2027"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "SSD-41589232 CIV, jobs, lodged and determined dates need the EIS/assessment report (planning portal blocked this session)",
-    "effect of Modification 1 (reduced scale) on MW/GFA",
-    "mw_it 320 vs 400+ marketed; mw_grid 400 from SSD description",
-    "lat/lon not geocoded (Nominatim blocked)",
-    "construction end / first phase completion date unconfirmed"
+    "mw_it: operator 320+ MW IT vs community site 2x48+3x100 = 396 MW vs consented 400 MW total power; unclear which is IT",
+    "community site describes five shells in two stages after a reduction from 10 halls, but the Mod 1 reduced-scale application is shown as withdrawn on the portal; whether a replacement modification or approval exists is unconfirmed",
+    "construction jobs basis: 1,333 'full-time equivalent' jobs (AR) vs 10,000 (community site) - neither defined"
   ]
 }

@@ -16,20 +16,20 @@
       "source": 8
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "Not geocoded: Nominatim and other geocoders (and all planning/operator sites) were blocked by the session's egress proxy. Geocode 17 Roberts Road, Eastern Creek NSW 2766 (Lot 2 DP 1159804) later."
+      "value": -33.81826,
+      "source": 11,
+      "note": "Geocoded from street address via NSW Spatial Services address point for 17 ROBERTS ROAD EASTERN CREEK. Address point, not building centroid; campus spans a larger lot."
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "Not geocoded: Nominatim and other geocoders (and all planning/operator sites) were blocked by the session's egress proxy. Geocode 17 Roberts Road, Eastern Creek NSW 2766 (Lot 2 DP 1159804) later."
+      "value": 150.83863,
+      "source": 11,
+      "note": ""
     }
   },
   "builder": {
     "value": "Hindmarsh",
-    "source": 1,
-    "note": "Head contractor per Apollo Fabrication (delivered EC4 with Hindmarsh in 2022) and Hindmarsh project page (source 2)."
+    "source": 19,
+    "note": "Hindmarsh Constructions Australia. It lodged the EC4 construction commencement notice for CDC (27 Oct 2020) and prepared the SSD-10330 CEMP (source 18). Apollo Fabrication delivered EC4 with Hindmarsh in 2022 (source 1)."
   },
   "developer": {
     "value": "CDC Data Centres",
@@ -39,77 +39,94 @@
   "mw_it": {
     "value": 54,
     "source": 4,
-    "note": "54 MW per DCD Dec 2022; RenewMap lists 78 MW (per master.csv, not re-verified)."
+    "note": "54 MW per DCD Dec 2022; RenewMap lists 78 MW (per master.csv, not re-verified). CEMP (Sept 2020) describes Hindmarsh's four-building scope as '150MW capacity' (source 18). The planning documents give no per-building IT MW."
   },
   "mw_grid": {
     "value": null,
-    "source": null
+    "source": null,
+    "note": "EIS: calculated additional demand for Buildings 4, 5 and 6 'approximately 100MVA' combined (157.2 MVA load application to Endeavour Energy) (source 16); not per building."
   },
   "cost_aud_m": {
-    "value": 506.1,
-    "source": 5,
-    "note": "Capital investment value $506,109,930 in SSD-10330 SEARs request - covers the whole SSD-10330 scheme (four data storage buildings + offices), not EC4 alone."
+    "value": 291.465,
+    "source": 17,
+    "note": "RLB CIV statement (13 Nov 2019): 'total expected construction cost for E4, 5 and 6 is $291,465,000 excluding GST'. It excludes mechanical, electrical, communications and security services, BMS, ICT, POD equipment and commissioning. Covers Buildings 4, 5 and 6 together; not apportioned. Same CIV in the EIS, Assessment Report and Notice of Decision (~$291m). The earlier $506,109,930 in the May 2019 SEARs request (source 5) was for a four-building scheme that included Building E3."
   },
   "planning": {
     "authority": {
-      "value": "NSW Department of Planning, Industry and Environment (now DPHI)",
-      "source": 6
+      "value": "NSW Minister for Planning and Public Spaces (determined by DPIE Executive Director, Regions, Industry and Key Sites, under delegation)",
+      "source": 13
     },
     "pathway": {
       "value": "SSD",
-      "source": 6
+      "source": 12
     },
     "reference": {
       "value": "SSD-10330",
-      "source": 6,
-      "note": "SSD-10330 covers four data storage buildings; association with EC4 per Blacktown council referral summary (source 8) and master.csv."
+      "source": 14,
+      "note": "SSD-10330 covers Buildings 4, 5 and 6 (plus rooftop plant on existing Building E3). EC4 is SSD-10330 'Building 4' (Phase C), per CDC's EC4 commencement notifications (sources 19, 20). Modifications: Mod-1 (Buildings 5 and 6 from 3 to 4 storeys; lodged 8 Dec 2023, approved 17 Apr 2024); Mod-2 (72 generators, up from 48, and diesel storage; lodged 9 Oct 2025, approved 6 Mar 2026); Mod-3 (HV plant; lodged 25 Jun 2026, approved 8 Sep 2026) (sources 21, 23, 24, 25)."
     },
     "lodged": {
       "value": "2019-11",
-      "source": 7,
+      "source": 16,
       "precision": "month",
-      "note": "Inferred from EIS document upload timestamp (28 Nov 2019) on the portal; formal lodgement date not seen. SEARs requested 9 May 2019."
+      "note": "EIS signed 22 Nov 2019 and uploaded to the portal 28 Nov 2019; exhibited 11 Dec 2019 - 31 Jan 2020 (source 13). Formal lodgement date not stated. SEARs requested 9 May 2019 and issued 2 Jul 2019."
     },
     "determined": {
       "value": "2020-07-14",
-      "source": 6,
+      "source": 13,
       "precision": "day",
-      "note": "Per search summary of portal project page; not directly viewed."
+      "note": "Notice of Decision dated 14 July 2020; portal Determination Date 14/07/2020 (source 12)."
     },
     "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/roberts-road-data-centre"
   },
   "jobs_construction": {
-    "value": null,
-    "source": null,
-    "note": "Not found; EIS jobs figures not accessible (portal blocked). CDC says campus construction since 2018 'created hundreds of jobs'.",
-    "basis": null,
-    "scope": null
+    "value": 350,
+    "source": 14,
+    "basis": "peak",
+    "scope": "direct",
+    "note": "Assessment Report: 'During construction works, there would be a maximum of 350 workers on-site at any given time, however this would vary significantly depending on the construction stage.' Covers the whole SSD-10330 expansion (Buildings 4, 5 and 6, built over up to five years), not this building alone; not apportioned."
   },
-  "jobs_construction_other": [],
+  "jobs_construction_other": [
+    {
+      "value": 448,
+      "source": 17,
+      "basis": "unstated",
+      "scope": "unstated",
+      "note": "RLB CIV statement: 'We estimate the total number of construction jobs on this project to be 448.' EIS: 'It is estimated that a total of 448 construction job will be created.' Assessment Report: 'Employment 448 construction jobs'; Notice of Decision: 'the generation of 448 construction jobs' (source 13). Covers Buildings 4-6 together."
+    }
+  ],
   "jobs_operational": {
-    "value": null,
-    "source": null,
-    "note": "",
-    "basis": null,
-    "scope": null
+    "value": 10,
+    "source": 16,
+    "basis": "ongoing_headcount",
+    "scope": "direct",
+    "note": "EIS: 'On completion of the proposed development, it is estimated up to 10 full time equivalent job and 6 contract jobs could be generated by this site' (Operational Management Staff 6, Security Guards 4). Assessment Report: '10 full-time equivalent operational jobs'; Notice of Decision: 'up to 10 knowledge-intensive operational jobs'. Covers Buildings 4-6 together."
   },
-  "jobs_operational_other": [],
+  "jobs_operational_other": [
+    {
+      "value": 6,
+      "source": 16,
+      "basis": "ongoing_headcount",
+      "scope": "direct",
+      "note": "EIS: 'Part time staff will comprise: Maintenance Contractors – 6' ('6 contract jobs'). Covers Buildings 4-6."
+    }
+  ],
   "construction_start": {
-    "value": null,
-    "source": null,
-    "precision": null
+    "value": "2020-11",
+    "source": 19,
+    "precision": "month",
+    "note": "Hindmarsh letter of 27 Oct 2020 notified that 'Building EC4, generators and associated works' would commence 'in one month's time'. Actual start date not stated."
   },
   "construction_end": {
-    "value": "2022",
-    "source": 1,
-    "precision": "year",
-    "note": "Delivered 2022 (Apollo/Hindmarsh); Baxtel operational 2022 (source 3); campus officially opened 6 Dec 2022 (source 9)."
+    "value": "2024-03",
+    "source": 20,
+    "precision": "month",
+    "note": "Planned. CDC notification (30 Jan 2023): 'a section of EC4 will transition to operation on 1st March 2023 (preliminary operation), with construction activities ongoing until all of EC4 will transition to operation on 1st March 2024 (full operation)'. Earlier record said 2022: Apollo delivered EC4 steel in 2022 (source 1), and the campus was officially opened 6 Dec 2022 with EC4 among four operating data centres (source 9). Mod-2 report (Sept 2025) says Building 4 'has been constructed' (source 22)."
   },
   "open_questions": [
-    "mw_it: 54 MW (DCD) vs 78 MW (RenewMap)",
-    "jobs figures in SSD-10330 EIS not accessed (planning portal blocked)",
-    "construction start date not found",
-    "lat/lon not geocoded (geocoder blocked)."
+    "mw_it: 54 MW (DCD, snippet-only) vs 78 MW (RenewMap)",
+    "actual construction start and full-completion dates not confirmed (notified: start ~late Nov 2020; preliminary operation 1 Mar 2023; full operation 1 Mar 2024 planned)",
+    "jobs and cost figures are SSD-10330 totals for Buildings 4-6, not EC4 alone"
   ],
   "last_checked": "2026-09-27"
 }

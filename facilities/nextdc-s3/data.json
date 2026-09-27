@@ -16,14 +16,14 @@
       "source": 2
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: the geocoder (nominatim) was blocked by the network proxy in this session"
+      "value": -33.81913,
+      "source": 7,
+      "note": "geocoded: address point for 2 Broadcast Way"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: see lat"
+      "value": 151.18448,
+      "source": 7,
+      "note": "see lat"
     }
   },
   "builder": {
@@ -45,50 +45,52 @@
     "source": null
   },
   "cost_aud_m": {
-    "value": 1000,
-    "source": 4,
-    "note": "operator/media figure '$1b' (total development at opening), not a planning CIV. Planning CIV for DA 2019/79 not found"
+    "value": 238.3,
+    "source": 8,
+    "note": "planning capital investment value $238,293,113 for DA-2019/79 (planning panel page; also in the SNPP report for the modification, source 3). Previous value 1000 was the operator/media '$1b' total-development figure at opening (source 4), which includes fit-out"
   },
   "planning": {
     "authority": {
       "value": "Sydney North Planning Panel",
-      "source": 3,
-      "note": "Willoughby Council DA determined by the regional planning panel (panel ref PPSSNH-102)"
+      "source": 9,
+      "note": "Willoughby Council DA determined by the regional panel (panel ref PPS-2019SNH027). Modification DA-2019/79/A (PPSSNH-102) also determined by SNPP on 10 Dec 2020"
     },
     "pathway": {
       "value": "Regionally significant DA (council DA determined by planning panel)",
-      "source": 3
+      "source": 8,
+      "note": "CIV over $30 million"
     },
     "reference": {
-      "value": "DA 2019/79",
-      "source": 3,
-      "note": "Willoughby DA; modification DA 2019/79/A reported to the SNPP Dec 2020"
+      "value": "DA-2019/79",
+      "source": 8,
+      "note": "Willoughby DA; panel ref PPS-2019SNH027. Applicant/owner NEXTDC Limited. Modification DA-2019/79/A (PPSSNH-102, lodged 12 Jun 2020, approved 10 Dec 2020)"
     },
     "lodged": {
-      "value": "2019-04-03",
-      "source": 5,
-      "note": "date the application appears on PlanningAlerts for 2 Broadcast Way; may be the notification date rather than lodgement"
+      "value": "2019-04-02",
+      "source": 8,
+      "note": "lodgement date on the planning panel page (referred to panel 05/04/2019). PlanningAlerts shows 03 Apr 2019 (source 5)"
     },
     "determined": {
-      "value": null,
-      "source": null
+      "value": "2019-12-17",
+      "source": 9,
+      "note": "approved at SNPP public meeting 17 December 2019 (Determination and Statement of Reasons); the modification report (source 3) also says 'approved by SNPP on 17 December 2019'"
     },
-    "url": "https://apps.planningportal.nsw.gov.au/prweb/PRRestService/DocMgmt/v1/PublicDocuments/DATA-WORKATTACH-FILE%20PEC-DPE-EP-WORK%20PPSSNH-102!20201203T061646.562%20GMT"
+    "url": "https://www.planningportal.nsw.gov.au/planning-panel/construction-eight-storey-data-centre-above-basement-car-park"
   },
   "jobs_construction": {
     "value": null,
     "source": null,
     "basis": null,
     "scope": null,
-    "note": ""
+    "note": "no construction jobs figure in the DA assessment report"
   },
   "jobs_construction_other": [],
   "jobs_operational": {
-    "value": null,
-    "source": null,
-    "basis": null,
-    "scope": null,
-    "note": ""
+    "value": 45,
+    "source": 10,
+    "basis": "ongoing_headcount",
+    "scope": "direct",
+    "note": "Council assessment report (2019SNH027): 'The data centre is proposed to operate 24 hours x 7 days per week and will employ approximately 45 staff.'"
   },
   "jobs_operational_other": [],
   "construction_start": {
@@ -98,16 +100,14 @@
     "note": "DCD 'Construction begins on NextDC's S3' as summarised by search (Multiplex phase 1, 24 March 2021). Not verified against the full article; Multiplex appointment may have been earlier"
   },
   "construction_end": {
-    "value": "2022",
-    "source": 4,
-    "precision": "year",
-    "note": "Stage 1 completed and opened 2022 (w.media: opening Sept 2022; iTnews opening report). Stage 2 (started Jan 2022) finished two months early, date not captured (probably 2023)"
+    "value": "2023-06",
+    "source": 12,
+    "precision": "month",
+    "note": "Stage 2 (final stage, started Jan 2022) completed 'two months ahead of schedule', reported 14 Jun 2023 (source 12; Multiplex release, source 2). Stage 1 completed Aug 2022 (Build Australia 17 Aug 2022, source 11) and S3 officially opened 21 Sep 2022 (iTnews, source 4). Previous value was 2022 (Stage 1)"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "DA 2019/79 determination date, CIV and jobs not found (SNPP report not reachable)",
-    "construction start date (March 2021) not verified against the primary source",
-    "Stage 2 completion date not captured",
-    "lat/lon not geocoded (geocoder blocked)"
+    "construction start March 2021 not verified against the primary source (DCD and Multiplex pages return 403)",
+    "construction jobs figure not found in the DA documents"
   ]
 }

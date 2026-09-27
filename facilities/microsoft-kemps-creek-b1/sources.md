@@ -1,6 +1,6 @@
 # Sources: Microsoft Kemps Creek Building 1
 
-Note: all direct page fetches were blocked by the session egress proxy; facts below were taken from web-search result text/snippets of these pages (accessed 2026-09-27).
+Note: the first pass worked from web-search snippets; sources 2 and 4 were fetched and read directly in the 2026-09-27 verification pass (see end).
 
 1. NSW Planning Portal - Kemps Creek Data Centre (SSD-10101987). https://www.planningportal.nsw.gov.au/major-projects/projects/kemps-creek-data-centre - accessed 2026-09-27. Supports: SSD pathway, reference, applicant ARUP Pty Ltd, address 706-769 Mamre Road Kemps Creek (Penrith LGA), scope (two two-storey buildings, 60 data halls, 62 backup generators), approved 13/07/2023 by Director (delegate).
 2. SSD-10101987 Assessment Report (hosted by A W Edwards). https://awedwards.com.au/wp-content/uploads/2023/08/Signed-SSD-SSI-Assessment-Report.pdf - accessed 2026-09-27. Supports: applicant, address, VPA executed 7 June 2023, determination.
@@ -10,3 +10,7 @@ Note: all direct page fetches were blocked by the session egress proxy; facts be
 6. Construction Review Online - Microsoft Kemps Creek Data Centre construction project. https://constructionreviewonline.com/microsoft-announces-plans-for-kemps-creek-project-in-australia/ - accessed 2026-09-27. Supports: ~300 construction jobs, 50+ operational jobs; construction began Oct 2023.
 7. The Tech Capital - Microsoft files for $1.3bn Sydney data centre. https://thetechcapital.com/microsoft-files-for-1-3bn-extra-sydney-data-centre/ ; DCD https://www.datacenterdynamics.com/en/news/microsoft-confirms-plans-for-one-data-center-campus-in-sydney-drops-plans-for-another/ - accessed 2026-09-27. Supports: $1.3bn campus, two two-storey buildings, 65,355 sqm, ~96MW expandable to 190MW.
 8. Datacentermap - Microsoft Kemps Creek. https://www.datacentermap.com/australia/sydney/microsoft-kemps-creek/ - accessed 2026-09-27. Supports: 769 Mamre Rd, Kemps Creek NSW 2178; Building Two expected completion 2026.
+
+9. NSW Spatial Services - NSW Cadastre MapServer layer 9 (lot 2//DP1293204 polygon, centroid) and Address_Location service (769 and 706-752 Mamre Road address points). https://maps.six.nsw.gov.au/arcgis/rest/services/public/NSW_Cadastre/MapServer/9 ; https://maps.six.nsw.gov.au/services/public/Address_Location - queried 2026-09-27. Supports: lat/lon, current lot description.
+
+Verification pass 2026-09-27: source 2 (Assessment Report PDF, 70 pp) was downloaded and read directly - supports CIV $1,298,942,449, '300 full-time equivalent construction jobs and 79 operational jobs', 190MW campus operational capacity, SYD05/06/07 staging, site description (Lot 2 of The Yards, Lots X and Y DP 421633, Lot 22 DP 258414), EIS exhibition 19 Nov-16 Dec 2021, determination 13 July 2023. Source 4 (Microsoft Local) was fetched directly - supports dated updates (Aug 2023, Oct 2023, Mar 2024, May 2026).

@@ -7,9 +7,9 @@
     "address": {
       "value": "20-28 Cawley Road, Yarraville VIC 3013",
       "source": 2,
-      "note": ""
+      "note": "Urban Developer (22 Mar 2022): 20-28 Cawley Road, Yarraville; 22,500 sqm development site within Microsoft's 130,000 sqm landholding. Microsoft's page describes the site both as 'Cawley Road in Brooklyn' and 'in the Yarraville inner-city suburb'; OSM and postcode 3013 = Yarraville"
     },
-    "suburb": "Yarraville/Brooklyn",
+    "suburb": "Yarraville",
     "state": "VIC",
     "postcode": {
       "value": "3013",
@@ -17,25 +17,25 @@
       "note": "postcode from master.csv address; source gives street address and suburb Yarraville"
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: nominatim and map sites blocked by network proxy in this session"
+      "value": -37.82254,
+      "source": 7,
+      "note": "geocoded: centroid of OSM building \"Microsoft MEL04\", 20-28 Cawley Rd"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: nominatim and map sites blocked by network proxy in this session"
+      "value": 144.85884,
+      "source": 7,
+      "note": "see lat note"
     }
   },
   "builder": {
     "value": "Kapitol Group",
-    "source": 3,
-    "note": "general contractor"
+    "source": 1,
+    "note": "Microsoft: 'Together with our general contractor, Kapitol Group' (Cawley Road); Kapitol project page 'Yarraville Data Centre Melbourne 1' (client undisclosed, complete May 2024) corroborates"
   },
   "developer": {
     "value": "Microsoft",
     "source": 2,
-    "note": ""
+    "note": "Microsoft owns site (bought 2021 for $90m per source 2)"
   },
   "mw_it": {
     "value": null,
@@ -50,7 +50,7 @@
   "cost_aud_m": {
     "value": 150,
     "source": 2,
-    "note": "reported project value at lodgement of MEL4 application (The Urban Developer); not a planning-document figure"
+    "note": "The Urban Developer (22 Mar 2022): '$150 million' for MEL4 at lodgement; not a planning-document figure"
   },
   "planning": {
     "authority": {
@@ -99,22 +99,20 @@
   },
   "jobs_operational_other": [],
   "construction_start": {
-    "value": "2022-12-05",
-    "source": 3,
-    "precision": "day",
-    "note": "groundbreaking ceremony; one Microsoft extract says construction began Oct 2022"
+    "value": "2022-10",
+    "source": 1,
+    "precision": "month",
+    "note": "Microsoft: 'Datacentre construction will occur between October 2022 through early 2024'; groundbreaking ceremony 5 Dec 2022 (sources 1, 5)"
   },
   "construction_end": {
     "value": "2024-05",
     "source": 3,
     "precision": "month",
-    "note": "Kapitol practical completion May 2024; Microsoft says fully operational Feb 2025"
+    "note": "Kapitol: complete, completion date May 2024; Microsoft Feb 2025 update: 'Construction of Building One is complete and is now operational'"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "planning permit number and dates not found",
-    "lat/lon not geocoded (proxy blocked)",
-    "MW not public (~5,000 sqm data hall + plant)",
-    "suburb Yarraville vs Brooklyn in Microsoft blog"
+    "planning permit number and dates not found (Maribyrnong register not reachable)",
+    "MW not public (~5,000 sqm data storage and plant area + on-site substation)"
   ]
 }

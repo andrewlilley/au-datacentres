@@ -6,8 +6,8 @@
   "location": {
     "address": {
       "value": "4-10 Talavera Road, Macquarie Park NSW",
-      "source": 1,
-      "note": "23,190 sqm site"
+      "source": 9,
+      "note": "23,190 sqm site (Assessment Report Table 1)"
     },
     "suburb": "Macquarie Park",
     "state": "NSW",
@@ -17,14 +17,14 @@
       "note": "suburb postcode (Australia Post); not stated in source"
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "Not geocoded: geocoding services (Nominatim etc.) unreachable from this session (network egress blocked)"
+      "value": -33.78159,
+      "source": 8,
+      "note": "geocoded: address point for 4 Talavera Road (site is 4-10)"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "Not geocoded: geocoding services (Nominatim etc.) unreachable from this session (network egress blocked)"
+      "value": 151.1311,
+      "source": 8,
+      "note": "see lat"
     }
   },
   "builder": {
@@ -33,64 +33,65 @@
     "note": "no head contractor announced as at 2026-09-27"
   },
   "developer": {
-    "value": "Goodman Property Services (Aust) Pty Ltd",
-    "source": 1,
+    "value": "Goodman Property Services (Aust) Pty Limited",
+    "source": 9,
     "note": "applicant"
   },
   "mw_it": {
     "value": null,
     "source": null,
-    "note": "IT load not separately stated in sources found; 135MW is the headline capacity"
+    "note": "IT load not stated in the Assessment Report or EIS; both give total power only"
   },
   "mw_grid": {
     "value": 135,
-    "source": 2,
-    "note": "'135MW' headline capacity (w.media, The Tech Capital); unclear whether IT or total load. master.csv notes ~90MVA initial load; BeBeez (Apr 2025) reported the filing as 90MW"
+    "source": 9,
+    "note": "'Total power consumption of up to 135 megawatts (MW)' (Assessment Report Table 1); EIS describes a '135MVA data centre'. Portal description: 'initial load capacity of approximately 90MVA'; DCCEEW's earlier BDAR waiver was for 'up to 90 MW power consumption'"
   },
   "cost_aud_m": {
-    "value": 1365,
-    "source": 2,
-    "note": "AUD 1.365bn estimated development cost (w.media, Mingtiandi); Urban Digest reported $1.36bn at lodgement and $1.37bn at approval"
+    "value": 1365.46,
+    "source": 9,
+    "note": "Estimated development cost $1,365,463,075 (Assessment Report Table 1 and conclusion); media rounded to $1.36bn/$1.365bn/$1.37bn"
   },
   "planning": {
     "authority": {
       "value": "NSW DPHI",
-      "source": 1
+      "source": 9,
+      "note": "Minister for Planning and Public Spaces is consent authority; determined by the A/Director, Industry Assessments under delegation executed 18 Aug 2026"
     },
     "pathway": {
       "value": "SSD",
-      "source": 1
+      "source": 9
     },
     "reference": {
       "value": "SSD-74069708",
-      "source": 1
+      "source": 6
     },
     "lodged": {
-      "value": null,
-      "source": null,
-      "note": "lodgement date not found; EIS exhibited 21 Mar 2025 to 17 Apr 2025 (no public submissions)"
+      "value": "2025-03",
+      "source": 10,
+      "note": "approximate: EIS (Urbis, Feb 2025) uploaded to the major projects portal 10 Mar 2025; exhibited 21 Mar-17 Apr 2025"
     },
     "determined": {
       "value": "2026-09-02",
-      "source": 1,
-      "note": "approved by NSW DPHI 2 Sep; year 2026 confirmed by BeBeez (7 Sep 2026) and master.csv"
+      "source": 6,
+      "note": "Determination Date 02/09/2026 on the planning portal; decider: Director"
     },
     "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/project-apollo-data-centre-macquarie-park"
   },
   "jobs_construction": {
     "value": 400,
-    "source": 1,
-    "basis": "unstated",
-    "scope": "unstated",
-    "note": "'up to 400' construction jobs per Department's assessment (via Urban Digest); basis not defined in captured text"
+    "source": 10,
+    "basis": "average",
+    "scope": "direct",
+    "note": "EIS (Linesight estimate): 'the development is estimated to generate 400 full-time equivalent jobs consistently throughout the lifetime of development build' ('based on the direct employment impact'); construction up to ~24 months. Assessment Report: '400 full-time equivalent construction jobs'. Tagged average because the source describes a constant FTE level over the build, not a peak"
   },
   "jobs_construction_other": [],
   "jobs_operational": {
     "value": 60,
-    "source": 1,
+    "source": 10,
     "basis": "ongoing_headcount",
-    "scope": "unstated",
-    "note": "60 operational jobs"
+    "scope": "direct",
+    "note": "EIS: engineering operations 34 staff (15 per shift x 2 shifts + 4 managers) + data centre operations 26 staff = 'total number of operational jobs for the proposal is 60 jobs'; Assessment Report: '60 operational jobs'"
   },
   "jobs_operational_other": [],
   "construction_start": {
@@ -106,10 +107,7 @@
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "mw: 135MW may be total load rather than IT; initial ~90MVA/90MW reported",
-    "planning.lodged date not found (exhibition from 21 Mar 2025)",
-    "builder not yet announced",
-    "lat/lon not geocoded (egress blocked)",
-    "jobs: basis/scope tagged from search-result wording; confirm against planning documents"
+    "mw: IT load not stated in planning documents; 135MW is total power (initial ~90MVA)",
+    "builder not yet announced"
   ]
 }

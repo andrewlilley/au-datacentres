@@ -17,30 +17,30 @@
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: geocoder and map sites blocked by session network proxy"
+      "value": -37.81667,
+      "source": 9,
+      "note": "geocoded: OSM address point 598B Geelong Road, Brooklyn (sources give 594 or 598; no OSM point for 594); approximate campus location"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: geocoder and map sites blocked by session network proxy"
+      "value": 144.84641,
+      "source": 9,
+      "note": "see lat note"
     }
   },
   "builder": {
     "value": "Icon Co",
     "source": 1,
-    "note": "main contractor; I&D Group frame contractor (Interspan)"
+    "note": "Icon named as builder by Speedpanel and Classic Architectural Group (src 1, 2); Interspan (src 10, not fetchable) says Icon main contractor with I&D Group as frame contractor"
   },
   "developer": {
     "value": "CDC Data Centres",
-    "source": 6,
-    "note": ""
+    "source": 2,
+    "note": "Classic Architectural Group names client CDC Data Centres"
   },
   "mw_it": {
     "value": 200,
     "source": 7,
-    "note": "RenewMap 'Brooklyn Campus Two' 200MW per master.csv, not re-verified; DCD says Feb 2026 opening added ~155MW"
+    "note": "RenewMap 'CDC Brooklyn Campus Two' 200MW (operating), verified; DCD reportedly says Feb 2026 opening added ~155MW (page blocked, unverified); datacenterHawk gives 150MW for BK1/2 at full build"
   },
   "mw_grid": {
     "value": null,
@@ -65,14 +65,14 @@
     },
     "reference": {
       "value": "P569/2023",
-      "source": 4,
-      "note": "mapping to BK2 inferred from 'second stage' description; a 2026 amendment was withdrawn 28/08/2026"
+      "source": 3,
+      "note": "PlanningAlerts: P569/2023, 598B Geelong Road, 'development of part of the land for a data centre (second stage - north side)'; mapping to BK2 inferred from 'second stage'. Brimbank page (src 4, not fetchable) reportedly shows an amendment lodged 04/08/2026 withdrawn 28/08/2026"
     },
     "lodged": {
       "value": "2023-12",
       "source": 3,
       "precision": "month",
-      "note": "approximate: first published by 1 Dec 2023 (may have been lodged late Nov 2023)"
+      "note": "approximate: PlanningAlerts first published 1 Dec 2023; received date not recorded"
     },
     "determined": {
       "value": null,
@@ -87,7 +87,7 @@
     "source": null,
     "basis": null,
     "scope": null,
-    "note": "only 'thousands of jobs' (campus-level)"
+    "note": "only 'thousands of jobs' (campus-level, CDC Feb 2026 release, src 5)"
   },
   "jobs_construction_other": [],
   "jobs_operational": {
@@ -102,18 +102,18 @@
     "value": null,
     "source": null,
     "precision": null,
-    "note": ""
+    "note": "not found; Interspan (search snippet only) says post-tensioning work commenced Oct 2024, which gives an upper bound for structural works, not the project start"
   },
   "construction_end": {
-    "value": "2025",
-    "source": 1,
-    "precision": "year",
-    "note": "Interspan: completion due late 2025 (expected at time); campus officially opened Feb 2026 (src 5)"
+    "value": "2026-02",
+    "source": 5,
+    "precision": "month",
+    "note": "campus (BK1 + BK2) officially opened Feb 2026 per CDC; Speedpanel gave expected completion 2025 and Interspan 'late 2025'"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
     "P569/2023 decision date not found; confirm it is the BK2 permit",
-    "per-building MW uncertain (200 RenewMap vs ~155 DCD)",
+    "per-building MW uncertain (200 RenewMap vs ~155 DCD, unverified)",
     "construction start not found"
   ]
 }

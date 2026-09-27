@@ -6,25 +6,25 @@
   "location": {
     "address": {
       "value": "3 Brookhollow Avenue, Norwest NSW 2153",
-      "source": 1,
-      "note": "SSD-81928961 site; 51,867 sqm site"
+      "source": 8,
+      "note": "Lot 2021 DP 831173; site c. 5.2 ha (EIS)"
     },
     "suburb": "Norwest (Baulkham Hills)",
     "state": "NSW",
     "postcode": {
       "value": "2153",
-      "source": 5,
-      "note": "postcode shown on Planning Alerts/Hills Shire DA listings for 3 Brookhollow Ave"
+      "source": 8,
+      "note": "EIS / EDC report"
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "lat/lon not geocoded: WebFetch (incl. nominatim) was blocked by the session egress proxy"
+      "value": -33.73253,
+      "source": 7,
+      "note": "geocoded: address point for 3 Brookhollow Avenue"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "lat/lon not geocoded: WebFetch (incl. nominatim) was blocked by the session egress proxy"
+      "value": 150.96802,
+      "source": 7,
+      "note": "see lat"
     }
   },
   "builder": {
@@ -34,73 +34,81 @@
   },
   "developer": {
     "value": "GreenSquareDC",
-    "source": 1,
-    "note": "backed by Partners Group (acquired GreenSquareDC 2025; up to AUD 1.2bn commitment)"
+    "source": 8,
+    "note": "applicant: Project Garden 1 Pty Ltd as trustee for the Norwest Property Trust (exhibition notice); GreenSquareDC backed by Partners Group"
   },
   "mw_it": {
     "value": 96,
-    "source": 2,
-    "note": "Stage 2 additional IT capacity per DCD/datacentermap and CertifiedStrategic; SDJ described Stage 2 as ~80MW full build-out; whole campus ~110MW incl. 15MW Stage 1"
+    "source": 8,
+    "note": "EIS: 'has an IT load of 96 megawatts (MW)'; three x four-storey buildings (B, C, D). Whole campus ~110MW with 14.9MW Stage 1"
   },
   "mw_grid": {
-    "value": null,
-    "source": null,
-    "note": ""
+    "value": 118.3,
+    "source": 9,
+    "note": "exhibition notice: 'total power consumption of 118.3 Megawatts'; 77 diesel generators"
   },
   "cost_aud_m": {
-    "value": null,
-    "source": null,
-    "note": "no CIV found (planning portal blocked). AUD 1.2bn is Partners Group funding commitment for the platform/campus, not a CIV; AUD 110m was the land/site deal"
+    "value": 1248.4,
+    "source": 8,
+    "note": "EIS / Turner & Townsend EDC report (18 Jun 2026): EDC $1,248,408,516 excl GST, prepared per the CIV definition"
   },
   "planning": {
     "authority": {
-      "value": "NSW DPHI",
-      "source": 1,
-      "note": "SSD application; determining authority not confirmed"
+      "value": "NSW DPHI (Minister or IPC)",
+      "source": 9,
+      "note": "exhibition notice: consent authority 'Minister for Planning and Public Spaces or Independent Planning Commission'; not yet determined"
     },
     "pathway": {
       "value": "SSD",
-      "source": 1,
+      "source": 9,
       "note": ""
     },
     "reference": {
       "value": "SSD-81928961",
-      "source": 1,
-      "note": ""
+      "source": 9,
+      "note": "SEARs requested Mar 2025 (PDA-81670721), SEARs issued Apr 2025"
     },
     "lodged": {
-      "value": null,
-      "source": null,
-      "note": "DCD reported the SSD filing in Jan 2026; search snippets show status variously as 'Prepare EIS' and 'Exhibition'"
+      "value": "2026-06",
+      "source": 8,
+      "note": "EIS dated 27 May 2026, documents uploaded to portal 23-24 Jun 2026; exhibited 14 Jul - 10 Aug 2026. Exact lodgement date not stated"
     },
     "determined": {
       "value": null,
       "source": null,
-      "note": "No SSD determination found. CertifiedStrategic (Apr 2026) says The Hills Shire Council 'endorsed' the Stage 2 DA - may be a council submission rather than a determination"
+      "note": "NOT determined: planning portal status 'Response to Submissions' (fetched 2026-09-27); 59 submissions. CertifiedStrategic 'endorsed' claim not supported"
     },
     "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/brookhollow-avenue-data-centre-expansion-norwest"
   },
   "jobs_construction": {
-    "value": null,
-    "source": null,
-    "basis": null,
-    "scope": null,
-    "note": ""
+    "value": 555,
+    "source": 8,
+    "basis": "unstated",
+    "scope": "direct",
+    "note": "EIS s3.3.1: 'a total 555 full time equivalent (FTE) construction jobs would be created over a 6 year period' (Building B 217, C 170, D 168 FTE); unclear whether FTE headcount or FTE-years"
   },
   "jobs_construction_other": [],
   "jobs_operational": {
-    "value": null,
-    "source": null,
-    "basis": null,
-    "scope": null,
-    "note": ""
+    "value": 20,
+    "source": 8,
+    "basis": "ongoing_headcount",
+    "scope": "direct",
+    "note": "EIS: 'Stage 2 (Buildings B, C and D) will require approximately 20 operational full-time equivalent roles'"
   },
-  "jobs_operational_other": [],
+  "jobs_operational_other": [
+    {
+      "value": 30,
+      "source": 8,
+      "basis": "ongoing_headcount",
+      "scope": "direct",
+      "note": "EIS: 'once Stage 2 is completed, the site is expected to accommodate a total of approximately 30 operational FTE roles' (incl. 10 Stage 1)"
+    }
+  ],
   "construction_start": {
     "value": null,
     "source": null,
     "precision": null,
-    "note": "master.csv note says construction from Jan 2026 - not verified; the construction under way is Stage 1"
+    "note": "Stage 2 not approved; construction under way on site relates to Stage 1 (1382/2025/JP). EIS indicates a ~6-year staged build"
   },
   "construction_end": {
     "value": null,
@@ -110,9 +118,8 @@
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "scope: Stage 2 SSD-81928961 approval not confirmed (found at EIS/exhibition stage; 'council endorsed' Apr 2026 claim unverified) - may not be planning-approved",
-    "status under_construction not supported for Stage 2; construction evidence relates to Stage 1 refit",
-    "overlap: this record is Stage 2 (96MW new build) of the same 3 Brookhollow Ave campus as greensquaredc-syd1-stage1 (15MW refit); ensure MW not double-counted",
-    "cost, jobs, lodged date not found (planning portal blocked in this session)"
+    "scope: SSD-81928961 NOT planning-approved - at 'Response to Submissions' stage (exhibited 14 Jul - 10 Aug 2026); out of scope until determined. Status field 'under_construction' is not correct for Stage 2",
+    "overlap: Stage 2 (96MW IT) of same 3 Brookhollow Ave campus as greensquaredc-syd1-stage1 (14.9MW refit); avoid double-counting",
+    "construction jobs basis: '555 FTE over 6 years' - FTE headcount vs FTE-years unclear"
   ]
 }

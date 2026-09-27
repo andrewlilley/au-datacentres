@@ -7,7 +7,7 @@
     "address": {
       "value": "1 McArthur Street and 63 Sunshine Road, West Footscray VIC 3012",
       "source": 2,
-      "note": "2.72ha site incl. heritage Goldsbrough Mort woolstore"
+      "note": "2.72ha site incl. four-storey heritage Goldsbrough Mort woolstore; Urban Developer: 9,720 m2 of vacant land south of the woolstore fronting McArthur St (west) and Indwe St (south)"
     },
     "suburb": "West Footscray",
     "state": "VIC",
@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: web fetch (nominatim, planning portal, datacentermap/baxtel) blocked from this session"
+      "value": -37.8013,
+      "source": 7,
+      "note": "geocoded: centroid of OSM building \"Goldsborough Mort Wool Store\", 63 Sunshine Rd - inside the development site, but Woolpert/Greenbox say the new data centre is 'sited adjacent to' the heritage woolstore, so the DC building itself is likely slightly south/west of this point; kept as site-level point"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: web fetch (nominatim, planning portal, datacentermap/baxtel) blocked from this session"
+      "value": 144.8698,
+      "source": 7,
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -40,7 +40,7 @@
   "mw_it": {
     "value": null,
     "source": null,
-    "note": "MW not disclosed in any source found; 32 backup generators suggests a large facility but no estimate made"
+    "note": "MW not disclosed in any fetched source (Urban Developer, Woolpert, Greenbox, Westsider, SBS); Westsider: 'an estimated thirty-two backup generators' and 510,000 L diesel; three+ data halls over four storeys. No MW estimate made"
   },
   "mw_grid": {
     "value": null,
@@ -50,13 +50,13 @@
   "cost_aud_m": {
     "value": 800,
     "source": 2,
-    "note": "development cost; expected end value $1bn"
+    "note": "Urban Developer (24 Jan 2025): 'The developer confirmed the project had a development cost of $800 million and an expected end value of $1 billion'"
   },
   "planning": {
     "authority": {
       "value": "Victorian Minister for Planning",
       "source": 2,
-      "note": "DFP application to Department of Transport and Planning"
+      "note": "DFP application to the Department of Transport and Planning (Urban Developer, fetched); Minister for Planning is DFP responsible authority. Maribyrnong council had earlier granted a subdivision permit"
     },
     "pathway": {
       "value": "Development Facilitation Program (DFP)",
@@ -72,13 +72,13 @@
       "value": null,
       "source": null,
       "precision": null,
-      "note": ""
+      "note": "on or before 24 Jan 2025 (Urban Developer: plans 'now before' DTP via DFP); exact date not found (register blocked)"
     },
     "determined": {
       "value": "2025-04-04",
       "source": 1,
       "precision": "day",
-      "note": "per permit register (recorded in master.csv); Westsider says approved April 2025"
+      "note": "per permit register (recorded in master.csv; register not fetchable); The Westsider (fetched) confirms 'approved in April 2025'"
     },
     "url": "https://www.planning.vic.gov.au/planning-approvals/ministerial-permits-register/ministerial-permits/fcb0d877-0b98-ef11-8a68-002248938a9c"
   },
@@ -102,7 +102,7 @@
     "value": null,
     "source": null,
     "precision": null,
-    "note": ""
+    "note": "Greenbox/Woolpert list the project as 'In progress' (design); SBS (2026) says 'approved and planned' - no construction start found"
   },
   "construction_end": {
     "value": null,
@@ -112,8 +112,8 @@
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "scope: MW capacity unknown - need to confirm >= 5 MW",
+    "scope: MW capacity unknown - need to confirm >= 5 MW (32 backup generators suggests well above 5 MW, but not stated)",
     "builder and construction start unknown",
-    "lat/lon not geocoded (fetch blocked)"
+    "planning.lodged date unknown (register blocked)"
   ]
 }

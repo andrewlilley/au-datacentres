@@ -16,46 +16,46 @@
       "source": 2
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "Not geocoded: Nominatim and all mapping hosts blocked by the session egress proxy. Geocode from 105 Hollinsworth Road, Marsden Park NSW 2765 later."
+      "value": -33.72261,
+      "source": 20,
+      "note": "Geocoded from street address via NSW Spatial Services address point for 105 HOLLINSWORTH ROAD MARSDEN PARK (113 Hollinsworth Rd is at -33.72446,150.83675). Address point, not building centroid; campus spans a larger lot."
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "Not geocoded: Nominatim and all mapping hosts blocked by the session egress proxy. Geocode from 105 Hollinsworth Road, Marsden Park NSW 2765 later."
+      "value": 150.8366,
+      "source": 20,
+      "note": ""
     }
   },
   "builder": {
-    "value": "Hindmarsh Constructions",
-    "source": 11,
-    "note": "Head contractor per iCost project page for an AU$65m CDC Marsden Park package; package scope (likely MP1 initial stage under DA-24-00542) not confirmed; builder for later MP1 stage (MP1.S2) unknown."
+    "value": "Built",
+    "source": 28,
+    "note": "Built Pty Ltd is Principal/Head Contractor for the SSD campus works per its CEMP (source 28, approved by DPHI Apr 2026) and its 14 Jul 2026 commencement notice (source 29); BY Group is head contractor for civil, stormwater and erosion control. This covers MP1.S2 (the 79 MW SSD building). The separate 5 MW MP1.S1 building (Blacktown DA-24-00542) was reportedly built by Hindmarsh Constructions (iCost AU$65m package, source 11, search extract only; iCost page now returns 404, not verified)."
   },
   "developer": {
     "value": "CDC Data Centres",
-    "source": 9,
-    "note": "Applicant for SSD-70889211 (Mecone acted as planning consultant)"
+    "source": 21,
+    "note": "Applicant CDC Data Centres Pty Ltd (ABN 59125710394) per SSD application form; Patch Planners acted as planning consultant for the EIS/RTS (Mecone lodged the SEARs request)."
   },
   "mw_it": {
-    "value": 84,
-    "source": 17,
-    "note": "Estimate: campus 504 MW IT / 6 buildings = 84 MW average; datacentermap lists DC5 at 84 MW. Per-building IT MW in the EIS not confirmed (EIS not directly readable). CDC Mar 2026 says campus expanded to 700MW+ after densification, so per-building figure may rise."
+    "value": 79,
+    "source": 2,
+    "note": "EIS Figure 16 GFA table lists 'Development 1 (79MW)' and s3.1 describes 'the 79MW Data Centre building, referred to as MP1 Development - Stage 2 (MP1.S2)'. The separate 5 MW MP1.S1 building (Blacktown DA-24-00542, source 26/27) sits beside it and connects to MP01 via skybridge; MP1.S1 + MP1.S2 = 84 MW. Built's CEMP (source 28) describes all six buildings as 84 MW. CDC Mar 2026 investor day (source 16, snippet) says campus now 700MW+ after densification, so per-building IT may rise."
   },
   "mw_grid": {
-    "value": null,
-    "source": null,
-    "note": "Not stated separately. SSD describes 'total power consumption of 504 MW' for the campus and a 720 MW/MVA substation (campus-level)."
+    "value": 120,
+    "source": 2,
+    "note": "Approximate. EIS infrastructure section: 'The calculated demand for the site is approx. 720MW, made up of six (6) similar buildings (circa 120MW each)'. Consent (source 24) approves 'a maximum power consumption of 720 megawatts' for the campus (AR: '720 MW (504 MW IT load)')."
   },
   "cost_aud_m": {
-    "value": 3100,
-    "source": 4,
-    "note": "Campus total capital investment value for all six buildings under SSD-70889211 (not broken down per building). SEARs request stated AU$1.4bn (source 7)."
+    "value": 3113.2,
+    "source": 22,
+    "note": "CAMPUS TOTAL capital investment value for all six SSD buildings (not broken down per building): EDC $3,113,226,273 excl GST ($3,424,550,000 incl GST) per Rider Levett Bucknall EDC letter 30 Oct 2024 (source 22), EIS, Assessment Report and notice of decision; ministerial release rounds to $3.1 billion. SEARs-stage figure was AU$1.4bn (source 7). The 5 MW MP1.S1 building under Blacktown DA-24-00542 had a separate CIV of $53,940,000 (source 27)."
   },
   "planning": {
     "authority": {
       "value": "NSW DPHI",
-      "source": 1,
-      "note": "Determined by departmental delegate (Director) per source 19"
+      "source": 24,
+      "note": "Consent signed 27 Nov 2025 by Joanna Bakopanos, A/Director Industry Assessments, as delegate (instrument cites delegation from the Independent Planning Commission; notice of decision cites delegation from the Minister for Planning and Public Spaces)."
     },
     "pathway": {
       "value": "SSD",
@@ -66,61 +66,97 @@
       "source": 1
     },
     "lodged": {
-      "value": "2024-11",
-      "source": 3,
-      "precision": "month",
-      "note": "EIS documents dated 1-4 Nov 2024; SEARs requested 15 May 2024 (source 8). Exact lodgement date not confirmed."
+      "value": "2024-11-04",
+      "source": 21,
+      "precision": "day",
+      "note": "SSD application form 'Date Submitted: 04/11/2024' (source 21); exhibited 14 Nov - 11 Dec 2024 (source 23). SEARs requested 15 May 2024 (source 8), SEARs issued 11 Jun 2024. MP1.S1 (5 MW) Blacktown DA-24-00542 lodged 3 June 2024 (source 27), referred to panel 17 Jun 2024."
     },
     "determined": {
-      "value": "2025-11",
-      "source": 6,
-      "precision": "month",
-      "note": "Approval announced 28 Nov 2025; project list notes cite 27 Nov 2025. Exact consent date not confirmed (portal blocked). MP1 initial stage also approved under council DA-24-00542 (source 12)."
+      "value": "2025-11-27",
+      "source": 25,
+      "precision": "day",
+      "note": "Notice of decision: 'Date of decision 27 November 2025' (source 25); consent instrument dated 27 November 2025 (source 24); approval announced by minister 28 Nov 2025. Amended application (sewer connection removed) accepted 13 Nov 2025. MP1.S1 (5 MW) Blacktown DA-24-00542 / PPSSCC-562 approved unanimously by Sydney Central City Planning Panel, date of determination 14 November 2024 (source 26; SSD Assessment Report table gives 13 Nov 2024)."
     },
     "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/marsden-park-data-centre"
   },
   "jobs_construction": {
     "value": 220,
-    "source": 4,
-    "note": "CAMPUS TOTAL (all six buildings). NSW ministerial release (search extract): '220 construction jobs'; basis not defined - check EIS",
-    "basis": "unstated",
-    "scope": "unstated"
+    "source": 2,
+    "basis": "peak",
+    "scope": "direct",
+    "note": "CAMPUS TOTAL (all six SSD buildings). EIS s3.1.1: 'CDC's Construction Operations team has identified that the proposal would generate up to a peak maximum of 220 construction workers during the life of the project, with an average of 150 construction workers.' EIS Table 6, application form (source 21) and Assessment Report (source 23) describe the same number as 'Up to 220 full-time equivalent (FTE) construction jobs' / '220 full-time equivalent construction jobs'; ministerial release: '220 construction jobs'."
   },
   "jobs_construction_other": [
+    {
+      "value": 150,
+      "source": 2,
+      "basis": "average",
+      "scope": "direct",
+      "note": "CAMPUS TOTAL. EIS s3.1.1: '...with an average of 150 construction workers.'"
+    },
     {
       "value": 200,
       "source": 18,
       "basis": "unstated",
       "scope": "unstated",
-      "note": "CAMPUS TOTAL. Information Age (search extract): '200 construction jobs'; differs from ministerial release"
+      "note": "CAMPUS TOTAL. Information Age: 'The NSW government has said the new data centre will create 200 construction jobs and 265 operational jobs'; conflicts with the ministerial release and planning documents (220), likely a reporting error."
+    },
+    {
+      "value": 10000,
+      "source": 9,
+      "basis": "unstated",
+      "scope": "unstated",
+      "note": "CAMPUS TOTAL. CDC ground-breaking release 25 Oct 2024: 'The campus development will generate over ten thousand jobs' (lower bound, undefined; not comparable with planning figures)."
     }
   ],
   "jobs_operational": {
     "value": 265,
-    "source": 4,
-    "note": "CAMPUS TOTAL at full operation. NSW ministerial release (search extract): '265 operational jobs'; Information Age also reports 265",
+    "source": 2,
     "basis": "ongoing_headcount",
-    "scope": "unstated"
+    "scope": "direct",
+    "note": "CAMPUS TOTAL at full operation, including the 5 MW MP1.S1 building. EIS s3.1.1: 'the proposal is expected to generate 265 FTE operational jobs'; Table 7 'Forecast Operational Employment Generation Across Campus' totals 265 = office staff 132, security 33, visitors 35, contractor 65 (so includes visitors). Assessment Report/consent: '265 operational jobs'."
   },
-  "jobs_operational_other": [],
+  "jobs_operational_other": [
+    {
+      "value": 40,
+      "source": 2,
+      "basis": "ongoing_headcount",
+      "scope": "direct",
+      "note": "PER BUILDING, stated by source. EIS Table 7 '84MW Typical' building: office staff 20, security 5, visitors 5, contractor 10 = 40. MP1.S2 is a 79 MW building; table does not give a 79 MW column."
+    },
+    {
+      "value": 25,
+      "source": 27,
+      "basis": "ongoing_headcount",
+      "scope": "direct",
+      "note": "5 MW MP1.S1 building only (DA-24-00542). Council assessment report s8.2.3: 'the applicant only proposes 25 staff and maximum 5 visitors to attend this facility.' EIS Table 7 '5MW (inc. gatehouse)' column also totals 25 (12 office, 3 security, 5 visitors, 5 contractor)."
+    },
+    {
+      "value": 165,
+      "source": 23,
+      "basis": "ongoing_headcount",
+      "scope": "direct",
+      "note": "CAMPUS TOTAL. Assessment Report (traffic): 'car parking supply has been provided based on employee demand of 165 staff and excess for site visitors' (parking-demand basis)."
+    }
+  ],
   "construction_start": {
-    "value": "2024-10-25",
-    "source": 9,
+    "value": "2026-08-01",
+    "source": 29,
     "precision": "day",
-    "note": "Campus ground-breaking; initial works under council DA-24-00542 (5 MW facility)."
+    "note": "Planned start of SSD works (MP1.S2): SSD Stage 1-4 works planned to commence from 1 August 2026 per Built's notice to CDC dated 14 Jul 2026 (source 29), 'subject to satisfaction and attainment of the Construction Certificate Approval ... and the completion of the preceding piling complying development works'. Actual commencement not confirmed. Post-approval staging approved by DPHI 24 Apr / 12 Jun 2026 (sources 30-31): Stage 1 piling (MP1-MP5 pads) and Stage 2 construction (substation, MP1, MP4, MP5). Campus ground-breaking was 25 Oct 2024 (source 9) for early works (DA-24-00386, determined 11 Sep 2024) and the 5 MW MP1.S1 building (DA-24-00542); AR (Nov 2025) says the 5 MW building was then under construction."
   },
   "construction_end": {
     "value": null,
     "source": null,
     "precision": null,
-    "note": "iCost reports CDC announced completion of MP1 (first building); date not found. EIS: MP1.S2 in Stage 1 (1.5 yrs construction)."
+    "note": "MP1.S2 end date not found. Staging: EIS s3.2.3: Stage 2 - MP1.S2 & MP4 (complete 1.5 yrs post approval); AR Table 2 Stage 1 (substation, MP1 and MP4) - 18 months (whole campus over ~5 years). CDC May 2026: 555MW contracted capacity across its campuses under development to become operational over FY28 and FY29 (not building-specific). The 5 MW MP1.S1 building appears operational by early 2026 (CEMP lists stakeholder 'CDC MP1.1 Operational Facility'; staging plan Stage 0 (Mar 2026 aerial) shows 'MP1.EXT above ground works underway'); iCost (snippet) reported completion announced; exact date not found."
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "MP1 appears split: initial 5 MW facility under Blacktown DA-24-00542 (SCCPP PPSSCC-562, CIV $53.94m, lodged ~17 Jun 2024) and MP1.S2 under SSD-70889211; determination date of DA-24-00542 not found",
-    "iCost reports MP1 completion announced; confirm date and whether full building or initial stage only",
-    "Builder for MP1.S2 / later stages unknown",
-    "Per-building IT MW not confirmed (master.csv had 79 MW, source unknown)",
-    "lat/lon not geocoded (network blocked)"
+    "Record scope: MP1 = 79 MW MP1.S2 (SSD) plus adjacent 5 MW MP1.S1 (Blacktown DA-24-00542, determined 14 Nov 2024, CIV $53.94m) and an 'MP1.EXT' extension; consider whether MP1.S1 (5 MW, apparently operational) needs its own record",
+    "Actual start of SSD works (planned 1 Aug 2026) and MP1.S1 completion/operational date not confirmed",
+    "Builder of MP1.S1 (Hindmarsh per iCost snippet) not verified; iCost page now 404",
+    "Staging plan SYD-MP-SK-14 rev F (source 33) carries hidden 'Now referenced as MP2 / MP3 / MP4 / MPA Zone H' annotations, suggesting buildings may have been renumbered; mapping of current CDC building names to consent names not confirmed",
+    "Per-building IT MW may have increased: CDC Mar 2026 investor day says campus 700MW+ after densification (snippet); consent still caps campus at 720 MW power"
   ]
 }

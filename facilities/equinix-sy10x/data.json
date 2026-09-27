@@ -5,42 +5,42 @@
   "status": "under_construction",
   "location": {
     "address": {
-      "value": null,
-      "source": null,
-      "note": "master.csv gives '10 Grand Avenue', but DA/751/2019 places SY9x at 10 Grand Avenue. SY10x may be the Stage 2 building under the DA/751/2019 concept approval or the 'Grand Avenue Data Centre Expansion, Rosehill' SSD - not verified."
+      "value": "8 Grand Avenue, Rosehill NSW 2142 (Lot 10 DP 1275083)",
+      "source": 5,
+      "note": "SSD-53338465 assessment report: expansion (second building, SY10) on the western portion of the existing SY9 data centre site at 8 Grand Avenue, legally Lot 10 DP 1275083. master.csv '10 Grand Avenue' was the address used in the 2019 DA/751/2019 panel listing for the whole campus."
     },
     "suburb": "Rosehill",
     "state": "NSW",
     "postcode": {
       "value": "2142",
-      "source": 1,
-      "note": "Rosehill postcode; SY10x stated to be in Rosehill"
+      "source": 5,
+      "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "Not geocoded: geocoding services (Nominatim etc.) blocked by session egress proxy; to be filled later."
+      "value": -33.82337,
+      "source": 7,
+      "note": "geocoded: NSW address point for 8 Grand Avenue Rosehill (the western part of the shared SY9/SY10 site, where SY10 is proposed)"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "Not geocoded: geocoding services (Nominatim etc.) blocked by session egress proxy; to be filled later."
+      "value": 151.03347,
+      "source": 7,
+      "note": "see lat"
     }
   },
   "builder": {
     "value": null,
     "source": null,
-    "note": "not found"
+    "note": "not found (A W Edwards built SY9x; no SY10x contractor identified)"
   },
   "developer": {
-    "value": "Equinix / PGIM Real Estate xScale JV",
-    "source": 1,
+    "value": "Equinix Hyperscale 2 (SY10) Pty Limited (SSD applicant); Equinix / PGIM Real Estate xScale JV",
+    "source": 5,
     "note": "PGIM 80% / Equinix 20%; Equinix operates (source 2)"
   },
   "mw_it": {
-    "value": 28,
-    "source": 1,
-    "note": "'More than 28 MW' power capacity when built; SY9x+SY10x combined >55 MW"
+    "value": 31.2,
+    "source": 6,
+    "note": "EIS: '31.2MW (IT Load) data centre facility'; assessment report: 'operational capacity of 31.2 MW'. Equinix Jun 2022 release said 'more than 28 MW' power capacity (source 1)."
   },
   "mw_grid": {
     "value": null,
@@ -48,71 +48,76 @@
     "note": ""
   },
   "cost_aud_m": {
-    "value": null,
-    "source": null,
-    "note": "No facility-specific cost found; JV US$575m (reported as A$775m) covers both SY9x and SY10x"
+    "value": 293.36,
+    "source": 5,
+    "note": "Capital investment value $293,360,197 (SSD-53338465 assessment report). JV US$575m (reported A$775m) covers SY9x and SY10x."
   },
   "planning": {
     "authority": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "NSW DPHI (Director, under Minister's delegation)",
+      "source": 3,
+      "note": "Stage 2 was also covered in concept form by DA/751/2019 (Sydney Central City Planning Panel, 31 Jul 2020)"
     },
     "pathway": {
-      "value": null,
-      "source": null,
-      "note": "Possibly Stage 2 of DA/751/2019 (concept approval) or NSW SSD 'Grand Avenue Data Centre Expansion, Rosehill' - unverified"
+      "value": "SSD",
+      "source": 5,
+      "note": "Detailed consent for the Stage 2 building contemplated by the DA/751/2019 concept approval; DA/751/2019/D (8 Jun 2023) revised SY10 built form"
     },
     "reference": {
-      "value": null,
-      "source": null,
+      "value": "SSD-53338465",
+      "source": 3,
       "note": ""
     },
     "lodged": {
       "value": null,
       "source": null,
-      "note": ""
+      "note": "Lodgement date not stated; scoping report Jan 2023; EIS exhibited 27 Oct - 23 Nov 2023 (source 5)"
     },
     "determined": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "2024-12-16",
+      "source": 3,
+      "note": "approved"
     },
     "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/grand-avenue-data-centre-expansion-rosehill"
   },
   "jobs_construction": {
-    "value": null,
-    "source": null,
-    "basis": null,
-    "scope": null,
-    "note": ""
+    "value": 250,
+    "source": 5,
+    "basis": "unstated",
+    "scope": "direct",
+    "note": "Assessment report: 'expected to generate up to 250 construction jobs' / '250 full-time equivalent construction jobs'; EIS: 'up to 250 full-time equivalent (FTE) construction jobs' and 'direct employment, including 250 construction jobs'. No peak/average definition given."
   },
   "jobs_construction_other": [],
   "jobs_operational": {
-    "value": null,
-    "source": null,
-    "basis": null,
-    "scope": null,
-    "note": ""
+    "value": 36,
+    "source": 5,
+    "basis": "ongoing_headcount",
+    "scope": "direct",
+    "note": "'36 operational jobs'; EIS: '36 operational FTE employees'"
   },
-  "jobs_operational_other": [],
+  "jobs_operational_other": [
+    {
+      "value": 86,
+      "source": 5,
+      "basis": "ongoing_headcount",
+      "scope": "direct",
+      "note": "whole SY9+SY10 campus: 'the equivalent of 36 operational full time equivalent jobs, with the existing SY9 facility seeing the equivalent of 50, resulting in 86 for the entire facility'"
+    }
+  ],
   "construction_start": {
     "value": null,
     "source": null,
     "precision": null,
-    "note": ""
+    "note": "EIS (2023) programme: main works 15 months from Aug 2024, completion Jan 2026 (pre-approval plan, superseded by Dec 2024 consent). No commencement evidence found; the portal shows no post-approval documents as at 2026-09-27."
   },
   "construction_end": {
     "value": null,
     "source": null,
     "precision": null,
-    "note": "completion date not found"
+    "note": "not found; Baxtel lists 'Year Planned: 2027' (source 4)"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "planning: SSD number/status of 'Grand Avenue Data Centre Expansion, Rosehill' not retrievable (planning portal blocked); confirm whether it is SY10x",
-    "address of SY10x unverified (master.csv 10 Grand Avenue is SY9x's DA address)",
-    "status under_construction not verified - no construction start or builder found",
-    "lat/lon not geocoded (geocoder blocked)"
+    "status: under_construction per trackers (Baxtel 'Under Construction', planned 2027) not verified; no construction start, builder or post-approval documents found"
   ]
 }

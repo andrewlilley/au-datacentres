@@ -6,31 +6,31 @@
   "location": {
     "address": {
       "value": "399 Palmers Road, Truganina VIC 3029",
-      "source": 1,
-      "note": ""
+      "source": 9,
+      "note": "STACK MEL01 page gives only 'Truganina'; 399 Palmers Rd per Baxtel (source 9), ITK Research and OSM building tags (source 8); datacenterHawk (source 2) not fetchable (403)"
     },
     "suburb": "Truganina",
     "state": "VIC",
     "postcode": {
       "value": "3029",
-      "source": 1,
+      "source": 8,
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: nominatim and all map/aggregator pages unreachable from this session (egress blocked)"
+      "value": -37.82048,
+      "source": 8,
+      "note": "geocoded: centroid of OSM building \"Stack Infrastructure MEL01B\", 399 Palmers Rd"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: see lat note"
+      "value": 144.7476,
+      "source": 8,
+      "note": "see lat note"
     }
   },
   "builder": {
     "value": "Hickory",
     "source": 4,
-    "note": "Hickory contracted to build MEL01B following MEL01A"
+    "note": "Hickory MEL01B page: 'Following the success of MEL01A' Hickory built the three-level South building for client STACK; topping-out news Nov 2024 (source 5). A.G. Coombs: building services for Stages 1 and 2 (source 11)"
   },
   "developer": {
     "value": "STACK Infrastructure",
@@ -39,13 +39,13 @@
   },
   "mw_it": {
     "value": 36,
-    "source": 4,
-    "note": "36MW critical IT, 'South' building, three levels, 12 data halls, air-cooled"
+    "source": 1,
+    "note": "STACK MEL01 page: MEL01B 36MW, South building, 12 data halls across 3 levels, onsite substation with diverse feeders; Hickory pages (sources 4,5): 36MW critical capacity, three-level, air-cooled"
   },
   "mw_grid": {
     "value": null,
     "source": null,
-    "note": "campus-level 135MW substation only"
+    "note": "campus-level onsite substation only (STACK: 66kV/11kV, 135MW; Hickory Aug 2023: 105MW)"
   },
   "cost_aud_m": {
     "value": null,
@@ -56,7 +56,7 @@
     "authority": {
       "value": null,
       "source": null,
-      "note": "planning permit not found. Likely Wyndham City Council (site in Wyndham LGA) but not confirmed; PlanningAlerts shows a 20 Dec 2019 Wyndham application at 399 Palmers Rd for a warehouse (pre-Hickory purchase) and a March 2024 Wyndham application at 369 Palmers Rd for 'use and development of the land to construct a utility installation (data centre)' - applicant not identified"
+      "note": "planning permit not found. Site in Wyndham City Council; earlier Wyndham application WYP12005/20 at 399 Palmers Rd (Dec 2019, warehouse). The Mar 2024 data centre application WYP14522/24 is at 369 Palmers Rd (the MEL01C/D parcel), not this building"
     },
     "pathway": {
       "value": null,
@@ -100,19 +100,18 @@
     "value": null,
     "source": null,
     "precision": null,
-    "note": ""
+    "note": "not found. STACK June 2022 release says 'two 36MW buildings (currently under construction)' (source 10) and A.G. Coombs describes concurrent construction on the adjacent parcel (source 11), but the Aug 2023 Hickory release calls the second 36MW 'the upcoming second 36MW development' (source 6). Topped out Nov 2024 (source 5)"
   },
   "construction_end": {
     "value": "2025-11",
     "source": 3,
     "precision": "month",
-    "note": "DCD Nov 2025: construction completed. Conflict: ITK/aggregators say MEL01A and B occupancy permits Aug 2023, but the Aug 2023 STACK/Hickory release (source 6) describes only the first 36MW phase as delivered and the second as upcoming, and MEL01B topped out later - 2025 best supported"
+    "note": "DCD Nov 2025: MEL01B construction completed (DCD page 403 - from search snippet); Baxtel (source 9, fetched) lists MEL01B as fully operational, built 2025. Hickory topping-out news dated 14 Nov 2024 (source 5). ITK's claim that A and B both received occupancy permits Aug 2023 is contradicted by the Aug 2023 Hickory release (only the first 36MW phase delivered)"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "construction start date not found",
+    "construction start date not found (2022 vs after Aug 2023 unclear)",
     "planning permit not found",
-    "lat/lon not geocoded (egress blocked)",
-    "MEL01B topping-out date unconfirmed (one search summary said Aug 2025)"
+    "DCD Nov 2025 completion article not fetchable (403) - month from search snippet"
   ]
 }

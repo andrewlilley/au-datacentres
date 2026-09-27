@@ -1,6 +1,6 @@
 {
   "id": "microsoft-seven-hills-b1",
-  "name": "Microsoft Seven Hills (Station Road) Building 1",
+  "name": "Microsoft Seven Hills (Station Road) Building 1 (SYD09)",
   "operator": "Microsoft",
   "status": "operational",
   "location": {
@@ -16,33 +16,34 @@
       "source": 6
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: geocoding service (nominatim) blocked by session egress proxy"
+      "value": -33.77896,
+      "source": 7,
+      "note": "geocoded: address point for 57 Station Road (site-level; not building-specific)"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: geocoding service (nominatim) blocked by session egress proxy"
+      "value": 150.94826,
+      "source": 7,
+      "note": "see lat"
     }
   },
   "builder": {
     "value": "FDC Construction",
     "source": 1,
-    "note": "built the first of the two buildings"
+    "note": "Microsoft Local: FDC Construction (NSW) Pty Ltd built Building One"
   },
   "developer": {
     "value": "Microsoft",
     "source": 1
   },
   "mw_it": {
-    "value": null,
-    "source": null,
-    "note": "not found. The only non-SSD approval reported for the site is Blacktown Council's early-2022 consent for a 1.2MW, 630 sqm data centre (source 5); if Building 1 is that facility it is < 5MW"
+    "value": 1.2,
+    "source": 8,
+    "note": "EIS: 'approved data centre has a data storage capacity of 1.2MW' / 'small scale 1.2MW data centre comprising 630sqm of GFA' (Table 7 lists 1.2MW as power consumption). Below the 5MW threshold"
   },
   "mw_grid": {
     "value": null,
-    "source": null
+    "source": null,
+    "note": "EIS Table 7 'Power Consumption' 1.2MW for DA-21-01058 building; 2 x 1.5MW + 1 x 1MW generators"
   },
   "cost_aud_m": {
     "value": null,
@@ -51,27 +52,26 @@
   "planning": {
     "authority": {
       "value": "Blacktown City Council",
-      "source": 5,
-      "note": "assumed: Building 1 appears to correspond to the early-2022 council consent (Building 2 is SSD-33781208); link not confirmed"
+      "source": 8
     },
     "pathway": {
       "value": "Local DA",
-      "source": 5,
-      "note": "see authority note"
+      "source": 8
     },
     "reference": {
-      "value": null,
-      "source": null,
-      "note": "council DA number not found (PlanningAlerts lists a 8 Jun 2021 application at 57 Station Road, source 6, not verified as this DA)"
+      "value": "DA-21-01058",
+      "source": 11,
+      "note": "confirmed by EIS (source 8), CTMP (source 10) and Endeavour Energy referral CNR-24426 (source 11)"
     },
     "lodged": {
       "value": null,
-      "source": null
+      "source": null,
+      "note": "not confirmed; DA was under referral to Endeavour Energy by 22 July 2021 (source 11); PlanningAlerts lists a 57 Station Road application dated 8 Jun 2021 (source 6), probably this DA but not verified"
     },
     "determined": {
-      "value": "2022",
-      "source": 5,
-      "note": "'early 2022'; precision year"
+      "value": "2022-01-10",
+      "source": 8,
+      "note": "EIS: 'On 10 January 2022, development consent was granted under DA-21-01058 by Blacktown City Council'"
     },
     "url": null
   },
@@ -84,28 +84,27 @@
   },
   "jobs_construction_other": [],
   "jobs_operational": {
-    "value": null,
-    "source": null,
-    "basis": null,
-    "scope": null,
-    "note": ""
+    "value": 4,
+    "source": 10,
+    "basis": "ongoing_headcount",
+    "scope": "direct",
+    "note": "CTMP: 'There would be four staff on-site as part of the operation of SYD09'"
   },
   "jobs_operational_other": [],
   "construction_start": {
-    "value": null,
-    "source": null,
-    "precision": null
+    "value": "2022-01",
+    "source": 10,
+    "precision": "month",
+    "note": "CTMP Table 3.1: demolition, earthworks and retaining walls under DA-21-01058 ('prior to SYD08 project') January-August 2022; building start date not stated"
   },
   "construction_end": {
     "value": "2023-12",
     "source": 1,
     "precision": "month",
-    "note": "FDC completed first building Dec 2023 (base build; fit-out may have followed)"
+    "note": "Microsoft Local Dec 2023 update: 'Construction of Building One is complete. Building fit-out work is underway' (Jul 2023 update had estimated completion by July 2023)"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "scope: Building 1 may be the 1.2MW (630 sqm) data centre approved by Blacktown Council in early 2022 - would be < 5MW; confirm MW",
-    "council DA reference not found",
-    "lat/lon not geocoded (geocoder blocked)"
+    "scope: Building 1 is SYD09, the 1.2MW (630 m2 GFA) 'Rapid Deployment' data centre approved by Blacktown City Council under DA-21-01058 on 10 Jan 2022 - below the 5MW threshold, so out of scope (kept for completeness; operates as one campus with SYD08)"
   ]
 }

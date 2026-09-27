@@ -5,32 +5,32 @@
   "status": "operational",
   "location": {
     "address": {
-      "value": "20-28 Cawley Road, Yarraville VIC 3013",
-      "source": 2,
-      "note": ""
+      "value": "385-397 Francis Street, Brooklyn VIC 3012",
+      "source": 8,
+      "note": "Hobsons Bay permit PA220411 ('Use and development of a data centre (Utility Installation)') at this address; OSM building 'Microsoft MEL05' carries the same address and links this permit. Master.csv had 20-28 Cawley Road, Yarraville (the MEL04 lot on the same Microsoft landholding)"
     },
-    "suburb": "Yarraville/Brooklyn",
+    "suburb": "Brooklyn",
     "state": "VIC",
     "postcode": {
-      "value": "3013",
-      "source": 2,
-      "note": "postcode from master.csv address; source gives street address and suburb Yarraville"
+      "value": "3012",
+      "source": 8,
+      "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: nominatim and map sites blocked by network proxy in this session"
+      "value": -37.82134,
+      "source": 7,
+      "note": "geocoded: centroid of OSM building \"Microsoft MEL05\" (addr 385-397 Francis Street, Brooklyn 3012)"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: nominatim and map sites blocked by network proxy in this session"
+      "value": 144.85743,
+      "source": 7,
+      "note": "see lat note"
     }
   },
   "builder": {
     "value": "Kapitol Group",
-    "source": 4,
-    "note": "general contractor ('Yarraville Data Centre Melbourne 2')"
+    "source": 1,
+    "note": "Microsoft names Kapitol Group as Cawley Road general contractor; Kapitol page 'Yarraville Data Centre Melbourne 2' (client undisclosed) shows 'Under Construction', undated; OSM links that page to MEL05"
   },
   "developer": {
     "value": "Microsoft",
@@ -50,37 +50,37 @@
   "cost_aud_m": {
     "value": null,
     "source": null,
-    "note": "$150m reported figure relates to MEL4 only; MEL5 described as larger"
+    "note": "The Urban Developer $150m figure relates to MEL4 only; MEL5 described as a larger facility to be lodged later"
   },
   "planning": {
     "authority": {
-      "value": null,
-      "source": null,
-      "note": "MEL5 application was to be lodged separately with City of Maribyrnong (source 2), not found"
+      "value": "Hobsons Bay City Council",
+      "source": 8,
+      "note": "register does not name the applicant; linked to MEL05 by address/OSM (earlier expectation of a City of Maribyrnong lodgement, source 2, superseded)"
     },
     "pathway": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "council planning permit",
+      "source": 8,
+      "note": "Clause 33.01 (Industrial 1 Zone) use and staged buildings and works"
     },
     "reference": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "PA220411",
+      "source": 8,
+      "note": "amendment PA220411-1 lodged 23 Jul 2025, amended permit issued 21 Jan 2026 (Special Building Overlay trigger, Melbourne Water conditions)"
     },
     "lodged": {
-      "value": null,
-      "source": null,
-      "precision": null,
-      "note": ""
+      "value": "2022-08-29",
+      "source": 8,
+      "precision": "day",
+      "note": "notice given 25 Nov 2022"
     },
     "determined": {
-      "value": null,
-      "source": null,
-      "precision": null,
-      "note": ""
+      "value": "2023-02-17",
+      "source": 8,
+      "precision": "day",
+      "note": "'Permit issued'"
     },
-    "url": null
+    "url": "https://hbcc.greenlightopm.com/public/detail/12250723i9OwsWHkR"
   },
   "jobs_construction": {
     "value": null,
@@ -99,22 +99,21 @@
   },
   "jobs_operational_other": [],
   "construction_start": {
-    "value": "2022-12-05",
-    "source": 5,
-    "precision": "day",
-    "note": "campus groundbreaking; building-specific start not found"
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": "campus groundbreaking 5 Dec 2022 (source 5) predates the MEL05 permit (17 Feb 2023); construction management plan endorsed 11 Apr 2023 (source 8); building-specific start not found"
   },
   "construction_end": {
     "value": null,
     "source": null,
     "precision": null,
-    "note": "Microsoft Feb 2025: structure complete, fit-out under way; Kapitol page lists as under construction (undated)"
+    "note": "Microsoft Feb 2025: 'The structural work for Building Two is now complete and crews are now focused on finalising building fit-out works'; Baxtel lists MEL5 as operational, year 2025 (source 9); Kapitol page still 'Under Construction'"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "status operational vs still in fit-out unconfirmed",
-    "planning permit not found",
+    "status operational vs still in fit-out: Microsoft has no update on Building Two after Feb 2025; Baxtel says operational 2025",
     "MW not public",
-    "lat/lon not geocoded (proxy blocked)"
+    "permit applicant not shown on register; Microsoft attribution rests on location and OSM"
   ]
 }

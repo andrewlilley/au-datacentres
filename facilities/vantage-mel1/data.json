@@ -6,8 +6,8 @@
   "location": {
     "address": {
       "value": "45 Tullamarine Park Road, Tullamarine VIC 3043",
-      "source": 2,
-      "note": "master.csv has 43-45 Tullamarine Park Road; ex-AgileDC site (Vantage acquired AgileDC Sep 2021)"
+      "source": 4,
+      "note": "ITK gives 45 Tullamarine Park Road; Baxtel and master.csv give 43-45 Tullamarine Park Rd; ex-AgileDC site (Vantage acquired AgileDC Sep 2021)"
     },
     "suburb": "Tullamarine",
     "state": "VIC",
@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: web fetch (nominatim, planning portal, datacentermap/baxtel) blocked from this session"
+      "value": -37.70818,
+      "source": 6,
+      "note": "geocoded: OSM feature (man_made=works) at 43-45 Tullamarine Park Rd, Tullamarine"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: web fetch (nominatim, planning portal, datacentermap/baxtel) blocked from this session"
+      "value": 144.8719,
+      "source": 6,
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -38,14 +38,14 @@
     "note": ""
   },
   "mw_it": {
-    "value": 48,
+    "value": 64,
     "source": 1,
-    "note": "campus critical IT across 3 buildings at full build; Datacentermap/ITK say 64MW"
+    "note": "Vantage's own campus page (fetched 2026-09-27) now states '64MW of critical IT load' across 270K sq ft / 25K m2 ('1 data center'); ITK reads 64MW as the full campus. Earlier figure 48MW (iTWire Jan 2022 quoting Vantage; Baxtel) - previous value 48 recorded here"
   },
   "mw_grid": {
     "value": null,
     "source": null,
-    "note": ""
+    "note": "on-campus N+1 66 kV substation supplied by Jemena (ITK); no MW/MVA stated"
   },
   "cost_aud_m": {
     "value": null,
@@ -87,7 +87,7 @@
     "source": null,
     "basis": null,
     "scope": null,
-    "note": ""
+    "note": "iTWire (Jan 2022), Vantage APAC president Brian Groen: 'During the construction of the campus, there will be hundreds of workers onsite' - no number"
   },
   "jobs_construction_other": [],
   "jobs_operational": {
@@ -106,15 +106,15 @@
   },
   "construction_end": {
     "value": "2026",
-    "source": 3,
+    "source": 4,
     "precision": "year",
-    "note": "expected commissioning per Datacentermap/Baxtel ('most sources target 2026'); first building only"
+    "note": "expected commissioning: ITK says 'still under construction with most sources targeting a 2026 commissioning date'; Baxtel 'Year Planned: 2026'. First building only"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "mw_it: 48 (Vantage) vs 64 (DCM/ITK)",
-    "planning permit not found",
-    "builder not found",
-    "lat/lon not geocoded (fetch blocked)"
+    "mw_it: 64 (current Vantage page, ITK) vs 48 (2022 figure, Baxtel)",
+    "building count: Vantage page now says '1 data center' vs three multi-storey buildings (iTWire, Baxtel)",
+    "planning permit not found (council vs ministerial)",
+    "builder and construction start not found"
   ]
 }

@@ -17,20 +17,20 @@
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: geocoder and map sites blocked by session network proxy"
+      "value": -37.84152,
+      "source": 7,
+      "note": "geocoded: centroid of OSM construction polygon \"CDC Laverton\" (20-38 Leakes Rd); campus-level point"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: geocoder and map sites blocked by session network proxy"
+      "value": 144.7754,
+      "source": 7,
+      "note": "see lat note"
     }
   },
   "builder": {
-    "value": null,
-    "source": null,
-    "note": "head contractor not found"
+    "value": "Built",
+    "source": 8,
+    "note": "PPTEU Victoria (plumbing union) Facebook post: 'CDC Laverton Data Centre is rising fast - proudly constructed by Built'; building (LV1 vs campus) not specified; not confirmed by CDC or Built"
   },
   "developer": {
     "value": "CDC Data Centres",
@@ -40,7 +40,7 @@
   "mw_it": {
     "value": 150,
     "source": 1,
-    "note": "150MW is the stated capacity of the Laverton campus first phase (campus-level), not necessarily one building"
+    "note": "CDC: '150 megawatt data campus' (first phase, campus-level); RenewMap 'Laverton Campus One' 150MW under construction (src 9); CDC site says campus >400MW overall"
   },
   "mw_grid": {
     "value": null,
@@ -48,9 +48,9 @@
     "note": ""
   },
   "cost_aud_m": {
-    "value": null,
-    "source": null,
-    "note": "CDC says campus will 'inject more than $2.7 billion into the economy during construction' - economic impact, not a stated capex; not recorded"
+    "value": 1500,
+    "source": 8,
+    "note": "'Estimated project value: a massive $1.5 billion' per PPTEU Victoria union Facebook post - secondary, estimate, scope (building vs campus) unstated. CDC's '$2.7 billion into the economy during construction' is an economic-impact figure (ITK and Baxtel call it project cost/investment)"
   },
   "planning": {
     "authority": {
@@ -72,7 +72,7 @@
       "value": "2024-10-02",
       "source": 2,
       "precision": "day",
-      "note": "received by council 3 days before PlanningAlerts capture on 5 Oct 2024"
+      "note": "PlanningAlerts: date received 2 Oct 2024, published 5 Oct 2024"
     },
     "determined": {
       "value": null,
@@ -87,7 +87,7 @@
     "source": null,
     "basis": null,
     "scope": null,
-    "note": "CDC says 'thousands of local jobs' (campus-level, no number)"
+    "note": "CDC: 'generate thousands of local jobs' (campus-level, no number)"
   },
   "jobs_construction_other": [],
   "jobs_operational": {
@@ -99,22 +99,22 @@
   },
   "jobs_operational_other": [],
   "construction_start": {
-    "value": "2025-02-18",
-    "source": 3,
+    "value": "2025-02-17",
+    "source": 1,
     "precision": "day",
-    "note": "groundbreaking ceremony; master.csv notes say 17 Feb 2025"
+    "note": "CDC release: groundbreaking 'Monday 17 February 2025'; Global Project Leader gives 18 Feb and itbrief 19 Feb (publication dates)"
   },
   "construction_end": {
     "value": null,
     "source": null,
     "precision": null,
-    "note": "secondary sources suggest later phases ~2027; no LV1 date found"
+    "note": "not found; Baxtel lists campus 'Year Planned: 2027' (src 10)"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "builder not found",
+    "builder 'Built' from union social-media post only; confirm",
     "permit decision date not found",
-    "cost: only $2.7bn economic-impact figure (campus)",
+    "cost 1500 is a union estimate; scope unclear",
     "building vs campus split of 150MW unclear"
   ]
 }

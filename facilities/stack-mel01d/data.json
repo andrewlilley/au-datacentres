@@ -5,32 +5,32 @@
   "status": "under_construction",
   "location": {
     "address": {
-      "value": "399 Palmers Road, Truganina VIC 3029",
-      "source": 1,
-      "note": ""
+      "value": "369 Palmers Road, Truganina VIC 3029",
+      "source": 8,
+      "note": "changed from 399 Palmers Rd: OSM building tags put MEL01C and MEL01D on 369 Palmers Rd, and Wyndham application WYP14522/24 (Mar 2024) for a 'utility installation (data centre)' is at 369 Palmers Rd (source 6). 369 was a separate parcel (2020 restricted-retail application WYP12337/20). STACK/ITK/Baxtel give the campus address 399 Palmers Road"
     },
     "suburb": "Truganina",
     "state": "VIC",
     "postcode": {
       "value": "3029",
-      "source": 1,
+      "source": 8,
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: nominatim and all map/aggregator pages unreachable from this session (egress blocked)"
+      "value": -37.82175,
+      "source": 8,
+      "note": "geocoded: centroid of OSM building \"Stack Infrastructure MEL01D\", 369 Palmers Rd"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: see lat note"
+      "value": 144.74738,
+      "source": 8,
+      "note": "see lat note"
     }
   },
   "builder": {
     "value": "Hickory",
-    "source": 2,
-    "note": "Hickory built MEL01D together with MEL01C; topped out Nov 2025"
+    "source": 3,
+    "note": "Hickory MEL01C&D page: 'Hickory have been contracted to build MEL01C&D' (three-level building; architect Genton, services engineer ARUP; page oddly says 'located in Laverton'); topping out Nov 2025 (source 2)"
   },
   "developer": {
     "value": "STACK Infrastructure",
@@ -39,8 +39,8 @@
   },
   "mw_it": {
     "value": 54,
-    "source": 2,
-    "note": "54MW; MEL01C and MEL01D each 54MW (campus total 180MW with A and B)"
+    "source": 1,
+    "note": "STACK MEL01 page: MEL01C and MEL01D 54MW each (campus 180MW with A and B)"
   },
   "mw_grid": {
     "value": null,
@@ -50,35 +50,35 @@
   "cost_aud_m": {
     "value": null,
     "source": null,
-    "note": "STACK closed AU$1.3bn green financing (Jul 2025) to fund the next phase of MEL01 (source 5) - financing, not a stated project cost, and covers C and D together"
+    "note": "STACK closed AU$1.3bn green financing on 23 Jul 2025 'to fund the next phase of development at its MEL01 hyperscale campus' (source 5, fetched) - financing, not a stated project cost, and covers C and D together"
   },
   "planning": {
     "authority": {
-      "value": null,
-      "source": null,
-      "note": "planning permit not found. Likely Wyndham City Council (site in Wyndham LGA) but not confirmed; PlanningAlerts shows a 20 Dec 2019 Wyndham application at 399 Palmers Rd for a warehouse (pre-Hickory purchase) and a March 2024 Wyndham application at 369 Palmers Rd for 'use and development of the land to construct a utility installation (data centre)' - applicant not identified. The March 2024 369 Palmers Rd data centre application may relate to this expansion - unverified"
+      "value": "Wyndham City Council",
+      "source": 6,
+      "note": "attributed by address: WYP14522/24 is at 369 Palmers Rd, where OSM places MEL01C/D; applicant not shown on PlanningAlerts. Application covers C and D together"
     },
     "pathway": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "council planning permit",
+      "source": 6,
+      "note": "'use and development of the land to construct a utility installation (data centre) and the alteration of access to land in a Public Acquisition Overlay'"
     },
     "reference": {
-      "value": null,
-      "source": null,
+      "value": "WYP14522/24",
+      "source": 6,
       "note": ""
     },
     "lodged": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "2024-03-20",
+      "source": 6,
+      "note": "received by Wyndham ~20 Mar 2024 (PlanningAlerts found it 26 Mar 2024, 6 days after receipt)"
     },
     "determined": {
       "value": null,
       "source": null,
-      "note": ""
+      "note": "decision not found"
     },
-    "url": null
+    "url": "https://www.planningalerts.org.au/applications/3109596"
   },
   "jobs_construction": {
     "value": null,
@@ -100,18 +100,19 @@
     "value": null,
     "source": null,
     "precision": null,
-    "note": ""
+    "note": "not found; permit application lodged Mar 2024, topped out Nov 2025"
   },
   "construction_end": {
     "value": null,
     "source": null,
     "precision": null,
-    "note": "topped out Nov 2025 (source 2; one summary said announced Dec 2025); aggregator (source 4) indicates 2026 commissioning target - not confirmed"
+    "note": "topped out: Hickory news dated 19 Nov 2025 (source 2). Baxtel (source 9, fetched) lists MEL01D as under construction, expected 2027. Not a confirmed completion date"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "construction start and expected completion not confirmed",
-    "planning permit not found - possibly 369 Palmers Rd Wyndham application (Mar 2024)",
-    "lat/lon not geocoded (egress blocked)"
+    "construction start and completion dates not confirmed",
+    "planning: WYP14522/24 attributed by address only (applicant and decision not seen)",
+    "address: 369 (OSM, permit) vs 399 Palmers Rd (operator/aggregators) - 369 adopted",
+    "EstimateOne 'MEL01D Fit-Out Project' listing (source 7) not readable - fit-out contractor unknown"
   ]
 }

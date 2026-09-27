@@ -17,46 +17,46 @@
       "note": "Ultimo postcode (Australia Post); ESD report gives site address"
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: Nominatim blocked by session egress proxy"
+      "value": -33.87558,
+      "source": 10,
+      "note": "Geocoded from street address via NSW Spatial Services address point for 390-422 HARRIS STREET ULTIMO (273 Pyrmont St is at -33.87536,151.19802). Address point, not building centroid; campus spans a larger lot."
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: Nominatim blocked by session egress proxy"
+      "value": 151.1977,
+      "source": 10,
+      "note": ""
     }
   },
   "builder": {
-    "value": null,
-    "source": 6,
-    "note": "SHAPE is D&C delivery partner for a '20MW Upgrade at DigiCo SYD1' due June 2026 - unclear whether that is part of the SSD-69637456 expansion; head contractor for SSD works not confirmed"
+    "value": "SHAPE Australia",
+    "source": 13,
+    "note": "SHAPE Australia Pty Ltd gave the Condition A9(a) notice of commencement 'acting on behalf of the Applicant (HDI SYD1 Property Holdings Limited)', with SHAPE project office and construction manager on site. SHAPE's '20MW Upgrade at DigiCo SYD1' (source 6, snippet) may be earlier densification works"
   },
   "developer": {
     "value": "DigiCo Infrastructure REIT",
     "source": 4,
-    "note": "HMC Capital-managed REIT"
+    "note": "applicant HDI SYD1 Property Holdings Limited (DigiCo); HMC Capital-managed REIT"
   },
   "mw_it": {
     "value": 45.5,
-    "source": 2,
-    "note": "increment = 88 MW minus existing 42.5 MW per EIS reporting; master.csv/DCD give +47.5 MW (West +24.5, East +23); site total after expansion 88 MW"
+    "source": 12,
+    "note": "EIS: 'Increase in the total power consumption capacity from 42.5MW to 88 MW (45.5MW increase)' and 'will operate as an 88MW (IT load) data centre'. The consent/portal description says 'increase in power consumption of 47.5 megawatts (MW)' (source 11); DCD/master.csv give +47.5 MW (West +24.5, East +23). Site total after expansion 88 MW IT"
   },
   "mw_grid": {
-    "value": null,
-    "source": null,
-    "note": ""
+    "value": 120,
+    "source": 11,
+    "note": "AR: 'Total power consumption of 120 MW (88 MW IT load)' - whole site after expansion, not the increment"
   },
   "cost_aud_m": {
-    "value": 605,
-    "source": 2,
-    "note": "proposal value reported from SSD application (likely CIV); not read directly from EIS"
+    "value": 605.6,
+    "source": 11,
+    "note": "estimated development cost $605,593,980 (excl. GST; WT Partnership EDC report 8 Apr 2025, source 14, and AR). EDC under PS 24-002, which replaced CIV for SSD thresholds"
   },
   "planning": {
     "authority": {
       "value": "NSW DPHI",
-      "source": 4,
-      "note": "City of Sydney LGA"
+      "source": 11,
+      "note": "City of Sydney LGA; determined by Executive Director"
     },
     "pathway": {
       "value": "SSD",
@@ -69,52 +69,51 @@
       "note": ""
     },
     "lodged": {
-      "value": null,
-      "source": null,
-      "note": "EIS on public exhibition until 29 May 2025 (source 2); lodgement date not obtained"
+      "value": "2025-04",
+      "precision": "month",
+      "source": 1,
+      "note": "application form filed on portal 10 Apr 2025 ('Application_20250410'); EIS uploaded 30 Apr 2025; exhibited 2 May - 29 May 2025. Exact lodgement date not stated in AR. SEARs issued May 2024"
     },
     "determined": {
       "value": "2025-12-23",
-      "source": 4,
+      "source": 1,
       "precision": "day",
-      "note": "date per master.csv; search snippets confirm approval December 2025 and ASX announcement 29 Dec 2025"
+      "note": "portal Determination Date 23/12/2025 (Executive Director); DigiCo ASX release 29 Dec 2025"
     },
     "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/digico-syd1-data-centre-expansion"
   },
   "jobs_construction": {
-    "value": null,
-    "source": null,
-    "note": "not obtained (EIS blocked)",
-    "basis": null,
-    "scope": null
+    "value": 80,
+    "source": 11,
+    "basis": "unstated",
+    "scope": "direct",
+    "note": "AR: '80 full-time equivalent construction jobs'; EIS: 'approximately 80 full time equivalent (FTE) construction jobs over a two (2) - three (3) year construction period' and 'direct employment, including 80 construction jobs'. Not stated whether peak or average"
   },
   "jobs_construction_other": [],
   "jobs_operational": {
-    "value": null,
-    "source": null,
-    "note": "not obtained (EIS blocked)",
-    "basis": null,
-    "scope": null
+    "value": 45,
+    "source": 11,
+    "basis": "ongoing_headcount",
+    "scope": "direct",
+    "note": "AR: 'retention of 45 operational jobs'; EIS: 'ongoing retention of 45 direct operational jobs' - retained existing jobs, not new"
   },
   "jobs_operational_other": [],
   "construction_start": {
-    "value": null,
-    "source": null,
-    "precision": null,
-    "note": ""
+    "value": "2026-10-07",
+    "precision": "day",
+    "source": 13,
+    "note": "planned: SHAPE notice (7 Sep 2026) says the construction phase 'is scheduled to physically commence on 7 October 2026' (two added storeys, column jacketing, upgrade to 88MW). AR: construction over 21 months"
   },
   "construction_end": {
     "value": "2028",
     "source": 5,
     "precision": "year",
-    "note": "expected; delivered in phases across FY27-FY28 (i.e. by June 2028), first 10 MW by end FY27 per FY26 results; SHAPE says a 20MW upgrade due June 2026 (source 6)"
+    "note": "expected; delivered in phases across FY27-FY28 (i.e. by June 2028), first 10 MW by end FY27 per FY26 results (source 5, snippet only, kalkine 403). AR gives a 21-month construction period"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "mw_it increment: 45.5 MW (88 - 42.5, EIS reporting) vs 47.5 MW (DCD/master.csv) - check EIS",
-    "is SHAPE's 20MW upgrade (due June 2026) part of the SSD expansion or separate fit-out; SSD head contractor unknown",
-    "CIV (605 reported) and construction/operational jobs not read from EIS/assessment report (planning portal blocked)",
-    "lodged date and construction start not found",
-    "lat/lon not geocoded (Nominatim blocked this session)"
+    "mw_it increment: EIS states 45.5 MW IT increase (42.5 to 88 MW); consent/portal description says 47.5 MW 'power consumption' increase - both in primary documents; 45.5 kept as IT",
+    "relationship of SHAPE's '20MW Upgrade at DigiCo SYD1' (due June 2026, snippet) to the SSD works unclear",
+    "construction end (2028) from snippet only; SSD construction start is a planned date"
   ]
 }

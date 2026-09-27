@@ -6,116 +6,129 @@
   "location": {
     "address": {
       "value": "10 Eastern Creek Drive, Eastern Creek NSW 2766",
-      "source": 4,
-      "note": "address per EIS and assessment report (search extracts)"
+      "source": 10,
+      "note": "Lot 4001 DP 1243178, 10 Eastern Creek Drive, Eastern Creek NSW per development consent; postcode 2766 per Taylor complaint register neighbour addresses on Eastern Creek Drive"
     },
     "suburb": "Eastern Creek",
     "state": "NSW",
     "postcode": {
       "value": "2766",
-      "source": null,
-      "note": "standard Australia Post postcode for Eastern Creek; not stated in the extracts seen"
+      "source": 18,
+      "note": "neighbouring Eastern Creek Drive / Old Wallgrove Rd addresses in the Taylor complaint register carry 2766; consent itself omits postcode"
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: Nominatim blocked by session egress proxy (HTTP 403)"
+      "value": -33.81034,
+      "source": 8,
+      "note": "Geocoded from street address via NSW Spatial Services address point for 10 EASTERN CREEK DRIVE EASTERN CREEK. Address point, not building centroid; campus spans a larger lot."
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: Nominatim blocked by session egress proxy (HTTP 403)"
+      "value": 150.83895,
+      "source": 8,
+      "note": ""
     }
   },
   "builder": {
     "value": "Taylor Construction",
-    "source": 3,
-    "note": "Taylor lists Project Echidna as its project and hosts the SSD assessment report, EIS appendices and exhibition notice on its site; head-contract role not stated in extracts seen"
+    "source": 14,
+    "note": "Taylor Construction Group Pty Ltd is 'principal contractor' per its Project Environmental Management Plan (project 'SYD57 - Echidna', client 'Amazon Website Services (AWS)', 'Duration of contract 24 Months'); DPHI approved the Taylor-prepared CEMP on 13 May 2024 (source 15)"
   },
   "developer": {
     "value": "Amazon Web Services",
-    "source": 2,
-    "note": "iTnews reports AWS is the proponent behind 'Project Echidna'; formal SSD applicant entity not confirmed"
+    "source": 14,
+    "note": "Taylor PEMP names client as AWS; formal SSD applicant is ARUP Australia Pty Ltd, which per the assessment report 'acts on behalf of a multinational data centre operation' (source 9). Internal site code SYD057/SYD57 (OEMP, source 17)"
   },
   "mw_it": {
     "value": 35.2,
-    "source": 5,
-    "note": "EIS/assessment report describe 'operational capacity of 35.2 MW' / 'total power consumption of 35.2 MW'; Taylor says 'up to 35 MW of IT load'. Unclear whether 35.2 is IT load or total demand"
+    "source": 11,
+    "note": "EIS s3.2.1: 'The data centre would deliver capacity for approximately 35.2 megawatts of IT equipment'; the same 35.2 MW is also described as 'total power demand ... when fully operational' (EIS) and 'Power Consumption 35.2 MW' (assessment report). Taylor site says 'up to 35 MW of IT load'"
   },
   "mw_grid": {
     "value": null,
     "source": null,
-    "note": "35.2 MW may be total power consumption (see mw_it note)"
+    "note": "no separate grid/total figure; planning documents use 35.2 MW for both IT capacity and total power demand. Consent caps back-up generators at 53.2 MW installed capacity (condition A6)"
   },
   "cost_aud_m": {
-    "value": 300,
-    "source": 2,
-    "note": "AU$300m reported by iTnews (2023) from the SSD application; exact CIV in EIS not seen"
+    "value": 380.27,
+    "source": 9,
+    "note": "assessment report: 'capital investment value of $380,267,448'. EIS (Oct 2022) said 'about $300 million (excl. GST)' (source 11; also iTnews source 2); SEARs request form (Aug 2022) gave AUD50,000,000 (source 13)"
   },
   "planning": {
     "authority": {
       "value": "NSW Department of Planning, Housing and Infrastructure (DPHI)",
-      "source": 5,
-      "note": ""
+      "source": 10,
+      "note": "consent authority was the NSW Independent Planning Commission; determined by DPHI A/Executive Director under delegation"
     },
     "pathway": {
       "value": "SSD",
-      "source": 5,
+      "source": 1,
       "note": ""
     },
     "reference": {
       "value": "SSD-47320208",
-      "source": 5,
-      "note": "EIS advice letter from Blacktown Council title mistypes it as SSD-447320208"
+      "source": 1,
+      "note": "Blacktown Council EIS advice letter title mistypes it as SSD-447320208"
     },
     "lodged": {
-      "value": "2023-07",
-      "precision": "month",
-      "source": 4,
-      "note": "estimate: EIS attachment on the portal is timestamped 2023-07-04; formal lodgement date not seen"
+      "value": "2022-10-07",
+      "precision": "day",
+      "source": 11,
+      "note": "EIS dated 'Final | 7 October 2022' and consent refers to the EIS 'dated 7 October 2022, submitted with the application'; EIS appendices uploaded to portal 2022-10-07. Industry-specific SEARs confirmed 17 Aug 2022. Response to adequacy review 17 Mar 2023; exhibited 8 Jun - 5 Jul 2023 (source 9)"
     },
     "determined": {
       "value": "2024-04-05",
       "precision": "day",
       "source": 1,
-      "note": "per master.csv notes (compiled from planning portal); not re-verified this session (portal blocked). Applicant's addendum response dated 6 Mar 2024 (source 6)"
+      "note": "portal: Decision Approved, Determination Date 05/04/2024, Decider Executive Director; consent signed 'Sydney 05 April 2024' by A/Executive Director (source 10)"
     },
     "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/project-echidna-data-centre-eastern-creek"
   },
   "jobs_construction": {
-    "value": null,
-    "source": null,
-    "note": "not found in search extracts; check EIS / assessment report",
-    "basis": null,
-    "scope": null
+    "value": 100,
+    "source": 9,
+    "basis": "unstated",
+    "scope": "direct",
+    "note": "assessment report table: '100 full-time equivalent construction jobs'; exec summary: 'expected to generate 100 construction jobs'; EIS: 'About 100 people would be employed to build the centre'. Peak vs average not stated"
   },
-  "jobs_construction_other": [],
+  "jobs_construction_other": [
+    {
+      "value": 60,
+      "source": 13,
+      "basis": "unstated",
+      "scope": "unstated",
+      "note": "SEARs request form (Aug 2022): 'Indicative Construction Jobs 60'"
+    }
+  ],
   "jobs_operational": {
-    "value": null,
-    "source": null,
-    "note": "not found in search extracts; check EIS / assessment report",
-    "basis": null,
-    "scope": null
+    "value": 50,
+    "source": 9,
+    "basis": "ongoing_headcount",
+    "scope": "direct",
+    "note": "assessment report: '50 full-time operational jobs'; EIS: 'about 50 to operate it'; SIA: '50 full-time jobs during operation'"
   },
-  "jobs_operational_other": [],
+  "jobs_operational_other": [
+    {
+      "value": 50,
+      "source": 13,
+      "basis": "unstated",
+      "scope": "unstated",
+      "note": "SEARs request form (Aug 2022): 'Indicative Operation Jobs 50'"
+    }
+  ],
   "construction_start": {
     "value": null,
     "precision": null,
     "source": null,
-    "note": "not found; EIS says about two years to build and fit out"
+    "note": "not found. Assessment report: 'construction ... proposed to commence in 2024 and be completed by 2026'; DPHI approved the CEMP 13 May 2024 (source 15), a pre-construction requirement; no construction commencement notice on the portal"
   },
   "construction_end": {
-    "value": null,
-    "precision": null,
-    "source": null,
-    "note": "not found; master.csv notes say base build complete and data hall fit-out underway per Taylor (not re-verified)"
+    "value": "2026-11-30",
+    "precision": "day",
+    "source": 16,
+    "note": "expected: A9/A10 notice to DPHI: 'anticipated commencement of operation date for the full building with all construction stages complete on the 30/11/26' (letter dated '22/07/25' but uploaded to portal 2026-07-22). Phasing per assessment report: Phase 1 initial construction and preliminary fit-out 18 months, Phase 2 final fit-out 6 months. Taylor page (Sep 2026): base build structure complete, fit-out of data halls underway. OEMP approved 7 Nov 2025 prior to commencement of operation (source 17)"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "lat/lon not geocoded (Nominatim blocked)",
-    "exact capital investment value and construction/operational jobs need the EIS / assessment report (portal and taylorau.com.au blocked this session)",
-    "determination date 2024-04-05 taken from master.csv notes; confirm on planning portal",
-    "confirm Taylor is head contractor and get base build / fit-out dates",
-    "35.2 MW: IT load vs total power consumption"
+    "construction start date not found (CEMP approved 13 May 2024; assessment report says construction to commence in 2024)",
+    "partial operation may have started before full completion (OEMP approved Nov 2025 'prior to the commencement of operation'); operational start date not confirmed"
   ]
 }

@@ -6,7 +6,7 @@
   "location": {
     "address": {
       "value": "2-8 Lanceley Place and 14 Campbell Street, Artarmon NSW",
-      "source": 1,
+      "source": 11,
       "note": "former ABC studios site; 14,024 sqm across five allotments"
     },
     "suburb": "Artarmon",
@@ -17,14 +17,14 @@
       "note": "suburb postcode (Australia Post); not stated in source"
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "Not geocoded: geocoding services (Nominatim etc.) unreachable from this session (network egress blocked)"
+      "value": -33.81833,
+      "source": 10,
+      "note": "geocoded: address point for 2 Lanceley Place (site also includes 4-8 Lanceley Pl and 14 Campbell St)"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "Not geocoded: geocoding services (Nominatim etc.) unreachable from this session (network egress blocked)"
+      "value": 151.18628,
+      "source": 10,
+      "note": "see lat"
     }
   },
   "builder": {
@@ -34,55 +34,56 @@
   },
   "developer": {
     "value": "Goodman Property Services (Aust) Pty Limited",
-    "source": 1,
+    "source": 11,
     "note": "applicant; Goodman to fit out and operate"
   },
   "mw_it": {
     "value": 61,
     "source": 3,
-    "note": "61MW IT across five 12.2MW data halls"
+    "note": "61MW IT across five 12.2MW data halls (Goodman, Mar 2026). The SSD Assessment Report Table 1 lists 'IT Power consumption 80 MW' for the original consent - that figure is the feeder/total capacity (80MVA) and the modified consent (MOD 2) increased feeder capacity to 90MVA"
   },
   "mw_grid": {
     "value": 90,
-    "source": 3,
-    "note": "90MW secured utility power; planning approval described 80MVA / 80MW (sources 1, 8)"
+    "source": 12,
+    "note": "MOD 2 (approved 14 Apr 2026) increased feeder capacity from 80MVA to 90MVA; Goodman states 90MW secured utility power. Original consent: 80MVA / 80MW"
   },
   "cost_aud_m": {
     "value": 845.85,
-    "source": 1,
-    "note": "capital investment value per SSD approval"
+    "source": 11,
+    "note": "capital investment value $845,852,021.24 (Assessment Report)"
   },
   "planning": {
     "authority": {
-      "value": "NSW Independent Planning Commission",
-      "source": 2,
-      "note": "ArchitectureAu: IPC became consent authority after Willoughby Council objection; master.csv also says IPC. However search snippets also reported Council withdrew its objection in Nov 2024, which would normally leave DPHI as consent authority - not verified against the determination"
+      "value": "NSW Independent Planning Commission (determined by DPHI under delegation)",
+      "source": 11,
+      "note": "Assessment Report: IPC was the declared consent authority because Willoughby Council objected during exhibition; Council withdrew its objection in writing on 11 Nov 2024, so under the IPC Chair's 14 June 2022 delegation the application was determined by the Acting Director, Industry Assessments (DPHI) 'as delegate of the Independent Planning Commission'"
     },
     "pathway": {
       "value": "SSD",
-      "source": 1
+      "source": 11
     },
     "reference": {
       "value": "SSD-66777221",
-      "source": 1
+      "source": 8
     },
     "lodged": {
-      "value": "2024-01-23",
-      "source": 9,
-      "note": "date of the SSD-66777221 EIS/development-details document on the major projects portal (attachment dated 22 Jan 2024 GMT); treat as approximate lodgement"
+      "value": "2024-06",
+      "source": 13,
+      "note": "approximate: EIS uploaded to the major projects portal 6 Jun 2024 and exhibited 3-30 Jul 2024. Earlier value 2024-01-23 was the date of a pre-lodgement ('Development details') document, not lodgement"
     },
     "determined": {
       "value": "2025-04-11",
-      "source": 1
+      "source": 8,
+      "note": "Determination Date 11/04/2025 on planning portal. Modifications: MOD 1 (FSR reduction, alterations, flood works, parking, solar) approved 11 Dec 2025; MOD 2 (capacity to 90MVA, facade, plant, 42 x 2.82MW generators) approved 14 Apr 2026"
     },
     "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/lanceley-place-data-centre-artarmon"
   },
   "jobs_construction": {
     "value": 669,
-    "source": 1,
-    "basis": "unstated",
-    "scope": "unstated",
-    "note": "'around 669 construction jobs' at approval (Urban Digest)"
+    "source": 13,
+    "basis": "average",
+    "scope": "direct",
+    "note": "EIS: 'the development is estimated to generate 669 full-time equivalent jobs consistently throughout the lifetime of development build' ('based on the direct employment impact'), over a ~24-month build; Assessment Report: 'up to 669 full-time equivalent construction jobs'. Tagged average because the source describes a constant FTE level, not a peak"
   },
   "jobs_construction_other": [
     {
@@ -95,12 +96,20 @@
   ],
   "jobs_operational": {
     "value": 30,
-    "source": 3,
+    "source": 11,
     "basis": "ongoing_headcount",
-    "scope": "unstated",
-    "note": "30 operational jobs (Goodman)"
+    "scope": "direct",
+    "note": "Assessment Report: '30 operational jobs' / '30 knowledge-intensive operational jobs'; Goodman release also 30"
   },
-  "jobs_operational_other": [],
+  "jobs_operational_other": [
+    {
+      "value": 46,
+      "source": 13,
+      "basis": "ongoing_headcount",
+      "scope": "direct",
+      "note": "EIS p.40: engineering operations 26 staff (11 per shift x 2 + 4 managers) + data centre operations 20 staff = 'total number of operational jobs for the proposal is 46 jobs' (the same EIS elsewhere says 30 full time workers)"
+    }
+  ],
   "construction_start": {
     "value": "2026-03-03",
     "source": 6,
@@ -115,11 +124,7 @@
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "planning.authority: IPC vs DPHI unclear (Council objection reportedly withdrawn Nov 2024)",
-    "planning.lodged is portal document date, not confirmed lodgement date",
     "construction_end is first phase only; full build-out date unknown",
-    "modifications MOD 1 and MOD 2 exist - not reviewed",
-    "lat/lon not geocoded (egress blocked)",
-    "jobs: basis/scope tagged from search-result wording; confirm against planning documents"
+    "a MOD 3 application (SSD-66777221-MOD-3, Aug 2026) appears on the portal - not reviewed"
   ]
 }

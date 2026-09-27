@@ -6,31 +6,31 @@
   "location": {
     "address": {
       "value": "200 Palmers Road, Truganina VIC 3029",
-      "source": 2,
-      "note": "per datacenterHawk and Coloprice; property records show 200 Palmers Rd also hosts the CoreWest logistics hub (source 5) - lot/address may be imprecise"
+      "source": 8,
+      "note": "ITK Research (fetched): 'a 5.6-hectare footprint at 200 Palmers Road, Truganina, immediately across the road from Stack's existing MEL01 campus'; also datacenterHawk (not fetchable). STACK page gives only Truganina. By OSM numbering even numbers are on the east side of Palmers Rd; 200A Palmers Rd point is ~1.3km south of MEL01. PlanningAlerts WYP14741/24 (Aug 2024) at 200 Palmers Rd is for business identification signage (source 5) - occupant not named"
     },
     "suburb": "Truganina",
     "state": "VIC",
     "postcode": {
       "value": "3029",
-      "source": 2,
+      "source": 8,
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: nominatim and all map/aggregator pages unreachable from this session (egress blocked)"
+      "value": -37.8322,
+      "source": 7,
+      "note": "geocoded: Nominatim address point 200A Palmers Rd (east side of Palmers Rd); approximate - no OSM building for MEL02"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: see lat note"
+      "value": 144.74819,
+      "source": 7,
+      "note": "see lat note"
     }
   },
   "builder": {
     "value": null,
     "source": null,
-    "note": ""
+    "note": "not found. Hickory said in Nov 2025 that 'Hickory and STACK are driving Australia's largest data centre pipeline, with more than 350MW currently under development' (MEL01C+D = 108MW, so this may include MEL02) and hickory.com.au/project/mel02/ redirects to STACK's Melbourne page - suggestive but not confirmation"
   },
   "developer": {
     "value": "STACK Infrastructure",
@@ -40,12 +40,12 @@
   "mw_it": {
     "value": 252,
     "source": 1,
-    "note": "252MW marketed IT capacity, single ~21,000 m2 technical building on 5.6ha"
+    "note": "STACK MEL02 page (fetched): 252MW critical capacity, 1 building, 21,000 m2 technical space, 3,000 m2 office/storage, 14 acres (5.6ha)"
   },
   "mw_grid": {
     "value": null,
     "source": null,
-    "note": "site has dedicated onsite 132kV substation with >300MW gross capacity (source 1) - substation capacity, not facility demand"
+    "note": "STACK page: 'dedicated onsite 132KV utility substation' with 'total gross capacity of 300+MW' - substation capacity, not facility demand"
   },
   "cost_aud_m": {
     "value": null,
@@ -56,7 +56,7 @@
     "authority": {
       "value": null,
       "source": null,
-      "note": "not found; Wyndham LGA. A Mar 2024 Wyndham application at 369 Palmers Rd for a data centre utility installation (source 6) could relate to STACK but applicant not identified"
+      "note": "not found; Wyndham LGA. The Mar 2024 data centre application WYP14522/24 is at 369 Palmers Rd (MEL01C/D parcel), not MEL02. ITK's WYP14790/24 and WYP14905/24 refer to CDC Laverton"
     },
     "pathway": {
       "value": null,
@@ -106,15 +106,14 @@
     "value": null,
     "source": null,
     "precision": null,
-    "note": "Baxtel lists MEL02A for 2026 and MEL02B for 2027 (source 4); master notes ITK: shell complete late 2025, fit-out underway (not re-verified: ITK unreachable). Coloprice lists it as operational - unconfirmed"
+    "note": "ITK (source 8, fetched): 'Structure topped-out in late 2025 with 2026 in-service target for fit-out completion'. Baxtel (fetched): MEL02 planned 2026 (source 9), MEL02B phase 2027 (source 4). Coloprice lists it as operational (source 3) - unconfirmed"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "builder not found",
-    "phasing unclear (MEL02A 2026 / MEL02B 2027 per Baxtel)",
-    "address conflict: 200 Palmers Rd also a logistics hub",
+    "builder not found (Hickory possible, unconfirmed)",
+    "phasing unclear (MEL02 2026 / MEL02B 2027 per Baxtel)",
     "planning permit not found",
     "construction start not found",
-    "lat/lon not geocoded (egress blocked)"
+    "Hickory's Dec 2021 groundbreaking article lists property 148-248 Leakes Road, which by address numbering lies east of Palmers Rd near 200 Palmers Rd - possible link to MEL02 land unverified"
   ]
 }

@@ -2,12 +2,12 @@
   "id": "stockland-athena",
   "name": "Macquarie Park Data Centre (Athena, 11-17 Khartoum Rd)",
   "operator": "Stockland",
-  "status": "approved",
+  "status": "operational",
   "location": {
     "address": {
       "value": "11-17 Khartoum Road and 33-39 Talavera Road, Macquarie Park NSW",
-      "source": 2,
-      "note": "M_Park precinct; five-storey building, 6,300 sqm data halls, 3,215 sqm office, >13,000 sqm plant"
+      "source": 8,
+      "note": "M_Park Building B ('Athena'); 1.296 ha site; five-storey building, GFA 12,069 sqm, 45 m high"
     },
     "suburb": "Macquarie Park",
     "state": "NSW",
@@ -17,102 +17,113 @@
       "note": "suburb postcode (Australia Post); not stated in source"
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "Not geocoded: geocoding services (Nominatim etc.) unreachable from this session (network egress blocked)"
+      "value": -33.77947,
+      "source": 7,
+      "note": "geocoded: address point for 11 Khartoum Road (site is 11-17 Khartoum Rd and 33-39 Talavera Rd)"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "Not geocoded: geocoding services (Nominatim etc.) unreachable from this session (network egress blocked)"
+      "value": 151.12538,
+      "source": 7,
+      "note": "see lat"
     }
   },
   "builder": {
-    "value": null,
-    "source": null,
-    "note": "not found; ADCO and Taylor are named for other M_Park buildings, not the data centre"
+    "value": "Hutchinson Builders",
+    "source": 10,
+    "note": "CTMP for bulk excavation and construction of Building B (Oct 2021) was prepared for Hutchinson Builders as the constructing contractor; not confirmed by a contractor/owner release"
   },
   "developer": {
-    "value": "Stockland",
-    "source": 1,
-    "note": "applicant/owner"
+    "value": "Stockland Trust Management Limited",
+    "source": 8,
+    "note": "applicant/owner. Operator/tenant is AWS: the approved operational complaints procedure is titled 'AWS Stockland Complaints Management Procedure' (Nov 2023) and routes complaints to Amazon (source 11)"
   },
   "mw_it": {
     "value": null,
     "source": null,
-    "note": "not stated in sources found"
+    "note": "IT MW not stated in planning documents. AECOM operational noise compliance report (Sep 2025): 'the cooling load capacity of the Data Centre is 32 MW' (measured cooling load 7.6-8.5 MW at 50% floor occupancy); 18 x 2.4MW + 1 x 0.6MW back-up generators approved. Clearly >= 5 MW"
   },
   "mw_grid": {
     "value": null,
     "source": null,
-    "note": "not stated; at least 10 diesel generators"
+    "note": "not stated; cooling load capacity 32 MW (source 12)"
   },
   "cost_aud_m": {
-    "value": null,
-    "source": null,
-    "note": "capital investment value not found. DCD reported end-value A$264m; IREI headline '$200m Sydney data center' - neither is confirmed CIV"
+    "value": 263.63,
+    "source": 8,
+    "note": "capital investment value $263,626,022 (Assessment Report; Currie & Brown CIV estimate, excl. GST, excl. land). DCD's A$264m matches; IREI '$200m' headline is not supported"
   },
   "planning": {
     "authority": {
       "value": "NSW DPIE",
-      "source": 4
+      "source": 8,
+      "note": "Minister for Planning and Public Spaces consent authority; determined by Director under delegation"
     },
     "pathway": {
       "value": "SSD",
-      "source": 4
+      "source": 8
     },
     "reference": {
       "value": "SSD-10467",
       "source": 4
     },
     "lodged": {
-      "value": null,
-      "source": null,
-      "note": "not confirmed; portal documents include an exhibition notice dated 22 Dec 2020 and EIS-related documents dated Mar 2021"
+      "value": "2020-11",
+      "source": 9,
+      "note": "approximate: EIS and CIV report uploaded to the major projects portal 18 Nov 2020; exhibition notice Dec 2020"
     },
     "determined": {
       "value": "2021-05-28",
       "source": 4,
-      "note": "from master.csv (planning portal, earlier session); DCD reported the approval on 9 Jun 2021; not re-verified this session"
+      "note": "Determination Date 28/05/2021 on planning portal (verified 2026-09-27); decider Director"
     },
     "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/macquarie-park-data-centre"
   },
   "jobs_construction": {
-    "value": null,
-    "source": null,
-    "basis": null,
-    "scope": null,
-    "note": "not found"
+    "value": 250,
+    "source": 9,
+    "basis": "peak",
+    "scope": "direct",
+    "note": "EIS: 'It is estimated that there would be a peak of approximately 250 staff on-site at any one time during construction'"
   },
-  "jobs_construction_other": [],
+  "jobs_construction_other": [
+    {
+      "value": 400,
+      "source": 9,
+      "basis": "unstated",
+      "scope": "unstated",
+      "note": "EIS: 'The Proposal would employ up to 400 full-time equivalent (FTE) positions during construction'; Assessment Report: 'up to 400 construction jobs'"
+    },
+    {
+      "value": 350,
+      "source": 9,
+      "basis": "unstated",
+      "scope": "unstated",
+      "note": "EIS summary: 'Provide up to 350 - 400 jobs during construction' (lower bound of range)"
+    }
+  ],
   "jobs_operational": {
     "value": 50,
-    "source": 2,
+    "source": 9,
     "basis": "ongoing_headcount",
-    "scope": "unstated",
-    "note": "'will lead to 50 operational jobs upon completion' (search summary of The Urban Developer / DCD)"
+    "scope": "direct",
+    "note": "EIS: 'would accommodate up to 50 full-time staff'; Assessment Report: '50 full-time equivalent operational jobs'"
   },
   "jobs_operational_other": [],
   "construction_start": {
-    "value": null,
-    "source": null,
-    "precision": null,
-    "note": "DCD (Jun 2021) said construction expected to start Sep 2021; actual start not confirmed. A post-approval letter to Stockland (SSD-10467-PA-5) is dated May 2022"
+    "value": "2021-10",
+    "source": 13,
+    "precision": "month",
+    "note": "Stockland letter (5 Oct 2021) nominated commencement on 8 Oct 2021 subject to approval of construction management plans, which DPIE approved 12 Oct 2021. Assessment Report had planned Jun 2021-Feb 2022"
   },
   "construction_end": {
     "value": null,
     "source": null,
     "precision": null,
-    "note": "DCD (Jun 2021): expected completion Mar 2023; actual completion not confirmed"
+    "note": "completion date not found. Operating by Nov 2023 (AWS operational complaints procedure lodged); DPHI letter of 17 Feb 2026 'understands the development has commenced full operation' (full-operation noise monitoring done 19 May 2025). The 1-5 Khartoum Rd Assessment Report (2026) calls it an existing data centre"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "status: unclear whether built/operational (planned completion Mar 2023; datacentermap lists 'Amazon AWS - 11-17 Khartoum Rd')",
-    "scope: MW not found - confirm >= 5 MW",
-    "tenant: AWS link from media 'believed to be' and aggregator only",
-    "cost (CIV) and construction jobs not found",
-    "planning.determined not re-verified",
-    "lat/lon not geocoded (egress blocked)",
-    "jobs: basis/scope tagged from search-result wording; confirm against planning documents"
+    "construction_end: practical completion / first operation date not found (operating by Nov 2023)",
+    "mw_it not stated (32 MW cooling load capacity)"
   ]
 }

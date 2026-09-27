@@ -2,7 +2,7 @@
   "id": "dci-syd03",
   "name": "DCI SYD03 (Eastern Creek Data Centre Expansion)",
   "operator": "DCI Data Centers",
-  "status": "approved",
+  "status": "under_construction",
   "location": {
     "address": {
       "value": "90 Peter Brock Drive, Eastern Creek NSW",
@@ -17,20 +17,20 @@
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: Nominatim blocked by session egress proxy"
+      "value": -33.80506,
+      "source": 9,
+      "note": "Geocoded from street address via NSW Spatial Services address point for 90 PETER BROCK DRIVE EASTERN CREEK. Address point, not building centroid; campus spans a larger lot."
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: Nominatim blocked by session egress proxy"
+      "value": 150.88637,
+      "source": 9,
+      "note": ""
     }
   },
   "builder": {
-    "value": null,
-    "source": null,
-    "note": ""
+    "value": "Multiplex",
+    "source": 13,
+    "note": "Stage 3a CEMP (rev 04, 7 Jul 2026): 'for stage 3b - consisting of construction of the SYD02 data centre building ... Multiplex has been contracted as the builder for this stage of the works'. Multiplex also did the earlier SYD02 enabling works (dci-syd02 source 4)"
   },
   "developer": {
     "value": "DCI Data Centers",
@@ -40,23 +40,23 @@
   "mw_it": {
     "value": null,
     "source": null,
-    "note": "listings give ~36 MW for 'SYD02/SYD03' combined (source 6); Mod 2 increased power consumption - figure not obtained"
+    "note": "planning documents state power consumption only (see mw_grid); no IT figure. Listings' ~36 MW relates to the superseded 2020 Council-approved SYD02 design"
   },
   "mw_grid": {
-    "value": null,
-    "source": null,
-    "note": ""
+    "value": 63,
+    "source": 12,
+    "note": "power consumption of the expansion: 32 MW as approved 1 Sep 2023 (AR, source 10: existing 7.2 MW + 32 MW = 39.2 MW site total), increased to 63 MW by Mod 2 (determined 5 Aug 2026) via 'greater rack densities within the approved SYD02 building'; portal describes Mod 2 as overall power consumption 70.2 MW (site total incl. SYD01)"
   },
   "cost_aud_m": {
-    "value": null,
-    "source": null,
-    "note": "EIS CIV not obtained (planning portal blocked)"
+    "value": 330,
+    "source": 10,
+    "note": "capital investment value $330,311,108 in Assessment Report (Sept 2023); 'direct investment of more than $330 million'. Mod 2 CIV change not found"
   },
   "planning": {
     "authority": {
-      "value": "NSW DPHI",
-      "source": 1,
-      "note": "Blacktown LGA"
+      "value": "NSW Department of Planning and Environment (now DPHI)",
+      "source": 10,
+      "note": "Blacktown LGA; determined by Director under delegation"
     },
     "pathway": {
       "value": "SSD",
@@ -66,55 +66,69 @@
     "reference": {
       "value": "SSD-21342738",
       "source": 1,
-      "note": "modified by Mod 1 (water storage) and Mod 2 (power consumption increase)"
+      "note": "Mod 1 (water storage and parking) approved 18 Sep 2025; Mod 2 (power 32 to 63 MW, lodged 23 Jan 2026) determined 5 Aug 2026. Applicant NineZero DC Sub TC I Pty Ltd"
     },
     "lodged": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "2022-06",
+      "precision": "month",
+      "source": 1,
+      "note": "EIS appendices uploaded to the portal 28 Jun 2022 (lodgement date not stated in AR; AR notes the 2022 Approved Methods came into force 'just prior to the SSD application being lodged'). Exhibited 11 Oct - 7 Nov 2022"
     },
     "determined": {
       "value": "2023-09-01",
-      "source": 2,
       "precision": "day",
-      "note": "per master.csv and consent snippet referencing 1 Sep 2023; not read directly from consent"
+      "source": 1,
+      "note": "portal Determination Date 01/09/2023 (Director); verified"
     },
     "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/eastern-creek-data-centre-expansion-project"
   },
   "jobs_construction": {
-    "value": null,
-    "source": null,
-    "note": "",
-    "basis": null,
-    "scope": null
+    "value": 150,
+    "source": 10,
+    "basis": "unstated",
+    "scope": "unstated",
+    "note": "AR: 'provide up to 150 construction jobs'; basis not defined"
   },
   "jobs_construction_other": [],
   "jobs_operational": {
-    "value": null,
-    "source": null,
-    "note": "",
-    "basis": null,
-    "scope": null
+    "value": 70,
+    "source": 12,
+    "basis": "ongoing_headcount",
+    "scope": "direct",
+    "note": "Mod 2 AR table: 'Operational staff 100 -> 70' after removal of the approved 4-storey office building"
   },
-  "jobs_operational_other": [],
+  "jobs_operational_other": [
+    {
+      "value": 76,
+      "source": 10,
+      "basis": "ongoing_headcount",
+      "scope": "direct",
+      "note": "original AR: '76 additional operational jobs' (also 'up to 76 additional knowledge-intensive operational jobs')"
+    },
+    {
+      "value": 100,
+      "source": 10,
+      "basis": "ongoing_headcount",
+      "scope": "unstated",
+      "note": "original AR (evaluation section): 'up to 150 construction jobs and 100 operational jobs'; Mod 2 AR gives 100 as the approved staff figure"
+    }
+  ],
   "construction_start": {
-    "value": null,
-    "source": null,
-    "precision": null,
-    "note": ""
+    "value": "2025-06",
+    "precision": "month",
+    "source": 11,
+    "note": "DCI notice (13 Jun 2025): construction commencing 30 June 2025 with Stage 1 enabling works (demolition); Stage 2 tanks from 13 Oct 2025; Stage 3 main works (civil, substation, then SYD02 building) notified to commence 22 Jun 2026 (source 14)"
   },
   "construction_end": {
     "value": null,
-    "source": null,
     "precision": null,
-    "note": ""
+    "source": 10,
+    "note": "AR: construction 'expected to take up to 24 months to complete'; no completion date published"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "scope/duplicate: listings describe SSD-21342738 as 'SYD02/SYD03'; may be the same building as dci-syd02 (Blacktown DA 2021, 36 MW) - relationship unresolved",
-    "CIV, jobs and MW from EIS/assessment report not obtained (planningportal.nsw.gov.au blocked by egress proxy)",
-    "construction status unknown; builder unknown",
-    "Mod 2 power increase figure and date not obtained",
-    "lat/lon not geocoded (Nominatim blocked this session)"
+    "duplicate with dci-syd02: DCI now calls this SSD building 'SYD02' (notices, CEMP, website) while DPE's 2023 AR called it SYD03; the 2020 Council-approved SYD02 design (SPP-19-00009) never started and DCI committed to relinquish it - recommend merging the two master.csv rows into this one",
+    "no IT MW stated; mw_grid 63 MW is power consumption after Mod 2",
+    "completion date unknown; Multiplex confirmed as builder for Stage 3b (building)"
   ]
 }
