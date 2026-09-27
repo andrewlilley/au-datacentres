@@ -1,0 +1,110 @@
+{
+  "id": "digitalrealty-syd11",
+  "name": "SYD11 (Digital Erskine Park II)",
+  "operator": "Digital Realty",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "13-23 Templar Road, Erskine Park NSW 2759",
+      "source": 2,
+      "note": ""
+    },
+    "suburb": "Erskine Park",
+    "state": "NSW",
+    "postcode": {
+      "value": "2759",
+      "source": 2,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "Not geocoded: geocoding services (Nominatim etc.) blocked by session egress proxy; to be filled later."
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "Not geocoded: geocoding services (Nominatim etc.) blocked by session egress proxy; to be filled later."
+    }
+  },
+  "builder": {
+    "value": "A W Edwards",
+    "source": 3,
+    "note": "Lump sum contract; architect Greenbox"
+  },
+  "developer": {
+    "value": "Digital Realty",
+    "source": 1,
+    "note": ""
+  },
+  "mw_it": {
+    "value": 17.4,
+    "source": 1,
+    "note": "17.4 MW critical IT power per Nov 2018 opening release. Alternatives: 19 MW (datacentermap/baxtel), 14 MW (A W Edwards)."
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": 145,
+    "source": 3,
+    "note": "A W Edwards project value $145m (construction contract value, not planning CIV)"
+  },
+  "planning": {
+    "authority": {
+      "value": null,
+      "source": null,
+      "note": "not found; Erskine Park Data Centre MP08_0109 (Part 3A, Minister-approved) exists on planning portal but link to SYD11 unconfirmed"
+    },
+    "pathway": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_start": {
+    "value": "2017",
+    "source": 2,
+    "precision": "year",
+    "note": "construction started 2017 per datacentermap"
+  },
+  "construction_end": {
+    "value": "2018-11",
+    "source": 1,
+    "precision": "month",
+    "note": "Opened Nov 2018 (first phase, 7,000 m2 / 17.4 MW). A W Edwards lists completion 2019 (full works)."
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "planning pathway/reference not found (possibly Penrith DA or MP08_0109 modification)",
+    "lat/lon not geocoded (geocoder blocked)"
+  ]
+}

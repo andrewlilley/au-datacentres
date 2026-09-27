@@ -4,30 +4,112 @@
   "operator": "AirTrunk",
   "status": "under_construction",
   "location": {
-    "address": {"value": "1 Sirius Road, Lane Cove West NSW 2066", "source": 5, "note": ""},
+    "address": {
+      "value": "1 Sirius Road, Lane Cove West NSW 2066",
+      "source": 5,
+      "note": ""
+    },
     "suburb": "Lane Cove West",
     "state": "NSW",
-    "postcode": {"value": "2066", "source": 5, "note": ""},
-    "lat": {"value": null, "source": null, "note": "not geocoded: Nominatim blocked by session egress proxy"},
-    "lon": {"value": null, "source": null, "note": "not geocoded: Nominatim blocked by session egress proxy"}
+    "postcode": {
+      "value": "2066",
+      "source": 5,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: Nominatim blocked by session egress proxy"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: Nominatim blocked by session egress proxy"
+    }
   },
-  "builder": {"value": "EMKC3", "source": 4, "note": "Tree Survey names 'EMCK3' as lead contractor for phase 3 (30 MW). EMKC/EMKC3 is also the applicant entity on AirTrunk SSDs, so may be an AirTrunk-related delivery entity rather than an independent builder"},
-  "developer": {"value": "AirTrunk", "source": 1, "note": ""},
-  "mw_it": {"value": 70, "source": 1, "note": "two-phase expansion; Tree Survey says phase 3 added 30 MW (implies ~40 MW for the other phase, not stated)"},
-  "mw_grid": {"value": null, "source": null, "note": ""},
-  "cost_aud_m": {"value": null, "source": null, "note": ""},
+  "builder": {
+    "value": "EMKC3",
+    "source": 4,
+    "note": "Tree Survey names 'EMCK3' as lead contractor for phase 3 (30 MW). EMKC/EMKC3 is also the applicant entity on AirTrunk SSDs, so may be an AirTrunk-related delivery entity rather than an independent builder"
+  },
+  "developer": {
+    "value": "AirTrunk",
+    "source": 1,
+    "note": ""
+  },
+  "mw_it": {
+    "value": 70,
+    "source": 1,
+    "note": "two-phase expansion; Tree Survey says phase 3 added 30 MW (implies ~40 MW for the other phase, not stated)"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
   "planning": {
-    "authority": {"value": null, "source": null, "note": "probably within SSD-9741 consent (see airtrunk-syd2) or a modification; not confirmed"},
-    "pathway": {"value": null, "source": null, "note": ""},
-    "reference": {"value": null, "source": null, "note": ""},
-    "lodged": {"value": null, "precision": null, "source": null, "note": ""},
-    "determined": {"value": null, "precision": null, "source": null, "note": ""},
+    "authority": {
+      "value": null,
+      "source": null,
+      "note": "probably within SSD-9741 consent (see airtrunk-syd2) or a modification; not confirmed"
+    },
+    "pathway": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "lodged": {
+      "value": null,
+      "precision": null,
+      "source": null,
+      "note": ""
+    },
+    "determined": {
+      "value": null,
+      "precision": null,
+      "source": null,
+      "note": ""
+    },
     "url": null
   },
-  "jobs_construction": {"value": null, "source": null, "note": ""},
-  "jobs_operational": {"value": null, "source": null, "note": ""},
-  "construction_start": {"value": "2023-06", "precision": "month", "source": 1, "note": ""},
-  "construction_end": {"value": "2024", "precision": "year", "source": 1, "note": "expected completion per DCD June 2023. A search extract says a 30 MW phase topped out Nov 2023; master notes say Shell D completed Jun 2024 and Shell C still under construction Apr 2026 (unverified)"},
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": "",
+    "basis": null,
+    "scope": null
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": "",
+    "basis": null,
+    "scope": null
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": "2023-06",
+    "precision": "month",
+    "source": 1,
+    "note": ""
+  },
+  "construction_end": {
+    "value": "2024",
+    "precision": "year",
+    "source": 1,
+    "note": "expected completion per DCD June 2023. A search extract says a 30 MW phase topped out Nov 2023; master notes say Shell D completed Jun 2024 and Shell C still under construction Apr 2026 (unverified)"
+  },
   "last_checked": "2026-09-27",
   "open_questions": [
     "scope/dedupe: this row covers the final two phases of SYD2 campus; consider merging with airtrunk-syd2 or splitting per shell once per-shell MW known",

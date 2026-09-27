@@ -1,0 +1,112 @@
+{
+  "id": "macquarie-ic3-super-west",
+  "name": "Macquarie Data Centres IC3 Super West",
+  "operator": "Macquarie Data Centres",
+  "status": "under_construction",
+  "location": {
+    "address": {
+      "value": "17-23 Talavera Road, Macquarie Park NSW",
+      "source": 1,
+      "note": "SSD-24299707 site, City of Ryde LGA"
+    },
+    "suburb": "Macquarie Park",
+    "state": "NSW",
+    "postcode": {
+      "value": "2113",
+      "source": null,
+      "note": "standard Australia Post postcode for Macquarie Park; not shown in a source read this session"
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "lat/lon not geocoded: WebFetch (incl. nominatim) was blocked by the session egress proxy"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "lat/lon not geocoded: WebFetch (incl. nominatim) was blocked by the session egress proxy"
+    }
+  },
+  "builder": {
+    "value": "FDC Construction",
+    "source": 3,
+    "note": "main building contractor, appointed Jun 2024; 7th FDC project for Macquarie DC"
+  },
+  "developer": {
+    "value": "Macquarie Data Centres",
+    "source": 1,
+    "note": "Macquarie Technology Group subsidiary"
+  },
+  "mw_it": {
+    "value": 47,
+    "source": 4,
+    "note": "operator marketing; phase 1 fits out 6MW IT. Earlier (2021-2024) figures: 32MW IT (campus to 50MW), later campus 63-65MW"
+  },
+  "mw_grid": {
+    "value": 38,
+    "source": 1,
+    "note": "added power consumption under SSD-24299707 (site total 28MW -> 66MW)"
+  },
+  "cost_aud_m": {
+    "value": 504.1,
+    "source": 2,
+    "note": "estimated development cost $504,111,490 in SSD documentation (EIS/SEARs); operator states ~AUD 350m construction cost FY25 to phase-1 practical completion"
+  },
+  "planning": {
+    "authority": {
+      "value": "NSW Independent Planning Commission",
+      "source": 1,
+      "note": "referred by DPHI (Nov 2023) - >15MW data centre and reportable political donation"
+    },
+    "pathway": {
+      "value": "SSD",
+      "source": 1,
+      "note": ""
+    },
+    "reference": {
+      "value": "SSD-24299707",
+      "source": 1,
+      "note": ""
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": "SEARs letter dated 12 Aug 2021; EIS appendices dated Nov 2022 - lodgement date not confirmed"
+    },
+    "determined": {
+      "value": "2024-01-19",
+      "source": 1,
+      "note": "approved by IPC"
+    },
+    "url": "https://www.ipcn.nsw.gov.au/cases/2023/11/talavera-road-data-centre-campus-expansion"
+  },
+  "jobs_construction": {
+    "value": 610,
+    "source": 1,
+    "note": "DPHI assessment report figure; other statements: ~1,200 construction jobs (IPC/applicant), 'more than 1,200 jobs' (operator 2024), '2,400 construction, design and fit-out jobs' (operator 2025)"
+  },
+  "jobs_operational": {
+    "value": 20,
+    "source": 1,
+    "note": "additional operational jobs per assessment report; ~49 total for consolidated campus; operator later said ~100 jobs"
+  },
+  "construction_start": {
+    "value": "2024-06",
+    "source": 3,
+    "precision": "month",
+    "note": "construction start announced with FDC appointment, Jun 2024"
+  },
+  "construction_end": {
+    "value": "2026-09",
+    "source": 4,
+    "precision": "month",
+    "note": "expected: first 6MW commissioning Sep 2026; topped out 2 Dec 2025; building construction reported complete in 2026 (Capital Brief)"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "may now be operational (first 6MW due Sep 2026) - check status",
+    "jobs figures conflict across sources (610 vs 1,200 vs 2,400 construction)",
+    "CIV in DPHI assessment report not confirmed ($504.1m EDC from SSD docs vs ~$350m operator construction cost)",
+    "SSD lodgement date not found"
+  ]
+}

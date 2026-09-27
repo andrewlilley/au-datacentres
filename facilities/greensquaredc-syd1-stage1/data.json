@@ -1,0 +1,112 @@
+{
+  "id": "greensquaredc-syd1-stage1",
+  "name": "GreenSquareDC SYD1 Norwest Stage 1",
+  "operator": "GreenSquareDC",
+  "status": "under_construction",
+  "location": {
+    "address": {
+      "value": "3 Brookhollow Avenue, Norwest NSW 2153",
+      "source": 1,
+      "note": "former IBM/Kyndryl data centre; DA modification lists 1-9 Brookhollow Avenue"
+    },
+    "suburb": "Norwest (Baulkham Hills)",
+    "state": "NSW",
+    "postcode": {
+      "value": "2153",
+      "source": 3,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "lat/lon not geocoded: WebFetch (incl. nominatim) was blocked by the session egress proxy"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "lat/lon not geocoded: WebFetch (incl. nominatim) was blocked by the session egress proxy"
+    }
+  },
+  "builder": {
+    "value": "Erilyan",
+    "source": 1,
+    "note": "appointed general contractor for Stage 1 (Sep 2025)"
+  },
+  "developer": {
+    "value": "GreenSquareDC",
+    "source": 1,
+    "note": "backed by Partners Group"
+  },
+  "mw_it": {
+    "value": 15,
+    "source": 1,
+    "note": "15MW per GreenSquareDC/w.media and DCD (upgrade of 'dilapidated' 4MW facility); datacentermap lists 10.9MW phase; DCD also cites 20MVA power and 2,400 sqm whitespace"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": "site power stated as 20MVA (DCD) - MVA, not converted"
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": "no CIV found"
+  },
+  "planning": {
+    "authority": {
+      "value": "Sydney Central City Planning Panel",
+      "source": 2,
+      "note": ""
+    },
+    "pathway": {
+      "value": "Regional DA (planning panel)",
+      "source": 2,
+      "note": "Stage 1 'Alterations and Additions to an Existing Data Centre and Subdivision into Two Lots'; later s4.55(1A) modification 1382/2025/JP/A (Mar 2026)"
+    },
+    "reference": {
+      "value": "1382/2025/JP",
+      "source": 2,
+      "note": ""
+    },
+    "lodged": {
+      "value": "2025-03-27",
+      "source": 3,
+      "note": "date of Planning Alerts listing for 3 Brookhollow Ave; assumed lodgement of 1382/2025/JP - not confirmed"
+    },
+    "determined": {
+      "value": "2025",
+      "source": 1,
+      "note": "approval announced Sep 2025 (w.media); exact determination date not found"
+    },
+    "url": "https://www.planningportal.nsw.gov.au/planning-panel/alterations-and-additions-existing-data-centre"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": "CDC for demolition/enabling works obtained Sep 2025; master.csv says construction from Jan 2026 - start date not verified"
+  },
+  "construction_end": {
+    "value": "2026",
+    "source": 1,
+    "precision": "year",
+    "note": "expected completion Q3 2026 (w.media, Sep 2025)"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "scope: refurbishment/refit of existing early-1990s IBM/Kyndryl data centre building (4MW -> 15MW) - may not count as a new facility",
+    "overlap: Stage 1 of same campus as greensquaredc-syd1 (Stage 2, SSD-81928961); campus total ~110MW = 15 + ~96",
+    "IT MW conflict: 15MW (operator/press) vs 10.9MW (datacentermap)",
+    "exact DA determination date and construction start not found"
+  ]
+}

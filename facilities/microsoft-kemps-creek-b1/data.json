@@ -1,0 +1,107 @@
+{
+  "id": "microsoft-kemps-creek-b1",
+  "name": "Microsoft Kemps Creek Building 1",
+  "operator": "Microsoft",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "706-769 Mamre Road, Kemps Creek NSW",
+      "source": 1,
+      "note": "SSD site address; operator/listing sites give 769 Mamre Road"
+    },
+    "suburb": "Kemps Creek",
+    "state": "NSW",
+    "postcode": {
+      "value": "2178",
+      "source": 8
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: geocoding service (nominatim) blocked by session egress proxy"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: geocoding service (nominatim) blocked by session egress proxy"
+    }
+  },
+  "builder": {
+    "value": "A W Edwards",
+    "source": 4,
+    "note": "construction General Contractor for the campus"
+  },
+  "developer": {
+    "value": "Microsoft",
+    "source": 4,
+    "note": "SSD applicant was ARUP Pty Ltd on Microsoft's behalf"
+  },
+  "mw_it": {
+    "value": null,
+    "source": null,
+    "note": "per-building IT MW not found; campus ~96MW initially, expandable to 190MW (source 7)"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null
+  },
+  "cost_aud_m": {
+    "value": 1300,
+    "source": 7,
+    "note": "campus total ($1.3bn) for both buildings under SSD-10101987; not split per building; not verified against EIS CIV"
+  },
+  "planning": {
+    "authority": {
+      "value": "NSW DPE",
+      "source": 1,
+      "note": "determined by Director under delegation"
+    },
+    "pathway": {
+      "value": "SSD",
+      "source": 1
+    },
+    "reference": {
+      "value": "SSD-10101987",
+      "source": 1
+    },
+    "lodged": {
+      "value": "2021-09",
+      "source": 3,
+      "note": "inferred from EIS attachment upload date 2021-09-14; EIS exhibition notified to EES 2021-11-17"
+    },
+    "determined": {
+      "value": "2023-07-13",
+      "source": 1
+    },
+    "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/kemps-creek-data-centre"
+  },
+  "jobs_construction": {
+    "value": 300,
+    "source": 6,
+    "note": "campus total (both buildings); approx"
+  },
+  "jobs_operational": {
+    "value": 50,
+    "source": 6,
+    "note": "campus total; 'over 50'"
+  },
+  "construction_start": {
+    "value": "2023-10",
+    "source": 4,
+    "note": "AW Edwards began piling and excavation Oct 2023 (campus start, Building One)",
+    "precision": "month"
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": "Microsoft Local says Building One completed and handed over to operations; exact date not confirmed (master.csv note says May 2026)"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "cost/jobs are campus totals, CIV not verified against EIS (portal fetch blocked)",
+    "Building 1 handover date not confirmed",
+    "per-building MW unknown",
+    "lat/lon not geocoded (geocoder blocked)"
+  ]
+}

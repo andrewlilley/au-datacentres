@@ -1,0 +1,112 @@
+{
+  "id": "equinix-sy5",
+  "name": "Equinix SY5",
+  "operator": "Equinix",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "506-518 Gardeners Road, Alexandria NSW 2015 (marketed as Unit B, 200 Bourke Road)",
+      "source": 1,
+      "note": "DA site is 506-518 Gardeners Road; Equinix/datacentermap use Unit B, 200 Bourke Road (source 4). Building links by air bridge to SY4 at 200 Bourke Road."
+    },
+    "suburb": "Alexandria",
+    "state": "NSW",
+    "postcode": {
+      "value": "2015",
+      "source": 1,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "Not geocoded: geocoding services (Nominatim etc.) blocked by session egress proxy; to be filled later."
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "Not geocoded: geocoding services (Nominatim etc.) blocked by session egress proxy; to be filled later."
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": "not found"
+  },
+  "developer": {
+    "value": "Equinix Australia Pty Ltd",
+    "source": 1,
+    "note": "DA applicant"
+  },
+  "mw_it": {
+    "value": 54,
+    "source": 4,
+    "note": "Stated as 'designed electrical capacity 54 MW' at full build (9,220-9,225 cabinets) - may be total electrical rather than IT load"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": 91.49,
+    "source": 1,
+    "note": "Cost of works $91,489,812 for D/2017/1797 (concept + Stage 1). Equinix announced US$160m for first phase (source 5); later AU$66m expansion completed (source 7)."
+  },
+  "planning": {
+    "authority": {
+      "value": "City of Sydney",
+      "source": 1,
+      "note": ""
+    },
+    "pathway": {
+      "value": "Local DA (staged concept + Stage 1)",
+      "source": 1,
+      "note": "Concept approval for staged part 3/part 4 storey data centre, Stage 1 3-storey building. Later DA D/2021/45 for further stage (source 3)."
+    },
+    "reference": {
+      "value": "D/2017/1797",
+      "source": 1,
+      "note": ""
+    },
+    "lodged": {
+      "value": "2017-12-21",
+      "source": 1,
+      "note": ""
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "note": "approved (consent referenced in D/2021/45 report); date not found, likely 2018"
+    },
+    "url": "https://meetings.cityofsydney.nsw.gov.au/documents/s14215/Development%20Application%20-%20506-518%20Gardeners%20Road%20Alexandria.pdf"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": "not found (DA lodged Dec 2017; first phase due Q3 2019)"
+  },
+  "construction_end": {
+    "value": "2019-11-13",
+    "source": 6,
+    "precision": "day",
+    "note": "First phase opened 13 Nov 2019; later phases added since (AU$66m expansion; phase 3 from 2024)"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "planning.determined date for D/2017/1797 not found",
+    "builder (head contractor) not found",
+    "mw_it 54 is 'designed electrical capacity' - confirm IT vs total",
+    "lat/lon not geocoded (geocoder blocked)"
+  ]
+}

@@ -85,13 +85,19 @@
   "jobs_construction": {
     "value": null,
     "source": null,
-    "note": ""
+    "note": "",
+    "basis": null,
+    "scope": null
   },
+  "jobs_construction_other": [],
   "jobs_operational": {
     "value": null,
     "source": null,
-    "note": ""
+    "note": "",
+    "basis": null,
+    "scope": null
   },
+  "jobs_operational_other": [],
   "construction_start": {
     "value": null,
     "precision": null,

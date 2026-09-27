@@ -1,0 +1,10 @@
+# Sources: goodman-apollo
+Access date for all: 2026-09-27. Note: direct page fetches were blocked by the session's network egress proxy; facts were taken from web-search result text quoting these pages.
+
+1. Urban Digest, "Goodman's $1.37bn Data Centre Approved for Macquarie Park" - https://urbandigest.com.au/ssd-74069708-goodmans-1-37bn-data-centre-approved-for-macquarie-park/ - address, developer, SSD ref, authority, determined date, jobs.
+2. w.media, "Goodman wins approval for 135MW Macquarie Park data centre" - https://w.media/goodman-wins-approval-for-135mw-macquarie-park-data-centre/ - 135MW, AUD 1.365bn, exhibition 21 Mar-17 Apr 2025, 4-10 Talavera Rd.
+3. Urban Digest, "Goodman Lodges $1.36bn Data Centre Plan for Macquarie Park" - https://urbandigest.com.au/goodman-lodges-1-36bn-data-centre-plan-for-macquarie-park/ - cost at lodgement.
+4. DCD, "Goodman files to develop data center in Sydney's Macquarie Park" - https://www.datacenterdynamics.com/en/news/goodman-files-to-develop-data-center-in-sydneys-macquarie-park/ - filing, ~$1.4bn end value.
+5. BeBeez International, "Goodman Group gets green light for 135MW data center in northern Sydney" (7 Sep 2026) - https://bebeez.eu/2026/09/07/goodman-group-gets-green-light-for-135mw-data-center-in-northern-sydney-australia/ - confirms approval year 2026. Also BeBeez 8 Apr 2025 "Goodman files to develop 90MW data center campus" - https://bebeez.eu/2025/04/08/goodman-files-to-develop-90mw-data-center-campus-in-sydney-australia/ - 90MW at filing.
+6. NSW Planning Portal, Project Apollo Data Centre Macquarie Park - https://www.planningportal.nsw.gov.au/major-projects/projects/project-apollo-data-centre-macquarie-park - planning URL (not fetched).
+7. Mingtiandi / The Tech Capital approval articles - https://www.mingtiandi.com/real-estate/data-centres/goodman-group-wins-government-approval-for-1b-data-centre-in-sydneys-north/ ; https://thetechcapital.com/goodman-wins-approval-for-135mw-data-centre-in-sydney/ - corroborate A$1.365bn, 135MW.

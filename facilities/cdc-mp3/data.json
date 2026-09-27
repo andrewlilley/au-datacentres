@@ -82,13 +82,27 @@
   "jobs_construction": {
     "value": 220,
     "source": 4,
-    "note": "Campus total (all six buildings) per NSW ministerial release; Information Age reported 200 (source 18)."
+    "note": "CAMPUS TOTAL (all six buildings). NSW ministerial release (search extract): '220 construction jobs'; basis not defined - check EIS",
+    "basis": "unstated",
+    "scope": "unstated"
   },
+  "jobs_construction_other": [
+    {
+      "value": 200,
+      "source": 18,
+      "basis": "unstated",
+      "scope": "unstated",
+      "note": "CAMPUS TOTAL. Information Age (search extract): '200 construction jobs'; differs from ministerial release"
+    }
+  ],
   "jobs_operational": {
     "value": 265,
     "source": 4,
-    "note": "Campus total (all six buildings) at full operation."
+    "note": "CAMPUS TOTAL at full operation. NSW ministerial release (search extract): '265 operational jobs'; Information Age also reports 265",
+    "basis": "ongoing_headcount",
+    "scope": "unstated"
   },
+  "jobs_operational_other": [],
   "construction_start": {
     "value": null,
     "source": null,

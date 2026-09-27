@@ -81,12 +81,19 @@
   "jobs_construction": {
     "value": null,
     "source": null,
-    "note": "Not found; EIS jobs figures not accessible (portal blocked). CDC says campus construction since 2018 'created hundreds of jobs'."
+    "note": "Not found; EIS jobs figures not accessible (portal blocked). CDC says campus construction since 2018 'created hundreds of jobs'.",
+    "basis": null,
+    "scope": null
   },
+  "jobs_construction_other": [],
   "jobs_operational": {
     "value": null,
-    "source": null
+    "source": null,
+    "note": "",
+    "basis": null,
+    "scope": null
   },
+  "jobs_operational_other": [],
   "construction_start": {
     "value": null,
     "source": null,

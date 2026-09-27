@@ -85,13 +85,19 @@
   "jobs_construction": {
     "value": 1076,
     "source": 2,
-    "note": "CAMPUS TOTAL direct construction jobs for all three stages, not apportioned"
+    "note": "CAMPUS TOTAL for all three stages, not apportioned. Urban Digest (search extract): '~1,076 direct construction jobs'; peak vs total not stated in extract - check assessment report",
+    "basis": "unstated",
+    "scope": "direct"
   },
+  "jobs_construction_other": [],
   "jobs_operational": {
     "value": 106,
     "source": 2,
-    "note": "CAMPUS TOTAL operational jobs, not apportioned"
+    "note": "CAMPUS TOTAL, not apportioned. Urban Digest (search extract): '106 operational jobs'",
+    "basis": "ongoing_headcount",
+    "scope": "unstated"
   },
+  "jobs_operational_other": [],
   "construction_start": {
     "value": null,
     "precision": null,

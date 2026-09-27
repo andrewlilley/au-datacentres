@@ -1,0 +1,109 @@
+{
+  "id": "goodman-artarmon",
+  "name": "Goodman Artarmon Data Centre (SYD01)",
+  "operator": "Goodman",
+  "status": "under_construction",
+  "location": {
+    "address": {
+      "value": "2-8 Lanceley Place and 14 Campbell Street, Artarmon NSW",
+      "source": 1,
+      "note": "former ABC studios site; 14,024 sqm across five allotments"
+    },
+    "suburb": "Artarmon",
+    "state": "NSW",
+    "postcode": {
+      "value": "2064",
+      "source": null,
+      "note": "suburb postcode (Australia Post); not stated in source"
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "Not geocoded: geocoding services (Nominatim etc.) unreachable from this session (network egress blocked)"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "Not geocoded: geocoding services (Nominatim etc.) unreachable from this session (network egress blocked)"
+    }
+  },
+  "builder": {
+    "value": "A W Edwards",
+    "source": 5,
+    "note": "head contractor; contract award announced by A W Edwards Mar 2026 (source 7); first Goodman-AWE collaboration"
+  },
+  "developer": {
+    "value": "Goodman Property Services (Aust) Pty Limited",
+    "source": 1,
+    "note": "applicant; Goodman to fit out and operate"
+  },
+  "mw_it": {
+    "value": 61,
+    "source": 3,
+    "note": "61MW IT across five 12.2MW data halls"
+  },
+  "mw_grid": {
+    "value": 90,
+    "source": 3,
+    "note": "90MW secured utility power; planning approval described 80MVA / 80MW (sources 1, 8)"
+  },
+  "cost_aud_m": {
+    "value": 845.85,
+    "source": 1,
+    "note": "capital investment value per SSD approval"
+  },
+  "planning": {
+    "authority": {
+      "value": "NSW Independent Planning Commission",
+      "source": 2,
+      "note": "ArchitectureAu: IPC became consent authority after Willoughby Council objection; master.csv also says IPC. However search snippets also reported Council withdrew its objection in Nov 2024, which would normally leave DPHI as consent authority - not verified against the determination"
+    },
+    "pathway": {
+      "value": "SSD",
+      "source": 1
+    },
+    "reference": {
+      "value": "SSD-66777221",
+      "source": 1
+    },
+    "lodged": {
+      "value": "2024-01-23",
+      "source": 9,
+      "note": "date of the SSD-66777221 EIS/development-details document on the major projects portal (attachment dated 22 Jan 2024 GMT); treat as approximate lodgement"
+    },
+    "determined": {
+      "value": "2025-04-11",
+      "source": 1
+    },
+    "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/lanceley-place-data-centre-artarmon"
+  },
+  "jobs_construction": {
+    "value": 669,
+    "source": 1,
+    "note": "'around 669 construction jobs' at approval; Goodman's Mar 2026 release says around 700"
+  },
+  "jobs_operational": {
+    "value": 30,
+    "source": 3
+  },
+  "construction_start": {
+    "value": "2026-03-03",
+    "source": 6,
+    "precision": "day",
+    "note": "official commencement of construction marked 3 Mar 2026 (Goodman / A W Edwards)"
+  },
+  "construction_end": {
+    "value": "2028",
+    "source": 3,
+    "precision": "year",
+    "note": "expected: first 12.2MW phase ready for service Q2 2028 (A W Edwards: early 2028); delivered in five stages, final completion date not stated"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "planning.authority: IPC vs DPHI unclear (Council objection reportedly withdrawn Nov 2024)",
+    "planning.lodged is portal document date, not confirmed lodgement date",
+    "construction_end is first phase only; full build-out date unknown",
+    "modifications MOD 1 and MOD 2 exist - not reviewed",
+    "lat/lon not geocoded (egress blocked)"
+  ]
+}
