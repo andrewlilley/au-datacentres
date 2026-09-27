@@ -51,17 +51,19 @@
   },
   "planning": {
     "authority": {
-      "value": null,
-      "source": null,
-      "note": "Approval for EC2 fit-out not identified."
+      "value": "NSW Minister for Planning",
+      "source": 9,
+      "note": "Project approval 10_0142 granted by 'The then Minister for Planning' on 7 December 2010 for 'Construction and operation of data storage facility, comprising two data storage cells and associated infrastructure' (SSD-10330 Assessment Report, Table 1). Ongoing operation of this existing data centre remains under 10_0142. EC2 fit-out was done under private-certifier complying development certificates (see reference note)."
     },
     "pathway": {
-      "value": null,
-      "source": null
+      "value": "Part 3A (Major Project)",
+      "source": 11,
+      "note": "Mod-2 Modification Report calls it 'the Part 3A approval, MP10_0142'."
     },
     "reference": {
-      "value": null,
-      "source": null
+      "value": "MP10_0142",
+      "source": 9,
+      "note": "Covers the original ex-HP building with two data storage cells (inferred to be EC1 and EC2). CDC fit-out works used complying development certificates: CDC-19-00160 'Internal fit-out of the existing data storage facility' (private certifier, 19 Feb 2019) and CDC-21-00942 'CDC2 - Completion of Construction including fit out and essential services' (21 May 2021); link of these to EC2 not stated (sources 9, 10)."
     },
     "lodged": {
       "value": null,
@@ -69,16 +71,17 @@
       "precision": null
     },
     "determined": {
-      "value": null,
-      "source": null,
-      "precision": null
+      "value": "2010-12-07",
+      "source": 9,
+      "precision": "day",
+      "note": "Per DPIE/DPHI Assessment Reports for SSD-10330 and Mod-1; the Mod-2 Modification Report (Urbis) says 7 December 2012, which is taken to be an error (the building opened 2011-12). NSW portal page for MP10_0142 not found."
     },
-    "url": null
+    "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-10330%2120200714T231209.227+GMT"
   },
   "jobs_construction": {
     "value": null,
     "source": null,
-    "note": "Not found; EIS jobs figures not accessible (portal blocked). CDC says campus construction since 2018 'created hundreds of jobs'.",
+    "note": "No EC2-specific figures. The SSD-10330 jobs figures (448 construction, 10 operational) apply only to Buildings 4-6. CDC (ARN, Dec 2022): campus construction since 2018 'has created hundreds of jobs'.",
     "basis": null,
     "scope": null
   },
@@ -95,17 +98,19 @@
     "value": null,
     "source": null,
     "precision": null,
-    "note": "CDC works would have started after acquisition (14 Dec 2018); exact date not found."
+    "note": "CDC works started after acquisition (14 Dec 2018); a complying development certificate for 'Internal fit-out of the existing data storage facility' (CDC-19-00160) was issued 19 Feb 2019 (source 9). Start date not stated."
   },
   "construction_end": {
     "value": "2019-12",
     "source": 2,
     "precision": "month",
-    "note": "Planned 'final delivery date' per Oct 2019 deck; actual completion not confirmed."
+    "note": "Planned 'final delivery date' per Oct 2019 deck; actual completion not confirmed. A certificate CDC-21-00942 'CDC2 - Completion of Construction including fit out and essential services' was issued 21 May 2021 (source 10); if 'CDC2' is EC2, works continued into 2021."
   },
   "open_questions": [
     "scope: EC2 appears to be the second pre-existing 6,000 m2 data hall in the ex-HP/DXC building (shell built c.2011-12), fitted out/delivered by CDC in 2019 - confirm whether this counts as a facility completed after 2018-09-01.",
-    "mw_it: 13 MW (2019) vs 20 MW (DCD 2022)."
+    "mw_it: 13 MW (2019) vs 20 MW (DCD 2022).",
+    "does CDC-21-00942 'CDC2 - Completion of Construction' (May 2021) refer to EC2? If so completion may be 2021 rather than Dec 2019",
+    "builder/fit-out contractor not found"
   ],
   "last_checked": "2026-09-27"
 }

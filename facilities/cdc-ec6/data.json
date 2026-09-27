@@ -2,7 +2,7 @@
   "id": "cdc-ec6",
   "name": "CDC Eastern Creek 6",
   "operator": "CDC Data Centres",
-  "status": "under_construction",
+  "status": "operational",
   "location": {
     "address": {
       "value": "17 Roberts Road, Eastern Creek NSW 2766",
@@ -29,7 +29,7 @@
   "builder": {
     "value": "Hindmarsh",
     "source": 1,
-    "note": "Apollo Fabrication: 'continuing its partnership with Hindmarsh to deliver EC5 & EC6'."
+    "note": "Apollo Fabrication (6 Jan 2025): 'continue our partnership with Hindmarsh to deliver EC5 & EC6'. The Hindmarsh SSD-10330 CEMP (source 20) covers 'Four new buildings'."
   },
   "developer": {
     "value": "CDC Data Centres",
@@ -38,78 +38,95 @@
   "mw_it": {
     "value": null,
     "source": null,
-    "note": "EC5+EC6 combined 108 MW IT (ARN/IT Brief Dec 2022, source 2); per-building split not stated. ITK lists 79 MW each (per master.csv, not re-verified)."
+    "note": "EC5+EC6 combined 108 MW ('add another 108 megawatts of capacity', ARN/IT Brief Dec 2022, verified, source 2). Per-building split not stated. ITK lists 79 MW each (per master.csv, not re-verified). The Mod-2 GHG assessment gives 'Maximum site capacity for modified business scenario 220 MW' for the whole six-building campus (source 25)."
   },
   "mw_grid": {
     "value": null,
-    "source": null
+    "source": null,
+    "note": "EIS: additional demand for Buildings 4, 5 and 6 'approximately 100MVA' combined (source 18), pre-Mod-1."
   },
   "cost_aud_m": {
     "value": 1000,
     "source": 2,
-    "note": "Announced additional A$1bn investment covering EC5 and EC6 together (not apportioned). SSD-10330 CIV $506.1m (source 6) covers the original four-building scheme."
+    "note": "Additional A$1bn investment announced Dec 2022 for EC5 and EC6 together (source 2, verified); not apportioned. The SSD-10330 CIV of $291,465,000 (source 19) is RLB's construction cost for Buildings 4, 5 and 6 together, excluding M&E services and IT equipment."
   },
   "planning": {
     "authority": {
-      "value": "NSW Department of Planning, Industry and Environment (now DPHI)",
-      "source": 7
+      "value": "NSW Minister for Planning and Public Spaces (determined by DPIE Executive Director, Regions, Industry and Key Sites, under delegation)",
+      "source": 15
     },
     "pathway": {
       "value": "SSD",
-      "source": 7
+      "source": 14
     },
     "reference": {
       "value": "SSD-10330",
-      "source": 7,
-      "note": "Built under SSD-10330 and modifications (e.g. Mod-2 generators, source 9); CC-24-00558 early works for EC6 (source 10)."
+      "source": 16,
+      "note": "SSD-10330 covers Buildings 4, 5 and 6 (plus rooftop plant on existing Building E3). EC6 is SSD-10330 'Building 6' (Phase E). Mod-2 documents name the buildings EC5 and EC6 (source 23). Mod-1 raised Building 6's GFA to 27,675 m2 (source 22). Modifications: Mod-1 (Buildings 5 and 6 from 3 to 4 storeys; lodged 8 Dec 2023, approved 17 Apr 2024); Mod-2 (72 generators, up from 48, and diesel storage; lodged 9 Oct 2025, approved 6 Mar 2026); Mod-3 (HV plant; lodged 25 Jun 2026, approved 8 Sep 2026) (sources 22, 24, 26, 27)."
     },
     "lodged": {
       "value": "2019-11",
-      "source": 8,
+      "source": 18,
       "precision": "month",
-      "note": "Inferred from EIS document upload timestamp (28 Nov 2019) on the portal; formal lodgement date not seen. SEARs requested 9 May 2019."
+      "note": "EIS signed 22 Nov 2019 and uploaded to the portal 28 Nov 2019; exhibited 11 Dec 2019 - 31 Jan 2020 (source 15). Formal lodgement date not stated. SEARs requested 9 May 2019 and issued 2 Jul 2019."
     },
     "determined": {
       "value": "2020-07-14",
-      "source": 7,
+      "source": 15,
       "precision": "day",
-      "note": "Per search summary of portal project page; not directly viewed."
+      "note": "Notice of Decision dated 14 July 2020; portal Determination Date 14/07/2020 (source 14)."
     },
     "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/roberts-road-data-centre"
   },
   "jobs_construction": {
-    "value": null,
-    "source": null,
-    "note": "Not found; EIS jobs figures not accessible (portal blocked). CDC says campus construction since 2018 'created hundreds of jobs'.",
-    "basis": null,
-    "scope": null
+    "value": 350,
+    "source": 16,
+    "basis": "peak",
+    "scope": "direct",
+    "note": "Assessment Report: 'During construction works, there would be a maximum of 350 workers on-site at any given time, however this would vary significantly depending on the construction stage.' Covers the whole SSD-10330 expansion (Buildings 4, 5 and 6, built over up to five years), not this building alone; not apportioned."
   },
-  "jobs_construction_other": [],
+  "jobs_construction_other": [
+    {
+      "value": 448,
+      "source": 19,
+      "basis": "unstated",
+      "scope": "unstated",
+      "note": "RLB CIV statement: 'We estimate the total number of construction jobs on this project to be 448.' EIS: 'It is estimated that a total of 448 construction job will be created.' Assessment Report: 'Employment 448 construction jobs'; Notice of Decision: 'the generation of 448 construction jobs' (source 15). Covers Buildings 4-6 together."
+    }
+  ],
   "jobs_operational": {
+    "value": 10,
+    "source": 18,
+    "basis": "ongoing_headcount",
+    "scope": "direct",
+    "note": "EIS: 'On completion of the proposed development, it is estimated up to 10 full time equivalent job and 6 contract jobs could be generated by this site' (Operational Management Staff 6, Security Guards 4). Assessment Report: '10 full-time equivalent operational jobs'; Notice of Decision: 'up to 10 knowledge-intensive operational jobs'. Covers Buildings 4-6 together."
+  },
+  "jobs_operational_other": [
+    {
+      "value": 6,
+      "source": 18,
+      "basis": "ongoing_headcount",
+      "scope": "direct",
+      "note": "EIS: 'Part time staff will comprise: Maintenance Contractors – 6' ('6 contract jobs'). Covers Buildings 4-6."
+    }
+  ],
+  "construction_start": {
     "value": null,
     "source": null,
-    "note": "",
-    "basis": null,
-    "scope": null
-  },
-  "jobs_operational_other": [],
-  "construction_start": {
-    "value": "2023",
-    "source": 2,
-    "precision": "year",
-    "note": "Estimate: Dec 2022 announcement said construction of EC5/EC6 would start 'next year'; actual start date not confirmed. Construction certificate CC-24-00558 for EC6 structure to level 03 recorded Aug 2024 (source 10)."
+    "precision": null,
+    "note": "Old estimate of 2023 (from the Dec 2022 'start construction ... next year') removed. Mod-1 Assessment Report (Apr 2024): 'Phases D and F have not commenced construction' and Phase E 'Building 6 not yet constructed' (source 22). Apollo won the EC5 & EC6 structural steel in Jan 2025 (source 1). Construction certificate CC-24-00558 for EC6 structure up to level 03 was recorded Aug 2024 (source 10, snippet). Start date not confirmed."
   },
   "construction_end": {
     "value": null,
     "source": null,
     "precision": null,
-    "note": "Sep 2025: CDC 'nearing completion of EC5/6' (source 4); CDC site still lists under construction. master.csv notes 103 MW added at Eastern Creek in Mar-2026 quarter (Infratil Apr 2026 newsletter, not verified)."
+    "note": "CDC website (accessed 2026-09-27): 'Eastern Creek has six operational data centres' (source 28), so EC6 is now taken to be operational; completion date not found. Sep 2025: CDC 'nearing completion of EC5/6' (source 4, snippet). The Mod-2 GHG assessment gives practical completion of the new generators as 2025/2026 (source 25). The Mod-3 Assessment Report (Sep 2026) still calls the SSD-10330 expansion 'currently under construction' (source 26). master.csv notes 103 MW added at Eastern Creek in the Mar-2026 quarter (Infratil Apr 2026 newsletter; infratil.com returns 403)."
   },
   "open_questions": [
-    "completion date not confirmed (Infratil Apr 2026 newsletter / Mar 2026 CDC presentation not accessible)",
+    "status: changed to operational on the basis of CDC's website ('six operational data centres'); completion date not confirmed (Infratil 2026 material returns 403)",
     "mw_it per building not stated (108 MW combined with EC5; ITK 79 MW each)",
-    "cost is a combined EC5+EC6 figure",
-    "jobs figures not found"
+    "cost is a combined EC5+EC6 figure; jobs figures are SSD-10330 totals for Buildings 4-6",
+    "construction start date not confirmed"
   ],
   "last_checked": "2026-09-27"
 }
