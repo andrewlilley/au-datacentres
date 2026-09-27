@@ -1,0 +1,107 @@
+{
+  "id": "goodman-apollo",
+  "name": "Project Apollo Data Centre Macquarie Park",
+  "operator": "Goodman",
+  "status": "approved",
+  "location": {
+    "address": {
+      "value": "4-10 Talavera Road, Macquarie Park NSW",
+      "source": 1,
+      "note": "23,190 sqm site"
+    },
+    "suburb": "Macquarie Park",
+    "state": "NSW",
+    "postcode": {
+      "value": "2113",
+      "source": null,
+      "note": "suburb postcode (Australia Post); not stated in source"
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "Not geocoded: geocoding services (Nominatim etc.) unreachable from this session (network egress blocked)"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "Not geocoded: geocoding services (Nominatim etc.) unreachable from this session (network egress blocked)"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": "no head contractor announced as at 2026-09-27"
+  },
+  "developer": {
+    "value": "Goodman Property Services (Aust) Pty Ltd",
+    "source": 1,
+    "note": "applicant"
+  },
+  "mw_it": {
+    "value": null,
+    "source": null,
+    "note": "IT load not separately stated in sources found; 135MW is the headline capacity"
+  },
+  "mw_grid": {
+    "value": 135,
+    "source": 2,
+    "note": "'135MW' headline capacity (w.media, The Tech Capital); unclear whether IT or total load. master.csv notes ~90MVA initial load; BeBeez (Apr 2025) reported the filing as 90MW"
+  },
+  "cost_aud_m": {
+    "value": 1365,
+    "source": 2,
+    "note": "AUD 1.365bn estimated development cost (w.media, Mingtiandi); Urban Digest reported $1.36bn at lodgement and $1.37bn at approval"
+  },
+  "planning": {
+    "authority": {
+      "value": "NSW DPHI",
+      "source": 1
+    },
+    "pathway": {
+      "value": "SSD",
+      "source": 1
+    },
+    "reference": {
+      "value": "SSD-74069708",
+      "source": 1
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": "lodgement date not found; EIS exhibited 21 Mar 2025 to 17 Apr 2025 (no public submissions)"
+    },
+    "determined": {
+      "value": "2026-09-02",
+      "source": 1,
+      "note": "approved by NSW DPHI 2 Sep; year 2026 confirmed by BeBeez (7 Sep 2026) and master.csv"
+    },
+    "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/project-apollo-data-centre-macquarie-park"
+  },
+  "jobs_construction": {
+    "value": 400,
+    "source": 1,
+    "note": "'up to 400' per Department's assessment"
+  },
+  "jobs_operational": {
+    "value": 60,
+    "source": 1
+  },
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": "not started / not announced"
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "precision": null
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "mw: 135MW may be total load rather than IT; initial ~90MVA/90MW reported",
+    "planning.lodged date not found (exhibition from 21 Mar 2025)",
+    "builder not yet announced",
+    "lat/lon not geocoded (egress blocked)"
+  ]
+}

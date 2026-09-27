@@ -1,0 +1,107 @@
+{
+  "id": "stockland-khartoum-1-5",
+  "name": "1-5 Khartoum Road Data Centre",
+  "operator": "Stockland",
+  "status": "approved",
+  "location": {
+    "address": {
+      "value": "1-5 Khartoum Road, Macquarie Park NSW",
+      "source": 1,
+      "note": "10,015 sqm site replacing a two-storey car park; MPark Stage 2"
+    },
+    "suburb": "Macquarie Park",
+    "state": "NSW",
+    "postcode": {
+      "value": "2113",
+      "source": null,
+      "note": "suburb postcode (Australia Post); not stated in source"
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "Not geocoded: geocoding services (Nominatim etc.) unreachable from this session (network egress blocked)"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "Not geocoded: geocoding services (Nominatim etc.) unreachable from this session (network egress blocked)"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": "not announced"
+  },
+  "developer": {
+    "value": "Stockland",
+    "source": 1,
+    "note": "applicant; developed via 50:50 JV with EdgeConneX (w.media); datacentermap lists as EdgeConneX Macquarie Park SYD1"
+  },
+  "mw_it": {
+    "value": null,
+    "source": null,
+    "note": "not stated separately"
+  },
+  "mw_grid": {
+    "value": 76.4,
+    "source": 1,
+    "note": "'76.4MW data centre' - unclear whether IT or total; 24 data halls, 28 diesel generators, 33kV switching station"
+  },
+  "cost_aud_m": {
+    "value": 718.26,
+    "source": 1,
+    "note": "estimated development cost"
+  },
+  "planning": {
+    "authority": {
+      "value": "NSW DPHI",
+      "source": 1
+    },
+    "pathway": {
+      "value": "SSD",
+      "source": 1
+    },
+    "reference": {
+      "value": "SSD-63235720",
+      "source": 1
+    },
+    "lodged": {
+      "value": "2024-12",
+      "source": 5,
+      "note": "Stockland submitted application Dec 2024 (per search summary); EIS exhibited 6 Mar 2025 to 2 Apr 2025"
+    },
+    "determined": {
+      "value": "2026-03-11",
+      "source": 1
+    },
+    "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/1-5-khartoum-road-data-centre"
+  },
+  "jobs_construction": {
+    "value": 250,
+    "source": 1,
+    "note": "'up to 250 FTE'"
+  },
+  "jobs_operational": {
+    "value": 50,
+    "source": 1
+  },
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": "projected FY2027 (datacentermap); construction expected to take 33 months"
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "precision": null
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "mw: 76.4MW may be total power not IT",
+    "separate SSD-80814238 'Road 1 Data Centre' at same address under assessment - possible overlap",
+    "builder and construction start not announced",
+    "planning.lodged month from secondary summary only",
+    "lat/lon not geocoded (egress blocked)"
+  ]
+}

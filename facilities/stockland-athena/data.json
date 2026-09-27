@@ -1,0 +1,111 @@
+{
+  "id": "stockland-athena",
+  "name": "Macquarie Park Data Centre (Athena, 11-17 Khartoum Rd)",
+  "operator": "Stockland",
+  "status": "approved",
+  "location": {
+    "address": {
+      "value": "11-17 Khartoum Road and 33-39 Talavera Road, Macquarie Park NSW",
+      "source": 2,
+      "note": "M_Park precinct; five-storey building, 6,300 sqm data halls, 3,215 sqm office, >13,000 sqm plant"
+    },
+    "suburb": "Macquarie Park",
+    "state": "NSW",
+    "postcode": {
+      "value": "2113",
+      "source": null,
+      "note": "suburb postcode (Australia Post); not stated in source"
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "Not geocoded: geocoding services (Nominatim etc.) unreachable from this session (network egress blocked)"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "Not geocoded: geocoding services (Nominatim etc.) unreachable from this session (network egress blocked)"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": "not found; ADCO and Taylor are named for other M_Park buildings, not the data centre"
+  },
+  "developer": {
+    "value": "Stockland",
+    "source": 1,
+    "note": "applicant/owner"
+  },
+  "mw_it": {
+    "value": null,
+    "source": null,
+    "note": "not stated in sources found"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": "not stated; at least 10 diesel generators"
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": "capital investment value not found. DCD reported end-value A$264m; IREI headline '$200m Sydney data center' - neither is confirmed CIV"
+  },
+  "planning": {
+    "authority": {
+      "value": "NSW DPIE",
+      "source": 4
+    },
+    "pathway": {
+      "value": "SSD",
+      "source": 4
+    },
+    "reference": {
+      "value": "SSD-10467",
+      "source": 4
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": "not confirmed; portal documents include an exhibition notice dated 22 Dec 2020 and EIS-related documents dated Mar 2021"
+    },
+    "determined": {
+      "value": "2021-05-28",
+      "source": 4,
+      "note": "from master.csv (planning portal, earlier session); DCD reported the approval on 9 Jun 2021; not re-verified this session"
+    },
+    "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/macquarie-park-data-centre"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": "not found"
+  },
+  "jobs_operational": {
+    "value": 50,
+    "source": 2,
+    "note": "'will lead to 50 operational jobs upon completion' (per search summary of The Urban Developer / DCD coverage)"
+  },
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": "DCD (Jun 2021) said construction expected to start Sep 2021; actual start not confirmed. A post-approval letter to Stockland (SSD-10467-PA-5) is dated May 2022"
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": "DCD (Jun 2021): expected completion Mar 2023; actual completion not confirmed"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "status: unclear whether built/operational (planned completion Mar 2023; datacentermap lists 'Amazon AWS - 11-17 Khartoum Rd')",
+    "scope: MW not found - confirm >= 5 MW",
+    "tenant: AWS link from media 'believed to be' and aggregator only",
+    "cost (CIV) and construction jobs not found",
+    "planning.determined not re-verified",
+    "lat/lon not geocoded (egress blocked)"
+  ]
+}

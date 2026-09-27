@@ -1,0 +1,107 @@
+{
+  "id": "goodman-duke",
+  "name": "Project Duke Data Centre",
+  "operator": "Goodman",
+  "status": "approved",
+  "location": {
+    "address": {
+      "value": "2 and 10-22 Kent Road and 685 Gardeners Road, Mascot NSW",
+      "source": 1,
+      "note": "22,923 sqm site; 685 Gardeners Road added by July 2025 amendment; former Eaton warehouse site"
+    },
+    "suburb": "Mascot",
+    "state": "NSW",
+    "postcode": {
+      "value": "2020",
+      "source": null,
+      "note": "suburb postcode (Australia Post); not stated in source"
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "Not geocoded: geocoding services (Nominatim etc.) unreachable from this session (network egress blocked)"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "Not geocoded: geocoding services (Nominatim etc.) unreachable from this session (network egress blocked)"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": "no head contractor announced as at 2026-09-27"
+  },
+  "developer": {
+    "value": "Goodman Property Services (Aust) Pty Limited",
+    "source": 1,
+    "note": "applicant"
+  },
+  "mw_it": {
+    "value": null,
+    "source": null,
+    "note": "IT load not stated"
+  },
+  "mw_grid": {
+    "value": 120,
+    "source": 1,
+    "note": "total power demand 120MW for amended scheme (Urban Digest); original filing described as 90MW / 90MVA (DCD, planning portal)"
+  },
+  "cost_aud_m": {
+    "value": 1180,
+    "source": 1,
+    "note": "$1.18bn reported for approved (amended) scheme; $913m reported at lodgement (Urban Digest 'Goodman Plans $913m Mascot Data Centre', LinkedIn Jan 2026). Not verified against assessment report"
+  },
+  "planning": {
+    "authority": {
+      "value": "NSW DPHI",
+      "source": 1
+    },
+    "pathway": {
+      "value": "SSD",
+      "source": 1
+    },
+    "reference": {
+      "value": "SSD-71368959",
+      "source": 3
+    },
+    "lodged": {
+      "value": "2024-11",
+      "source": 4,
+      "note": "approximate: EIS documents dated 7 Nov 2024 on portal; exhibited Nov-Dec 2024; application amended July 2025"
+    },
+    "determined": {
+      "value": "2025-12-22",
+      "source": 3,
+      "note": "from master.csv (planning portal, captured by earlier session); not re-verified this session because portal unreachable. Approval publicised by 19 Jan 2026 (source 5)"
+    },
+    "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/project-duke-data-centre"
+  },
+  "jobs_construction": {
+    "value": 600,
+    "source": 1,
+    "note": "'up to 600'"
+  },
+  "jobs_operational": {
+    "value": 30,
+    "source": 1
+  },
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "precision": null
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "precision": null
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "cost: $1.18bn (amended) vs $913m (lodged) - confirm CIV in assessment report",
+    "mw: 120MW total demand vs 90MW/90MVA originally; IT load unknown",
+    "planning.determined 2025-12-22 not re-verified",
+    "builder not announced",
+    "lat/lon not geocoded (egress blocked)"
+  ]
+}

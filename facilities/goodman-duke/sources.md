@@ -1,0 +1,9 @@
+# Sources: goodman-duke
+Access date for all: 2026-09-27. Note: direct page fetches were blocked by the session's network egress proxy; facts were taken from web-search result text quoting these pages.
+
+1. Urban Digest, "Goodman Plans $913m Mascot Data Centre" (page updated after approval) - https://urbandigest.com.au/ssd-71368959-project-duke-data-centre/ - address, site area, 120MW total demand, $913m (lodged) / $1.18bn (approved), 600 construction / 30 operational jobs, amendment July 2025, exhibition Nov-Dec 2024, approved with conditions by DPHI.
+2. DCD, "Goodman files to build 90MW data center on Eaton warehouse site in Sydney, Australia" - https://www.datacenterdynamics.com/en/news/goodman-files-to-build-90mw-data-center-on-eaton-warehouse-site-in-sydney-australia/ - 90MW at filing.
+3. NSW Planning Portal, Project Duke Data Centre - https://www.planningportal.nsw.gov.au/major-projects/projects/project-duke-data-centre - SSD ref, 90MVA, determination 22 Dec 2025 (as captured in master.csv; not re-fetched).
+4. NSW major projects portal EIS documents SSD-71368959 (Engagement Outcomes Report; Arup ESD Report), both dated 7 Nov 2024 - https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-71368959!20241107T040728.809+GMT ; https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-71368959!20241107T040745.444+GMT - applicant, approximate lodgement.
+5. LinkedIn post "Goodman's $913m Mascot Data Centre Project Approved" (19 Jan 2026 by post id) - https://www.linkedin.com/posts/harry-beattie1_datacentres-sydney-construction-activity-7419131681850277888-UQcQ - approval publicised by Jan 2026.
+6. Mecone, "Project Duke, Data Centre" (18 Nov 2024) - https://mecone.com.au/2024/11/18/project-duke-data-centre/ - planning consultant, project context.

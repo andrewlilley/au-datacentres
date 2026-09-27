@@ -1,0 +1,103 @@
+{
+  "id": "microsoft-seven-hills-b1",
+  "name": "Microsoft Seven Hills (Station Road) Building 1",
+  "operator": "Microsoft",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "57 Station Road, Seven Hills NSW 2147",
+      "source": 4,
+      "note": "Lot B DP 404669"
+    },
+    "suburb": "Seven Hills",
+    "state": "NSW",
+    "postcode": {
+      "value": "2147",
+      "source": 6
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: geocoding service (nominatim) blocked by session egress proxy"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: geocoding service (nominatim) blocked by session egress proxy"
+    }
+  },
+  "builder": {
+    "value": "FDC Construction",
+    "source": 1,
+    "note": "built the first of the two buildings"
+  },
+  "developer": {
+    "value": "Microsoft",
+    "source": 1
+  },
+  "mw_it": {
+    "value": null,
+    "source": null,
+    "note": "not found. The only non-SSD approval reported for the site is Blacktown Council's early-2022 consent for a 1.2MW, 630 sqm data centre (source 5); if Building 1 is that facility it is < 5MW"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null
+  },
+  "planning": {
+    "authority": {
+      "value": "Blacktown City Council",
+      "source": 5,
+      "note": "assumed: Building 1 appears to correspond to the early-2022 council consent (Building 2 is SSD-33781208); link not confirmed"
+    },
+    "pathway": {
+      "value": "Local DA",
+      "source": 5,
+      "note": "see authority note"
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": "council DA number not found (PlanningAlerts lists a 8 Jun 2021 application at 57 Station Road, source 6, not verified as this DA)"
+    },
+    "lodged": {
+      "value": null,
+      "source": null
+    },
+    "determined": {
+      "value": "2022",
+      "source": 5,
+      "note": "'early 2022'; precision year"
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null
+  },
+  "jobs_operational": {
+    "value": null,
+    "source": null
+  },
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "precision": null
+  },
+  "construction_end": {
+    "value": "2023-12",
+    "source": 1,
+    "precision": "month",
+    "note": "FDC completed first building Dec 2023 (base build; fit-out may have followed)"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "scope: Building 1 may be the 1.2MW (630 sqm) data centre approved by Blacktown Council in early 2022 - would be < 5MW; confirm MW",
+    "council DA reference not found",
+    "lat/lon not geocoded (geocoder blocked)"
+  ]
+}

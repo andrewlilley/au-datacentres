@@ -1,0 +1,111 @@
+{
+  "id": "equinix-sy9x",
+  "name": "Equinix SY9x (xScale)",
+  "operator": "Equinix",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "10 Grand Avenue, Rosehill NSW 2142",
+      "source": 4,
+      "note": "Address in DA PPSSCC-64 (DA/751/2019) and datacenters.com. master.csv has '8A Grand Avenue'; a May 2025 DA for Phase 2 internal M&E works in the existing data centre is listed at 8 Grand Avenue (source 7) - likely same landholding/lot."
+    },
+    "suburb": "Rosehill",
+    "state": "NSW",
+    "postcode": {
+      "value": "2142",
+      "source": 4,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "Not geocoded: geocoding services (Nominatim etc.) blocked by session egress proxy; to be filled later."
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "Not geocoded: geocoding services (Nominatim etc.) blocked by session egress proxy; to be filled later."
+    }
+  },
+  "builder": {
+    "value": "A W Edwards",
+    "source": 3,
+    "note": "Head contractor per MBC Group (principal certifier) project page."
+  },
+  "developer": {
+    "value": "Equinix Australia Pty Ltd (DA applicant); owned by Equinix/PGIM Real Estate xScale JV",
+    "source": 4,
+    "note": "JV closed Mar 2022, PGIM 80% / Equinix 20% (source 6); Equinix operates."
+  },
+  "mw_it": {
+    "value": 28,
+    "source": 1,
+    "note": "'More than 28 MW' power capacity at full build; >14 MW at opening (Jun 2022). Equinix states 'power capacity' - may not be strictly IT load. datacenters.com lists 24 MW."
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": "not stated"
+  },
+  "cost_aud_m": {
+    "value": 44.72,
+    "source": 4,
+    "note": "Capital investment value $44,717,186 for DA/751/2019 (Stage 1 building + Stage 2 concept). JV headline US$575m covers SY9x and SY10x."
+  },
+  "planning": {
+    "authority": {
+      "value": "Sydney Central City Planning Panel (City of Parramatta DA)",
+      "source": 4,
+      "note": ""
+    },
+    "pathway": {
+      "value": "Regionally significant development (DA)",
+      "source": 4,
+      "note": "Staged DA: Stage 1 3-storey data centre, concept approval for Stage 2 building. Modified as DA/751/2019/C (PPSSCC-308, 2022, source 5)."
+    },
+    "reference": {
+      "value": "DA/751/2019 (PPSSCC-64)",
+      "source": 4,
+      "note": ""
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": "2019 per DA number; exact date not found"
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "note": "Approved; panel documents dated Jul 2020 (clause 4.6 request) suggest determination c. mid/late 2020 - not confirmed"
+    },
+    "url": "https://apps.planningportal.nsw.gov.au/prweb/PRRestService/DocMgmt/v1/PublicDocuments/DATA-WORKATTACH-FILE%20PEC-DPE-EP-WORK%20PPSSCC-64!20200724T004550.262%20GMT"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_start": {
+    "value": "2020",
+    "source": 3,
+    "precision": "year",
+    "note": "MBC Group: construction 'due to commence late 2020' (planned)"
+  },
+  "construction_end": {
+    "value": "2022-06-13",
+    "source": 1,
+    "precision": "day",
+    "note": "Opened 13 Jun 2022 with >14 MW (first phase); further fit-out to 28 MW"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "planning.determined date for DA/751/2019 not found (planning portal blocked from session)",
+    "address: 10 Grand Avenue (DA) vs 8A/8 Grand Avenue (master.csv, 2025 DA) - confirm lot",
+    "lat/lon not geocoded (geocoder blocked)"
+  ]
+}

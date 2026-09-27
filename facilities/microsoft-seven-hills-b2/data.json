@@ -1,0 +1,105 @@
+{
+  "id": "microsoft-seven-hills-b2",
+  "name": "Microsoft Seven Hills (Station Road) Building 2",
+  "operator": "Microsoft",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "57 Station Road, Seven Hills NSW 2147",
+      "source": 4,
+      "note": "Lot B DP 404669"
+    },
+    "suburb": "Seven Hills",
+    "state": "NSW",
+    "postcode": {
+      "value": "2147",
+      "source": 6
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: geocoding service (nominatim) blocked by session egress proxy"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: geocoding service (nominatim) blocked by session egress proxy"
+    }
+  },
+  "builder": {
+    "value": "Taylor Construction",
+    "source": 1,
+    "note": "General Contractor for second building (Taylor project code SYD08)"
+  },
+  "developer": {
+    "value": "Microsoft",
+    "source": 1
+  },
+  "mw_it": {
+    "value": 19.2,
+    "source": 3,
+    "note": "stated as a '19.2MW data centre' (Northrop; press); not explicit whether IT or total load"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": "SSD documents say total power consumption exceeds 10MW"
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": "CIV in SSD-33781208 EIS not retrieved (portal blocked)"
+  },
+  "planning": {
+    "authority": {
+      "value": "NSW DPE",
+      "source": 5
+    },
+    "pathway": {
+      "value": "SSD",
+      "source": 4
+    },
+    "reference": {
+      "value": "SSD-33781208",
+      "source": 4
+    },
+    "lodged": {
+      "value": "2022-07",
+      "source": 4,
+      "note": "inferred from EIS exhibition document dates (July 2022)"
+    },
+    "determined": {
+      "value": "2022",
+      "source": 5,
+      "note": "'late 2022'; exact date not retrieved"
+    },
+    "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/station-road-data-centre-expansion"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null
+  },
+  "jobs_operational": {
+    "value": null,
+    "source": null
+  },
+  "construction_start": {
+    "value": "2023-06",
+    "source": 1,
+    "precision": "month",
+    "note": "Taylor started works June 2023 (master.csv says Jul 2023)"
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": "originally expected late 2024; later Microsoft update said structure, roofing and facade nearing completion; completion date not confirmed"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "status operational not confirmed - completion date not found",
+    "CIV and jobs from SSD-33781208 EIS/assessment report not retrieved (portal fetch blocked)",
+    "exact determination date not found",
+    "lat/lon not geocoded (geocoder blocked)"
+  ]
+}

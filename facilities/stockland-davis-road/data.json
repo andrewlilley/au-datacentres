@@ -1,0 +1,114 @@
+{
+  "id": "stockland-davis-road",
+  "name": "2 Davis Road Data Centre",
+  "operator": "Stockland / EdgeConneX",
+  "status": "under_construction",
+  "location": {
+    "address": {
+      "value": "2 Davis Road, Wetherill Park NSW 2164",
+      "source": 4,
+      "note": "Stockland Wetherill Park Distribution Centre site. SSD-59416728 documents describe the site as 3 Davis Road, Wetherill Park (source 1)."
+    },
+    "suburb": "Wetherill Park",
+    "state": "NSW",
+    "postcode": {
+      "value": "2164",
+      "source": 1,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "Not geocoded: geocoding services (Nominatim etc.) blocked by session egress proxy; to be filled later."
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "Not geocoded: geocoding services (Nominatim etc.) blocked by session egress proxy; to be filled later."
+    }
+  },
+  "builder": {
+    "value": "Lendlease",
+    "source": 3,
+    "note": "Lendlease 'Project Blue Tongue' page: works commenced Apr 2025 after SSDA and CC; hosts the development consent"
+  },
+  "developer": {
+    "value": "Stockland (landowner/proponent); 50:50 partnership with EdgeConneX (operator) from Mar 2026",
+    "source": 4,
+    "note": "SSD applicant/designer Cundall Johnston & Partners (source 1). A post-approval SSD document is titled 'Amazon Web Services Data Centre DC01 SYD067' (source 6), suggesting an AWS end user - unconfirmed."
+  },
+  "mw_it": {
+    "value": 132,
+    "source": 2,
+    "note": "2 buildings x 66 MW IT load (80 MW each) per trackers. Lendlease describes 60 MW first building with provision for a second 60 MW."
+  },
+  "mw_grid": {
+    "value": 180,
+    "source": 1,
+    "note": "SSD description: overall power consumption 180 MW. Proposal/press and IDA list cite 160 MW (2 x 80 MW)."
+  },
+  "cost_aud_m": {
+    "value": 1200,
+    "source": 5,
+    "note": "Project value $1.2 billion per search summary of project listing (Willowtree Planning / portal); CIV not verified from EIS"
+  },
+  "planning": {
+    "authority": {
+      "value": "NSW DPHI",
+      "source": 1,
+      "note": ""
+    },
+    "pathway": {
+      "value": "SSD",
+      "source": 1,
+      "note": ""
+    },
+    "reference": {
+      "value": "SSD-59416728",
+      "source": 1,
+      "note": ""
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": "EIS on exhibition until 15 Apr 2024; lodgement date not found"
+    },
+    "determined": {
+      "value": "2024-12-20",
+      "source": 1,
+      "note": "approved"
+    },
+    "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/davis-road-data-centre-cundall"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": "not found"
+  },
+  "jobs_operational": {
+    "value": 72,
+    "source": 1,
+    "note": "approx. 72 operational jobs"
+  },
+  "construction_start": {
+    "value": "2025-04",
+    "source": 3,
+    "precision": "month",
+    "note": "Lendlease: works commenced Apr 2025; piling due to complete Q1 2026. Stockland Mar 2026 said construction commencement anticipated FY27 (possibly for JV/later stage) - conflict."
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": "master.csv year_complete 2027 unverified"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "IDA listing (Mar 2026) of Stockland 2 Davis Road despite SSD-59416728 approval in Dec 2024 - may be a new/modified application; confirm",
+    "address 2 vs 3 Davis Road - confirm lot",
+    "end user AWS? (SSD post-approval doc titled AWS DC01 SYD067)",
+    "construction start conflict: Lendlease Apr 2025 vs Stockland FY27",
+    "jobs_construction and CIV not verified from EIS (planning portal blocked)",
+    "lat/lon not geocoded (geocoder blocked)"
+  ]
+}
