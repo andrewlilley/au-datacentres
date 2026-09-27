@@ -6,7 +6,7 @@
   "location": {
     "address": {
       "value": "1 Oroya Drive, Truganina VIC 3029",
-      "source": 2,
+      "source": 1,
       "note": ""
     },
     "suburb": "Truganina",
@@ -40,7 +40,7 @@
   "mw_it": {
     "value": 80,
     "source": 1,
-    "note": "building 1 capacity per realestatesource; PGIM says initial 80MW, more subject to power"
+    "note": "realestatesource (23 Sep 2026): 'With an 80-megawatt capacity, it will contain 43,357 square metres'; PGIM (Laughlin): 'the initial 80 megawatts that we have planned', more subject to power"
   },
   "mw_grid": {
     "value": null,
@@ -48,9 +48,9 @@
     "note": ""
   },
   "cost_aud_m": {
-    "value": 1200,
-    "source": 3,
-    "note": "A$1.2bn is PGIM's stated investment for the first of three campus phases; not confirmed as building-1-only cost"
+    "value": 422,
+    "source": 1,
+    "note": "realestatesource (23 Sep 2026): building 1 'Construction costs are estimated at $422m. The project's total end value is expected to circle $1.2 billion'. PGIM/Mingtiandi/Urban Developer: A$1.2bn investment in the first of three campus phases (previous value 1200 recorded here)"
   },
   "planning": {
     "authority": {
@@ -66,19 +66,19 @@
     "reference": {
       "value": "PA2504032",
       "source": 2,
-      "note": "matched by address and applicant (GDCF trust); not confirmed that this is the approved building-1 permit rather than a separate application"
+      "note": "register entry (search snippet; page blocked): 1 Oroya Drive, Truganina VIC 3029, 'use and development of the land for a data centre and the display of directional signage', applicant The Trust Company (Australia) Ltd as trustee of GDCF Truganina Trust; realestatesource (Feb 2026) confirms PGIM's application was made 'via the GDCF Truganina Trust'. Register status not viewable, so link to the Sep 2026 approval is by address/applicant match"
     },
     "lodged": {
       "value": null,
       "source": null,
       "precision": null,
-      "note": ""
+      "note": "before 11 Feb 2026 (realestatesource: PGIM 'has already applied', application 'set to be exhibited soon'); exact date not found"
     },
     "determined": {
       "value": "2026-09",
       "source": 1,
       "precision": "month",
-      "note": "approval reported Sep 2026 by realestatesource; exact date not checked on register"
+      "note": "realestatesource article dated 23 Sep 2026: PGIM 'has secured final approval for the first building'; exact permit date not checked on register"
     },
     "url": "https://www.planning.vic.gov.au/planning-approvals/ministerial-permits-register/ministerial-permits/5615befd-9bb3-f011-bbd2-7ced8d337ed8"
   },
@@ -112,7 +112,8 @@
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "planning.reference PA2504032 needs confirming against register",
-    "cost is phase-level (A$1.2bn), building-1 split unknown"
+    "planning.reference PA2504032 matched by address/applicant; register not viewable to confirm it is the approved permit",
+    "builder and construction dates unknown",
+    "cost 422 is estimated construction cost of building 1; A$1.2bn is first-phase investment/end value"
   ]
 }

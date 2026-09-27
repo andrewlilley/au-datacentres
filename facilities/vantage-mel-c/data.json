@@ -7,14 +7,14 @@
     "address": {
       "value": "Leakes Road, Truganina VIC 3029",
       "source": 1,
-      "note": "street only, per Baxtel; no street number found"
+      "note": "street only: Baxtel MEL-C page gives 'Leakes Rd'; Baxtel MEL-C Bldg2 page gives only 'Truganina VIC 3029'; no street number found"
     },
     "suburb": "Truganina",
     "state": "VIC",
     "postcode": {
       "value": "3029",
       "source": 1,
-      "note": "postcode of Truganina; Laverton North (3026) also possible per master conflicts"
+      "note": "Baxtel MEL-C Bldg2 page gives Truganina VIC 3029; Laverton North (3026) also possible per master conflicts"
     },
     "lat": {
       "value": null,
@@ -66,7 +66,7 @@
     "reference": {
       "value": null,
       "source": null,
-      "note": "PA2403416 (171 Leakes Rd, applicant Aurecon, DFP) was suggested, but The Industrialist describes 171 Leakes Rd as Amazon's data centre site - not attributed to Vantage"
+      "note": "PA2403416 (171 Leakes Rd, applicant Aurecon, DFP) was suggested, but The Industrialist (fetched) describes 171 Leakes Rd as 'Amazon's new data centre site' (12.3 ha sold Aug 2023) - not attributed to Vantage. Adjoining 185 Leakes Rd went to Al Jasser Group for warehousing"
     },
     "lodged": {
       "value": null,
@@ -105,14 +105,15 @@
     "note": ""
   },
   "construction_end": {
-    "value": null,
-    "source": null,
-    "precision": null,
-    "note": ""
+    "value": "2027",
+    "source": 1,
+    "precision": "year",
+    "note": "Baxtel 'Year Planned: 2027' (aggregator; unverified by operator)"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "scope: existence unverified - only Baxtel lists MEL-C; Vantage's own site/news show only MEL1 (Tullamarine); searches found no Vantage Truganina land deal or permit",
+    "scope: existence unverified - only Baxtel lists MEL-C ('Under Construction / Planned', 2 floors, Year Planned 2027); Vantage's own site shows only MEL1 (Tullamarine); no Vantage Truganina land deal or permit found",
+    "possible overlap with Baxtel 'Vantage: Melbourne MEL-B' (second Melbourne campus, 29 acres, planned 2028, no address); ITK notes Vantage 'has flagged a separate second Melbourne site'",
     "PA2403416 at 171 Leakes Rd appears to be Amazon (AWS), not Vantage",
     "status and MW unverified"
   ]

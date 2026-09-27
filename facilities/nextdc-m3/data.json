@@ -6,8 +6,8 @@
   "location": {
     "address": {
       "value": "25 Indwe Street, West Footscray VIC 3012",
-      "source": 1,
-      "note": "realestatesource gives 25-27 Indwe Street for the original permit; campus since extended to 1 and 1-13 Paramount Road and 39 Indwe St"
+      "source": 4,
+      "note": "NEXTDC page gives West Footscray only; realestatesource (fetched) gives 25-27 Indwe Street for the original permit; campus since extended to 1 and 1-13 Paramount Road and 39 Indwe St (ITK: ~10 ha in two tranches)"
     },
     "suburb": "West Footscray",
     "state": "VIC",
@@ -30,7 +30,7 @@
   "builder": {
     "value": "Kapitol Group",
     "source": 2,
-    "note": "principal contractor for M3 (stage 1); builder for later phases not confirmed"
+    "note": "Kapitol page: primary constructor, ECI converted to GMP contract, stage 1 completed Sep 2022. Kapitol also reported as NEXTDC's construction partner on the M3 site in Jan 2026 (EPA Victoria fine for sediment into Stony Creek, per source 10), so likely builder of later phases too - not confirmed by a contractor/operator release"
   },
   "developer": {
     "value": "NEXTDC",
@@ -40,7 +40,7 @@
   "mw_it": {
     "value": 225,
     "source": 1,
-    "note": "master-plan IT capacity quoted by NEXTDC; original permit/launch quoted 150MW (source 4); built capacity lower (first phase 13.5MW; +42MW FY26 per master.csv)"
+    "note": "current NEXTDC M3 page: 225MW IT, 41,000 m2 technical space, 23,000 racks (campus master plan). Original permit/launch quoted 150MW (sources 3,4); Westsider says capacity approved at the Feb 2021 council meeting was 13.5MW; Kapitol: stage 1 = 27MW; ITK cites FY25 results 'upsized by 50 MW to 200 MW'. Built capacity lower (+42MW FY26 per master.csv)"
   },
   "mw_grid": {
     "value": null,
@@ -50,17 +50,17 @@
   "cost_aud_m": {
     "value": 229,
     "source": 4,
-    "note": "development cost of original 150MW M3 permit per realestatesource; 4D Workshop/Unison quote $1.5bn project value for full campus"
+    "note": "realestatesource (Aug 2021): NEXTDC 'was recently permitted to construct a $229m, 150MW hyperscale data centre - known as M3'. Later media (SMH via source 11; source 10) call it a '$1.5 billion' facility (full campus incl. expansions). 4D Workshop lists its project value as $50m (not $1.5bn as previously recorded; likely a stage/structural scope value)"
   },
   "planning": {
     "authority": {
       "value": "Maribyrnong City Council",
-      "source": 4,
-      "note": "original permit reportedly granted by council (search snippet: approved 2021, ~80 objections); expansion PA2604231 is with Minister for Planning under DFP"
+      "source": 9,
+      "note": "Westsider: in Feb 2021 NEXTDC CEO 'addressed the Maribyrnong City Council seeking approval' for 25-27 Indwe St; growth to 225MW then happened 'stage by stage under the original council permit'. Star Weekly (search snippet only): application 'approved at a meeting of Maribyrnong council'. Expansion PA2604231 is a separate ministerial (DFP) application, under assessment"
     },
     "pathway": {
       "value": "local council planning permit",
-      "source": 4,
+      "source": 9,
       "note": ""
     },
     "reference": {
@@ -75,10 +75,10 @@
       "note": ""
     },
     "determined": {
-      "value": null,
-      "source": null,
-      "precision": null,
-      "note": "search snippet (source unclear: Gadens/Substack fact sheet) says council approved original permit in 2021; unverified"
+      "value": "2021-02",
+      "source": 9,
+      "precision": "month",
+      "note": "council meeting Feb 2021 per Westsider ('The capacity approved that day was 13.5 megawatts'); exact day and permit number not found"
     },
     "url": null
   },
@@ -89,7 +89,22 @@
     "scope": null,
     "note": ""
   },
-  "jobs_construction_other": [],
+  "jobs_construction_other": [
+    {
+      "value": 100,
+      "source": 12,
+      "basis": "unstated",
+      "scope": "unstated",
+      "note": "Star Weekly (search snippet only, page 403): '$229 million data centre ... applauded for creating 100 jobs' - phase (construction vs ongoing) not stated; original $229m/150MW proposal"
+    },
+    {
+      "value": 1000,
+      "source": 11,
+      "basis": "unstated",
+      "scope": "direct",
+      "note": "SMH report (Feb 2026, via The Daily Perspective): 'Today, more than 1,000 construction workers are transforming...' - point-in-time on-site workforce during the expansion phase, not a stated peak; lower bound ('more than')"
+    }
+  ],
   "jobs_operational": {
     "value": null,
     "source": null,
@@ -108,11 +123,12 @@
     "value": "2022-09",
     "source": 2,
     "precision": "month",
-    "note": "stage 1 completion per Kapitol; opened Oct 2022; further phases ongoing (165MW in progress for FY27)"
+    "note": "stage 1 completion per Kapitol ('The project was completed in September 2022'); opened Oct 2022 (Built Offsite); further phases ongoing (165MW in progress for FY27 per master.csv)"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "council permit number and dates not found (register not reachable)",
-    "phased campus: construction_end refers to stage 1 only"
+    "council permit number not found (Maribyrnong register not reachable); determined month from Westsider only",
+    "phased campus: construction_end refers to stage 1 only; later-phase builder likely Kapitol but unconfirmed",
+    "jobs: 100-jobs figure only from search snippet (Star Weekly 403)"
   ]
 }
