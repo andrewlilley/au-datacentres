@@ -1,0 +1,125 @@
+{
+  "id": "cdc-mp4",
+  "name": "CDC Marsden Park MP4 (DC4)",
+  "operator": "CDC Data Centres",
+  "status": "approved",
+  "location": {
+    "address": {
+      "value": "105 & 113 Hollinsworth Road, Marsden Park NSW 2765",
+      "source": 2,
+      "note": "Campus street address (both lots); building position within campus not published."
+    },
+    "suburb": "Marsden Park",
+    "state": "NSW",
+    "postcode": {
+      "value": "2765",
+      "source": 2
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "Not geocoded: Nominatim and all mapping hosts blocked by the session egress proxy. Geocode from 105 Hollinsworth Road, Marsden Park NSW 2765 later."
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "Not geocoded: Nominatim and all mapping hosts blocked by the session egress proxy. Geocode from 105 Hollinsworth Road, Marsden Park NSW 2765 later."
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": "Head contractor not found"
+  },
+  "developer": {
+    "value": "CDC Data Centres",
+    "source": 9,
+    "note": "Applicant for SSD-70889211 (Mecone acted as planning consultant)"
+  },
+  "mw_it": {
+    "value": 84,
+    "source": 17,
+    "note": "Estimate: campus 504 MW IT / 6 buildings = 84 MW average; datacentermap lists DC5 at 84 MW. Per-building IT MW in the EIS not confirmed (EIS not directly readable). CDC Mar 2026 says campus expanded to 700MW+ after densification, so per-building figure may rise."
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": "Not stated separately. SSD describes 'total power consumption of 504 MW' for the campus and a 720 MW/MVA substation (campus-level)."
+  },
+  "cost_aud_m": {
+    "value": 3100,
+    "source": 4,
+    "note": "Campus total capital investment value for all six buildings under SSD-70889211 (not broken down per building). SEARs request stated AU$1.4bn (source 7)."
+  },
+  "planning": {
+    "authority": {
+      "value": "NSW DPHI",
+      "source": 1,
+      "note": "Determined by departmental delegate (Director) per source 19"
+    },
+    "pathway": {
+      "value": "SSD",
+      "source": 1
+    },
+    "reference": {
+      "value": "SSD-70889211",
+      "source": 1
+    },
+    "lodged": {
+      "value": "2024-11",
+      "source": 3,
+      "precision": "month",
+      "note": "EIS documents dated 1-4 Nov 2024; SEARs requested 15 May 2024 (source 8). Exact lodgement date not confirmed."
+    },
+    "determined": {
+      "value": "2025-11",
+      "source": 6,
+      "precision": "month",
+      "note": "Approval announced 28 Nov 2025; project list notes cite 27 Nov 2025. Exact consent date not confirmed (portal blocked)."
+    },
+    "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/marsden-park-data-centre"
+  },
+  "jobs_construction": {
+    "value": 220,
+    "source": 4,
+    "note": "CAMPUS TOTAL (all six buildings). NSW ministerial release (search extract): '220 construction jobs'; basis not defined - check EIS",
+    "basis": "unstated",
+    "scope": "unstated"
+  },
+  "jobs_construction_other": [
+    {
+      "value": 200,
+      "source": 18,
+      "basis": "unstated",
+      "scope": "unstated",
+      "note": "CAMPUS TOTAL. Information Age (search extract): '200 construction jobs'; differs from ministerial release"
+    }
+  ],
+  "jobs_operational": {
+    "value": 265,
+    "source": 4,
+    "note": "CAMPUS TOTAL at full operation. NSW ministerial release (search extract): '265 operational jobs'; Information Age also reports 265",
+    "basis": "ongoing_headcount",
+    "scope": "unstated"
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": "EIS staging: Stage 1 - MP1.S2 & MP4, 1.5 years construction. Start date not found."
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": "Not found."
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "Construction status unknown: Infratil Apr 2026 says >200 MW commenced at Marsden Park but does not name buildings (MP4 is in EIS Stage 1 with MP1.S2, so likely among them)",
+    "Builder unknown",
+    "Per-building IT MW not confirmed",
+    "lat/lon not geocoded (network blocked)"
+  ]
+}

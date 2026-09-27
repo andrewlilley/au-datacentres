@@ -1,0 +1,121 @@
+{
+  "id": "airtrunk-syd3",
+  "name": "AirTrunk SYD3 Sydney West",
+  "operator": "AirTrunk",
+  "status": "under_construction",
+  "location": {
+    "address": {
+      "value": "51 Huntingwood Drive, Huntingwood NSW 2148",
+      "source": 1,
+      "note": ""
+    },
+    "suburb": "Huntingwood",
+    "state": "NSW",
+    "postcode": {
+      "value": "2148",
+      "source": 7,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: Nominatim blocked by session egress proxy"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: Nominatim blocked by session egress proxy"
+    }
+  },
+  "builder": {
+    "value": "A W Edwards",
+    "source": 3,
+    "note": "awarded contract to deliver the development"
+  },
+  "developer": {
+    "value": "AirTrunk",
+    "source": 5,
+    "note": "SSD documents prepared for EMKC3 (AirTrunk-related applicant entity)"
+  },
+  "mw_it": {
+    "value": 320,
+    "source": 5,
+    "note": "320+ MW IT load per AirTrunk/DCD; campus now marketed as 400+ MW; community site gives 2x48 + 3x100 = 396 MW across five shells"
+  },
+  "mw_grid": {
+    "value": 400,
+    "source": 1,
+    "note": "SSD description: total power consumption / operational capacity 400 MW; Modification 1 'Reduced Scale' may change this"
+  },
+  "cost_aud_m": {
+    "value": 1000,
+    "source": 4,
+    "note": "approximate: 'close to AU$1 billion' per DCD search extract; CRE described it as multi-billion; SSD CIV not found"
+  },
+  "planning": {
+    "authority": {
+      "value": "NSW Department of Planning (DPE, now DPHI)",
+      "source": 1,
+      "note": ""
+    },
+    "pathway": {
+      "value": "SSD",
+      "source": 1,
+      "note": ""
+    },
+    "reference": {
+      "value": "SSD-41589232",
+      "source": 1,
+      "note": "plus Modification 1 (reduced scale)"
+    },
+    "lodged": {
+      "value": null,
+      "precision": null,
+      "source": null,
+      "note": "architectural drawings dated Jul 2022 filed under SSD 2022-09-16 (source 2); scoping/other document Feb 2023; master notes say SSD lodged Jul 2023; exact lodgement date unconfirmed"
+    },
+    "determined": {
+      "value": null,
+      "precision": null,
+      "source": 1,
+      "note": "portal shows Approved; date not found (construction commenced 2023, so likely 2023)"
+    },
+    "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/51-huntingwood-drive-data-centre"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": "operator says 'hundreds' of construction and operational jobs",
+    "basis": null,
+    "scope": null
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": "",
+    "basis": null,
+    "scope": null
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": "2023",
+    "precision": "year",
+    "source": 3,
+    "note": ""
+  },
+  "construction_end": {
+    "value": null,
+    "precision": null,
+    "source": null,
+    "note": "Baxtel (per master notes): first capacity 2027, expansions to 2030"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "SSD-41589232 CIV, jobs, lodged and determined dates need the EIS/assessment report (planning portal blocked this session)",
+    "effect of Modification 1 (reduced scale) on MW/GFA",
+    "mw_it 320 vs 400+ marketed; mw_grid 400 from SSD description",
+    "lat/lon not geocoded (Nominatim blocked)",
+    "construction end / first phase completion date unconfirmed"
+  ]
+}

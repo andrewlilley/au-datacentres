@@ -1,0 +1,112 @@
+{
+  "id": "cdc-ec2",
+  "name": "CDC Eastern Creek 2",
+  "operator": "CDC Data Centres",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "17 Roberts Road, Eastern Creek NSW 2766",
+      "source": 4,
+      "note": "Campus address; Lot 2 DP 1159804 per SSD-10330 SEARs request."
+    },
+    "suburb": "Eastern Creek",
+    "state": "NSW",
+    "postcode": {
+      "value": "2766",
+      "source": 5
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "Not geocoded: Nominatim and other geocoders (and all planning/operator sites) were blocked by the session's egress proxy. Geocode 17 Roberts Road, Eastern Creek NSW 2766 (Lot 2 DP 1159804) later."
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "Not geocoded: Nominatim and other geocoders (and all planning/operator sites) were blocked by the session's egress proxy. Geocode 17 Roberts Road, Eastern Creek NSW 2766 (Lot 2 DP 1159804) later."
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": "Fit-out contractor not found."
+  },
+  "developer": {
+    "value": "CDC Data Centres",
+    "source": 2,
+    "note": "CDC fitted out/delivered the hall in an existing ex-HP building."
+  },
+  "mw_it": {
+    "value": 13,
+    "source": 2,
+    "note": "13 MW per CDC Oct 2019 deck; DCD Dec 2022 gives 20 MW (source 6) - may reflect later upgrade."
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null
+  },
+  "planning": {
+    "authority": {
+      "value": null,
+      "source": null,
+      "note": "Approval for EC2 fit-out not identified."
+    },
+    "pathway": {
+      "value": null,
+      "source": null
+    },
+    "reference": {
+      "value": null,
+      "source": null
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "precision": null
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "precision": null
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": "Not found; EIS jobs figures not accessible (portal blocked). CDC says campus construction since 2018 'created hundreds of jobs'.",
+    "basis": null,
+    "scope": null
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": "",
+    "basis": null,
+    "scope": null
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": "CDC works would have started after acquisition (14 Dec 2018); exact date not found."
+  },
+  "construction_end": {
+    "value": "2019-12",
+    "source": 2,
+    "precision": "month",
+    "note": "Planned 'final delivery date' per Oct 2019 deck; actual completion not confirmed."
+  },
+  "open_questions": [
+    "scope: EC2 appears to be the second pre-existing 6,000 m2 data hall in the ex-HP/DXC building (shell built c.2011-12), fitted out/delivered by CDC in 2019 - confirm whether this counts as a facility completed after 2018-09-01.",
+    "mw_it: 13 MW (2019) vs 20 MW (DCD 2022).",
+    "lat/lon not geocoded (geocoder blocked)."
+  ],
+  "last_checked": "2026-09-27"
+}

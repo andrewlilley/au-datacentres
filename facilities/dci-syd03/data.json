@@ -1,0 +1,120 @@
+{
+  "id": "dci-syd03",
+  "name": "DCI SYD03 (Eastern Creek Data Centre Expansion)",
+  "operator": "DCI Data Centers",
+  "status": "approved",
+  "location": {
+    "address": {
+      "value": "90 Peter Brock Drive, Eastern Creek NSW",
+      "source": 1,
+      "note": "SSD site address; datacentermap lists '1 Raceway Pl' (source 7)"
+    },
+    "suburb": "Eastern Creek",
+    "state": "NSW",
+    "postcode": {
+      "value": "2766",
+      "source": 8,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: Nominatim blocked by session egress proxy"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: Nominatim blocked by session egress proxy"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "developer": {
+    "value": "DCI Data Centers",
+    "source": 5,
+    "note": "SSD applicant NineZero DC Sub TC I Pty Ltd (source 1); NineZero DC entities are DCI/Brookfield (source 5)"
+  },
+  "mw_it": {
+    "value": null,
+    "source": null,
+    "note": "listings give ~36 MW for 'SYD02/SYD03' combined (source 6); Mod 2 increased power consumption - figure not obtained"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": "EIS CIV not obtained (planning portal blocked)"
+  },
+  "planning": {
+    "authority": {
+      "value": "NSW DPHI",
+      "source": 1,
+      "note": "Blacktown LGA"
+    },
+    "pathway": {
+      "value": "SSD",
+      "source": 1,
+      "note": ""
+    },
+    "reference": {
+      "value": "SSD-21342738",
+      "source": 1,
+      "note": "modified by Mod 1 (water storage) and Mod 2 (power consumption increase)"
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "determined": {
+      "value": "2023-09-01",
+      "source": 2,
+      "precision": "day",
+      "note": "per master.csv and consent snippet referencing 1 Sep 2023; not read directly from consent"
+    },
+    "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/eastern-creek-data-centre-expansion-project"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": "",
+    "basis": null,
+    "scope": null
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": "",
+    "basis": null,
+    "scope": null
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": ""
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": ""
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "scope/duplicate: listings describe SSD-21342738 as 'SYD02/SYD03'; may be the same building as dci-syd02 (Blacktown DA 2021, 36 MW) - relationship unresolved",
+    "CIV, jobs and MW from EIS/assessment report not obtained (planningportal.nsw.gov.au blocked by egress proxy)",
+    "construction status unknown; builder unknown",
+    "Mod 2 power increase figure and date not obtained",
+    "lat/lon not geocoded (Nominatim blocked this session)"
+  ]
+}

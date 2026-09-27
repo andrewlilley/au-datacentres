@@ -1,0 +1,111 @@
+{
+  "id": "cdc-ec1",
+  "name": "Eastern Creek 1 (EC1)",
+  "operator": "CDC Data Centres",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "17 Roberts Road, Eastern Creek NSW 2766",
+      "source": 5,
+      "note": "Campus address; Lot 2 DP 1159804 per SSD-10330 SEARs request."
+    },
+    "suburb": "Eastern Creek",
+    "state": "NSW",
+    "postcode": {
+      "value": "2766",
+      "source": 6
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "Not geocoded: Nominatim and other geocoders (and all planning/operator sites) were blocked by the session's egress proxy. Geocode 17 Roberts Road, Eastern Creek NSW 2766 (Lot 2 DP 1159804) later."
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "Not geocoded: Nominatim and other geocoders (and all planning/operator sites) were blocked by the session's egress proxy. Geocode 17 Roberts Road, Eastern Creek NSW 2766 (Lot 2 DP 1159804) later."
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": "Original building constructed for HP (Aurora, 2011-12); head contractor not found."
+  },
+  "developer": {
+    "value": "Hewlett-Packard (HP Enterprise Services)",
+    "source": 4,
+    "note": "Original developer of the building housing EC1; site later owned by DXC Technology and acquired by CDC 14 Dec 2018 (source 1)."
+  },
+  "mw_it": {
+    "value": 6,
+    "source": 2,
+    "note": "6 MW per CDC Oct 2019 deck; DCD Dec 2022 gives 7 MW (source 7)."
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": "HP reported initial A$119m build, ~A$200m spent on whole Aurora site by 2012 (source 4); not specific to EC1."
+  },
+  "planning": {
+    "authority": {
+      "value": null,
+      "source": null,
+      "note": "Original HP-era approval not identified; CDC's SSD-10330 (2020) covers later buildings."
+    },
+    "pathway": {
+      "value": null,
+      "source": null
+    },
+    "reference": {
+      "value": null,
+      "source": null
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "precision": null
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "precision": null
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": "Not found; EIS jobs figures not accessible (portal blocked). CDC says campus construction since 2018 'created hundreds of jobs'.",
+    "basis": null,
+    "scope": null
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": "",
+    "basis": null,
+    "scope": null
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "precision": null
+  },
+  "construction_end": {
+    "value": "2011-12",
+    "source": 4,
+    "precision": "month",
+    "note": "EC1 is inferred to be one of the two pre-existing ex-HP/DXC data halls (source 2); HP Aurora first services 1 Dec 2011, formal opening June 2012 (source 3)."
+  },
+  "open_questions": [
+    "scope: EC1 appears to be a pre-existing ex-HP 'Aurora' data hall (built 2011-12, acquired by CDC from DXC 14 Dec 2018 as an operational data centre), i.e. completed before 2018-09-01; likely out of scope unless CDC's re-commissioning counts as new build.",
+    "lat/lon not geocoded (geocoder blocked)."
+  ],
+  "last_checked": "2026-09-27"
+}
