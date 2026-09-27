@@ -35,12 +35,12 @@
   "developer": {
     "value": "STACK Infrastructure (with Hickory)",
     "source": 1,
-    "note": "Hickory secured the development approval and partnered with STACK on its 2022 Australian entry (source 3)"
+    "note": "STACK partnered with Hickory (sources 1, 3). DA applicant/agent: Taylor Burrell Barnett (source 8)"
   },
   "mw_it": {
     "value": 16,
-    "source": 5,
-    "note": "campus of two buildings: PER01A 8 MW + PER01B 16 MW = 24 MW; ~20,500 sqm at full build-out"
+    "source": 6,
+    "note": "STACK Perth campus brochure: 'PER01, an 8MW building, and PER02, a 16MW building, for a combined total of 24MW' on a 2.2 ha campus (source 6). This record = PER02; Datacentermap calls the buildings PER01A/PER01B (source 5)"
   },
   "mw_grid": {
     "value": null,
@@ -50,36 +50,36 @@
   "cost_aud_m": {
     "value": null,
     "source": null,
-    "note": "not found (STACK sought AU$1.3bn loan for Australian buildout, not Perth-specific)"
+    "note": "not stated per building. City of Wanneroo DA register gives value of works AUD 9.5m for DA2022/157 'Industrial - Commercial Development (Data Centre & Ancillary Office)' covering the campus (source 8); not split by building"
   },
   "planning": {
     "authority": {
-      "value": null,
-      "source": null,
-      "note": "not found; site is in City of Wanneroo"
+      "value": "City of Wanneroo",
+      "source": 8,
+      "note": "listed in the City's monthly register of approved development applications (not a DAP application)"
     },
     "pathway": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "Local government development application",
+      "source": 8,
+      "note": "described as 'Industrial - Commercial Development (Data Centre & Ancillary Office)'; amendment DA2022/934 described as 'Unlisted Use (Data Centre/Ancillary Office - Amendment to DA2022/157)' (source 9)"
     },
     "reference": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "DA2022/157",
+      "source": 8,
+      "note": "amended by DA2022/934, approved 2022-08-04 (source 9)"
     },
     "lodged": {
       "value": null,
       "source": null,
-      "note": ""
+      "note": "not found (DA2022/xxx numbering implies lodged in 2022)"
     },
     "determined": {
-      "value": "2022",
-      "source": 1,
-      "note": "STACK 2022 release says Perth project 'has received development approval'; exact date not found",
-      "precision": "year"
+      "value": "2022-04-19",
+      "source": 8,
+      "note": "approval date per City of Wanneroo approved DA register, April 2022; amendment DA2022/934 approved 2022-08-04",
+      "precision": "day"
     },
-    "url": null
+    "url": "https://www.wanneroo.wa.gov.au/download/downloads/id/4427/approved_development_applications_-_april_2022.pdf"
   },
   "jobs_construction": {
     "value": null,
@@ -100,7 +100,7 @@
   "construction_start": {
     "value": null,
     "source": null,
-    "note": "STACK planned groundbreaking Q3 2022 (source 1); did not occur per available evidence",
+    "note": "STACK planned groundbreaking Q3 2022 (source 1); no data-centre building permit for 92 Windsor Rd appears in City of Wanneroo approved building application registers Aug 2020 - mid 2026 (sources 8-12 and other monthly registers checked)",
     "precision": null
   },
   "construction_end": {
@@ -111,10 +111,9 @@
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "approval date, authority and reference not found (City of Wanneroo or Metro Outer DAP)",
-    "approval validity: DA reported 2022, construction never started; WA approvals typically lapse if not substantially commenced within the approval period (often 2-4 years) - likely lapsed but unconfirmed",
-    "current status unclear per DCD June 2026; no evidence of construction",
-    "scope: approval likely lapsed and project not progressed since 2022 - consider removing if lapse confirmed",
-    "possible duplicate/second stage of stack-per01a (same site and DA)"
+    "approval period of DA2022/157 not stated in the register; no extension found. WA deemed provisions default to 2 years unless the approval says otherwise, so it has likely lapsed (unconfirmed)",
+    "scope: approval likely lapsed and data centre abandoned - since 2025 the City approved storage units/warehouses at 92 Windsor Road (DA2024/1800 approved 2025-03-19; BA2025/2373 13 mini-warehouse tenancies 2025-07-29; DA2025/1320 storage units and warehouses 2025-12-04; sources 10-12). Unclear whether these cover the whole 2.2 ha campus; consider removing",
+    "DCD (June 2026) says Perth project status unclear (source 2)",
+    "same site and DA as stack-per01a (second building PER02, 16 MW); not a duplicate but shares one approval"
   ]
 }

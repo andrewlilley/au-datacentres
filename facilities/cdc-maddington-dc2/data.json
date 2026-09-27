@@ -6,14 +6,14 @@
   "location": {
     "address": {
       "value": "307 Kenwick Road, Maddington WA 6109",
-      "source": 1,
-      "note": "campus site: Lots 1, 10, 1 (No. 307, 323, 329) Kenwick Road & Lot 500 (No. 582) Bickley Road; building position within campus unknown"
+      "source": 7,
+      "note": "campus site: Lots 1, 10, 1 (No. 307, 323, 329) Kenwick Road & Lot 500 (No. 582) Bickley Road, Maddington (7.6 ha; lots to be amalgamated, condition 5). Building MA.2 (within campus) per DA site plan."
     },
     "suburb": "Maddington",
     "state": "WA",
     "postcode": {
       "value": "6109",
-      "source": 2,
+      "source": 7,
       "note": ""
     },
     "lat": {
@@ -30,64 +30,64 @@
   "builder": {
     "value": null,
     "source": null,
-    "note": "no head contractor found in searches"
+    "note": "no head contractor named in DAP documents, CDC or press sources checked (Sept 2026)"
   },
   "developer": {
     "value": "CDC Data Centres",
-    "source": 3,
-    "note": "Developed (developedproperty.com.au) assisted CDC with site selection, acquisition and approval"
+    "source": 7,
+    "note": "owner Canberra Data Centres Proprietary Ltd; applicant/planning consultant Developed (Developed Property) per RAR"
   },
   "mw_it": {
     "value": null,
     "source": null,
-    "note": "per-building MW not found. Campus: up to 200MW marketed by CDC (src 5); DAP report reportedly 150MW IT across four buildings (src 7, unverified)"
+    "note": "per-building IT MW not stated. Campus: 150MW IT capacity (CDC deputation, src 1); 145MW in Stantec acoustic report (src 7); 200MW marketed by CDC/Developed (src 4, 9). Building MA.2 has 8 of the campus's 24 data halls (site plan, src 7); pro-rata by halls would be ~50MW of 150MW - estimate only, not recorded as value. DC2 assumed to correspond to DA building MA.2."
   },
   "mw_grid": {
     "value": null,
     "source": null,
-    "note": ""
+    "note": "not stated; acoustic report assumes five 55MVA transformers in the future substation (src 7), which is a separate DA (condition 13)"
   },
   "cost_aud_m": {
     "value": null,
     "source": null,
-    "note": "not stated; A$415m stage 1 figure attached to DC1"
+    "note": "not stated per building; DA value A$415m for the whole application (src 7), which CDC describes as the first-stage investment (recorded on DC1)"
   },
   "planning": {
     "authority": {
-      "value": "Metro Outer Development Assessment Panel (responsible authority report by City of Gosnells)",
-      "source": 1,
+      "value": "Metro Outer Development Assessment Panel (City of Gosnells responsible authority)",
+      "source": 8,
       "note": ""
     },
     "pathway": {
       "value": "DAP",
-      "source": 1,
-      "note": "lodged as 'Proposed Warehouses and Ancillary Structures'; one approval covers all four buildings"
+      "source": 7,
+      "note": "Form 1 mandatory DAP application, lodged as 'Proposed Warehouses and Ancillary Structures'; one approval covers all four buildings, built in four stages"
     },
     "reference": {
       "value": "DAP/25/02926",
-      "source": 1,
-      "note": ""
+      "source": 7,
+      "note": "City of Gosnells ref DA25/00259"
     },
     "lodged": {
-      "value": "2025-06-04",
-      "source": 2,
-      "note": "PlanningAlerts: found 7 Jun 2025, received 3 days earlier",
-      "precision": "day"
+      "value": "2025-06-24",
+      "source": 7,
+      "precision": "day",
+      "note": "RAR 'Application Received Date: 24 June 2025'. PlanningAlerts listed DA25/00259 on 7 Jun 2025 (src 2), i.e. City received it earlier in June"
     },
     "determined": {
       "value": "2025-09-10",
-      "source": 1,
-      "note": "date of Metro Outer DAP meeting that heard the application; approval confirmed by src 3/4. master.csv notes say approved 22 Sep 2025 (possibly publication date); exact determination date not verified from minutes",
-      "precision": "day"
+      "source": 8,
+      "precision": "day",
+      "note": "approved unanimously (primary motion as amended) at MODAP/102 on 10 Sep 2025. Condition 2: valid four years from approval; lapses if not substantially commenced by ~2029-09-10. Earlier '22 Sep 2025' in master.csv not supported"
     },
-    "url": "https://www.planning.wa.gov.au/docs/default-source/daps/related-information---no-102---part-b---city-of-gosnells.pdf?sfvrsn=f47a3ead_1"
+    "url": "https://www.planning.wa.gov.au/docs/default-source/daps/agenda---no-102---city-of-gosnells.pdf"
   },
   "jobs_construction": {
     "value": null,
     "source": null,
     "basis": null,
     "scope": null,
-    "note": ""
+    "note": "no construction workforce figure in RAR/planning report; CDC says 'thousands of jobs across multiple industries throughout the course of construction and into operation' (src 5) - unquantified"
   },
   "jobs_construction_other": [],
   "jobs_operational": {
@@ -95,25 +95,34 @@
     "source": null,
     "basis": null,
     "scope": null,
-    "note": ""
+    "note": "only a campus-wide figure exists (see _other)"
   },
-  "jobs_operational_other": [],
+  "jobs_operational_other": [
+    {
+      "value": 110,
+      "source": 7,
+      "basis": "ongoing_headcount",
+      "scope": "direct",
+      "note": "campus-wide (all four buildings): RAR 'A maximum of 110 staff working from the site to maintain the data centre'"
+    }
+  ],
   "construction_start": {
     "value": null,
     "source": null,
-    "note": "construction reportedly to begin shortly after approval (late 2025); no confirmed date",
-    "precision": null
+    "precision": null,
+    "note": "later stage; planning report: 'Future stages to follow upon completion of Stage 1' (src 7)"
   },
   "construction_end": {
     "value": null,
     "source": null,
-    "note": "",
-    "precision": null
+    "precision": null,
+    "note": ""
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "construction status of this building unknown (staged campus)",
-    "per-building MW unknown",
-    "DAP report PDF not read directly (egress blocked)"
+    "builder unknown",
+    "per-building IT MW not stated (campus 150MW in DA vs 200MW marketed)",
+    "construction timing of this later stage unknown",
+    "DCn-to-MA.n building mapping assumed (datacentermap naming vs DA plan labels)"
   ]
 }

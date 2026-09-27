@@ -30,17 +30,17 @@
   "builder": {
     "value": "Multiplex",
     "source": 2,
-    "note": "head contractor for Stage 1 base build; Multiplex also engaged July 2022 for P2 white space/infrastructure expansion fit-out"
+    "note": "Multiplex appointed to deliver Stage 1 (announced 26 Aug 2019) after delivering early works including the P2 microsite (source 2); 'completing the project on time and on budget' (source 8). Multiplex also engaged July 2022 for white space/infrastructure fit-out (source 3, search extract)"
   },
   "developer": {
     "value": "NEXTDC",
-    "source": 1,
+    "source": 2,
     "note": ""
   },
   "mw_it": {
     "value": 20,
-    "source": 1,
-    "note": "design IT capacity 20 MW+ (Tier IV); Multiplex 2022 fit-out gave 3.9 MW initial IT capacity with 3.5 MW reserved; master.csv note says 6 MW built at 1H26 with further 4 MW being progressed"
+    "source": 2,
+    "note": "20 MW design capacity, 10,000 sqm technical space (source 2; source 8 '20MW hyperscale'). Multiplex 2022 fit-out gave 3.9 MW initial IT capacity with 3.5 MW reserved (source 3, search extract); NEXTDC 1H26 release: further 4 MW 'continues to be progressed' at P2 at 31 Dec 2025 (source 10)"
   },
   "mw_grid": {
     "value": null,
@@ -50,13 +50,13 @@
   "cost_aud_m": {
     "value": null,
     "source": null,
-    "note": "project cost not found"
+    "note": "project cost not found in NEXTDC releases read"
   },
   "planning": {
     "authority": {
       "value": null,
       "source": null,
-      "note": "not found (site in City of Perth; may have been DAP or City of Perth)"
+      "note": "not found; site in City of Perth (could have been City of Perth, Metro Central JDAP or the then MRA) - not established"
     },
     "pathway": {
       "value": null,
@@ -97,22 +97,21 @@
   },
   "jobs_operational_other": [],
   "construction_start": {
-    "value": "2019-01",
-    "source": 3,
-    "note": "estimate: derived from Multiplex statement that Stage 1 was built in 18 months to July 2020 completion",
-    "precision": "month"
+    "value": "2018",
+    "source": 7,
+    "note": "NEXTDC 1H19 results (half-year to 31 Dec 2018): 'P2 ground works begun for the new 20MW Tier IV site', so groundworks began Jul-Dec 2018 (exact month unknown). Multiplex main Stage 1 contract announced 26 Aug 2019 (source 2). Previous estimate 2019-01 (from Multiplex '18 months' build claim, source 3) superseded",
+    "precision": "year"
   },
   "construction_end": {
     "value": "2020-07",
-    "source": 3,
-    "note": "Stage 1 completed/opened July 2020 (opened 31 Jul 2020 per master.csv/DCD)",
+    "source": 8,
+    "note": "Stage 1 officially opened; NEXTDC release dated 30 Jul 2020 (source 8); DCD/master.csv give 31 Jul 2020; datacenternews article dated 4 Aug 2020 (source 11). FY19 results had PC of first tower due 2H20 (source 9)",
     "precision": "month"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
     "planning approval authority/reference/date not found",
     "cost not found",
-    "jobs not found",
-    "construction start is an estimate (18-month build)"
+    "jobs not found"
   ]
 }

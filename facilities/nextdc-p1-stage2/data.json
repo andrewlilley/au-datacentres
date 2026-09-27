@@ -6,14 +6,14 @@
   "location": {
     "address": {
       "value": "4 Millrose Drive, Malaga WA 6090",
-      "source": 1,
-      "note": "DA covers Lot 101 (No. 10) Malaga Drive (existing P1) extended onto Lot 327 (No. 10) and Lot 328 (No. 12) Millrose Drive; combined site 10,858 sqm (source 4)"
+      "source": 3,
+      "note": "Address per Multiplex/Industrialist. DA DAP/24/02641 covers Lot 101 (No. 10) Malaga Drive (existing P1), Lot 327 (No. 10) and Lot 328 (No. 12) Millrose Drive, Malaga (source 6); combined site 10,858 sqm (source 4)"
     },
     "suburb": "Malaga",
     "state": "WA",
     "postcode": {
       "value": "6090",
-      "source": 1,
+      "source": 3,
       "note": ""
     },
     "lat": {
@@ -29,8 +29,8 @@
   },
   "builder": {
     "value": "Multiplex",
-    "source": 1,
-    "note": "head contractor; Multiplex's fifth NEXTDC data centre"
+    "source": 3,
+    "note": "head contractor; 'fifth data centre Multiplex has contracted for NEXTDC' (sources 3, 7)"
   },
   "developer": {
     "value": "NEXTDC",
@@ -40,7 +40,7 @@
   "mw_it": {
     "value": 6,
     "source": 1,
-    "note": "incremental IT capacity: Stage 2 doubles P1 long-term IT capacity from 6 MW to 12 MW (new 1,069 sqm data hall)"
+    "note": "incremental IT capacity: Multiplex project page (source 1, search extract only; page blocks automated fetch) says Stage 2 doubles P1 long-term IT capacity from 6 MW to 12 MW with a new 1,069 sqm data hall; press releases read in full say it will 'double the data centre's current IT capacity' (sources 3, 7). NEXTDC 1H26 ASX release lists 2 MW 'continues to be progressed' at P1 Perth at 31 Dec 2025 (source 8) - likely the initial fit-out tranche, not total stage capacity. DAP presentation: six-storey building, approx. 6,670 sqm floor area, data halls on floors 1-3 (source 6)"
   },
   "mw_grid": {
     "value": null,
@@ -49,37 +49,37 @@
   },
   "cost_aud_m": {
     "value": 110,
-    "source": 2,
-    "note": "AUD 110m investment per Multiplex/NEXTDC top-out release (Nov 2025); DA estimated development cost was AUD 56.4m (source 4)"
+    "source": 7,
+    "note": "AUD 110m investment per Multiplex/NEXTDC top-out release (Nov 2025; sources 2, 7). Alternative: DA estimated development cost AUD 56.4m (source 4); consistent with the DAP public-art condition (1% of construction value, cash-in-lieu $479,271.65 after 15% discount, implying approx. AUD 56.4m construction value; source 6)"
   },
   "planning": {
     "authority": {
-      "value": "Metro Outer Joint Development Assessment Panel (WA DAP); City of Swan responsible authority",
-      "source": 4,
-      "note": "Echo Newspaper names 'Outer Metro DAP'"
+      "value": "Metro Outer Development Assessment Panel (WA DAP), meeting MODAP/11; City of Swan responsible authority",
+      "source": 6,
+      "note": "Echo Newspaper calls it 'Outer Metro DAP'"
     },
     "pathway": {
-      "value": "DAP development application",
-      "source": 4,
-      "note": ""
+      "value": "Form 1 DAP development application",
+      "source": 6,
+      "note": "use classed as 'Data Centre (Warehouse)'; zoned General Industrial; plot ratio 2.4:1 proposed vs 0.6:1 control"
     },
     "reference": {
-      "value": null,
-      "source": null,
-      "note": "DAP/City of Swan reference not found"
+      "value": "DAP/24/02641",
+      "source": 6,
+      "note": "printed as 'DAP//24/02641' on the presentation forms"
     },
     "lodged": {
       "value": null,
       "source": null,
-      "note": ""
+      "note": "not found; responsible authority report (Part A/B agenda) for MODAP/11 not retrievable from the DAP site"
     },
     "determined": {
       "value": "2024-05-08",
-      "source": 4,
-      "note": "approved 'May 8'; article dated 16 May 2024",
+      "source": 6,
+      "note": "MODAP/11 meeting 8 May 2024; approval reported by Echo Newspaper (source 4)",
       "precision": "day"
     },
-    "url": "https://echonewspaper.com.au/news/malaga-data-centre-approved/"
+    "url": "https://www.planning.wa.gov.au/docs/default-source/daps/part-d---city-of-swan.pdf?sfvrsn=2275d67d_2"
   },
   "jobs_construction": {
     "value": null,
@@ -91,10 +91,10 @@
   "jobs_construction_other": [
     {
       "value": 95,
-      "source": 5,
+      "source": 7,
       "basis": "unstated",
       "scope": "direct",
-      "note": "techpartner.news at top-out (Nov 2025): about 95 workers on site each day; point-in-time daily headcount, not stated as peak; 154,055 hours worked to top-out"
+      "note": "'95 people are working on the construction each day' at top-out, Nov 2025 (source 7; source 3: '95 workers onsite daily'); point-in-time daily headcount, not stated as peak; 154,055 combined hours worked to date"
     }
   ],
   "jobs_operational": {
@@ -102,25 +102,25 @@
     "source": null,
     "basis": null,
     "scope": null,
-    "note": "DA condition limits site to max 38 people (staff and customers) at any one time (source 4); not an operational jobs figure"
+    "note": "No operational jobs figure. DA condition limits the site to a maximum of 38 people (staff and customers) at any one time; the original condition also allowed up to 90 employees in emergency periods (sources 4, 6). Not an operational jobs figure."
   },
   "jobs_operational_other": [],
   "construction_start": {
     "value": null,
     "source": null,
-    "note": "start date not found; DA approved May 2024, topped out Nov 2025",
+    "note": "start date not found; DA approved 8 May 2024, topped out 18 Nov 2025",
     "precision": null
   },
   "construction_end": {
     "value": "2026",
-    "source": 1,
-    "note": "expected: practical completion scheduled Q3 2026; completion not confirmed as of 2026-09-27",
+    "source": 3,
+    "note": "expected: practical completion scheduled Q3 2026 (sources 3, 7, Nov 2025); completion not confirmed as of 2026-09-27",
     "precision": "year"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
     "construction start date not found",
-    "DAP reference number not found",
+    "planning lodged date not found (DAP responsible authority report not retrieved)",
     "confirm practical completion (scheduled Q3 2026)"
   ]
 }

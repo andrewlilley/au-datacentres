@@ -1,10 +1,15 @@
 # Sources: nextdc-p2
 
-Note: WebFetch was blocked by network egress in this session; content read from web search result extracts.
+Sources marked "(search extract)" were seen only as web-search result extracts; the others were read in full on 2026-09-27.
 
-1. NEXTDC, "P2 Perth" facility page. https://www.nextdc.com/data-centres/perth-data-centres/p2-perth (accessed 2026-09-27). Supports: address, postcode, developer, 20MW+ Tier IV.
-2. NEXTDC news, "Multiplex to deliver NEXTDC's cutting edge P2 Perth data centre". https://www.nextdc.com/news/multiplex-deliver-nextdcs-cutting-edge-p2-perth-data-centre (accessed 2026-09-27). Supports: builder (Multiplex, Stage 1), 20 MW, 10,000 sqm technical space.
-3. Multiplex, "NEXTDC P2 Perth Data Centre" project page. https://www.multiplex.global/projects/nextdc-p2-perth-data-centre/ (accessed 2026-09-27). Supports: completion July 2020, 18-month build, 2022 fit-out (3.9 MW initial + 3.5 MW reserved).
-4. iTWire, "NextDC opens P2 data centre in Perth" (2020). https://itwire.com/business-it-news/data-centres/nextdc-opens-p2-data-centre-in-perth (accessed 2026-09-27). Supports: opening, on time and on budget, 12,000 sqm / 20 MW.
-5. DCD, "Australia's NextDC opens Perth P2 hyperscale data center". https://www.datacenterdynamics.com/en/news/australias-nextdc-opens-perth-p2-hyperscale-data-center/ (accessed 2026-09-27). Supports: opening July 2020 (from master.csv).
-6. Hames Sharley, "NEXTDC Data Centre - P2 Perth" (architect). https://www.hamessharley.com.au/project/nextdc-data-centre-p2-perth (accessed 2026-09-27). Lead only.
+1. NEXTDC, "P2 Perth" facility page. https://www.nextdc.com/data-centres/perth-data-centres/p2-perth (accessed 2026-09-27; search extract). Supports: address, postcode, 20MW+ Tier IV.
+2. NEXTDC news, "Multiplex to deliver NEXTDC's cutting edge P2 Perth data centre" (26 Aug 2019). https://www.nextdc.com/news/multiplex-deliver-nextdcs-cutting-edge-p2-perth-data-centre (accessed 2026-09-27). Supports: builder (Multiplex, Stage 1; earlier early works incl. microsite), developer, 20 MW, 10,000 sqm technical space, Stage 1 targeted mid-2020.
+3. Multiplex, "NEXTDC P2 Perth Data Centre" project page. https://www.multiplex.global/projects/nextdc-p2-perth-data-centre/ (accessed 2026-09-27; search extract - site returns 403/Cloudflare block to fetches). Supports: completion July 2020, 18-month build, 2022 fit-out (3.9 MW initial + 3.5 MW reserved).
+4. iTWire, "NextDC opens P2 data centre in Perth" (2020). https://itwire.com/business-it-news/data-centres/nextdc-opens-p2-data-centre-in-perth (accessed 2026-09-27; search extract). Supports: opening, on time and on budget, 12,000 sqm / 20 MW.
+5. DCD, "Australia's NextDC opens Perth P2 hyperscale data center". https://www.datacenterdynamics.com/en/news/australias-nextdc-opens-perth-p2-hyperscale-data-center/ (accessed 2026-09-27; not fetchable, 403). Supports: opening 31 Jul 2020 (from master.csv).
+6. Hames Sharley, "NEXTDC Data Centre - P2 Perth" (architect). https://www.hamessharley.com.au/project/nextdc-data-centre-p2-perth (accessed 2026-09-27; 403). Lead only.
+7. NEXTDC, "NEXTDC reports bumper 1H19 half-year results" (Feb 2019). https://www.nextdc.com/news/nextdc-reports-bumper-1h19-half-year-results (accessed 2026-09-27). Supports: "P2 ground works begun for the new 20MW Tier IV site" during 1H19 (Jul-Dec 2018); P2 microsite opened in 1H19.
+8. NEXTDC, "Accelerating growth in WA with a new digital interconnectivity hub" (P2 opening, 30 Jul 2020). https://www.nextdc.com/news/nextdc-opens-new-20mw-tier-iv-data-centre-perth (accessed 2026-09-27). Supports: official opening July 2020, 20 MW, Multiplex "on time and on budget".
+9. NEXTDC, "FY19 record results, FY20 earnings guidance" (Aug 2019). https://www.nextdc.com/news/resources-and-insights/news/fy19-record-results-fy20-earnings-guidance (accessed 2026-09-27). Supports: "P2 stage 1 development is in progress with practical completion of the first tower due in 2H20".
+10. NEXTDC, "ASX release: 1H26 record results" (Feb 2026). https://www.nextdc.com/news/asx-release-1h26-record-results (accessed 2026-09-27). Supports: 4 MW at P2 Perth being progressed at 31 Dec 2025.
+11. datacenternews.asia, "NEXTDC brings new data centre to Western Australia's Perth" (4 Aug 2020). https://datacenternews.asia/story/nextdc-brings-new-data-centre-to-western-australia-s-perth (accessed 2026-09-27). Supports: opening, Multiplex on time and on budget.

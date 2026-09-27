@@ -7,7 +7,7 @@
     "address": {
       "value": "37-39 Abernethy Road, Belmont WA 6104",
       "source": 7,
-      "note": "37 Abernethy Road per src 3/4"
+      "note": "37 Abernethy Road per src 3/4/8 (Baxtel lists 37-39 Abernethy Rd); site ~38,000-40,000 m2 fronting Abernethy Rd, Barker St and Brennan Way"
     },
     "suburb": "Belmont",
     "state": "WA",
@@ -29,18 +29,18 @@
   },
   "builder": {
     "value": "Multiplex",
-    "source": 1,
-    "note": "preferred contractor (2023 agreement); no evidence construction contract executed or works started"
+    "source": 5,
+    "note": "named preferred contractor (media release, Aug 2023; iTnews 27 Jul 2023 src 1). No evidence a construction contract was executed or works started"
   },
   "developer": {
     "value": "GreenSquareDC",
-    "source": 3,
-    "note": "landowner/applicant entity Bulong Pty Ltd; planning consultant Urbis; GreenSquareDC acquired by Partners Group 2025"
+    "source": 2,
+    "note": "landowner/applicant Bulong Pty Ltd; planning consultant Urbis (src 8); GreenSquareDC acquired by Partners Group 2025 (src 6)"
   },
   "mw_it": {
     "value": 48,
     "source": 1,
-    "note": "one of two 48MW buildings (96MW total, approval to expand to 150MW)"
+    "note": "'two 48MW buildings, with approval to expand to 150MW' (iTnews). 96MW campus over two phases (src 8, 2)"
   },
   "mw_grid": {
     "value": null,
@@ -50,7 +50,7 @@
   "cost_aud_m": {
     "value": null,
     "source": null,
-    "note": "campus figures only: A$600m DA development cost (src 3/4); A$1bn-1.1bn total project (src 2/5); not split by building"
+    "note": "campus-only figures, not split by building: total development cost incl. GST $1.1bn for all components / $968.4m local components (w.media, src 2, from the proponent's economic benefits statement); A$600m in the DA application reports (src 3, 8)"
   },
   "planning": {
     "authority": {
@@ -61,24 +61,24 @@
     "pathway": {
       "value": "DAP",
       "source": 2,
-      "note": "JDAP"
+      "note": "JDAP; application described as two warehouse (data centre) buildings with administration, substation, generators (src 3/8)"
     },
     "reference": {
       "value": null,
       "source": null,
-      "note": "DAP reference number not found"
+      "note": "DAP reference not found: 2022 JDAP agendas/minutes are no longer online (DPLH archive is request-only), and the old dplh.wa.gov.au agenda URLs redirect"
     },
     "lodged": {
       "value": "2022-07",
       "source": 3,
-      "note": "documents submitted to City of Belmont July 2022",
-      "precision": "month"
+      "precision": "month",
+      "note": "documents submitted to City of Belmont July 2022"
     },
     "determined": {
       "value": "2022-10-17",
-      "source": 7,
-      "note": "October 2022 confirmed by src 2; day from master.csv notes",
-      "precision": "day"
+      "source": 2,
+      "precision": "day",
+      "note": "w.media 17 Oct 2022: panel 'today approved' the DA; Baxtel 24 Oct 2022 'approved ... earlier this month' (src 9). Approval period / expiry condition not verified (report not accessible)"
     },
     "url": null
   },
@@ -87,32 +87,48 @@
     "source": null,
     "basis": null,
     "scope": null,
-    "note": ""
+    "note": "only campus-wide job-years figure available (see _other)"
   },
-  "jobs_construction_other": [],
+  "jobs_construction_other": [
+    {
+      "value": 2932,
+      "source": 2,
+      "basis": "fte_years",
+      "scope": "direct_indirect",
+      "note": "campus-wide (both buildings): '2,932 total full time equivalent construction job years supported both directly and indirectly'"
+    }
+  ],
   "jobs_operational": {
     "value": null,
     "source": null,
     "basis": null,
     "scope": null,
-    "note": ""
+    "note": "only a campus-wide direct+indirect figure available (see _other)"
   },
-  "jobs_operational_other": [],
+  "jobs_operational_other": [
+    {
+      "value": 180,
+      "source": 2,
+      "basis": "ongoing_headcount",
+      "scope": "direct_indirect",
+      "note": "campus-wide: 'the support of 180 ongoing jobs annually (directly and indirectly)'"
+    }
+  ],
   "construction_start": {
     "value": null,
     "source": null,
-    "note": "planned 2023 / early 2024; no evidence of start",
-    "precision": null
+    "precision": null,
+    "note": "stage 1 was scheduled to start in 2023 (src 2); no evidence it started. Baxtel (2026) lists WAi1 as 'Withdrawn - Project cancelled before construction' (src 10)"
   },
   "construction_end": {
     "value": null,
     "source": null,
-    "note": "stage 1 was targeted mid-2024; not achieved",
-    "precision": null
+    "precision": null,
+    "note": "stage 1 targeted mid-2024 (src 2); not achieved"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "scope: approval may have lapsed - Oct 2022 DAP approval with no evidence of substantial commencement or extension found by Sept 2026",
-    "DAP reference number and approval expiry condition not found"
+    "scope: likely out of scope - no evidence of construction start; Baxtel lists WAi1 as withdrawn/cancelled before construction and DCD (Jan 2026) notes GreenSquareDC's website no longer mentions it; whether the Oct 2022 approval has lapsed or was extended is unverified",
+    "DAP reference number and approval period/expiry condition not found (2022 JDAP report not online)"
   ]
 }
