@@ -38,9 +38,9 @@
     "note": "backed by Partners Group"
   },
   "mw_it": {
-    "value": 15,
-    "source": 1,
-    "note": "15MW per GreenSquareDC/w.media and DCD (upgrade of 'dilapidated' 4MW facility); datacentermap lists 10.9MW phase; DCD also cites 20MVA power and 2,400 sqm whitespace"
+    "value": 14.9,
+    "source": 7,
+    "note": "'Alterations and additions to the existing 4MW data centre to provide for a 14.9MW data centre' (SSD-81928961 EIS Table 3, summarising 1382/2025/JP); operator/press round to 15MW; datacentermap lists 10.9MW phase"
   },
   "mw_grid": {
     "value": null,
@@ -48,35 +48,35 @@
     "note": "site power stated as 20MVA (DCD) - MVA, not converted"
   },
   "cost_aud_m": {
-    "value": null,
-    "source": null,
-    "note": "no CIV found"
+    "value": 84.7,
+    "source": 7,
+    "note": "CIV $84,709,798 (planning panel PPSSCC-667 project page; EIS Table 3 EDC $84,709,798 excl GST)"
   },
   "planning": {
     "authority": {
       "value": "Sydney Central City Planning Panel",
-      "source": 2,
-      "note": ""
+      "source": 7,
+      "note": "panel ref PPSSCC-667; regionally significant development (CIV > $30m); electronic determination as no submissions received"
     },
     "pathway": {
       "value": "Regional DA (planning panel)",
-      "source": 2,
-      "note": "Stage 1 'Alterations and Additions to an Existing Data Centre and Subdivision into Two Lots'; later s4.55(1A) modification 1382/2025/JP/A (Mar 2026)"
+      "source": 7,
+      "note": "'Alterations and Additions to an Existing Data Centre' (1-9 Brookhollow Ave, incl. subdivision into two lots); later s4.55(1A) modification 1382/2025/JP/A (Mar 2026). Partial demolition under CDC 25/250218-01 issued 9 Sep 2025"
     },
     "reference": {
       "value": "1382/2025/JP",
-      "source": 2,
-      "note": ""
+      "source": 7,
+      "note": "PPSSCC-667"
     },
     "lodged": {
-      "value": "2025-03-27",
-      "source": 3,
-      "note": "date of Planning Alerts listing for 3 Brookhollow Ave; assumed lodgement of 1382/2025/JP - not confirmed"
+      "value": "2025-03-25",
+      "source": 7,
+      "note": "lodgement date per planning panel page and council assessment report ('lodged on 25 March 2025'); referred 26 Mar 2025"
     },
     "determined": {
-      "value": "2025",
-      "source": 1,
-      "note": "approval announced Sep 2025 (w.media); exact determination date not found"
+      "value": "2025-09-04",
+      "source": 7,
+      "note": "approved; determination date 04/09/2025 (planning panel page; EIS for SSD-81928961 agrees)"
     },
     "url": "https://www.planningportal.nsw.gov.au/planning-panel/alterations-and-additions-existing-data-centre"
   },
@@ -89,11 +89,11 @@
   },
   "jobs_construction_other": [],
   "jobs_operational": {
-    "value": null,
-    "source": null,
-    "basis": null,
-    "scope": null,
-    "note": ""
+    "value": 10,
+    "source": 8,
+    "basis": "ongoing_headcount",
+    "scope": "direct",
+    "note": "council assessment report: 'the proposed development's 14.9MW capacity supports a staff estimate of 10 FTE' / 'maximum of 10 staff'; SSD-81928961 EIS: 'existing 10 operational FTE roles associated with Stage 1'"
   },
   "jobs_operational_other": [],
   "construction_start": {
@@ -106,13 +106,12 @@
     "value": "2026",
     "source": 1,
     "precision": "year",
-    "note": "expected completion Q3 2026 (w.media, Sep 2025)"
+    "note": "expected completion Q3 2026 (w.media, Sep 2025; GreenSquareDC); not confirmed complete as of 2026-09-27"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "scope: refurbishment/refit of existing early-1990s IBM/Kyndryl data centre building (4MW -> 15MW) - may not count as a new facility",
-    "overlap: Stage 1 of same campus as greensquaredc-syd1 (Stage 2, SSD-81928961); campus total ~110MW = 15 + ~96",
-    "IT MW conflict: 15MW (operator/press) vs 10.9MW (datacentermap)",
-    "exact DA determination date and construction start not found"
+    "scope: refurbishment/refit of existing 1993 IBM/Kyndryl data centre (approved D93/318; 4MW -> 14.9MW) - may not count as a new facility",
+    "overlap: Stage 1 of same campus as greensquaredc-syd1 (Stage 2, SSD-81928961, 96MW IT)",
+    "construction start date and completion/operational status not confirmed; no construction jobs figure found"
   ]
 }

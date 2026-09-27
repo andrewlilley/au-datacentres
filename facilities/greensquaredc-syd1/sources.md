@@ -1,6 +1,6 @@
 # Sources: SYD1 Norwest expansion
 
-Note: WebFetch was blocked by the session egress proxy; content was taken from WebSearch result summaries of the pages below.
+Note: sources listed before the verification-pass section were taken from WebSearch summaries (fetch was blocked then); sources in the 'Verification pass 2026-09-27' section were fetched and read directly.
 
 1. NSW Planning Portal - Brookhollow Avenue Data Centre Expansion, Norwest (SSD-81928961) (seen via search results; direct fetch blocked)
    - URL: https://www.planningportal.nsw.gov.au/major-projects/projects/brookhollow-avenue-data-centre-expansion-norwest
@@ -27,3 +27,14 @@ Note: WebFetch was blocked by the session egress proxy; content was taken from W
    - Accessed: 2026-09-27
    - Supports: campus 110MW, Stage 1 context, Erilyan for Stage 1 only
 7. NSW Spatial Services Address Location service (maps.six.nsw.gov.au/services/public/Address_Location), GDA94 address point - geocoded 2026-09-27 - supports: lat/lon.
+
+Verification pass 2026-09-27 (fetched and read directly):
+
+8. SSD-81928961 Environmental Impact Statement (Patch Planners, 27 May 2026) and Appendix 7 EDC Report (Turner & Townsend, 18 Jun 2026)
+   - URL: https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-81928961%2120260623T233326.415+GMT ; EDC: https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-81928961%2120260623T233901.772+GMT
+   - Accessed: 2026-09-27
+   - Supports: Lot 2021 DP 831173; 96MW IT; EDC/CIV $1,248,408,516; 555 FTE construction jobs over 6 years (B 217, C 170, D 168); 20 Stage 2 + 10 Stage 1 = 30 operational FTE
+9. NSW DPHI - Exhibition notice SSD-81928961 and major projects page (status 'Response to Submissions', 59 submissions)
+   - URL: https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-81928961%2120260724T083209.090+GMT ; https://www.planningportal.nsw.gov.au/major-projects/projects/brookhollow-avenue-data-centre-expansion-norwest
+   - Accessed: 2026-09-27
+   - Supports: 118.3 MW total power, 77 diesel generators, applicant Project Garden 1 Pty Ltd, consent authority Minister or IPC, exhibition 14 Jul - 10 Aug 2026, not determined

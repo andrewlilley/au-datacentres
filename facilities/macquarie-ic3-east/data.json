@@ -40,7 +40,7 @@
   "mw_it": {
     "value": 12,
     "source": 1,
-    "note": "current 12MW IT per operator; Phase 1 delivered 11MW IT, 13,400 sqm"
+    "note": "current 12MW IT per operator IC3 East page (fetched 2026-09-27); Phase 1 delivered 11MW IT"
   },
   "mw_grid": {
     "value": null,
@@ -54,31 +54,31 @@
   },
   "planning": {
     "authority": {
-      "value": "City of Ryde Council",
-      "source": 4,
-      "note": "local DA"
+      "value": "NSW Land and Environment Court",
+      "source": 6,
+      "note": "consent granted by the LEC by way of a s34 agreement (conciliation) with City of Ryde Council; DA originally lodged with City of Ryde"
     },
     "pathway": {
-      "value": "Local DA",
-      "source": 4,
+      "value": "Local DA (LEC s34 agreement)",
+      "source": 6,
       "note": ""
     },
     "reference": {
       "value": "LDA2018/0322",
-      "source": 4,
-      "note": "referenced in SSD-24299707 docs as the approved data centre consent for the site; a Concept/amending DA LDA2020/0229 was determined by Sydney North Planning Panel on 2020-12-15"
+      "source": 6,
+      "note": "two-stage consent: Stage 1 = 6,731 m2 GFA extension, 45 m (built as IC3 East); Stage 2 never built and replaced by SSD-24299707 (IC3 Super West). LDA2020/0229 (SNPP 2020-12-15) relation not confirmed"
     },
     "lodged": {
-      "value": null,
-      "source": null,
-      "note": "2018 per DA number"
+      "value": "2018",
+      "source": 6,
+      "note": "year from DA number only; exact date not found"
     },
     "determined": {
-      "value": null,
-      "source": null,
-      "note": "not found"
+      "value": "2019-09-20",
+      "source": 6,
+      "note": "'On 20 September 2019, development consent was granted by the NSW Land and Environment Court (by way of a Section 34 agreement)'"
     },
-    "url": null
+    "url": "https://www.ipcn.nsw.gov.au/sites/default/files/pac/projects/2023/11/talavera-road-data-centre-campus-expansion/case-referral-documents-from-dphi/assessment-report-talavera-rd.pdf"
   },
   "jobs_construction": {
     "value": 1200,
@@ -98,20 +98,19 @@
   "jobs_operational_other": [],
   "construction_start": {
     "value": "2019-12",
-    "source": 3,
+    "source": 6,
     "precision": "month",
-    "note": "groundbreaking Dec 2019 (Minister Dominello attended)"
+    "note": "'Construction of Stage 1 of the project (as approved under LDA2018/0322) commenced in December 2019' (DPE assessment report for SSD-24299707); FDC groundbreaking 5 Dec 2019"
   },
   "construction_end": {
-    "value": "2020",
-    "source": 1,
-    "precision": "year",
-    "note": "Phase 1 completed 2020 per operator (delayed to 2H 2020 by planning approvals, ARN); official opening by PM Morrison Mar 2022"
+    "value": "2022-03",
+    "source": 6,
+    "precision": "month",
+    "note": "'completed in March 2022' (DPE assessment report); official opening by PM Morrison Mar 2022. Previous value 2020 (operator 'Phase 1 completed 2020') superseded"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "confirm LDA2018/0322 determination date and whether LDA2020/0229 (SNPP 2020-12-15) applies to IC3 East",
-    "confirm FDC Dec-5 groundbreaking year is 2019",
-    "jobs: basis/scope tagged from search-result wording; confirm against planning documents"
+    "jobs: 1,200 figure is operator press wording (construction, engineering and architecture) - no planning-document jobs figure found for LDA2018/0322",
+    "LDA2018/0322 lodgement date not found; relation of LDA2020/0229 (SNPP 2020-12-15) to IC3 East unconfirmed"
   ]
 }
