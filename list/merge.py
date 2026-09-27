@@ -30,7 +30,7 @@ ALIAS = {
     "goodman-syd01-artarmon": "goodman-artarmon",
     "goodman-macquarie-park": "goodman-apollo",
     "microsoft-syd07-kemps-creek": "microsoft-kemps-creek-b2",
-    "stockland-edgeconnex-davis-road": "stockland-davis-road",
+    "stockland-edgeconnex-davis-road": "stockland-davis-road",  # renamed aws-davis-road in master.csv (Phase 2)
 }
 
 # Rows needing a human decision on scope (cutoff date or 5 MW floor)

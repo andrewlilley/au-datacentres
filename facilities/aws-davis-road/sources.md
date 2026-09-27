@@ -1,4 +1,4 @@
-# Sources: stockland-davis-road
+# Sources: aws-davis-road
 
 1. NSW Planning Portal - Davis Road Data Centre (Cundall), SSD-59416728 - https://www.planningportal.nsw.gov.au/major-projects/projects/davis-road-data-centre-cundall - accessed 2026-09-27; plus Signed SSD-SSI Assessment Report (Dec 2024) https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-59416728%2120241220T045539.893+GMT . Supports: SSD reference, determined 20 Dec 2024 by Director, exhibition 19 Mar - 15 Apr 2024, 3 Davis Road / Lot 1 DP 864615, Reservoir Distribution Centre, CIV $1,597,338,256, 160.85 MW maximum power capacity (portal description 180 MW), 556 FTE construction / 72-73 operational jobs, applicant Cundall, 2-year 4-stage construction.
 2. Baxtel - Davis Road Data Center - https://baxtel.com/data-center/davis-road-data-center - accessed 2026-09-27 (search summary). Supports: 2 x 80 MW (66 MW IT each), 33 generators per building.

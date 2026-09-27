@@ -19,5 +19,5 @@ nextdc-s4
 nextdc-s6
 stockland-athena
 stockland-khartoum-1-5
-stockland-davis-road
+aws-davis-road
 telstra-minchinbury

@@ -1,5 +1,5 @@
 {
-  "id": "stockland-davis-road",
+  "id": "aws-davis-road",
   "name": "Davis Road Data Centre (Project Blue Tongue, 3 Davis Road)",
   "operator": "Amazon Web Services",
   "status": "under_construction",
@@ -110,7 +110,6 @@
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "identity: master.csv row 'stockland-davis-road' (2 Davis Road, Stockland/EdgeConneX) conflates two projects. SSD-59416728 (this record's planning/builder data) is AWS's data centre at 3 Davis Road; Stockland/EdgeConneX's 2 Davis Road proposal (IDA fast-track list, Mar 2026) is a separate neighbouring site, apparently not yet approved - consider renaming this row and adding 2 Davis Road separately (out of scope until approved)",
     "construction_end not found"
   ]
 }
