@@ -38,9 +38,9 @@
     "note": "client entity per IPS: Equinix Australia National Pty Ltd"
   },
   "mw_it": {
-    "value": null,
+    "value": 5,
     "source": null,
-    "note": "not published by Equinix (press release gives only cabinets/m2). DC Atlas estimates ~3 MW live (source 6). Full build per IPS: 12,000 m2 GFA, 1,720 cabinets across 6 data halls; press release says 1,650 cabinets / >10,600 m2 colocation"
+    "note": "ASSUMED, not sourced: set to 5 MW by project decision 2026-09-27 so PE3 stays in scope. Equinix publishes no MW (press release gives only cabinets/m2). DC Atlas estimates ~3 MW live (source 6). Full build per IPS: 12,000 m2 GFA, 1,720 cabinets across 6 data halls; press release says 1,650 cabinets / >10,600 m2 colocation"
   },
   "mw_grid": {
     "value": null,
@@ -110,7 +110,7 @@
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "scope: MW not published, DC Atlas est. ~3 MW live; may be under 5 MW",
+    "mw_it 5 is an assumption (decision 2026-09-27), not a published figure; replace if Equinix or planning documents give one",
     "planning approval not found (DAP/local government for 37 Lemnos St not identified)",
     "exact construction start not found"
   ]
