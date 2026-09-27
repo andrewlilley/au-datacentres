@@ -2,7 +2,7 @@
   "id": "digico-bne3",
   "name": "Brisbane BNE3",
   "operator": "DigiCo Infrastructure REIT",
-  "status": "under_construction",
+  "status": "announced",
   "location": {
     "address": {
       "value": "6 Cycas Lane, Brisbane Airport QLD 4008",
@@ -113,6 +113,7 @@
     "scope: excluded - Not approved or under construction: greenfield site at Cycas Lane, Brisbane Airport (PDS 'BNE4', renamed BNE3 Aug 2025), 19.6 MW proposed; removed from master.csv and listed in excluded.csv (decision 2026-09-27)",
     "status: 'under_construction' (from master.csv) is contradicted by DigiCo disclosures; schema has no 'announced' value",
     "street number (4 vs 6 Cycas Lane) unconfirmed",
-    "builder, cost, jobs not found"
+    "builder, cost, jobs not found",
+    "status set to announced on 2026-09-28 (pipeline listing)"
   ]
 }

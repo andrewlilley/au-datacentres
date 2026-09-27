@@ -2,7 +2,7 @@
   "id": "supernode-brendale",
   "name": "Supernode data centre campus",
   "operator": "Supernode (Quinbrook Infrastructure Partners)",
-  "status": "approved",
+  "status": "announced",
   "location": {
     "address": {
       "value": "83 Kremzow Road, Brendale QLD 4500",
@@ -113,6 +113,7 @@
     "scope: excluded - no data centre planning approval found (BESS-only DA/2023/1419); removed from master.csv and listed in excluded.csv (decision 2026-09-27)",
     "council DA Tracker and planning-scheme PDFs return 403 to scripts; DA/2023/1419 documents (lot list, applicant) not read - confirm whether it covers Lot 121 M31114 as well as Lot 3 SP213172",
     "location of any future data centre pad within the '30 ha' campus unknown (Lot 121 M31114 appears fully allocated to BESS per May 2026 map)",
-    "per-building IT MW, tenant, cost split and jobs unknown; revisit if a DC DA (MCU for research and technology industry) is lodged"
+    "per-building IT MW, tenant, cost split and jobs unknown; revisit if a DC DA (MCU for research and technology industry) is lodged",
+    "status set to announced on 2026-09-28 (pipeline listing)"
   ]
 }

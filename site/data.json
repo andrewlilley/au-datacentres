@@ -1,5 +1,5 @@
 {
- "built": "2026-09-27",
+ "built": "2026-09-28",
  "facilities": [
   {
    "id": "cdc-beard-be1",
@@ -6090,7 +6090,7 @@
    "operator": "GreenSquareDC",
    "state": "NSW",
    "suburb": "Norwest (Baulkham Hills)",
-   "status": "under_construction",
+   "status": "lodged",
    "address": "3 Brookhollow Avenue, Norwest NSW 2153",
    "postcode": "2153",
    "lat": -33.73253,
@@ -6153,7 +6153,8 @@
    "questions": [
     "scope: SSD-81928961 NOT planning-approved - at 'Response to Submissions' stage (exhibited 14 Jul - 10 Aug 2026); out of scope until determined. Status field 'under_construction' is not correct for Stage 2",
     "overlap: Stage 2 (96MW IT) of same 3 Brookhollow Ave campus as greensquaredc-syd1-stage1 (14.9MW refit); avoid double-counting",
-    "construction jobs basis: '555 FTE over 6 years' - FTE headcount vs FTE-years unclear"
+    "construction jobs basis: '555 FTE over 6 years' - FTE headcount vs FTE-years unclear",
+    "status relabelled lodged on 2026-09-28 per the scope note above"
    ],
    "checked": "2026-09-27",
    "sources": [
@@ -14577,7 +14578,7 @@
    "operator": "CDC Data Centres",
    "state": "NSW",
    "suburb": "Marsden Park",
-   "status": "under_construction",
+   "status": "lodged",
    "address": "105 Hollinsworth Road, Marsden Park NSW 2765",
    "postcode": "2765",
    "lat": -33.72261,
@@ -14638,7 +14639,8 @@
     "Which three CDCs the SEE's Appendices 14-16 are (likely CDC-25-01833, CDC-26-00180, CDC-26-00714) and whether CDC-26-00180 and CDC-26-00714 (both $43.7m 'Construction of a Warehouse Facility') are separate works or a re-certification; structure cost therefore uncertain",
     "MP1.S3 (name in piling CDC-25-01833) is taken to be MP1.EXT based on the CEMP drawing file name 'SYD-MP1.3-AR-RVT' and the same location; not explicitly confirmed",
     "eTrack lists CC-26-00624 ('ZONE H Stage 1 - Plant deck ...') as a child of DA-26-00662; relationship of 'Zone H' generators/plant to MP1.EXT unclear",
-    "Completion / handover date not found (CEMP stage 3 wording implies late 2028 or later, but that may be campus-level)"
+    "Completion / handover date not found (CEMP stage 3 wording implies late 2028 or later, but that may be campus-level)",
+    "status relabelled lodged on 2026-09-28 per the scope note above"
    ],
    "checked": "2026-09-27",
    "sources": [
@@ -14701,6 +14703,3602 @@
      "n": 12,
      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-70889211%2120241104T033923.515+GMT",
      "desc": "accessed 2026-09-27 — SSD-70889211 EIS (Patch Planners, Nov 2024), for context: MP1.S1 (5 MW) via council DA outside the SSDA; MP1.S2 is 'the 79MW Data Centre building'; the EIS does not mention MP1.EXT (supports the conclusion that MP1.EXT is outside the SSD's 504 MW)."
+    }
+   ]
+  },
+  {
+   "id": "nextdc-s5",
+   "name": "NEXTDC S5 Sydney",
+   "operator": "NEXTDC",
+   "state": "NSW",
+   "suburb": "Macquarie Park",
+   "status": "lodged",
+   "address": "",
+   "postcode": "2113",
+   "lat": -33.7935,
+   "lon": 151.1345,
+   "geo_note": "approximate: centroid of Macquarie Park NSW (postcode 2113) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": 80.0,
+   "mw_note": "headline figure from announcement or application; may be campus total or grid demand, not verified as IT load",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "NEXTDC",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": "SSD-63168959",
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "high",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s5-data-centre-and-innovation-hub",
+     "desc": ""
+    },
+    {
+     "n": 2,
+     "url": "https://www.nextdc.com/data-centres",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "nextdc-s7",
+   "name": "NEXTDC S7 Sydney",
+   "operator": "NEXTDC",
+   "state": "NSW",
+   "suburb": "Eastern Creek",
+   "status": "lodged",
+   "address": "",
+   "postcode": "2766",
+   "lat": -33.8072,
+   "lon": 150.8515,
+   "geo_note": "approximate: centroid of Eastern Creek NSW (postcode 2766) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": 550.0,
+   "mw_note": "headline figure from announcement or application; may be campus total or grid demand, not verified as IT load",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "NEXTDC",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": null,
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "medium",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://www.nextdc.com/data-centres/sydney-data-centres/s7-sydney",
+     "desc": ""
+    },
+    {
+     "n": 2,
+     "url": "https://www.theurbandeveloper.com/articles/eastern-creek-data-centre-550mw-openai-nextdc",
+     "desc": ""
+    },
+    {
+     "n": 3,
+     "url": "https://www.nextdc.com/data-centres",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "airtrunk-mamre-road",
+   "name": "Mamre Road Data Centre Campus (AirTrunk SYD4)",
+   "operator": "AirTrunk (ISPT site)",
+   "state": "NSW",
+   "suburb": "Kemps Creek",
+   "status": "lodged",
+   "address": "",
+   "postcode": "2178",
+   "lat": -33.8746,
+   "lon": 150.7987,
+   "geo_note": "approximate: centroid of Kemps Creek NSW (postcode 2178) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": 1200.0,
+   "mw_note": "headline figure from announcement or application; may be campus total or grid demand, not verified as IT load",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "AirTrunk (ISPT site)",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": "SSD-92743706",
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "high",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://urbandigest.com.au/ssd-92743706-9bn-kemps-creek-data-centre-campus-enters-exhibition/",
+     "desc": ""
+    },
+    {
+     "n": 2,
+     "url": "https://www.datacenterdynamics.com/en/news/airtrunk-set-to-buy-planned-1gw-data-center-site-in-western-sydney-australia/",
+     "desc": ""
+    },
+    {
+     "n": 3,
+     "url": "https://www.datacentermap.com/australia/sydney/mamre-road-data-centre-campus/",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "cdc-kc1",
+   "name": "CDC Kemps Creek KC1",
+   "operator": "CDC Data Centres",
+   "state": "NSW",
+   "suburb": "Kemps Creek",
+   "status": "lodged",
+   "address": "",
+   "postcode": "2178",
+   "lat": -33.8746,
+   "lon": 150.7987,
+   "geo_note": "approximate: centroid of Kemps Creek NSW (postcode 2178) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": 144.0,
+   "mw_note": "headline figure from announcement or application; may be campus total or grid demand, not verified as IT load",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "CDC Data Centres",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": "SSD-133677993",
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "high",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/kc1-data-centre-kemps-creek",
+     "desc": ""
+    },
+    {
+     "n": 2,
+     "url": "https://www.datacenterdynamics.com/en/news/australias-cdc-files-for-data-center-in-kemps-creek-sydney/",
+     "desc": ""
+    },
+    {
+     "n": 3,
+     "url": "https://www.datacentermap.com/australia/sydney/cdc-kemps-creek-kc1/",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "cdc-wagga",
+   "name": "CDC Wagga Wagga (Ashfords Road)",
+   "operator": "CDC Data Centres",
+   "state": "NSW",
+   "suburb": "Gregadoo",
+   "status": "lodged",
+   "address": "",
+   "postcode": "2650",
+   "lat": -35.2292,
+   "lon": 147.3871,
+   "geo_note": "approximate: centroid of Gregadoo NSW (postcode 2650) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": 1400.0,
+   "mw_note": "headline figure from announcement or application; may be campus total or grid demand, not verified as IT load",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "CDC Data Centres",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": "SSD-144289240",
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "high",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://urbandigest.com.au/urban-digest-weekly-57-nsw-ssd-updates-21-september-2026/",
+     "desc": ""
+    },
+    {
+     "n": 2,
+     "url": "https://renewmap.com.au/resources/projects/nsw/datacentre/",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "stack-syd01",
+   "name": "STACK SYD01 Erskine Park",
+   "operator": "STACK Infrastructure",
+   "state": "NSW",
+   "suburb": "Erskine Park",
+   "status": "lodged",
+   "address": "",
+   "postcode": "2759",
+   "lat": -33.8132,
+   "lon": 150.8014,
+   "geo_note": "approximate: centroid of Erskine Park NSW (postcode 2759) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": 450.0,
+   "mw_note": "headline figure from announcement or application; may be campus total or grid demand, not verified as IT load",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "STACK Infrastructure",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": "SSD-82211208",
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "high",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/stack-syd01-data-centre-erskine-park",
+     "desc": ""
+    },
+    {
+     "n": 2,
+     "url": "https://urbandigest.com.au/3-7bn-erskine-park-data-centre-hits-public-exhibition/",
+     "desc": ""
+    },
+    {
+     "n": 3,
+     "url": "https://www.stackinfra.com/locations/asia-pacific/sydney/syd01/",
+     "desc": ""
+    },
+    {
+     "n": 4,
+     "url": "https://www.datacentermap.com/australia/sydney/stack-infrastructure-syd01a/",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "microsoft-honeman-close",
+   "name": "Microsoft Honeman Close",
+   "operator": "Microsoft",
+   "state": "NSW",
+   "suburb": "Huntingwood",
+   "status": "lodged",
+   "address": "",
+   "postcode": "2148",
+   "lat": -33.799,
+   "lon": 150.885,
+   "geo_note": "approximate: centroid of Huntingwood NSW (postcode 2148) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": 96.0,
+   "mw_note": "headline figure from announcement or application; may be campus total or grid demand, not verified as IT load",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "Microsoft",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": "SSD-58601963",
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "high",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/honeman-close-data-centre",
+     "desc": ""
+    },
+    {
+     "n": 2,
+     "url": "https://local.microsoft.com/blog/huntingwood-datacentre/",
+     "desc": ""
+    },
+    {
+     "n": 3,
+     "url": "https://www.datacentermap.com/australia/sydney/",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "ispt-julius-avenue",
+   "name": "Julius Avenue Data Centre",
+   "operator": "ISPT",
+   "state": "NSW",
+   "suburb": "Macquarie Park",
+   "status": "lodged",
+   "address": "",
+   "postcode": "2113",
+   "lat": -33.7935,
+   "lon": 151.1345,
+   "geo_note": "approximate: centroid of Macquarie Park NSW (postcode 2113) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": 115.2,
+   "mw_note": "headline figure from announcement or application; may be campus total or grid demand, not verified as IT load",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "ISPT",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": "SSD-80018208",
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "high",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/julius-avenue-data-centre",
+     "desc": ""
+    },
+    {
+     "n": 2,
+     "url": "https://urbandigest.com.au/macquarie-parks-1-58bn-data-centre-now-on-public-exhibition/",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "goodman-project-mars",
+   "name": "Goodman Project Mars",
+   "operator": "Goodman",
+   "state": "NSW",
+   "suburb": "Lane Cove West",
+   "status": "lodged",
+   "address": "",
+   "postcode": "2066",
+   "lat": -33.8115,
+   "lon": 151.1527,
+   "geo_note": "approximate: centroid of Lane Cove West NSW (postcode 2066) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": 81.0,
+   "mw_note": "headline figure from announcement or application; may be campus total or grid demand, not verified as IT load",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "Goodman",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": "SSD-82052708",
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "high",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://urbandigest.com.au/ssd-82052708-project-mars-data-centre/",
+     "desc": ""
+    },
+    {
+     "n": 2,
+     "url": "https://www.datacentermap.com/australia/sydney/goodman-project-mars/",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "goodman-project-atlas",
+   "name": "Goodman Project Atlas",
+   "operator": "Goodman",
+   "state": "NSW",
+   "suburb": "Eastern Creek",
+   "status": "lodged",
+   "address": "",
+   "postcode": "2766",
+   "lat": -33.8072,
+   "lon": 150.8515,
+   "geo_note": "approximate: centroid of Eastern Creek NSW (postcode 2766) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": null,
+   "mw_note": "",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "Goodman",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": "SSD-101067971",
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "high",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/project-atlas-data-centre-eastern-creek",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "stockland-road-1",
+   "name": "Stockland Road 1 Data Centre",
+   "operator": "Stockland",
+   "state": "NSW",
+   "suburb": "Macquarie Park",
+   "status": "lodged",
+   "address": "",
+   "postcode": "2113",
+   "lat": -33.7935,
+   "lon": 151.1345,
+   "geo_note": "approximate: centroid of Macquarie Park NSW (postcode 2113) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": 34.3,
+   "mw_note": "headline figure from announcement or application; may be campus total or grid demand, not verified as IT load",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "Stockland",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": "SSD-80814238",
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "high",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/road-1-data-centre",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "stockland-aldington-road",
+   "name": "90 Aldington Road (Kemps Creek)",
+   "operator": "Stockland / Fife Capital (EdgeConneX)",
+   "state": "NSW",
+   "suburb": "Kemps Creek",
+   "status": "lodged",
+   "address": "",
+   "postcode": "2178",
+   "lat": -33.8746,
+   "lon": 150.7987,
+   "geo_note": "approximate: centroid of Kemps Creek NSW (postcode 2178) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": 168.0,
+   "mw_note": "headline figure from announcement or application; may be campus total or grid demand, not verified as IT load",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "Stockland / Fife Capital (EdgeConneX)",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": null,
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "medium",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://www.datacentermap.com/australia/sydney/90-aldington-road/",
+     "desc": ""
+    },
+    {
+     "n": 2,
+     "url": "https://w.media/nsw-moves-15-data-centres-worth-aud-51-9bn-into-ida-pipeline/",
+     "desc": ""
+    },
+    {
+     "n": 3,
+     "url": "https://itkservices3.com/background/data_centres_australia_top10_construction",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "stockland-project-a",
+   "name": "Stockland Project A (Macquarie Park)",
+   "operator": "Stockland / EdgeConneX",
+   "state": "NSW",
+   "suburb": "Macquarie Park",
+   "status": "lodged",
+   "address": "",
+   "postcode": "2113",
+   "lat": -33.7935,
+   "lon": 151.1345,
+   "geo_note": "approximate: centroid of Macquarie Park NSW (postcode 2113) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": null,
+   "mw_note": "",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "Stockland / EdgeConneX",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": null,
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "medium",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://w.media/nsw-moves-15-data-centres-worth-aud-51-9bn-into-ida-pipeline/",
+     "desc": ""
+    },
+    {
+     "n": 2,
+     "url": "https://itkservices3.com/background/data_centres_australia_top10_construction",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "gateway-frederick-street",
+   "name": "Frederick Street Data Centre",
+   "operator": "Gateway Capital",
+   "state": "NSW",
+   "suburb": "St Leonards",
+   "status": "lodged",
+   "address": "",
+   "postcode": "1590",
+   "lat": -33.8227,
+   "lon": 151.1942,
+   "geo_note": "approximate: centroid of St Leonards NSW (postcode 1590) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": 81.0,
+   "mw_note": "headline figure from announcement or application; may be campus total or grid demand, not verified as IT load",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "Gateway Capital",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": "SSD-139545990",
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "high",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://urbandigest.com.au/urban-digest-weekly-51-nsw-ssd-updates-24-august-2026/",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "knbdc-mamre-road",
+   "name": "Mamre Road Data Centre Campus (KNBDC)",
+   "operator": "KNBDC",
+   "state": "NSW",
+   "suburb": "Orchard Hills",
+   "status": "lodged",
+   "address": "",
+   "postcode": "2748",
+   "lat": -33.8181,
+   "lon": 150.7331,
+   "geo_note": "approximate: centroid of Orchard Hills NSW (postcode 2748) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": null,
+   "mw_note": "",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "KNBDC",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": null,
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "low",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://w.media/nsw-moves-15-data-centres-worth-aud-51-9bn-into-ida-pipeline/",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "aims-bella-vista",
+   "name": "Bella Vista Data Centre Campus",
+   "operator": "AIMS Capital Management",
+   "state": "NSW",
+   "suburb": "Bella Vista",
+   "status": "lodged",
+   "address": "",
+   "postcode": "2153",
+   "lat": -33.7386,
+   "lon": 150.9503,
+   "geo_note": "approximate: centroid of Bella Vista NSW (postcode 2153) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": null,
+   "mw_note": "",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "AIMS Capital Management",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": null,
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "low",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://w.media/nsw-moves-15-data-centres-worth-aud-51-9bn-into-ida-pipeline/",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "lane-cove-dc-alliance",
+   "name": "Lane Cove Data Centre Development",
+   "operator": "Lane Cove DC Alliance",
+   "state": "NSW",
+   "suburb": "Lane Cove West",
+   "status": "lodged",
+   "address": "",
+   "postcode": "2066",
+   "lat": -33.8115,
+   "lon": 151.1527,
+   "geo_note": "approximate: centroid of Lane Cove West NSW (postcode 2066) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": null,
+   "mw_note": "",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "Lane Cove DC Alliance",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": null,
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "low",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://w.media/nsw-moves-15-data-centres-worth-aud-51-9bn-into-ida-pipeline/",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "digitalrealty-syd13",
+   "name": "Digital Realty SYD13 (23-25 Waterloo Rd)",
+   "operator": "Digital Realty",
+   "state": "NSW",
+   "suburb": "Macquarie Park",
+   "status": "lodged",
+   "address": "",
+   "postcode": "2113",
+   "lat": -33.7935,
+   "lon": 151.1345,
+   "geo_note": "approximate: centroid of Macquarie Park NSW (postcode 2113) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": 70.0,
+   "mw_note": "headline figure from announcement or application; may be campus total or grid demand, not verified as IT load",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "Digital Realty",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": null,
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "medium",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://www.datacenterdynamics.com/en/news/former-exodus-data-center-in-sydney-australia-to-be-replaced-with-70mw-facility/",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "edgeconnex-macquarie-park",
+   "name": "EdgeConneX Macquarie Park SYD1",
+   "operator": "EdgeConneX",
+   "state": "NSW",
+   "suburb": "Macquarie Park",
+   "status": "announced",
+   "address": "",
+   "postcode": "2113",
+   "lat": -33.7935,
+   "lon": 151.1345,
+   "geo_note": "approximate: centroid of Macquarie Park NSW (postcode 2113) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": 100.0,
+   "mw_note": "headline figure from announcement or application; may be campus total or grid demand, not verified as IT load",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "EdgeConneX",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": null,
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "low",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://www.datacentermap.com/australia/sydney/",
+     "desc": ""
+    },
+    {
+     "n": 2,
+     "url": "https://www.edgeconnex.com/locations/asia-pacific/sydney-au/",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "markham-oriordan-street",
+   "name": "22 O'Riordan Street",
+   "operator": "Markham Real Estate Partners",
+   "state": "NSW",
+   "suburb": "Alexandria",
+   "status": "announced",
+   "address": "",
+   "postcode": "1435",
+   "lat": -33.908,
+   "lon": 151.1903,
+   "geo_note": "approximate: centroid of Alexandria NSW (postcode 1435) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": 38.0,
+   "mw_note": "headline figure from announcement or application; may be campus total or grid demand, not verified as IT load",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "Markham Real Estate Partners",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": null,
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "low",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://www.datacentermap.com/australia/sydney/",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "macquarie-sydney-150",
+   "name": "Macquarie Data Centres 150 MW Sydney facility",
+   "operator": "Macquarie Data Centres",
+   "state": "NSW",
+   "suburb": "",
+   "status": "announced",
+   "address": "",
+   "postcode": null,
+   "lat": null,
+   "lon": null,
+   "geo_note": "no location",
+   "mw": 150.0,
+   "mw_note": "headline figure from announcement or application; may be campus total or grid demand, not verified as IT load",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "Macquarie Data Centres",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": null,
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "low",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://w.media/macquarie-data-centres-tops-out-47-mw-ic3-super-west/",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "airtrunk-donnybrook-road",
+   "name": "45 Donnybrook Road campus (Mickleham)",
+   "operator": "AirTrunk (reported)",
+   "state": "VIC",
+   "suburb": "Mickleham",
+   "status": "lodged",
+   "address": "",
+   "postcode": "3064",
+   "lat": -37.562,
+   "lon": 144.874,
+   "geo_note": "approximate: centroid of Mickleham VIC (postcode 3064) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": null,
+   "mw_note": "",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "AirTrunk (reported)",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": "PA2604506",
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "medium",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://www.theurbandeveloper.com/articles/airtrunk-blackstone-mickleham-north-melbourne-data-centre-plans-donnybrook-road",
+     "desc": ""
+    },
+    {
+     "n": 2,
+     "url": "https://www.crn.com.au/news/2026/data-centre/airtrunk-new-melbourne-location-mel2",
+     "desc": ""
+    },
+    {
+     "n": 3,
+     "url": "https://www.planning.vic.gov.au/planning-approvals/ministerial-permits-register/ministerial-permits/fb678cb2-1784-4883-932a-4fdca25a480a",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "goodman-mount-atkinson-road",
+   "name": "Goodman 433 Mount Atkinson Road",
+   "operator": "Goodman",
+   "state": "VIC",
+   "suburb": "Truganina",
+   "status": "lodged",
+   "address": "",
+   "postcode": "3029",
+   "lat": -37.8283,
+   "lon": 144.7083,
+   "geo_note": "approximate: centroid of Truganina VIC (postcode 3029) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": null,
+   "mw_note": "",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "Goodman",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": null,
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "medium",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://w.media/victorias-data-centre-pipeline-grows-with-four-new-melbourne-proposals/",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "stockland-cherry-lane",
+   "name": "72-76 Cherry Lane / 413 Francis Street",
+   "operator": "Stockland / EdgeConneX",
+   "state": "VIC",
+   "suburb": "Laverton North",
+   "status": "lodged",
+   "address": "",
+   "postcode": "3026",
+   "lat": -37.828,
+   "lon": 144.7855,
+   "geo_note": "approximate: centroid of Laverton North VIC (postcode 3026) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": 250.0,
+   "mw_note": "headline figure from announcement or application; may be campus total or grid demand, not verified as IT load",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "Stockland / EdgeConneX",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": null,
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "medium",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://itkservices3.com/background/data_centres_australia_top10_construction",
+     "desc": ""
+    },
+    {
+     "n": 2,
+     "url": "https://www.datacentermap.com/australia/melbourne/",
+     "desc": ""
+    },
+    {
+     "n": 3,
+     "url": "https://www.datacentermap.com/australia/melbourne/72-76-cherry-lane/",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "stockland-brooklyn",
+   "name": "Stockland Brooklyn Distribution Centre data centre",
+   "operator": "Stockland",
+   "state": "VIC",
+   "suburb": "Brooklyn",
+   "status": "lodged",
+   "address": "",
+   "postcode": "3012",
+   "lat": -37.8173,
+   "lon": 144.8465,
+   "geo_note": "approximate: centroid of Brooklyn VIC (postcode 3012) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": 250.0,
+   "mw_note": "headline figure from announcement or application; may be campus total or grid demand, not verified as IT load",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "Stockland",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": null,
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "medium",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://www.theurbandeveloper.com/articles/stockland-brooklyn-melbourne-data-centre-planning-application",
+     "desc": ""
+    },
+    {
+     "n": 2,
+     "url": "https://www.datacenterdynamics.com/en/news/stockland-files-to-develop-another-data-center-in-melbourne-australia/",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "greensquaredc-spotswood",
+   "name": "GreenSquareDC MEL1 Spotswood",
+   "operator": "GreenSquareDC",
+   "state": "VIC",
+   "suburb": "Spotswood",
+   "status": "lodged",
+   "address": "",
+   "postcode": "3015",
+   "lat": -37.8292,
+   "lon": 144.8814,
+   "geo_note": "approximate: centroid of Spotswood VIC (postcode 3015) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": 240.0,
+   "mw_note": "headline figure from announcement or application; may be campus total or grid demand, not verified as IT load",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "GreenSquareDC",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": null,
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "medium",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://www.datacentermap.com/australia/melbourne/greensquaredc-mel1/",
+     "desc": ""
+    },
+    {
+     "n": 2,
+     "url": "https://www.datacenterdynamics.com/en/news/australias-greensquare-expands-into-melbourne-with-240mw-campus/",
+     "desc": ""
+    },
+    {
+     "n": 3,
+     "url": "https://greensquaredc.com/mel1/",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "zerra-campbellfield",
+   "name": "Zerra DC Melbourne Campus (former Ford site)",
+   "operator": "Zerra DC",
+   "state": "VIC",
+   "suburb": "Campbellfield",
+   "status": "lodged",
+   "address": "",
+   "postcode": "3061",
+   "lat": -37.6651,
+   "lon": 144.9557,
+   "geo_note": "approximate: centroid of Campbellfield VIC (postcode 3061) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": null,
+   "mw_note": "",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "Zerra DC",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": "PA2604362",
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "medium",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://w.media/victorias-data-centre-pipeline-grows-with-four-new-melbourne-proposals/",
+     "desc": ""
+    },
+    {
+     "n": 2,
+     "url": "https://www.planning.vic.gov.au/planning-approvals/ministerial-permits-register/ministerial-permits/1113a299-b13f-f111-88b4-7c1e5262e60a",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "galileo-clyde-north",
+   "name": "585 Berwick-Cranbourne Road",
+   "operator": "Galileo Group (applicant)",
+   "state": "VIC",
+   "suburb": "Clyde North",
+   "status": "lodged",
+   "address": "",
+   "postcode": "3978",
+   "lat": -38.1063,
+   "lon": 145.3484,
+   "geo_note": "approximate: centroid of Clyde North VIC (postcode 3978) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": null,
+   "mw_note": "",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "Galileo Group (applicant)",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": null,
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "low",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://w.media/victorias-data-centre-pipeline-grows-with-four-new-melbourne-proposals/",
+     "desc": ""
+    },
+    {
+     "n": 2,
+     "url": "https://www.datacentermap.com/australia/melbourne/",
+     "desc": ""
+    },
+    {
+     "n": 3,
+     "url": "https://www.datacenterdynamics.com/en/news/au11-billion-data-center-project-proposed-outside-melbourne-australia/",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "centuria-dandenong-road",
+   "name": "Centuria 1822 Dandenong Road",
+   "operator": "Centuria",
+   "state": "VIC",
+   "suburb": "Clayton",
+   "status": "lodged",
+   "address": "",
+   "postcode": "3168",
+   "lat": -37.9212,
+   "lon": 145.1321,
+   "geo_note": "approximate: centroid of Clayton VIC (postcode 3168) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": 40.0,
+   "mw_note": "headline figure from announcement or application; may be campus total or grid demand, not verified as IT load",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "Centuria",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": null,
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "low",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://www.datacenterdynamics.com/en/news/centuria-plans-40mw-data-center-in-melbourne-australia/",
+     "desc": ""
+    },
+    {
+     "n": 2,
+     "url": "https://www.datacentermap.com/australia/melbourne/",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "dover-sm1b",
+   "name": "Dover SM1B South Morang",
+   "operator": "Dover DC",
+   "state": "VIC",
+   "suburb": "South Morang",
+   "status": "lodged",
+   "address": "",
+   "postcode": "3752",
+   "lat": -37.6377,
+   "lon": 145.0824,
+   "geo_note": "approximate: centroid of South Morang VIC (postcode 3752) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": 200.0,
+   "mw_note": "headline figure from announcement or application; may be campus total or grid demand, not verified as IT load",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "Dover DC",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": null,
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "medium",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://www.datacenterdynamics.com/en/news/application-filed-for-200mw-data-center-in-melbourne-australia/",
+     "desc": ""
+    },
+    {
+     "n": 2,
+     "url": "https://w.media/whittlesea-seeks-greater-oversight-as-dover-plans-200mw-victorian-facility/",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "nextdc-m3-paramount-road",
+   "name": "NEXTDC M3 expansion (Paramount Road)",
+   "operator": "NEXTDC",
+   "state": "VIC",
+   "suburb": "West Footscray",
+   "status": "lodged",
+   "address": "",
+   "postcode": "3012",
+   "lat": -37.8007,
+   "lon": 144.8717,
+   "geo_note": "approximate: centroid of West Footscray VIC (postcode 3012) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": null,
+   "mw_note": "",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "NEXTDC",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": "PA2604231",
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "medium",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://www.planning.vic.gov.au/planning-approvals/ministerial-permits-register/ministerial-permits/ef7039bf-cd0b-f111-8407-7c1e5262e60a",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "aws-donnybrook-road",
+   "name": "AWS 55 Donnybrook Road",
+   "operator": "Amazon Web Services",
+   "state": "VIC",
+   "suburb": "Mickleham",
+   "status": "announced",
+   "address": "",
+   "postcode": "3064",
+   "lat": -37.562,
+   "lon": 144.874,
+   "geo_note": "approximate: centroid of Mickleham VIC (postcode 3064) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": null,
+   "mw_note": "",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "Amazon Web Services",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": null,
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "low",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://www.datacentermap.com/australia/melbourne/amazon-aws-55-donnybrook-rd/",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "aws-ferris-road",
+   "name": "AWS 54-80 Ferris Road",
+   "operator": "Amazon Web Services",
+   "state": "VIC",
+   "suburb": "Cobblebank",
+   "status": "announced",
+   "address": "",
+   "postcode": "3338",
+   "lat": -37.7062,
+   "lon": 144.602,
+   "geo_note": "approximate: centroid of Cobblebank VIC (postcode 3338) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": null,
+   "mw_note": "",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "Amazon Web Services",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": null,
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "low",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://baxtel.com/data-center/amazon-ferris-road",
+     "desc": ""
+    },
+    {
+     "n": 2,
+     "url": "https://baxtel.com/data-centers/amazon-aws",
+     "desc": ""
+    },
+    {
+     "n": 3,
+     "url": "https://www.datacentermap.com/australia/melbourne/",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "syncline-vic-ai-centre",
+   "name": "Victorian AI Centre",
+   "operator": "Syncline Energy",
+   "state": "VIC",
+   "suburb": "Plumpton",
+   "status": "announced",
+   "address": "",
+   "postcode": "3037",
+   "lat": -37.694,
+   "lon": 144.752,
+   "geo_note": "approximate: centroid of Plumpton VIC (postcode 3037) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": 2400.0,
+   "mw_note": "headline figure from announcement or application; may be campus total or grid demand, not verified as IT load",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "Syncline Energy",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": null,
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "low",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://renewmap.com.au/resources/projects/vic/datacentre/",
+     "desc": ""
+    },
+    {
+     "n": 2,
+     "url": "https://www.datacentermap.com/australia/melbourne/",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "centuria-temple-drive",
+   "name": "Centuria 49 Temple Drive / 2 Keon Parade",
+   "operator": "Centuria",
+   "state": "VIC",
+   "suburb": "Thomastown",
+   "status": "announced",
+   "address": "",
+   "postcode": "3074",
+   "lat": -37.6838,
+   "lon": 145.0108,
+   "geo_note": "approximate: centroid of Thomastown VIC (postcode 3074) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": null,
+   "mw_note": "",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "Centuria",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": null,
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "low",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://www.datacentermap.com/australia/melbourne/",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "centuria-cawley-road",
+   "name": "Centuria 2-8 Cawley Road / 1 Hardie Road",
+   "operator": "Centuria",
+   "state": "VIC",
+   "suburb": "Yarraville",
+   "status": "announced",
+   "address": "",
+   "postcode": "3013",
+   "lat": -37.8198,
+   "lon": 144.8814,
+   "geo_note": "approximate: centroid of Yarraville VIC (postcode 3013) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": null,
+   "mw_note": "",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "Centuria",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": null,
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "low",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://www.datacentermap.com/australia/melbourne/",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "nextdc-m5",
+   "name": "NEXTDC M5 Melbourne (Lovely Banks)",
+   "operator": "NEXTDC",
+   "state": "VIC",
+   "suburb": "Lovely Banks",
+   "status": "announced",
+   "address": "",
+   "postcode": "3213",
+   "lat": -38.0667,
+   "lon": 144.333,
+   "geo_note": "approximate: centroid of Lovely Banks VIC (postcode 3213) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": 1200.0,
+   "mw_note": "headline figure from announcement or application; may be campus total or grid demand, not verified as IT load",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "NEXTDC",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": null,
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "medium",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://www.listcorp.com/asx/nxt/nextdc-limited/news/fy26-results-announcement-3397041.html",
+     "desc": ""
+    },
+    {
+     "n": 2,
+     "url": "https://www.datacentermap.com/australia/melbourne/",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "resetdata-ai-f1",
+   "name": "ResetData AI Factory AI-F1",
+   "operator": "ResetData",
+   "state": "VIC",
+   "suburb": "Docklands",
+   "status": "announced",
+   "address": "",
+   "postcode": "3008",
+   "lat": -37.8171,
+   "lon": 144.9419,
+   "geo_note": "approximate: centroid of Docklands VIC (postcode 3008) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": null,
+   "mw_note": "",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "ResetData",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": null,
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "low",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://www.datacentermap.com/australia/melbourne/",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "zerra-western-downs",
+   "name": "Western Downs Digital Park",
+   "operator": "Zerra DC (WDDP Pty Ltd)",
+   "state": "QLD",
+   "suburb": "Kogan",
+   "status": "lodged",
+   "address": "",
+   "postcode": "4406",
+   "lat": -27.1137,
+   "lon": 150.8936,
+   "geo_note": "approximate: centroid of Kogan QLD (postcode 4406) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": 1440.0,
+   "mw_note": "headline figure from announcement or application; may be campus total or grid demand, not verified as IT load",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "Zerra DC (WDDP Pty Ltd)",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": null,
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "high",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://brisbanedevelopment.com.au/anthropic-zerra-dc-western-downs-digital-park-32-billion-data-centre-dalby/",
+     "desc": ""
+    },
+    {
+     "n": 2,
+     "url": "https://w.media/zerra-plans-1-44gw-aud-14-5bn-data-centre-campus-in-queensland/",
+     "desc": ""
+    },
+    {
+     "n": 3,
+     "url": "https://www.abc.net.au/news/2026-09-16/queensland-data-centre-anthropic-dalby/107160640",
+     "desc": ""
+    },
+    {
+     "n": 4,
+     "url": "https://renewmap.com.au/resources/projects/qld/datacentre/",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "swanbank-six-leaf-street",
+   "name": "Swanbank data centre (Lot 5 Six Leaf Street)",
+   "operator": "Northern Concept Swanb Pty Ltd",
+   "state": "QLD",
+   "suburb": "Swanbank",
+   "status": "lodged",
+   "address": "",
+   "postcode": "4306",
+   "lat": -27.6667,
+   "lon": 152.8167,
+   "geo_note": "approximate: centroid of Swanbank QLD (postcode 4306) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": null,
+   "mw_note": "",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "Northern Concept Swanb Pty Ltd",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": "2285/2026/MCU",
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "medium",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://www.datacenterdynamics.com/en/news/plans-filed-for-10-story-data-center-outside-brisbane-australia/",
+     "desc": ""
+    },
+    {
+     "n": 2,
+     "url": "https://yourneighbourhood.com.au/large-data-centre-swanbank-ipswich/",
+     "desc": ""
+    },
+    {
+     "n": 3,
+     "url": "https://www.theurbandeveloper.com/articles/swanbank-data-centre-proposal-ipswich-tallest-building-qld",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "nextdc-gc1",
+   "name": "NEXTDC GC1 Gold Coast",
+   "operator": "NEXTDC",
+   "state": "QLD",
+   "suburb": "Southport",
+   "status": "announced",
+   "address": "",
+   "postcode": "4215",
+   "lat": -27.9655,
+   "lon": 153.4036,
+   "geo_note": "approximate: centroid of Southport QLD (postcode 4215) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": 6.0,
+   "mw_note": "headline figure from announcement or application; may be campus total or grid demand, not verified as IT load",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "NEXTDC",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": null,
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "medium",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://www.nextdc.com/data-centres/gold-coast-data-centres/gc1-gold-coast",
+     "desc": ""
+    },
+    {
+     "n": 2,
+     "url": "https://www.nextdc.com/hubfs/ASX%20Announcements/1H26%20Results%20Presentation.pdf",
+     "desc": ""
+    },
+    {
+     "n": 3,
+     "url": "https://www.nextdc.com/data-centres",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "supernode-brendale",
+   "name": "Supernode data centre campus",
+   "operator": "Supernode (Quinbrook Infrastructure Partners)",
+   "state": "QLD",
+   "suburb": "Brendale",
+   "status": "announced",
+   "address": "83 Kremzow Road, Brendale QLD 4500",
+   "postcode": "4500",
+   "lat": -27.31856,
+   "lon": 152.9726,
+   "geo_note": "Geocoded 2026-09-27 from '83 Kremzow Road, Brendale QLD 4500' with the ArcGIS World Geocoder (PointAddress, score 100).",
+   "mw": null,
+   "mw_note": "Per-building IT MW not published. Private Energy Partners (Quinbrook affiliate) states '500 MW-IT potential data centre capacity on-site' and the precinct 'is capable of hosting 500MW of capacity' - a site-potential figure, not an approved or designed load, so not entered as the value.",
+   "mw_grid": 800.0,
+   "mw_grid_note": "Quinbrook 2022: 'up to 800 MWs of power supply capacity' via South Pine substation (three HV connections) - site supply capacity shared with the BESS (780 MW / 3,073 MWh across Stages 1-3, source 9), not DC demand.",
+   "cost": 2500.0,
+   "cost_note": "Quinbrook 2022: 'up to $2.5 billion when fully constructed' (whole campus incl. BESS). Later figures: 'more than A$3 billion of investment is projected for the Supernode precinct' across all stages (source 9); BESS Stages 1-3 'expected to exceed A$1.4 billion' (source 9). No data centre-only cost published; the DC share is at most ~A$1.1-1.6bn by subtraction, which is an inference, not a stated figure.",
+   "builder": null,
+   "builder_note": "No data centre builder. BESS designed/procured/built by Quinbrook affiliate Private Energy Partners (source 9).",
+   "developer": "Quinbrook Infrastructure Partners",
+   "planning": {
+    "authority": "City of Moreton Bay (Moreton Bay Regional Council)",
+    "pathway": null,
+    "ref": null,
+    "lodged": null,
+    "determined": null,
+    "url": "https://services-ap1.arcgis.com/152ojN3Ts9H3cdtl/ArcGIS/rest/services/MyStreet/FeatureServer/0"
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": "'Construction begins onsite in June 2024' (source 9) refers to BESS Stage 1; no data centre construction found. Quinbrook's Supernode DC project page shows 'Status Construction' (source 9) but gives no DC works; the May 2026 site map shows only BESS."
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": "BESS Stage 1 (260 MW / 619 MWh) commercial operations Feb 2026; Stage 2 July 2026 (Stages 1+2 = 520 MW / 1,858 MWh); Stage 3 (Stanwell offtake) under construction (sources 4, 9). No data centre timing; Baxtel's 2028-2031 is unsourced."
+   },
+   "year": null,
+   "confidence": "medium",
+   "review": "",
+   "questions": [
+    "scope: excluded - no data centre planning approval found (BESS-only DA/2023/1419); removed from master.csv and listed in excluded.csv (decision 2026-09-27)",
+    "council DA Tracker and planning-scheme PDFs return 403 to scripts; DA/2023/1419 documents (lot list, applicant) not read - confirm whether it covers Lot 121 M31114 as well as Lot 3 SP213172",
+    "location of any future data centre pad within the '30 ha' campus unknown (Lot 121 M31114 appears fully allocated to BESS per May 2026 map)",
+    "per-building IT MW, tenant, cost split and jobs unknown; revisit if a DC DA (MCU for research and technology industry) is lodged",
+    "status set to announced on 2026-09-28 (pipeline listing)"
+   ],
+   "checked": "2026-09-27",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://www.quinbrook.com/news-insights/quinbrook-launches-2-5-billion-supernode-data-storage-project-in-brisbane-to-be-powered-by-renewables-and-battery-storage/",
+     "desc": "Quinbrook, \"Quinbrook launches $2.5 Billion 'Supernode' data storage project in Brisbane...\" (8 Jul 2022), (read in full); Queensland Ministerial statement \"Supernode set for Moreton Bay\" (Fri 8 Jul 2022), https://statements.qld.gov.au/statements/95682 (read in full). Supports: developer, 30 ha site adjacent to South Pine substation, \"multi-tenant campus of up to four hyperscale data centres\", \"up to 800 MWs of power supply capacity\", \"up to $2.5 billion when fully constructed\" / \"$2.5 billion-plus\", FIRB and Moreton Bay Regional Council \"local planning permissions\", BESS construction targeted mid-2023; no jobs figures."
+    },
+    {
+     "n": 2,
+     "url": "https://albanycreeknews.com.au/supernode-green-data-storage-campus-in-brendale-secures-approval/",
+     "desc": "Albany Creek News, \"Supernode: Green Data Storage Campus in Brendale Secures Approval\", (search extract only; page blocked by bot check). Supports: council approval."
+    },
+    {
+     "n": 3,
+     "url": "https://www.moretondaily.com.au/news/brendale-chosen-for-2-5-billion-green-data-storage-project/amp/",
+     "desc": "Moreton Daily, \"Brendale chosen for $2.5 billion 'green' data storage project\", (search extract only; 403). Supports: Kremzow Road site next to South Pine substation."
+    },
+    {
+     "n": 4,
+     "url": "https://www.energy-storage.news/quinbrook-closes-financing-on-bess-for-new-supernode-data-centre-in-queensland-australia/",
+     "desc": "Energy-Storage.News, ; felix.net, https://www.felix.net/project-news/stage-1-of-2.5bn-supernode-project-to-begin-construction-following-financial-close (search extracts only); ESS News (17 Aug 2026), https://www.ess-news.com/2026/08/17/quinbrook-commits-to-third-stage-of-massive-supernode-project-with-catl/ (read in full). Supports: BESS timeline; Stage 2 250 MW/1,040 MWh operating late Jul 2026; Stage 3 260 MW/1,216 MWh, A$469m debt financing; full plan 780 MW/3,074 MWh; no data centre details."
+    },
+    {
+     "n": 5,
+     "url": "https://baxtel.com/data-center/supernode-brendale",
+     "desc": "list/master.csv row (address 83 Kremzow Road, Brendale QLD 4500; Baxtel shows 2028-2031). Supports: address, postcode."
+    },
+    {
+     "n": 6,
+     "url": "https://www.itnews.com.au/news/supernode-plans-25bn-data-centre-development-north-of-brisbane-582396",
+     "desc": "iTnews, \"Supernode plans $2.5bn data centre development north of Brisbane\" (11 Jul 2022), ; Innovate Moreton Bay, https://innovatemoretonbay.com.au/news/brendale-chosen-for-2-5-billion-green-data-storage-project and https://innovatemoretonbay.com.au/news/announcement-of-325-million-brendale-battery-project ; W.Media, https://w.media/quinbrook-infrastructure-partners-wins-approval-for-hyperscale-data-centres-in-australia/ (all read in full). Supports: 30 ha, 800 MW via three HV connections, FIRB + council permission, four hyperscale DCs, $325m BESS financing; no DA reference, MW per building or jobs."
+    },
+    {
+     "n": 7,
+     "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/PlanningCadastre/LandParcelPropertyFramework/MapServer",
+     "desc": "Queensland Government LandParcelPropertyFramework MapServer (addresses and cadastral parcels), (queried 2026-09-27). Supports: 81/83 Kremzow Road = Lot 121 M31114 (161,874 m2); BESS DA point falls in Lot 3 SP213172 (100,400 m2)."
+    },
+    {
+     "n": 8,
+     "url": "https://services-ap1.arcgis.com/152ojN3Ts9H3cdtl/ArcGIS/rest/services/MyStreet/FeatureServer/0",
+     "desc": "City of Moreton Bay open data, Development Applications feature service (Datahub \"Development Applications\"), (queried 2026-09-27). Supports: DA/2023/1419 battery storage facility permit (lodged 2023-04-18, approved 2023-11-17; DA Tracker https://www.moretonbay.qld.gov.au/Services/Building-Development/DA-Tracker/10074714); no application mentioning a data centre near the site; DA/36991/2018/V2L is an unrelated residential preliminary approval. Deep-dive re-query (16,519 records, lodged Feb 2016 to 2026): no application intersects Lot 121 M31114; no description contains 'data', 'server' or 'Kremzow' (other than two 2024 road-intersection works); 'research and technology industry' permits found are unrelated (e.g. DA/34673/2017/V2N ~1 km north, 2017). DA/2023/1419 full description: 'Reconfiguring a Lot - Development Permit for Subdivision by Lease and Access Easement and Material Change of Use - Development Permit for Battery Storage Facility and Building Works - Development Permit for Battery Storage Facility'. The DA Tracker page is a JavaScript app and returned 403 / no content to scripts, so the application documents were not read."
+    },
+    {
+     "n": 9,
+     "url": "https://supernode.com.au/",
+     "desc": "Quinbrook / Supernode / Private Energy Partners web pages (all read in full 2026-09-27): ; https://supernode.com.au/project/sunshine-dc/ (Supernode DC page - no MW, approval, tenant or timing); https://supernode.com.au/project/metro-dc/ (Supernode BESS: Stage 1 260 MW/619 MWh CO Feb 2026, Stage 2 CO Jul 2026, Stages 1+2 520 MW/1,858 MWh, ~780 MW/3,073 MWh with Stage 3, 'Investment across Stages 1, 2 and 3 is expected to exceed A$1.4 billion'); https://www.quinbrook.com/projects/supernode-dc/ ('Status Construction', 'Year acquired 2021', no details); https://private-energypartners.com/supernode/ ('500 MW-IT potential data centre capacity on-site', 'capable of hosting 500MW of capacity', '$3 BN (AUD) total projected investment across all stages', timeline '2022 Masterplan & regulatory approvals - Integrated campus vision confirmed for data + battery storage', 'Construction begins onsite in June 2024'); https://private-energypartnerscommunity.com.au/supernode-bess (Supernode 'next to the South Pine Switchyard on Kremzow Road'; 'multi-stage investment of up to $2.5 billion with an initial $1.4 billion committed for the first three stages'; jobs mentioned without figures) and its schematic map 'current as at May 2026', https://hdp-au-prod-app-pe-community-files.s3.ap-southeast-2.amazonaws.com/3717/7700/9862/PEP_SchematicMap_D03.png (site boundary south of Kremzow Road, north of South Pine Switchyard; shows only BESS blocks and substations). Supports: MW potential, cost figures, BESS timeline, builder of BESS, absence of DC works. Also QCN/CommsDay (Jul 2022), https://qcn.com.au/commsday-quinbrook-plans-2-5bn-dc-campus-in-north-brisbane-with-800mw-of-renewable-power/ (read in full): Quinbrook offers 'powered land' or 'powered building' to operators."
+    },
+    {
+     "n": 10,
+     "url": "https://www.moretonbay.qld.gov.au/files/assets/public/v/2/services/building-development/mbrc-plan/v4/mbrc-planning-scheme-part-5.5.7.pdf",
+     "desc": "City of Moreton Bay planning scheme and zoning: MBRC Planning Scheme Part 5.5.7 Industry zone tables of assessment, V4 (effective 29 Jan 2020) and V7 (effective 30 Oct 2024) .../v7/mbrc-planning-scheme-part-5.5.7.pdf (read in full; Table 5.5.7.3.1 General industry precinct: 'Research and technology industry (64)' and 'Low impact industry (42)' = 'Assessable development - Code assessment ... In all instances'); council zoning layer ZM_Zones_Precincts_WebMercator_OpenData, https://services-ap1.arcgis.com/152ojN3Ts9H3cdtl/ArcGIS/rest/services/ZM_Zones_Precincts_WebMercator_OpenData/FeatureServer/0 (queried 2026-09-27: Lot 121 M31114 = 'General industry'; Lot 126 RP912725 (366-386 South Pine Road, directly south of Lot 121; probably the switchyard, not confirmed) and Lot 3 SP213172 = 'Utilities'). Supports: a data centre on the site needs a code-assessable council permit."
+    }
+   ]
+  },
+  {
+   "id": "digico-bne3",
+   "name": "Brisbane BNE3",
+   "operator": "DigiCo Infrastructure REIT",
+   "state": "QLD",
+   "suburb": "Brisbane Airport",
+   "status": "announced",
+   "address": "6 Cycas Lane, Brisbane Airport QLD 4008",
+   "postcode": "4008",
+   "lat": -27.41547,
+   "lon": 153.09147,
+   "geo_note": "Geocoded 2026-09-27 from '6 Cycas Lane, Brisbane Airport QLD 4008' with the ArcGIS World Geocoder (StreetAddressExt, score 98.9). Street-interpolated (StreetAddressExt), not an address point: approximate.",
+   "mw": 19.6,
+   "mw_note": "PDS (Dec 2024), where the site was called BNE4: 'greenfield development estimated to deliver 19.6MW of IT Capacity and 2,496 approximately racks across on 9,786 square metres of land', tier 4. FY25 results (Aug 2025, source 5), after renaming to BNE3: '~10,000sqm ... expected to deliver 20MW of IT Capacity'.",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "DigiCo Infrastructure REIT",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": null,
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": "2027",
+    "precision": "year",
+    "note": "Expected at PDS: 'Construction completion is estimated in calendar year 2027.' Superseded: by Aug 2025 DigiCo was still 'in discussions with Brisbane Airport Corporation' (source 5), and the FY26 results/Annual Report 2026 portfolio lists no BNE3 at all (source 6)."
+   },
+   "year": null,
+   "confidence": "low",
+   "review": "",
+   "questions": [
+    "scope: excluded - Not approved or under construction: greenfield site at Cycas Lane, Brisbane Airport (PDS 'BNE4', renamed BNE3 Aug 2025), 19.6 MW proposed; removed from master.csv and listed in excluded.csv (decision 2026-09-27)",
+    "status: 'under_construction' (from master.csv) is contradicted by DigiCo disclosures; schema has no 'announced' value",
+    "street number (4 vs 6 Cycas Lane) unconfirmed",
+    "builder, cost, jobs not found",
+    "status set to announced on 2026-09-28 (pipeline listing)"
+   ],
+   "checked": "2026-09-27",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://www.digi-co.com.au/location/brisbane-bne3/",
+     "desc": "DigiCo Infrastructure REIT, \"Brisbane BNE3\", (search extract only); Baxtel, https://baxtel.com/data-center/digico-bne3 (read in full: \"4 Cycas La\", \"9,786-square-meter greenfield development\", \"Year Planned: 2027\", planning stage). Supports: greenfield, 19.6 MW, land adjacent to BNE2, CY2027 completion estimate."
+    },
+    {
+     "n": 2,
+     "url": "https://www.datacentermap.com/australia/brisbane/digico-brisbane-bne4/",
+     "desc": "datacentermap, \"DigiCo Brisbane BNE3 Data Center | 6 Cycas Lane (19.6 MW)\", (search extract only). Supports: address 6 Cycas Lane, postcode."
+    },
+    {
+     "n": 3,
+     "url": "https://www.hmccapital.com.au/investment-strategies/digital-infrastructure/digico-infrastructure-reit/asx-announcements/fy25-results-announcement/",
+     "desc": "HMC Capital / DigiCo FY25 results ASX release (Aug 2025), (search extract only). Superseded by source 5."
+    },
+    {
+     "n": 4,
+     "url": "https://announcements.asx.com.au/asxpdf/20241212/pdf/06ckxj5xhzpb18.pdf",
+     "desc": "DigiCo Infrastructure REIT, Replacement Product Disclosure Statement and Prospectus (ASX, 12 Dec 2024), (read in full, section 4.4.3.2 \"BNE4\"). Supports: 9,786 m2 adjacent to BNE2, option to expand BAC lease, 19.6 MW IT, ~2,496 racks, tier 4, completion est. CY2027, \"greenfield development project\"; naming (PDS BNE3 = Woolloongabba 0.3 MW)."
+    },
+    {
+     "n": 5,
+     "url": "https://www.hmccapital.com.au/investment-strategies/digital-infrastructure/digico-infrastructure-reit/asx-announcements/fy25-results-presentation/",
+     "desc": "DigiCo FY25 Results Presentation (Aug 2025), (read in full). Supports: \"BNE3 has been renamed (previously BNE4 at time of PDS)\"; \"DigiCo is in discussions with Brisbane Airport Corporation ('BAC'), to develop an additional campus site adjacent to existing facility at BNE2\"; ~10,000 m2, 20 MW planned, Tier IV."
+    },
+    {
+     "n": 6,
+     "url": "https://www.hmccapital.com.au/investment-strategies/digital-infrastructure/digico-infrastructure-reit/asx-announcements/fy26-results-presentation/",
+     "desc": "DigiCo FY26 Results Presentation (Aug 2026), ; DigiCo Annual Report 2026 (ASX, 25 Sep 2026), https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03139727-2A1699177?access_token=83ff96335c2d45a094df02a206a39ff4 (both read in full). Supports: Australian portfolio lists BNE1, BNE, BNE2 only (no BNE3); greenfield described only as \"evaluation and planning on select greenfield sites\"."
+    },
+    {
+     "n": 7,
+     "url": "https://www.bne.com.au/corporate/projects/building-applications",
+     "desc": "Brisbane Airport Corporation, \"Building Applications\", (read in full). Supports: airport-land approval regime (BAC consent + Airport Building Controller)."
+    }
+   ]
+  },
+  {
+   "id": "cdc-beard-be2",
+   "name": "CDC Beard 2 (BE2)",
+   "operator": "CDC Data Centres",
+   "state": "ACT",
+   "suburb": "Beard",
+   "status": "lodged",
+   "address": "",
+   "postcode": "2620",
+   "lat": -35.3413,
+   "lon": 149.21,
+   "geo_note": "approximate: centroid of Beard ACT (postcode 2620) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": null,
+   "mw_note": "",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "CDC Data Centres",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": "DA 202645149",
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "high",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://region.com.au/new-200-million-data-centre-proposed-for-beard-fits-territory-standards-on-power-and-water/996833/",
+     "desc": ""
+    },
+    {
+     "n": 2,
+     "url": "https://www.canberratimes.com.au/story/9344073/cdc-data-centres-unveil-jerrabomberra-stage-2-ahead-of-new-rules/",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "stack-can01",
+   "name": "STACK CAN01 Hume",
+   "operator": "STACK Infrastructure",
+   "state": "ACT",
+   "suburb": "Hume",
+   "status": "announced",
+   "address": "",
+   "postcode": "2620",
+   "lat": -35.387,
+   "lon": 149.17,
+   "geo_note": "approximate: centroid of Hume ACT (postcode 2620) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": 28.0,
+   "mw_note": "headline figure from announcement or application; may be campus total or grid demand, not verified as IT load",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "STACK Infrastructure",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": null,
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "low",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://www.datacentermap.com/australia/canberra/stack-infrastructure-can01a/",
+     "desc": ""
+    },
+    {
+     "n": 2,
+     "url": "https://www.stackinfra.com/wp-content/uploads/2022/07/CAN01_082922.pdf",
+     "desc": ""
+    },
+    {
+     "n": 3,
+     "url": "https://baxtel.com/data-centers/stack-infrastructure",
+     "desc": ""
+    },
+    {
+     "n": 4,
+     "url": "https://www.datacentermap.com/australia/canberra/",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "firmus-wesley-vale",
+   "name": "Firmus Wesley Vale",
+   "operator": "Firmus Technologies",
+   "state": "TAS",
+   "suburb": "Wesley Vale",
+   "status": "lodged",
+   "address": "",
+   "postcode": "7307",
+   "lat": -41.1851,
+   "lon": 146.4435,
+   "geo_note": "approximate: centroid of Wesley Vale TAS (postcode 7307) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": 52.0,
+   "mw_note": "headline figure from announcement or application; may be campus total or grid demand, not verified as IT load",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "Firmus Technologies",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": null,
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "medium",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://www.abc.net.au/news/2026-09-15/firmus-technologies-lodge-tascat-appeal-for-generator-use/107144572",
+     "desc": ""
+    },
+    {
+     "n": 2,
+     "url": "https://www.abc.net.au/news/2026-06-15/firmus-ai-company-tasmania-biggest-power-user-three-sites/106783142",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "firmus-southgate-stage2",
+   "name": "Firmus Project Southgate Stage 2",
+   "operator": "Firmus Technologies",
+   "state": "TAS",
+   "suburb": "St Leonards",
+   "status": "announced",
+   "address": "",
+   "postcode": "7250",
+   "lat": -41.4584,
+   "lon": 147.2008,
+   "geo_note": "approximate: centroid of St Leonards TAS (postcode 7250) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": 300.0,
+   "mw_note": "headline figure from announcement or application; may be campus total or grid demand, not verified as IT load",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "Firmus Technologies",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": null,
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "medium",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://www.datacenterdynamics.com/en/news/firmus-gets-go-ahead-for-ai-data-center-project-in-launceston-tasmania/",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "iren-bundey",
+   "name": "IREN Bundey AI campus",
+   "operator": "IREN",
+   "state": "SA",
+   "suburb": "Bundey",
+   "status": "announced",
+   "address": "",
+   "postcode": "5320",
+   "lat": -33.8811,
+   "lon": 139.2751,
+   "geo_note": "approximate: centroid of Bundey SA (postcode 5320) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": 800.0,
+   "mw_note": "headline figure from announcement or application; may be campus total or grid demand, not verified as IT load",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "IREN",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": null,
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "high",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://www.abc.net.au/news/2026-06-19/proposed-data-centre-in-south-australia-dividing-locals/106810776",
+     "desc": ""
+    },
+    {
+     "n": 2,
+     "url": "https://reneweconomy.com.au/ai-giant-choose-australias-first-100-pct-net-renewable-grid-to-build-countrys-biggest-data-centre/",
+     "desc": ""
+    },
+    {
+     "n": 3,
+     "url": "https://www.datacentermap.com/australia/adelaide/",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "firmus-tailem-bend",
+   "name": "Firmus Tailem Bend AI Factory",
+   "operator": "Firmus Technologies",
+   "state": "SA",
+   "suburb": "Tailem Bend",
+   "status": "announced",
+   "address": "",
+   "postcode": "5259",
+   "lat": -35.2533,
+   "lon": 139.4561,
+   "geo_note": "approximate: centroid of Tailem Bend SA (postcode 5259) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": null,
+   "mw_note": "",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "Firmus Technologies",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": null,
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "medium",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://www.abc.net.au/news/2026-07-16/sa-firmus-factory-tailem-bend-community-meeting/106919542",
+     "desc": ""
+    },
+    {
+     "n": 2,
+     "url": "https://www.murraybridge.news/whats-the-deal-with-the-two-data-centres-proposed-near-tailem-bend/",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "skylab-cooke-plains",
+   "name": "Skylab Australia Cooke Plains",
+   "operator": "Skylab Australia",
+   "state": "SA",
+   "suburb": "Cooke Plains",
+   "status": "announced",
+   "address": "",
+   "postcode": "5261",
+   "lat": -35.3781,
+   "lon": 139.5597,
+   "geo_note": "approximate: centroid of Cooke Plains SA (postcode 5261) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": 800.0,
+   "mw_note": "headline figure from announcement or application; may be campus total or grid demand, not verified as IT load",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "Skylab Australia",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": null,
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "medium",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://www.murraybridge.news/whats-the-deal-with-the-two-data-centres-proposed-near-tailem-bend/",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "aurora-port-augusta",
+   "name": "Aurora Energy Precinct AI Campus",
+   "operator": "1414 Degrees / unnamed developer",
+   "state": "SA",
+   "suburb": "Port Augusta",
+   "status": "announced",
+   "address": "",
+   "postcode": "5700",
+   "lat": -32.4952,
+   "lon": 137.7894,
+   "geo_note": "approximate: centroid of Port Augusta SA (postcode 5700) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": null,
+   "mw_note": "",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "1414 Degrees / unnamed developer",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": null,
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "low",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://w.media/south-australia-energy-precinct-bets-on-staged-ai-data-centre-deployment/",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "digico-adl1-expansion",
+   "name": "DigiCo ADL1 expansion",
+   "operator": "DigiCo Infrastructure REIT",
+   "state": "SA",
+   "suburb": "Edinburgh",
+   "status": "announced",
+   "address": "",
+   "postcode": "5111",
+   "lat": -34.7185,
+   "lon": 138.6289,
+   "geo_note": "approximate: centroid of Edinburgh SA (postcode 5111) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": 15.0,
+   "mw_note": "headline figure from announcement or application; may be campus total or grid demand, not verified as IT load",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "DigiCo Infrastructure REIT",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": null,
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "low",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://kalkine.com.au/news/real-estate/digico-infrastructure-reit-asxdgt-brings-forward-syd1-expansion-as-fy26-results-exceed-guidance",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "dci-drw01",
+   "name": "DCI DRW01 Darwin",
+   "operator": "DCI Data Centers",
+   "state": "NT",
+   "suburb": "Wishart",
+   "status": "announced",
+   "address": "",
+   "postcode": "0822",
+   "lat": -12.455,
+   "lon": 130.931,
+   "geo_note": "approximate: centroid of Wishart NT (postcode 0822) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": 10.0,
+   "mw_note": "headline figure from announcement or application; may be campus total or grid demand, not verified as IT load",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "DCI Data Centers",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": null,
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "low",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://www.datacenterdynamics.com/en/news/dci-data-centers-to-build-10mw-facility-in-darwin-australia/",
+     "desc": ""
+    },
+    {
+     "n": 2,
+     "url": "https://www.datacentermap.com/australia/darwin/dci-darwin-01/",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "beetaloo-weddell",
+   "name": "Beetaloo Digital Weddell campus",
+   "operator": "Beetaloo Energy",
+   "state": "NT",
+   "suburb": "Weddell",
+   "status": "announced",
+   "address": "",
+   "postcode": "0822",
+   "lat": -12.6734,
+   "lon": 131.0478,
+   "geo_note": "approximate: centroid of Weddell NT (postcode 0822) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": 2000.0,
+   "mw_note": "headline figure from announcement or application; may be campus total or grid demand, not verified as IT load",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "Beetaloo Energy",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": null,
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "medium",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://territorycoordinator.nt.gov.au/news-and-insights/beetaloo-digital-advances-plans-for-weddell-data-centre",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "cdc-hazelmere",
+   "name": "CDC Hazelmere Campus",
+   "operator": "CDC Data Centres",
+   "state": "WA",
+   "suburb": "Hazelmere",
+   "status": "announced",
+   "address": "",
+   "postcode": "6055",
+   "lat": -31.9106,
+   "lon": 116.0098,
+   "geo_note": "approximate: centroid of Hazelmere WA (postcode 6055) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": 192.0,
+   "mw_note": "headline figure from announcement or application; may be campus total or grid demand, not verified as IT load",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "CDC Data Centres",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": null,
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "medium",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://www.businessnews.com.au/article/CDC-plans-192MW-Hazelmere-data-centre",
+     "desc": ""
+    },
+    {
+     "n": 2,
+     "url": "https://cdc.com/locations/perth/",
+     "desc": ""
+    },
+    {
+     "n": 3,
+     "url": "https://renewmap.com.au/resources/projects/wa/datacentre/",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "id": "gingerah-meridien",
+   "name": "Project Meridien (Broome)",
+   "operator": "Gingerah Energy",
+   "state": "WA",
+   "suburb": "Broome",
+   "status": "announced",
+   "address": "",
+   "postcode": "6725",
+   "lat": -17.9644,
+   "lon": 122.2304,
+   "geo_note": "approximate: centroid of Broome WA (postcode 6725) from matthewproctor/australianpostcodes; site location not geocoded",
+   "mw": 240.0,
+   "mw_note": "headline figure from announcement or application; may be campus total or grid demand, not verified as IT load",
+   "mw_grid": null,
+   "mw_grid_note": "",
+   "cost": null,
+   "cost_note": "",
+   "builder": null,
+   "builder_note": "",
+   "developer": "Gingerah Energy",
+   "planning": {
+    "authority": null,
+    "pathway": null,
+    "ref": null,
+    "lodged": null,
+    "determined": null,
+    "url": null
+   },
+   "jobs_c": null,
+   "jobs_c_other": [],
+   "jobs_o": null,
+   "jobs_o_other": [],
+   "start": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "end": {
+    "value": null,
+    "precision": null,
+    "note": ""
+   },
+   "year": null,
+   "confidence": "low",
+   "review": "",
+   "questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+   ],
+   "checked": "2026-09-28",
+   "sources": [
+    {
+     "n": 1,
+     "url": "https://www.abc.net.au/news/2026-04-20/plans-emerge-gigawatt-scale-ai-data-centre-kimberley/106567332",
+     "desc": ""
     }
    ]
   }

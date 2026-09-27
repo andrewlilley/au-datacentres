@@ -2,7 +2,7 @@
   "id": "cdc-mp1-ext",
   "name": "CDC Marsden Park MP1.EXT (MP1 extension, 7.5 MW)",
   "operator": "CDC Data Centres",
-  "status": "under_construction",
+  "status": "lodged",
   "location": {
     "address": {
       "value": "105 Hollinsworth Road, Marsden Park NSW 2765",
@@ -125,6 +125,7 @@
     "Which three CDCs the SEE's Appendices 14-16 are (likely CDC-25-01833, CDC-26-00180, CDC-26-00714) and whether CDC-26-00180 and CDC-26-00714 (both $43.7m 'Construction of a Warehouse Facility') are separate works or a re-certification; structure cost therefore uncertain",
     "MP1.S3 (name in piling CDC-25-01833) is taken to be MP1.EXT based on the CEMP drawing file name 'SYD-MP1.3-AR-RVT' and the same location; not explicitly confirmed",
     "eTrack lists CC-26-00624 ('ZONE H Stage 1 - Plant deck ...') as a child of DA-26-00662; relationship of 'Zone H' generators/plant to MP1.EXT unclear",
-    "Completion / handover date not found (CEMP stage 3 wording implies late 2028 or later, but that may be campus-level)"
+    "Completion / handover date not found (CEMP stage 3 wording implies late 2028 or later, but that may be campus-level)",
+    "status relabelled lodged on 2026-09-28 per the scope note above"
   ]
 }

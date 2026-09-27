@@ -8,8 +8,10 @@ Scope
   - `under_construction`
   - `approved` — planning approval (DA/SSD/permit) granted, construction not started
 - Also listed but not in scope:
+  - `lodged` — planning application (or SEARs request / IDA endorsement) lodged, not determined. Pipeline; excluded from in-scope counts.
+  - `announced` — publicly announced or land acquired, no planning application found. Pipeline; excluded from in-scope counts.
   - `withdrawn` — application withdrawn (or approval surrendered) before construction; kept so the record and its sources are not lost. Exclude from in-scope counts.
-- Out of scope: facilities completed before 2016-01-01 (unless a new in-scope phase/building), sub-5 MW sites, lodged-but-undetermined or merely announced projects (record these in `list/excluded.csv` with a reason).
+- Out of scope: facilities completed before 2016-01-01 (unless a new in-scope phase/building), sub-5 MW sites, other exclusions (record these in `list/excluded.csv` with a reason). Lodged and announced projects moved from excluded.csv to master.csv on 2026-09-28.
 
 Columns (candidate files use the same columns)
 | column | notes |
@@ -20,7 +22,7 @@ Columns (candidate files use the same columns)
 | state | NSW, VIC, QLD, WA, SA, TAS, ACT, NT |
 | suburb | |
 | address | street address if public |
-| status | operational / under_construction / approved / withdrawn |
+| status | operational / under_construction / approved / lodged / announced / withdrawn |
 | mw_it | planned IT capacity for this building/phase, MW (number, blank if unknown) |
 | year_complete | year completed or expected |
 | planning_ref | DA / SSD / permit number if known |

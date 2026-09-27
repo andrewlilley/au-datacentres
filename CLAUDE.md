@@ -26,6 +26,13 @@ does this phase, in two steps:
 
 Do not re-run `list/merge.py`; `master.csv` is now edited by hand.
 
+Pipeline statuses (added 2026-09-28): `lodged` and `announced` rows in
+`master.csv` are the undetermined and announced projects moved out of
+`excluded.csv` (duplicates merged). Their facility folders are minimal:
+suburb-centroid location and the discovery sources only. They have not had
+Phase 2 collection; a future batch can fill them. Promote a row to `approved`
+only on evidence of a planning decision.
+
 ## Phase 2: per-facility collection (done for batches 1-4)
 
 The facility list is `list/master.csv`. It is split into batches in

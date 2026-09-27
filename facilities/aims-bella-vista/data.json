@@ -1,0 +1,109 @@
+{
+  "id": "aims-bella-vista",
+  "name": "Bella Vista Data Centre Campus",
+  "operator": "AIMS Capital Management",
+  "status": "lodged",
+  "location": {
+    "address": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "suburb": "Bella Vista",
+    "state": "NSW",
+    "postcode": {
+      "value": "2153",
+      "source": null,
+      "note": "suburb postcode"
+    },
+    "lat": {
+      "value": -33.7386,
+      "source": null,
+      "note": "approximate: centroid of Bella Vista NSW (postcode 2153) from matthewproctor/australianpostcodes; site location not geocoded"
+    },
+    "lon": {
+      "value": 150.9503,
+      "source": null,
+      "note": ""
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "developer": {
+    "value": "AIMS Capital Management",
+    "source": 1,
+    "note": ""
+  },
+  "mw_it": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "planning": {
+    "authority": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "pathway": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "last_checked": "2026-09-28",
+  "open_questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+  ]
+}

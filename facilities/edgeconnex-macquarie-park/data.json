@@ -1,0 +1,109 @@
+{
+  "id": "edgeconnex-macquarie-park",
+  "name": "EdgeConneX Macquarie Park SYD1",
+  "operator": "EdgeConneX",
+  "status": "announced",
+  "location": {
+    "address": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "suburb": "Macquarie Park",
+    "state": "NSW",
+    "postcode": {
+      "value": "2113",
+      "source": null,
+      "note": "suburb postcode"
+    },
+    "lat": {
+      "value": -33.7935,
+      "source": null,
+      "note": "approximate: centroid of Macquarie Park NSW (postcode 2113) from matthewproctor/australianpostcodes; site location not geocoded"
+    },
+    "lon": {
+      "value": 151.1345,
+      "source": null,
+      "note": ""
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "developer": {
+    "value": "EdgeConneX",
+    "source": 1,
+    "note": ""
+  },
+  "mw_it": {
+    "value": 100.0,
+    "source": 1,
+    "note": "headline figure from announcement or application; may be campus total or grid demand, not verified as IT load"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "planning": {
+    "authority": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "pathway": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "last_checked": "2026-09-28",
+  "open_questions": [
+    "pipeline record from discovery only; per-facility collection not yet done"
+  ]
+}
