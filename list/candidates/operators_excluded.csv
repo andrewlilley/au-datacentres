@@ -1,0 +1,55 @@
+name,operator,state,suburb,reason,sources
+S1 Sydney,NEXTDC,NSW,Macquarie Park,Pre-2018 completion (2013),https://www.nextdc.com/data-centres
+M1 Melbourne,NEXTDC,VIC,Port Melbourne,Pre-2018 completion (2012),https://www.nextdc.com/data-centres
+M2 Melbourne,NEXTDC,VIC,Tullamarine,Pre-2018 completion (2017); 60MW liquid-cooled expansion in progress within existing building,https://www.nextdc.com/data-centres;https://www.listcorp.com/asx/nxt/nextdc-limited/news/fy26-results-announcement-3397041.html
+B2 Brisbane,NEXTDC,QLD,Fortitude Valley,Pre-2018 completion (2017),https://www.nextdc.com/data-centres
+P1 Perth,NEXTDC,WA,Malaga,Pre-2018 completion (2014),https://www.nextdc.com/data-centres
+B1/C1/D1/PH1/NE1/SC1,NEXTDC,,,Under 5MW,https://www.nextdc.com/data-centres
+GE1 Geelong,NEXTDC,VIC,Geelong,Under 5MW (4MW),https://www.nextdc.com/data-centres
+GC1 Gold Coast,NEXTDC,QLD,Gold Coast,Design & town planning only (6MW),https://www.nextdc.com/data-centres
+S5 Sydney,NEXTDC,NSW,Macquarie Park,"SSD-63168959 lodged, not determined ('More information required'); 80+MW; 269 Lane Cove Rd",https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s5-data-centre-and-innovation-hub;https://www.nextdc.com/data-centres
+S7 Sydney,NEXTDC,NSW,Eastern Creek,Planning only (IDA fast-track status); 550+MW; OpenAI anchor,https://www.nextdc.com/data-centres;https://www.theurbandeveloper.com/articles/eastern-creek-data-centre-550mw-openai-nextdc
+M5 Melbourne (Lovely Banks),NEXTDC,VIC,Lovely Banks,"Site acquired, planning commencing (up to 1.2GW)",https://www.listcorp.com/asx/nxt/nextdc-limited/news/fy26-results-announcement-3397041.html
+SYD1 Sydney West,AirTrunk,NSW,Huntingwood,"Opened 2017 (35 Huntingwood Dr, 130MW+). Later buildings may be post-2018 phases; not verified",https://baxtel.com/data-center/airtrunk-sydney-syd1
+MEL1 Melbourne (phases 1-3),AirTrunk,VIC,Derrimut,Opened 2017; phases 4-6 are listed separately,https://baxtel.com/data-center/airtrunk-melbourne-mel1
+MEL2 Melbourne,AirTrunk,VIC,Mickleham,"Permit lodged via DFP (45 Donnybrook Rd), under assessment as of Aug 2026; 354MW; operator targets 2H 2027",https://www.theurbandeveloper.com/articles/airtrunk-blackstone-mickleham-north-melbourne-data-centre-plans-donnybrook-road;https://www.crn.com.au/news/2026/data-centre/airtrunk-new-melbourne-location-mel2
+Kemps Creek KC1,CDC Data Centres,NSW,Kemps Creek,"Filed Aug 2026, not determined; 144MW; 871-901 Mamre Rd",https://www.datacentermap.com/australia/sydney/cdc-kemps-creek-kc1/
+Hazelmere,CDC Data Centres,WA,Hazelmere,Development stage only (200MW),https://renewmap.com.au/resources/projects/wa/datacentre/
+Wagga Wagga Campus,CDC Data Centres,NSW,Wagga Wagga,"Development stage only (1,400MW)",https://renewmap.com.au/resources/projects/nsw/datacentre/
+Hume HU1-HU3,CDC Data Centres,ACT,Hume,Pre-2018 completions (HU1 2008),https://cdc.com/locations/canberra/
+SY8,Equinix,NSW,Sydney,Under 5MW (4MW),https://dcpulse.com/project/equinix-sy8-sydney-data-center
+SYD13 (23-25 Waterloo Rd),Digital Realty,NSW,Macquarie Park,"SEARs stage only (70MW redevelopment), Apr 2026",https://www.datacenterdynamics.com/en/news/former-exodus-data-center-in-sydney-australia-to-be-replaced-with-70mw-facility/
+Digital Erskine Park III (SYD12?),Digital Realty,NSW,Erskine Park,"Announced 2018 (12MW, target 2020); build not confirmed. DR site lists only SYD10/SYD11",https://itbrief.com.au/story/digital-realty-opens-new-au-data-centre-and-announces-another-one;https://www.digitalrealty.com/data-centers/asia-pacific/sydney
+SYD10,Digital Realty,NSW,Erskine Park,Pre-2018 completion (2012),https://baxtel.com/data-center/digital-realty-erskine-park-sydney
+SYD1 West/East (existing),DigiCo (ex-Global Switch),NSW,Ultimo,Pre-2018 buildings; approved expansion listed separately,https://baxtel.com/data-center/global-switch-sydney-east-west-campus
+SYD2 Artarmon (ex-iseek),DigiCo,NSW,Artarmon,Pre-2018 (2012); mid-2026 expansion is in the existing building,https://baxtel.com/data-center/digico-sydney-syd2
+ADL1 expansion,DigiCo,SA,Edinburgh,15MW expansion 'in progress' with customer talks; construction status unclear; base building 2016,https://kalkine.com.au/news/real-estate/digico-infrastructure-reit-asxdgt-brings-forward-syd1-expansion-as-fy26-results-exceed-guidance
+Macquarie 150MW Sydney facility,Macquarie Data Centres,NSW,,Announced only,https://w.media/macquarie-data-centres-tops-out-47-mw-ic3-super-west/
+SYD01 Erskine Park (SYD01A/B),STACK Infrastructure,NSW,Erskine Park,"Listed as planned (360MW, 78 Lockwood Rd); planning approval not verified",https://www.stackinfra.com/locations/asia-pacific/sydney/syd01/;https://www.datacentermap.com/australia/sydney/stack-infrastructure-syd01a/
+PER01 Wangara,STACK Infrastructure,WA,Wangara,Planned; status not verified,https://baxtel.com/data-centers/stack-infrastructure
+CAN01,STACK Infrastructure,ACT,,Site acquired/planned; DCM lists CAN01A as operational but MW and year unknown,https://baxtel.com/data-centers/stack-infrastructure;https://www.datacentermap.com/australia/canberra/
+Project Mars (12 Mars Rd),Goodman,NSW,Lane Cove West,Announced Apr 2025 (90MW); approval not verified,https://www.datacentermap.com/australia/sydney/goodman-project-mars/
+Truganina data centre,Goodman,VIC,Truganina,"Lodged Aug 2026, not determined",https://w.media/victorias-data-centre-pipeline-grows-with-four-new-melbourne-proposals/
+Honeman Close (SYD1),Microsoft,NSW,,Proposed,https://www.datacentermap.com/australia/sydney/
+Woods Road / Garden Drive MEL07,Microsoft,VIC,,Status and MW not verified,https://www.datacentermap.com/australia/melbourne/
+Ferris Road Cobblebank / 55 Donnybrook Rd,Amazon Web Services,VIC,Cobblebank / Mickleham,Planned only,https://baxtel.com/data-centers/amazon-aws;https://www.datacentermap.com/australia/melbourne/
+11-17 Khartoum Rd,Amazon Web Services,NSW,Macquarie Park,Proposed,https://www.datacentermap.com/australia/sydney/
+Kemps Creek campus (168MW),Stockland / EdgeConneX,NSW,Kemps Creek,Planning phase (IDA list Mar 2026),https://itkservices3.com/background/data_centres_australia_top10_construction
+Macquarie Park 'Project A' (M_Park),Stockland / EdgeConneX,NSW,Macquarie Park,Planning phase,https://itkservices3.com/background/data_centres_australia_top10_construction
+72-76 Cherry Lane / 413 Francis Street (250MW),Stockland / EdgeConneX,VIC,Laverton North / Brooklyn,"Filed, not determined",https://itkservices3.com/background/data_centres_australia_top10_construction;https://www.datacentermap.com/australia/melbourne/
+MEL1 Spotswood,GreenSquareDC,VIC,Spotswood,"Application lodged with DTP (240MW), not determined",https://www.datacentermap.com/australia/melbourne/greensquaredc-mel1/
+WAi1 Hazelmere,GreenSquareDC,WA,Hazelmere,"96MW approved Oct 2022; 120MW application withdrawn May 2026, project cancelled",https://baxtel.com/data-center/greensquaredc-wai1
+Southgate Tasmania (Launceston),Firmus,TAS,Launceston,84MW 'under development'; planning/construction status not verified,https://firmus.co/southgate
+"SYD02/SYD03, CBR01, ADL03",DCI Data Centers,NSW/ACT/SA,Eastern Creek / Jerrabomberra / Mawson Lakes,'Developing'; MW and planning status not published,https://www.dcidatacenters.com/locations/
+Mamre Road Data Centre Campus 1-6,ISPT,NSW,Kemps Creek,"Announced Sep 2025 (1GW, 706-752 Mamre Rd); approval not verified",https://www.datacentermap.com/australia/sydney/mamre-road-data-centre-campus/
+Bundey AI campus,IREN,SA,Bundey,"Announced (800MW, from 2028); approval not verified",https://www.datacentermap.com/australia/adelaide/
+Supernode,Quinbrook,QLD,Brendale,Development stage (800MW),https://renewmap.com.au/resources/projects/qld/datacentre/
+Western Downs Digital Park 1B,Zerra DC,QLD,Western Downs,Development stage (540MW),https://renewmap.com.au/resources/projects/qld/datacentre/
+Campbellfield (ASSEMBLY),Zerra DC,VIC,Campbellfield,Unveiled only,https://w.media/victorias-data-centre-pipeline-grows-with-four-new-melbourne-proposals/
+585 Berwick-Cranbourne Rd,Unknown (Galileo Group landowner),VIC,Clyde North,Under assessment,https://w.media/victorias-data-centre-pipeline-grows-with-four-new-melbourne-proposals/;https://www.datacentermap.com/australia/melbourne/
+Victorian AI Centre,Syncline Energy,VIC,,Development (2.4GW),https://renewmap.com.au/resources/projects/vic/datacentre/
+Centuria sites (1822 Dandenong Rd; 49 Temple Dr; 2-8 Cawley Rd),Centuria,VIC,,Proposed/planned only,https://www.datacentermap.com/australia/melbourne/
+1 Oroya Drive,PGIM,VIC,,Proposed (A$1.2bn),https://www.datacentermap.com/australia/melbourne/
+Gore Hill,Keppel Data Centres,NSW,Artarmon,Pre-2018 completion (2011),https://www.datacentermap.com/australia/sydney/keppel-sydney-gore-hill/
+Iron Mountain / Princeton Digital Group,,,,No Australian facilities found,https://baxtel.com/data-centers/iron-mountain;https://baxtel.com/data-centers/princeton-digital-group
+Sydney data centre,EdgeConneX (standalone),NSW,,'Coming soon'; no details (see Stockland JV rows),https://www.edgeconnex.com/locations/asia-pacific/sydney-au/
