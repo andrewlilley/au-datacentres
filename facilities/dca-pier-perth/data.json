@@ -30,17 +30,17 @@
   "builder": {
     "value": null,
     "source": null,
-    "note": ""
+    "note": "no head contractor named; ECD (source 2) lists vendors incl. Everett-Smith (data centre infrastructure installation), ICM (electrics), Vertiv, Siemens, Cummins; 'designed and constructed within 12 months'"
   },
   "developer": {
     "value": "Pier DC Pty Ltd",
-    "source": 3,
-    "note": "built and opened by Pier DC; later acquired by DC Alliance (date not confirmed)"
+    "source": 2,
+    "note": "built and opened by Pier DC ('wholly WA-owned and -operated'); later acquired by DC Alliance, which now markets it as PIER DC (dcalliance.com.au/pierdc). Acquisition date not confirmed; the DC Alliance acquisition news page now returns 404."
   },
   "mw_it": {
     "value": 8,
-    "source": 2,
-    "note": "'up to 8MW' power capacity; other listings say 6 MW ICT load (Inflect) or 2 MW (datacenterHawk)"
+    "source": 1,
+    "note": "'up to 8MW' per Datacentermap/RenewMap listings (aggregators, not read in full). ECD Oct 2017 (read in full) gives no MW figure, only 1000 racks and >2500 m2. Other listings: 6 MW ICT load (Inflect), 2 MW (datacenterHawk)."
   },
   "mw_grid": {
     "value": null,
@@ -50,7 +50,7 @@
   "cost_aud_m": {
     "value": 20,
     "source": 2,
-    "note": "'$20 million' facility at opening, 2017"
+    "note": "ECD: 'The $20 million wholly WA-owned and -operated facility'"
   },
   "planning": {
     "authority": {
@@ -99,18 +99,18 @@
   "construction_start": {
     "value": null,
     "source": null,
-    "note": "",
+    "note": "about 2015, since it was 'designed and constructed within 12 months' before starting operations in 2016; exact date not given",
     "precision": null
   },
   "construction_end": {
-    "value": "2017-10",
+    "value": "2016",
     "source": 2,
-    "note": "opening reported Oct 2017 (Tier III certified facility); 1000 racks, >2500 m2",
-    "precision": "month"
+    "note": "ECD 23 Oct 2017: the facility 'launched operations in 2016'. The Oct 2017 article announced its Uptime Tier III certification, which the earlier record wrongly took as the opening date.",
+    "precision": "year"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "scope: opened Oct 2017, before 2018-09-01 cutoff; unless DC Alliance's announced expansion is a separate >=5 MW build it is out of scope",
+    "scope: facility launched operations in 2016 (ECD Oct 2017), before the 2018-09-01 cutoff, and MW is at most ~8 (aggregators); out of scope unless DC Alliance's planned expansion is a separate >=5 MW build (no details found)",
     "MW conflicts across aggregators (8/6/2 MW)",
     "suburb in master.csv is Perth; actual Canning Vale"
   ]

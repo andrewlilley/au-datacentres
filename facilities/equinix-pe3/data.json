@@ -6,15 +6,15 @@
   "location": {
     "address": {
       "value": "37 Lemnos Street, Shenton Park WA 6008",
-      "source": 1,
-      "note": "adjacent to PE2, joined by link bridge"
+      "source": 7,
+      "note": "Equinix press release: PE3 'will be located adjacent to the PE2 IBX ... with a planned secure link bridge connecting the two facilities'; the street number comes from listings and master.csv"
     },
     "suburb": "Shenton Park",
     "state": "WA",
     "postcode": {
       "value": "6008",
-      "source": 1,
-      "note": ""
+      "source": null,
+      "note": "from the master.csv address '37 Lemnos Street, Shenton Park WA 6008' and the geocoder match (PointAddress); none of the sources read gives the postcode"
     },
     "lat": {
       "value": -31.95482,
@@ -30,17 +30,17 @@
   "builder": {
     "value": "Icon Construction",
     "source": 4,
-    "note": "head contractor per FineForm Concrete project page and MBA WA award; Insight Project Services was project/construction manager and superintendent (source 5)"
+    "note": "FineForm: 'Fineform has partnered with ICON Construction ... to assist in the construction of Equinix PE3 data centre in Shenton Park'. IPS (source 5) says the contractor was engaged under a D&C GMP agreement, with major plant supplied directly by Equinix; IPS was Project Construction Manager and Superintendent."
   },
   "developer": {
     "value": "Equinix",
-    "source": 1,
-    "note": ""
+    "source": 7,
+    "note": "client entity per IPS: Equinix Australia National Pty Ltd"
   },
   "mw_it": {
     "value": null,
     "source": null,
-    "note": "not published; DC Atlas estimates ~3 MW live (source 6). Full build 1,650 cabinets / >10,600 m2"
+    "note": "not published by Equinix (press release gives only cabinets/m2). DC Atlas estimates ~3 MW live (source 6). Full build per IPS: 12,000 m2 GFA, 1,720 cabinets across 6 data halls; press release says 1,650 cabinets / >10,600 m2 colocation"
   },
   "mw_grid": {
     "value": null,
@@ -50,7 +50,7 @@
   "cost_aud_m": {
     "value": 71.7,
     "source": 2,
-    "note": "phase 1 US$54m = A$71.7m (ARN, Dec 2021); iTnews Nov 2020 converted as A$76.6m"
+    "note": "phase 1: US$54 million = A$71.7m (ARN, Dec 2021); the Nov 2020 press release converted it as 'approximately A$76.6 million'; IPS gives 'Value: $80M AUD (total project cost)'"
   },
   "planning": {
     "authority": {
@@ -97,21 +97,21 @@
   },
   "jobs_operational_other": [],
   "construction_start": {
-    "value": null,
-    "source": null,
-    "note": "announced 9 Nov 2020; start date not found",
-    "precision": null
+    "value": "2020",
+    "source": 5,
+    "note": "IPS project page 'Year: 2020-2022 (completed 2022)'; announced 9 Nov 2020 (source 7); exact start date not found",
+    "precision": "year"
   },
   "construction_end": {
     "value": "2021-12",
     "source": 2,
-    "note": "phase 1 opened Dec 2021 (~700 cabinets, 1,830 m2); master.csv notes 9 Dec 2021",
+    "note": "phase 1 launched 9 Dec 2021 (ARN, 9 Dec 2021: 700 cabinets, >1,830 m2; press release had planned 650 cabinets, target Q4 2021). IPS says the project was completed in 2022.",
     "precision": "month"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
     "scope: MW not published, DC Atlas est. ~3 MW live; may be under 5 MW",
-    "planning approval not found",
-    "construction start not found"
+    "planning approval not found (DAP/local government for 37 Lemnos St not identified)",
+    "exact construction start not found"
   ]
 }

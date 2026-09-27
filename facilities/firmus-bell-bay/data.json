@@ -5,118 +5,118 @@
   "status": "approved",
   "location": {
     "address": {
-      "value": "Lot 1 East Tamar Highway, Long Reach (former Gunns pulp mill site, Bell Bay Advanced Manufacturing Zone)",
-      "source": 2,
-      "note": "address from search-result summary of approval coverage; not verified against council permit"
+      "value": "Lot 1 East Tamar Highway, Long Reach TAS 7253 (CT 152001/1; access via CT 136962/1, CT 136962/2 and CT 11367/6 Crown land)",
+      "source": 6,
+      "note": "Agenda item 7.1 (DA 2026/29) site address and title details. Development is on the former Bell Bay Pulp Mill earthen building platform, on the part of the 590.7 ha title west of the rail corridor between Williams Creek and Dirty Bay."
     },
     "suburb": "Long Reach",
     "state": "TAS",
     "postcode": {
-      "value": null,
-      "source": null,
-      "note": "Long Reach TAS is believed to be 7253 but not confirmed from a source"
+      "value": "7253",
+      "source": 7,
+      "note": "postcode on the signed planning permit application form (agenda attachment 7.1.7) and in the TAS LIST cadastre property address 'Lot 1 EAST TAMAR HWY LONG REACH TAS 7253' (source 10)"
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: WebFetch/geocoder blocked in this session"
+      "value": -41.15611,
+      "source": 11,
+      "note": "Centroid of OpenStreetMap way 1529513865 (12.4 ha polygon tagged landuse=industrial, industrial=data_centre, operator=Firmus), computed 2026-09-27. Cross-check: that polygon lies inside the westernmost part (265 ha) of title CT 152001/1 queried from the TAS LIST CadastreParcels ArcGIS REST service (source 10), next to the old pulp-mill stormwater ponds and the end of Pulp Mill Access Road. This places the point on the development platform named in the council report; it is not a surveyed building position (accuracy about +/-200 m)."
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": 146.92628,
+      "source": 11,
+      "note": "see lat note"
     }
   },
   "builder": {
     "value": null,
     "source": null,
-    "note": "not announced; Firmus said approval lets it move to detailed design, procurement and construction planning"
+    "note": "not announced; Firmus said the approval lets it move to detailed design, procurement and construction planning (source 1)"
   },
   "developer": {
     "value": "Firmus Technologies",
-    "source": 1,
-    "note": ""
+    "source": 6,
+    "note": "applicant Katrina Hill (Pitt & Sherry) on behalf of Firmus Technologies"
   },
   "mw_it": {
     "value": null,
     "source": null,
-    "note": "288 MW reported by all sources, but not stated whether IT load or grid demand"
+    "note": "IT load not stated in any source read; 288 MW is maximum grid demand (see mw_grid)"
   },
   "mw_grid": {
-    "value": null,
-    "source": null,
-    "note": "see mw_it: 288 MW headline figure, type unclear"
+    "value": 288,
+    "source": 8,
+    "note": "Firmus FAQ: 'The Bell Bay site will draw approximately 288 MW' and 'a new baseload user with a maximum demand of 288MW'; connects to three 220 kV TasNetworks lines on site. The council agenda does not state a MW figure. Pulse Tasmania (Jul 2026, source 9) said 'around 300 megawatts'."
   },
   "cost_aud_m": {
     "value": 2700,
-    "source": 1,
-    "note": "$2.7 billion as cited by Tasmanian Infrastructure Minister Kerry Vincent in ABC coverage; not a council-stated capital value"
+    "source": 9,
+    "note": "Pulse Tasmania 3 Jul 2026: 'Infrastructure Minister Kerry Vincent called the $2.7 billion project staggering.' Not a council-stated or developer-stated figure; the council agenda and planning report give no development cost. Earlier record attributed this to ABC 25 Aug 2026, but that article (read in full) does not contain the figure."
   },
   "planning": {
     "authority": {
       "value": "George Town Council",
-      "source": 1,
-      "note": ""
+      "source": 6,
+      "note": "acting as Planning Authority under the Land Use Planning and Approvals Act 1993"
     },
     "pathway": {
-      "value": "Development application (council planning permit)",
-      "source": 1,
-      "note": "approved 6-1 at council meeting; council planners recommended approval with conditions"
+      "value": "Discretionary development application under s57 LUPAA 1993 (Tasmanian Planning Scheme - George Town; General Industrial Zone; use class Utilities)",
+      "source": 6,
+      "note": "EPA decided not to assess the proposal (agenda attachment 7.1.2). Council approved 6-1 with conditions (sources 1, 2). 349 representations and an e-petition of more than 5,000 signatures received."
     },
     "reference": {
       "value": "DA 2026/29",
-      "source": 2,
-      "note": "from search-result summaries of approval coverage; not verified against council agenda"
+      "source": 6,
+      "note": "confirmed in agenda item 7.1 (FILE NO: DA 2026/29); TasWater reference TWDA 2026/00514-GTC"
     },
     "lodged": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "2026-06-22",
+      "source": 6,
+      "note": "agenda states 'Application Received: 22 June 2026'. Earlier documents exist: Pitt & Sherry planning report dated 8/5/2026, and TasNetworks (27/05/2026) and TasWater (01/06/2026) advice, so 22 June may be the date the application was validated rather than first lodged.",
+      "precision": "day"
     },
     "determined": {
       "value": "2026-08-25",
       "source": 1,
-      "note": "",
+      "note": "approved 6-1 at the Ordinary Council Meeting of 25 Aug 2026 (officer recommendation to approve with conditions, source 6); the 22 Sep 2026 agenda confirms 'George Town Council made its decision on the Firmus DA at the 25th August 2026 Council meeting' (source 12)",
       "precision": "day"
     },
-    "url": null
+    "url": "https://georgetown.tas.gov.au/volumes/documents/Shared/Council-Meetings/2026/08.-August-2026/2026-08-25-Ordinary-Council-Meeting-Agenda.pdf"
   },
   "jobs_construction": {
-    "value": null,
-    "source": null,
-    "basis": null,
-    "scope": null,
-    "note": ""
+    "value": 380,
+    "source": 1,
+    "basis": "unstated",
+    "scope": "unstated",
+    "note": "Firmus statement (ABC 25 Aug 2026; also w.media source 3): the project 'is expected to create more than 380 jobs during construction'. Firmus FAQ (source 8): construction 'will employ hundreds of local civil, electrical, and trades contractors' plus off-site contractors."
   },
-  "jobs_construction_other": [
-    {
-      "value": 380,
-      "source": 3,
-      "basis": "unstated",
-      "scope": "unstated",
-      "note": "Firmus via w.media: 'more than 380' construction jobs; no peak/average definition given"
-    }
-  ],
+  "jobs_construction_other": [],
   "jobs_operational": {
-    "value": null,
-    "source": null,
-    "basis": null,
-    "scope": null,
-    "note": ""
+    "value": 115,
+    "source": 8,
+    "basis": "ongoing_headcount",
+    "scope": "direct",
+    "note": "Firmus FAQ: 'Once operational, the AI factory will support a permanent local workforce of more than 115 full-time employees ... operating around the clock across three shifts.' ABC/w.media quote Firmus: 'support more than 115 permanent local roles once operational'. Lower bound."
   },
   "jobs_operational_other": [
     {
-      "value": 115,
-      "source": 3,
+      "value": 70,
+      "source": 7,
+      "basis": "ongoing_headcount",
+      "scope": "direct",
+      "note": "planning permit application form and planning report: 'approximately 70 staff during the daytime shift and approximately 25 staff during each of the evening and night shifts' (staff on site per shift, used for parking/traffic; the sources do not give a total)"
+    },
+    {
+      "value": 144,
+      "source": 9,
       "basis": "ongoing_headcount",
       "scope": "unstated",
-      "note": "Firmus via w.media: 'more than 115 permanent local roles'; not stated whether direct only"
+      "note": "Firmus co-CEO Oliver Curtis (Pulse Tasmania 3 Jul 2026): ongoing employment 'based on a calculation of around half a full-time role per megawatt of power usage, equating to about ... 144 at Bell Bay'"
     }
   ],
   "construction_start": {
     "value": null,
     "source": null,
-    "note": "not started as of Sep 2026",
+    "note": "not started as of Sep 2026. Approval under TASCAT appeal: Firmus appealed the generator-use condition on 10 Sep 2026, and ABC (15 Sep 2026) reported five appeals lodged, including Firmus's",
     "precision": null
   },
   "construction_end": {
@@ -127,9 +127,9 @@
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "mw_it vs grid: 288 MW type unclear",
-    "planning reference DA 2026/29 and lot address need confirmation from George Town Council agenda",
-    "TASCAT appeal lodged ~10 Sep 2026 by Firmus against generator-use conditions; third-party appeals also mooted",
-    "lat/lon not geocoded (fetch blocked)"
+    "TASCAT appeals: five appeals lodged by 15 Sep 2026 (Firmus on generator conditions, plus third-party appeals incl. Rowella residents); outcome may change the permit",
+    "IT MW not published (288 MW is maximum grid demand)",
+    "cost $2.7bn is from a Minister's remark only; no developer/council capital value found",
+    "builder not appointed/announced"
   ]
 }

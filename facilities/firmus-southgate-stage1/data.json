@@ -5,16 +5,16 @@
   "status": "under_construction",
   "location": {
     "address": {
-      "value": "23 Killafaddy Road and part of 66-92 St Leonards Road, St Leonards",
-      "source": 1,
-      "note": "approx. 5 ha and 13 ha lots respectively"
+      "value": "23 Killafaddy Road and 66-92 St Leonards Road, St Leonards TAS 7250",
+      "source": 6,
+      "note": "Council agenda lists the address as '23 Killafaddy Road, 58, 66, 68 and 92 St Leonards Road, St Leonards'; 58 and 68 St Leonards Road are only for works inside drainage and electricity easements. Includes partial demolition of the existing data centre at 23 Killafaddy Road."
     },
     "suburb": "St Leonards",
     "state": "TAS",
     "postcode": {
-      "value": null,
-      "source": null,
-      "note": "St Leonards TAS believed 7250; not confirmed from a source"
+      "value": "7250",
+      "source": 6,
+      "note": "from the endorsed planning report title '23 Killafaddy Road & 66-92 St Leonards Rd TAS 7250' listed in the agenda"
     },
     "lat": {
       "value": -41.44088,
@@ -30,71 +30,71 @@
   "builder": {
     "value": null,
     "source": null,
-    "note": "head contractor not found"
+    "note": "head contractor not named in the council documents or news coverage read"
   },
   "developer": {
     "value": "Firmus Technologies",
-    "source": 1,
-    "note": "DA prepared by pitt&sherry on behalf of Firmus"
+    "source": 6,
+    "note": "applicant Pitt&Sherry on behalf of Firmus Technologies; one endorsed drawing is by Firmus Grid Pty Ltd"
   },
   "mw_it": {
     "value": 90,
     "source": 1,
-    "note": "Stage 1 combined: Stage 1a 44 MW + Stage 1b to 90 MW; Stage 2 (~300 MW) separate/not approved"
+    "note": "w.media (read in full): 'Stage 1 ... will deliver a combined 90MW of AI infrastructure ... beginning with 44MW in Stage 1a and expanding to 90MW in Stage 1b. A further 300MW is planned in a future second stage, subject to approvals.' The source does not say whether this is IT or grid MW. The council agenda gives no MW figure."
   },
   "mw_grid": {
     "value": 104,
-    "source": 4,
-    "note": "104 MW Hydro Tasmania supply via Aurora Energy three-year deal; ABC Jun 2026 also cites St Leonards as 104 MW"
+    "source": 5,
+    "note": "ABC 15 Jun 2026: Firmus 'has signed a contract with state energy company Aurora for 104 megawatts to power the St Leonards AI factory'; w.media and ABC (Aug 2026) call it a '104MW'/'104-megawatt' AI factory"
   },
   "cost_aud_m": {
     "value": 2100,
     "source": 1,
-    "note": "AUD 2.1bn; described variously as Stage 1a or Stage 1 investment"
+    "note": "w.media: 'The $2.1 billion development'; Pulse Tasmania Jul 2026 says '$2 billion facility'. Not stated in the council agenda."
   },
   "planning": {
     "authority": {
       "value": "City of Launceston",
-      "source": 2,
-      "note": ""
+      "source": 6,
+      "note": "acting as Planning Authority"
     },
     "pathway": {
-      "value": "Development application (council planning permit)",
-      "source": 2,
-      "note": "endorsed at a Special Council Meeting"
+      "value": "Development application under ss51 and 57 LUPAA 1993 (Tasmanian Planning Scheme - Launceston; Rural and Light Industrial Zones; use class Research and Development)",
+      "source": 7,
+      "note": "determined at a Special Council Meeting; public notification 2-18 Aug 2025"
     },
     "reference": {
-      "value": null,
-      "source": null,
-      "note": "DA number not found"
+      "value": "DA0273/2025",
+      "source": 6,
+      "note": "'DA0273/2025 - Research and Development - Demolition and construction of new data centre, including associated infrastructure and works within drainage and electricity infrastructure easements of 58 and 68 St Leonards Road'"
     },
     "lodged": {
       "value": null,
       "source": null,
-      "note": ""
+      "note": "lodgement date not stated in the agenda; Pitt&Sherry planning report Rev 00 is dated 24/06/2025"
     },
     "determined": {
       "value": "2025-09-01",
-      "source": 2,
-      "note": "Special Council Meeting 1 Sep 2025; one summary said 'July', likely confusing with Jul 2025 project announcement",
+      "source": 7,
+      "note": "minutes: permit granted, CARRIED 11:0 at the Special Council Meeting of 1 Sep 2025",
       "precision": "day"
     },
-    "url": null
+    "url": "https://www.launceston.tas.gov.au/Agendas-and-Minutes/1-September-2025-Special-Meeting"
   },
   "jobs_construction": {
     "value": 400,
     "source": 3,
     "basis": "peak",
     "scope": "direct",
-    "note": "Firmus spokesperson (The Examiner, ~Mar 2026): about 80 workers on site, rising to 400 at peak"
+    "note": "The Examiner (read in full): 'A Firmus spokesperson said there were about 80 workers on site, which would swell to 400 in the next couple of months.'"
   },
   "jobs_construction_other": [
     {
       "value": 1000,
       "source": 3,
       "basis": "total_headcount",
-      "scope": "unstated",
-      "note": "The Examiner: 'more than 1,000' workers in total including off-site contractors (lower bound)"
+      "scope": "direct_indirect",
+      "note": "The Examiner: 'More than 1000 workers (including off-site contractors) are expected to be involved in the project.' Lower bound."
     }
   ],
   "jobs_operational": {
@@ -102,26 +102,43 @@
     "source": 1,
     "basis": "ongoing_headcount",
     "scope": "direct",
-    "note": "DCD/w.media: 'up to 100 direct jobs' in the first stage"
+    "note": "w.media: Firmus says it will be 'creating up to 100 direct jobs in its first stage'. Upper bound, and it conflicts with the lower figures below."
   },
-  "jobs_operational_other": [],
+  "jobs_operational_other": [
+    {
+      "value": 30,
+      "source": 6,
+      "basis": "ongoing_headcount",
+      "scope": "direct",
+      "note": "council agenda: 'The maximum number of employees on site at any one time would be 30; regular shifts would be for 10 people.' (staff on site at one time, not a total headcount)"
+    },
+    {
+      "value": 52,
+      "source": 8,
+      "basis": "ongoing_headcount",
+      "scope": "unstated",
+      "note": "Firmus co-CEO Oliver Curtis (Pulse Tasmania 3 Jul 2026): ongoing employment of 'around half a full-time role per megawatt ... equating to about 52 jobs at St Leonards'"
+    }
+  ],
   "construction_start": {
     "value": null,
     "source": null,
-    "note": "started after Sep 2025 approval; earthworks complete and piling under way by ~Mar 2026 (source 3)",
+    "note": "started after approval on 1 Sep 2025 (w.media 3 Sep 2025: construction 'expected to begin shortly'); major earthworks complete and piling under way by early 2026 (source 3). Exact start date not found.",
     "precision": null
   },
   "construction_end": {
     "value": "2027",
     "source": 5,
-    "note": "expected; ABC Jun 2026 says operational early 2027 (originally targeted mid/end 2026)",
+    "note": "expected. ABC 15 Jun 2026: 'expected to be operational early next year'. Earlier targets were mid-2026 (w.media Sep 2025) and end of 2026 (The Examiner).",
     "precision": "year"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "planning reference (DA number) not found",
     "builder not found",
     "construction start date not found",
+    "planning lodgement date not found",
+    "mw_it 90 MW (44 + 46) not stated as IT or grid",
+    "operational jobs conflict: up to 100 (Firmus launch) vs max 30 on site (DA) vs ~52 (Curtis)",
     "Stage 1a/1b could be split into separate rows"
   ]
 }
