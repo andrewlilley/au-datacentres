@@ -2,7 +2,7 @@
   "id": "aws-smeaton-grange-station",
   "name": "Smeaton Grange 'Station'",
   "operator": "Amazon Web Services",
-  "status": "under_construction",
+  "status": "withdrawn",
   "location": {
     "address": {
       "value": "52 Turner Road, Smeaton Grange NSW",
@@ -112,8 +112,8 @@
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "scope: 40 MW proposal at 52 Turner Road, Smeaton Grange (SSD-60185233) never progressed past SEARs (issued 20 Jul 2023) and is shown as 'Withdrawn' on the NSW planning portal - never approved; Baxtel 'under construction' status is stale. Out of scope.",
-    "successor: AWS/Arup 43-61 Turner Road Data Centre, Gregory Hills (SSD-68013714) - approved 21 Nov 2025 (portal), Mod 1 (substation layout) 26 Jun 2026, construction commencement notified for 17 Apr 2026; not in master.csv as a separate row",
-    "existing AWS facility nearby at 42A Bluett Drive, Smeaton Grange (SYD52 / Baxtel B1-B4) - Baxtel's 'second facility in Smeaton Grange Park' may conflate sites"
+    "scope: status 'withdrawn' - 40 MW proposal (SSD-60185233) never progressed past SEARs (issued 20 Jul 2023) and is shown as 'Withdrawn' on the NSW planning portal; kept on the list as withdrawn, not counted as in scope",
+    "existing AWS facility nearby at 42A Bluett Drive, Smeaton Grange (SYD52 / Baxtel B1-B4) - Baxtel's 'second facility in Smeaton Grange Park' may conflate sites",
+    "successor project: aws-gregory-hills (43-61 Turner Road, Gregory Hills, SSD-68013714)"
   ]
 }

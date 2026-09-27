@@ -3,6 +3,10 @@
 State files take precedence; the national operators file fills blanks.
 Disagreements between sources are written to the `conflicts` column
 rather than silently resolved.
+
+Note: since Phase 2, list/master.csv and list/excluded.csv carry hand-applied
+scope decisions (merges, exclusions, new rows, `withdrawn` status). Re-running
+this script would drop them; diff against the committed files first.
 """
 import csv, glob, os, re
 

@@ -107,7 +107,7 @@
     "note": "EC1 is inferred to be one of the two pre-existing ex-HP/DXC data halls (source 2); HP Aurora first services 1 Dec 2011, formal opening June 2012 (source 3). SSD-10330 Assessment Report: the existing data centre 'has been in operation since 2012' (source 10)."
   },
   "open_questions": [
-    "scope: EC1 appears to be a pre-existing ex-HP 'Aurora' data hall (built 2011-12, acquired by CDC from DXC 14 Dec 2018 as an operational data centre), i.e. completed before 2018-09-01; likely out of scope unless CDC's re-commissioning counts as new build.",
+    "scope: excluded - pre-2018-09-01 completion (ex-HP 'Aurora' hall, MP10_0142, operational from 2011-12); removed from master.csv and listed in excluded.csv (decision 2026-09-27)",
     "which of the two ex-HP data storage cells is EC1 vs EC2 is not stated in the planning documents",
     "builder of the original HP building not found"
   ],

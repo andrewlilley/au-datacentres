@@ -111,7 +111,7 @@
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "scope: duplicate/superseded - the 2020 Council-approved 8-storey SYD02 (SPP-19-00009, 36 MW) was never commenced and DCI committed to relinquish it on grant of SSD-21342738 (approved 1 Sep 2023); DCI now uses the name 'SYD02' for the SSD-21342738 building (row dci-syd03). Recommend removing/merging this row; status 'operational' was wrong",
+    "scope: excluded - merged into dci-syd03 (decision 2026-09-27); removed from master.csv and listed in excluded.csv. scope: duplicate/superseded - the 2020 Council-approved 8-storey SYD02 (SPP-19-00009, 36 MW) was never commenced and DCI committed to relinquish it on grant of SSD-21342738 (approved 1 Sep 2023); DCI now uses the name 'SYD02' for the SSD-21342738 building (row dci-syd03). Recommend removing/merging this row; status 'operational' was wrong",
     "whether SPP-19-00009 was formally surrendered not confirmed; Council determination date and panel not found"
   ]
 }

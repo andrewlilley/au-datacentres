@@ -7,6 +7,8 @@ Scope
   - `operational` — completed/commissioned on or after 2018-09-01
   - `under_construction`
   - `approved` — planning approval (DA/SSD/permit) granted, construction not started
+- Also listed but not in scope:
+  - `withdrawn` — application withdrawn (or approval surrendered) before construction; kept so the record and its sources are not lost. Exclude from in-scope counts.
 - Out of scope: facilities completed before 2018-09-01 (unless a new in-scope phase/building), sub-5 MW sites, lodged-but-undetermined or merely announced projects (record these in `list/excluded.csv` with a reason).
 
 Columns (candidate files use the same columns)
@@ -18,7 +20,7 @@ Columns (candidate files use the same columns)
 | state | NSW, VIC, QLD, WA, SA, TAS, ACT, NT |
 | suburb | |
 | address | street address if public |
-| status | operational / under_construction / approved |
+| status | operational / under_construction / approved / withdrawn |
 | mw_it | planned IT capacity for this building/phase, MW (number, blank if unknown) |
 | year_complete | year completed or expected |
 | planning_ref | DA / SSD / permit number if known |

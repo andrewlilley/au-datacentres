@@ -1,6 +1,6 @@
 {
   "id": "dci-syd03",
-  "name": "DCI SYD03 (Eastern Creek Data Centre Expansion)",
+  "name": "DCI SYD02 (Eastern Creek Data Centre Expansion; 'SYD03' in 2023 assessment report)",
   "operator": "DCI Data Centers",
   "status": "under_construction",
   "location": {
@@ -127,7 +127,7 @@
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "duplicate with dci-syd02: DCI now calls this SSD building 'SYD02' (notices, CEMP, website) while DPE's 2023 AR called it SYD03; the 2020 Council-approved SYD02 design (SPP-19-00009) never started and DCI committed to relinquish it - recommend merging the two master.csv rows into this one",
+    "merged: former row dci-syd02 folded into this record (decision 2026-09-27). The 2020 Council-approved SYD02 design (SPP-19-00009, 36 MW, A$400m announced) was never commenced and DCI committed to relinquish it; DCI now uses the name 'SYD02' for this SSD-21342738 building. Whether SPP-19-00009 was formally surrendered is unconfirmed",
     "no IT MW stated; mw_grid 63 MW is power consumption after Mod 2",
     "completion date unknown; Multiplex confirmed as builder for Stage 3b (building)"
   ]
