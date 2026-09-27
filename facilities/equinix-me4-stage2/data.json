@@ -1,0 +1,118 @@
+{
+  "id": "equinix-me4-stage2",
+  "name": "Equinix ME4 Melbourne (ex-Metronode Melbourne 2) Stage 2 expansion",
+  "operator": "Equinix",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "2 Davis Court, Derrimut VIC 3026",
+      "source": 4,
+      "note": "ME4 campus address per Baxtel (source 4) and Inflect/datacentermap listings; Equinix ME4 page gives only 'Melbourne, VIC 3026' (source 5). Stage 2 is on the existing Melbourne 2 site; exact building footprint within the site not published."
+    },
+    "suburb": "Derrimut",
+    "state": "VIC",
+    "postcode": {
+      "value": "3026",
+      "source": 5,
+      "note": "Equinix ME4 page: 'Melbourne, VIC 3026'"
+    },
+    "lat": {
+      "value": -37.78837,
+      "source": null,
+      "note": "Geocoded 2026-09-27 from '2 Davis Court, Derrimut VIC 3026' with the ArcGIS World Geocoder (PointAddress, score 100). Point for the site address, not the Stage 2 building specifically."
+    },
+    "lon": {
+      "value": 144.78616,
+      "source": null,
+      "note": "see lat note"
+    }
+  },
+  "builder": {
+    "value": "Icon",
+    "source": 1,
+    "note": "design and construct; Icon's third Metronode project at Derrimut (source 1)"
+  },
+  "developer": {
+    "value": "Metronode",
+    "source": 1,
+    "note": "built by Metronode for an unnamed international hyperscale customer (source 3); Metronode acquired by Equinix (announced Dec 2017, source 6) and the site renamed ME4"
+  },
+  "mw_it": {
+    "value": 7.6,
+    "source": 1,
+    "note": "Icon: '7.6MW installed', 'ultimate designed capacity of 18MW' (whether the 18 MW is for Stage 2 or the whole site is unclear). Press coverage calls it a new '8MW hyper-scale facility' (source 3, snippet). The original 2012 Melbourne2 building supported up to 12 MW (source 2) and is out of scope."
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": 62,
+    "source": 1,
+    "note": "Icon project value '$62 Million' (construction contract value). Metronode's wider A$150m 2017 programme covered Derrimut, Silverwater and Unanderra (source 7)."
+  },
+  "planning": {
+    "authority": {
+      "value": null,
+      "source": null,
+      "note": "presumably Brimbank City Council; permit not found"
+    },
+    "pathway": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": ""
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": ""
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": "2017-02",
+    "source": 3,
+    "precision": "month",
+    "note": "Metronode (snippet only): 'In February 2017, preparatory works began on the Derrimut, Melbourne site to mark the start of construction of a new 8MW hyper-scale facility'. Icon gives duration '12 Months'; Metronode claims the build took nine months."
+  },
+  "construction_end": {
+    "value": "2017-09",
+    "source": 1,
+    "precision": "month",
+    "note": "Icon: completion date September 2017; Metronode (source 3, snippet) also says completion September 2017"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "whether Stage 2 is a separate new building or an extension of the 2012 Melbourne2 building (Icon scope includes new offices, loading dock, car park and site works, suggesting a new building)",
+    "18 MW 'ultimate designed capacity': Stage 2 alone or whole site",
+    "planning permit (Brimbank City Council) not found",
+    "Metronode's own pages (sources 3) only seen as search snippets; metronode.com.au refused connections"
+  ]
+}

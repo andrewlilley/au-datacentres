@@ -1,0 +1,127 @@
+{
+  "id": "airtrunk-syd1",
+  "name": "AirTrunk SYD1 Sydney West (phase 1)",
+  "operator": "AirTrunk",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "35 Huntingwood Drive, Huntingwood NSW 2148 (Lot 2020 DP 877343)",
+      "source": 1,
+      "note": "lot/DP from JRPP assessment report"
+    },
+    "suburb": "Huntingwood",
+    "state": "NSW",
+    "postcode": {
+      "value": "2148",
+      "source": 5,
+      "note": ""
+    },
+    "lat": {
+      "value": -33.79961,
+      "source": 9,
+      "note": "Geocoded 2026-09-27 from '35 Huntingwood Drive, Huntingwood NSW 2148' with the ArcGIS World Geocoder (PointAddress, score 100); point is the address point for the whole SYD1 campus lot."
+    },
+    "lon": {
+      "value": 150.88157,
+      "source": 9,
+      "note": "see lat note"
+    }
+  },
+  "builder": {
+    "value": "Richard Crookes Constructions",
+    "source": 4,
+    "note": "head contractor for phase 1 (D&C). Source page now removed from richardcrookes.com.au; details seen in search snippet only. Later phases by other contractors (e.g. A W Edwards Phase 4, source 7)"
+  },
+  "developer": {
+    "value": "AirTrunk",
+    "source": 1,
+    "note": "applicant Airtrunk Pty Ltd; landowner at DA time AWPT4 Huntingwood Pty Limited"
+  },
+  "mw_it": {
+    "value": 20,
+    "source": 3,
+    "note": "phase 1 only: 'The first phase boasts 20MW of capacity' (iTnews 20 Sep 2017; Richard Crookes: 8 data halls, 20MW). Phase 2 10MW due mid-2018 (source 3). 2017 master plan >80MW over four phases; campus now 130MW+ across five buildings / 42 data halls, final phase (40+MW) completed July 2022 (sources 5, 6)"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": "132kV diverse HV feed from two onsite substations; no MW figure"
+  },
+  "cost_aud_m": {
+    "value": 47.53,
+    "source": 1,
+    "note": "Capital investment value $47,529,862 for the whole 8-stage DA JRPP-16-03318 (not phase 1 alone). Alternative: iTnews says AirTrunk launched the facility 'after spending more than $200 million' (source 3), which likely includes land ($31m purchase from Frasers Australia, Sep 2016, source 8, snippet only) and fit-out"
+  },
+  "planning": {
+    "authority": {
+      "value": "Sydney West Joint Regional Planning Panel (assessed by Blacktown City Council)",
+      "source": 1,
+      "note": "regional development, CIV > $20m"
+    },
+    "pathway": {
+      "value": "Development application (regional development, JRPP determination), EP&A Act 1979",
+      "source": 1,
+      "note": "staged construction in 8 stages (Stage 1A-4B), 8 x 2-storey data halls, GFA 28,530 sqm"
+    },
+    "reference": {
+      "value": "JRPP-16-03318 (panel ref 2016SYW146 / PPS-2016SYW146)",
+      "source": 2,
+      "note": ""
+    },
+    "lodged": {
+      "value": "2016-07-04",
+      "source": 1,
+      "note": "",
+      "precision": "day"
+    },
+    "determined": {
+      "value": "2016-10-20",
+      "source": 2,
+      "note": "planning portal panel page: 'Determination Date 20/10/2016', outcome 'Determined'; determination letter file dated 20161021. Council recommended approval; facility was built, so approval inferred",
+      "precision": "day"
+    },
+    "url": "https://www.planningportal.nsw.gov.au/planning-panel/warehouse"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": "No construction workforce figure found. iTnews/Richard Crookes: phase 1 'took 460,000 hours of work over 44 weeks' (work hours, not a jobs figure)"
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": 180,
+    "source": 3,
+    "basis": "ongoing_headcount",
+    "scope": "unstated",
+    "note": "iTnews: 'will employ 180 staff at its completion' (likely full campus build-out)"
+  },
+  "jobs_operational_other": [
+    {
+      "value": 21,
+      "source": 1,
+      "basis": "ongoing_headcount",
+      "scope": "direct",
+      "note": "JRPP report 5.3: '10 to 21 employees are anticipated to be on site at any one time' (on-site concurrency, full 8-stage DA)"
+    }
+  ],
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "note": "not found; phase 1 built 'in just 44 weeks' to Sep 2017 completion, implying a start around Nov 2016 (inference only)"
+  },
+  "construction_end": {
+    "value": "2017-09",
+    "source": 4,
+    "note": "Richard Crookes (snippet): phase 1 completion date September 2017; iTnews 20 Sep 2017 reports launch",
+    "precision": "month"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "builder source (Richard Crookes page) seen only in search snippet; page removed",
+    "whether later SYD1 phases (phase 2 10MW mid-2018; phases 3-5 to 2022, 130MW+ total; 24 Healey Circuit extension) need separate rows",
+    "construction start date not found",
+    "cost: DA CIV $47.5m covers all 8 stages vs '>$200m' spend reported at launch"
+  ]
+}

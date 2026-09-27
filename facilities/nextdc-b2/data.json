@@ -1,0 +1,132 @@
+{
+  "id": "nextdc-b2",
+  "name": "NEXTDC B2 Brisbane (original building)",
+  "operator": "NEXTDC",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "454 St Pauls Terrace, Fortitude Valley QLD 4006",
+      "source": 1,
+      "note": "DA A004442362 lodged over 8 land parcels"
+    },
+    "suburb": "Fortitude Valley",
+    "state": "QLD",
+    "postcode": {
+      "value": "4006",
+      "source": 1,
+      "note": ""
+    },
+    "lat": {
+      "value": -27.45372,
+      "source": 8,
+      "note": "Geocoded 2026-09-27 from '454 St Pauls Terrace, Fortitude Valley QLD 4006' with the ArcGIS World Geocoder (PointAddress, score 100); PeeringDB facility point is ~20m away."
+    },
+    "lon": {
+      "value": 153.03302,
+      "source": 8,
+      "note": "see lat note"
+    }
+  },
+  "builder": {
+    "value": "FDC Construction & Fitout",
+    "source": 3,
+    "note": "structural refurbishment of a 3-storey (plus 2 basement) former bank building into a data centre, 46 weeks"
+  },
+  "developer": {
+    "value": "NEXTDC",
+    "source": 1,
+    "note": ""
+  },
+  "mw_it": {
+    "value": 6,
+    "source": 3,
+    "note": "FDC: '6MW data centre'. May 2016: 1.5MW initial, 6MW target (source 4). FY17 AR (Aug 2017) raised B2 target to 12MW (source 6); the additional 6MW is row nextdc-b2-stage2. Passes the 5 MW floor"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": 75,
+    "source": 2,
+    "note": "'$75 million' covering land, base building and infrastructure over 12 months (Your Neighbourhood; iTnews May 2016; DCD 'AUD$75m' approval)"
+  },
+  "planning": {
+    "authority": {
+      "value": "Brisbane City Council",
+      "source": 1,
+      "note": ""
+    },
+    "pathway": {
+      "value": "Development application (impact assessment): Material Change of Use + Carry Out Building Work, Sustainable Planning Act 2009 (Qld)",
+      "source": 1,
+      "note": "use: Research and Technology Industry (data centre) within existing building. Act inferred from 2016 date (Planning Act 2016 commenced July 2017)"
+    },
+    "reference": {
+      "value": "A004442362",
+      "source": 1,
+      "note": ""
+    },
+    "lodged": {
+      "value": "2016-07-26",
+      "source": 1,
+      "note": "",
+      "precision": "day"
+    },
+    "determined": {
+      "value": "2016-11-29",
+      "source": 1,
+      "note": "decision: Approved (BCC Development.i register)",
+      "precision": "day"
+    },
+    "url": "https://developmenti.brisbane.qld.gov.au/Geo/GetApplicationById?applicationId=A004442362&appType=development"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": "no peak figure; see _other"
+  },
+  "jobs_construction_other": [
+    {
+      "value": 200,
+      "source": 2,
+      "basis": "unstated",
+      "scope": "direct",
+      "note": "Your Neighbourhood (20 Aug 2016): 'up to 300' jobs, construction phase 200 on-site"
+    },
+    {
+      "value": 300,
+      "source": 2,
+      "basis": "unstated",
+      "scope": "direct_indirect",
+      "note": "200 on-site + 100 in supply chain = 'up to 300'"
+    }
+  ],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": ""
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "note": "DA approved 29 Nov 2016; FDC build took 46 weeks to a Sep 2017 opening, implying a start around late 2016 (inference only)"
+  },
+  "construction_end": {
+    "value": "2017-09",
+    "source": 5,
+    "note": "NEXTDC history: September 2017 opened as 'Australia's first Tier IV Certified Design and Constructed data centre'",
+    "precision": "month"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "construction start date not found",
+    "operational jobs not found"
+  ]
+}

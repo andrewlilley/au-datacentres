@@ -1,0 +1,132 @@
+{
+  "id": "nextdc-m2",
+  "name": "NEXTDC M2 Melbourne",
+  "operator": "NEXTDC",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "75 Sharps Road, Tullamarine VIC 3043",
+      "source": 5,
+      "note": "site also fronts Barrie Road (source 9)"
+    },
+    "suburb": "Tullamarine",
+    "state": "VIC",
+    "postcode": {
+      "value": "3043",
+      "source": 5,
+      "note": ""
+    },
+    "lat": {
+      "value": -37.70883,
+      "source": 10,
+      "note": "Geocoded 2026-09-27 from '75 Sharps Road, Tullamarine VIC 3043' with the ArcGIS World Geocoder (PointAddress, score 100); PeeringDB facility point (-37.70803, 144.87569) is ~90m away."
+    },
+    "lon": {
+      "value": 144.87543,
+      "source": 10,
+      "note": "see lat note"
+    }
+  },
+  "builder": {
+    "value": "FDC Construction & Fitout",
+    "source": 4,
+    "note": "FDC project page for NEXTDC M2 (base building, Data Hall 1, site remediation); stage not stated but Kapitol's portfolio starts at Stage 2 (Jan 2019), so FDC is taken as the original (Stage 1) builder. Later stages 2-6 by Kapitol Group (source 6)"
+  },
+  "developer": {
+    "value": "NEXTDC",
+    "source": 1,
+    "note": ""
+  },
+  "mw_it": {
+    "value": 40,
+    "source": 3,
+    "note": "target capacity at opening: FY17 Annual Report (Aug 2017) 'an increase in the target capacity of M2 by 15MW to 40MW'. At announcement (May 2016): 2MW initial, 25MW planned (source 1). Now marketed as 120MW+ (source 7), with later stages (Kapitol stages 2, 4, 5, 6: +6, +10, +15, +8 MW) and a 60MW expansion in the existing building"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": 85,
+    "source": 1,
+    "note": "'$85 million' covering land, base building and infrastructure (May 2016 announcement as reported by iTnews and The Urban Developer). FY17 AR: B2 and M2 together 'an investment of over $100 million so far' (source 3)"
+  },
+  "planning": {
+    "authority": {
+      "value": null,
+      "source": null,
+      "note": "likely Hume City Council (site in City of Hume); permit not found"
+    },
+    "pathway": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": "no peak figure; see _other"
+  },
+  "jobs_construction_other": [
+    {
+      "value": 200,
+      "source": 2,
+      "basis": "unstated",
+      "scope": "direct",
+      "note": "The Urban Developer (23 May 2016): construction 'expected to support up to 200 jobs on and off-site' (iTnews: 'up to 200' direct jobs)"
+    },
+    {
+      "value": 300,
+      "source": 2,
+      "basis": "unstated",
+      "scope": "direct_indirect",
+      "note": "'up to 200 jobs on and off-site, with another 100 jobs supported deeper in the supply chain' = 300 total"
+    }
+  ],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": ""
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "note": "site acquired May 2016 (source 8); FY17 AR says development began during FY17 (Jul 2016-Jun 2017); exact start not found"
+  },
+  "construction_end": {
+    "value": "2017-11",
+    "source": 8,
+    "note": "NEXTDC history: November 2017 'Victoria's first UTI Tier IV certified data centre' opened",
+    "precision": "month"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "Hume City Council planning permit number/dates not found",
+    "mw_it for this row: 40MW target at opening vs 120MW+ current; later stages (Kapitol stages 2-6) may merit separate rows",
+    "FDC stage not explicitly stated on its page",
+    "construction start date not found"
+  ]
+}
