@@ -30,7 +30,7 @@
   "builder": {
     "value": "Kapitol Group",
     "source": 1,
-    "note": "general contractor; AusNet built substation/transmission"
+    "note": "Microsoft: 'The general contractor, Kapitol Group, and AusNet will prepare the site'; Kapitol 'Truganina Data Centre Melbourne' page (client undisclosed, under construction). AusNet: substation/transmission"
   },
   "developer": {
     "value": "Microsoft",
@@ -54,31 +54,31 @@
   },
   "planning": {
     "authority": {
-      "value": null,
-      "source": null,
-      "note": "council not named in sources reached (Truganina split between Wyndham and Melton)"
+      "value": "Wyndham City Council",
+      "source": 3,
+      "note": ""
     },
     "pathway": {
       "value": "council planning permit",
       "source": 3,
-      "note": "application on council system via PlanningAlerts"
+      "note": "'Use and development of the land for the purposes of a data centre facility'"
     },
     "reference": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "WYP13430/22",
+      "source": 3,
+      "note": "later s72 amendment WYP13430/22.05 ('Amendment to the Planning Permit Conditions 3, 5, 7, 12 and 38'), received ~3 Sep 2024 (source 6), implies permit was issued"
     },
     "lodged": {
-      "value": "2022-03",
+      "value": "2022-03-28",
       "source": 3,
-      "precision": "month",
-      "note": "estimate: PlanningAlerts found application 1 Apr 2022; exact lodgement date not shown"
+      "precision": "day",
+      "note": "PlanningAlerts: found 1 Apr 2022, 'received by them 4 days earlier'"
     },
     "determined": {
       "value": null,
       "source": null,
       "precision": null,
-      "note": ""
+      "note": "permit issue date not found"
     },
     "url": "https://www.planningalerts.org.au/applications/2422481"
   },
@@ -108,12 +108,14 @@
     "value": null,
     "source": null,
     "precision": null,
-    "note": "Microsoft expected mid-2025; June 2025 update: structure/roof/facade complete, substation structural works begun; master.csv note ~60% operational Aug 2026 (not re-verified)"
+    "note": "Microsoft: 'estimated completion date of mid-2025'; Feb 2025: structure, roof, facade complete, substation structural works begun; Aug 2026: 'Approximately 60% of the site is now operational', remainder in fit-out"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "address 281 vs 283 Woods Road",
-    "planning authority/permit number not confirmed",
-    "status operational vs partly in fit-out"
+    "address 281 (master.csv) vs 283 Woods Road (planning application, OSM)",
+    "permit issue date not found",
+    "completion date of remaining fit-out unknown",
+    "MW not public",
+    "OSM names the building 'Microsoft MEL11'; Microsoft site code unconfirmed"
   ]
 }
