@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: Nominatim blocked by session egress proxy"
+      "value": -33.80614,
+      "source": 9,
+      "note": "Geocoded from street address via NSW Spatial Services address point for 1 SIRIUS ROAD LANE COVE WEST; the service returns two address points for this address (-33.80614,151.14840 and -33.80779,151.14472); first used. Address point, not building centroid; campus spans a larger lot."
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: Nominatim blocked by session egress proxy"
+      "value": 151.1484,
+      "source": 9,
+      "note": ""
     }
   },
   "builder": {
@@ -112,7 +112,6 @@
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "lat/lon not geocoded (Nominatim blocked)",
     "SSD-9741 CIV, jobs, lodged and determined dates need confirmation from the planning portal (portal blocked this session)",
     "builder AW Edwards from search extract only; confirm; possible EMKC in-house role",
     "cost $1bn is whole-campus; $216m CRE figure possibly the SSD CIV",

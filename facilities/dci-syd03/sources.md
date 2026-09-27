@@ -10,3 +10,4 @@ Note: in this session the egress proxy blocked all direct page fetches (planning
 6. https://www.datacenters.com/dci-sydney-03 (accessed 2026-09-27, via search snippet) - describes SSD approval for "SYD02/SYD03" next to SYD01, approx. 36 MW total planned.
 7. https://www.datacentermap.com/australia/sydney/dci-sydney-03/ (from master.csv; not accessible this session) - lists DCI Sydney 03 at "1 Raceway Pl" (alternative address).
 8. https://www.planningalerts.org.au/applications/1997501 (accessed 2026-09-27, via search listing) - title "90 Peter Brock Drive Eastern Creek NSW 2766"; supports postcode.
+9. https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Geocoded_Addressing_Theme/FeatureServer/1 - accessed 2026-09-27 - NSW Spatial Services Geocoded Addressing Theme (GNAF-based address points), queried address = '90 PETER BROCK DRIVE EASTERN CREEK'; supports lat/lon.

@@ -16,14 +16,14 @@
       "source": 6
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "Not geocoded: Nominatim and other geocoders (and all planning/operator sites) were blocked by the session's egress proxy. Geocode 17 Roberts Road, Eastern Creek NSW 2766 (Lot 2 DP 1159804) later."
+      "value": -33.81826,
+      "source": 8,
+      "note": "Geocoded from street address via NSW Spatial Services address point for 17 ROBERTS ROAD EASTERN CREEK. Address point, not building centroid; campus spans a larger lot."
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "Not geocoded: Nominatim and other geocoders (and all planning/operator sites) were blocked by the session's egress proxy. Geocode 17 Roberts Road, Eastern Creek NSW 2766 (Lot 2 DP 1159804) later."
+      "value": 150.83863,
+      "source": 8,
+      "note": ""
     }
   },
   "builder": {
@@ -105,8 +105,7 @@
   "open_questions": [
     "planning approval pathway/reference for EC3 not found (SSD-10330 or separate DA?)",
     "builder not found",
-    "mw_it: 42 MW (2022) vs 25 MW (2019 plan)",
-    "lat/lon not geocoded (geocoder blocked)."
+    "mw_it: 42 MW (2022) vs 25 MW (2019 plan)"
   ],
   "last_checked": "2026-09-27"
 }

@@ -9,3 +9,4 @@ Access date for all: 2026-09-27. Direct fetches of all sites were blocked by the
 5. https://datacenterhawk.com/marketplace/providers/airtrunk/1-sirius-road/syd2 - address 1 Sirius Road, Lane Cove West NSW 2066.
 6. https://tfgroup.com.au/our-projects/airtrunk-syd2-building-d-lane-cove-data-centre/ - formwork subcontract on SYD2 Building D (existence of Building D only).
 7. https://www.datacenterdynamics.com/en/news/45mw-data-center-proposed-next-to-airtrunk-syd2-site/ - separate 45 MW application (Apollo Place, SSD-67407231 per search extract) lodged 8 Feb (year not seen), adjoining 1 Sirius Rd; not this row.
+8. https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Geocoded_Addressing_Theme/FeatureServer/1 - accessed 2026-09-27 - NSW Spatial Services Geocoded Addressing Theme (GNAF-based address points), queried address = '1 SIRIUS ROAD LANE COVE WEST'; supports lat/lon.

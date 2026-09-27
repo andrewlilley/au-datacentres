@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: Nominatim blocked by session egress proxy"
+      "value": -33.80506,
+      "source": 9,
+      "note": "Geocoded from street address via NSW Spatial Services address point for 90 PETER BROCK DRIVE EASTERN CREEK. Address point, not building centroid; campus spans a larger lot."
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: Nominatim blocked by session egress proxy"
+      "value": 150.88637,
+      "source": 9,
+      "note": ""
     }
   },
   "builder": {
@@ -114,7 +114,6 @@
     "scope: completion not confirmed - SYD02 may not have been built as the 2021 Blacktown DA design; SSD-21342738 (dci-syd03) is described by some listings as 'SYD02/SYD03' ~36 MW, so dci-syd02 and dci-syd03 may be the same building (possible duplicate)",
     "main-works head contractor unknown (Multiplex only confirmed for enabling works)",
     "Blacktown DA number and determination date not found",
-    "lat/lon not geocoded (Nominatim blocked this session)",
     "all facts from search snippets only; direct page fetches blocked - verify"
   ]
 }

@@ -10,3 +10,4 @@ Access date for all: 2026-09-27. Direct fetches of all sites were blocked by the
 6. https://www.planningportal.nsw.gov.au/major-projects/projects/modification-1-51-huntingwood-drive-data-centre-reduced-scale - Modification 1 "Reduced Scale" exists (content not seen).
 7. https://www.planningalerts.org.au/applications/3041203 - 51 Huntingwood Drive, Huntingwood NSW 2148 (postcode); entry dated 01 Nov 2023.
 8. https://baxtel.com/data-center/airtrunk-syd3-sydney-west - first capacity 2027, expansions to 2030 (per master.csv notes; not re-verified).
+9. https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Geocoded_Addressing_Theme/FeatureServer/1 - accessed 2026-09-27 - NSW Spatial Services Geocoded Addressing Theme (GNAF-based address points), queried address = '51 HUNTINGWOOD DRIVE HUNTINGWOOD'; supports lat/lon.

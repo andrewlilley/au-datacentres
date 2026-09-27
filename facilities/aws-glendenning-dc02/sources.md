@@ -11,3 +11,4 @@ Access date for all: 2026-09-27. Note: in this session the egress proxy blocked 
 7. https://www.planningalerts.org.au/applications/3294026 - application at 2 Glendenning Road Glendenning NSW 2761, dated 16 May 2025 (title only seen).
 8. https://www.datacentermap.com/australia/sydney/amazon-aws-syd-glendenning-road-dc02/ - datacentermap per-building page, operator AWS (master.csv lead; not fetched).
 9. https://www.realestatesource.com.au/amazon-permitted-to-build-2-3b-data-centre/ - reports the project as a $2.3b Amazon data centre (headline).
+10. https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Geocoded_Addressing_Theme/FeatureServer/1 - accessed 2026-09-27 - NSW Spatial Services Geocoded Addressing Theme (GNAF-based address points), queried address = '2 GLENDENNING ROAD GLENDENNING'; supports lat/lon.

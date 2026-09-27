@@ -17,14 +17,14 @@
       "note": "standard Australia Post postcode for Smeaton Grange; not stated in extracts seen"
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: Nominatim blocked by session egress proxy (HTTP 403)"
+      "value": -34.03063,
+      "source": 7,
+      "note": "Geocoded from street address via NSW Spatial Services address point for 52 TURNER ROAD SMEATON GRANGE. Address point, not building centroid; campus spans a larger lot."
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: Nominatim blocked by session egress proxy (HTTP 403)"
+      "value": 150.75997,
+      "source": 7,
+      "note": ""
     }
   },
   "builder": {

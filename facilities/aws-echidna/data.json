@@ -17,14 +17,14 @@
       "note": "standard Australia Post postcode for Eastern Creek; not stated in the extracts seen"
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: Nominatim blocked by session egress proxy (HTTP 403)"
+      "value": -33.81034,
+      "source": 8,
+      "note": "Geocoded from street address via NSW Spatial Services address point for 10 EASTERN CREEK DRIVE EASTERN CREEK. Address point, not building centroid; campus spans a larger lot."
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: Nominatim blocked by session egress proxy (HTTP 403)"
+      "value": 150.83895,
+      "source": 8,
+      "note": ""
     }
   },
   "builder": {
@@ -112,7 +112,6 @@
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "lat/lon not geocoded (Nominatim blocked)",
     "exact capital investment value and construction/operational jobs need the EIS / assessment report (portal and taylorau.com.au blocked this session)",
     "determination date 2024-04-05 taken from master.csv notes; confirm on planning portal",
     "confirm Taylor is head contractor and get base build / fit-out dates",

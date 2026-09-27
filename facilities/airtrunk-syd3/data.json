@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: Nominatim blocked by session egress proxy"
+      "value": -33.79898,
+      "source": 9,
+      "note": "Geocoded from street address via NSW Spatial Services address point for 51 HUNTINGWOOD DRIVE HUNTINGWOOD. Address point, not building centroid; campus spans a larger lot."
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: Nominatim blocked by session egress proxy"
+      "value": 150.87542,
+      "source": 9,
+      "note": ""
     }
   },
   "builder": {
@@ -115,7 +115,6 @@
     "SSD-41589232 CIV, jobs, lodged and determined dates need the EIS/assessment report (planning portal blocked this session)",
     "effect of Modification 1 (reduced scale) on MW/GFA",
     "mw_it 320 vs 400+ marketed; mw_grid 400 from SSD description",
-    "lat/lon not geocoded (Nominatim blocked)",
     "construction end / first phase completion date unconfirmed"
   ]
 }

@@ -10,3 +10,4 @@ Access date for all: 2026-09-27. Note: in this session the egress proxy blocked 
 6. https://www.datacenterdynamics.com/en/news/airtrunk-starts-70mw-expansion-of-syd2-campus-in-sydney-australia/ - June 2023: 70 MW expansion (final two phases); first phase opened early 2021, second phase early 2023; campus >120 MW.
 7. https://datacenterhawk.com/marketplace/providers/airtrunk/1-sirius-road/syd2 - address 1 Sirius Road, Lane Cove West NSW 2066.
 8. https://www.cmaust.com/single-post/2019/11/11/data-centre-operator-airtrunk-settles-on-lane-cove-site - AirTrunk settled on Lane Cove site Nov 2019.
+9. https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Geocoded_Addressing_Theme/FeatureServer/1 - accessed 2026-09-27 - NSW Spatial Services Geocoded Addressing Theme (GNAF-based address points), queried address = '1 SIRIUS ROAD LANE COVE WEST'; supports lat/lon.

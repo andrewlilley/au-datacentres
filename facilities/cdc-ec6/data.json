@@ -16,14 +16,14 @@
       "source": 11
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "Not geocoded: Nominatim and other geocoders (and all planning/operator sites) were blocked by the session's egress proxy. Geocode 17 Roberts Road, Eastern Creek NSW 2766 (Lot 2 DP 1159804) later."
+      "value": -33.81826,
+      "source": 13,
+      "note": "Geocoded from street address via NSW Spatial Services address point for 17 ROBERTS ROAD EASTERN CREEK. Address point, not building centroid; campus spans a larger lot."
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "Not geocoded: Nominatim and other geocoders (and all planning/operator sites) were blocked by the session's egress proxy. Geocode 17 Roberts Road, Eastern Creek NSW 2766 (Lot 2 DP 1159804) later."
+      "value": 150.83863,
+      "source": 13,
+      "note": ""
     }
   },
   "builder": {
@@ -109,8 +109,7 @@
     "completion date not confirmed (Infratil Apr 2026 newsletter / Mar 2026 CDC presentation not accessible)",
     "mw_it per building not stated (108 MW combined with EC5; ITK 79 MW each)",
     "cost is a combined EC5+EC6 figure",
-    "jobs figures not found",
-    "lat/lon not geocoded (geocoder blocked)."
+    "jobs figures not found"
   ],
   "last_checked": "2026-09-27"
 }

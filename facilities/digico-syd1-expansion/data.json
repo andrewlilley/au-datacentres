@@ -17,14 +17,14 @@
       "note": "Ultimo postcode (Australia Post); ESD report gives site address"
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: Nominatim blocked by session egress proxy"
+      "value": -33.87558,
+      "source": 10,
+      "note": "Geocoded from street address via NSW Spatial Services address point for 390-422 HARRIS STREET ULTIMO (273 Pyrmont St is at -33.87536,151.19802). Address point, not building centroid; campus spans a larger lot."
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: Nominatim blocked by session egress proxy"
+      "value": 151.1977,
+      "source": 10,
+      "note": ""
     }
   },
   "builder": {
@@ -114,7 +114,6 @@
     "mw_it increment: 45.5 MW (88 - 42.5, EIS reporting) vs 47.5 MW (DCD/master.csv) - check EIS",
     "is SHAPE's 20MW upgrade (due June 2026) part of the SSD expansion or separate fit-out; SSD head contractor unknown",
     "CIV (605 reported) and construction/operational jobs not read from EIS/assessment report (planning portal blocked)",
-    "lodged date and construction start not found",
-    "lat/lon not geocoded (Nominatim blocked this session)"
+    "lodged date and construction start not found"
   ]
 }

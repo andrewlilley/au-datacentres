@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: Nominatim blocked by session egress proxy"
+      "value": -33.80614,
+      "source": 8,
+      "note": "Geocoded from street address via NSW Spatial Services address point for 1 SIRIUS ROAD LANE COVE WEST; the service returns two address points for this address (-33.80614,151.14840 and -33.80779,151.14472); first used. Address point, not building centroid; campus spans a larger lot."
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: Nominatim blocked by session egress proxy"
+      "value": 151.1484,
+      "source": 8,
+      "note": ""
     }
   },
   "builder": {
@@ -116,7 +116,6 @@
     "status: operational vs under_construction unresolved (Shell C completion not confirmed)",
     "planning pathway/reference unknown (SSD-9741 or a modification; Oct 2020 exhibition EXH-9395018 '1 Sirius Road and 2 Apollo Place' may be relevant)",
     "builder EMKC3 relationship to AirTrunk unclear",
-    "lat/lon not geocoded (Nominatim blocked)",
     "separate AirTrunk Apollo Place 45 MW SSD-67407231 adjoining site may need its own master.csv row if not already listed"
   ]
 }

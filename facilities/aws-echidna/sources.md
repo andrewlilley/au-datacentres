@@ -9,3 +9,4 @@ Access date for all: 2026-09-27. Note: in this session the egress proxy blocked 
 5. https://taylorau.com.au/wp-content/uploads/2020/05/Signed-SSD-SSI-Assessment-Report.pdf - signed DPHI assessment report: SSD-47320208, 10 Eastern Creek Drive, Blacktown LGA, 35.2 MW operational capacity.
 6. https://baxtel.com/news/aws-planning-new-data-center-under-name-project-echidna-in-west-sydney-australia - AU$300m (US$200m), 35.2 MW, 9,225 sqm, two storeys; applicant addendum response 6 Mar 2024 (per search extract).
 7. https://taylorau.com.au/wp-content/uploads/2024/05/SSD-47320208-Exhibition-Notice.pdf - exhibition notice for SSD-47320208 (title only seen).
+8. https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Geocoded_Addressing_Theme/FeatureServer/1 - accessed 2026-09-27 - NSW Spatial Services Geocoded Addressing Theme (GNAF-based address points), queried address = '10 EASTERN CREEK DRIVE EASTERN CREEK'; supports lat/lon.

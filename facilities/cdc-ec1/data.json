@@ -16,14 +16,14 @@
       "source": 6
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "Not geocoded: Nominatim and other geocoders (and all planning/operator sites) were blocked by the session's egress proxy. Geocode 17 Roberts Road, Eastern Creek NSW 2766 (Lot 2 DP 1159804) later."
+      "value": -33.81826,
+      "source": 9,
+      "note": "Geocoded from street address via NSW Spatial Services address point for 17 ROBERTS ROAD EASTERN CREEK. Address point, not building centroid; campus spans a larger lot."
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "Not geocoded: Nominatim and other geocoders (and all planning/operator sites) were blocked by the session's egress proxy. Geocode 17 Roberts Road, Eastern Creek NSW 2766 (Lot 2 DP 1159804) later."
+      "value": 150.83863,
+      "source": 9,
+      "note": ""
     }
   },
   "builder": {
@@ -104,8 +104,7 @@
     "note": "EC1 is inferred to be one of the two pre-existing ex-HP/DXC data halls (source 2); HP Aurora first services 1 Dec 2011, formal opening June 2012 (source 3)."
   },
   "open_questions": [
-    "scope: EC1 appears to be a pre-existing ex-HP 'Aurora' data hall (built 2011-12, acquired by CDC from DXC 14 Dec 2018 as an operational data centre), i.e. completed before 2018-09-01; likely out of scope unless CDC's re-commissioning counts as new build.",
-    "lat/lon not geocoded (geocoder blocked)."
+    "scope: EC1 appears to be a pre-existing ex-HP 'Aurora' data hall (built 2011-12, acquired by CDC from DXC 14 Dec 2018 as an operational data centre), i.e. completed before 2018-09-01; likely out of scope unless CDC's re-commissioning counts as new build."
   ],
   "last_checked": "2026-09-27"
 }

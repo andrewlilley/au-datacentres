@@ -16,14 +16,14 @@
       "source": 2
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "Not geocoded: Nominatim and all mapping hosts blocked by the session egress proxy. Geocode from 105 Hollinsworth Road, Marsden Park NSW 2765 later."
+      "value": -33.72261,
+      "source": 20,
+      "note": "Geocoded from street address via NSW Spatial Services address point for 105 HOLLINSWORTH ROAD MARSDEN PARK (113 Hollinsworth Rd is at -33.72446,150.83675). Address point, not building centroid; campus spans a larger lot."
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "Not geocoded: Nominatim and all mapping hosts blocked by the session egress proxy. Geocode from 105 Hollinsworth Road, Marsden Park NSW 2765 later."
+      "value": 150.8366,
+      "source": 20,
+      "note": ""
     }
   },
   "builder": {
@@ -119,7 +119,6 @@
   "open_questions": [
     "Construction status unknown: Infratil Apr 2026 says >200 MW commenced at Marsden Park but does not name buildings",
     "Builder unknown",
-    "Per-building IT MW not confirmed",
-    "lat/lon not geocoded (network blocked)"
+    "Per-building IT MW not confirmed"
   ]
 }

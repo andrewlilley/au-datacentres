@@ -16,14 +16,14 @@
       "source": 2
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "Not geocoded: Nominatim and all mapping hosts blocked by the session egress proxy. Geocode from 105 Hollinsworth Road, Marsden Park NSW 2765 later."
+      "value": -33.72261,
+      "source": 20,
+      "note": "Geocoded from street address via NSW Spatial Services address point for 105 HOLLINSWORTH ROAD MARSDEN PARK (113 Hollinsworth Rd is at -33.72446,150.83675). Address point, not building centroid; campus spans a larger lot."
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "Not geocoded: Nominatim and all mapping hosts blocked by the session egress proxy. Geocode from 105 Hollinsworth Road, Marsden Park NSW 2765 later."
+      "value": 150.8366,
+      "source": 20,
+      "note": ""
     }
   },
   "builder": {
@@ -120,7 +120,6 @@
     "MP1 appears split: initial 5 MW facility under Blacktown DA-24-00542 (SCCPP PPSSCC-562, CIV $53.94m, lodged ~17 Jun 2024) and MP1.S2 under SSD-70889211; determination date of DA-24-00542 not found",
     "iCost reports MP1 completion announced; confirm date and whether full building or initial stage only",
     "Builder for MP1.S2 / later stages unknown",
-    "Per-building IT MW not confirmed (master.csv had 79 MW, source unknown)",
-    "lat/lon not geocoded (network blocked)"
+    "Per-building IT MW not confirmed (master.csv had 79 MW, source unknown)"
   ]
 }

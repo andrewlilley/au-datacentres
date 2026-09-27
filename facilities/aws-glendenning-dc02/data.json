@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: Nominatim blocked by session egress proxy (HTTP 403)"
+      "value": -33.75992,
+      "source": 10,
+      "note": "Geocoded from street address via NSW Spatial Services address point for 2 GLENDENNING ROAD GLENDENNING. Address point, not building centroid; campus spans a larger lot."
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: Nominatim blocked by session egress proxy (HTTP 403)"
+      "value": 150.85293,
+      "source": 10,
+      "note": ""
     }
   },
   "builder": {
@@ -112,7 +112,6 @@
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "lat/lon not geocoded (Nominatim blocked)",
     "AWS as operator/developer is from media reports; formal proponent is Lehr Consultants International",
     "confirm lodgement date and CIV/jobs in EIS & assessment report on the portal (blocked this session)",
     "staging sequence/timing of each building not found",
