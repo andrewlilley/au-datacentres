@@ -83,13 +83,19 @@
   "jobs_construction": {
     "value": null,
     "source": null,
+    "basis": null,
+    "scope": null,
     "note": "not found"
   },
+  "jobs_construction_other": [],
   "jobs_operational": {
     "value": 72,
     "source": 1,
-    "note": "approx. 72 operational jobs"
+    "basis": "ongoing_headcount",
+    "scope": "unstated",
+    "note": "'approx. 72 operational jobs' (planning portal summary)"
   },
+  "jobs_operational_other": [],
   "construction_start": {
     "value": "2025-04",
     "source": 3,
@@ -109,6 +115,7 @@
     "end user AWS? (SSD post-approval doc titled AWS DC01 SYD067)",
     "construction start conflict: Lendlease Apr 2025 vs Stockland FY27",
     "jobs_construction and CIV not verified from EIS (planning portal blocked)",
-    "lat/lon not geocoded (geocoder blocked)"
+    "lat/lon not geocoded (geocoder blocked)",
+    "jobs: basis/scope tagged from search-result wording; confirm against planning documents"
   ]
 }

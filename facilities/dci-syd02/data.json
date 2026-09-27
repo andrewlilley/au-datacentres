@@ -1,0 +1,120 @@
+{
+  "id": "dci-syd02",
+  "name": "DCI SYD02",
+  "operator": "DCI Data Centers",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "90 Peter Brock Drive, Eastern Creek NSW",
+      "source": 5,
+      "note": "address per master.csv, Planning Alerts and datacenterhawk; same site as SYD01"
+    },
+    "suburb": "Eastern Creek",
+    "state": "NSW",
+    "postcode": {
+      "value": "2766",
+      "source": 5,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: Nominatim blocked by session egress proxy"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: Nominatim blocked by session egress proxy"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": 4,
+    "note": "Multiplex did early enabling works (demolition, stormwater, fencing); main-works head contractor not found"
+  },
+  "developer": {
+    "value": "DCI Data Centers",
+    "source": 1,
+    "note": "DCI is a Brookfield portfolio company (NineZero DC entities)"
+  },
+  "mw_it": {
+    "value": 36,
+    "source": 1,
+    "note": "36 MW as announced at DA approval; unclear whether IT or total"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": 400,
+    "source": 1,
+    "note": "announced investment AU$400m (World Construction Network reports US$308m); not a planning CIV"
+  },
+  "planning": {
+    "authority": {
+      "value": "Blacktown City Council",
+      "source": 1,
+      "note": "local DA; possibly later superseded/expanded by SSD-21342738 (see dci-syd03)"
+    },
+    "pathway": {
+      "value": "Local DA",
+      "source": 1,
+      "note": ""
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": "DA number not found"
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "precision": null,
+      "note": "approval announced c. early 2021 (iTnews article 559599); exact date not confirmed"
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": "",
+    "basis": null,
+    "scope": null
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": "",
+    "basis": null,
+    "scope": null
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": "Multiplex enabling works date not found"
+  },
+  "construction_end": {
+    "value": "2022",
+    "source": 1,
+    "precision": "year",
+    "note": "target Q4 2022 (planned, not actual); service readiness Q4 2022 as announced; actual completion not confirmed (datacentermap reportedly still lists 'planned')"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "scope: completion not confirmed - SYD02 may not have been built as the 2021 Blacktown DA design; SSD-21342738 (dci-syd03) is described by some listings as 'SYD02/SYD03' ~36 MW, so dci-syd02 and dci-syd03 may be the same building (possible duplicate)",
+    "main-works head contractor unknown (Multiplex only confirmed for enabling works)",
+    "Blacktown DA number and determination date not found",
+    "lat/lon not geocoded (Nominatim blocked this session)",
+    "all facts from search snippets only; direct page fetches blocked - verify"
+  ]
+}

@@ -83,13 +83,56 @@
   "jobs_construction": {
     "value": 610,
     "source": 1,
-    "note": "DPHI assessment report figure; other statements: ~1,200 construction jobs (IPC/applicant), 'more than 1,200 jobs' (operator 2024), '2,400 construction, design and fit-out jobs' (operator 2025)"
+    "basis": "unstated",
+    "scope": "unstated",
+    "note": "DPHI assessment report: 610 construction jobs"
   },
+  "jobs_construction_other": [
+    {
+      "value": 1200,
+      "source": 1,
+      "basis": "unstated",
+      "scope": "unstated",
+      "note": "applicant statement to IPC: ~1,200 construction jobs"
+    },
+    {
+      "value": 1200,
+      "source": 3,
+      "basis": "unstated",
+      "scope": "unstated",
+      "note": "operator 2024 (Inside Construction): 'more than 1,200 jobs'"
+    },
+    {
+      "value": 2400,
+      "source": 4,
+      "basis": "unstated",
+      "scope": "direct_indirect",
+      "note": "operator 2025: '2,400 construction, design and fit-out jobs'"
+    }
+  ],
   "jobs_operational": {
     "value": 20,
     "source": 1,
-    "note": "additional operational jobs per assessment report; ~49 total for consolidated campus; operator later said ~100 jobs"
+    "basis": "ongoing_headcount",
+    "scope": "unstated",
+    "note": "assessment report: 20 additional operational jobs from the expansion"
   },
+  "jobs_operational_other": [
+    {
+      "value": 49,
+      "source": 1,
+      "basis": "ongoing_headcount",
+      "scope": "unstated",
+      "note": "~49 operational jobs for the consolidated campus (assessment report / statement)"
+    },
+    {
+      "value": 100,
+      "source": 5,
+      "basis": "ongoing_headcount",
+      "scope": "unstated",
+      "note": "operator 2026 (Capital Brief): ~100 jobs"
+    }
+  ],
   "construction_start": {
     "value": "2024-06",
     "source": 3,
@@ -107,6 +150,7 @@
     "may now be operational (first 6MW due Sep 2026) - check status",
     "jobs figures conflict across sources (610 vs 1,200 vs 2,400 construction)",
     "CIV in DPHI assessment report not confirmed ($504.1m EDC from SSD docs vs ~$350m operator construction cost)",
-    "SSD lodgement date not found"
+    "SSD lodgement date not found",
+    "jobs: basis/scope tagged from search-result wording; confirm against planning documents"
   ]
 }

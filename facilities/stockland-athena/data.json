@@ -80,13 +80,19 @@
   "jobs_construction": {
     "value": null,
     "source": null,
+    "basis": null,
+    "scope": null,
     "note": "not found"
   },
+  "jobs_construction_other": [],
   "jobs_operational": {
     "value": 50,
     "source": 2,
-    "note": "'will lead to 50 operational jobs upon completion' (per search summary of The Urban Developer / DCD coverage)"
+    "basis": "ongoing_headcount",
+    "scope": "unstated",
+    "note": "'will lead to 50 operational jobs upon completion' (search summary of The Urban Developer / DCD)"
   },
+  "jobs_operational_other": [],
   "construction_start": {
     "value": null,
     "source": null,
@@ -106,6 +112,7 @@
     "tenant: AWS link from media 'believed to be' and aggregator only",
     "cost (CIV) and construction jobs not found",
     "planning.determined not re-verified",
-    "lat/lon not geocoded (egress blocked)"
+    "lat/lon not geocoded (egress blocked)",
+    "jobs: basis/scope tagged from search-result wording; confirm against planning documents"
   ]
 }

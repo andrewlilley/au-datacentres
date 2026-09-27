@@ -1,0 +1,120 @@
+{
+  "id": "digico-syd1-expansion",
+  "name": "SYD1 Ultimo expansion (ex-Global Switch Sydney East/West)",
+  "operator": "DigiCo Infrastructure REIT",
+  "status": "under_construction",
+  "location": {
+    "address": {
+      "value": "390-422 Harris Street and 273 Pyrmont Street, Ultimo NSW",
+      "source": 2,
+      "note": "master.csv gives 392-422 Harris St; SSD documents use 390-422"
+    },
+    "suburb": "Ultimo",
+    "state": "NSW",
+    "postcode": {
+      "value": "2007",
+      "source": 8,
+      "note": "Ultimo postcode (Australia Post); ESD report gives site address"
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: Nominatim blocked by session egress proxy"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: Nominatim blocked by session egress proxy"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": 6,
+    "note": "SHAPE is D&C delivery partner for a '20MW Upgrade at DigiCo SYD1' due June 2026 - unclear whether that is part of the SSD-69637456 expansion; head contractor for SSD works not confirmed"
+  },
+  "developer": {
+    "value": "DigiCo Infrastructure REIT",
+    "source": 4,
+    "note": "HMC Capital-managed REIT"
+  },
+  "mw_it": {
+    "value": 45.5,
+    "source": 2,
+    "note": "increment = 88 MW minus existing 42.5 MW per EIS reporting; master.csv/DCD give +47.5 MW (West +24.5, East +23); site total after expansion 88 MW"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": 605,
+    "source": 2,
+    "note": "proposal value reported from SSD application (likely CIV); not read directly from EIS"
+  },
+  "planning": {
+    "authority": {
+      "value": "NSW DPHI",
+      "source": 4,
+      "note": "City of Sydney LGA"
+    },
+    "pathway": {
+      "value": "SSD",
+      "source": 1,
+      "note": ""
+    },
+    "reference": {
+      "value": "SSD-69637456",
+      "source": 1,
+      "note": ""
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": "EIS on public exhibition until 29 May 2025 (source 2); lodgement date not obtained"
+    },
+    "determined": {
+      "value": "2025-12-23",
+      "source": 4,
+      "precision": "day",
+      "note": "date per master.csv; search snippets confirm approval December 2025 and ASX announcement 29 Dec 2025"
+    },
+    "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/digico-syd1-data-centre-expansion"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": "not obtained (EIS blocked)",
+    "basis": null,
+    "scope": null
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": "not obtained (EIS blocked)",
+    "basis": null,
+    "scope": null
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": ""
+  },
+  "construction_end": {
+    "value": "2028",
+    "source": 5,
+    "precision": "year",
+    "note": "expected; delivered in phases across FY27-FY28 (i.e. by June 2028), first 10 MW by end FY27 per FY26 results; SHAPE says a 20MW upgrade due June 2026 (source 6)"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "mw_it increment: 45.5 MW (88 - 42.5, EIS reporting) vs 47.5 MW (DCD/master.csv) - check EIS",
+    "is SHAPE's 20MW upgrade (due June 2026) part of the SSD expansion or separate fit-out; SSD head contractor unknown",
+    "CIV (605 reported) and construction/operational jobs not read from EIS/assessment report (planning portal blocked)",
+    "lodged date and construction start not found",
+    "lat/lon not geocoded (Nominatim blocked this session)"
+  ]
+}

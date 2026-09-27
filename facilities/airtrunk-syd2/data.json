@@ -1,0 +1,122 @@
+{
+  "id": "airtrunk-syd2",
+  "name": "AirTrunk SYD2 Sydney North (initial phases)",
+  "operator": "AirTrunk",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "1 Sirius Road, Lane Cove West NSW 2066",
+      "source": 7,
+      "note": ""
+    },
+    "suburb": "Lane Cove West",
+    "state": "NSW",
+    "postcode": {
+      "value": "2066",
+      "source": 7,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: Nominatim blocked by session egress proxy"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: Nominatim blocked by session egress proxy"
+    }
+  },
+  "builder": {
+    "value": "AW Edwards",
+    "source": 5,
+    "note": "head contractor per 2019 CRE report as surfaced in search extract (page not fetched). Tree Survey (treesurvey.com.au) names 'EMCK3' as lead contractor for SYD2 phase 3 (expansion); EMKC/EMKC3 is also the applicant entity on AirTrunk SSDs"
+  },
+  "developer": {
+    "value": "AirTrunk",
+    "source": 1,
+    "note": "SSD applicant listed as 'Airtrunk Pty Ltd C/- EMKC'"
+  },
+  "mw_it": {
+    "value": 50,
+    "source": 6,
+    "note": "derived: campus >120 MW (DCD 2023) minus 70 MW final-two-phase expansion (separate row airtrunk-syd2-expansion). iTnews 2019/2021 quote >110 MW for the whole campus; operator later quotes up to 158 MW campus"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": 1000,
+    "source": 2,
+    "note": "operator/press figure 'over $1bn' for the whole 110 MW+ campus, not this row alone. CRE 2019 reported $216m at DA stage (probably SSD-9741 capital investment value, unverified)"
+  },
+  "planning": {
+    "authority": {
+      "value": "NSW Department of Planning (DPIE, now DPHI)",
+      "source": 3,
+      "note": ""
+    },
+    "pathway": {
+      "value": "SSD",
+      "source": 3,
+      "note": ""
+    },
+    "reference": {
+      "value": "SSD-9741",
+      "source": 3,
+      "note": "application number in the attachment reference of the 1 Sirius Road data centre document; portal project id 9381"
+    },
+    "lodged": {
+      "value": "2019",
+      "precision": "year",
+      "source": 3,
+      "note": "document filed 2019-04-02; exact lodgement date not confirmed; CRE reports SSD submitted May 2019"
+    },
+    "determined": {
+      "value": "2019",
+      "precision": "year",
+      "source": 4,
+      "note": "consent granted 2019 per In the Cove; exact date not found"
+    },
+    "url": "https://www.planningportal.nsw.gov.au/major-projects/project/9381"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": "",
+    "basis": null,
+    "scope": null
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": "",
+    "basis": null,
+    "scope": null
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": null,
+    "precision": null,
+    "source": null,
+    "note": "site settled Nov 2019 (source 8); start date not found"
+  },
+  "construction_end": {
+    "value": "2023",
+    "precision": "year",
+    "source": 6,
+    "note": "phase 1 opened early 2021 (iTnews, master notes say Mar 2021); phase 2 opened early 2023 (DCD)"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "lat/lon not geocoded (Nominatim blocked)",
+    "SSD-9741 CIV, jobs, lodged and determined dates need confirmation from the planning portal (portal blocked this session)",
+    "builder AW Edwards from search extract only; confirm; possible EMKC in-house role",
+    "cost $1bn is whole-campus; $216m CRE figure possibly the SSD CIV",
+    "row split: mw_it 50 is derived; per-phase MW not confirmed",
+    "planning portal exhibition doc EXH-9395018 (Oct 2020, '1 Sirius Road and 2 Apollo Place, Data Centre') may be a modification or second application - identify"
+  ]
+}

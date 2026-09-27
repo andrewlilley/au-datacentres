@@ -1,0 +1,120 @@
+{
+  "id": "aws-glendenning-dc03",
+  "name": "Glendenning Road Data Centre - Stage 3",
+  "operator": "Amazon Web Services",
+  "status": "approved",
+  "location": {
+    "address": {
+      "value": "2 Glendenning Road, Glendenning NSW 2761",
+      "source": 3,
+      "note": "campus address; all three buildings on one 10.43 ha lot"
+    },
+    "suburb": "Glendenning",
+    "state": "NSW",
+    "postcode": {
+      "value": "2761",
+      "source": 7,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: Nominatim blocked by session egress proxy (HTTP 403)"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: Nominatim blocked by session egress proxy (HTTP 403)"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": "not announced"
+  },
+  "developer": {
+    "value": "Amazon Web Services",
+    "source": 3,
+    "note": "reported as Amazon/AWS project (w.media, Telecompaper); formal SSD proponent is Lehr Consultants International (Australia)"
+  },
+  "mw_it": {
+    "value": 79.2,
+    "source": 3,
+    "note": "DC03 IT capacity per approval reporting; campus 193.6 MW IT"
+  },
+  "mw_grid": {
+    "value": 235,
+    "source": 3,
+    "note": "CAMPUS TOTAL electrical maximum demand for all three buildings, not apportioned per building; SEARs stage quoted 202 MW / 202.4 MW"
+  },
+  "cost_aud_m": {
+    "value": 2170,
+    "source": 2,
+    "note": "CAMPUS TOTAL capital investment value for all three stages, not apportioned; SEARs-stage/other reports give AU$2.3bn (sources 4, 9)"
+  },
+  "planning": {
+    "authority": {
+      "value": "NSW Department of Planning, Housing and Infrastructure (DPHI)",
+      "source": 2,
+      "note": ""
+    },
+    "pathway": {
+      "value": "SSD",
+      "source": 2,
+      "note": ""
+    },
+    "reference": {
+      "value": "SSD-73761707",
+      "source": 2,
+      "note": "single SSD covering all three stages"
+    },
+    "lodged": {
+      "value": "2025-03",
+      "precision": "month",
+      "source": 6,
+      "note": "estimate: EIS appendix attachment timestamped 2025-03-20; PlanningAlerts entry dated 16 May 2025 (possibly exhibition); SEARs requested 2024"
+    },
+    "determined": {
+      "value": "2026-09-14",
+      "precision": "day",
+      "source": 2,
+      "note": "master.csv 'ops' note mentions 17 Sep 2026 per datacentermap; 14 Sep per urbandigest and w.media"
+    },
+    "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/glendenning-road-data-centre"
+  },
+  "jobs_construction": {
+    "value": 1076,
+    "source": 2,
+    "note": "CAMPUS TOTAL for all three stages, not apportioned. Urban Digest (search extract): '~1,076 direct construction jobs'; peak vs total not stated in extract - check assessment report",
+    "basis": "unstated",
+    "scope": "direct"
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": 106,
+    "source": 2,
+    "note": "CAMPUS TOTAL, not apportioned. Urban Digest (search extract): '106 operational jobs'",
+    "basis": "ongoing_headcount",
+    "scope": "unstated"
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": null,
+    "precision": null,
+    "source": null,
+    "note": "not announced (approved Sep 2026)"
+  },
+  "construction_end": {
+    "value": null,
+    "precision": null,
+    "source": null,
+    "note": "not announced"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "lat/lon not geocoded (Nominatim blocked)",
+    "AWS as operator/developer is from media reports; formal proponent is Lehr Consultants International",
+    "confirm lodgement date and CIV/jobs in EIS & assessment report on the portal (blocked this session)",
+    "staging sequence/timing of each building not found"
+  ]
+}
