@@ -110,7 +110,7 @@
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "scope: facility launched operations in 2016 (ECD Oct 2017), before the 2018-09-01 cutoff, and MW is at most ~8 (aggregators); out of scope unless DC Alliance's planned expansion is a separate >=5 MW build (no details found)",
+    "scope: launched 2016 (ECD Oct 2017), within the 2016-01-01 cutoff; >= 5 MW rests only on aggregator figures (8 MW RenewMap; 6/2 MW elsewhere) - confirm MW",
     "MW conflicts across aggregators (8/6/2 MW)",
     "suburb in master.csv is Perth; actual Canning Vale"
   ]

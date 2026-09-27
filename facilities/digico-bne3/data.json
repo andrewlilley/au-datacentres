@@ -110,7 +110,7 @@
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "scope: not approved and not under construction. Naming: PDS (Dec 2024) called this greenfield site 'BNE4' (the PDS 'BNE3' is the 0.3 MW Woolloongabba site, since renamed 'BNE'); renamed BNE3 in Aug 2025. FY25 results (Aug 2025): DigiCo 'in discussions with Brisbane Airport Corporation, to develop an additional campus site adjacent to existing facility at BNE2'. FY26 results and Annual Report 2026 portfolio lists (Aug/Sep 2026) omit BNE3 entirely and describe greenfield only as 'evaluation and planning on select greenfield sites'. Should be moved to excluded (announced only / apparently dropped).",
+    "scope: excluded - Not approved or under construction: greenfield site at Cycas Lane, Brisbane Airport (PDS 'BNE4', renamed BNE3 Aug 2025), 19.6 MW proposed; removed from master.csv and listed in excluded.csv (decision 2026-09-27)",
     "status: 'under_construction' (from master.csv) is contradicted by DigiCo disclosures; schema has no 'announced' value",
     "street number (4 vs 6 Cycas Lane) unconfirmed",
     "builder, cost, jobs not found"

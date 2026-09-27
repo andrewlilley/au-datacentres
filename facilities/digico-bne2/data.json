@@ -110,7 +110,7 @@
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "scope: DigiCo PDS gives BNE2 Installed and Planned IT Capacity of 1.7 MW with no future expansion - below the 5 MW threshold; only iseek's 2019 '6MW facility' announcement supports >=5 MW (likely facility/power capacity). Probably out of scope.",
+    "scope: excluded - Under 5 MW: DigiCo REIT PDS (Dec 2024) gives BNE2 installed and planned IT capacity of 1.7 MW with no expansion; removed from master.csv and listed in excluded.csv (decision 2026-09-27)",
     "address: 2 vs 4 Cycas Lane for the Stage 2 building",
     "Airports Act (BAC/Airport Building Controller) approval reference and dates not found",
     "cost not found",
