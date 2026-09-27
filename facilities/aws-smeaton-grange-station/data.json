@@ -1,0 +1,113 @@
+{
+  "id": "aws-smeaton-grange-station",
+  "name": "Smeaton Grange 'Station'",
+  "operator": "Amazon Web Services",
+  "status": "under_construction",
+  "location": {
+    "address": {
+      "value": "52 Turner Road, Smeaton Grange NSW",
+      "source": 2,
+      "note": "site of the withdrawn 40 MW proposal; land bought by Amazon Mar 2022 for AU$30.18m (source 1)"
+    },
+    "suburb": "Smeaton Grange",
+    "state": "NSW",
+    "postcode": {
+      "value": "2567",
+      "source": null,
+      "note": "standard Australia Post postcode for Smeaton Grange; not stated in extracts seen"
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: Nominatim blocked by session egress proxy (HTTP 403)"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: Nominatim blocked by session egress proxy (HTTP 403)"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "developer": {
+    "value": "Amazon Web Services",
+    "source": 2,
+    "note": "SEARs requested by Arup on behalf of AWS"
+  },
+  "mw_it": {
+    "value": 40,
+    "source": 1,
+    "note": "Baxtel: 40 MW IT, second AWS facility in Smeaton Grange Park; DCD reports a 40 MW plan"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": 50,
+    "source": 2,
+    "note": "~AU$50m cited at SEARs stage (DCD); not a determined CIV"
+  },
+  "planning": {
+    "authority": {
+      "value": "NSW Department of Planning, Housing and Infrastructure (DPHI)",
+      "source": 2,
+      "note": "SEARs request stage only"
+    },
+    "pathway": {
+      "value": "SSD",
+      "source": 2,
+      "note": "SEARs requested; application withdrawn"
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": "SSD number not found"
+    },
+    "lodged": {
+      "value": null,
+      "precision": null,
+      "source": null,
+      "note": "SEARs request date not found"
+    },
+    "determined": {
+      "value": null,
+      "precision": null,
+      "source": null,
+      "note": "not determined - withdrawn by Arup/Amazon, cancellation reported Nov 2024 (sources 2, 3)"
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_start": {
+    "value": null,
+    "precision": null,
+    "source": null,
+    "note": "not built"
+  },
+  "construction_end": {
+    "value": null,
+    "precision": null,
+    "source": null,
+    "note": "not built"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "scope: 40 MW proposal at 52 Turner Road, Smeaton Grange was withdrawn at SEARs stage (cancellation reported Nov 2024) - never approved; Baxtel 'under construction' status is stale. Suggest out of scope.",
+    "possible successor/replacement: AWS 43-61 Turner Road, Gregory Hills NSW 2557 (SSD-68013714, 53 MW, ~AU$450m, EIS Feb 2025, construction planned Q1 2026-Q2 2027, via Arup/Amazon Corporate Services) - status on portal was assessment/determination; not in master.csv as a separate row; check whether it has been determined and add it",
+    "existing AWS facility nearby at 42A Bluett Drive, Smeaton Grange (SYD52 / Baxtel B1-B4) - Baxtel's 'second facility in Smeaton Grange Park' may conflate sites"
+  ]
+}

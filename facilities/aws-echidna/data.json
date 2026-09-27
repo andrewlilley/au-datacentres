@@ -1,0 +1,115 @@
+{
+  "id": "aws-echidna",
+  "name": "AWS Project Echidna",
+  "operator": "Amazon Web Services",
+  "status": "under_construction",
+  "location": {
+    "address": {
+      "value": "10 Eastern Creek Drive, Eastern Creek NSW 2766",
+      "source": 4,
+      "note": "address per EIS and assessment report (search extracts)"
+    },
+    "suburb": "Eastern Creek",
+    "state": "NSW",
+    "postcode": {
+      "value": "2766",
+      "source": null,
+      "note": "standard Australia Post postcode for Eastern Creek; not stated in the extracts seen"
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: Nominatim blocked by session egress proxy (HTTP 403)"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: Nominatim blocked by session egress proxy (HTTP 403)"
+    }
+  },
+  "builder": {
+    "value": "Taylor Construction",
+    "source": 3,
+    "note": "Taylor lists Project Echidna as its project and hosts the SSD assessment report, EIS appendices and exhibition notice on its site; head-contract role not stated in extracts seen"
+  },
+  "developer": {
+    "value": "Amazon Web Services",
+    "source": 2,
+    "note": "iTnews reports AWS is the proponent behind 'Project Echidna'; formal SSD applicant entity not confirmed"
+  },
+  "mw_it": {
+    "value": 35.2,
+    "source": 5,
+    "note": "EIS/assessment report describe 'operational capacity of 35.2 MW' / 'total power consumption of 35.2 MW'; Taylor says 'up to 35 MW of IT load'. Unclear whether 35.2 is IT load or total demand"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": "35.2 MW may be total power consumption (see mw_it note)"
+  },
+  "cost_aud_m": {
+    "value": 300,
+    "source": 2,
+    "note": "AU$300m reported by iTnews (2023) from the SSD application; exact CIV in EIS not seen"
+  },
+  "planning": {
+    "authority": {
+      "value": "NSW Department of Planning, Housing and Infrastructure (DPHI)",
+      "source": 5,
+      "note": ""
+    },
+    "pathway": {
+      "value": "SSD",
+      "source": 5,
+      "note": ""
+    },
+    "reference": {
+      "value": "SSD-47320208",
+      "source": 5,
+      "note": "EIS advice letter from Blacktown Council title mistypes it as SSD-447320208"
+    },
+    "lodged": {
+      "value": "2023-07",
+      "precision": "month",
+      "source": 4,
+      "note": "estimate: EIS attachment on the portal is timestamped 2023-07-04; formal lodgement date not seen"
+    },
+    "determined": {
+      "value": "2024-04-05",
+      "precision": "day",
+      "source": 1,
+      "note": "per master.csv notes (compiled from planning portal); not re-verified this session (portal blocked). Applicant's addendum response dated 6 Mar 2024 (source 6)"
+    },
+    "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/project-echidna-data-centre-eastern-creek"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": "not found in search extracts; check EIS / assessment report"
+  },
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": "not found in search extracts; check EIS / assessment report"
+  },
+  "construction_start": {
+    "value": null,
+    "precision": null,
+    "source": null,
+    "note": "not found; EIS says about two years to build and fit out"
+  },
+  "construction_end": {
+    "value": null,
+    "precision": null,
+    "source": null,
+    "note": "not found; master.csv notes say base build complete and data hall fit-out underway per Taylor (not re-verified)"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "lat/lon not geocoded (Nominatim blocked)",
+    "exact capital investment value and construction/operational jobs need the EIS / assessment report (portal and taylorau.com.au blocked this session)",
+    "determination date 2024-04-05 taken from master.csv notes; confirm on planning portal",
+    "confirm Taylor is head contractor and get base build / fit-out dates",
+    "35.2 MW: IT load vs total power consumption"
+  ]
+}
