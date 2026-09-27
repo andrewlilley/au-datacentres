@@ -1,0 +1,128 @@
+{
+  "id": "digico-adl1",
+  "name": "DigiCo ADL1 (ex-YourDC Edinburgh Parks DC1)",
+  "operator": "DigiCo Infrastructure REIT",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "23-27 Woomera Avenue, Edinburgh SA 5111",
+      "source": 4,
+      "note": "OSM building 'DigiCo ADL1, 23-27 Woomera Avenue' (source 7); datacentermap lists 23 Woomera Avenue; PeeringDB gives 'Woomera Avenue, Edinburgh Parks 5111'. Edinburgh Parks estate, City of Salisbury"
+    },
+    "suburb": "Edinburgh",
+    "state": "SA",
+    "postcode": {
+      "value": "5111",
+      "source": 4,
+      "note": ""
+    },
+    "lat": {
+      "value": -34.74041,
+      "source": 7,
+      "note": "Geocoded 2026-09-27: OpenStreetMap Nominatim building 'DigiCo ADL1, 23-27 Woomera Avenue' (-34.7404086, 138.6440232); ArcGIS World Geocoder gives the same point for 23 Woomera Ave (PointAddress, score 100). PeeringDB point (-34.7328, 138.6362) is about 1 km off and not used."
+    },
+    "lon": {
+      "value": 138.64402,
+      "source": 7,
+      "note": "see lat note"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": "not found. Contractors named: Contracting Site Solutions (CSS, contracting/specialist technology services, source 5) and Airmaster (mechanical services and BMS, source 6); no head contractor identified"
+  },
+  "developer": {
+    "value": "YourDC Pty Ltd",
+    "source": 1,
+    "note": "founded by Scott Hicks and Greg Siegele; later acquired via iseek by DigiCo (HMC Capital) 2024"
+  },
+  "mw_it": {
+    "value": 1.2,
+    "source": 4,
+    "note": "DigiCo ADL1 page (search snippet): 'tier III specification with 1.2MW of Installed IT Capacity', ~2,280 m2 NLA on 22,920 sqm land. The widely quoted '8 MW' (iTnews, datacentermap) is power supply: four 2 MW transformers, dual substations (source 1). Planned 15 MW expansion is a separate excluded item (list/excluded.csv 'ADL1 expansion'); datacentermap now lists 15 MW"
+  },
+  "mw_grid": {
+    "value": 8,
+    "source": 1,
+    "note": "iTnews: '8 MW power' via four 2 MW transformers and dual substations; standby 2 x 1.1 MVA diesel generators (sources 1, 3)"
+  },
+  "cost_aud_m": {
+    "value": 30,
+    "source": 1,
+    "note": "iTnews: '$30 million' data centre (includes purchase/conversion of an existing 6,000 m2 building on a 25,000 m2 site)"
+  },
+  "planning": {
+    "authority": {
+      "value": null,
+      "source": null,
+      "note": "not found; site is in the City of Salisbury (SA Development Act 1993 applied in 2015)"
+    },
+    "pathway": {
+      "value": null,
+      "source": null,
+      "note": "not found"
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": "not found"
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": "",
+      "precision": null
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "note": "",
+      "precision": null
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": ""
+  },
+  "jobs_construction_other": [
+    {
+      "value": 100,
+      "source": 8,
+      "basis": "unstated",
+      "scope": "unstated",
+      "note": "web-search summary (source 8, not read in full): 'YourDC created 100 jobs for the construction of the facility'; original wording and definition not seen"
+    }
+  ],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": ""
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": "2015",
+    "source": 8,
+    "note": "search snippet of DCD (source 8): YourDC 'established in 2015' and 'promptly started building the Edinburgh Parks facility at a former Tenneco Walker car exhaust factory'; month not found",
+    "precision": "year"
+  },
+  "construction_end": {
+    "value": "2016-05-26",
+    "source": 1,
+    "note": "iTnews: facility opened 26 May 2016 with 200 of 800 racks built; four expansion stages planned over two years (source 1); CSS launch post dated 25 May 2016 (source 5)",
+    "precision": "day"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "scope: installed IT capacity 1.2 MW (DigiCo) is below the 5 MW floor; the '8 MW' figure is transformer/grid supply, so ADL1 is likely out of scope unless the 15 MW expansion is built",
+    "conversion of an existing factory building, not a new build",
+    "planning approval (City of Salisbury) and head contractor not found",
+    "100 construction jobs figure seen only in a search snippet"
+  ]
+}

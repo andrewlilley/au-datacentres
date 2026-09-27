@@ -1,0 +1,120 @@
+{
+  "id": "cdc-hume-hu3",
+  "name": "CDC Hume 3 (HU3)",
+  "operator": "CDC Data Centres",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "54 Sheppard Street, Hume ACT 2620 (Block 31 Section 3 Hume)",
+      "source": 1,
+      "note": "PeeringDB lists HU1, HU2 and HU3 (Hume Campus One) at 54 Sheppard St; ACT cadastre gives 54 Sheppard St = Block 31 Sec 3 Hume, 8,198 sqm (source 5). HU3 may instead or also occupy adjacent Block 18 Sec 3 (56 Sheppard St, 4,805 sqm), where Whereis lists Canberra Data Centres Pty Ltd and which shares 2015 lease-variation DA 201528083 with Block 31 (source 5)"
+    },
+    "suburb": "Hume",
+    "state": "ACT",
+    "postcode": {
+      "value": "2620",
+      "source": 1,
+      "note": ""
+    },
+    "lat": {
+      "value": -35.38886,
+      "source": null,
+      "note": "Geocoded 2026-09-27 from '54 Sheppard Street, Hume ACT 2620' with the ArcGIS World Geocoder (PointAddress, score 100). PeeringDB campus point is -35.388831, 149.1683 (about 45 m away)."
+    },
+    "lon": {
+      "value": 149.16782,
+      "source": null,
+      "note": "see lat note"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": "not found. Lead only: C&H Group subcontractor page 'Data Centre' (Canberra) names builder Hindmarsh Construction Australia, scope 'Building 3 New Partitions, Ceilings, Glazing...' ($1.6M); unclear whether 'Building 3' means HU3 (source 6)"
+  },
+  "developer": {
+    "value": "CDC Data Centres",
+    "source": 2,
+    "note": "owner/operator (Canberra Data Centres Pty Ltd)"
+  },
+  "mw_it": {
+    "value": 9,
+    "source": 3,
+    "note": "Infratil investor briefing 19 May 2016: 'CDC's fourth data centre (Hume 3, 9 MW) currently under construction'; also '27MW greenfield development pipeline including a 9MW facility under construction and due to be completed in mid-2016'. Not stated whether IT or total; treated as IT capacity. CDC lists Hume Campus One (HU1+HU2+HU3) at 21 MW (source 2). datacenterslist.com gives an 'AI estimate' of 3.292 MW (not used)."
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": "not found"
+  },
+  "planning": {
+    "authority": {
+      "value": "ACT Planning and Land Authority",
+      "source": 5,
+      "note": ""
+    },
+    "pathway": {
+      "value": "Development application (ACT Planning and Development Act 2007)",
+      "source": 5,
+      "note": ""
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": "not confirmed. Candidates in the ACT completed-DA register (source 5): DA 201426501 on Block 31 Sec 3 (subclasses commercial, demolition, design and siting, industrial; lodged 2014-11-13, approved conditional 2015-02-13); DA 201527799 on Block 18 Sec 3 (demolition, design and siting, industrial; lodged 2015-05-25, approved conditional 2015-07-08); DA 201528083 on Blocks 18 and 31 Sec 3 (lease variation, clause changes; lodged 2015-07-30, approved conditional 2015-10-09). Timing of all three fits 'HU3 construction commences' 2015; proposal text not retrieved"
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": "see reference note",
+      "precision": null
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "note": "see reference note",
+      "precision": null
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": ""
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": ""
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": "2015",
+    "source": 4,
+    "note": "CDC About us timeline: '2015 HU3 construction commences'",
+    "precision": "year"
+  },
+  "construction_end": {
+    "value": "2016",
+    "source": 4,
+    "note": "CDC About us timeline: '2016 Construction of HU3 completed'; Infratil May 2016 said 'due for completion in mid-2016' (source 3)",
+    "precision": "year"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "planning DA not confirmed (candidates 201426501, 201527799, 201528083)",
+    "HU3 block: Block 31 (54 Sheppard St) vs Block 18 (56 Sheppard St)",
+    "9 MW from 2016 briefing not stated as IT vs total",
+    "builder and cost not found"
+  ]
+}
