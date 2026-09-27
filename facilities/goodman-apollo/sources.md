@@ -1,5 +1,5 @@
 # Sources: goodman-apollo
-Access date for all: 2026-09-27. Note: direct page fetches were blocked by the session's network egress proxy; facts were taken from web-search result text quoting these pages.
+Access date for all: 2026-09-27. Sources 1-8 were first captured from web-search result text (fetches were blocked in the first pass); planning facts have since been verified against the primary NSW planning documents added below (verification pass 2026-09-27).
 
 1. Urban Digest, "Goodman's $1.37bn Data Centre Approved for Macquarie Park" - https://urbandigest.com.au/ssd-74069708-goodmans-1-37bn-data-centre-approved-for-macquarie-park/ - address, developer, SSD ref, authority, determined date, jobs.
 2. w.media, "Goodman wins approval for 135MW Macquarie Park data centre" - https://w.media/goodman-wins-approval-for-135mw-macquarie-park-data-centre/ - 135MW, AUD 1.365bn, exhibition 21 Mar-17 Apr 2025, 4-10 Talavera Rd.
@@ -9,3 +9,7 @@ Access date for all: 2026-09-27. Note: direct page fetches were blocked by the s
 6. NSW Planning Portal, Project Apollo Data Centre Macquarie Park - https://www.planningportal.nsw.gov.au/major-projects/projects/project-apollo-data-centre-macquarie-park - planning URL (not fetched).
 7. Mingtiandi / The Tech Capital approval articles - https://www.mingtiandi.com/real-estate/data-centres/goodman-group-wins-government-approval-for-1b-data-centre-in-sydneys-north/ ; https://thetechcapital.com/goodman-wins-approval-for-135mw-data-centre-in-sydney/ - corroborate A$1.365bn, 135MW.
 8. NSW Spatial Services Address Location service (maps.six.nsw.gov.au/services/public/Address_Location), GDA94 address point - geocoded 2026-09-27 - supports: lat/lon.
+9. NSW DPHI, Project Apollo Data Centre (SSD-74069708) Assessment Report (Sep 2026) - https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-74069708%2120260903T232908.106+GMT - accessed 2026-09-27 - supports: address, applicant, 135MW total power, EDC $1,365,463,075, 400 FTE construction / 60 operational jobs, consent authority and delegation, exhibition dates.
+10. Urbis, Project Apollo Environmental Impact Statement (Feb 2025; uploaded 10 Mar 2025) - https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-74069708%2120250310T033112.325+GMT - accessed 2026-09-27 - supports: 135MVA, jobs wording and operational staff breakdown, approximate lodgement.
+11. NSW DPHI, Project Apollo Data Centre Development Consent (Sep 2026) - https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-74069708%2120260903T232907.821+GMT - accessed 2026-09-27 - supports: determined under delegation executed 18 Aug 2026.
+Also: the planning portal page (source 6) was fetched 2026-09-27 - supports: SSD ref, description ('initial load capacity of approximately 90MVA'), Decision Approved, Determination Date 02/09/2026, decider Director.

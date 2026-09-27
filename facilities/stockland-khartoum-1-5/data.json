@@ -6,8 +6,8 @@
   "location": {
     "address": {
       "value": "1-5 Khartoum Road, Macquarie Park NSW",
-      "source": 1,
-      "note": "10,015 sqm site replacing a two-storey car park; MPark Stage 2"
+      "source": 8,
+      "note": "10,015 sqm site (Part Lot 2 DP 1043041) replacing a two-storey car park; MPark Stage 2"
     },
     "suburb": "Macquarie Park",
     "state": "NSW",
@@ -33,70 +33,87 @@
     "note": "not announced"
   },
   "developer": {
-    "value": "Stockland",
-    "source": 1,
-    "note": "applicant; developed via 50:50 JV with EdgeConneX (w.media); datacentermap lists as EdgeConneX Macquarie Park SYD1"
+    "value": "Stockland Development Pty Ltd",
+    "source": 9,
+    "note": "applicant (Notice of Decision); developed via 50:50 JV with EdgeConneX (w.media); datacentermap lists as EdgeConneX Macquarie Park SYD1"
   },
   "mw_it": {
-    "value": null,
-    "source": null,
-    "note": "not stated separately"
+    "value": 51.4,
+    "source": 8,
+    "note": "Assessment Report Table 1: 'Maximum power capacity 76.4 MW (51.4 MW IT Load)'; EIS: '76.4 MVA (total power), 51.4 MW (IT Load)'"
   },
   "mw_grid": {
     "value": 76.4,
-    "source": 1,
-    "note": "'76.4MW data centre' - unclear whether IT or total; 24 data halls, 28 diesel generators, 33kV switching station"
+    "source": 8,
+    "note": "total power capacity; 24 data halls, 28 x 3MW generators. The portal description still reads 'capacity of 35 MW' (apparently outdated)"
   },
   "cost_aud_m": {
     "value": 718.26,
-    "source": 1,
-    "note": "estimated development cost"
+    "source": 8,
+    "note": "estimated development cost $718,259,656 (Assessment Report). The Notice of Decision says 'investment of $781 million' - apparently a transposition of $718m"
   },
   "planning": {
     "authority": {
       "value": "NSW DPHI",
-      "source": 1
+      "source": 9,
+      "note": "Minister for Planning and Public Spaces consent authority; granted by A/Director under delegation"
     },
     "pathway": {
       "value": "SSD",
-      "source": 1
+      "source": 8
     },
     "reference": {
       "value": "SSD-63235720",
-      "source": 1
+      "source": 6
     },
     "lodged": {
-      "value": "2024-12",
-      "source": 5,
-      "note": "Stockland submitted application Dec 2024 (per search summary); EIS exhibited 6 Mar 2025 to 2 Apr 2025"
+      "value": "2025-02",
+      "source": 10,
+      "note": "approximate: EIS (Urbis) dated 17 Feb 2025 and uploaded that day; exhibited 6 Mar-2 Apr 2025. Earlier value 'Dec 2024' came from a secondary summary (Dec 2024 was pre-lodgement: BDAR waiver 5 Dec 2024, Council meeting 5 Dec 2024)"
     },
     "determined": {
       "value": "2026-03-11",
-      "source": 1
+      "source": 9,
+      "note": "Notice of Decision and portal Determination Date 11/03/2026"
     },
     "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/1-5-khartoum-road-data-centre"
   },
   "jobs_construction": {
     "value": 250,
-    "source": 1,
-    "basis": "unstated",
-    "scope": "unstated",
-    "note": "'up to 250 FTE' construction jobs (Urban Digest); FTE headcount vs FTE-years not defined"
+    "source": 8,
+    "basis": "peak",
+    "scope": "direct",
+    "note": "Assessment Report (citing the draft CTMP): 'construction worker numbers will vary during the construction program with a maximum of 250 workers during peak periods and a minimum of 50 workers anticipated during non-peak'"
   },
-  "jobs_construction_other": [],
+  "jobs_construction_other": [
+    {
+      "value": 250,
+      "source": 8,
+      "basis": "unstated",
+      "scope": "unstated",
+      "note": "Assessment Report / Notice of Decision: 'up to 250 full-time equivalent construction jobs'; EIS: 'up to 250 full-time equivalent (FTE) jobs during construction' - no period defined"
+    },
+    {
+      "value": 50,
+      "source": 8,
+      "basis": "unstated",
+      "scope": "direct",
+      "note": "CTMP minimum on-site workforce: 'a minimum of 50 workers anticipated during non-peak'"
+    }
+  ],
   "jobs_operational": {
     "value": 50,
-    "source": 1,
+    "source": 10,
     "basis": "ongoing_headcount",
-    "scope": "unstated",
-    "note": "50 operational jobs"
+    "scope": "direct",
+    "note": "EIS: '50 FTE jobs once operational' / 'approximately 50 full time employees once fully operational'; Assessment Report: '50 operational jobs'"
   },
   "jobs_operational_other": [],
   "construction_start": {
     "value": null,
     "source": null,
     "precision": null,
-    "note": "projected FY2027 (datacentermap); construction expected to take 33 months"
+    "note": "projected FY2027 (datacentermap); construction expected to take 33 months (Assessment Report)"
   },
   "construction_end": {
     "value": null,
@@ -105,10 +122,7 @@
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "mw: 76.4MW may be total power not IT",
-    "separate SSD-80814238 'Road 1 Data Centre' at same address under assessment - possible overlap",
     "builder and construction start not announced",
-    "planning.lodged month from secondary summary only",
-    "jobs: basis/scope tagged from search-result wording; confirm against planning documents"
+    "related: separate SSD-80814238 'Road 1 Data Centre' (Stockland, 34.3MW, 10 storeys, directly south on the same lot) is a different building still under assessment (More Information Required) - not a duplicate; add to list if approved"
   ]
 }
