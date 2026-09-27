@@ -77,12 +77,20 @@
   },
   "jobs_construction": {
     "value": null,
-    "source": null
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": ""
   },
+  "jobs_construction_other": [],
   "jobs_operational": {
     "value": null,
-    "source": null
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": ""
   },
+  "jobs_operational_other": [],
   "construction_start": {
     "value": "2023-06",
     "source": 1,

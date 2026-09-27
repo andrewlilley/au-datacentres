@@ -4,30 +4,103 @@
   "operator": "NEXTDC",
   "status": "operational",
   "location": {
-    "address": {"value": "3 Broadcast Way, Artarmon NSW 2064", "source": 2, "note": "the address comes from third-party listings (datacentermap, datacenterHawk); NEXTDC's ASX release did not name the address"},
+    "address": {
+      "value": "3 Broadcast Way, Artarmon NSW 2064",
+      "source": 2,
+      "note": "the address comes from third-party listings (datacentermap, datacenterHawk); NEXTDC's ASX release did not name the address"
+    },
     "suburb": "Artarmon",
     "state": "NSW",
-    "postcode": {"value": "2064", "source": 2},
-    "lat": {"value": null, "source": null, "note": "not geocoded: the geocoder (nominatim) was blocked by the network proxy in this session"},
-    "lon": {"value": null, "source": null, "note": "not geocoded: see lat"}
+    "postcode": {
+      "value": "2064",
+      "source": 2
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: the geocoder (nominatim) was blocked by the network proxy in this session"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: see lat"
+    }
   },
-  "builder": {"value": null, "source": null, "note": "core-and-shell builder unknown"},
-  "developer": {"value": null, "source": null, "note": "the core and shell was built by a third party (vendor not disclosed) and bought by NEXTDC in March 2024; NEXTDC did the fit-out. inflect.com associates 3 Broadcast Way with Keppel Data Centres 'Sydney 1' (unverified)"},
-  "mw_it": {"value": 13.5, "source": 1, "note": "up to 13.5 MW across 4,000 sqm of data hall; master.csv notes 2.7 MW built and 10.8 MW in progress"},
-  "mw_grid": {"value": null, "source": null},
-  "cost_aud_m": {"value": null, "source": null, "note": "acquisition price A$184m (land plus completed core and shell, ASX release 12 Mar 2024), which is not a construction cost. SNPP report for DA 2018/273/A at 3 Broadcast Way gives a CIV of $37,176,000 (source 3); unverified whether this is the S6 building"},
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": "core-and-shell builder unknown"
+  },
+  "developer": {
+    "value": null,
+    "source": null,
+    "note": "the core and shell was built by a third party (vendor not disclosed) and bought by NEXTDC in March 2024; NEXTDC did the fit-out. inflect.com associates 3 Broadcast Way with Keppel Data Centres 'Sydney 1' (unverified)"
+  },
+  "mw_it": {
+    "value": 13.5,
+    "source": 1,
+    "note": "up to 13.5 MW across 4,000 sqm of data hall; master.csv notes 2.7 MW built and 10.8 MW in progress"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": "acquisition price A$184m (land plus completed core and shell, ASX release 12 Mar 2024), which is not a construction cost. SNPP report for DA 2018/273/A at 3 Broadcast Way gives a CIV of $37,176,000 (source 3); unverified whether this is the S6 building"
+  },
   "planning": {
-    "authority": {"value": "Sydney North Planning Panel", "source": 3, "note": "Willoughby Council DA determined by the regional planning panel (PPSSNH-23)"},
-    "pathway": {"value": "Regionally significant DA (council DA determined by planning panel)", "source": 3},
-    "reference": {"value": "DA 2018/273", "source": 3, "note": "inferred from the address match only (SNPP report on modification DA 2018/273/A, Feb 2020). Not confirmed that this DA covers the S6 data centre building"},
-    "lodged": {"value": null, "source": null},
-    "determined": {"value": null, "source": null},
+    "authority": {
+      "value": "Sydney North Planning Panel",
+      "source": 3,
+      "note": "Willoughby Council DA determined by the regional planning panel (PPSSNH-23)"
+    },
+    "pathway": {
+      "value": "Regionally significant DA (council DA determined by planning panel)",
+      "source": 3
+    },
+    "reference": {
+      "value": "DA 2018/273",
+      "source": 3,
+      "note": "inferred from the address match only (SNPP report on modification DA 2018/273/A, Feb 2020). Not confirmed that this DA covers the S6 data centre building"
+    },
+    "lodged": {
+      "value": null,
+      "source": null
+    },
+    "determined": {
+      "value": null,
+      "source": null
+    },
     "url": "https://apps.planningportal.nsw.gov.au/prweb/PRRestService/DocMgmt/v1/PublicDocuments/DATA-WORKATTACH-FILE%20PEC-DPE-EP-WORK%20PPSSNH-23!20200205T055149.467%20GMT"
   },
-  "jobs_construction": {"value": null, "source": null},
-  "jobs_operational": {"value": null, "source": null},
-  "construction_start": {"value": null, "source": null},
-  "construction_end": {"value": "2022", "source": 1, "precision": "year", "note": "core and shell completed 1H CY2022 (ASX release). NEXTDC fit-out and opening followed in 2024 (Wikipedia), which explains the 2022-vs-2024 conflict in master.csv"},
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": ""
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": ""
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": null,
+    "source": null
+  },
+  "construction_end": {
+    "value": "2022",
+    "source": 1,
+    "precision": "year",
+    "note": "core and shell completed 1H CY2022 (ASX release). NEXTDC fit-out and opening followed in 2024 (Wikipedia), which explains the 2022-vs-2024 conflict in master.csv"
+  },
   "last_checked": "2026-09-27",
   "open_questions": [
     "original developer/vendor and core-and-shell builder unknown",

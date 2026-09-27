@@ -80,12 +80,27 @@
   "jobs_construction": {
     "value": 669,
     "source": 1,
-    "note": "'around 669 construction jobs' at approval; Goodman's Mar 2026 release says around 700"
+    "basis": "unstated",
+    "scope": "unstated",
+    "note": "'around 669 construction jobs' at approval (Urban Digest)"
   },
+  "jobs_construction_other": [
+    {
+      "value": 700,
+      "source": 3,
+      "basis": "unstated",
+      "scope": "unstated",
+      "note": "Goodman Mar 2026 release: 'around 700' construction jobs"
+    }
+  ],
   "jobs_operational": {
     "value": 30,
-    "source": 3
+    "source": 3,
+    "basis": "ongoing_headcount",
+    "scope": "unstated",
+    "note": "30 operational jobs (Goodman)"
   },
+  "jobs_operational_other": [],
   "construction_start": {
     "value": "2026-03-03",
     "source": 6,
@@ -104,6 +119,7 @@
     "planning.lodged is portal document date, not confirmed lodgement date",
     "construction_end is first phase only; full build-out date unknown",
     "modifications MOD 1 and MOD 2 exist - not reviewed",
-    "lat/lon not geocoded (egress blocked)"
+    "lat/lon not geocoded (egress blocked)",
+    "jobs: basis/scope tagged from search-result wording; confirm against planning documents"
   ]
 }

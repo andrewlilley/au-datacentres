@@ -78,13 +78,19 @@
   "jobs_construction": {
     "value": 300,
     "source": 6,
-    "note": "campus total (both buildings); approx"
+    "basis": "unstated",
+    "scope": "unstated",
+    "note": "~300 construction jobs; campus total (both buildings)"
   },
+  "jobs_construction_other": [],
   "jobs_operational": {
     "value": 50,
     "source": 6,
-    "note": "campus total; 'over 50'"
+    "basis": "ongoing_headcount",
+    "scope": "unstated",
+    "note": "'over 50' operational jobs; campus total"
   },
+  "jobs_operational_other": [],
   "construction_start": {
     "value": null,
     "source": null,
@@ -102,6 +108,7 @@
     "cost/jobs are campus totals, CIV not verified against EIS (portal fetch blocked)",
     "Building 2 start date unknown",
     "master.csv mw_it 96 is campus initial figure, not per building - check",
-    "lat/lon not geocoded (geocoder blocked)"
+    "lat/lon not geocoded (geocoder blocked)",
+    "jobs: basis/scope tagged from search-result wording; confirm against planning documents"
   ]
 }

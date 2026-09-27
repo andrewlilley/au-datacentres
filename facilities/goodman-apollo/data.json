@@ -80,12 +80,19 @@
   "jobs_construction": {
     "value": 400,
     "source": 1,
-    "note": "'up to 400' per Department's assessment"
+    "basis": "unstated",
+    "scope": "unstated",
+    "note": "'up to 400' construction jobs per Department's assessment (via Urban Digest); basis not defined in captured text"
   },
+  "jobs_construction_other": [],
   "jobs_operational": {
     "value": 60,
-    "source": 1
+    "source": 1,
+    "basis": "ongoing_headcount",
+    "scope": "unstated",
+    "note": "60 operational jobs"
   },
+  "jobs_operational_other": [],
   "construction_start": {
     "value": null,
     "source": null,
@@ -102,6 +109,7 @@
     "mw: 135MW may be total load rather than IT; initial ~90MVA/90MW reported",
     "planning.lodged date not found (exhibition from 21 Mar 2025)",
     "builder not yet announced",
-    "lat/lon not geocoded (egress blocked)"
+    "lat/lon not geocoded (egress blocked)",
+    "jobs: basis/scope tagged from search-result wording; confirm against planning documents"
   ]
 }

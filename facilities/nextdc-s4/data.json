@@ -4,36 +4,123 @@
   "operator": "NEXTDC",
   "status": "under_construction",
   "location": {
-    "address": {"value": "16 Johnston Crescent, Horsley Park NSW (Lot 305 DP 1275011)", "source": 1, "note": "Some listings (datacenterHawk, datacentermap) give 3-5 Johnston Crescent; the SSD application and Multiplex use 16 Johnston Crescent"},
+    "address": {
+      "value": "16 Johnston Crescent, Horsley Park NSW (Lot 305 DP 1275011)",
+      "source": 1,
+      "note": "Some listings (datacenterHawk, datacentermap) give 3-5 Johnston Crescent; the SSD application and Multiplex use 16 Johnston Crescent"
+    },
     "suburb": "Horsley Park",
     "state": "NSW",
-    "postcode": {"value": "2175", "source": null, "note": "standard postcode for Horsley Park; not stated in the sources consulted"},
-    "lat": {"value": null, "source": null, "note": "not geocoded: the geocoder (nominatim) was blocked by the network proxy in this session"},
-    "lon": {"value": null, "source": null, "note": "not geocoded: see lat"}
+    "postcode": {
+      "value": "2175",
+      "source": null,
+      "note": "standard postcode for Horsley Park; not stated in the sources consulted"
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: the geocoder (nominatim) was blocked by the network proxy in this session"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: see lat"
+    }
   },
-  "builder": {"value": "Multiplex", "source": 3, "note": "head contractor; engaged on design April 2022, ECI from mid-2024, construction started 2026"},
-  "developer": {"value": "NEXTDC", "source": 1},
-  "mw_it": {"value": 250, "source": 1, "note": "SSD-63741210 describes a 250 MW data centre. NEXTDC/Multiplex market S4 as 350 MW (NEXTDC later quotes 365 MW total, including a Phase 2 SSD); the 2021 ASX release targeted 300 MW"},
-  "mw_grid": {"value": null, "source": null, "note": "dual 330 kV feeders from Transgrid Sydney West substation; grid MW not found"},
-  "cost_aud_m": {"value": 1100, "source": 4, "note": "media figure (The Urban Developer headline, 'NextDC $1.1bn data centre under way'), not the planning CIV. Other reports say $1.2bn. EIS CIV not seen because the planning portal was unreachable. Land cost about $124m in 2021 (source 5)"},
+  "builder": {
+    "value": "Multiplex",
+    "source": 3,
+    "note": "head contractor; engaged on design April 2022, ECI from mid-2024, construction started 2026"
+  },
+  "developer": {
+    "value": "NEXTDC",
+    "source": 1
+  },
+  "mw_it": {
+    "value": 250,
+    "source": 1,
+    "note": "SSD-63741210 describes a 250 MW data centre. NEXTDC/Multiplex market S4 as 350 MW (NEXTDC later quotes 365 MW total, including a Phase 2 SSD); the 2021 ASX release targeted 300 MW"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": "dual 330 kV feeders from Transgrid Sydney West substation; grid MW not found"
+  },
+  "cost_aud_m": {
+    "value": 1100,
+    "source": 4,
+    "note": "media figure (The Urban Developer headline, 'NextDC $1.1bn data centre under way'), not the planning CIV. Other reports say $1.2bn. EIS CIV not seen because the planning portal was unreachable. Land cost about $124m in 2021 (source 5)"
+  },
   "planning": {
-    "authority": {"value": "NSW Department of Planning, Housing and Infrastructure", "source": 1, "note": "determined by an Executive Director under delegation"},
-    "pathway": {"value": "SSD", "source": 1},
-    "reference": {"value": "SSD-63741210", "source": 1, "note": "SEARs request 16 Oct 2023 under PDA-63433217. There is a separate 'NEXTDC S4 Data Centre Phase 2' project on the portal (reference not found)"},
-    "lodged": {"value": "2024-06", "source": 2, "note": "estimate: inferred from the June 2024 (2024-06-20) upload timestamps of the SSDA documents on the portal. Exact lodgement date not confirmed"},
-    "determined": {"value": "2025-12-24", "source": 1, "note": "Mod-1 approved Aug 2026 per master.csv notes (not re-verified)"},
+    "authority": {
+      "value": "NSW Department of Planning, Housing and Infrastructure",
+      "source": 1,
+      "note": "determined by an Executive Director under delegation"
+    },
+    "pathway": {
+      "value": "SSD",
+      "source": 1
+    },
+    "reference": {
+      "value": "SSD-63741210",
+      "source": 1,
+      "note": "SEARs request 16 Oct 2023 under PDA-63433217. There is a separate 'NEXTDC S4 Data Centre Phase 2' project on the portal (reference not found)"
+    },
+    "lodged": {
+      "value": "2024-06",
+      "source": 2,
+      "note": "estimate: inferred from the June 2024 (2024-06-20) upload timestamps of the SSDA documents on the portal. Exact lodgement date not confirmed"
+    },
+    "determined": {
+      "value": "2025-12-24",
+      "source": 1,
+      "note": "Mod-1 approved Aug 2026 per master.csv notes (not re-verified)"
+    },
     "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-horsley-park"
   },
-  "jobs_construction": {"value": 1800, "source": 3, "note": "workers onsite at peak construction. The 2021 ASX release said more than 500 jobs during the development phase (source 5)"},
-  "jobs_operational": {"value": null, "source": null},
-  "construction_start": {"value": "2026-03", "source": 3, "precision": "month", "note": "work commenced / ground broken March 2026 (Multiplex release, early April 2026 coverage)"},
-  "construction_end": {"value": "2027", "source": 3, "precision": "year", "note": "expected mid-2027 for the first stage (two four-storey buildings, 30,743 sqm)"},
+  "jobs_construction": {
+    "value": 1800,
+    "source": 3,
+    "basis": "peak",
+    "scope": "direct",
+    "note": "Multiplex: 1,800 workers onsite at peak construction"
+  },
+  "jobs_construction_other": [
+    {
+      "value": 500,
+      "source": 5,
+      "basis": "unstated",
+      "scope": "unstated",
+      "note": "NEXTDC ASX release 28 Jul 2021: 'more than 500 jobs during the development phase'"
+    }
+  ],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": ""
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": "2026-03",
+    "source": 3,
+    "precision": "month",
+    "note": "work commenced / ground broken March 2026 (Multiplex release, early April 2026 coverage)"
+  },
+  "construction_end": {
+    "value": "2027",
+    "source": 3,
+    "precision": "year",
+    "note": "expected mid-2027 for the first stage (two four-storey buildings, 30,743 sqm)"
+  },
   "last_checked": "2026-09-27",
   "open_questions": [
     "capital investment value in EIS/assessment report not verified (planning portal blocked); $1.1bn is a media figure",
     "exact SSD lodgement date and operational jobs figure not found",
     "MW: consent 250 MW vs marketed 350/365 MW; Phase 2 SSD reference and scope unknown",
     "number of buildings: SSD search summary says 5, master.csv note says 6; stage 1 is 2 buildings",
-    "lat/lon not geocoded (geocoder blocked)"
+    "lat/lon not geocoded (geocoder blocked)",
+    "jobs: basis/scope tagged from search-result wording; confirm against planning documents"
   ]
 }

@@ -4,30 +4,105 @@
   "operator": "NEXTDC",
   "status": "operational",
   "location": {
-    "address": {"value": "2 Broadcast Way, Artarmon NSW 2064", "source": 2, "note": "Gore Hill Technology Park (former ABC Gore Hill site)"},
+    "address": {
+      "value": "2 Broadcast Way, Artarmon NSW 2064",
+      "source": 2,
+      "note": "Gore Hill Technology Park (former ABC Gore Hill site)"
+    },
     "suburb": "Artarmon",
     "state": "NSW",
-    "postcode": {"value": "2064", "source": 2},
-    "lat": {"value": null, "source": null, "note": "not geocoded: the geocoder (nominatim) was blocked by the network proxy in this session"},
-    "lon": {"value": null, "source": null, "note": "not geocoded: see lat"}
+    "postcode": {
+      "value": "2064",
+      "source": 2
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: the geocoder (nominatim) was blocked by the network proxy in this session"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: see lat"
+    }
   },
-  "builder": {"value": "Multiplex", "source": 2, "note": "head contractor for Stage 1 and Stage 2"},
-  "developer": {"value": "NEXTDC", "source": 1},
-  "mw_it": {"value": 80, "source": 1, "note": "ultimate capacity; fit-out phased (about 60 MW built at 1H26 per master.csv notes)"},
-  "mw_grid": {"value": null, "source": null},
-  "cost_aud_m": {"value": 1000, "source": 4, "note": "operator/media figure '$1b' (total development at opening), not a planning CIV. Planning CIV for DA 2019/79 not found"},
+  "builder": {
+    "value": "Multiplex",
+    "source": 2,
+    "note": "head contractor for Stage 1 and Stage 2"
+  },
+  "developer": {
+    "value": "NEXTDC",
+    "source": 1
+  },
+  "mw_it": {
+    "value": 80,
+    "source": 1,
+    "note": "ultimate capacity; fit-out phased (about 60 MW built at 1H26 per master.csv notes)"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null
+  },
+  "cost_aud_m": {
+    "value": 1000,
+    "source": 4,
+    "note": "operator/media figure '$1b' (total development at opening), not a planning CIV. Planning CIV for DA 2019/79 not found"
+  },
   "planning": {
-    "authority": {"value": "Sydney North Planning Panel", "source": 3, "note": "Willoughby Council DA determined by the regional planning panel (panel ref PPSSNH-102)"},
-    "pathway": {"value": "Regionally significant DA (council DA determined by planning panel)", "source": 3},
-    "reference": {"value": "DA 2019/79", "source": 3, "note": "Willoughby DA; modification DA 2019/79/A reported to the SNPP Dec 2020"},
-    "lodged": {"value": "2019-04-03", "source": 5, "note": "date the application appears on PlanningAlerts for 2 Broadcast Way; may be the notification date rather than lodgement"},
-    "determined": {"value": null, "source": null},
+    "authority": {
+      "value": "Sydney North Planning Panel",
+      "source": 3,
+      "note": "Willoughby Council DA determined by the regional planning panel (panel ref PPSSNH-102)"
+    },
+    "pathway": {
+      "value": "Regionally significant DA (council DA determined by planning panel)",
+      "source": 3
+    },
+    "reference": {
+      "value": "DA 2019/79",
+      "source": 3,
+      "note": "Willoughby DA; modification DA 2019/79/A reported to the SNPP Dec 2020"
+    },
+    "lodged": {
+      "value": "2019-04-03",
+      "source": 5,
+      "note": "date the application appears on PlanningAlerts for 2 Broadcast Way; may be the notification date rather than lodgement"
+    },
+    "determined": {
+      "value": null,
+      "source": null
+    },
     "url": "https://apps.planningportal.nsw.gov.au/prweb/PRRestService/DocMgmt/v1/PublicDocuments/DATA-WORKATTACH-FILE%20PEC-DPE-EP-WORK%20PPSSNH-102!20201203T061646.562%20GMT"
   },
-  "jobs_construction": {"value": null, "source": null},
-  "jobs_operational": {"value": null, "source": null},
-  "construction_start": {"value": "2021-03", "source": 6, "precision": "month", "note": "DCD 'Construction begins on NextDC's S3' as summarised by search (Multiplex phase 1, 24 March 2021). Not verified against the full article; Multiplex appointment may have been earlier"},
-  "construction_end": {"value": "2022", "source": 4, "precision": "year", "note": "Stage 1 completed and opened 2022 (w.media: opening Sept 2022; iTnews opening report). Stage 2 (started Jan 2022) finished two months early, date not captured (probably 2023)"},
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": ""
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": ""
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": "2021-03",
+    "source": 6,
+    "precision": "month",
+    "note": "DCD 'Construction begins on NextDC's S3' as summarised by search (Multiplex phase 1, 24 March 2021). Not verified against the full article; Multiplex appointment may have been earlier"
+  },
+  "construction_end": {
+    "value": "2022",
+    "source": 4,
+    "precision": "year",
+    "note": "Stage 1 completed and opened 2022 (w.media: opening Sept 2022; iTnews opening report). Stage 2 (started Jan 2022) finished two months early, date not captured (probably 2023)"
+  },
   "last_checked": "2026-09-27",
   "open_questions": [
     "DA 2019/79 determination date, CIV and jobs not found (SNPP report not reachable)",

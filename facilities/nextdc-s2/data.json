@@ -4,30 +4,103 @@
   "operator": "NEXTDC",
   "status": "operational",
   "location": {
-    "address": {"value": "6-8 Giffnock Avenue, Macquarie Park NSW", "source": 2, "note": "datacentermap lists '6/8 Giffnock Ave'; Sydney North Planning Panel 'Giffnock Data Centre' DA matches (source 3)"},
+    "address": {
+      "value": "6-8 Giffnock Avenue, Macquarie Park NSW",
+      "source": 2,
+      "note": "datacentermap lists '6/8 Giffnock Ave'; Sydney North Planning Panel 'Giffnock Data Centre' DA matches (source 3)"
+    },
     "suburb": "Macquarie Park",
     "state": "NSW",
-    "postcode": {"value": "2113", "source": null, "note": "standard postcode for Macquarie Park; not stated in the sources consulted"},
-    "lat": {"value": null, "source": null, "note": "not geocoded: the geocoder (nominatim) was blocked by the network proxy in this session"},
-    "lon": {"value": null, "source": null, "note": "not geocoded: see lat"}
+    "postcode": {
+      "value": "2113",
+      "source": null,
+      "note": "standard postcode for Macquarie Park; not stated in the sources consulted"
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: the geocoder (nominatim) was blocked by the network proxy in this session"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: see lat"
+    }
   },
-  "builder": {"value": "Multiplex", "source": 4, "note": "Multiplex project page 'NEXTDC S2 Sydney Data Centre' (prefabrication case study)"},
-  "developer": {"value": "NEXTDC", "source": 1},
-  "mw_it": {"value": 30, "source": 1},
-  "mw_grid": {"value": null, "source": null},
-  "cost_aud_m": {"value": 97.3, "source": 3, "note": "capital investment value $97,317,480 for DA LDA2017/0192 (8-storey data centre building, subdivision, new road). Likely excludes later fit-out"},
+  "builder": {
+    "value": "Multiplex",
+    "source": 4,
+    "note": "Multiplex project page 'NEXTDC S2 Sydney Data Centre' (prefabrication case study)"
+  },
+  "developer": {
+    "value": "NEXTDC",
+    "source": 1
+  },
+  "mw_it": {
+    "value": 30,
+    "source": 1
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null
+  },
+  "cost_aud_m": {
+    "value": 97.3,
+    "source": 3,
+    "note": "capital investment value $97,317,480 for DA LDA2017/0192 (8-storey data centre building, subdivision, new road). Likely excludes later fit-out"
+  },
   "planning": {
-    "authority": {"value": "Sydney North Planning Panel", "source": 3, "note": "DA lodged with City of Ryde, determined by the regional planning panel"},
-    "pathway": {"value": "Regionally significant DA (council DA determined by planning panel)", "source": 3},
-    "reference": {"value": "LDA2017/0192", "source": 3, "note": "City of Ryde DA number"},
-    "lodged": {"value": "2017", "source": 3, "note": "year inferred from the DA number LDA2017/0192"},
-    "determined": {"value": null, "source": null},
+    "authority": {
+      "value": "Sydney North Planning Panel",
+      "source": 3,
+      "note": "DA lodged with City of Ryde, determined by the regional planning panel"
+    },
+    "pathway": {
+      "value": "Regionally significant DA (council DA determined by planning panel)",
+      "source": 3
+    },
+    "reference": {
+      "value": "LDA2017/0192",
+      "source": 3,
+      "note": "City of Ryde DA number"
+    },
+    "lodged": {
+      "value": "2017",
+      "source": 3,
+      "note": "year inferred from the DA number LDA2017/0192"
+    },
+    "determined": {
+      "value": null,
+      "source": null
+    },
     "url": "https://www.planningportal.nsw.gov.au/planning-panel/giffnock-data-centre"
   },
-  "jobs_construction": {"value": null, "source": null},
-  "jobs_operational": {"value": null, "source": null},
-  "construction_start": {"value": null, "source": null},
-  "construction_end": {"value": "2020", "source": 5, "precision": "year", "note": "reported as completed/opened 2020; 'full fit-out' July 2020 per a search summary. iTnews reported 20 of 30 MW taken at opening. A Dec 2017 iTnews story ('NextDC fast-tracks capacity for S2') suggests work was under way in 2017-18"},
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": ""
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": ""
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": null,
+    "source": null
+  },
+  "construction_end": {
+    "value": "2020",
+    "source": 5,
+    "precision": "year",
+    "note": "reported as completed/opened 2020; 'full fit-out' July 2020 per a search summary. iTnews reported 20 of 30 MW taken at opening. A Dec 2017 iTnews story ('NextDC fast-tracks capacity for S2') suggests work was under way in 2017-18"
+  },
   "last_checked": "2026-09-27",
   "open_questions": [
     "scope: confirm first-phase opening date is after 2018-09-01 (reported 2020, but construction was fast-tracked from 2017)",

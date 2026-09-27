@@ -83,13 +83,19 @@
   "jobs_construction": {
     "value": 1200,
     "source": 3,
-    "note": "'approximately 1,200 jobs in construction, engineering and architecture' (operator at groundbreaking)"
+    "basis": "unstated",
+    "scope": "direct_indirect",
+    "note": "'approximately 1,200 jobs in construction, engineering and architecture' (operator at groundbreaking); includes design professions, so not on-site only"
   },
+  "jobs_construction_other": [],
   "jobs_operational": {
     "value": null,
     "source": null,
+    "basis": null,
+    "scope": null,
     "note": ""
   },
+  "jobs_operational_other": [],
   "construction_start": {
     "value": "2019-12",
     "source": 3,
@@ -105,6 +111,7 @@
   "last_checked": "2026-09-27",
   "open_questions": [
     "confirm LDA2018/0322 determination date and whether LDA2020/0229 (SNPP 2020-12-15) applies to IC3 East",
-    "confirm FDC Dec-5 groundbreaking year is 2019"
+    "confirm FDC Dec-5 groundbreaking year is 2019",
+    "jobs: basis/scope tagged from search-result wording; confirm against planning documents"
   ]
 }
