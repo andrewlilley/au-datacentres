@@ -1,0 +1,113 @@
+{
+  "id": "greensquaredc-wai1-b1",
+  "name": "WAi1 Building 1",
+  "operator": "GreenSquareDC",
+  "status": "approved",
+  "location": {
+    "address": {
+      "value": "37-39 Abernethy Road, Belmont WA 6104",
+      "source": 7,
+      "note": "37 Abernethy Road per src 3/4"
+    },
+    "suburb": "Belmont",
+    "state": "WA",
+    "postcode": {
+      "value": "6104",
+      "source": 7,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: geocoding services unreachable from this session (egress blocked)"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: see lat"
+    }
+  },
+  "builder": {
+    "value": "Multiplex",
+    "source": 1,
+    "note": "preferred contractor (2023 agreement); no evidence construction contract executed or works started"
+  },
+  "developer": {
+    "value": "GreenSquareDC",
+    "source": 3,
+    "note": "landowner/applicant entity Bulong Pty Ltd; planning consultant Urbis; GreenSquareDC acquired by Partners Group 2025"
+  },
+  "mw_it": {
+    "value": 48,
+    "source": 1,
+    "note": "one of two 48MW buildings (96MW total, approval to expand to 150MW)"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": "campus figures only: A$600m DA development cost (src 3/4); A$1bn-1.1bn total project (src 2/5); not split by building"
+  },
+  "planning": {
+    "authority": {
+      "value": "Metro Inner-South Joint Development Assessment Panel (City of Belmont responsible authority)",
+      "source": 2,
+      "note": ""
+    },
+    "pathway": {
+      "value": "DAP",
+      "source": 2,
+      "note": "JDAP"
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": "DAP reference number not found"
+    },
+    "lodged": {
+      "value": "2022-07",
+      "source": 3,
+      "note": "documents submitted to City of Belmont July 2022",
+      "precision": "month"
+    },
+    "determined": {
+      "value": "2022-10-17",
+      "source": 7,
+      "note": "October 2022 confirmed by src 2; day from master.csv notes",
+      "precision": "day"
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "note": "planned 2023 / early 2024; no evidence of start",
+    "precision": null
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "note": "stage 1 was targeted mid-2024; not achieved",
+    "precision": null
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "scope: approval may have lapsed - Oct 2022 DAP approval with no evidence of substantial commencement or extension found by Sept 2026",
+    "DAP reference number and approval expiry condition not found",
+    "lat/lon not geocoded"
+  ]
+}

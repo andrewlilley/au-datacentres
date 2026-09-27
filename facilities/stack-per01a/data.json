@@ -1,0 +1,114 @@
+{
+  "id": "stack-per01a",
+  "name": "STACK PER01A Perth (Wangara)",
+  "operator": "STACK Infrastructure",
+  "status": "approved",
+  "location": {
+    "address": {
+      "value": "92 Windsor Road, Wangara WA 6065",
+      "source": 4,
+      "note": ""
+    },
+    "suburb": "Wangara",
+    "state": "WA",
+    "postcode": {
+      "value": "6065",
+      "source": 4,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: geocoder (nominatim) and map sources blocked by network egress in this session"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: geocoder (nominatim) and map sources blocked by network egress in this session"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": "no builder appointed/found"
+  },
+  "developer": {
+    "value": "STACK Infrastructure (with Hickory)",
+    "source": 1,
+    "note": "Hickory secured the development approval and partnered with STACK on its 2022 Australian entry (source 3)"
+  },
+  "mw_it": {
+    "value": 8,
+    "source": 5,
+    "note": "campus of two buildings: PER01A 8 MW + PER01B 16 MW = 24 MW; ~20,500 sqm at full build-out"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": "not found (STACK sought AU$1.3bn loan for Australian buildout, not Perth-specific)"
+  },
+  "planning": {
+    "authority": {
+      "value": null,
+      "source": null,
+      "note": "not found; site is in City of Wanneroo"
+    },
+    "pathway": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "determined": {
+      "value": "2022",
+      "source": 1,
+      "note": "STACK 2022 release says Perth project 'has received development approval'; exact date not found",
+      "precision": "year"
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "note": "STACK planned groundbreaking Q3 2022 (source 1); did not occur per available evidence",
+    "precision": null
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "note": "STACK planned delivery H2 2023 (source 1); not delivered",
+    "precision": null
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "approval date, authority and reference not found (City of Wanneroo or Metro Outer DAP)",
+    "approval validity: DA reported 2022, construction never started; WA approvals typically lapse if not substantially commenced within the approval period (often 2-4 years) - likely lapsed but unconfirmed",
+    "current status unclear per DCD June 2026; no evidence of construction",
+    "lat/lon not geocoded (egress blocked)",
+    "scope: approval likely lapsed and project not progressed since 2022 - consider removing if lapse confirmed"
+  ]
+}

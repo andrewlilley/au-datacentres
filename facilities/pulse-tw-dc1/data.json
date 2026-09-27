@@ -1,0 +1,112 @@
+{
+  "id": "pulse-tw-dc1",
+  "name": "Pulse TW-DC1 (Wellcamp) Toowoomba",
+  "operator": "Pulse Data Centre / Centuria",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "Pipe Street (Lot 1), Toowoomba Technology Park, Wellcamp QLD 4350",
+      "source": 4,
+      "note": "no street number published; datacenterHawk lists 'Pipe St (Lot 1)'"
+    },
+    "suburb": "Wellcamp",
+    "state": "QLD",
+    "postcode": {
+      "value": "4350",
+      "source": 4,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: geocoding services unreachable from this session"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: geocoding services unreachable from this session"
+    }
+  },
+  "builder": {
+    "value": "FKG Group",
+    "source": 1,
+    "note": "design and construct"
+  },
+  "developer": {
+    "value": "Pulse Data Centre (FKG Group)",
+    "source": 1,
+    "note": "acquired by Centuria in 2026 per master.csv/search extracts"
+  },
+  "mw_it": {
+    "value": 10,
+    "source": 2,
+    "note": "10 MW Tier III per Schneider/FKG description; other figures: 7 MW (RenewMap), 2.5 MW (datacentermap, likely installed), up to 50 MW campus potential (Pulse)"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": 40,
+    "source": 2,
+    "note": "$40m reported at construction start and opening"
+  },
+  "planning": {
+    "authority": {
+      "value": null,
+      "source": null,
+      "note": "presumed Toowoomba Regional Council; approval not found"
+    },
+    "pathway": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": "5,000 jobs figure refers to whole Toowoomba Technology Park aspiration, not the DC"
+  },
+  "construction_start": {
+    "value": "2017-06",
+    "source": 2,
+    "precision": "month",
+    "note": "broke ground June 2017"
+  },
+  "construction_end": {
+    "value": "2018-04",
+    "source": 3,
+    "precision": "month",
+    "note": "opened early 2018; April 2018 official opening per search extract - before the 2018-09-01 cutoff"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "scope: opened early 2018 (official opening ~April 2018), before the 2018-09-01 cutoff - likely out of scope",
+    "MW conflict: 10 vs 7 vs 2.5 MW",
+    "planning approval not found",
+    "lat/lon not geocoded (geocoder blocked)"
+  ]
+}

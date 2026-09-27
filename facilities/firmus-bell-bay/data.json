@@ -1,0 +1,113 @@
+{
+  "id": "firmus-bell-bay",
+  "name": "Firmus Bell Bay AI Data Centre",
+  "operator": "Firmus Technologies",
+  "status": "approved",
+  "location": {
+    "address": {
+      "value": "Lot 1 East Tamar Highway, Long Reach (former Gunns pulp mill site, Bell Bay Advanced Manufacturing Zone)",
+      "source": 2,
+      "note": "address from search-result summary of approval coverage; not verified against council permit"
+    },
+    "suburb": "Long Reach",
+    "state": "TAS",
+    "postcode": {
+      "value": null,
+      "source": null,
+      "note": "Long Reach TAS is believed to be 7253 but not confirmed from a source"
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: WebFetch/geocoder blocked in this session"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": ""
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": "not announced; Firmus said approval lets it move to detailed design, procurement and construction planning"
+  },
+  "developer": {
+    "value": "Firmus Technologies",
+    "source": 1,
+    "note": ""
+  },
+  "mw_it": {
+    "value": null,
+    "source": null,
+    "note": "288 MW reported by all sources, but not stated whether IT load or grid demand"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": "see mw_it: 288 MW headline figure, type unclear"
+  },
+  "cost_aud_m": {
+    "value": 2700,
+    "source": 1,
+    "note": "$2.7 billion as cited by Tasmanian Infrastructure Minister Kerry Vincent in ABC coverage; not a council-stated capital value"
+  },
+  "planning": {
+    "authority": {
+      "value": "George Town Council",
+      "source": 1,
+      "note": ""
+    },
+    "pathway": {
+      "value": "Development application (council planning permit)",
+      "source": 1,
+      "note": "approved 6-1 at council meeting; council planners recommended approval with conditions"
+    },
+    "reference": {
+      "value": "DA 2026/29",
+      "source": 2,
+      "note": "from search-result summaries of approval coverage; not verified against council agenda"
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "determined": {
+      "value": "2026-08-25",
+      "source": 1,
+      "note": "",
+      "precision": "day"
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": 380,
+    "source": 3,
+    "note": "'more than 380' per Firmus"
+  },
+  "jobs_operational": {
+    "value": 115,
+    "source": 3,
+    "note": "'more than 115 permanent local roles' per Firmus"
+  },
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "note": "not started as of Sep 2026",
+    "precision": null
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "note": "",
+    "precision": null
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "mw_it vs grid: 288 MW type unclear",
+    "planning reference DA 2026/29 and lot address need confirmation from George Town Council agenda",
+    "TASCAT appeal lodged ~10 Sep 2026 by Firmus against generator-use conditions; third-party appeals also mooted",
+    "lat/lon not geocoded (fetch blocked)"
+  ]
+}

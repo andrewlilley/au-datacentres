@@ -1,0 +1,9 @@
+# Sources: firmus-southgate-stage1
+
+Note: WebFetch was blocked in this session; facts taken from WebSearch result summaries of these pages, not full-text reads.
+
+1. DCD, "Firmus gets go ahead for AI data center project in Launceston, Tasmania", https://www.datacenterdynamics.com/en/news/firmus-gets-go-ahead-for-ai-data-center-project-in-launceston-tasmania/ (accessed 2026-09-27); also w.media https://w.media/firmus-wins-approval-to-build-2-1bn-ai-factory-in-launceston/. Supports: 23 Killafaddy Rd / 66-92 St Leonards Rd, 44/90 MW stages, AUD 2.1bn, up to 100 direct jobs, developer.
+2. Pulse Tasmania, "Launceston council approves major $2.1 billion AI data centre", https://pulsetasmania.com.au/news/launceston-council-approves-major-2-1-billion-ai-data-centre/ and The Examiner https://www.examiner.com.au/story/9057963/21-billion-ai-factory-approval-to-boost-launceston-economy/ (accessed 2026-09-27). Supports: City of Launceston Special Council Meeting 1 Sep 2025, pitt&sherry applicant.
+3. The Examiner, "Firmus building $2.1 billion AI factory just out of Launceston", https://www.examiner.com.au/story/9198019/firmus-building-21-billion-ai-factory-just-out-of-launceston/ (accessed 2026-09-27). Supports: 80 -> 400 workers on site, >1000 total, earthworks done / piling under way.
+4. Kalkine / Examiner (Aurora deal), https://www.examiner.com.au/story/9210826/launceston-ai-factory-company-firmus-agrees-deal-with-aurora/ (accessed 2026-09-27). Supports: 104 MW Hydro Tasmania supply via Aurora Energy.
+5. ABC News, "AI company Firmus to become Tasmania's biggest power user if three planned sites come to fruition", https://www.abc.net.au/news/2026-06-15/firmus-ai-company-tasmania-biggest-power-user-three-sites/106783142 (accessed 2026-09-27; via master.csv notes). Supports: 104 MW, operational early 2027.

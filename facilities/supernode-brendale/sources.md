@@ -1,0 +1,9 @@
+# Sources: supernode-brendale
+
+Accessed 2026-09-27. Direct page fetching was blocked by the session's network proxy; facts taken from web search result extracts.
+
+1. Quinbrook, "Quinbrook launches $2.5 Billion 'Supernode' data storage project in Brisbane..." (July 2022), https://www.quinbrook.com/news-insights/quinbrook-launches-2-5-billion-supernode-data-storage-project-in-brisbane-to-be-powered-by-renewables-and-battery-storage/ ; Queensland Ministerial statement "Supernode set for Moreton Bay", https://statements.qld.gov.au/statements/95682. Supports: developer, 30 ha site, up to four hyperscale data centres, 800 MW supply capacity, up to $2.5bn, Moreton Bay Regional Council and FIRB approvals (2022).
+2. Albany Creek News, "Supernode: Green Data Storage Campus in Brendale Secures Approval", https://albanycreeknews.com.au/supernode-green-data-storage-campus-in-brendale-secures-approval/. Supports: council approval.
+3. Moreton Daily, "Brendale chosen for $2.5 billion 'green' data storage project", https://www.moretondaily.com.au/news/brendale-chosen-for-2-5-billion-green-data-storage-project/amp/. Supports: Kremzow Road site next to South Pine substation.
+4. Energy-Storage.News, "Quinbrook closes financing on BESS for new 'Supernode' data centre", https://www.energy-storage.news/quinbrook-closes-financing-on-bess-for-new-supernode-data-centre-in-queensland-australia/ ; felix.net, https://www.felix.net/project-news/stage-1-of-2.5bn-supernode-project-to-begin-construction-following-financial-close ; ESS News (17 Aug 2026), https://www.ess-news.com/2026/08/17/quinbrook-commits-to-third-stage-of-massive-supernode-project-with-catl/. Supports: BESS stage timeline (site works June 2024, Stage 1 Feb 2026, Stage 2 mid-2026, Stage 3 committed).
+5. list/master.csv row (address 83 Kremzow Road, Brendale QLD 4500; Baxtel https://baxtel.com/data-center/supernode-brendale shows 2028-2031). Supports: address, postcode.

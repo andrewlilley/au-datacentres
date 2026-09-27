@@ -1,0 +1,39 @@
+{
+  "id": "supernode-brendale",
+  "name": "Supernode data centre campus",
+  "operator": "Supernode (Quinbrook Infrastructure Partners)",
+  "status": "approved",
+  "location": {
+    "address": {"value": "83 Kremzow Road, Brendale QLD 4500", "source": 5, "note": "from master.csv; sources confirm Kremzow Road site adjacent to South Pine substation (source 3)"},
+    "suburb": "Brendale",
+    "state": "QLD",
+    "postcode": {"value": "4500", "source": 5, "note": ""},
+    "lat": {"value": null, "source": null, "note": "not geocoded: geocoding services unreachable from this session"},
+    "lon": {"value": null, "source": null, "note": "not geocoded: geocoding services unreachable from this session"}
+  },
+  "builder": {"value": null, "source": null, "note": "no data centre builder; BESS stages built separately"},
+  "developer": {"value": "Quinbrook Infrastructure Partners", "source": 1, "note": ""},
+  "mw_it": {"value": null, "source": null, "note": "up to four hyperscale data centres; per-building IT MW not stated. The 800 MW figure is site power supply capacity from South Pine substation"},
+  "mw_grid": {"value": 800, "source": 1, "note": "'up to 800 MW of power supply capacity' via three HV connections - campus supply capacity, not confirmed DC demand"},
+  "cost_aud_m": {"value": 2500, "source": 1, "note": "'up to $2.5 billion' for data storage plus BESS infrastructure when fully built; includes battery stages"},
+  "planning": {
+    "authority": {"value": "Moreton Bay Regional Council", "source": 1, "note": "plus FIRB approval"},
+    "pathway": {"value": null, "source": null, "note": "council development approval; type not found"},
+    "reference": {"value": null, "source": null, "note": ""},
+    "lodged": {"value": null, "source": null, "note": ""},
+    "determined": {"value": "2022", "source": 1, "precision": "year", "note": "approval obtained before July 2022 launch announcement"},
+    "url": null
+  },
+  "jobs_construction": {"value": null, "source": null, "note": ""},
+  "jobs_operational": {"value": null, "source": null, "note": ""},
+  "construction_start": {"value": null, "source": null, "precision": null, "note": "Site works began June 2024 for BESS Stage 1 only; no data centre building construction found"},
+  "construction_end": {"value": null, "source": null, "precision": null, "note": "BESS Stage 1 operational Feb 2026, Stage 2 mid-2026, Stage 3 committed Aug 2026; data centre timing unknown (Baxtel shows 2028-2031)"},
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "no evidence data centre buildings have started; only BESS stages built",
+    "per-building IT MW unknown; should split into up to 4 rows once known",
+    "council DA reference and date not found",
+    "cost $2.5bn includes BESS",
+    "lat/lon not geocoded (geocoder blocked)"
+  ]
+}

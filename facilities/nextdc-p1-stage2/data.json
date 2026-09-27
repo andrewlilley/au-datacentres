@@ -1,0 +1,113 @@
+{
+  "id": "nextdc-p1-stage2",
+  "name": "NEXTDC P1 Perth Stage 2",
+  "operator": "NEXTDC",
+  "status": "under_construction",
+  "location": {
+    "address": {
+      "value": "4 Millrose Drive, Malaga WA 6090",
+      "source": 1,
+      "note": "DA covers Lot 101 (No. 10) Malaga Drive (existing P1) extended onto Lot 327 (No. 10) and Lot 328 (No. 12) Millrose Drive; combined site 10,858 sqm (source 4)"
+    },
+    "suburb": "Malaga",
+    "state": "WA",
+    "postcode": {
+      "value": "6090",
+      "source": 1,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: geocoder (nominatim) and map sources blocked by network egress in this session"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: geocoder (nominatim) and map sources blocked by network egress in this session"
+    }
+  },
+  "builder": {
+    "value": "Multiplex",
+    "source": 1,
+    "note": "head contractor; Multiplex's fifth NEXTDC data centre"
+  },
+  "developer": {
+    "value": "NEXTDC",
+    "source": 1,
+    "note": ""
+  },
+  "mw_it": {
+    "value": 6,
+    "source": 1,
+    "note": "incremental IT capacity: Stage 2 doubles P1 long-term IT capacity from 6 MW to 12 MW (new 1,069 sqm data hall)"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": "not stated"
+  },
+  "cost_aud_m": {
+    "value": 110,
+    "source": 2,
+    "note": "AUD 110m investment per Multiplex/NEXTDC top-out release (Nov 2025); DA estimated development cost was AUD 56.4m (source 4)"
+  },
+  "planning": {
+    "authority": {
+      "value": "Metro Outer Joint Development Assessment Panel (WA DAP); City of Swan responsible authority",
+      "source": 4,
+      "note": "Echo Newspaper names 'Outer Metro DAP'"
+    },
+    "pathway": {
+      "value": "DAP development application",
+      "source": 4,
+      "note": ""
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": "DAP/City of Swan reference not found"
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "determined": {
+      "value": "2024-05-08",
+      "source": 4,
+      "note": "approved 'May 8'; article dated 16 May 2024",
+      "precision": "day"
+    },
+    "url": "https://echonewspaper.com.au/news/malaga-data-centre-approved/"
+  },
+  "jobs_construction": {
+    "value": 95,
+    "source": 5,
+    "note": "workers on site each day during construction (daily headcount, not total jobs); 154,055 hours worked to top-out"
+  },
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": "DA condition limits site to max 38 people (staff and customers) at any one time (source 4); not an operational jobs figure"
+  },
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "note": "start date not found; DA approved May 2024, topped out Nov 2025",
+    "precision": null
+  },
+  "construction_end": {
+    "value": "2026",
+    "source": 1,
+    "note": "expected: practical completion scheduled Q3 2026; completion not confirmed as of 2026-09-27",
+    "precision": "year"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "construction start date not found",
+    "DAP reference number not found",
+    "confirm practical completion (scheduled Q3 2026)",
+    "lat/lon not geocoded (egress blocked)"
+  ]
+}

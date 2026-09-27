@@ -1,0 +1,113 @@
+{
+  "id": "nextdc-p2",
+  "name": "NEXTDC P2 Perth",
+  "operator": "NEXTDC",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "11 Newcastle Street, Perth WA 6000",
+      "source": 1,
+      "note": ""
+    },
+    "suburb": "Perth",
+    "state": "WA",
+    "postcode": {
+      "value": "6000",
+      "source": 1,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: geocoder (nominatim) and map sources blocked by network egress in this session"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: geocoder (nominatim) and map sources blocked by network egress in this session"
+    }
+  },
+  "builder": {
+    "value": "Multiplex",
+    "source": 2,
+    "note": "head contractor for Stage 1 base build; Multiplex also engaged July 2022 for P2 white space/infrastructure expansion fit-out"
+  },
+  "developer": {
+    "value": "NEXTDC",
+    "source": 1,
+    "note": ""
+  },
+  "mw_it": {
+    "value": 20,
+    "source": 1,
+    "note": "design IT capacity 20 MW+ (Tier IV); Multiplex 2022 fit-out gave 3.9 MW initial IT capacity with 3.5 MW reserved; master.csv note says 6 MW built at 1H26 with further 4 MW being progressed"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": "project cost not found"
+  },
+  "planning": {
+    "authority": {
+      "value": null,
+      "source": null,
+      "note": "not found (site in City of Perth; may have been DAP or City of Perth)"
+    },
+    "pathway": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_start": {
+    "value": "2019-01",
+    "source": 3,
+    "note": "estimate: derived from Multiplex statement that Stage 1 was built in 18 months to July 2020 completion",
+    "precision": "month"
+  },
+  "construction_end": {
+    "value": "2020-07",
+    "source": 3,
+    "note": "Stage 1 completed/opened July 2020 (opened 31 Jul 2020 per master.csv/DCD)",
+    "precision": "month"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "planning approval authority/reference/date not found",
+    "cost not found",
+    "jobs not found",
+    "construction start is an estimate (18-month build)",
+    "lat/lon not geocoded (egress blocked)"
+  ]
+}

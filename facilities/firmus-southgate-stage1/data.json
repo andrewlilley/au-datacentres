@@ -1,0 +1,114 @@
+{
+  "id": "firmus-southgate-stage1",
+  "name": "Firmus Project Southgate Stage 1 (Launceston AI Factory)",
+  "operator": "Firmus Technologies",
+  "status": "under_construction",
+  "location": {
+    "address": {
+      "value": "23 Killafaddy Road and part of 66-92 St Leonards Road, St Leonards",
+      "source": 1,
+      "note": "approx. 5 ha and 13 ha lots respectively"
+    },
+    "suburb": "St Leonards",
+    "state": "TAS",
+    "postcode": {
+      "value": null,
+      "source": null,
+      "note": "St Leonards TAS believed 7250; not confirmed from a source"
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: WebFetch/geocoder blocked in this session"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": ""
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": "head contractor not found"
+  },
+  "developer": {
+    "value": "Firmus Technologies",
+    "source": 1,
+    "note": "DA prepared by pitt&sherry on behalf of Firmus"
+  },
+  "mw_it": {
+    "value": 90,
+    "source": 1,
+    "note": "Stage 1 combined: Stage 1a 44 MW + Stage 1b to 90 MW; Stage 2 (~300 MW) separate/not approved"
+  },
+  "mw_grid": {
+    "value": 104,
+    "source": 4,
+    "note": "104 MW Hydro Tasmania supply via Aurora Energy three-year deal; ABC Jun 2026 also cites St Leonards as 104 MW"
+  },
+  "cost_aud_m": {
+    "value": 2100,
+    "source": 1,
+    "note": "AUD 2.1bn; described variously as Stage 1a or Stage 1 investment"
+  },
+  "planning": {
+    "authority": {
+      "value": "City of Launceston",
+      "source": 2,
+      "note": ""
+    },
+    "pathway": {
+      "value": "Development application (council planning permit)",
+      "source": 2,
+      "note": "endorsed at a Special Council Meeting"
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": "DA number not found"
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "determined": {
+      "value": "2025-09-01",
+      "source": 2,
+      "note": "Special Council Meeting 1 Sep 2025; one summary said 'July', likely confusing with Jul 2025 project announcement",
+      "precision": "day"
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": 400,
+    "source": 3,
+    "note": "peak on-site workforce per Firmus spokesperson (Examiner, ~Mar 2026: 80 on site rising to 400); >1000 workers incl. off-site contractors"
+  },
+  "jobs_operational": {
+    "value": 100,
+    "source": 1,
+    "note": "'up to 100 direct jobs' in first stage"
+  },
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "note": "started after Sep 2025 approval; earthworks complete and piling under way by ~Mar 2026 (source 3)",
+    "precision": null
+  },
+  "construction_end": {
+    "value": "2027",
+    "source": 5,
+    "note": "expected; ABC Jun 2026 says operational early 2027 (originally targeted mid/end 2026)",
+    "precision": "year"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "planning reference (DA number) not found",
+    "builder not found",
+    "construction start date not found",
+    "Stage 1a/1b could be split into separate rows",
+    "lat/lon not geocoded (fetch blocked)"
+  ]
+}

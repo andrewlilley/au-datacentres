@@ -1,0 +1,112 @@
+{
+  "id": "equinix-pe3",
+  "name": "PE3 Perth",
+  "operator": "Equinix",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "37 Lemnos Street, Shenton Park WA 6008",
+      "source": 1,
+      "note": "adjacent to PE2, joined by link bridge"
+    },
+    "suburb": "Shenton Park",
+    "state": "WA",
+    "postcode": {
+      "value": "6008",
+      "source": 1,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: WebFetch/geocoder blocked in this session"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": ""
+    }
+  },
+  "builder": {
+    "value": "Icon Construction",
+    "source": 4,
+    "note": "head contractor per FineForm Concrete project page and MBA WA award; Insight Project Services was project/construction manager and superintendent (source 5)"
+  },
+  "developer": {
+    "value": "Equinix",
+    "source": 1,
+    "note": ""
+  },
+  "mw_it": {
+    "value": null,
+    "source": null,
+    "note": "not published; DC Atlas estimates ~3 MW live (source 6). Full build 1,650 cabinets / >10,600 m2"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": 71.7,
+    "source": 2,
+    "note": "phase 1 US$54m = A$71.7m (ARN, Dec 2021); iTnews Nov 2020 converted as A$76.6m"
+  },
+  "planning": {
+    "authority": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "pathway": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": "DA (City of Nedlands / DAP) not found"
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "note": "announced 9 Nov 2020; start date not found",
+    "precision": null
+  },
+  "construction_end": {
+    "value": "2021-12",
+    "source": 2,
+    "note": "phase 1 opened Dec 2021 (~700 cabinets, 1,830 m2); master.csv notes 9 Dec 2021",
+    "precision": "month"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "scope: MW not published, DC Atlas est. ~3 MW live; may be under 5 MW",
+    "planning approval not found",
+    "construction start not found",
+    "lat/lon not geocoded (fetch blocked)"
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "id": "cdc-maddington-dc3",
+  "name": "CDC Maddington DC3",
+  "operator": "CDC Data Centres",
+  "status": "approved",
+  "location": {
+    "address": {
+      "value": "307 Kenwick Road, Maddington WA 6109",
+      "source": 1,
+      "note": "campus site: Lots 1, 10, 1 (No. 307, 323, 329) Kenwick Road & Lot 500 (No. 582) Bickley Road; building position within campus unknown"
+    },
+    "suburb": "Maddington",
+    "state": "WA",
+    "postcode": {
+      "value": "6109",
+      "source": 2,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: geocoding services unreachable from this session (egress blocked)"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: see lat"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": "no head contractor found in searches"
+  },
+  "developer": {
+    "value": "CDC Data Centres",
+    "source": 3,
+    "note": "Developed (developedproperty.com.au) assisted CDC with site selection, acquisition and approval"
+  },
+  "mw_it": {
+    "value": null,
+    "source": null,
+    "note": "per-building MW not found. Campus: up to 200MW marketed by CDC (src 5); DAP report reportedly 150MW IT across four buildings (src 7, unverified)"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": "not stated; A$415m stage 1 figure attached to DC1"
+  },
+  "planning": {
+    "authority": {
+      "value": "Metro Outer Development Assessment Panel (responsible authority report by City of Gosnells)",
+      "source": 1,
+      "note": ""
+    },
+    "pathway": {
+      "value": "DAP",
+      "source": 1,
+      "note": "lodged as 'Proposed Warehouses and Ancillary Structures'; one approval covers all four buildings"
+    },
+    "reference": {
+      "value": "DAP/25/02926",
+      "source": 1,
+      "note": ""
+    },
+    "lodged": {
+      "value": "2025-06-04",
+      "source": 2,
+      "note": "PlanningAlerts: found 7 Jun 2025, received 3 days earlier",
+      "precision": "day"
+    },
+    "determined": {
+      "value": "2025-09-10",
+      "source": 1,
+      "note": "date of Metro Outer DAP meeting that heard the application; approval confirmed by src 3/4. master.csv notes say approved 22 Sep 2025 (possibly publication date); exact determination date not verified from minutes",
+      "precision": "day"
+    },
+    "url": "https://www.planning.wa.gov.au/docs/default-source/daps/related-information---no-102---part-b---city-of-gosnells.pdf?sfvrsn=f47a3ead_1"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "note": "construction reportedly to begin shortly after approval (late 2025); no confirmed date",
+    "precision": null
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "note": "",
+    "precision": null
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "construction status of this building unknown (staged campus)",
+    "per-building MW unknown",
+    "DAP report PDF not read directly (egress blocked)",
+    "lat/lon not geocoded"
+  ]
+}
