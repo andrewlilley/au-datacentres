@@ -1,10 +1,32 @@
 # Instructions for Claude sessions working on this repo
 
 This repo builds a database of Australian data centres (>= 5 MW; completed
-since 2018-09-01, under construction, or planning-approved). Read
+since 2016-01-01, under construction, or planning-approved). Read
 `README.md`, `schema/list_schema.md` and `schema/facility_schema.md` first.
 
-## Phase 2: per-facility collection (current phase)
+## Phase 2b: 2016 cutoff extension (current phase)
+
+On 2026-09-27 the completion cutoff moved from 2018-09-01 back to
+2016-01-01 (the 5 MW floor is unchanged). Batches 1-4 are done. One session
+does this phase, in two steps:
+
+1. **Collect** `list/batches/batch5_2016_2018.txt` exactly as in Phase 2
+   below (about 5 facilities; check each against the 5 MW floor).
+2. **Discover** facilities completed 2016-01-01 to 2018-08-31 that are
+   missing from `list/master.csv`. The original discovery only logged
+   older sites incidentally. Check `list/excluded.csv` first, then operator
+   histories and 2016-2018 news. Unverified leads to check (from memory, not
+   sourced; confirm or discard each): Equinix SY4 (Alexandria), Equinix SY6,
+   Global Switch Sydney East later stages, Macquarie Intellicentre 2,
+   Digital Realty MEL10/MEL12 (Deer Park), NEXTDC S2 (confirm 2018 vs 2020
+   completion), Metronode/Leading Edge-era builds, Vocus builds, Canberra
+   and Perth colo expansions. Add confirmed ones to `list/master.csv`
+   (`found_by` = `discovery-2016`), create their facility folders, and log
+   rejects in `list/excluded.csv` with a reason.
+
+Do not re-run `list/merge.py`; `master.csv` is now edited by hand.
+
+## Phase 2: per-facility collection (done for batches 1-4)
 
 The facility list is `list/master.csv`. It is split into batches in
 `list/batches/*.txt` (one facility id per line). Each cloud session has a
@@ -34,7 +56,7 @@ Method
 - Never guess. Unknown = `null`. Estimates only with an explicit `note`.
 - Where sources disagree, record the best-supported value and put the
   alternative in `note`.
-- If research shows a facility is out of scope (pre-2018, < 5 MW, not
+- If research shows a facility is out of scope (completed before 2016, < 5 MW, not
   approved) or is a duplicate, still write its folder, set
   `"open_questions": ["scope: ..."]`, and do not delete it from master.csv.
 - Use subagents to work several facilities in parallel (e.g. 4-6 agents,

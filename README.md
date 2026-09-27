@@ -1,7 +1,7 @@
 # Australian data centres database
 
 Every data centre building or phase in Australia of 5 MW or more that was
-completed since September 2018, is under construction, or has planning
+completed since January 2016, is under construction, or has planning
 approval.
 
 - `schema/` — scope rules and field definitions

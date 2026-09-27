@@ -1,0 +1,5 @@
+airtrunk-syd1
+nextdc-m2
+nextdc-b2
+cdc-hume-hu3
+digico-adl1
