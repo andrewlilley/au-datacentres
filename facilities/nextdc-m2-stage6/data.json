@@ -40,7 +40,7 @@
   "mw_it": {
     "value": 8,
     "source": 1,
-    "note": "'Stage 6 of the project will add 8MW of new capacity'; basement, three levels and rooftop plant deck (source 2, snippet). Building/phase within the NEXTDC M2 campus; stage 1 is nextdc-m2; other stages: nextdc-m2-stage2, nextdc-m2-stage4, nextdc-m2-stage5, nextdc-m2-stage6, nextdc-m2-stage9-11."
+    "note": "'Stage 6 of the project will add 8MW of new capacity'; basement, three levels and rooftop plant deck (source 2, snippet). Building/phase within the NEXTDC M2 campus; stages 1-2 are nextdc-m2 (Stage 2 merged 2026-09-27); other stages: nextdc-m2-stage4, nextdc-m2-stage5, nextdc-m2-stage6, nextdc-m2-stage9-11."
   },
   "mw_grid": {
     "value": null,

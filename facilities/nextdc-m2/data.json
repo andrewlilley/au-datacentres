@@ -1,6 +1,6 @@
 {
   "id": "nextdc-m2",
-  "name": "NEXTDC M2 Melbourne Stage 1",
+  "name": "NEXTDC M2 Melbourne Stages 1-2",
   "operator": "NEXTDC",
   "status": "operational",
   "location": {
@@ -28,9 +28,9 @@
     }
   },
   "builder": {
-    "value": "FDC Construction & Fitout",
+    "value": "FDC Construction & Fitout (stage 1); Kapitol Group (stage 2)",
     "source": 4,
-    "note": "FDC project page for NEXTDC M2 (base building, Data Hall 1, site remediation); stage not stated but Kapitol's portfolio starts at Stage 2 (Jan 2019), so FDC is taken as the Stage 1 builder. Later stages by Kapitol Group (source 6): see nextdc-m2-stage2, nextdc-m2-stage4, nextdc-m2-stage5, nextdc-m2-stage6, nextdc-m2-stage9-11"
+    "note": "FDC project page (source 4): base building, Data Hall 1; stage not stated but Kapitol's portfolio starts at Stage 2, so FDC is taken as the Stage 1 builder. Kapitol (source 6): Stage 2 base build + fit-out, 7-month programme, delivered Jan 2019. Later stages by Kapitol: see nextdc-m2-stage4, -stage5, -stage6, -stage9-11"
   },
   "developer": {
     "value": "NEXTDC",
@@ -38,9 +38,9 @@
     "note": ""
   },
   "mw_it": {
-    "value": null,
-    "source": null,
-    "note": "This row is Stage 1 only (FDC base building, opened Nov 2017). No source states Stage 1's own IT capacity. At announcement (May 2016): 2MW initial, 25MW planned (source 1); FY17 AR: M2 target capacity raised to 40MW (source 3) - both are whole-site targets, not Stage 1. Derived estimate (not stated by any source): NEXTDC FY20 deck gives M2 installed capacity 10MW at 30 Jun 2020 (source 11), and Stage 2 (Jan 2019) added 6MW (source 6), leaving ~4MW for Stage 1; FY19 AR says M2's third data hall opened in FY19 (source 12) and Stage 2 had two data halls, so Stage 1 had one fitted data hall. The Stage 1 building's design capacity may exceed its ~4MW fitted capacity, but no figure was found. Later stages are separate rows: nextdc-m2-stage2 (6MW), nextdc-m2-stage4 (18MW), nextdc-m2-stage5 (15MW), nextdc-m2-stage6 (8MW), nextdc-m2-stage9-11 (60MW, under construction); campus now marketed as 120MW+ (source 7)"
+    "value": 10,
+    "source": 11,
+    "note": "Stages 1 and 2 merged into one row (decision 2026-09-27) because Stage 1 alone (~4 MW, derived) is below the 5 MW floor. NEXTDC FY20 deck: M2 'Installed capacity 10MW' at 30 Jun 2020 (source 11) = Stage 1 + Stage 2 (Stage 2 'added an additional 6MW', source 6). Earlier figures are whole-site targets: 2MW initial / 25MW planned (May 2016, source 1); 40MW target (FY17 AR, source 3). Later stages are separate rows: nextdc-m2-stage4 (18MW), -stage5 (15MW), -stage6 (8MW), -stage9-11 (60MW, under construction); campus now marketed as 120MW+ (source 7)"
   },
   "mw_grid": {
     "value": null,
@@ -114,19 +114,20 @@
   "construction_start": {
     "value": null,
     "source": null,
-    "note": "site acquired May 2016 (source 8); FY17 AR says development began during FY17 (Jul 2016-Jun 2017); exact start not found"
+    "note": "site acquired May 2016 (source 8); FY17 AR says development began during FY17 (Jul 2016-Jun 2017); exact start not found; Stage 2: 7-month programme ending Jan 2019 implies roughly mid-2018 (inference)"
   },
   "construction_end": {
-    "value": "2017-11",
-    "source": 8,
-    "note": "NEXTDC history: November 2017 'Victoria's first UTI Tier IV certified data centre' opened",
-    "precision": "month"
+    "value": "2019-01",
+    "source": 6,
+    "precision": "month",
+    "note": "Stage 2 'delivered one month ahead of programme in January 2019' (Kapitol). Stage 1 opened November 2017 as 'Victoria's first UTI Tier IV certified data centre' (NEXTDC history, source 8)"
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "scope: Stage 1 IT capacity not stated; derived ~4MW (M2 installed 10MW at FY20 minus Stage 2's 6MW) would be below the 5 MW floor - consider merging Stages 1-2 (10MW) or treating as out of scope",
     "planning permit P589/2016: original grant date not found (Brimbank register starts Dec 2018)",
     "FDC stage not explicitly stated on its page",
-    "construction start date not found"
+    "construction start date not found",
+    "merged row (Stages 1-2): cost $85m covers land, base building and infrastructure for Stage 1 only; Stage 2 cost not found",
+    "which part of permit P589/2016 covers Stage 2 not found"
   ]
 }

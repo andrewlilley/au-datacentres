@@ -40,7 +40,7 @@
   "mw_it": {
     "value": 60,
     "source": 2,
-    "note": "NEXTDC FY26: 'a further 60 megawatts of high-density liquid-to-chip capacity in progress'. Kapitol calls it a '72MW M2 data centre facility expansion' (source 1). One row for Stages 9-11 because Kapitol groups them ('three new two-storey buildings'); no per-stage split found. The master.csv note for nextdc-m2 (from the NEXTDC FY26 results announcement on Listcorp, not re-read here) says the expansion is 'within existing building', which conflicts with Kapitol's 'three new two-storey buildings'. Stages 7 and 8 were not found. Building/phase within the NEXTDC M2 campus; stage 1 is nextdc-m2; other stages: nextdc-m2-stage2, nextdc-m2-stage4, nextdc-m2-stage5, nextdc-m2-stage6, nextdc-m2-stage9-11."
+    "note": "NEXTDC FY26: 'a further 60 megawatts of high-density liquid-to-chip capacity in progress'. Kapitol calls it a '72MW M2 data centre facility expansion' (source 1). One row for Stages 9-11 because Kapitol groups them ('three new two-storey buildings'); no per-stage split found. The master.csv note for nextdc-m2 (from the NEXTDC FY26 results announcement on Listcorp, not re-read here) says the expansion is 'within existing building', which conflicts with Kapitol's 'three new two-storey buildings'. Stages 7 and 8 were not found. Building/phase within the NEXTDC M2 campus; stages 1-2 are nextdc-m2 (Stage 2 merged 2026-09-27); other stages: nextdc-m2-stage4, nextdc-m2-stage5, nextdc-m2-stage6, nextdc-m2-stage9-11."
   },
   "mw_grid": {
     "value": null,

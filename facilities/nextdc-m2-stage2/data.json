@@ -109,6 +109,7 @@
   },
   "last_checked": "2026-09-27",
   "open_questions": [
+    "scope: merged into nextdc-m2 (Stages 1-2, 10 MW) on 2026-09-27 because Stage 1 alone (~4 MW) is below the 5 MW floor; removed from master.csv and listed in excluded.csv. Record kept for its sources",
     "construction start date not stated (7-month programme implies ~mid-2018)",
     "cost not found",
     "which part of permit P589/2016 covers stage 2 not found"

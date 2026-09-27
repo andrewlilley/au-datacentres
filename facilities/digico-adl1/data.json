@@ -120,7 +120,7 @@
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "scope: installed IT capacity 1.2 MW (DigiCo) is below the 5 MW floor; the '8 MW' figure is transformer/grid supply, so ADL1 is likely out of scope unless the 15 MW expansion is built",
+    "scope: excluded (decision 2026-09-27) - installed IT capacity 1.2 MW (DigiCo) is below the 5 MW floor; the '8 MW' figure is transformer/grid supply; removed from master.csv and listed in excluded.csv. Revisit if the 15 MW expansion is built",
     "conversion of an existing factory building, not a new build",
     "planning approval (City of Salisbury) and head contractor not found",
     "100 construction jobs figure seen only in a search snippet"

@@ -40,7 +40,7 @@
   "mw_it": {
     "value": 18,
     "source": 1,
-    "note": "Kapitol case study: 'the building was constructed to have an IT cooling capacity of 18 megawatts, equating to 6 megawatts for each data hall'. The same page's summary says six data halls 'including a 10-megawatt data hall' (read earlier as +10MW); 18 MW taken as the building's design IT capacity. Both >= 5 MW. NEXTDC fitted it out progressively: FY20 '15MW of new capacity currently being fitted out' (source 4); FY21 9MW built and commissioned (source 6); FY22 +6MW, M2 built 25MW (source 7). Building/phase within the NEXTDC M2 campus; stage 1 is nextdc-m2; other stages: nextdc-m2-stage2, nextdc-m2-stage4, nextdc-m2-stage5, nextdc-m2-stage6, nextdc-m2-stage9-11."
+    "note": "Kapitol case study: 'the building was constructed to have an IT cooling capacity of 18 megawatts, equating to 6 megawatts for each data hall'. The same page's summary says six data halls 'including a 10-megawatt data hall' (read earlier as +10MW); 18 MW taken as the building's design IT capacity. Both >= 5 MW. NEXTDC fitted it out progressively: FY20 '15MW of new capacity currently being fitted out' (source 4); FY21 9MW built and commissioned (source 6); FY22 +6MW, M2 built 25MW (source 7). Building/phase within the NEXTDC M2 campus; stages 1-2 are nextdc-m2 (Stage 2 merged 2026-09-27); other stages: nextdc-m2-stage4, nextdc-m2-stage5, nextdc-m2-stage6, nextdc-m2-stage9-11."
   },
   "mw_grid": {
     "value": null,
