@@ -1,0 +1,117 @@
+{
+  "id": "digitalrealty-mel12",
+  "name": "Digital Realty MEL12 (54 Radnor Drive; planned Melbourne 'Connect@Scale' third facility)",
+  "operator": "Digital Realty",
+  "status": "withdrawn",
+  "location": {
+    "address": {
+      "value": "54 Radnor Drive, Deer Park VIC 3023",
+      "source": 1,
+      "note": "Address given only by aggregators (Inflect, datacenterHawk, Baxtel, DataCenterJournal). Digital Realty's own site and SEC filings never name 54 Radnor Drive. The 2016 announcement (sources 5-7) puts the planned third facility on land 'adjacent to' the existing Radnor Drive buildings; Star Weekly (source 11, snippet only) says 'opposite'. That MEL12 = this land parcel is an inference (datacenterHawk, source 2, calls MEL12 'not yet commissioned or leased')."
+    },
+    "suburb": "Deer Park",
+    "state": "VIC",
+    "postcode": {
+      "value": "3023",
+      "source": 1,
+      "note": ""
+    },
+    "lat": {
+      "value": -37.78151,
+      "source": null,
+      "note": "Geocoded 2026-09-27 from '54 Radnor Drive, Deer Park VIC 3023' with the ArcGIS World Geocoder (PointAddress, score 100). The point is on the south side of Radnor Drive, about 100 m west of MEL11 (72 Radnor Dr, OSM building 485850330 at -37.78179, 144.77799). No building is mapped on OpenStreetMap at the 54 Radnor Dr point."
+    },
+    "lon": {
+      "value": 144.77682,
+      "source": null,
+      "note": "see lat note"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": "No builder found. FDC's MEL10 page (source 10) says FDC 'commenced on the third data centre on the adjacent lot' after MEL10; that is most likely the 72 Radnor Dr building (MEL11, built 2011-2013), not MEL12."
+  },
+  "developer": {
+    "value": "Digital Realty",
+    "source": 5,
+    "note": "developer of the announced 2016 project; no evidence it was built"
+  },
+  "mw_it": {
+    "value": 5.7,
+    "source": 5,
+    "note": "Planned capacity announced March 2016: '5.7 megawatt facility ... across four pods', 102,000 sq ft (9,476 m2) (iTnews); Victorian Government release says 8,000 m2. Aggregators give 14.4 MW (Inflect) and 94,000 sq ft (Upstack/ocolo). Those aggregator figures are doubtful: 94,000 sq ft (8,700 m2) is the size of MEL11 (72 Radnor: 72,341 + 21,241 sq ft = 93,582 sq ft, source 8), and 14.4 MW is more than Digital Realty's whole reported Melbourne IT load (9.6 MW across its 2 buildings, 2021-2025, source 14)."
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": 89,
+    "source": 5,
+    "note": "Announced March 2016: 'around US$68 million (A$89 million)' including land costs (iTnews). Star Weekly (source 11, snippet only) gives $88.8 million. Planned cost; no evidence the project was built."
+  },
+  "planning": {
+    "authority": {
+      "value": null,
+      "source": null,
+      "note": "Presumably Brimbank City Council (Deer Park is in Brimbank LGA), but no planning application or permit for a data centre at 54 Radnor Dr was found."
+    },
+    "pathway": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": 450,
+    "source": 6,
+    "basis": "unstated",
+    "scope": "unstated",
+    "note": "Victorian Government release (17 Mar 2016): 'up to 450 construction jobs'. Planned figure for a project that appears not to have been built."
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": 35,
+    "source": 6,
+    "basis": "ongoing_headcount",
+    "scope": "unstated",
+    "note": "Victorian Government release: '35 ongoing full-time positions' (iTnews: '35 permanent positions'). Planned figure."
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": null,
+    "source": 5,
+    "note": "No evidence construction ever started. At the announcement (17 Mar 2016) the timing was not set: construction was to wait until customer demand reached a 'commercial tipping point' (iTnews)."
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "note": "No opening year can be supported; the evidence says MEL12 was never built. (1) Digital Realty's quarterly supplementals list the Melbourne land as undeveloped 'Land Inventory' (1 location, 4.1 acres; US$1.8m at Q4 2017, US$4.1m at Q4 2023), and that line is gone from Q1 2024 onward without ever appearing as development CIP (sources 9, 15, 16). (2) Every 10-K from FY2019 to FY2025 (filed Feb 2026) shows exactly 2 Melbourne properties, 146,570 sq ft, which is exactly 98 Radnor (52,988) + 72 Radnor (93,582). IT load rises from 7.2 MW (2017) to 9.6 MW (2021-2025) only through the 72 Radnor fit-out (sources 12-14). (3) datacenterHawk: 'This facility has not yet been commissioned or leased ... no leaseable power under construction' (source 2). (4) Digital Realty's Melbourne web pages list only MEL11; /melbourne/mel12 returns 404 (source 4). (5) No building is mapped on OSM at 54 Radnor Dr."
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "scope: no evidence MEL12 was ever built or planning-approved. It is the Connect@Scale third Melbourne facility announced 17 Mar 2016 (5.7 MW, US$68m) on land held undeveloped in Digital Realty's land inventory until at least Q4 2023. The land drops out of the Q1 2024 supplemental, possibly sold. Digital Realty's Melbourne portfolio is still 2 buildings (98 and 72 Radnor, 146,570 sq ft, 9.6 MW) in the FY2025 10-K. Not operational, under construction or approved, so out of scope (announced only).",
+    "status 'withdrawn' is the closest schema value but not exact: no planning application was found to have been withdrawn; the project appears to have been dropped before any application",
+    "whether the 4.1-acre land parcel is at 54 Radnor Dr (aggregator address) and whether it was sold in Q1 2024; not confirmed from a primary source",
+    "aggregator 14.4 MW / 94,000 sq ft figures look copied from MEL11 or made up; not supported by Digital Realty filings",
+    "Brimbank City Council planning register not searched directly (no public online search found); Star Weekly article (source 11) blocked, seen only as a search snippet"
+  ]
+}
