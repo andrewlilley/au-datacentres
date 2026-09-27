@@ -16,14 +16,14 @@
       "source": 2
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: the geocoder (nominatim) was blocked by the network proxy in this session"
+      "value": -33.81913,
+      "source": 7,
+      "note": "geocoded: address point for 2 Broadcast Way"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: see lat"
+      "value": 151.18448,
+      "source": 7,
+      "note": "see lat"
     }
   },
   "builder": {
@@ -107,7 +107,6 @@
   "open_questions": [
     "DA 2019/79 determination date, CIV and jobs not found (SNPP report not reachable)",
     "construction start date (March 2021) not verified against the primary source",
-    "Stage 2 completion date not captured",
-    "lat/lon not geocoded (geocoder blocked)"
+    "Stage 2 completion date not captured"
   ]
 }

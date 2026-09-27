@@ -18,3 +18,4 @@ Note: WebFetch was blocked by the session egress proxy; content was taken from W
    - URL: https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-24299707!20210812T054050.904+GMT
    - Accessed: 2026-09-27
    - Supports: planning authority, pathway, DA reference
+5. NSW Spatial Services Address Location service (maps.six.nsw.gov.au/services/public/Address_Location), GDA94 address point - geocoded 2026-09-27 - supports: lat/lon.

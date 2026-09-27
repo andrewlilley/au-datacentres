@@ -7,3 +7,4 @@ Access date for all: 2026-09-27. Note: direct page fetches were blocked by the s
 4. Datacentermap, "EdgeConneX Macquarie Park - SYD1" - https://www.datacentermap.com/australia/sydney/mpark-stage-2/ - construction start projected FY2027.
 5. The Urban Developer, "Stockland Sydney Data Centre Plans On Exhibition" - https://www.theurbandeveloper.com/articles/stockland-data-centre-macquarie-park-mpark ; Kreisson "The Pulse, 19 March 2026" - https://blog.kreisson.com.au/the-pulse-19-march-2026 - exhibition 6 Mar-2 Apr 2025, application submitted Dec 2024 (per search summary).
 6. NSW Planning Portal, 1-5 Khartoum Road Data Centre - https://www.planningportal.nsw.gov.au/major-projects/projects/1-5-khartoum-road-data-centre - planning URL (not fetched).
+7. NSW Spatial Services Address Location service (maps.six.nsw.gov.au/services/public/Address_Location), GDA94 address point - geocoded 2026-09-27 - supports: lat/lon.

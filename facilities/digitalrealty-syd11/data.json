@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "Not geocoded: geocoding services (Nominatim etc.) blocked by session egress proxy; to be filled later."
+      "value": -33.81714,
+      "source": 5,
+      "note": "geocoded: OSM building 'Digital Erskine Park 2, 13-23 Templar Road'"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "Not geocoded: geocoding services (Nominatim etc.) blocked by session egress proxy; to be filled later."
+      "value": 150.79547,
+      "source": 5,
+      "note": "see lat"
     }
   },
   "builder": {
@@ -110,7 +110,6 @@
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "planning pathway/reference not found (possibly Penrith DA or MP08_0109 modification)",
-    "lat/lon not geocoded (geocoder blocked)"
+    "planning pathway/reference not found (possibly Penrith DA or MP08_0109 modification)"
   ]
 }

@@ -17,14 +17,14 @@
       "note": "suburb postcode (Australia Post); not stated in source"
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "Not geocoded: geocoding services (Nominatim etc.) unreachable from this session (network egress blocked)"
+      "value": -33.78154,
+      "source": 7,
+      "note": "geocoded: address point for 1 Khartoum Road (site is 1-5)"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "Not geocoded: geocoding services (Nominatim etc.) unreachable from this session (network egress blocked)"
+      "value": 151.12468,
+      "source": 7,
+      "note": "see lat"
     }
   },
   "builder": {
@@ -109,7 +109,6 @@
     "separate SSD-80814238 'Road 1 Data Centre' at same address under assessment - possible overlap",
     "builder and construction start not announced",
     "planning.lodged month from secondary summary only",
-    "lat/lon not geocoded (egress blocked)",
     "jobs: basis/scope tagged from search-result wording; confirm against planning documents"
   ]
 }

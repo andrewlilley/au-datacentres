@@ -17,14 +17,14 @@
       "note": "suburb postcode (Australia Post); not stated in source"
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "Not geocoded: geocoding services (Nominatim etc.) unreachable from this session (network egress blocked)"
+      "value": -33.81833,
+      "source": 10,
+      "note": "geocoded: address point for 2 Lanceley Place (site also includes 4-8 Lanceley Pl and 14 Campbell St)"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "Not geocoded: geocoding services (Nominatim etc.) unreachable from this session (network egress blocked)"
+      "value": 151.18628,
+      "source": 10,
+      "note": "see lat"
     }
   },
   "builder": {
@@ -119,7 +119,6 @@
     "planning.lodged is portal document date, not confirmed lodgement date",
     "construction_end is first phase only; full build-out date unknown",
     "modifications MOD 1 and MOD 2 exist - not reviewed",
-    "lat/lon not geocoded (egress blocked)",
     "jobs: basis/scope tagged from search-result wording; confirm against planning documents"
   ]
 }

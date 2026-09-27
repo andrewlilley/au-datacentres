@@ -22,3 +22,4 @@ Note: WebFetch was blocked by the session egress proxy; content was taken from W
    - URL: https://www.datacentermap.com/australia/sydney/greensquaredc-syd1/
    - Accessed: 2026-09-27
    - Supports: 10.9MW phase (alternative MW)
+6. NSW Spatial Services Address Location service (maps.six.nsw.gov.au/services/public/Address_Location), GDA94 address point - geocoded 2026-09-27 - supports: lat/lon.

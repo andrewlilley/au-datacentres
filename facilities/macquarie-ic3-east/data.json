@@ -17,14 +17,14 @@
       "note": "standard Australia Post postcode for Macquarie Park; not shown in a source read this session"
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "lat/lon not geocoded: WebFetch (incl. nominatim) was blocked by the session egress proxy"
+      "value": -33.78084,
+      "source": 5,
+      "note": "geocoded: address point for 17-23 Talavera Road (campus-level; not building-specific)"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "lat/lon not geocoded: WebFetch (incl. nominatim) was blocked by the session egress proxy"
+      "value": 151.12728,
+      "source": 5,
+      "note": "see lat"
     }
   },
   "builder": {

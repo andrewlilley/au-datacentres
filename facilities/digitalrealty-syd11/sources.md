@@ -4,3 +4,4 @@
 2. Datacentermap - 18-23 Templar Road (Digital Realty) - https://www.datacentermap.com/australia/sydney/13-23-templar-road/ - accessed 2026-09-27. Supports: address, construction start 2017, 19 MW alternative.
 3. A W Edwards - Digital Realty SYD11 Data Centre - https://awedwards.com.au/project/digital-realty-syd11-data-centre/ - accessed 2026-09-27 (search summary). Supports: builder, $145m project value, lump sum, completion 2019, 14 MW.
 4. NSW Planning Portal - Erskine Park Data Centre (MP08_0109) - https://www.planningportal.nsw.gov.au/major-projects/projects/erskine-park-data-centre - accessed 2026-09-27 (listing only). Supports: planning note (link to SYD11 unconfirmed).
+5. OpenStreetMap Nominatim (nominatim.openstreetmap.org) - geocoded 2026-09-27 - supports: lat/lon.

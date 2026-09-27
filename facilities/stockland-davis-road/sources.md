@@ -7,3 +7,4 @@
 5. Willowtree Planning - Davis Road Data Centre - https://willowtreeplanning.com.au/project/davis-road-data-centre-2/ - accessed 2026-09-27 (search summary). Supports: project value $1.2 billion (attribution approximate).
 6. NSW Major Projects document SSD-59416728-PA-13 'Amazon Web Services Data Centre DC01 SYD067' (Feb/Mar 2025) - https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-59416728-PA-13!20250325T000859.316+GMT - accessed 2026-09-27 (title only). Supports: end-user note.
 7. w.media - 160 MW data center campus proposed for Wetherill Park - https://w.media/160-mw-data-center-campus-proposed-for-wetherill-park/ - accessed 2026-09-27. Supports: 160 MW, 45,000 m2 existing distribution centre, Project Blue Tongue.
+8. NSW Spatial Services Address Location service (maps.six.nsw.gov.au/services/public/Address_Location), GDA94 address point - geocoded 2026-09-27 - supports: lat/lon.

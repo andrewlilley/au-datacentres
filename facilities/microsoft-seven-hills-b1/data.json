@@ -16,14 +16,14 @@
       "source": 6
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: geocoding service (nominatim) blocked by session egress proxy"
+      "value": -33.77896,
+      "source": 7,
+      "note": "geocoded: address point for 57 Station Road (site-level; not building-specific)"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: geocoding service (nominatim) blocked by session egress proxy"
+      "value": 150.94826,
+      "source": 7,
+      "note": "see lat"
     }
   },
   "builder": {
@@ -105,7 +105,6 @@
   "last_checked": "2026-09-27",
   "open_questions": [
     "scope: Building 1 may be the 1.2MW (630 sqm) data centre approved by Blacktown Council in early 2022 - would be < 5MW; confirm MW",
-    "council DA reference not found",
-    "lat/lon not geocoded (geocoder blocked)"
+    "council DA reference not found"
   ]
 }

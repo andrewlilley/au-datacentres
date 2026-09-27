@@ -17,14 +17,14 @@
       "note": "suburb postcode (Australia Post); not stated in source"
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "Not geocoded: geocoding services (Nominatim etc.) unreachable from this session (network egress blocked)"
+      "value": -33.92087,
+      "source": 7,
+      "note": "geocoded: address point for 10-22 Kent Road (site also includes 2 Kent Rd and 685 Gardeners Rd)"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "Not geocoded: geocoding services (Nominatim etc.) unreachable from this session (network egress blocked)"
+      "value": 151.18368,
+      "source": 7,
+      "note": "see lat"
     }
   },
   "builder": {
@@ -109,7 +109,6 @@
     "mw: 120MW total demand vs 90MW/90MVA originally; IT load unknown",
     "planning.determined 2025-12-22 not re-verified",
     "builder not announced",
-    "lat/lon not geocoded (egress blocked)",
     "jobs: basis/scope tagged from search-result wording; confirm against planning documents"
   ]
 }

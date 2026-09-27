@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "lat/lon not geocoded: WebFetch (incl. nominatim) was blocked by the session egress proxy"
+      "value": -33.73253,
+      "source": 6,
+      "note": "geocoded: address point for 3 Brookhollow Avenue"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "lat/lon not geocoded: WebFetch (incl. nominatim) was blocked by the session egress proxy"
+      "value": 150.96802,
+      "source": 6,
+      "note": "see lat"
     }
   },
   "builder": {

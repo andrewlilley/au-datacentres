@@ -17,14 +17,14 @@
       "note": "standard postcode for Macquarie Park; not stated in the sources consulted"
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: the geocoder (nominatim) was blocked by the network proxy in this session"
+      "value": -33.78635,
+      "source": 7,
+      "note": "geocoded: address point for 6 Giffnock Avenue"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: see lat"
+      "value": 151.12521,
+      "source": 7,
+      "note": "see lat"
     }
   },
   "builder": {
@@ -104,7 +104,6 @@
   "last_checked": "2026-09-27",
   "open_questions": [
     "scope: confirm first-phase opening date is after 2018-09-01 (reported 2020, but construction was fast-tracked from 2017)",
-    "DA determination date and jobs figures not found (planning panel report not reachable)",
-    "lat/lon not geocoded (geocoder blocked)"
+    "DA determination date and jobs figures not found (planning panel report not reachable)"
   ]
 }

@@ -16,14 +16,14 @@
       "source": 6
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: geocoding service (nominatim) blocked by session egress proxy"
+      "value": -33.77896,
+      "source": 7,
+      "note": "geocoded: address point for 57 Station Road (site-level; not building-specific)"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: geocoding service (nominatim) blocked by session egress proxy"
+      "value": 150.94826,
+      "source": 7,
+      "note": "see lat"
     }
   },
   "builder": {
@@ -107,7 +107,6 @@
   "open_questions": [
     "status operational not confirmed - completion date not found",
     "CIV and jobs from SSD-33781208 EIS/assessment report not retrieved (portal fetch blocked)",
-    "exact determination date not found",
-    "lat/lon not geocoded (geocoder blocked)"
+    "exact determination date not found"
   ]
 }

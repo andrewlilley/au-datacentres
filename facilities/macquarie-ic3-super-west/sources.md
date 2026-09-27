@@ -22,3 +22,4 @@ Note: WebFetch was blocked by the session egress proxy; content was taken from W
    - URL: https://www.capitalbrief.com/briefing/macquarie-technology-group-completes-construction-on-ic3-super-west-data-centre-7ebd8164-8fcd-46e4-a07a-065699065a53/
    - Accessed: 2026-09-27
    - Supports: construction complete on time/budget; first 6MW commissioning Sep 2026; ~100 operational jobs
+6. NSW Spatial Services Address Location service (maps.six.nsw.gov.au/services/public/Address_Location), GDA94 address point - geocoded 2026-09-27 - supports: lat/lon.

@@ -17,14 +17,14 @@
       "note": "standard postcode for Horsley Park; not stated in the sources consulted"
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: the geocoder (nominatim) was blocked by the network proxy in this session"
+      "value": -33.82917,
+      "source": 7,
+      "note": "geocoded: address point for 16 Johnston Crescent (large lot; campus-level)"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: see lat"
+      "value": 150.82692,
+      "source": 7,
+      "note": "see lat"
     }
   },
   "builder": {
@@ -120,7 +120,6 @@
     "exact SSD lodgement date and operational jobs figure not found",
     "MW: consent 250 MW vs marketed 350/365 MW; Phase 2 SSD reference and scope unknown",
     "number of buildings: SSD search summary says 5, master.csv note says 6; stage 1 is 2 buildings",
-    "lat/lon not geocoded (geocoder blocked)",
     "jobs: basis/scope tagged from search-result wording; confirm against planning documents"
   ]
 }

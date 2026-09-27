@@ -17,14 +17,14 @@
       "note": ""
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "Not geocoded: geocoding services (Nominatim etc.) blocked by session egress proxy; to be filled later."
+      "value": -33.82198,
+      "source": 8,
+      "note": "geocoded: address point for 10 Grand Avenue (DA address); 8A Grand Ave point is -33.82358,151.03490"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "Not geocoded: geocoding services (Nominatim etc.) blocked by session egress proxy; to be filled later."
+      "value": 151.03614,
+      "source": 8,
+      "note": "see lat"
     }
   },
   "builder": {
@@ -111,7 +111,6 @@
   "last_checked": "2026-09-27",
   "open_questions": [
     "planning.determined date for DA/751/2019 not found (planning portal blocked from session)",
-    "address: 10 Grand Avenue (DA) vs 8A/8 Grand Avenue (master.csv, 2025 DA) - confirm lot",
-    "lat/lon not geocoded (geocoder blocked)"
+    "address: 10 Grand Avenue (DA) vs 8A/8 Grand Avenue (master.csv, 2025 DA) - confirm lot"
   ]
 }

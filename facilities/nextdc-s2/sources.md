@@ -8,3 +8,4 @@ All accessed 2026-09-27. Note: direct page fetches were blocked by the network p
 4. Multiplex, "NEXTDC S2 Sydney Data Centre" (Prefabrication in data centres). https://www.multiplex.global/projects/nextdc-s2-sydney-data-centre/. Supports: builder.
 5. iTnews, "Inside NEXTDC's new Sydney data centre, S2". https://www.itnews.com.au/gallery/inside-nextdcs-new-sydney-data-centre-s2-551319. Also Wikipedia "NextDC" (https://en.wikipedia.org/wiki/NextDC) and dcpulse. Supports: opening around 2020, 20 of 30 MW contracted at opening, Tier IV.
 6. iTnews, "NextDC fast-tracks capacity for S2 data centre". https://www.itnews.com.au/news/nextdc-fast-tracks-capacity-for-s2-data-centre-480463. Supports: open question on timing (build under way around 2017-18).
+7. NSW Spatial Services Address Location service (maps.six.nsw.gov.au/services/public/Address_Location), GDA94 address point - geocoded 2026-09-27 - supports: lat/lon.

@@ -16,14 +16,14 @@
       "source": 2
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: the geocoder (nominatim) was blocked by the network proxy in this session"
+      "value": -33.81944,
+      "source": 5,
+      "note": "geocoded: address point for 3 Broadcast Way"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "not geocoded: see lat"
+      "value": 151.18602,
+      "source": 5,
+      "note": "see lat"
     }
   },
   "builder": {
@@ -105,7 +105,6 @@
   "open_questions": [
     "original developer/vendor and core-and-shell builder unknown",
     "confirm DA 2018/273 (3 Broadcast Way) is the S6 building; its determination date and CIV",
-    "operational date: shell completed 1H 2022, NEXTDC opened 2024; fit-out builder unknown",
-    "lat/lon not geocoded (geocoder blocked)"
+    "operational date: shell completed 1H 2022, NEXTDC opened 2024; fit-out builder unknown"
   ]
 }

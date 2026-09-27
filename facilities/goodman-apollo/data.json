@@ -17,14 +17,14 @@
       "note": "suburb postcode (Australia Post); not stated in source"
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "Not geocoded: geocoding services (Nominatim etc.) unreachable from this session (network egress blocked)"
+      "value": -33.78159,
+      "source": 8,
+      "note": "geocoded: address point for 4 Talavera Road (site is 4-10)"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "Not geocoded: geocoding services (Nominatim etc.) unreachable from this session (network egress blocked)"
+      "value": 151.1311,
+      "source": 8,
+      "note": "see lat"
     }
   },
   "builder": {
@@ -109,7 +109,6 @@
     "mw: 135MW may be total load rather than IT; initial ~90MVA/90MW reported",
     "planning.lodged date not found (exhibition from 21 Mar 2025)",
     "builder not yet announced",
-    "lat/lon not geocoded (egress blocked)",
     "jobs: basis/scope tagged from search-result wording; confirm against planning documents"
   ]
 }

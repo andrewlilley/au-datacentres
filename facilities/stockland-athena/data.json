@@ -17,14 +17,14 @@
       "note": "suburb postcode (Australia Post); not stated in source"
     },
     "lat": {
-      "value": null,
-      "source": null,
-      "note": "Not geocoded: geocoding services (Nominatim etc.) unreachable from this session (network egress blocked)"
+      "value": -33.77947,
+      "source": 7,
+      "note": "geocoded: address point for 11 Khartoum Road (site is 11-17 Khartoum Rd and 33-39 Talavera Rd)"
     },
     "lon": {
-      "value": null,
-      "source": null,
-      "note": "Not geocoded: geocoding services (Nominatim etc.) unreachable from this session (network egress blocked)"
+      "value": 151.12538,
+      "source": 7,
+      "note": "see lat"
     }
   },
   "builder": {
@@ -112,7 +112,6 @@
     "tenant: AWS link from media 'believed to be' and aggregator only",
     "cost (CIV) and construction jobs not found",
     "planning.determined not re-verified",
-    "lat/lon not geocoded (egress blocked)",
     "jobs: basis/scope tagged from search-result wording; confirm against planning documents"
   ]
 }

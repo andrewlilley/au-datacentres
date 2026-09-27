@@ -26,3 +26,4 @@ Note: WebFetch was blocked by the session egress proxy; content was taken from W
    - URL: https://w.media/greensquaredc-advances-110mw-sydney-data-centre-project-with-key-approvals/
    - Accessed: 2026-09-27
    - Supports: campus 110MW, Stage 1 context, Erilyan for Stage 1 only
+7. NSW Spatial Services Address Location service (maps.six.nsw.gov.au/services/public/Address_Location), GDA94 address point - geocoded 2026-09-27 - supports: lat/lon.
