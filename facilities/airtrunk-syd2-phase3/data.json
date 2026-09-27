@@ -1,0 +1,117 @@
+{
+  "id": "airtrunk-syd2-phase3",
+  "name": "AirTrunk SYD2 phase 3 (Shell D)",
+  "operator": "AirTrunk",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "1 Sirius Road, Lane Cove West NSW 2066",
+      "source": 9,
+      "note": ""
+    },
+    "suburb": "Lane Cove West",
+    "state": "NSW",
+    "postcode": {
+      "value": "2066",
+      "source": 9,
+      "note": ""
+    },
+    "lat": {
+      "value": -33.80614,
+      "source": 8,
+      "note": "Geocoded from street address via NSW Spatial Services address point for 1 SIRIUS ROAD LANE COVE WEST; the service returns two address points for this address (-33.80614,151.14840 and -33.80779,151.14472); first used. Address point, not building centroid; campus spans a larger lot."
+    },
+    "lon": {
+      "value": 151.1484,
+      "source": 8,
+      "note": ""
+    }
+  },
+  "builder": {
+    "value": "AW Edwards",
+    "source": 7,
+    "note": "AW Edwards prepared the SYD2 CEMP/CNVMP for Mod 3 construction (DPHI letter 23 Dec 2025, source 7) and its SYD2 CEMP revision register (source 11) covers the SSD-9741 buildings; AW Edwards also built the initial phases. No phase-3-specific contractor announcement found"
+  },
+  "developer": {
+    "value": "AirTrunk",
+    "source": 1,
+    "note": ""
+  },
+  "mw_it": {
+    "value": 30,
+    "source": 3,
+    "note": "AirTrunk 29 Aug 2024: third phase 'adds an additional 30MW of custom-built capacity'. Topping-out release (source 4) said the expansion 'adds more than 30MW'"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": "consent capacity 138 MW is for the whole SSD-9741 building (all four phases); see airtrunk-syd2"
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": "no separate CIV per phase: phases 3-4 are within SSD-9741 (whole-building CIV $196.9m, see airtrunk-syd2); Mod 3 made no change to CIV"
+  },
+  "planning": {
+    "authority": {
+      "value": "NSW Department of Planning, Housing and Infrastructure (DPHI)",
+      "source": 6,
+      "note": "Mod 3 determined by Director under delegation"
+    },
+    "pathway": {
+      "value": "SSD modification (s4.55(2))",
+      "source": 6,
+      "note": "phases 3 and 4 are part of the original SSD-9741 consent (four-phase building, determined 15 Nov 2019); Mod 3 changed the design for the remaining phases (shared by phase 3 and phase 4 records)"
+    },
+    "reference": {
+      "value": "SSD-9741-Mod-3",
+      "source": 5,
+      "note": "parent consent SSD-9741 (determined 15 Nov 2019). Mod 3 'Design Changes': max height increase, data halls 18 to 20, chillers 106 to 108, transformers/generators 116 to 121; capacity 138 MW unchanged. Oct 2020 exhibition EXH-9395018 was Mod 2 (2 Apollo Place office), not this expansion"
+    },
+    "lodged": {
+      "value": "2023-02-14",
+      "precision": "day",
+      "source": 6,
+      "note": "Mod 3 AR: 'The application was lodged on 14 February 2023'"
+    },
+    "determined": {
+      "value": "2024-06-13",
+      "precision": "day",
+      "source": 5,
+      "note": "portal Determination Date 13/06/2024. Construction of the expansion started June 2023, before Mod 3 was determined, presumably under the existing SSD-9741 consent"
+    },
+    "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/lane-cove-west-data-centre-mod-3-design-changes"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": "no per-phase figure; whole-SSD 'Approximately 320 direct construction jobs' recorded on airtrunk-syd2"
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": "no per-phase figure; whole-campus figures on airtrunk-syd2"
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": "2023-05",
+    "source": 2,
+    "precision": "month",
+    "note": "AirTrunk SYD2 project timeline: 'May 2023 Completion of Shell B and commencement of Shell D'. AirTrunk release 15 Jun 2023 (source 1) announced construction commencing for the final two phases"
+  },
+  "construction_end": {
+    "value": "2024-06",
+    "source": 2,
+    "precision": "month",
+    "note": "AirTrunk SYD2 timeline: 'Jun 2024 Completion of Shell D'. Completion announced 29 Aug 2024 (source 3: 'third phase ... completed ahead of schedule', initial capacity in under 8.5 months). Shell topped out Nov 2023 (source 4)"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "identification of phase 3 as Shell D is from AirTrunk's timeline (Shell D commenced May 2023, completed Jun 2024) matching the phase 3 completion release; AirTrunk does not label phase 3 = Shell D explicitly"
+  ]
+}

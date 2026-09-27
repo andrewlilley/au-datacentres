@@ -1,0 +1,142 @@
+{
+  "id": "airtrunk-syd2-apollo",
+  "name": "AirTrunk SYD2 Apollo Place (Phase 5)",
+  "operator": "AirTrunk",
+  "status": "under_construction",
+  "location": {
+    "address": {
+      "value": "1 Apollo Place and part of 1 Sirius Road (former 2 Apollo Place), Lane Cove West NSW 2066",
+      "source": 2,
+      "note": "AR: site 'located at 1 Apollo Place and part of 1 Sirius Road' (SP 80721 and part of Lot 1 DP 1271404); the south-eastern part of 1 Sirius Road was 'previously known as 2 Apollo Place'. Application form site address: '1 Sirius Road, Lane Cove West and 1 Apollo Place, Lane Cove West' (source 6)"
+    },
+    "suburb": "Lane Cove West",
+    "state": "NSW",
+    "postcode": {
+      "value": "2066",
+      "source": 11,
+      "note": "GNAF locality; also AW Edwards CEMP project location '1 Sirius Road LANE COVE WEST, NSW 2066' (source 9)"
+    },
+    "lat": {
+      "value": -33.808191,
+      "source": 11,
+      "note": "Geocoded via NSW Spatial Services Geocoded Addressing Theme (GNAF) address point for '1 APOLLO PLACE LANE COVE WEST' (returned -33.808191, 151.145625). '2 APOLLO PLACE LANE COVE WEST' returns no address point (absorbed into 1 Sirius Road). Address point, not building centroid"
+    },
+    "lon": {
+      "value": 151.145625,
+      "source": 11,
+      "note": ""
+    }
+  },
+  "builder": {
+    "value": "AW Edwards",
+    "source": 9,
+    "note": "AW Edwards CEMP Rev E (28 Jul 2026) for SSD-67407231: 'prepared in response to the engagement by Airtrunk for AW Edwards to construct...'; revision register 'C 1-Apr-26 ... Revised Issue (Building E)'. DPHI approved this CEMP 4 Aug 2026 (source 8)"
+  },
+  "developer": {
+    "value": "AirTrunk",
+    "source": 10,
+    "note": "Applicant EMKC Cubed Management Pty Ltd (development manager, source 4); post-approval correspondence addressed to The Trustee for Airtrunk Lane Cove Trust (source 8). AirTrunk: 'The project is Phase 5 of AirTrunk's investment within the precinct' (source 10)"
+  },
+  "mw_it": {
+    "value": 41,
+    "source": 2,
+    "note": "AR Table 2: 'Total power consumption of 45 megawatts (MW), with IT load of 41 MW'"
+  },
+  "mw_grid": {
+    "value": 45,
+    "source": 2,
+    "note": "total power consumption 45 MW (AR Table 2; consent describes a 45-megawatt data centre)"
+  },
+  "cost_aud_m": {
+    "value": 288.4,
+    "source": 2,
+    "note": "Estimated development cost $288,398,501 (AR Table 2; application form 'AUD288,398,501.00', source 6; NoD 'capital investment of $288.4 million', source 4). SIA (source 7) cited an earlier CIV of $291,031,924 and its project table 'Estimated cost of works $200 million'"
+  },
+  "planning": {
+    "authority": {
+      "value": "NSW DPHI (Minister for Planning and Public Spaces, by delegate A/Director, Industry Assessments)",
+      "source": 4,
+      "note": ""
+    },
+    "pathway": {
+      "value": "SSD",
+      "source": 1,
+      "note": "State Significant Development (data centre >15 MW)"
+    },
+    "reference": {
+      "value": "SSD-67407231",
+      "source": 1,
+      "note": ""
+    },
+    "lodged": {
+      "value": "2024-09-19",
+      "source": 6,
+      "precision": "day",
+      "note": "application form 'Date Submitted: 19/09/2024'; EIS exhibited 17 Oct - 13 Nov 2024 (source 4)"
+    },
+    "determined": {
+      "value": "2025-10-09",
+      "source": 4,
+      "precision": "day",
+      "note": "Notice of decision: 'Date of decision 9 October 2025', consent granted subject to conditions"
+    },
+    "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/apollo-place-data-centre"
+  },
+  "jobs_construction": {
+    "value": 380,
+    "source": 5,
+    "basis": "unstated",
+    "scope": "direct",
+    "note": "EIS s1.6.1: 'estimated to generate 380 full-time equivalent jobs consistently throughout the lifetime of the development build' (sum of civil 30, structure 100, fit-out 200, commissioning 50). AR Table 2: '380 full-time equivalent construction jobs'; NoD: 'generation of 380 construction jobs'; AR elsewhere 'up to 380 construction jobs'. Basis ambiguous (FTE throughout build vs 'up to'), so recorded as unstated"
+  },
+  "jobs_construction_other": [
+    {
+      "value": 400,
+      "source": 7,
+      "basis": "unstated",
+      "scope": "unstated",
+      "note": "SIA s6.9: 'the proposal has been estimated to generate a total of approximately 400 construction jobs' (based on earlier CIV); superseded by EIS/AR 380"
+    }
+  ],
+  "jobs_operational": {
+    "value": 44,
+    "source": 5,
+    "basis": "ongoing_headcount",
+    "scope": "direct",
+    "note": "EIS s1.6.2: 'the total number of operational jobs for the Proposal is 44' (Client 30, Customer 10, Other staff 4); AR/NoD '44 operational jobs'"
+  },
+  "jobs_operational_other": [
+    {
+      "value": 13,
+      "source": 5,
+      "basis": "ongoing_headcount",
+      "scope": "direct",
+      "note": "EIS s3.3.8.4: 'typical anticipated staffing requirements ... 13 FTE staff' on site at any one time"
+    },
+    {
+      "value": 30,
+      "source": 7,
+      "basis": "unstated",
+      "scope": "unstated",
+      "note": "SIA: 'Estimated operational jobs 30' (earlier estimate)"
+    }
+  ],
+  "construction_start": {
+    "value": "2026",
+    "source": 10,
+    "precision": "year",
+    "note": "AirTrunk SYD2 page, Apollo Place Data Centre: 'Date: 2026 - ongoing'. DPHI approved the AW Edwards CEMP (required before construction) on 4 Aug 2026 (source 8), so main works likely from Aug 2026 or later; no notice of commencement found"
+  },
+  "construction_end": {
+    "value": "2028",
+    "source": 9,
+    "precision": "year",
+    "note": "expected: AW Edwards CEMP 'Timing of the Works 2026 - 2028' (CEMP covers AWE's SYD2 project incl. Building E); AR: construction 'would take up to 94 weeks' (source 2)"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "construction commencement not confirmed by a notice of commencement; status under_construction rests on AirTrunk's '2026 - ongoing' and the Aug 2026 CEMP approval",
+    "construction jobs basis ambiguous ('380 full-time equivalent jobs consistently throughout' vs 'up to 380')",
+    "related: SSD-9741-Mod-4 (Aug 2025) provides shared infrastructure at 1 Sirius Road for this development"
+  ]
+}

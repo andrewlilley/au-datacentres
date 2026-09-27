@@ -21,3 +21,6 @@ cdc-mp6
 dci-syd02
 dci-syd03
 digico-syd1-expansion
+airtrunk-syd2-phase3
+airtrunk-syd2-phase4
+airtrunk-syd2-apollo

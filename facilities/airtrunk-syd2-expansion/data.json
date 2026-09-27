@@ -112,7 +112,7 @@
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "scope/dedupe: this row covers the final two phases (3 and 4) of the single SSD-9741 building; consider splitting per phase (phase 3 30 MW operational Aug 2024; phase 4 ~40 MW implied, under construction)",
+    "scope: excluded - split into airtrunk-syd2-phase3 and airtrunk-syd2-phase4 (decision 2026-09-27); removed from master.csv",
     "phase 4 completion date not found",
     "separate AirTrunk Apollo Place 45 MW SSD-67407231 adjoining site may need its own master.csv row if not already listed"
   ]
