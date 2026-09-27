@@ -1,0 +1,115 @@
+{
+  "id": "nextdc-m4",
+  "name": "M4 Melbourne",
+  "operator": "NEXTDC",
+  "status": "approved",
+  "location": {
+    "address": {
+      "value": "127 Todd Road, Port Melbourne VIC 3207",
+      "source": 1,
+      "note": "former Westgate Park Printing Complex"
+    },
+    "suburb": "Port Melbourne (Fishermans Bend)",
+    "state": "VIC",
+    "postcode": {
+      "value": "3207",
+      "source": 1,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: web fetch (nominatim, planning portal, datacentermap/baxtel) blocked from this session"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: web fetch (nominatim, planning portal, datacentermap/baxtel) blocked from this session"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": "one search summary claimed Multiplex appointed for a 20MW stage 1 but a verification search found no such announcement for M4 - not recorded"
+  },
+  "developer": {
+    "value": "NEXTDC",
+    "source": 1,
+    "note": "applicant NEXTDC Limited"
+  },
+  "mw_it": {
+    "value": 162,
+    "source": 2,
+    "note": "campus IT capacity per NEXTDC approval release; Mingtiandi and NEXTDC site page say 150MW; phase 1 ~10MW"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": 2000,
+    "source": 3,
+    "note": "campus-level investment (A$2bn) per NEXTDC; Mingtiandi's $1.3B is the USD conversion; EstimateOne gives stage 1 budget >$200m"
+  },
+  "planning": {
+    "authority": {
+      "value": "Victorian Minister for Planning",
+      "source": 4,
+      "note": "DFP ministerial permit"
+    },
+    "pathway": {
+      "value": "Development Facilitation Program (DFP)",
+      "source": 1,
+      "note": ""
+    },
+    "reference": {
+      "value": "PA2504019",
+      "source": 1,
+      "note": ""
+    },
+    "lodged": {
+      "value": "2025",
+      "source": 6,
+      "precision": "year",
+      "note": "Urban Developer reported plans filed Jan 2025; exact lodgement date on register not checked"
+    },
+    "determined": {
+      "value": "2026-01-16",
+      "source": 4,
+      "precision": "day",
+      "note": "permit announced 16 Jan 2026"
+    },
+    "url": "https://www.planning.vic.gov.au/planning-approvals/ministerial-permits-register/ministerial-permits/76685df6-baaf-f011-bbd2-6045bdc32df2"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": "releases say 'thousands of jobs' without a construction figure"
+  },
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": "FY26 results: early works progressing; stage 1 trade tenders closed Aug 2026"
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": ""
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "status: approved vs under_construction (early works progressing per FY26 results)",
+    "mw_it: 162 vs 150",
+    "builder not confirmed (Multiplex claim unverified)",
+    "lodged date approximate",
+    "lat/lon not geocoded (fetch blocked)"
+  ]
+}

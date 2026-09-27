@@ -1,0 +1,114 @@
+{
+  "id": "microsoft-mel05",
+  "name": "Cawley Road Building Two (MEL05)",
+  "operator": "Microsoft",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "20-28 Cawley Road, Yarraville VIC 3013",
+      "source": 2,
+      "note": ""
+    },
+    "suburb": "Yarraville/Brooklyn",
+    "state": "VIC",
+    "postcode": {
+      "value": "3013",
+      "source": 2,
+      "note": "postcode from master.csv address; source gives street address and suburb Yarraville"
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: nominatim and map sites blocked by network proxy in this session"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: nominatim and map sites blocked by network proxy in this session"
+    }
+  },
+  "builder": {
+    "value": "Kapitol Group",
+    "source": 4,
+    "note": "general contractor ('Yarraville Data Centre Melbourne 2')"
+  },
+  "developer": {
+    "value": "Microsoft",
+    "source": 1,
+    "note": ""
+  },
+  "mw_it": {
+    "value": null,
+    "source": null,
+    "note": "Microsoft does not publish MW per building"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": "$150m reported figure relates to MEL4 only; MEL5 described as larger"
+  },
+  "planning": {
+    "authority": {
+      "value": null,
+      "source": null,
+      "note": "MEL5 application was to be lodged separately with City of Maribyrnong (source 2), not found"
+    },
+    "pathway": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "precision": null,
+      "note": ""
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "precision": null,
+      "note": ""
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_start": {
+    "value": "2022-12-05",
+    "source": 5,
+    "precision": "day",
+    "note": "campus groundbreaking; building-specific start not found"
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": "Microsoft Feb 2025: structure complete, fit-out under way; Kapitol page lists as under construction (undated)"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "status operational vs still in fit-out unconfirmed",
+    "planning permit not found",
+    "MW not public",
+    "lat/lon not geocoded (proxy blocked)"
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "id": "airtrunk-mel1-building2",
+  "name": "MEL1 Building 2 (phases 4-6)",
+  "operator": "AirTrunk",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "176 Swann Drive, Derrimut VIC",
+      "source": 1,
+      "note": ""
+    },
+    "suburb": "Derrimut",
+    "state": "VIC",
+    "postcode": {
+      "value": "3026",
+      "source": null,
+      "note": "per master.csv"
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: geocoding services (nominatim) and aggregator pages blocked from this session"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded; see lat note"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": "not found"
+  },
+  "developer": {
+    "value": "AirTrunk",
+    "source": 1,
+    "note": ""
+  },
+  "mw_it": {
+    "value": 105,
+    "source": 3,
+    "note": "aggregator figure; AirTrunk says 'over 100MW of new IT load' (source 1); campus total 185MW"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": 1000,
+    "source": 1,
+    "note": "'over one billion dollars of direct investment' over 18 months \u2014 lower bound"
+  },
+  "planning": {
+    "authority": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "pathway": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "precision": null,
+      "note": ""
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "precision": null,
+      "note": ""
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": 1000,
+    "source": 1,
+    "note": "'more than 1,000 jobs during the construction phase' \u2014 lower bound"
+  },
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": "'significant number' of operational jobs, no figure"
+  },
+  "construction_start": {
+    "value": "2024-08",
+    "source": 2,
+    "precision": "month",
+    "note": "announced 2024-08-09; w.media reports construction had started (one source says announced June 2024)"
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": "18-month delivery from Aug 2024 implies ~early 2026; completion not confirmed by any source found"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "status: operational (datacentermap) not confirmed by AirTrunk; 18-month build from Aug 2024",
+    "planning permit / authority not found",
+    "builder not found",
+    "lat/lon not geocoded (services blocked)"
+  ]
+}

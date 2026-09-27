@@ -1,0 +1,8 @@
+# Sources for stack-mel02
+
+1. STACK Infrastructure - MEL02 Melbourne location page — https://www.stackinfra.com/locations/asia-pacific/melbourne/mel02/ — accessed 2026-09-27 — supports: mw_it, site area, 132kV substation 300MW+ gross (content read via search-engine result summary; direct fetch blocked by network proxy)
+2. datacenterHawk - STACK Infrastructure MEL02, 200 Palmers Road — https://datacenterhawk.com/marketplace/providers/stack-infrastructure/200-palmers-road/mel02 — accessed 2026-09-27 — supports: address (content read via search-engine result summary; direct fetch blocked by network proxy)
+3. Coloprice - STACK MEL02 Melbourne (Truganina) — https://coloprice.com/data-centers/australia/melbourne/stack-mel02-melbourne/ — accessed 2026-09-27 — supports: address (200 Palmers Rd, across road from MEL01), single building (content read via search-engine result summary; direct fetch blocked by network proxy)
+4. Baxtel - STACK MEL02B / Melbourne MEL02 — https://baxtel.com/data-center/stack-mel02b — accessed 2026-09-27 — supports: phases MEL02A (2026) and MEL02B (2027) (content read via search-engine result summary; direct fetch blocked by network proxy)
+5. PlanningAlerts - 200 Palmers Road Truganina applications (Feb 2022, Aug 2024) — https://www.planningalerts.org.au/applications/3189571 — accessed 2026-09-27 — supports: address conflict note (logistics hub signage) (content read via search-engine result summary; direct fetch blocked by network proxy)
+6. PlanningAlerts - 369 Palmers Road Truganina, utility installation (data centre), Mar 2024 — https://www.planningalerts.org.au/applications/3109596 — accessed 2026-09-27 — supports: planning note (content read via search-engine result summary; direct fetch blocked by network proxy)

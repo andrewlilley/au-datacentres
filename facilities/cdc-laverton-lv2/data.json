@@ -1,0 +1,113 @@
+{
+  "id": "cdc-laverton-lv2",
+  "name": "Laverton LV2",
+  "operator": "CDC Data Centres",
+  "status": "under_construction",
+  "location": {
+    "address": {
+      "value": "20-38 Leakes Road, Laverton North VIC 3026",
+      "source": 4,
+      "note": "campus site address from planning applications"
+    },
+    "suburb": "Laverton North",
+    "state": "VIC",
+    "postcode": {
+      "value": "3026",
+      "source": 4,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: geocoder and map sites blocked by session network proxy"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: geocoder and map sites blocked by session network proxy"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": "not found"
+  },
+  "developer": {
+    "value": "CDC Data Centres",
+    "source": 3,
+    "note": ""
+  },
+  "mw_it": {
+    "value": 300,
+    "source": 1,
+    "note": "ITK 'Campus Two' 300MW (per master.csv); not confirmed by CDC; may be campus-level"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": "not found"
+  },
+  "planning": {
+    "authority": {
+      "value": "Wyndham City Council",
+      "source": 2,
+      "note": ""
+    },
+    "pathway": {
+      "value": "council planning permit",
+      "source": 2,
+      "note": ""
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": "WYP14905/24 (lodged Dec 2024, same site) is described as a follow-up earthworks application, not a data centre building permit; LV2-specific permit not identified"
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "precision": null,
+      "note": "WYP14905/24 received ~11 Dec 2024 (8 days before 19 Dec 2024 capture)"
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "precision": null,
+      "note": ""
+    },
+    "url": "https://www.planningalerts.org.au/applications/3242268"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": "ITK says under construction; master notes Feb 2025 (ITK) / Feb 2026 (DCD) - unconfirmed for LV2"
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": ""
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "scope: LV2-specific planning approval not confirmed (WYP14905/24 appears to be earthworks); may be planned only",
+    "status under_construction unverified (datacentermap lists Planned)",
+    "300MW Campus Two figure unverified"
+  ]
+}

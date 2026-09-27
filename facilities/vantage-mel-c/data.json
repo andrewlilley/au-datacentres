@@ -1,0 +1,113 @@
+{
+  "id": "vantage-mel-c",
+  "name": "MEL-C",
+  "operator": "Vantage Data Centers",
+  "status": "under_construction",
+  "location": {
+    "address": {
+      "value": "Leakes Road, Truganina VIC 3029",
+      "source": 1,
+      "note": "street only, per Baxtel; no street number found"
+    },
+    "suburb": "Truganina",
+    "state": "VIC",
+    "postcode": {
+      "value": "3029",
+      "source": 1,
+      "note": "postcode of Truganina; Laverton North (3026) also possible per master conflicts"
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: web fetch (nominatim, planning portal, datacentermap/baxtel) blocked from this session"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: web fetch (nominatim, planning portal, datacentermap/baxtel) blocked from this session"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "developer": {
+    "value": "Vantage Data Centers",
+    "source": 1,
+    "note": ""
+  },
+  "mw_it": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "planning": {
+    "authority": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "pathway": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": "PA2403416 (171 Leakes Rd, applicant Aurecon, DFP) was suggested, but The Industrialist describes 171 Leakes Rd as Amazon's data centre site - not attributed to Vantage"
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "precision": null,
+      "note": ""
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "precision": null,
+      "note": ""
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": ""
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": ""
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "scope: existence unverified - only Baxtel lists MEL-C; Vantage's own site/news show only MEL1 (Tullamarine); searches found no Vantage Truganina land deal or permit",
+    "PA2403416 at 171 Leakes Rd appears to be Amazon (AWS), not Vantage",
+    "status and MW unverified"
+  ]
+}

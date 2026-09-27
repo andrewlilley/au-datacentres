@@ -1,0 +1,111 @@
+{
+  "id": "stack-mel01c",
+  "name": "MEL01C",
+  "operator": "STACK Infrastructure",
+  "status": "under_construction",
+  "location": {
+    "address": {
+      "value": "399 Palmers Road, Truganina VIC 3029",
+      "source": 1,
+      "note": ""
+    },
+    "suburb": "Truganina",
+    "state": "VIC",
+    "postcode": {
+      "value": "3029",
+      "source": 1,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: nominatim and all map/aggregator pages unreachable from this session (egress blocked)"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: see lat note"
+    }
+  },
+  "builder": {
+    "value": "Hickory",
+    "source": 2,
+    "note": "Hickory built MEL01C together with MEL01D; topped out Nov 2025"
+  },
+  "developer": {
+    "value": "STACK Infrastructure",
+    "source": 1,
+    "note": ""
+  },
+  "mw_it": {
+    "value": 54,
+    "source": 2,
+    "note": "54MW; MEL01C and MEL01D each 54MW (campus total 180MW with A and B)"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": "STACK closed AU$1.3bn green financing (Jul 2025) to fund the next phase of MEL01 (source 5) - financing, not a stated project cost, and covers C and D together"
+  },
+  "planning": {
+    "authority": {
+      "value": null,
+      "source": null,
+      "note": "planning permit not found. Likely Wyndham City Council (site in Wyndham LGA) but not confirmed; PlanningAlerts shows a 20 Dec 2019 Wyndham application at 399 Palmers Rd for a warehouse (pre-Hickory purchase) and a March 2024 Wyndham application at 369 Palmers Rd for 'use and development of the land to construct a utility installation (data centre)' - applicant not identified. The March 2024 369 Palmers Rd data centre application may relate to this expansion - unverified"
+    },
+    "pathway": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": ""
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": "topped out Nov 2025 (source 2; one summary said announced Dec 2025); aggregator (source 4) indicates 2026 commissioning target - not confirmed"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "construction start and expected completion not confirmed",
+    "planning permit not found - possibly 369 Palmers Rd Wyndham application (Mar 2024)",
+    "lat/lon not geocoded (egress blocked)"
+  ]
+}

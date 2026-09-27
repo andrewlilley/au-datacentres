@@ -1,0 +1,114 @@
+{
+  "id": "stack-mel02",
+  "name": "MEL02",
+  "operator": "STACK Infrastructure",
+  "status": "under_construction",
+  "location": {
+    "address": {
+      "value": "200 Palmers Road, Truganina VIC 3029",
+      "source": 2,
+      "note": "per datacenterHawk and Coloprice; property records show 200 Palmers Rd also hosts the CoreWest logistics hub (source 5) - lot/address may be imprecise"
+    },
+    "suburb": "Truganina",
+    "state": "VIC",
+    "postcode": {
+      "value": "3029",
+      "source": 2,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: nominatim and all map/aggregator pages unreachable from this session (egress blocked)"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: see lat note"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "developer": {
+    "value": "STACK Infrastructure",
+    "source": 1,
+    "note": ""
+  },
+  "mw_it": {
+    "value": 252,
+    "source": 1,
+    "note": "252MW marketed IT capacity, single ~21,000 m2 technical building on 5.6ha"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": "site has dedicated onsite 132kV substation with >300MW gross capacity (source 1) - substation capacity, not facility demand"
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "planning": {
+    "authority": {
+      "value": null,
+      "source": null,
+      "note": "not found; Wyndham LGA. A Mar 2024 Wyndham application at 369 Palmers Rd for a data centre utility installation (source 6) could relate to STACK but applicant not identified"
+    },
+    "pathway": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": ""
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": "Baxtel lists MEL02A for 2026 and MEL02B for 2027 (source 4); master notes ITK: shell complete late 2025, fit-out underway (not re-verified: ITK unreachable). Coloprice lists it as operational - unconfirmed"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "builder not found",
+    "phasing unclear (MEL02A 2026 / MEL02B 2027 per Baxtel)",
+    "address conflict: 200 Palmers Rd also a logistics hub",
+    "planning permit not found",
+    "construction start not found",
+    "lat/lon not geocoded (egress blocked)"
+  ]
+}

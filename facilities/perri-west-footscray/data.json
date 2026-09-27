@@ -1,0 +1,113 @@
+{
+  "id": "perri-west-footscray",
+  "name": "Perri Melbourne Data Centre (PMDC)",
+  "operator": "Perri Projects",
+  "status": "approved",
+  "location": {
+    "address": {
+      "value": "1 McArthur Street and 63 Sunshine Road, West Footscray VIC 3012",
+      "source": 2,
+      "note": "2.72ha site incl. heritage Goldsbrough Mort woolstore"
+    },
+    "suburb": "West Footscray",
+    "state": "VIC",
+    "postcode": {
+      "value": "3012",
+      "source": 2,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: web fetch (nominatim, planning portal, datacentermap/baxtel) blocked from this session"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: web fetch (nominatim, planning portal, datacentermap/baxtel) blocked from this session"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "developer": {
+    "value": "Perri Projects",
+    "source": 2,
+    "note": ""
+  },
+  "mw_it": {
+    "value": null,
+    "source": null,
+    "note": "MW not disclosed in any source found; 32 backup generators suggests a large facility but no estimate made"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": 800,
+    "source": 2,
+    "note": "development cost; expected end value $1bn"
+  },
+  "planning": {
+    "authority": {
+      "value": "Victorian Minister for Planning",
+      "source": 2,
+      "note": "DFP application to Department of Transport and Planning"
+    },
+    "pathway": {
+      "value": "Development Facilitation Program (DFP)",
+      "source": 2,
+      "note": ""
+    },
+    "reference": {
+      "value": "PA2403320",
+      "source": 1,
+      "note": ""
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "precision": null,
+      "note": ""
+    },
+    "determined": {
+      "value": "2025-04-04",
+      "source": 1,
+      "precision": "day",
+      "note": "per permit register (recorded in master.csv); Westsider says approved April 2025"
+    },
+    "url": "https://www.planning.vic.gov.au/planning-approvals/ministerial-permits-register/ministerial-permits/fcb0d877-0b98-ef11-8a68-002248938a9c"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": ""
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": ""
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "scope: MW capacity unknown - need to confirm >= 5 MW",
+    "builder and construction start unknown",
+    "lat/lon not geocoded (fetch blocked)"
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "id": "cdc-brooklyn-bk1",
+  "name": "Brooklyn BK1",
+  "operator": "CDC Data Centres",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "594 Geelong Road, Brooklyn VIC 3012",
+      "source": 5,
+      "note": "datacenterHawk/master use 594; Baxtel and 2022 Brimbank planning application use 598 Geelong Road (site spans 594-598)"
+    },
+    "suburb": "Brooklyn",
+    "state": "VIC",
+    "postcode": {
+      "value": "3012",
+      "source": 5,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: geocoder and map sites blocked by session network proxy"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: geocoder and map sites blocked by session network proxy"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": "head contractor not found; Green Civil Australia did civil works (src 6); Icon Co was main contractor for BK2 but not confirmed for BK1"
+  },
+  "developer": {
+    "value": "CDC Data Centres",
+    "source": 4,
+    "note": ""
+  },
+  "mw_it": {
+    "value": 155,
+    "source": 1,
+    "note": "datacentermap 'Brooklyn Campus One' 155MW (RenewMap per master.csv also 155); Baxtel says >150MW; may be first-stage/campus figure rather than single building"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": "not found; DJSIR says CDC Brooklyn+Laverton developments contribute >$4bn economic value (not capex)"
+  },
+  "planning": {
+    "authority": {
+      "value": "Brimbank City Council",
+      "source": 3,
+      "note": ""
+    },
+    "pathway": {
+      "value": "council planning permit",
+      "source": 3,
+      "note": "use and development for a data centre, DDO11, native vegetation removal, TZ2 access"
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": "Brimbank permit number not found; PlanningAlerts application id 2332618"
+    },
+    "lodged": {
+      "value": "2022-02",
+      "source": 3,
+      "precision": "month",
+      "note": "approximate: first published on council site by 5 Feb 2022"
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "precision": null,
+      "note": ""
+    },
+    "url": "https://www.planningalerts.org.au/applications/2332618"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": "only 'thousands of jobs' (campus-level, DJSIR)"
+  },
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_start": {
+    "value": "2022-05",
+    "source": 1,
+    "precision": "month",
+    "note": "per datacentermap as recorded in master.csv notes; page not re-fetched (blocked)"
+  },
+  "construction_end": {
+    "value": "2024-07",
+    "source": 2,
+    "precision": "month",
+    "note": "completed July 2024 (Baxtel/datacentermap)"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "builder (head contractor) for BK1 not found",
+    "planning permit number/decision date not found",
+    "address 594 vs 598 Geelong Road",
+    "mw_it 155 may be campus-stage not building"
+  ]
+}

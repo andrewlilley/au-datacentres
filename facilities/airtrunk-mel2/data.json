@@ -1,0 +1,114 @@
+{
+  "id": "airtrunk-mel2",
+  "name": "MEL2 Melbourne",
+  "operator": "AirTrunk",
+  "status": "under_construction",
+  "location": {
+    "address": {
+      "value": "85-95 Sharps Road, Tullamarine VIC",
+      "source": 4,
+      "note": "permit PA2403452 lists 85 Sharps Road; master.csv/press give 95 Sharps Rd"
+    },
+    "suburb": "Tullamarine",
+    "state": "VIC",
+    "postcode": {
+      "value": "3043",
+      "source": 2,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: geocoding services (nominatim) and aggregator pages blocked from this session"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded; see lat note"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": "not found"
+  },
+  "developer": {
+    "value": "AirTrunk",
+    "source": 1,
+    "note": "planning permit applicant was EMKC3 Pty Ltd (developer); AirTrunk added to permit after approval (source 5)"
+  },
+  "mw_it": {
+    "value": 354,
+    "source": 1,
+    "note": "'over 354MW' campus capacity at full build; likely IT capacity but not explicitly stated"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": 5000,
+    "source": 1,
+    "note": "'more than A$5 billion' direct investment, full multi-phase campus"
+  },
+  "planning": {
+    "authority": {
+      "value": "Minister for Planning (DTP)",
+      "source": 2,
+      "note": ""
+    },
+    "pathway": {
+      "value": "DFP",
+      "source": 2,
+      "note": "Development Facilitation Program ministerial permit"
+    },
+    "reference": {
+      "value": "PA2403452",
+      "source": 2,
+      "note": ""
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "precision": null,
+      "note": "not found; register record created ~Dec 2024"
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "precision": null,
+      "note": "approved (per source 5) but date not retrieved"
+    },
+    "url": "https://www.planning.vic.gov.au/planning-approvals/ministerial-permits-register/ministerial-permits/1ea17bd8-75be-ef11-b8e8-002248938a9c"
+  },
+  "jobs_construction": {
+    "value": 4000,
+    "source": 1,
+    "note": "'over 4,000 jobs' across multi-phase construction"
+  },
+  "jobs_operational": {
+    "value": 200,
+    "source": 1,
+    "note": "'over 200 direct jobs' once operational"
+  },
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": "not found; site acquisition announced Dec 2025"
+  },
+  "construction_end": {
+    "value": "2027",
+    "source": 1,
+    "precision": "year",
+    "note": "expected: first phase operational H2 2027; full multi-phase build later"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "planning permit lodged/determined dates not retrieved (register page blocked)",
+    "builder not found",
+    "status under_construction only per aggregator (datacenterHawk 'speculatively under construction')",
+    "lat/lon not geocoded"
+  ]
+}

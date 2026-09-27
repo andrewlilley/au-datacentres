@@ -1,0 +1,7 @@
+# Sources for pgim-truganina-b1
+
+1. realestatesource - Labor approves data centre half the size of the Rialto — https://www.realestatesource.com.au/green-light-for-data-centre-half-the-size-of-the-rialto/ — accessed 2026-09-27 — supports: approval of building 1 via DFP, mw_it 80, 43,357 sqm, 220kV connection
+2. Ministerial permit PA2504032 - Planning Victoria — https://www.planning.vic.gov.au/planning-approvals/ministerial-permits-register/ministerial-permits/5615befd-9bb3-f011-bbd2-7ced8d337ed8 — accessed 2026-09-27 — supports: planning.reference; applicant The Trust Company (Australia) Ltd as trustee of GDCF Truganina Trust; address (search snippet; page not fetchable)
+3. Mingtiandi - PGIM Buys Melbourne Site for Data Centre Campus, plans $850m first phase — https://www.mingtiandi.com/real-estate/data-centres/pgim-buys-melbourne-site-for-data-centre-campus-plans-850m-first-phase/ — accessed 2026-09-27 — supports: cost (A$1.2bn first of three phases), developer (PGIM Global Data Center Fund), 80MW initial
+4. The Urban Developer - PGIM Plots $1.2bn Data Centre for 20ha Truganina Site — https://www.theurbandeveloper.com/articles/us-fund-manager-pgim-buys-truganina-data-centre-site — accessed 2026-09-27 — supports: site, cost
+5. DCD - PGIM buys site for AU$1.2bn data center in Melbourne — https://www.datacenterdynamics.com/en/news/pgim-buys-site-for-au12bn-data-center-in-melbourne-australia/ — accessed 2026-09-27 — supports: cost, developer

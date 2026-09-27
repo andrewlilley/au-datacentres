@@ -1,0 +1,114 @@
+{
+  "id": "microsoft-woods-road",
+  "name": "Woods Road",
+  "operator": "Microsoft",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "283 Woods Road, Truganina VIC 3029",
+      "source": 3,
+      "note": "planning application address; master.csv has 281 Woods Road"
+    },
+    "suburb": "Truganina",
+    "state": "VIC",
+    "postcode": {
+      "value": "3029",
+      "source": 3,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: nominatim and map sites blocked by network proxy in this session"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: nominatim and map sites blocked by network proxy in this session"
+    }
+  },
+  "builder": {
+    "value": "Kapitol Group",
+    "source": 1,
+    "note": "general contractor; AusNet built substation/transmission"
+  },
+  "developer": {
+    "value": "Microsoft",
+    "source": 1,
+    "note": ""
+  },
+  "mw_it": {
+    "value": null,
+    "source": null,
+    "note": "Microsoft does not publish MW per building"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "planning": {
+    "authority": {
+      "value": null,
+      "source": null,
+      "note": "council not named in sources reached (Truganina split between Wyndham and Melton)"
+    },
+    "pathway": {
+      "value": "council planning permit",
+      "source": 3,
+      "note": "application on council system via PlanningAlerts"
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "lodged": {
+      "value": "2022-03",
+      "source": 3,
+      "precision": "month",
+      "note": "estimate: PlanningAlerts found application 1 Apr 2022; exact lodgement date not shown"
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "precision": null,
+      "note": ""
+    },
+    "url": "https://www.planningalerts.org.au/applications/2422481"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_start": {
+    "value": "2022-12-05",
+    "source": 4,
+    "precision": "day",
+    "note": "groundbreaking; Microsoft: construction began Dec 2022"
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": "Microsoft expected mid-2025; June 2025 update: structure/roof/facade complete, substation structural works begun; master.csv note ~60% operational Aug 2026 (not re-verified)"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "address 281 vs 283 Woods Road",
+    "planning authority/permit number not confirmed",
+    "status operational vs partly in fit-out",
+    "lat/lon not geocoded (proxy blocked)"
+  ]
+}

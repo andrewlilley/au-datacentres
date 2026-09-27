@@ -1,0 +1,112 @@
+{
+  "id": "stack-mel01b",
+  "name": "MEL01B (South)",
+  "operator": "STACK Infrastructure",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "399 Palmers Road, Truganina VIC 3029",
+      "source": 1,
+      "note": ""
+    },
+    "suburb": "Truganina",
+    "state": "VIC",
+    "postcode": {
+      "value": "3029",
+      "source": 1,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: nominatim and all map/aggregator pages unreachable from this session (egress blocked)"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: see lat note"
+    }
+  },
+  "builder": {
+    "value": "Hickory",
+    "source": 4,
+    "note": "Hickory contracted to build MEL01B following MEL01A"
+  },
+  "developer": {
+    "value": "STACK Infrastructure",
+    "source": 4,
+    "note": "campus originally developed by Hickory Data Centres; STACK owns/operates since 2022"
+  },
+  "mw_it": {
+    "value": 36,
+    "source": 4,
+    "note": "36MW critical IT, 'South' building, three levels, 12 data halls, air-cooled"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": "campus-level 135MW substation only"
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "planning": {
+    "authority": {
+      "value": null,
+      "source": null,
+      "note": "planning permit not found. Likely Wyndham City Council (site in Wyndham LGA) but not confirmed; PlanningAlerts shows a 20 Dec 2019 Wyndham application at 399 Palmers Rd for a warehouse (pre-Hickory purchase) and a March 2024 Wyndham application at 369 Palmers Rd for 'use and development of the land to construct a utility installation (data centre)' - applicant not identified"
+    },
+    "pathway": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": ""
+  },
+  "construction_end": {
+    "value": "2025-11",
+    "source": 3,
+    "precision": "month",
+    "note": "DCD Nov 2025: construction completed. Conflict: ITK/aggregators say MEL01A and B occupancy permits Aug 2023, but the Aug 2023 STACK/Hickory release (source 6) describes only the first 36MW phase as delivered and the second as upcoming, and MEL01B topped out later - 2025 best supported"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "construction start date not found",
+    "planning permit not found",
+    "lat/lon not geocoded (egress blocked)",
+    "MEL01B topping-out date unconfirmed (one search summary said Aug 2025)"
+  ]
+}

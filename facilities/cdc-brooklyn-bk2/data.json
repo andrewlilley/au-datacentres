@@ -1,0 +1,113 @@
+{
+  "id": "cdc-brooklyn-bk2",
+  "name": "Brooklyn BK2",
+  "operator": "CDC Data Centres",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "594 Geelong Road, Brooklyn VIC 3012",
+      "source": 8,
+      "note": "second-stage planning application is addressed 598B Geelong Road (north side of site)"
+    },
+    "suburb": "Brooklyn",
+    "state": "VIC",
+    "postcode": {
+      "value": "3012",
+      "source": 8,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: geocoder and map sites blocked by session network proxy"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: geocoder and map sites blocked by session network proxy"
+    }
+  },
+  "builder": {
+    "value": "Icon Co",
+    "source": 1,
+    "note": "main contractor; I&D Group frame contractor (Interspan)"
+  },
+  "developer": {
+    "value": "CDC Data Centres",
+    "source": 6,
+    "note": ""
+  },
+  "mw_it": {
+    "value": 200,
+    "source": 7,
+    "note": "RenewMap 'Brooklyn Campus Two' 200MW per master.csv, not re-verified; DCD says Feb 2026 opening added ~155MW"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": "not found"
+  },
+  "planning": {
+    "authority": {
+      "value": "Brimbank City Council",
+      "source": 3,
+      "note": ""
+    },
+    "pathway": {
+      "value": "council planning permit",
+      "source": 3,
+      "note": "development of part of land for data centre (second stage – north side), DDO11, TZ2 access"
+    },
+    "reference": {
+      "value": "P569/2023",
+      "source": 4,
+      "note": "mapping to BK2 inferred from 'second stage' description; a 2026 amendment was withdrawn 28/08/2026"
+    },
+    "lodged": {
+      "value": "2023-12",
+      "source": 3,
+      "precision": "month",
+      "note": "approximate: first published by 1 Dec 2023 (may have been lodged late Nov 2023)"
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "precision": null,
+      "note": ""
+    },
+    "url": "https://www.planningalerts.org.au/applications/3057139"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": "only 'thousands of jobs' (campus-level)"
+  },
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": ""
+  },
+  "construction_end": {
+    "value": "2025",
+    "source": 1,
+    "precision": "year",
+    "note": "Interspan: completion due late 2025 (expected at time); campus officially opened Feb 2026 (src 5)"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "P569/2023 decision date not found; confirm it is the BK2 permit",
+    "per-building MW uncertain (200 RenewMap vs ~155 DCD)",
+    "construction start not found"
+  ]
+}

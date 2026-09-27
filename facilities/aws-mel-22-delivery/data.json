@@ -1,0 +1,113 @@
+{
+  "id": "aws-mel-22-delivery",
+  "name": "MEL - 22 Delivery Drive",
+  "operator": "Amazon Web Services",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "22 Delivery Drive, Truganina VIC",
+      "source": 2,
+      "note": ""
+    },
+    "suburb": "Truganina",
+    "state": "VIC",
+    "postcode": {
+      "value": "3029",
+      "source": 2,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: geocoding services (nominatim) and aggregator pages blocked from this session"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded; see lat note"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": "not found"
+  },
+  "developer": {
+    "value": null,
+    "source": null,
+    "note": "not found; AWS does not disclose sites"
+  },
+  "mw_it": {
+    "value": null,
+    "source": null,
+    "note": "not published"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": "AWS announced A$6.8bn for the Melbourne region 2022-2037 (region-wide, not site-level) \u2014 not recorded"
+  },
+  "planning": {
+    "authority": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "pathway": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "precision": null,
+      "note": ""
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "precision": null,
+      "note": ""
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": ""
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": "AWS Melbourne region (ap-southeast-4) launched 2023-01-24; site attribution is third-party (source 1)"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "scope: MW unknown; site attribution to AWS is third-party only (AWS does not confirm)",
+    "no planning permit found (Wyndham City Council likely authority, unverified)",
+    "lat/lon not geocoded"
+  ]
+}

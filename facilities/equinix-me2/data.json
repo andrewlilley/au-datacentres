@@ -1,0 +1,113 @@
+{
+  "id": "equinix-me2",
+  "name": "ME2 Melbourne",
+  "operator": "Equinix",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "552-578 Lorimer Street, Port Melbourne VIC",
+      "source": 4,
+      "note": ""
+    },
+    "suburb": "Port Melbourne",
+    "state": "VIC",
+    "postcode": {
+      "value": "3207",
+      "source": 5,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: geocoding services (nominatim) and aggregator pages blocked from this session"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded; see lat note"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": "not found"
+  },
+  "developer": {
+    "value": "Equinix",
+    "source": 2,
+    "note": ""
+  },
+  "mw_it": {
+    "value": null,
+    "source": null,
+    "note": "not published by Equinix; aggregators give 2-3 MW (source 6) \u2014 unverified; 3,000 cabinets at full build"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": 117,
+    "source": 2,
+    "note": "A$117m (US$84m) initial investment; phase 2 added A$23m (source 3)"
+  },
+  "planning": {
+    "authority": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "pathway": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "precision": null,
+      "note": ""
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "precision": null,
+      "note": ""
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": ""
+  },
+  "construction_end": {
+    "value": "2020-02",
+    "source": 1,
+    "precision": "month",
+    "note": "phase 1 (1,000 cabinets) opened Feb 2020 (24 or 27 Feb per sources); phase 2 to 1,500 cabinets completed later (~2021-22)"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "scope: MW not published; aggregators suggest 2-3 MW (< 5 MW threshold) \u2014 likely out of scope",
+    "builder and planning permit not found",
+    "lat/lon not geocoded"
+  ]
+}

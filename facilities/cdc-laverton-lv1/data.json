@@ -1,0 +1,114 @@
+{
+  "id": "cdc-laverton-lv1",
+  "name": "Laverton LV1",
+  "operator": "CDC Data Centres",
+  "status": "under_construction",
+  "location": {
+    "address": {
+      "value": "20-38 Leakes Road, Laverton North VIC 3026",
+      "source": 2,
+      "note": "planning application address; datacenterHawk lists LV01 at 28-30 Leakes Road"
+    },
+    "suburb": "Laverton North",
+    "state": "VIC",
+    "postcode": {
+      "value": "3026",
+      "source": 2,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: geocoder and map sites blocked by session network proxy"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: geocoder and map sites blocked by session network proxy"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": "head contractor not found"
+  },
+  "developer": {
+    "value": "CDC Data Centres",
+    "source": 1,
+    "note": ""
+  },
+  "mw_it": {
+    "value": 150,
+    "source": 1,
+    "note": "150MW is the stated capacity of the Laverton campus first phase (campus-level), not necessarily one building"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": "CDC says campus will 'inject more than $2.7 billion into the economy during construction' - economic impact, not a stated capex; not recorded"
+  },
+  "planning": {
+    "authority": {
+      "value": "Wyndham City Council",
+      "source": 2,
+      "note": ""
+    },
+    "pathway": {
+      "value": "council planning permit",
+      "source": 2,
+      "note": "use and development of land for utility installation (data centre) and creation of access to a PAO2 road"
+    },
+    "reference": {
+      "value": "WYP14790/24",
+      "source": 2,
+      "note": "s72 amendment WYP14790/24.06 lodged Jan 2026 (src 6)"
+    },
+    "lodged": {
+      "value": "2024-10-02",
+      "source": 2,
+      "precision": "day",
+      "note": "received by council 3 days before PlanningAlerts capture on 5 Oct 2024"
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "precision": null,
+      "note": "decision date not found (presumably before Feb 2025 groundbreaking)"
+    },
+    "url": "https://www.planningalerts.org.au/applications/3206534"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": "CDC says 'thousands of local jobs' (campus-level, no number)"
+  },
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_start": {
+    "value": "2025-02-18",
+    "source": 3,
+    "precision": "day",
+    "note": "groundbreaking ceremony; master.csv notes say 17 Feb 2025"
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": "secondary sources suggest later phases ~2027; no LV1 date found"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "builder not found",
+    "permit decision date not found",
+    "cost: only $2.7bn economic-impact figure (campus)",
+    "building vs campus split of 150MW unclear"
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "id": "dover-sm1a",
+  "name": "SM1A South Morang",
+  "operator": "Dover DC",
+  "status": "approved",
+  "location": {
+    "address": {
+      "value": "765 Plenty Road and 525-535 McDonalds Road, South Morang VIC 3752",
+      "source": 1,
+      "note": ""
+    },
+    "suburb": "South Morang",
+    "state": "VIC",
+    "postcode": {
+      "value": "3752",
+      "source": 1,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: geocoder and map sites blocked by session network proxy"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: geocoder and map sites blocked by session network proxy"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": "not appointed/not found"
+  },
+  "developer": {
+    "value": "Dover DC",
+    "source": 1,
+    "note": "permit applicant PVAC Development Pty Ltd (src 2)"
+  },
+  "mw_it": {
+    "value": 120,
+    "source": 1,
+    "note": "'up to 120MW'"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": "not found"
+  },
+  "planning": {
+    "authority": {
+      "value": "Minister for Planning (VIC)",
+      "source": 1,
+      "note": ""
+    },
+    "pathway": {
+      "value": "Development Facilitation Program (DFP)",
+      "source": 1,
+      "note": ""
+    },
+    "reference": {
+      "value": "PA2402997",
+      "source": 2,
+      "note": "amendment PA2402997-1"
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "precision": null,
+      "note": ""
+    },
+    "determined": {
+      "value": "2024-09-12",
+      "source": 3,
+      "precision": "day",
+      "note": "amendments approved 2 Jun 2025 and 30 Oct 2025"
+    },
+    "url": "https://www.planning.vic.gov.au/planning-approvals/ministerial-permits-register/ministerial-permits/1b31ed89-8d2e-ef11-840a-000d3acb3ea1"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": "Dover: >1,750 FTE construction jobs (>750 direct, >1,000 indirect) for the SM project overall (SM1A+SM1B), not SM1A alone"
+  },
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": "expected late 2026 or early 2027 (Dover)"
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": "first phase expected to launch 2028/2029 (Dover)"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "cost not found",
+    "lodged date not found",
+    "jobs only stated for SM1A+SM1B combined",
+    "local opposition: parliamentary petition >4,600 signatures"
+  ]
+}

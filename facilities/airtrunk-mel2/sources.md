@@ -1,0 +1,8 @@
+# Sources for airtrunk-mel2
+
+1. AirTrunk: AirTrunk expands Australian platform with a second hyperscale data centre campus in Melbourne (Dec 2025; via search snippet, page blocked) — https://airtrunk.com/airtrunk-expands-australian-platform-with-a-second-hyperscale-data-centre-campus-in-melbourne/ — accessed 2026-09-27 — supports: 354MW, >A$5bn, >4,000 construction jobs, >200 operational jobs, open H2 2027
+2. Victorian ministerial permits register: PA2403452 (search snippet; page blocked) — https://www.planning.vic.gov.au/planning-approvals/ministerial-permits-register/ministerial-permits/1ea17bd8-75be-ef11-b8e8-002248938a9c — accessed 2026-09-27 — supports: permit ref, 85 Sharps Road Tullamarine, DFP, applicant EMKC3 Pty Ltd, data centre (utility installation)
+3. CRN: AirTrunk unveils second Melbourne campus, operational from 2027 — https://www.crn.com.au/news/2026/data-centre/airtrunk-new-melbourne-location-mel2 — accessed 2026-09-27 — supports: operational from 2027
+4. datacenterHawk: AirTrunk MEL2, 85-95 Sharps Road (search snippet) — https://datacenterhawk.com/marketplace/providers/airtrunk/85-95-sharps-road/mel2 — accessed 2026-09-27 — supports: address 85-95 Sharps Road; under construction
+5. Civic Interplay: AI Sovereignties (search snippet) — https://civicinterplay.io/sovereignties/ — accessed 2026-09-27 — supports: permit approved in name of EMKC3, AirTrunk name added after approval by correction
+6. Telecom Ramblings newswire: AirTrunk press release, Dec 2025 — https://newswire.telecomramblings.com/2025/12/airtrunk-expands-australian-platform-with-a-second-hyperscale-data-centre-campus-in-melbourne/ — accessed 2026-09-27 — supports: announcement date Dec 2025

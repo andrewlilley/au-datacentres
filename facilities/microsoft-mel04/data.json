@@ -1,0 +1,114 @@
+{
+  "id": "microsoft-mel04",
+  "name": "Cawley Road Building One (MEL04)",
+  "operator": "Microsoft",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "20-28 Cawley Road, Yarraville VIC 3013",
+      "source": 2,
+      "note": ""
+    },
+    "suburb": "Yarraville/Brooklyn",
+    "state": "VIC",
+    "postcode": {
+      "value": "3013",
+      "source": 2,
+      "note": "postcode from master.csv address; source gives street address and suburb Yarraville"
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: nominatim and map sites blocked by network proxy in this session"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: nominatim and map sites blocked by network proxy in this session"
+    }
+  },
+  "builder": {
+    "value": "Kapitol Group",
+    "source": 3,
+    "note": "general contractor"
+  },
+  "developer": {
+    "value": "Microsoft",
+    "source": 2,
+    "note": ""
+  },
+  "mw_it": {
+    "value": null,
+    "source": null,
+    "note": "Microsoft does not publish MW per building"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": 150,
+    "source": 2,
+    "note": "reported project value at lodgement of MEL4 application (The Urban Developer); not a planning-document figure"
+  },
+  "planning": {
+    "authority": {
+      "value": "Maribyrnong City Council",
+      "source": 2,
+      "note": "inferred: article says MEL4 lodged and MEL5 'yet to be put forward to the City of Maribyrnong'"
+    },
+    "pathway": {
+      "value": "council planning permit",
+      "source": 2,
+      "note": "inferred from council lodgement"
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "precision": null,
+      "note": ""
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "precision": null,
+      "note": ""
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_start": {
+    "value": "2022-12-05",
+    "source": 3,
+    "precision": "day",
+    "note": "groundbreaking ceremony; one Microsoft extract says construction began Oct 2022"
+  },
+  "construction_end": {
+    "value": "2024-05",
+    "source": 3,
+    "precision": "month",
+    "note": "Kapitol practical completion May 2024; Microsoft says fully operational Feb 2025"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "planning permit number and dates not found",
+    "lat/lon not geocoded (proxy blocked)",
+    "MW not public (~5,000 sqm data hall + plant)",
+    "suburb Yarraville vs Brooklyn in Microsoft blog"
+  ]
+}

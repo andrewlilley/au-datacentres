@@ -1,0 +1,113 @@
+{
+  "id": "pgim-truganina-b1",
+  "name": "1 Oroya Drive Building 1",
+  "operator": "PGIM",
+  "status": "approved",
+  "location": {
+    "address": {
+      "value": "1 Oroya Drive, Truganina VIC 3029",
+      "source": 2,
+      "note": ""
+    },
+    "suburb": "Truganina",
+    "state": "VIC",
+    "postcode": {
+      "value": "3029",
+      "source": 2,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: web fetch (nominatim, planning portal, datacentermap/baxtel) blocked from this session"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: web fetch (nominatim, planning portal, datacentermap/baxtel) blocked from this session"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "developer": {
+    "value": "PGIM Real Estate (Global Data Center Fund)",
+    "source": 3,
+    "note": "permit applicant is The Trust Company (Australia) Ltd as trustee of GDCF Truganina Trust"
+  },
+  "mw_it": {
+    "value": 80,
+    "source": 1,
+    "note": "building 1 capacity per realestatesource; PGIM says initial 80MW, more subject to power"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": 1200,
+    "source": 3,
+    "note": "A$1.2bn is PGIM's stated investment for the first of three campus phases; not confirmed as building-1-only cost"
+  },
+  "planning": {
+    "authority": {
+      "value": "Victorian Minister for Planning",
+      "source": 1,
+      "note": "DFP ministerial permit"
+    },
+    "pathway": {
+      "value": "Development Facilitation Program (DFP)",
+      "source": 1,
+      "note": ""
+    },
+    "reference": {
+      "value": "PA2504032",
+      "source": 2,
+      "note": "matched by address and applicant (GDCF trust); not confirmed that this is the approved building-1 permit rather than a separate application"
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "precision": null,
+      "note": ""
+    },
+    "determined": {
+      "value": "2026-09",
+      "source": 1,
+      "precision": "month",
+      "note": "approval reported Sep 2026 by realestatesource; exact date not checked on register"
+    },
+    "url": "https://www.planning.vic.gov.au/planning-approvals/ministerial-permits-register/ministerial-permits/5615befd-9bb3-f011-bbd2-7ced8d337ed8"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": ""
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": ""
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "planning.reference PA2504032 needs confirming against register",
+    "cost is phase-level (A$1.2bn), building-1 split unknown",
+    "lat/lon not geocoded (fetch blocked)"
+  ]
+}

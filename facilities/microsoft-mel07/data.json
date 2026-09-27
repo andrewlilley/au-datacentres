@@ -1,0 +1,114 @@
+{
+  "id": "microsoft-mel07",
+  "name": "Garden Drive (MEL07)",
+  "operator": "Microsoft",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "70-90 Garden Drive, Tullamarine VIC 3043",
+      "source": 3,
+      "note": ""
+    },
+    "suburb": "Tullamarine",
+    "state": "VIC",
+    "postcode": {
+      "value": "3043",
+      "source": 3,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: nominatim and map sites blocked by network proxy in this session"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: nominatim and map sites blocked by network proxy in this session"
+    }
+  },
+  "builder": {
+    "value": "BESIX Watpac",
+    "source": 2,
+    "note": "head contractor, awarded Aug 2022"
+  },
+  "developer": {
+    "value": "Microsoft",
+    "source": 1,
+    "note": ""
+  },
+  "mw_it": {
+    "value": null,
+    "source": null,
+    "note": "Microsoft does not publish MW per building"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "planning": {
+    "authority": {
+      "value": "Hume City Council",
+      "source": 3,
+      "note": ""
+    },
+    "pathway": {
+      "value": "council planning permit",
+      "source": 3,
+      "note": ""
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": "council reference not shown in sources reached"
+    },
+    "lodged": {
+      "value": "2022-04",
+      "source": 3,
+      "precision": "month",
+      "note": "estimate: PlanningAlerts found it 13 May 2022 and says received about 1 month earlier"
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "precision": null,
+      "note": ""
+    },
+    "url": "https://www.planningalerts.org.au/applications/2490264"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_start": {
+    "value": "2022-10",
+    "source": 2,
+    "precision": "month",
+    "note": "groundworks commenced Oct 2022; sod turning 5 Dec 2022"
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": "Microsoft expected completion end-2024; master.csv note says ~60% operational Aug 2026 (not re-verified)"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "permit number/decision date not found",
+    "2025 re-application (Jul 2025) for the two data centres - scope of amendment unknown",
+    "actual completion date unknown",
+    "lat/lon not geocoded (proxy blocked)"
+  ]
+}

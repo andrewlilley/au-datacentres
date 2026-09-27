@@ -1,0 +1,113 @@
+{
+  "id": "nextdc-m3",
+  "name": "M3 Melbourne",
+  "operator": "NEXTDC",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "25 Indwe Street, West Footscray VIC 3012",
+      "source": 1,
+      "note": "realestatesource gives 25-27 Indwe Street for the original permit; campus since extended to 1 and 1-13 Paramount Road and 39 Indwe St"
+    },
+    "suburb": "West Footscray",
+    "state": "VIC",
+    "postcode": {
+      "value": "3012",
+      "source": 1,
+      "note": ""
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: web fetch (nominatim, planning portal, datacentermap/baxtel) blocked from this session"
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "not geocoded: web fetch (nominatim, planning portal, datacentermap/baxtel) blocked from this session"
+    }
+  },
+  "builder": {
+    "value": "Kapitol Group",
+    "source": 2,
+    "note": "principal contractor for M3 (stage 1); builder for later phases not confirmed"
+  },
+  "developer": {
+    "value": "NEXTDC",
+    "source": 1,
+    "note": ""
+  },
+  "mw_it": {
+    "value": 225,
+    "source": 1,
+    "note": "master-plan IT capacity quoted by NEXTDC; original permit/launch quoted 150MW (source 4); built capacity lower (first phase 13.5MW; +42MW FY26 per master.csv)"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": 229,
+    "source": 4,
+    "note": "development cost of original 150MW M3 permit per realestatesource; 4D Workshop/Unison quote $1.5bn project value for full campus"
+  },
+  "planning": {
+    "authority": {
+      "value": "Maribyrnong City Council",
+      "source": 4,
+      "note": "original permit reportedly granted by council (search snippet: approved 2021, ~80 objections); expansion PA2604231 is with Minister for Planning under DFP"
+    },
+    "pathway": {
+      "value": "local council planning permit",
+      "source": 4,
+      "note": ""
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "precision": null,
+      "note": ""
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "precision": null,
+      "note": "search snippet (source unclear: Gadens/Substack fact sheet) says council approved original permit in 2021; unverified"
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": ""
+  },
+  "construction_end": {
+    "value": "2022-09",
+    "source": 2,
+    "precision": "month",
+    "note": "stage 1 completion per Kapitol; opened Oct 2022; further phases ongoing (165MW in progress for FY27)"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "council permit number and dates not found (register not reachable)",
+    "phased campus: construction_end refers to stage 1 only",
+    "lat/lon not geocoded (fetch blocked)"
+  ]
+}
