@@ -1,0 +1,105 @@
+{
+  "id": "cdc-ec3",
+  "name": "CDC Eastern Creek 3",
+  "operator": "CDC Data Centres",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "17 Roberts Road, Eastern Creek NSW 2766",
+      "source": 5,
+      "note": "Campus address; Lot 2 DP 1159804 per SSD-10330 SEARs request."
+    },
+    "suburb": "Eastern Creek",
+    "state": "NSW",
+    "postcode": {
+      "value": "2766",
+      "source": 6
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "Not geocoded: Nominatim and other geocoders (and all planning/operator sites) were blocked by the session's egress proxy. Geocode 17 Roberts Road, Eastern Creek NSW 2766 (Lot 2 DP 1159804) later."
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "Not geocoded: Nominatim and other geocoders (and all planning/operator sites) were blocked by the session's egress proxy. Geocode 17 Roberts Road, Eastern Creek NSW 2766 (Lot 2 DP 1159804) later."
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": "Not found."
+  },
+  "developer": {
+    "value": "CDC Data Centres",
+    "source": 1
+  },
+  "mw_it": {
+    "value": 42,
+    "source": 3,
+    "note": "42 MW per DCD Dec 2022 and Baxtel (source 2); CDC Oct 2019 deck reportedly 25 MW (per master.csv notes, not re-verified)."
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null
+  },
+  "planning": {
+    "authority": {
+      "value": null,
+      "source": null,
+      "note": "Not identified. SSD-10330 was determined 14 Jul 2020 but EC3 was complete by Feb 2021, so EC3 may have been approved separately (council DA or other); unconfirmed."
+    },
+    "pathway": {
+      "value": null,
+      "source": null
+    },
+    "reference": {
+      "value": null,
+      "source": null
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "precision": null
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "precision": null
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": "Not found; EIS jobs figures not accessible (portal blocked). CDC says campus construction since 2018 'created hundreds of jobs'."
+  },
+  "jobs_operational": {
+    "value": null,
+    "source": null
+  },
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": "CDC says Eastern Creek campus construction began in 2018; EC3-specific start not found."
+  },
+  "construction_end": {
+    "value": "2021-02",
+    "source": 1,
+    "precision": "month",
+    "note": "Reported as completed (fit-out ongoing) in 16 Feb 2021 presentation, i.e. completed on or before this; Baxtel gives operational 2021 (source 2)."
+  },
+  "open_questions": [
+    "planning approval pathway/reference for EC3 not found (SSD-10330 or separate DA?)",
+    "builder not found",
+    "mw_it: 42 MW (2022) vs 25 MW (2019 plan)",
+    "lat/lon not geocoded (geocoder blocked)."
+  ],
+  "last_checked": "2026-09-27"
+}

@@ -1,0 +1,11 @@
+# Sources for cdc-ec3
+
+All accessed 2026-09-27. Note: WebFetch/curl to all these hosts was blocked by the session egress proxy, so facts were taken from web-search result snippets/summaries of these pages; verify against the originals in Phase 4.
+
+1. https://infratil.com/news/infratil-2021-investor-day/cdc-data-centres/ (accessed 2026-09-27) - CDC Infratil investor day presentation 16 Feb 2021: Eastern Creek 3 completed, customer fit-out works ongoing. (Search snippet.)
+2. https://baxtel.com/data-center/cdc-eastern-creek-3 (accessed 2026-09-27) - Baxtel EC3 page: third building, operational 2021, 42 MW. (Search snippet.)
+3. https://www.datacenterdynamics.com/en/news/cdc-planning-two-more-data-center-buildings-at-eastern-creek-campus-in-sydney-australia/ (accessed 2026-09-27) - DCD, Dec 2022: EC1 7 MW, EC2 20 MW, EC3 42 MW, EC4 54 MW (total 123 MW); EC5+EC6 to add 108 MW. (Search snippet; fetch blocked.)
+4. https://cdc.com/locations/sydney/ (accessed 2026-09-27) - CDC Sydney locations page: Eastern Creek campus has four operational data centres (EC1-EC4) and two under construction (EC5, EC6); >200 MW campus. (Search snippet.)
+5. https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-575%2120190510T023834.435+GMT (accessed 2026-09-27) - Request for SEARs, 9 May 2019, prepared for Canberra Data Centres Pty Ltd: 17 Roberts Road, Eastern Creek, Lot 2 DP 1159804; SSDA for site preparation, four large warehouse (data centre) buildings, ancillary office; estimated capital investment value $506,109,930. (Search snippet; fetch blocked.)
+6. https://www.planningalerts.org.au/applications/2079307 (accessed 2026-09-27) - PlanningAlerts, 12 Aug 2021 (Blacktown City Council): request for comments re EIS, Roberts Road Data Centre SSD-10330 - 4 x 3-storey buildings, 42,170 m2 GFA, 2 office buildings; search summary associates it with Data Centre Building EC4. Postcode 2766. (Search snippet.)
+7. https://www.arnnet.com.au/article/1257955/cdc-officially-opens-1-5b-eastern-creek-data-centre.html (accessed 2026-09-27) - ARN, Dec 2022: CDC officially opened A$1.5bn Eastern Creek campus (6 Dec 2022); four data centres, combined 123 MW; construction of two more (EC5, EC6) to start next year adding 108 MW; further A$1bn investment. (Search snippet.)

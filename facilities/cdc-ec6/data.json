@@ -1,0 +1,109 @@
+{
+  "id": "cdc-ec6",
+  "name": "CDC Eastern Creek 6",
+  "operator": "CDC Data Centres",
+  "status": "under_construction",
+  "location": {
+    "address": {
+      "value": "17 Roberts Road, Eastern Creek NSW 2766",
+      "source": 6,
+      "note": "Campus address; Lot 2 DP 1159804 per SSD-10330 SEARs request."
+    },
+    "suburb": "Eastern Creek",
+    "state": "NSW",
+    "postcode": {
+      "value": "2766",
+      "source": 11
+    },
+    "lat": {
+      "value": null,
+      "source": null,
+      "note": "Not geocoded: Nominatim and other geocoders (and all planning/operator sites) were blocked by the session's egress proxy. Geocode 17 Roberts Road, Eastern Creek NSW 2766 (Lot 2 DP 1159804) later."
+    },
+    "lon": {
+      "value": null,
+      "source": null,
+      "note": "Not geocoded: Nominatim and other geocoders (and all planning/operator sites) were blocked by the session's egress proxy. Geocode 17 Roberts Road, Eastern Creek NSW 2766 (Lot 2 DP 1159804) later."
+    }
+  },
+  "builder": {
+    "value": "Hindmarsh",
+    "source": 1,
+    "note": "Apollo Fabrication: 'continuing its partnership with Hindmarsh to deliver EC5 & EC6'."
+  },
+  "developer": {
+    "value": "CDC Data Centres",
+    "source": 2
+  },
+  "mw_it": {
+    "value": null,
+    "source": null,
+    "note": "EC5+EC6 combined 108 MW IT (ARN/IT Brief Dec 2022, source 2); per-building split not stated. ITK lists 79 MW each (per master.csv, not re-verified)."
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null
+  },
+  "cost_aud_m": {
+    "value": 1000,
+    "source": 2,
+    "note": "Announced additional A$1bn investment covering EC5 and EC6 together (not apportioned). SSD-10330 CIV $506.1m (source 6) covers the original four-building scheme."
+  },
+  "planning": {
+    "authority": {
+      "value": "NSW Department of Planning, Industry and Environment (now DPHI)",
+      "source": 7
+    },
+    "pathway": {
+      "value": "SSD",
+      "source": 7
+    },
+    "reference": {
+      "value": "SSD-10330",
+      "source": 7,
+      "note": "Built under SSD-10330 and modifications (e.g. Mod-2 generators, source 9); CC-24-00558 early works for EC6 (source 10)."
+    },
+    "lodged": {
+      "value": "2019-11",
+      "source": 8,
+      "precision": "month",
+      "note": "Inferred from EIS document upload timestamp (28 Nov 2019) on the portal; formal lodgement date not seen. SEARs requested 9 May 2019."
+    },
+    "determined": {
+      "value": "2020-07-14",
+      "source": 7,
+      "precision": "day",
+      "note": "Per search summary of portal project page; not directly viewed."
+    },
+    "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/roberts-road-data-centre"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": "Not found; EIS jobs figures not accessible (portal blocked). CDC says campus construction since 2018 'created hundreds of jobs'."
+  },
+  "jobs_operational": {
+    "value": null,
+    "source": null
+  },
+  "construction_start": {
+    "value": "2023",
+    "source": 2,
+    "precision": "year",
+    "note": "Estimate: Dec 2022 announcement said construction of EC5/EC6 would start 'next year'; actual start date not confirmed. Construction certificate CC-24-00558 for EC6 structure to level 03 recorded Aug 2024 (source 10)."
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "precision": null,
+    "note": "Sep 2025: CDC 'nearing completion of EC5/6' (source 4); CDC site still lists under construction. master.csv notes 103 MW added at Eastern Creek in Mar-2026 quarter (Infratil Apr 2026 newsletter, not verified)."
+  },
+  "open_questions": [
+    "completion date not confirmed (Infratil Apr 2026 newsletter / Mar 2026 CDC presentation not accessible)",
+    "mw_it per building not stated (108 MW combined with EC5; ITK 79 MW each)",
+    "cost is a combined EC5+EC6 figure",
+    "jobs figures not found",
+    "lat/lon not geocoded (geocoder blocked)."
+  ],
+  "last_checked": "2026-09-27"
+}
