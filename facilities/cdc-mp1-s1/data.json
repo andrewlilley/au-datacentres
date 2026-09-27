@@ -121,6 +121,7 @@
     "Operational status rests on Built's CEMP naming 'CDC MP1.1 Operational Facility' (and assumes MP1.1 = MP1.S1); completion / go-live date not found",
     "Builder: Hindmarsh Constructions per iCost search extract only (page now 404; not on Hindmarsh website) - unverified",
     "Relationship to 'MP1.EXT' (7.5 MW portion on CEMP drawings, under construction by Built in Mar 2026) unclear - may be an extension of this building under the SSD",
-    "5 MW treated as IT load by inference from campus arithmetic (504 = 79 + 5x84 + 5); not explicitly labelled IT"
+    "5 MW treated as IT load by inference from campus arithmetic (504 = 79 + 5x84 + 5); not explicitly labelled IT",
+    "status 'operational' accepted on available evidence (decision 2026-09-27); confirm when a commencement/completion record appears"
   ]
 }
