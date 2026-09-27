@@ -40,7 +40,7 @@
   "mw_it": {
     "value": 20,
     "source": 3,
-    "note": "phase 1 only: 'The first phase boasts 20MW of capacity' (iTnews 20 Sep 2017; Richard Crookes: 8 data halls, 20MW). Phase 2 10MW due mid-2018 (source 3). 2017 master plan >80MW over four phases; campus now 130MW+ across five buildings / 42 data halls, final phase (40+MW) completed July 2022 (sources 5, 6)"
+    "note": "phase 1 only: 'The first phase boasts 20MW of capacity' (iTnews 20 Sep 2017; Richard Crookes: 8 data halls, 20MW). Later phases are separate rows: airtrunk-syd1-phase2 (10MW, due mid-2018), airtrunk-syd1-phase3-4 (grouped, ~60MW derived) and airtrunk-syd1-healey (24 Healey Circuit, fifth building, 40+MW, July 2022). 2017 master plan >80MW over four phases; campus now 130MW+ across five buildings / 42 data halls (sources 5, 6)"
   },
   "mw_grid": {
     "value": null,
@@ -50,7 +50,7 @@
   "cost_aud_m": {
     "value": 47.53,
     "source": 1,
-    "note": "Capital investment value $47,529,862 for the whole 8-stage DA JRPP-16-03318 (not phase 1 alone). Alternative: iTnews says AirTrunk launched the facility 'after spending more than $200 million' (source 3), which likely includes land ($31m purchase from Frasers Australia, Sep 2016, source 8, snippet only) and fit-out"
+    "note": "Capital investment value $47,529,862 for the whole 8-stage DA JRPP-16-03318 (not phase 1 alone). Alternative: iTnews says AirTrunk launched the facility 'after spending more than $200 million' (source 3), which likely includes land ($31m purchase from Frasers Australia, Sep 2016, source 8, snippet only) and fit-out. The CIV also covers later phases on this lot (airtrunk-syd1-phase2, airtrunk-syd1-phase3-4); the 24 Healey Circuit building has its own DA (airtrunk-syd1-healey)"
   },
   "planning": {
     "authority": {
@@ -89,7 +89,15 @@
     "scope": null,
     "note": "No construction workforce figure found. iTnews/Richard Crookes: phase 1 'took 460,000 hours of work over 44 weeks' (work hours, not a jobs figure)"
   },
-  "jobs_construction_other": [],
+  "jobs_construction_other": [
+    {
+      "value": 300,
+      "source": 10,
+      "basis": "unstated",
+      "scope": "unstated",
+      "note": "AirTrunk 2017 launch release quoting NSW Western Sydney minister: 'building this centre has created around 300 jobs'"
+    }
+  ],
   "jobs_operational": {
     "value": 180,
     "source": 3,
@@ -104,6 +112,13 @@
       "basis": "ongoing_headcount",
       "scope": "direct",
       "note": "JRPP report 5.3: '10 to 21 employees are anticipated to be on site at any one time' (on-site concurrency, full 8-stage DA)"
+    },
+    {
+      "value": 180,
+      "source": 10,
+      "basis": "ongoing_headcount",
+      "scope": "unstated",
+      "note": "same release: '180 more people will be employed here permanently' (matches iTnews figure)"
     }
   ],
   "construction_start": {
@@ -120,7 +135,6 @@
   "last_checked": "2026-09-27",
   "open_questions": [
     "builder source (Richard Crookes page) seen only in search snippet; page removed",
-    "whether later SYD1 phases (phase 2 10MW mid-2018; phases 3-5 to 2022, 130MW+ total; 24 Healey Circuit extension) need separate rows",
     "construction start date not found",
     "cost: DA CIV $47.5m covers all 8 stages vs '>$200m' spend reported at launch"
   ]

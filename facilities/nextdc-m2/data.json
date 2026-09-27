@@ -1,6 +1,6 @@
 {
   "id": "nextdc-m2",
-  "name": "NEXTDC M2 Melbourne",
+  "name": "NEXTDC M2 Melbourne Stage 1",
   "operator": "NEXTDC",
   "status": "operational",
   "location": {
@@ -30,7 +30,7 @@
   "builder": {
     "value": "FDC Construction & Fitout",
     "source": 4,
-    "note": "FDC project page for NEXTDC M2 (base building, Data Hall 1, site remediation); stage not stated but Kapitol's portfolio starts at Stage 2 (Jan 2019), so FDC is taken as the original (Stage 1) builder. Later stages 2-6 by Kapitol Group (source 6)"
+    "note": "FDC project page for NEXTDC M2 (base building, Data Hall 1, site remediation); stage not stated but Kapitol's portfolio starts at Stage 2 (Jan 2019), so FDC is taken as the Stage 1 builder. Later stages by Kapitol Group (source 6): see nextdc-m2-stage2, nextdc-m2-stage4, nextdc-m2-stage5, nextdc-m2-stage6, nextdc-m2-stage9-11"
   },
   "developer": {
     "value": "NEXTDC",
@@ -38,9 +38,9 @@
     "note": ""
   },
   "mw_it": {
-    "value": 40,
-    "source": 3,
-    "note": "target capacity at opening: FY17 Annual Report (Aug 2017) 'an increase in the target capacity of M2 by 15MW to 40MW'. At announcement (May 2016): 2MW initial, 25MW planned (source 1). Now marketed as 120MW+ (source 7), with later stages (Kapitol stages 2, 4, 5, 6: +6, +10, +15, +8 MW) and a 60MW expansion in the existing building"
+    "value": null,
+    "source": null,
+    "note": "This row is Stage 1 only (FDC base building, opened Nov 2017). No source states Stage 1's own IT capacity. At announcement (May 2016): 2MW initial, 25MW planned (source 1); FY17 AR: M2 target capacity raised to 40MW (source 3) - both are whole-site targets, not Stage 1. Derived estimate (not stated by any source): NEXTDC FY20 deck gives M2 installed capacity 10MW at 30 Jun 2020 (source 11), and Stage 2 (Jan 2019) added 6MW (source 6), leaving ~4MW for Stage 1; FY19 AR says M2's third data hall opened in FY19 (source 12) and Stage 2 had two data halls, so Stage 1 had one fitted data hall. The Stage 1 building's design capacity may exceed its ~4MW fitted capacity, but no figure was found. Later stages are separate rows: nextdc-m2-stage2 (6MW), nextdc-m2-stage4 (18MW), nextdc-m2-stage5 (15MW), nextdc-m2-stage6 (8MW), nextdc-m2-stage9-11 (60MW, under construction); campus now marketed as 120MW+ (source 7)"
   },
   "mw_grid": {
     "value": null,
@@ -54,29 +54,29 @@
   },
   "planning": {
     "authority": {
-      "value": null,
-      "source": null,
-      "note": "likely Hume City Council (site in City of Hume); permit not found"
+      "value": "Brimbank City Council",
+      "source": 13,
+      "note": "75 Sharps Rd is in the City of Brimbank (Brimbank planning register; PlanningAlerts P341/2022 at 75 Sharps Rd, source 14), not Hume as earlier assumed"
     },
     "pathway": {
-      "value": null,
-      "source": null,
+      "value": "council planning permit (Planning and Environment Act 1987)",
+      "source": 13,
       "note": ""
     },
     "reference": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "P589/2016",
+      "source": 13,
+      "note": "the Brimbank register lists P589/2016 as the data centre permit for 75 Sharps Rd (amendments Pt 5-7, 2023-2025). The register starts Dec 2018, so the original 2016 grant is not listed; taking P589/2016 as the Stage 1 permit rests on its 2016 number and the site (inference)"
     },
     "lodged": {
       "value": null,
       "source": null,
-      "note": ""
+      "note": "2016 per permit number; exact date not found"
     },
     "determined": {
       "value": null,
       "source": null,
-      "note": ""
+      "note": "not found"
     },
     "url": null
   },
@@ -124,8 +124,8 @@
   },
   "last_checked": "2026-09-27",
   "open_questions": [
-    "Hume City Council planning permit number/dates not found",
-    "mw_it for this row: 40MW target at opening vs 120MW+ current; later stages (Kapitol stages 2-6) may merit separate rows",
+    "scope: Stage 1 IT capacity not stated; derived ~4MW (M2 installed 10MW at FY20 minus Stage 2's 6MW) would be below the 5 MW floor - consider merging Stages 1-2 (10MW) or treating as out of scope",
+    "planning permit P589/2016: original grant date not found (Brimbank register starts Dec 2018)",
     "FDC stage not explicitly stated on its page",
     "construction start date not found"
   ]

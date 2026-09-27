@@ -1,0 +1,119 @@
+{
+  "id": "airtrunk-syd1-healey",
+  "name": "AirTrunk SYD1 Sydney West (24 Healey Circuit building, phase 5)",
+  "operator": "AirTrunk",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "24 Healey Circuit, Huntingwood NSW 2148 (Lot 201 DP 866346)",
+      "source": 1,
+      "note": "DA condition 3.2.1 requires Lot 201 DP 866346 to be consolidated with Lot 2020 DP 877343 (35 Huntingwood Drive) into one title (source 3), so the building may now sit on the consolidated SYD1 lot"
+    },
+    "suburb": "Huntingwood",
+    "state": "NSW",
+    "postcode": {
+      "value": "2148",
+      "source": 2,
+      "note": ""
+    },
+    "lat": {
+      "value": -33.80065,
+      "source": 4,
+      "note": "Geocoded 2026-09-27 from '24 Healey Circuit, Huntingwood NSW 2148' with the ArcGIS World Geocoder (PointAddress, score 100); address point, not the building centroid"
+    },
+    "lon": {
+      "value": 150.88067,
+      "source": 4,
+      "note": "see lat note"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": "not found. beyondfire lists AW Edwards as builder for 'Airtrunk SYD1' generally (source 9), not this building specifically"
+  },
+  "developer": {
+    "value": "AirTrunk",
+    "source": 1,
+    "note": "owners Marinucci Holdings Pty Ltd & Airtrunk Pty Ltd; applicant Ashleigh Keyser (EMKC)"
+  },
+  "mw_it": {
+    "value": 40,
+    "source": 6,
+    "note": "'40+MW phase' (fifth and last SYD1 building, completed July 2022). That the fifth building is the 24 Healey Circuit building is an inference: AirTrunk bought land adjacent to SYD1 in 2019 to take it to 130+ MW (source 7); the Healey Circuit DA (approved Mar 2020) is the only SYD1 DA after the original 8-stage consent; its 10,166 sqm data hall plus the original DA's 23,080 sqm (source 12) (~33,250 sqm) is close to the campus 35,000 sqm technical space (source 8); Cordell lists a project 'AIRTRUNK SYD1 PHASE 5' that came up in a Healey Circuit search (source 10, title only)"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": "not stated"
+  },
+  "cost_aud_m": {
+    "value": 46.14,
+    "source": 2,
+    "note": "capital investment value $46,141,584 (planning panel project page)"
+  },
+  "planning": {
+    "authority": {
+      "value": "Sydney Central City Planning Panel (assessed by Blacktown City Council)",
+      "source": 1,
+      "note": "regional development, CIV over $30 million"
+    },
+    "pathway": {
+      "value": "Development application (regional development, planning panel determination), s4.16 EP&A Act 1979",
+      "source": 1,
+      "note": "separate DA, not a modification of JRPP-16-03318. Demolition of the existing warehouse and construction of a 4 storey data centre 'used in conjunction with the existing data centre on the adjoining site at 35 Huntingwood Drive'. Data hall 10,166 sqm; technology storage 5,500 sqm; office 631 sqm (source 5)"
+    },
+    "reference": {
+      "value": "SPP-19-00014 (panel ref PPSSCC-57)",
+      "source": 1,
+      "note": ""
+    },
+    "lodged": {
+      "value": "2019-11-22",
+      "source": 2,
+      "note": "",
+      "precision": "day"
+    },
+    "determined": {
+      "value": "2020-03-26",
+      "source": 1,
+      "note": "approved unanimously at teleconference meeting 26 March 2020",
+      "precision": "day"
+    },
+    "url": "https://www.planningportal.nsw.gov.au/planning-panel/demolition-existing-warehouse-facility-and-construction-data-centre"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": "no workforce figure. AirTrunk: the 40+ MW phase had 'zero lost time injuries (LTIs) across 220,000 work hours' (source 6); work hours, not a jobs figure"
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": 10,
+    "source": 5,
+    "basis": "ongoing_headcount",
+    "scope": "direct",
+    "note": "assessment report Attachment 4, 4.2: 'The proposed number of staff will be between 7 and 10 at maximum' (3 shifts, 24/7)"
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "note": "not found; after DA approval on 26 Mar 2020"
+  },
+  "construction_end": {
+    "value": "2022-07",
+    "source": 11,
+    "note": "Baxtel: final (fifth) SYD1 building, 40+MW phase, completed July 2022, 'two months ahead of schedule' (also AirTrunk LinkedIn, source 6). Applies to this building only via the fifth-building inference in mw_it note",
+    "precision": "month"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "identity of Healey Circuit building as SYD1 phase 5 / fifth building (40+ MW, Jul 2022) is inferred, not stated by a source",
+    "builder (head contractor) not found",
+    "construction start date not found",
+    "assessment report main body is a scanned PDF (not text-readable); only attachments read"
+  ]
+}

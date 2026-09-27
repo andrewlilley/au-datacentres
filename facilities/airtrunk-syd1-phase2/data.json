@@ -1,0 +1,120 @@
+{
+  "id": "airtrunk-syd1-phase2",
+  "name": "AirTrunk SYD1 Sydney West (phase 2)",
+  "operator": "AirTrunk",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "35 Huntingwood Drive, Huntingwood NSW 2148 (Lot 2020 DP 877343)",
+      "source": 1,
+      "note": "phase 2 assumed on the original 35 Huntingwood Drive lot: the JRPP DA covers 8 construction stages on this lot and the 24 Healey Circuit land was only acquired in 2019 (source 6)"
+    },
+    "suburb": "Huntingwood",
+    "state": "NSW",
+    "postcode": {
+      "value": "2148",
+      "source": 1,
+      "note": ""
+    },
+    "lat": {
+      "value": -33.79961,
+      "source": 7,
+      "note": "Geocoded 2026-09-27 from '35 Huntingwood Drive, Huntingwood NSW 2148' with the ArcGIS World Geocoder (PointAddress, score 100). Address point for the whole 35 Huntingwood Drive lot, not this phase's building footprint (building position within the lot not known)."
+    },
+    "lon": {
+      "value": 150.88157,
+      "source": 7,
+      "note": "see lat note"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": "not found. Richard Crookes built phase 1 only (see airtrunk-syd1). Evolution Precast lists AW Edwards as 'Client / Builder' for SYD1 precast packages 'Phase 1: 2017-18 (3 months)' and 'Phase 2: 2019 (4 months)' (source 5); its phase numbering is the precast contractor's and does not match AirTrunk phase 1 (Richard Crookes, done Sep 2017), so it may cover AirTrunk phase 2 - unverified"
+  },
+  "developer": {
+    "value": "AirTrunk",
+    "source": 1,
+    "note": "applicant Airtrunk Pty Ltd"
+  },
+  "mw_it": {
+    "value": 10,
+    "source": 2,
+    "note": "iTnews 20 Sep 2017: phase 2 'will add a further 10MW' when it launches in mid-2018; CIO (source 3): 'The next phase of construction has already begun - which will add a further 10MW'"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": "not stated"
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": "no phase-level cost found. DA JRPP-16-03318 CIV $47,529,862 covers all 8 stages on 35 Huntingwood Drive incl. phase 1 (source 1); not apportioned"
+  },
+  "planning": {
+    "authority": {
+      "value": "Sydney West Joint Regional Planning Panel (assessed by Blacktown City Council)",
+      "source": 1,
+      "note": ""
+    },
+    "pathway": {
+      "value": "Development application (regional development, JRPP determination), EP&A Act 1979",
+      "source": 1,
+      "note": "inferred: phase 2 falls within the 8-stage (Stage 1A-4B) consent JRPP-16-03318 for 35 Huntingwood Drive; which DA stages phase 2 corresponds to is not stated. No separate DA or modification for phase 2 found"
+    },
+    "reference": {
+      "value": "JRPP-16-03318 (PPS-2016SYW146)",
+      "source": 4,
+      "note": "inferred to cover phase 2, see pathway note"
+    },
+    "lodged": {
+      "value": "2016-07-04",
+      "source": 4,
+      "note": "date of the parent DA",
+      "precision": "day"
+    },
+    "determined": {
+      "value": "2016-10-20",
+      "source": 4,
+      "note": "date of the parent DA",
+      "precision": "day"
+    },
+    "url": "https://www.planningportal.nsw.gov.au/planning-panel/warehouse"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": "not found"
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": "no phase-level figure. Parent DA: '10 to 21 employees ... on site at any one time' for the full 8-stage build (source 1); recorded on airtrunk-syd1"
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": "2017-09",
+    "source": 3,
+    "note": "CIO 21 Sep 2017: 'The next phase of construction has already begun'; start was on or before Sep 2017 (upper bound only)",
+    "precision": "month"
+  },
+  "construction_end": {
+    "value": "2018",
+    "source": 2,
+    "note": "expected only: iTnews 20 Sep 2017 says phase 2 launches 'mid-2018'. Actual completion date not found. Evolution Precast lists a 'Phase 2: 2019' precast package (source 5), which may or may not be this phase",
+    "precision": "year"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "actual completion date not found (expected mid-2018 per iTnews Sep 2017)",
+    "builder (head contractor) not found; AW Edwards possible (Evolution Precast) but unverified",
+    "which JRPP-16-03318 stages phase 2 corresponds to; whether any s4.55 modification applies",
+    "cost: no phase-level figure"
+  ]
+}

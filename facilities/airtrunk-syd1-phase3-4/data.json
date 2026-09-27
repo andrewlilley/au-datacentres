@@ -1,0 +1,119 @@
+{
+  "id": "airtrunk-syd1-phase3-4",
+  "name": "AirTrunk SYD1 Sydney West (phases 3-4)",
+  "operator": "AirTrunk",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "35 Huntingwood Drive, Huntingwood NSW 2148 (Lot 2020 DP 877343)",
+      "source": 1,
+      "note": "phases 3-4 assumed on the original lot: the JRPP DA's 8 stages cover this lot, and the only other SYD1 building DA (24 Healey Circuit, 2020) is recorded as airtrunk-syd1-healey"
+    },
+    "suburb": "Huntingwood",
+    "state": "NSW",
+    "postcode": {
+      "value": "2148",
+      "source": 1,
+      "note": ""
+    },
+    "lat": {
+      "value": -33.79961,
+      "source": 8,
+      "note": "Geocoded 2026-09-27 from '35 Huntingwood Drive, Huntingwood NSW 2148' with the ArcGIS World Geocoder (PointAddress, score 100). Address point for the whole 35 Huntingwood Drive lot, not this phase's building footprint (building position within the lot not known)."
+    },
+    "lon": {
+      "value": 150.88157,
+      "source": 8,
+      "note": "see lat note"
+    }
+  },
+  "builder": {
+    "value": "A W Edwards",
+    "source": 4,
+    "note": "phase 4 only: A W Edwards project page 'AirTrunk SYD1 Phase 4 Data Centre', 'Design and Construction of a two-storey data centre, inclusive of all services and fitout of data halls, office areas and external works' (D&C). Phase 3 head contractor not confirmed; a 'Phase 3B' formwork job is listed by Transform Formwork (source 5, page offline) and beyondfire lists AW Edwards as builder for SYD1 generally (source 6)"
+  },
+  "developer": {
+    "value": "AirTrunk",
+    "source": 1,
+    "note": "applicant Airtrunk Pty Ltd"
+  },
+  "mw_it": {
+    "value": 60,
+    "source": null,
+    "note": "ESTIMATE, derived, no source states it: campus 130+ MW (source 7) minus phase 1 20 MW, phase 2 10 MW and final (fifth-building) phase 40+ MW (source 9) = ~60 MW; both 130 and 40 are '+' figures so approximate. Alternative: 2017 plan of '80MW' for the original site (sources 2, 3) minus 30 MW = 50 MW. Grouped row: sources give no MW or dates for phase 3 and phase 4 separately, so no split is invented"
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": "not stated"
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": "no phase-level cost found. DA JRPP-16-03318 CIV $47,529,862 covers all 8 stages on 35 Huntingwood Drive incl. phase 1 (source 1); not apportioned"
+  },
+  "planning": {
+    "authority": {
+      "value": "Sydney West Joint Regional Planning Panel (assessed by Blacktown City Council)",
+      "source": 1,
+      "note": ""
+    },
+    "pathway": {
+      "value": "Development application (regional development, JRPP determination), EP&A Act 1979",
+      "source": 1,
+      "note": "inferred: 35 Huntingwood Drive build-out under 8-stage consent JRPP-16-03318 (8 data-hall stages, 23,080 sqm data hall GFA). No separate DA or modification found; the architect's (DEM) figures of 25,880 sqm GFA / 16 data halls (source 10) differ from the DA's, so modifications are possible"
+    },
+    "reference": {
+      "value": "JRPP-16-03318 (PPS-2016SYW146)",
+      "source": 11,
+      "note": "inferred, see pathway note"
+    },
+    "lodged": {
+      "value": "2016-07-04",
+      "source": 11,
+      "note": "date of the parent DA",
+      "precision": "day"
+    },
+    "determined": {
+      "value": "2016-10-20",
+      "source": 11,
+      "note": "date of the parent DA",
+      "precision": "day"
+    },
+    "url": "https://www.planningportal.nsw.gov.au/planning-panel/warehouse"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": "not found"
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": "not found at phase level"
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "note": "not found; after phase 2 (mid-2018 expected)"
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "note": "not found. Bounds: phase 4 finished before the fifth and final building was completed in July 2022 (source 9); AirTrunk said on 19 Nov 2019 that SYD1 'opened ... in late 2017' and announced the land to expand to 130+ MW (source 12). Evolution Precast lists precast packages in 2017-18 and 2019 with AW Edwards as builder (source 13)"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "grouped row: phase 3 and phase 4 MW and completion dates not found separately",
+    "mw_it 60 is a derived estimate (130+ minus 20, 10 and 40+); 2017 plan implies 50",
+    "completion year not found (between 2018 and Jul 2022)",
+    "phase 3 builder not confirmed (phase 4 = A W Edwards)",
+    "planning: assumed under JRPP-16-03318; modifications not checked"
+  ]
+}

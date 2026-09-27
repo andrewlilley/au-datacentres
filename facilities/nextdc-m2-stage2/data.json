@@ -1,0 +1,116 @@
+{
+  "id": "nextdc-m2-stage2",
+  "name": "NEXTDC M2 Melbourne Stage 2",
+  "operator": "NEXTDC",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "75 Sharps Road, Tullamarine VIC 3043",
+      "source": 7,
+      "note": "same site as nextdc-m2"
+    },
+    "suburb": "Tullamarine",
+    "state": "VIC",
+    "postcode": {
+      "value": "3043",
+      "source": 7,
+      "note": ""
+    },
+    "lat": {
+      "value": -37.70883,
+      "source": 8,
+      "note": "Same point as nextdc-m2 (geocoded 2026-09-27 from '75 Sharps Road, Tullamarine VIC 3043', ArcGIS PointAddress score 100); the stage's own building footprint on the site was not located"
+    },
+    "lon": {
+      "value": 144.87543,
+      "source": 8,
+      "note": "see lat note"
+    }
+  },
+  "builder": {
+    "value": "Kapitol Group",
+    "source": 1,
+    "note": "base build and fit-out; architect VIA Architects (source 2)"
+  },
+  "developer": {
+    "value": "NEXTDC",
+    "source": 7,
+    "note": ""
+  },
+  "mw_it": {
+    "value": 6,
+    "source": 1,
+    "note": "'added an additional 6MW' (two data halls, two levels). Consistent with NEXTDC FY20 deck: M2 installed capacity 10MW at 30 Jun 2020 (source 3) = stage 1 + stage 2. NEXTDC FY19 AR: 'third data hall at M2' completed in FY19 (source 4). Building/phase within the NEXTDC M2 campus; stage 1 is nextdc-m2; other stages: nextdc-m2-stage2, nextdc-m2-stage4, nextdc-m2-stage5, nextdc-m2-stage6, nextdc-m2-stage9-11."
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": "not found"
+  },
+  "planning": {
+    "authority": {
+      "value": "Brimbank City Council",
+      "source": 5,
+      "note": "75 Sharps Rd is in the City of Brimbank (Brimbank register; PlanningAlerts P341/2022), not Hume as earlier assumed"
+    },
+    "pathway": {
+      "value": "council planning permit (Planning and Environment Act 1987)",
+      "source": 5,
+      "note": ""
+    },
+    "reference": {
+      "value": "P589/2016",
+      "source": 5,
+      "note": "site data centre permit; the Brimbank register (Dec 2018 onward) lists only amendments Pt 5-7, so stage 2 presumably proceeded under P589/2016 as granted/amended before Dec 2018 - which part covered stage 2 is not stated"
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": ""
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": ""
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "note": "not stated; Kapitol gives a 7-month programme delivered one month early in Jan 2019, which implies roughly mid-2018 (inference only)"
+  },
+  "construction_end": {
+    "value": "2019-01",
+    "source": 1,
+    "precision": "month",
+    "note": "'delivered one month ahead of programme in January 2019'"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "construction start date not stated (7-month programme implies ~mid-2018)",
+    "cost not found",
+    "which part of permit P589/2016 covers stage 2 not found"
+  ]
+}

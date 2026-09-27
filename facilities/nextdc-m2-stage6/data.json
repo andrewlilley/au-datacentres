@@ -1,0 +1,116 @@
+{
+  "id": "nextdc-m2-stage6",
+  "name": "NEXTDC M2 Melbourne Stage 6",
+  "operator": "NEXTDC",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "75 Sharps Road, Tullamarine VIC 3043",
+      "source": 9,
+      "note": "same site as nextdc-m2"
+    },
+    "suburb": "Tullamarine",
+    "state": "VIC",
+    "postcode": {
+      "value": "3043",
+      "source": 9,
+      "note": ""
+    },
+    "lat": {
+      "value": -37.70883,
+      "source": 10,
+      "note": "Same point as nextdc-m2 (geocoded 2026-09-27 from '75 Sharps Road, Tullamarine VIC 3043', ArcGIS PointAddress score 100); the stage's own building footprint on the site was not located"
+    },
+    "lon": {
+      "value": 144.87543,
+      "source": 10,
+      "note": "see lat note"
+    }
+  },
+  "builder": {
+    "value": "Kapitol Group",
+    "source": 1,
+    "note": "architect VIA Architects (source 3)"
+  },
+  "developer": {
+    "value": "NEXTDC",
+    "source": 9,
+    "note": ""
+  },
+  "mw_it": {
+    "value": 8,
+    "source": 1,
+    "note": "'Stage 6 of the project will add 8MW of new capacity'; basement, three levels and rooftop plant deck (source 2, snippet). Building/phase within the NEXTDC M2 campus; stage 1 is nextdc-m2; other stages: nextdc-m2-stage2, nextdc-m2-stage4, nextdc-m2-stage5, nextdc-m2-stage6, nextdc-m2-stage9-11."
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": "not found"
+  },
+  "planning": {
+    "authority": {
+      "value": "Brimbank City Council",
+      "source": 7,
+      "note": "75 Sharps Rd is in the City of Brimbank (Brimbank register; PlanningAlerts P341/2022), not Hume as earlier assumed"
+    },
+    "pathway": {
+      "value": "council planning permit (Planning and Environment Act 1987)",
+      "source": 7,
+      "note": ""
+    },
+    "reference": {
+      "value": "P589/2016",
+      "source": 7,
+      "note": "site data centre permit. Amendment P589/2016 (Pt 5) 'for an extension to a data centre' (received 01/05/2023, amended permit issued 17/01/2024) fits stage 6 timing but the register does not name the stage"
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": "candidate: Pt 5 received 2023-05-01 (not confirmed as stage 6)"
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "note": "candidate: Pt 5 amended permit issued 2024-01-17 (not confirmed as stage 6)"
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": ""
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": ""
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "note": "Forefront blog (snippet, undated) says the build 'has recently commenced'; date not found"
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "note": "expected 'by mid-2025' (source 2) / 'in 2025' (Kapitol page, modified Sep 2025, still says 'Currently under construction'). Actual completion not confirmed; by NEXTDC FY26 (to 30 Jun 2026) the only M2 capacity still in progress is the 60MW liquid-cooled expansion (source 6), so stage 6 was presumably complete by then (inference)"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "status: completion not confirmed (expected mid/late 2025; presumed done by 30 Jun 2026)",
+    "construction start date not found",
+    "whether permit amendment P589/2016 (Pt 5, issued 17/01/2024) is the stage 6 approval",
+    "cost not found"
+  ]
+}

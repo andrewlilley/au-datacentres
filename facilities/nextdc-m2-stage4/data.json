@@ -1,0 +1,124 @@
+{
+  "id": "nextdc-m2-stage4",
+  "name": "NEXTDC M2 Melbourne Stage 4",
+  "operator": "NEXTDC",
+  "status": "operational",
+  "location": {
+    "address": {
+      "value": "75 Sharps Road, Tullamarine VIC 3043",
+      "source": 10,
+      "note": "same site as nextdc-m2"
+    },
+    "suburb": "Tullamarine",
+    "state": "VIC",
+    "postcode": {
+      "value": "3043",
+      "source": 10,
+      "note": ""
+    },
+    "lat": {
+      "value": -37.70883,
+      "source": 11,
+      "note": "Same point as nextdc-m2 (geocoded 2026-09-27 from '75 Sharps Road, Tullamarine VIC 3043', ArcGIS PointAddress score 100); the stage's own building footprint on the site was not located"
+    },
+    "lon": {
+      "value": 144.87543,
+      "source": 11,
+      "note": "see lat note"
+    }
+  },
+  "builder": {
+    "value": "Kapitol Group",
+    "source": 1,
+    "note": "head contractor; architect VIA Architects"
+  },
+  "developer": {
+    "value": "NEXTDC",
+    "source": 10,
+    "note": ""
+  },
+  "mw_it": {
+    "value": 18,
+    "source": 1,
+    "note": "Kapitol case study: 'the building was constructed to have an IT cooling capacity of 18 megawatts, equating to 6 megawatts for each data hall'. The same page's summary says six data halls 'including a 10-megawatt data hall' (read earlier as +10MW); 18 MW taken as the building's design IT capacity. Both >= 5 MW. NEXTDC fitted it out progressively: FY20 '15MW of new capacity currently being fitted out' (source 4); FY21 9MW built and commissioned (source 6); FY22 +6MW, M2 built 25MW (source 7). Building/phase within the NEXTDC M2 campus; stage 1 is nextdc-m2; other stages: nextdc-m2-stage2, nextdc-m2-stage4, nextdc-m2-stage5, nextdc-m2-stage6, nextdc-m2-stage9-11."
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": "not found"
+  },
+  "planning": {
+    "authority": {
+      "value": "Brimbank City Council",
+      "source": 8,
+      "note": "75 Sharps Rd is in the City of Brimbank (Brimbank register; PlanningAlerts P341/2022), not Hume as earlier assumed"
+    },
+    "pathway": {
+      "value": "council planning permit (Planning and Environment Act 1987)",
+      "source": 8,
+      "note": ""
+    },
+    "reference": {
+      "value": "P589/2016",
+      "source": 8,
+      "note": "site data centre permit; no separate permit for stage 4 appears in the Brimbank register (Dec 2018 onward), so it presumably proceeded under P589/2016 as granted/amended before Dec 2018 (inference)"
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": "no peak figure; see _other"
+  },
+  "jobs_construction_other": [
+    {
+      "value": 100,
+      "source": 1,
+      "basis": "unstated",
+      "scope": "direct",
+      "note": "Kapitol: '100 specialist electricians' (trade subset, not total workforce); also '110,583 hours worked'"
+    }
+  ],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": ""
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "note": "not found; FY20 AR (Aug 2020): building expansion 'well progressed' (source 5)"
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "note": "not stated. FY20 AR: 'first of six new data halls ... scheduled to be handed over to customers during FY21 and into FY22'; FY21 AR: 9MW built and commissioned in FY21 (Jul 2020-Jun 2021), so the building was complete by mid-2021 (inference); Kapitol case study published 2022-06-08 with a 2022 MBAV award"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "mw_it: 18 MW IT cooling capacity vs '10-megawatt data hall' on the same Kapitol page",
+    "construction start and completion dates not stated (building done by FY21 by inference)",
+    "cost not found",
+    "which part of permit P589/2016 covers stage 4 not found"
+  ]
+}

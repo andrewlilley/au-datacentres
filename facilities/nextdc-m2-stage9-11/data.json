@@ -1,0 +1,119 @@
+{
+  "id": "nextdc-m2-stage9-11",
+  "name": "NEXTDC M2 Melbourne Stages 9-11 (liquid-cooled expansion)",
+  "operator": "NEXTDC",
+  "status": "under_construction",
+  "location": {
+    "address": {
+      "value": "75 Sharps Road, Tullamarine VIC 3043",
+      "source": 8,
+      "note": "Kapitol: works site 'on Barrie Road'; permit amendment P589/2016 Pt 7 covers 9 Barrie Rd and 75 Sharps Rd (source 5)"
+    },
+    "suburb": "Tullamarine",
+    "state": "VIC",
+    "postcode": {
+      "value": "3043",
+      "source": 8,
+      "note": ""
+    },
+    "lat": {
+      "value": -37.70883,
+      "source": 9,
+      "note": "Same point as nextdc-m2 (geocoded 2026-09-27 from '75 Sharps Road, Tullamarine VIC 3043', ArcGIS PointAddress score 100); the stage's own building footprint on the site was not located"
+    },
+    "lon": {
+      "value": 144.87543,
+      "source": 9,
+      "note": "see lat note"
+    }
+  },
+  "builder": {
+    "value": "Kapitol Group",
+    "source": 1,
+    "note": "'construction partner of choice for NEXTDC's 72MW M2 data centre facility expansion'"
+  },
+  "developer": {
+    "value": "NEXTDC",
+    "source": 8,
+    "note": ""
+  },
+  "mw_it": {
+    "value": 60,
+    "source": 2,
+    "note": "NEXTDC FY26: 'a further 60 megawatts of high-density liquid-to-chip capacity in progress'. Kapitol calls it a '72MW M2 data centre facility expansion' (source 1). One row for Stages 9-11 because Kapitol groups them ('three new two-storey buildings'); no per-stage split found. The master.csv note for nextdc-m2 (from the NEXTDC FY26 results announcement on Listcorp, not re-read here) says the expansion is 'within existing building', which conflicts with Kapitol's 'three new two-storey buildings'. Stages 7 and 8 were not found. Building/phase within the NEXTDC M2 campus; stage 1 is nextdc-m2; other stages: nextdc-m2-stage2, nextdc-m2-stage4, nextdc-m2-stage5, nextdc-m2-stage6, nextdc-m2-stage9-11."
+  },
+  "mw_grid": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": "not found"
+  },
+  "planning": {
+    "authority": {
+      "value": "Brimbank City Council",
+      "source": 5,
+      "note": "75 Sharps Rd is in the City of Brimbank (Brimbank register; PlanningAlerts P341/2022), not Hume as earlier assumed"
+    },
+    "pathway": {
+      "value": "council planning permit (Planning and Environment Act 1987)",
+      "source": 5,
+      "note": ""
+    },
+    "reference": {
+      "value": "P589/2016",
+      "source": 5,
+      "note": "site data centre permit. Amendment P589/2016 (Pt 7) 'to the planning permit and endorsed plans for a data centre' at 9 Barrie Rd / 75 Sharps Rd was received 23/04/2025 and 'Under Consideration' at 22/07/2025 (an earlier Pt 6 lapsed 10/04/2025); likely this expansion given the Barrie Road location, but not confirmed; decision not found"
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": "candidate: Pt 7 received 2025-04-23 (not confirmed as this expansion)"
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "note": "decision on Pt 7 not found (under consideration at 22/07/2025)"
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": ""
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "basis": null,
+    "scope": null,
+    "note": ""
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "note": "not stated. NEXTDC: FY25 (Aug 2025) '18MW in progress; additional 40MW+ in planning'; 1H26 '30MW in progress'; FY26 '60MW ... in progress' - so works began during FY26 (Jul 2025-Jun 2026) (inference)"
+  },
+  "construction_end": {
+    "value": "2027",
+    "source": 1,
+    "precision": "year",
+    "note": "expected by end of Q2 2027: 'These works are expected to take until the second quarter of 2027 to complete'"
+  },
+  "last_checked": "2026-09-27",
+  "open_questions": [
+    "mw_it: 60MW (NEXTDC FY26) vs 72MW (Kapitol)",
+    "three new buildings (Kapitol) vs 'within existing building' (master.csv note from NEXTDC FY26 announcement)",
+    "planning approval: P589/2016 Pt 7 decision not found; link to this expansion not confirmed",
+    "construction start date not found",
+    "cost not found",
+    "FY26 results read only via Investing.com summary"
+  ]
+}
