@@ -28,6 +28,9 @@ Method
   releases (e.g. Multiplex, Built, Lendlease, Richard Crookes, Hansen Yuncken,
   FDC, Kane, Icon) give builder and dates.
 - Latitude/longitude: geocode from the street address or lot; say how in `note`.
+- Jobs: record every jobs figure a source gives, tagged with `basis` and
+  `scope` (see the Jobs section of `schema/facility_schema.md`). Peak, average,
+  FTE-years and direct+indirect figures are different measures; never merge them.
 - Never guess. Unknown = `null`. Estimates only with an explicit `note`.
 - Where sources disagree, record the best-supported value and put the
   alternative in `note`.
