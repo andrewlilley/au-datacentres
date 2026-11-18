@@ -6,3 +6,10 @@ From discovery agents (2026-09-27); status as found then: SSD-82211208 under ass
 2. https://urbandigest.com.au/3-7bn-erskine-park-data-centre-hits-public-exhibition/
 3. https://www.stackinfra.com/locations/asia-pacific/sydney/syd01/
 4. https://www.datacentermap.com/australia/sydney/stack-infrastructure-syd01a/
+
+## Refresh 2026-11-18
+
+5. NSW Planning Portal - SSD-82211208 project page
+   - URL: https://www.planningportal.nsw.gov.au/major-projects/projects/stack-syd01-data-centre-erskine-park
+   - Accessed: 2026-11-18
+   - Supports: SSD-82211208 current status "More Information Required" on 2026-11-18; not determined

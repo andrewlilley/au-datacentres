@@ -102,8 +102,9 @@
     "source": null,
     "note": ""
   },
-  "last_checked": "2026-09-28",
+  "last_checked": "2026-11-18",
   "open_questions": [
-    "pipeline record from discovery only; per-facility collection not yet done"
+    "pipeline record from discovery only; per-facility collection not yet done",
+    "refresh 2026-11-18: no SSD on the NSW portal Data Storage list and no news found; IDA endorsement only"
   ]
 }

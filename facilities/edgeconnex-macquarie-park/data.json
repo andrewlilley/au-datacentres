@@ -102,8 +102,9 @@
     "source": null,
     "note": ""
   },
-  "last_checked": "2026-09-28",
+  "last_checked": "2026-11-18",
   "open_questions": [
-    "pipeline record from discovery only; per-facility collection not yet done"
+    "pipeline record from discovery only; per-facility collection not yet done",
+    "refresh 2026-11-18: Baxtel lists EdgeConneX SYD1 (MPark) at 1-5 Khartoum Rd, 76.4 MW, SSD-63235720 (Stockland/EdgeConneX JV) - likely duplicate of stockland-khartoum-1-5"
   ]
 }

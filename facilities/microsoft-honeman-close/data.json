@@ -2,29 +2,29 @@
   "id": "microsoft-honeman-close",
   "name": "Microsoft Honeman Close",
   "operator": "Microsoft",
-  "status": "lodged",
+  "status": "approved",
   "location": {
     "address": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "6 Honeman Close, Huntingwood NSW 2148",
+      "source": 5,
+      "note": "Lot 100 DP 1293137"
     },
     "suburb": "Huntingwood",
     "state": "NSW",
     "postcode": {
       "value": "2148",
-      "source": null,
-      "note": "suburb postcode"
+      "source": 5,
+      "note": ""
     },
     "lat": {
-      "value": -33.799,
+      "value": -33.798605,
       "source": null,
-      "note": "approximate: centroid of Huntingwood NSW (postcode 2148) from matthewproctor/australianpostcodes; site location not geocoded"
+      "note": "geocoded with ArcGIS World Geocoder (findAddressCandidates) from \"6 Honeman Close, Huntingwood NSW 2148\": match \"6 Honeman Close, Huntingwood, Sydney, New South Wales, 2148\", PointAddress, score 100"
     },
     "lon": {
-      "value": 150.885,
+      "value": 150.895166,
       "source": null,
-      "note": ""
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -33,63 +33,67 @@
     "note": ""
   },
   "developer": {
-    "value": "Microsoft",
-    "source": 1,
-    "note": ""
+    "value": "Microsoft (Australia) Pty Ltd",
+    "source": 5,
+    "note": "applicant"
   },
   "mw_it": {
     "value": 96.0,
-    "source": 1,
-    "note": "headline figure from announcement or application; may be campus total or grid demand, not verified as IT load"
+    "source": 5,
+    "note": "assessment report: \"IT consumption: 96 megawatts (MW)\""
   },
   "mw_grid": {
-    "value": null,
-    "source": null,
-    "note": ""
+    "value": 140.0,
+    "source": 5,
+    "note": "total power consumption 140 MVA (megavolt-amperes, not MW)"
   },
   "cost_aud_m": {
-    "value": null,
-    "source": null,
-    "note": ""
+    "value": 1263.2,
+    "source": 5,
+    "note": "CIV $1,263,226,278 (assessment report)"
   },
   "planning": {
     "authority": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "NSW DPHI",
+      "source": 4,
+      "note": "determined by Director, Industry Assessments under delegation (Minister delegated 18 Aug 2026)"
     },
     "pathway": {
-      "value": null,
-      "source": null,
+      "value": "SSD",
+      "source": 5,
       "note": ""
     },
     "reference": {
       "value": "SSD-58601963",
-      "source": 1,
+      "source": 4,
       "note": ""
     },
     "lodged": {
       "value": null,
       "source": null,
-      "note": ""
+      "note": "EIS exhibited from 14 Dec 2023; lodgement date not stated"
     },
     "determined": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "2026-10-01",
+      "source": 4,
+      "note": "portal Determination Date 01/10/2026"
     },
-    "url": null
+    "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/honeman-close-data-centre"
   },
   "jobs_construction": {
-    "value": null,
-    "source": null,
-    "note": ""
+    "value": 250,
+    "source": 5,
+    "basis": "unstated",
+    "scope": "unstated",
+    "note": "assessment report: \"250 construction jobs\""
   },
   "jobs_construction_other": [],
   "jobs_operational": {
-    "value": null,
-    "source": null,
-    "note": ""
+    "value": 74,
+    "source": 5,
+    "basis": "ongoing_headcount",
+    "scope": "unstated",
+    "note": "assessment report: \"74 operational jobs\" / \"up to 74 knowledge-intensive operational jobs\""
   },
   "jobs_operational_other": [],
   "construction_start": {
@@ -100,10 +104,10 @@
   "construction_end": {
     "value": null,
     "source": null,
-    "note": ""
+    "note": "construction approx 24 months (assessment report); start not known"
   },
-  "last_checked": "2026-09-28",
+  "last_checked": "2026-11-18",
   "open_questions": [
-    "pipeline record from discovery only; per-facility collection not yet done"
+    "construction start not known; federal EPBC referral 2025/10391 still pending per news (not verified on EPBC portal)"
   ]
 }

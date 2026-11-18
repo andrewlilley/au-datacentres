@@ -38,3 +38,10 @@ Verification pass 2026-09-27 (fetched and read directly):
    - URL: https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-81928961%2120260724T083209.090+GMT ; https://www.planningportal.nsw.gov.au/major-projects/projects/brookhollow-avenue-data-centre-expansion-norwest
    - Accessed: 2026-09-27
    - Supports: 118.3 MW total power, 77 diesel generators, applicant Project Garden 1 Pty Ltd, consent authority Minister or IPC, exhibition 14 Jul - 10 Aug 2026, not determined
+
+## Refresh 2026-11-18
+
+10. NSW Planning Portal - SSD-81928961 project page
+   - URL: https://www.planningportal.nsw.gov.au/major-projects/projects/brookhollow-avenue-data-centre-expansion-norwest
+   - Accessed: 2026-11-18
+   - Supports: SSD-81928961 current status "Assessment" on 2026-11-18; not determined (moved from Response to Submissions; 38 RtS documents)

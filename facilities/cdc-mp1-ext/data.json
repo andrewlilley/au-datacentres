@@ -117,7 +117,7 @@
     "precision": null,
     "note": "Not found. CEMP Table 3-1 schedules 'Handover of substation and MP1.Ext' in construction stage 3, after stage 1 (7 months) and stage 2 (24 months); the CEMP site plans label stage 1 'APRIL 26 - OCT 26' and stage 2 'OCT 26 - OCT 28'. Taken literally that puts handover no earlier than late 2028, but the table covers the whole campus and may not be building-specific. Data-centre use also needs DA-26-00662, still undetermined."
   },
-  "last_checked": "2026-09-27",
+  "last_checked": "2026-11-18",
   "open_questions": [
     "scope: data-centre use of MP1.EXT is not yet approved - DA-26-00662 (change of use from warehouse to data centre, lodged 8 Jun 2026) was still 'In Progress' on 2026-09-27. The building is under construction (Built) as a 'warehouse' under complying development certificates. Per list_schema a lodged-but-undetermined project is out of scope, so keep it out of in-scope counts until DA-26-00662 is determined",
     "scope: 7.5 MW is described as 'Total Power Consumption' in the SEE (and 'capacity' in the risk screening), not as IT load; if it is facility power, IT load is below 7.5 MW (still likely >= 5 MW but unconfirmed)",
@@ -126,6 +126,7 @@
     "MP1.S3 (name in piling CDC-25-01833) is taken to be MP1.EXT based on the CEMP drawing file name 'SYD-MP1.3-AR-RVT' and the same location; not explicitly confirmed",
     "eTrack lists CC-26-00624 ('ZONE H Stage 1 - Plant deck ...') as a child of DA-26-00662; relationship of 'Zone H' generators/plant to MP1.EXT unclear",
     "Completion / handover date not found (CEMP stage 3 wording implies late 2028 or later, but that may be campus-level)",
-    "status relabelled lodged on 2026-09-28 per the scope note above"
+    "status relabelled lodged on 2026-09-28 per the scope note above",
+    "refresh 2026-11-18: Blacktown eTrack (DA-26-00662) returned 403 to both curl and WebFetch; determination status of DA-26-00662 not re-checked"
   ]
 }

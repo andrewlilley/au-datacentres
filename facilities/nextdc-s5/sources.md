@@ -4,3 +4,10 @@ From discovery agents (2026-09-27); status as found then: SSD-63168959 under ass
 
 1. https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s5-data-centre-and-innovation-hub
 2. https://www.nextdc.com/data-centres
+
+## Refresh 2026-11-18
+
+3. NSW Planning Portal - SSD-63168959 project page
+   - URL: https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s5-data-centre-and-innovation-hub
+   - Accessed: 2026-11-18
+   - Supports: SSD-63168959 current status "More Information Required" on 2026-11-18; not determined

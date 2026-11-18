@@ -65,7 +65,7 @@
     },
     "reference": {
       "value": "SSD-81928961",
-      "source": 9,
+      "source": 10,
       "note": "SEARs requested Mar 2025 (PDA-81670721), SEARs issued Apr 2025"
     },
     "lodged": {
@@ -116,11 +116,12 @@
     "precision": null,
     "note": ""
   },
-  "last_checked": "2026-09-27",
+  "last_checked": "2026-11-18",
   "open_questions": [
     "scope: SSD-81928961 NOT planning-approved - at 'Response to Submissions' stage (exhibited 14 Jul - 10 Aug 2026); out of scope until determined. Status field 'under_construction' is not correct for Stage 2",
     "overlap: Stage 2 (96MW IT) of same 3 Brookhollow Ave campus as greensquaredc-syd1-stage1 (14.9MW refit); avoid double-counting",
     "construction jobs basis: '555 FTE over 6 years' - FTE headcount vs FTE-years unclear",
-    "status relabelled lodged on 2026-09-28 per the scope note above"
+    "status relabelled lodged on 2026-09-28 per the scope note above",
+    "portal status 2026-11-18: Assessment; not determined"
   ]
 }

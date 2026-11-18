@@ -2,29 +2,29 @@
   "id": "stockland-road-1",
   "name": "Stockland Road 1 Data Centre",
   "operator": "Stockland",
-  "status": "lodged",
+  "status": "approved",
   "location": {
     "address": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "1-5 Khartoum Road, Macquarie Park NSW 2113",
+      "source": 3,
+      "note": "Part Lot 2 DP 1043041; same street address as SSD-63235720 (stockland-khartoum-1-5), different building"
     },
     "suburb": "Macquarie Park",
     "state": "NSW",
     "postcode": {
       "value": "2113",
-      "source": null,
-      "note": "suburb postcode"
+      "source": 3,
+      "note": ""
     },
     "lat": {
-      "value": -33.7935,
+      "value": -33.781538,
       "source": null,
-      "note": "approximate: centroid of Macquarie Park NSW (postcode 2113) from matthewproctor/australianpostcodes; site location not geocoded"
+      "note": "geocoded with ArcGIS World Geocoder (findAddressCandidates) from \"1-5 Khartoum Road, Macquarie Park NSW 2113\": match \"5 Khartoum Road, Macquarie Park, Sydney, New South Wales, 2113\", PointAddress, score 100"
     },
     "lon": {
-      "value": 151.1345,
+      "value": 151.124679,
       "source": null,
-      "note": ""
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -34,62 +34,66 @@
   },
   "developer": {
     "value": "Stockland",
-    "source": 1,
-    "note": ""
+    "source": 3,
+    "note": "applicant Stockland Limited"
   },
   "mw_it": {
     "value": 34.3,
-    "source": 1,
-    "note": "headline figure from announcement or application; may be campus total or grid demand, not verified as IT load"
+    "source": 3,
+    "note": "assessment report: \"49 MW (34.3 MW IT Load)\""
   },
   "mw_grid": {
-    "value": null,
-    "source": null,
-    "note": ""
+    "value": 49.0,
+    "source": 3,
+    "note": "maximum power capacity 49 MW"
   },
   "cost_aud_m": {
-    "value": null,
-    "source": null,
-    "note": ""
+    "value": 630.4,
+    "source": 3,
+    "note": "CIV $630,439,030"
   },
   "planning": {
     "authority": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "NSW DPHI",
+      "source": 2,
+      "note": "Director, Industry Assessments under delegation"
     },
     "pathway": {
-      "value": null,
-      "source": null,
+      "value": "SSD",
+      "source": 3,
       "note": ""
     },
     "reference": {
       "value": "SSD-80814238",
-      "source": 1,
+      "source": 2,
       "note": ""
     },
     "lodged": {
       "value": null,
       "source": null,
-      "note": ""
+      "note": "EIS exhibited 11 Sep - 8 Oct 2025"
     },
     "determined": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "2026-10-01",
+      "source": 2,
+      "note": "portal Determination Date 01/10/2026"
     },
-    "url": null
+    "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/road-1-data-centre"
   },
   "jobs_construction": {
-    "value": null,
-    "source": null,
-    "note": ""
+    "value": 250,
+    "source": 3,
+    "basis": "unstated",
+    "scope": "unstated",
+    "note": "\"up to 250 full-time equivalent construction jobs\" (FTE, period not defined; not FTE-years)"
   },
   "jobs_construction_other": [],
   "jobs_operational": {
-    "value": null,
-    "source": null,
-    "note": ""
+    "value": 50,
+    "source": 3,
+    "basis": "ongoing_headcount",
+    "scope": "unstated",
+    "note": "\"50 operational jobs\""
   },
   "jobs_operational_other": [],
   "construction_start": {
@@ -100,10 +104,11 @@
   "construction_end": {
     "value": null,
     "source": null,
-    "note": ""
+    "note": "construction programme 30 months (assessment report); start not known"
   },
-  "last_checked": "2026-09-28",
+  "last_checked": "2026-11-18",
   "open_questions": [
-    "pipeline record from discovery only; per-facility collection not yet done"
+    "construction start and builder not known",
+    "whether this is the IDA \"Project A\" (City of Ryde, Stockland) is unconfirmed"
   ]
 }

@@ -5,3 +5,10 @@ From discovery agents (2026-09-27); status as found then: SSD-133677993 at SEARs
 1. https://www.planningportal.nsw.gov.au/major-projects/projects/kc1-data-centre-kemps-creek
 2. https://www.datacenterdynamics.com/en/news/australias-cdc-files-for-data-center-in-kemps-creek-sydney/
 3. https://www.datacentermap.com/australia/sydney/cdc-kemps-creek-kc1/
+
+## Refresh 2026-11-18
+
+4. NSW Planning Portal - SSD-133677993 project page
+   - URL: https://www.planningportal.nsw.gov.au/major-projects/projects/kc1-data-centre-kemps-creek
+   - Accessed: 2026-11-18
+   - Supports: SSD-133677993 current status "Amend SEARs" on 2026-11-18; not determined

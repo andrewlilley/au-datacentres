@@ -5,26 +5,26 @@
   "status": "lodged",
   "location": {
     "address": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "23-25 Waterloo Road, Macquarie Park NSW 2113",
+      "source": 2,
+      "note": "Lot 2 DP 1046090"
     },
     "suburb": "Macquarie Park",
     "state": "NSW",
     "postcode": {
       "value": "2113",
-      "source": null,
-      "note": "suburb postcode"
+      "source": 2,
+      "note": ""
     },
     "lat": {
-      "value": -33.7935,
+      "value": -33.786752,
       "source": null,
-      "note": "approximate: centroid of Macquarie Park NSW (postcode 2113) from matthewproctor/australianpostcodes; site location not geocoded"
+      "note": "geocoded with ArcGIS World Geocoder (findAddressCandidates) from \"23-25 Waterloo Road, Macquarie Park NSW 2113\": match \"25 Waterloo Road, Macquarie Park, Sydney, New South Wales, 2113\", PointAddress, score 100"
     },
     "lon": {
-      "value": 151.1345,
+      "value": 151.131858,
       "source": null,
-      "note": ""
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -43,9 +43,9 @@
     "note": "headline figure from announcement or application; may be campus total or grid demand, not verified as IT load"
   },
   "mw_grid": {
-    "value": null,
-    "source": null,
-    "note": ""
+    "value": 70.0,
+    "source": 2,
+    "note": "\"total power consumption of 70 megawatts\" (not IT load)"
   },
   "cost_aud_m": {
     "value": null,
@@ -54,31 +54,31 @@
   },
   "planning": {
     "authority": {
-      "value": null,
-      "source": null,
+      "value": "NSW DPHI",
+      "source": 2,
       "note": ""
     },
     "pathway": {
-      "value": null,
-      "source": null,
+      "value": "SSD",
+      "source": 2,
       "note": ""
     },
     "reference": {
-      "value": null,
-      "source": null,
+      "value": "SSD-91297457",
+      "source": 2,
       "note": ""
     },
     "lodged": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "2025-08",
+      "source": 3,
+      "note": "SEARs request Aug 2025; EIS not yet lodged"
     },
     "determined": {
       "value": null,
       "source": null,
       "note": ""
     },
-    "url": null
+    "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/23-25-waterloo-road-data-centre"
   },
   "jobs_construction": {
     "value": null,
@@ -102,8 +102,10 @@
     "source": null,
     "note": ""
   },
-  "last_checked": "2026-09-28",
+  "last_checked": "2026-11-18",
   "open_questions": [
-    "pipeline record from discovery only; per-facility collection not yet done"
+    "portal status 2026-11-18: Prepare EIS; not determined",
+    "portal documents name Greenbox Architecture (architect) as proponent, not Digital Realty; operator attribution rests on DCD report",
+    "mw_it 70 is total power consumption, not IT load"
   ]
 }

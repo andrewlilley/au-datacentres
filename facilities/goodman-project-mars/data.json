@@ -2,12 +2,12 @@
   "id": "goodman-project-mars",
   "name": "Goodman Project Mars",
   "operator": "Goodman",
-  "status": "lodged",
+  "status": "withdrawn",
   "location": {
     "address": {
-      "value": null,
+      "value": "12 Mars Road, Lane Cove West NSW 2066",
       "source": null,
-      "note": ""
+      "note": "address per In The Cove (Apr 2026) https://inthecove.com.au/2026/04/12/two-more-data-centres-planned-for-lane-cove-west-business-park/ ; lat/lon left as suburb centroid"
     },
     "suburb": "Lane Cove West",
     "state": "NSW",
@@ -54,18 +54,18 @@
   },
   "planning": {
     "authority": {
-      "value": null,
-      "source": null,
+      "value": "NSW DPHI",
+      "source": 3,
       "note": ""
     },
     "pathway": {
-      "value": null,
-      "source": null,
+      "value": "SSD",
+      "source": 3,
       "note": ""
     },
     "reference": {
       "value": "SSD-82052708",
-      "source": 1,
+      "source": 3,
       "note": ""
     },
     "lodged": {
@@ -75,10 +75,10 @@
     },
     "determined": {
       "value": null,
-      "source": null,
-      "note": ""
+      "source": 4,
+      "note": "not determined: application withdrawn by letter dated 2026-09-28"
     },
-    "url": null
+    "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/project-mars-data-centre"
   },
   "jobs_construction": {
     "value": null,
@@ -102,8 +102,8 @@
     "source": null,
     "note": ""
   },
-  "last_checked": "2026-09-28",
+  "last_checked": "2026-11-18",
   "open_questions": [
-    "pipeline record from discovery only; per-facility collection not yet done"
+    "withdrawn 2026-09-28; kept for record"
   ]
 }

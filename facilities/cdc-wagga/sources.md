@@ -4,3 +4,10 @@ From discovery agents (2026-09-27); status as found then: SSD-144289240 at SEARs
 
 1. https://urbandigest.com.au/urban-digest-weekly-57-nsw-ssd-updates-21-september-2026/
 2. https://renewmap.com.au/resources/projects/nsw/datacentre/
+
+## Refresh 2026-11-18
+
+3. NSW Planning Portal - SSD-144289240 project page
+   - URL: https://www.planningportal.nsw.gov.au/major-projects/projects/ashfords-road-data-centre-gregadoo
+   - Accessed: 2026-11-18
+   - Supports: SSD-144289240 current status "Prepare EIS" on 2026-11-18; not determined (SEARs issued)

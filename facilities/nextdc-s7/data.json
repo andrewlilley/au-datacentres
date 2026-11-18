@@ -5,26 +5,26 @@
   "status": "lodged",
   "location": {
     "address": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "1 Kangaroo Avenue, Eastern Creek NSW 2766",
+      "source": 6,
+      "note": "Lot 13 DP 1302361 and Lot 7 DP 1225803"
     },
     "suburb": "Eastern Creek",
     "state": "NSW",
     "postcode": {
       "value": "2766",
-      "source": null,
-      "note": "suburb postcode"
+      "source": 6,
+      "note": ""
     },
     "lat": {
-      "value": -33.8072,
+      "value": -33.793673,
       "source": null,
-      "note": "approximate: centroid of Eastern Creek NSW (postcode 2766) from matthewproctor/australianpostcodes; site location not geocoded"
+      "note": "geocoded with ArcGIS World Geocoder (findAddressCandidates) from \"1 Kangaroo Avenue, Eastern Creek NSW 2766\": match \"1 Kangaroo Avenue, Eastern Creek, Sydney, New South Wales, 2766\", PointAddress, score 100"
     },
     "lon": {
-      "value": 150.8515,
+      "value": 150.834788,
       "source": null,
-      "note": ""
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -43,9 +43,9 @@
     "note": "headline figure from announcement or application; may be campus total or grid demand, not verified as IT load"
   },
   "mw_grid": {
-    "value": null,
-    "source": null,
-    "note": ""
+    "value": 612.0,
+    "source": 4,
+    "note": "portal: \"operational capacity of 612 MW\" (likely total, not IT)"
   },
   "cost_aud_m": {
     "value": null,
@@ -54,31 +54,31 @@
   },
   "planning": {
     "authority": {
-      "value": null,
-      "source": null,
+      "value": "NSW DPHI",
+      "source": 4,
       "note": ""
     },
     "pathway": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "SSD",
+      "source": 4,
+      "note": "IDA-endorsed"
     },
     "reference": {
-      "value": null,
-      "source": null,
+      "value": "SSD-113934740",
+      "source": 4,
       "note": ""
     },
     "lodged": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "2026-04",
+      "source": 6,
+      "note": "SEARs request Apr 2026; SEARs issued 2026-05-06; EIS not yet lodged"
     },
     "determined": {
       "value": null,
       "source": null,
       "note": ""
     },
-    "url": null
+    "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s7-data-centre-eastern-creek"
   },
   "jobs_construction": {
     "value": null,
@@ -102,8 +102,9 @@
     "source": null,
     "note": ""
   },
-  "last_checked": "2026-09-28",
+  "last_checked": "2026-11-18",
   "open_questions": [
-    "pipeline record from discovery only; per-facility collection not yet done"
+    "portal status 2026-11-18: Prepare EIS (SEARs issued 6 May 2026, amended 31 Aug 2026); not determined",
+    "mw_it 550 is NEXTDC headline; portal says 612 MW operational capacity"
   ]
 }

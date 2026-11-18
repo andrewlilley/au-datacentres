@@ -5,26 +5,26 @@
   "status": "lodged",
   "location": {
     "address": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "54-104 Aldington Road, Kemps Creek NSW 2178",
+      "source": 5,
+      "note": "site expanded Sep 2026 to 54-104 Aldington Rd; geocode is the original 90 Aldington Rd lot"
     },
     "suburb": "Kemps Creek",
     "state": "NSW",
     "postcode": {
       "value": "2178",
-      "source": null,
-      "note": "suburb postcode"
+      "source": 5,
+      "note": ""
     },
     "lat": {
-      "value": -33.8746,
+      "value": -33.836822,
       "source": null,
-      "note": "approximate: centroid of Kemps Creek NSW (postcode 2178) from matthewproctor/australianpostcodes; site location not geocoded"
+      "note": "geocoded with ArcGIS World Geocoder (findAddressCandidates) from \"90 Aldington Road, Kemps Creek NSW 2178\": match \"90 Aldington Road, Kemps Creek, Sydney, New South Wales, 2178\", PointAddress, score 100"
     },
     "lon": {
-      "value": 150.7987,
+      "value": 150.799779,
       "source": null,
-      "note": ""
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -33,14 +33,14 @@
     "note": ""
   },
   "developer": {
-    "value": "Stockland / Fife Capital (EdgeConneX)",
-    "source": 1,
-    "note": ""
+    "value": "Stockland",
+    "source": 5,
+    "note": "applicant Stockland Development Pty Limited; JV with EdgeConneX per earlier sources"
   },
   "mw_it": {
-    "value": 168.0,
-    "source": 1,
-    "note": "headline figure from announcement or application; may be campus total or grid demand, not verified as IT load"
+    "value": 360.0,
+    "source": 5,
+    "note": "amended SEARs 15 Sep 2026: \"maximum IT load to approximately 360 megawatts\"; previously 168 MW (IDA list / DCM)"
   },
   "mw_grid": {
     "value": null,
@@ -54,31 +54,31 @@
   },
   "planning": {
     "authority": {
-      "value": null,
-      "source": null,
+      "value": "NSW DPHI",
+      "source": 4,
       "note": ""
     },
     "pathway": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "SSD",
+      "source": 4,
+      "note": "IDA-endorsed"
     },
     "reference": {
-      "value": null,
-      "source": null,
+      "value": "SSD-112059740",
+      "source": 4,
       "note": ""
     },
     "lodged": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "2026-03",
+      "source": 4,
+      "note": "SEARs request Mar 2026; EIS not yet lodged"
     },
     "determined": {
       "value": null,
       "source": null,
       "note": ""
     },
-    "url": null
+    "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/aldington-road-data-centre"
   },
   "jobs_construction": {
     "value": null,
@@ -102,8 +102,8 @@
     "source": null,
     "note": ""
   },
-  "last_checked": "2026-09-28",
+  "last_checked": "2026-11-18",
   "open_questions": [
-    "pipeline record from discovery only; per-facility collection not yet done"
+    "portal status 2026-11-18: Prepare EIS & Amend SEARs; not determined"
   ]
 }

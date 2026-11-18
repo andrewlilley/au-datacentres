@@ -5,26 +5,26 @@
   "status": "lodged",
   "location": {
     "address": {
-      "value": null,
-      "source": null,
+      "value": "16-20 Mars Road, Lane Cove West NSW 2066",
+      "source": 2,
       "note": ""
     },
     "suburb": "Lane Cove West",
     "state": "NSW",
     "postcode": {
       "value": "2066",
-      "source": null,
-      "note": "suburb postcode"
+      "source": 2,
+      "note": ""
     },
     "lat": {
-      "value": -33.8115,
+      "value": -33.812247,
       "source": null,
-      "note": "approximate: centroid of Lane Cove West NSW (postcode 2066) from matthewproctor/australianpostcodes; site location not geocoded"
+      "note": "geocoded with ArcGIS World Geocoder (findAddressCandidates) from \"16 Mars Road, Lane Cove West NSW 2066\": match \"16 Mars Road, Lane Cove West, Sydney, New South Wales, 2066\", PointAddress, score 100"
     },
     "lon": {
-      "value": 151.1527,
+      "value": 151.147102,
       "source": null,
-      "note": ""
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -102,8 +102,9 @@
     "source": null,
     "note": ""
   },
-  "last_checked": "2026-09-28",
+  "last_checked": "2026-11-18",
   "open_questions": [
-    "pipeline record from discovery only; per-facility collection not yet done"
+    "no SSD application for 16-20 Mars Road found on the NSW portal Data Storage list (2026-11-18); IDA-endorsed only",
+    "MW unknown"
   ]
 }
