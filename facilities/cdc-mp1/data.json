@@ -143,7 +143,7 @@
     "value": "2026-08-01",
     "source": 29,
     "precision": "day",
-    "note": "Planned start of SSD works (MP1.S2): SSD Stage 1-4 works planned to commence from 1 August 2026 per Built's notice to CDC dated 14 Jul 2026 (source 29), 'subject to satisfaction and attainment of the Construction Certificate Approval ... and the completion of the preceding piling complying development works'. Actual commencement not confirmed. Post-approval staging approved by DPHI 24 Apr / 12 Jun 2026 (sources 30-31): Stage 1 piling (MP1-MP5 pads) and Stage 2 construction (substation, MP1, MP4, MP5). Campus ground-breaking was 25 Oct 2024 (source 9) for early works (DA-24-00386, determined 11 Sep 2024) and the 5 MW MP1.S1 building (DA-24-00542); AR (Nov 2025) says the 5 MW building was then under construction."
+    "note": "Planned start of SSD works (MP1.S2): SSD Stage 1-4 works planned to commence from 1 August 2026 per Built's notice to CDC dated 14 Jul 2026 (source 29), 'subject to satisfaction and attainment of the Construction Certificate Approval ... and the completion of the preceding piling complying development works'. Actual commencement not confirmed. Post-approval staging approved by DPHI 24 Apr / 12 Jun 2026 (sources 30-31): Stage 1 piling (MP1-MP5 pads) and Stage 2 construction (substation, MP1, MP4, MP5). Campus ground-breaking was 25 Oct 2024 (source 9) for early works (DA-24-00386, determined 11 Sep 2024) and the 5 MW MP1.S1 building (DA-24-00542); AR (Nov 2025) says the 5 MW building was then under construction. Infratil (6 Jul 2026, source 36): in the Jun-2026 quarter 'development commenced at data centres across CDC's Marsden Park (NSW) and Laverton (VIC) campuses'; NSW under-construction capacity rose from 220MW to 560MW. Buildings not named."
   },
   "construction_end": {
     "value": null,
@@ -151,7 +151,7 @@
     "precision": null,
     "note": "MP1.S2 end date not found. Staging: EIS s3.2.3: Stage 2 - MP1.S2 & MP4 (complete 1.5 yrs post approval); AR Table 2 Stage 1 (substation, MP1 and MP4) - 18 months (whole campus over ~5 years). CDC May 2026: 555MW contracted capacity across its campuses under development to become operational over FY28 and FY29 (not building-specific). The 5 MW MP1.S1 building appears operational by early 2026 (CEMP lists stakeholder 'CDC MP1.1 Operational Facility'; staging plan Stage 0 (Mar 2026 aerial) shows 'MP1.EXT above ground works underway'); iCost (snippet) reported completion announced; exact date not found."
   },
-  "last_checked": "2026-09-27",
+  "last_checked": "2026-11-18",
   "open_questions": [
     "MP1.S1 (5 MW, council DA-24-00542) now has its own record cdc-mp1-s1; campus jobs figures here still include it (noted)",
     "Actual start of SSD works (planned 1 Aug 2026) and MP1.S1 completion/operational date not confirmed",

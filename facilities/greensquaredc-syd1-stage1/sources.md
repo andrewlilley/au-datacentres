@@ -38,3 +38,10 @@ Verification pass 2026-09-27 (fetched and read directly):
    - URL: https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-81928961%2120260623T233326.415+GMT
    - Accessed: 2026-09-27
    - Supports: 4MW -> 14.9MW, EDC $84,709,798, approval 4 Sep 2025 (electronic determination), CDC 25/250218-01 issued 9 Sep 2025, 10 Stage 1 operational FTE
+
+## Refresh pass 2026-11-18
+
+10. w.media - GreenSquare SYD1 opens first stage after adaptive reuse of 1995 data center (19 Oct 2026, fetched)
+   - URL: https://w.media/greensquare-syd1-opens-first-stage-after-adaptive-reuse-of-1995-data-center/
+   - Accessed: 2026-11-18
+   - Supports: Stage 1 'now operational' (19 Oct 2026); main works from Feb 2026; 'completed and ready for service in eight months'; ~400 on site at peak; first customer Sharon AI (~8,200 NVIDIA Blackwell Ultra GPUs); '275 per cent increase in IT capacity'

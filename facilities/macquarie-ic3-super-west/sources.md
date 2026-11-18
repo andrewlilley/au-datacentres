@@ -40,3 +40,8 @@ Verification pass 2026-09-27 (primary documents fetched and read directly):
    - Supports: 47MW IT load, 'currently under construction', 'ready for service in 2026', 'Coming Soon'
 
 Correction to source 2: the Willowtree Planning EIS (8 Nov 2021) was fetched and read: CIV $289,731,682; 'approximately 1,200 construction jobs' and 'approximately 49 operational jobs for the consolidated facility'; +33 MW (28 -> 61 MW). The $504,111,490 EDC previously attributed to it was not found.
+
+## Refresh pass 2026-11-18
+
+10. https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-24299707-PA-22%2120260723T112244.245+GMT - accessed 2026-11-18 - Macquarie letter to DPHI (Michael Gold, EGM), 22 Jul 2026, 'Commencement of Operations' (PDF read directly): under conditions A14 and A15 of SSD-24299707, 'we expect that operations of Stage 2 of the above development will commence in approximately 1 month'. Uploaded to the portal Notifications folder 23 Jul 2026.
+11. https://www.macquariedatacentres.com/data-centres/sydney/macquarie-park-campus/ic3-super-west/ - accessed 2026-11-18 - operator page re-fetched: still 'currently under construction with the entire end-state power secured', 'will be ready for service in 2026', 'IC3 Super West - Coming Soon'; 47MW IT.

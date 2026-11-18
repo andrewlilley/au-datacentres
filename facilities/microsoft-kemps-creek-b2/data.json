@@ -112,7 +112,7 @@
     "precision": "year",
     "note": "expected (Microsoft Local Mar 2024 and May 2026 updates: Building Two 'expected to be completed in 2026', 'steadily advancing')"
   },
-  "last_checked": "2026-09-27",
+  "last_checked": "2026-11-18",
   "open_questions": [
     "cost/jobs/MW are campus totals under SSD-10101987, not split per building",
     "master.csv mw_it 96 is not supported by planning documents (campus total 190MW, not per building) - check"

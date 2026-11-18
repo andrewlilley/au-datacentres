@@ -136,7 +136,7 @@
     "value": "2026-08-01",
     "source": 29,
     "precision": "day",
-    "note": "Planned (Stage 1 piling across MP1-MP5 pads). SSD Stage 1-4 works planned to commence from 1 August 2026 per Built's notice to CDC dated 14 Jul 2026 (source 29), 'subject to satisfaction and attainment of the Construction Certificate Approval ... and the completion of the preceding piling complying development works'. Actual commencement not confirmed. Post-approval staging approved by DPHI 24 Apr / 12 Jun 2026 (sources 30-31): Stage 1 piling (MP1-MP5 pads) and Stage 2 construction (substation, MP1, MP4, MP5)."
+    "note": "Planned (Stage 1 piling across MP1-MP5 pads). SSD Stage 1-4 works planned to commence from 1 August 2026 per Built's notice to CDC dated 14 Jul 2026 (source 29), 'subject to satisfaction and attainment of the Construction Certificate Approval ... and the completion of the preceding piling complying development works'. Actual commencement not confirmed. Post-approval staging approved by DPHI 24 Apr / 12 Jun 2026 (sources 30-31): Stage 1 piling (MP1-MP5 pads) and Stage 2 construction (substation, MP1, MP4, MP5). Infratil (6 Jul 2026, source 36): in the Jun-2026 quarter 'development commenced at data centres across CDC's Marsden Park (NSW) and Laverton (VIC) campuses'; NSW under-construction capacity rose from 220MW to 560MW. Buildings not named."
   },
   "construction_end": {
     "value": null,
@@ -144,10 +144,11 @@
     "precision": null,
     "note": "Not found. Staging: EIS s3.2.3: Stage 3 - MP5 (first) then MP2 (complete 3 years post approval); AR Table 2 Stage 2 (MP2 and MP5) - 18 months (whole campus over ~5 years). CDC May 2026: 555MW contracted capacity across its campuses under development to become operational over FY28 and FY29 (not building-specific)."
   },
-  "last_checked": "2026-09-27",
+  "last_checked": "2026-11-18",
   "open_questions": [
     "Actual start of piling/SSD works (planned 1 Aug 2026) not confirmed; status left as 'approved' pending evidence (Infratil Apr 2026 says >200 MW commenced at Marsden Park but names no buildings)",
     "Staging plan SYD-MP-SK-14 rev F (source 33) carries hidden 'Now referenced as MP2 / MP3 / MP4 / MPA Zone H' annotations, suggesting buildings may have been renumbered; mapping of current CDC building names to consent names not confirmed",
-    "Per-building IT MW may have increased: CDC Mar 2026 investor day says campus 700MW+ after densification (snippet); consent still caps campus at 720 MW power"
+    "Per-building IT MW may have increased: CDC Mar 2026 investor day says campus 700MW+ after densification (snippet); consent still caps campus at 720 MW power",
+    "status: Infratil says development commenced at Marsden Park data centres in the Jun-2026 quarter (NSW under construction 220 -> 560MW), which suggests several buildings beyond MP1 are now under construction, but no source names which; left 'approved'"
   ]
 }

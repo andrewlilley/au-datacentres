@@ -2,7 +2,7 @@
   "id": "greensquaredc-syd1-stage1",
   "name": "GreenSquareDC SYD1 Norwest Stage 1",
   "operator": "GreenSquareDC",
-  "status": "under_construction",
+  "status": "operational",
   "location": {
     "address": {
       "value": "3 Brookhollow Avenue, Norwest NSW 2153",
@@ -81,11 +81,11 @@
     "url": "https://www.planningportal.nsw.gov.au/planning-panel/alterations-and-additions-existing-data-centre"
   },
   "jobs_construction": {
-    "value": null,
-    "source": null,
-    "basis": null,
-    "scope": null,
-    "note": ""
+    "value": 400,
+    "source": 10,
+    "basis": "peak",
+    "scope": "direct",
+    "note": "w.media 19 Oct 2026: 'About 400 people worked on site at peak time'"
   },
   "jobs_construction_other": [],
   "jobs_operational": {
@@ -97,21 +97,21 @@
   },
   "jobs_operational_other": [],
   "construction_start": {
-    "value": null,
-    "source": null,
-    "precision": null,
-    "note": "CDC for demolition/enabling works obtained Sep 2025; master.csv says construction from Jan 2026 - start date not verified"
+    "value": "2026-02",
+    "precision": "month",
+    "source": 10,
+    "note": "w.media 19 Oct 2026: main construction works began in February 2026; 'completed and ready for service in eight months'. Enabling/demolition works under a CDC from Sep 2025 (source 1)"
   },
   "construction_end": {
-    "value": "2026",
-    "source": 1,
-    "precision": "year",
-    "note": "expected completion Q3 2026 (w.media, Sep 2025; GreenSquareDC); not confirmed complete as of 2026-09-27"
+    "value": "2026-10",
+    "precision": "month",
+    "source": 10,
+    "note": "GreenSquare announced 19 Oct 2026 that 'the first stage of its SYD1 data centre campus ... is now operational' (w.media, source 10); exact practical completion date not stated"
   },
-  "last_checked": "2026-09-27",
+  "last_checked": "2026-11-18",
   "open_questions": [
     "scope: refurbishment/refit of existing 1993 IBM/Kyndryl data centre (approved D93/318; 4MW -> 14.9MW) - may not count as a new facility",
     "overlap: Stage 1 of same campus as greensquaredc-syd1 (Stage 2, SSD-81928961, 96MW IT)",
-    "construction start date and completion/operational status not confirmed; no construction jobs figure found"
+    "mw_it of the stage now open not stated in the Oct 2026 announcement ('275 per cent increase in IT capacity', consistent with 4MW -> ~15MW)"
   ]
 }

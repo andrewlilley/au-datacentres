@@ -28,9 +28,9 @@
     }
   },
   "builder": {
-    "value": null,
-    "source": null,
-    "note": "not announced"
+    "value": "Lendlease",
+    "source": 18,
+    "note": "CEMP for SSD-73761707 (dated 1 Oct 2026, lodged with DPHI 2 Oct 2026) is issued under the 'Lendlease Construction Management System' and says 'Lendlease will distribute a Project' notification on site establishment; covers DC01 and DC03 only (DC02 'Not included in this Construction scope of works')."
   },
   "developer": {
     "value": "Amazon Web Services",
@@ -150,20 +150,20 @@
     }
   ],
   "construction_start": {
-    "value": null,
-    "precision": null,
-    "source": null,
-    "note": "not announced; no post-approval documents on portal at 2026-09-27. Assessment report notes demolition 'already commenced under a separate complying development certificate' (CDC-25-00506). Built as Stage 3 of 3"
+    "value": "2027-07",
+    "precision": "month",
+    "source": 18,
+    "note": "planned: CEMP Table 2: Stage 2 DC03 construction start 'Q3 2027'. value gives first month of Q3"
   },
   "construction_end": {
-    "value": null,
-    "precision": null,
-    "source": null,
-    "note": "not announced. EIS jobs calculation assumes Stage 3 duration of 52 months; assessment report says 'each stage occurring over approximately 24 months'"
+    "value": "2030-06",
+    "precision": "month",
+    "source": 18,
+    "note": "planned: CEMP Table 2: DC03 Day 1 Completion Q4 2029, Day 2 Q1 2030, Completion Q2 2030. value gives last month of Q2"
   },
-  "last_checked": "2026-09-27",
+  "last_checked": "2026-11-18",
   "open_questions": [
     "operator AWS rests on Amazon's 2022 purchase of the site and media reports; planning documents name only Lehr Consultants International as applicant",
-    "construction start and staging timetable (sequence of DC01-DC03 dates) not announced; builder not announced"
+    "construction start: CEMP lodged 2 Oct 2026 plans Stage 1 (DC01) from Q4 2026 and DC03 from Q3 2027; CEMP approval and actual start not confirmed; DC02 not in current construction scope"
   ]
 }

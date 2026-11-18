@@ -150,11 +150,11 @@
     "value": "2026-09",
     "source": 4,
     "precision": "month",
-    "note": "expected: operator page (fetched 2026-09-27) still says 'currently under construction ... ready for service in 2026' and lists IC3 Super West as 'Coming Soon'; press says opening Sep 2026; topped out 2 Dec 2025; building construction reported complete in 2026 (Capital Brief). DPE-assessed programme: 6+3+6+9 months"
+    "note": "expected: Macquarie letter to DPHI (22 Jul 2026, source 10) under conditions A14/A15: 'we expect that operations of Stage 2 of the above development will commence in approximately 1 month' (i.e. ~late Aug 2026). Operator page re-fetched 2026-11-18 (source 11) still says 'currently under construction ... will be ready for service in 2026' and 'Coming Soon'. No announcement of opening found. expected: operator page (fetched 2026-09-27) still says 'currently under construction ... ready for service in 2026' and lists IC3 Super West as 'Coming Soon'; press says opening Sep 2026; topped out 2 Dec 2025; building construction reported complete in 2026 (Capital Brief). DPE-assessed programme: 6+3+6+9 months"
   },
-  "last_checked": "2026-09-27",
+  "last_checked": "2026-11-18",
   "open_questions": [
-    "status: operator page (2026-09-27) still shows 'Coming Soon'/under construction with RFS 2026; opening (first 6MW, Sep 2026) not yet confirmed",
+    "status: Macquarie told DPHI (22 Jul 2026) that Stage 2 operations would commence in about a month, but the operator page (2026-11-18) still shows 'Coming Soon'/under construction and no opening announcement was found; left under_construction",
     "jobs: 610 (DPE/IPC, undefined basis) vs 1,200 (EIS/operator) vs 2,400 (operator 2025) construction figures are different measures; only the 150 peak on-site figure is defined"
   ]
 }

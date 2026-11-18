@@ -29,8 +29,8 @@
   },
   "builder": {
     "value": "SHAPE Australia",
-    "source": 13,
-    "note": "SHAPE Australia Pty Ltd gave the Condition A9(a) notice of commencement 'acting on behalf of the Applicant (HDI SYD1 Property Holdings Limited)', with SHAPE project office and construction manager on site. SHAPE's '20MW Upgrade at DigiCo SYD1' (source 6, snippet) may be earlier densification works"
+    "source": 15,
+    "note": "DGT ASX release 15 Oct 2026 (source 15): 'Shape Australia Pty Ltd has been appointed as head contractor for the SYD1 Expansion on a fixed price lump sum Design & Construct Contract'; Laing O'Rourke 'continues as integrated delivery partner'. SHAPE Australia Pty Ltd gave the Condition A9(a) notice of commencement 'acting on behalf of the Applicant (HDI SYD1 Property Holdings Limited)', with SHAPE project office and construction manager on site. SHAPE's '20MW Upgrade at DigiCo SYD1' (source 6, snippet) may be earlier densification works"
   },
   "developer": {
     "value": "DigiCo Infrastructure REIT",
@@ -40,7 +40,7 @@
   "mw_it": {
     "value": 45.5,
     "source": 12,
-    "note": "EIS: 'Increase in the total power consumption capacity from 42.5MW to 88 MW (45.5MW increase)' and 'will operate as an 88MW (IT load) data centre'. The consent/portal description says 'increase in power consumption of 47.5 megawatts (MW)' (source 11); DCD/master.csv give +47.5 MW (West +24.5, East +23). Site total after expansion 88 MW IT"
+    "note": "EIS: 'Increase in the total power consumption capacity from 42.5MW to 88 MW (45.5MW increase)' and 'will operate as an 88MW (IT load) data centre'. The consent/portal description says 'increase in power consumption of 47.5 megawatts (MW)' (source 11); DCD/master.csv give +47.5 MW (West +24.5, East +23). Site total after expansion 88 MW IT. DGT (15 Oct 2026, source 15) calls it the 'SYD1 52MW capacity expansion' and says SYD1 is '100% contracted across 88MW of total capacity' (71MW contract with a global technology firm)"
   },
   "mw_grid": {
     "value": 120,
@@ -102,18 +102,19 @@
     "value": "2026-10-07",
     "precision": "day",
     "source": 13,
-    "note": "planned: SHAPE notice (7 Sep 2026) says the construction phase 'is scheduled to physically commence on 7 October 2026' (two added storeys, column jacketing, upgrade to 88MW). AR: construction over 21 months"
+    "note": "planned: SHAPE notice (7 Sep 2026) says the construction phase 'is scheduled to physically commence on 7 October 2026' (two added storeys, column jacketing, upgrade to 88MW). AR: construction over 21 months. DPHI approved the CEMP (Shape, Rev 3) on 12 Nov 2026 (source 16); the CEMP is a pre-construction requirement, so physical SSD construction may have started later than 7 Oct 2026"
   },
   "construction_end": {
     "value": "2028",
-    "source": 5,
+    "source": 15,
     "precision": "year",
-    "note": "expected; delivered in phases across FY27-FY28 (i.e. by June 2028), first 10 MW by end FY27 per FY26 results (source 5, snippet only, kalkine 403). AR gives a 21-month construction period"
+    "note": "DGT 15 Oct 2026 (source 15): 'The first 10MW of the SYD1 Expansion is expected to be energised and income producing in late Q4 FY27, with the balance delivered progressively over FY28'. expected; delivered in phases across FY27-FY28 (i.e. by June 2028), first 10 MW by end FY27 per FY26 results (source 5, snippet only, kalkine 403). AR gives a 21-month construction period"
   },
-  "last_checked": "2026-09-27",
+  "last_checked": "2026-11-18",
   "open_questions": [
     "mw_it increment: EIS states 45.5 MW IT increase (42.5 to 88 MW); consent/portal description says 47.5 MW 'power consumption' increase - both in primary documents; 45.5 kept as IT",
     "relationship of SHAPE's '20MW Upgrade at DigiCo SYD1' (due June 2026, snippet) to the SSD works unclear",
-    "construction end (2028) from snippet only; SSD construction start is a planned date"
+    "mw: DGT now calls the expansion 52MW (site 88MW total) vs 45.5MW IT (EIS) / 47.5MW (consent); construction end FY28 per DGT 15 Oct 2026",
+    "construction start: planned 7 Oct 2026 but CEMP only approved 12 Nov 2026"
   ]
 }

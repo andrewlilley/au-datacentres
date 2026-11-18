@@ -30,7 +30,7 @@
   "builder": {
     "value": null,
     "source": null,
-    "note": "not announced"
+    "note": "CEMP for SSD-73761707 (dated 1 Oct 2026, lodged with DPHI 2 Oct 2026) is issued under the 'Lendlease Construction Management System' and says 'Lendlease will distribute a Project' notification on site establishment; covers DC01 and DC03 only (DC02 'Not included in this Construction scope of works'). Builder for DC02 therefore not confirmed."
   },
   "developer": {
     "value": "Amazon Web Services",
@@ -153,7 +153,7 @@
     "value": null,
     "precision": null,
     "source": null,
-    "note": "not announced; no post-approval documents on portal at 2026-09-27. Assessment report notes demolition 'already commenced under a separate complying development certificate' (CDC-25-00506). Built as Stage 2 of 3"
+    "note": "not scheduled: CEMP (Oct 2026, source 18) says Stage 3 DC02 construction is 'Not included in this Construction scope of works'. not announced; no post-approval documents on portal at 2026-09-27. Assessment report notes demolition 'already commenced under a separate complying development certificate' (CDC-25-00506). Built as Stage 2 of 3"
   },
   "construction_end": {
     "value": null,
@@ -161,10 +161,10 @@
     "source": null,
     "note": "not announced. EIS jobs calculation assumes Stage 2 duration of 27 months; assessment report says 'each stage occurring over approximately 24 months'"
   },
-  "last_checked": "2026-09-27",
+  "last_checked": "2026-11-18",
   "open_questions": [
     "operator AWS rests on Amazon's 2022 purchase of the site and media reports; planning documents name only Lehr Consultants International as applicant",
-    "construction start and staging timetable (sequence of DC01-DC03 dates) not announced; builder not announced",
-    "DC02 IT MW: 35.2 in EIS/approval vs 44 at SEARs stage (source 4, snippet only)"
+    "DC02 IT MW: 35.2 in EIS/approval vs 44 at SEARs stage (source 4, snippet only)",
+    "construction start: CEMP lodged 2 Oct 2026 plans Stage 1 (DC01) from Q4 2026 and DC03 from Q3 2027; CEMP approval and actual start not confirmed; DC02 not in current construction scope"
   ]
 }

@@ -115,10 +115,10 @@
   "construction_end": {
     "value": "2028",
     "precision": "year",
-    "source": 3,
-    "note": "expected: community site gives Stage 2 (2025 to 2028). AR: three phases of 24 months each. Baxtel (source 8, not verified) says first capacity 2027"
+    "source": 12,
+    "note": "expected: w.media 27 Oct 2026 (source 12, AirTrunk A$4.25bn green loan): SYD3 'is under construction and expected to be completed by mid-2028'; 'The expansion is being led by Australian construction firm A W Edwards'. expected: community site gives Stage 2 (2025 to 2028). AR: three phases of 24 months each. Baxtel (source 8, not verified) says first capacity 2027"
   },
-  "last_checked": "2026-09-27",
+  "last_checked": "2026-11-18",
   "open_questions": [
     "mw_it: operator 320+ MW IT vs community site 2x48+3x100 = 396 MW vs consented 400 MW total power; unclear which is IT",
     "community site describes five shells in two stages after a reduction from 10 halls, but the Mod 1 reduced-scale application is shown as withdrawn on the portal; whether a replacement modification or approval exists is unconfirmed",

@@ -117,16 +117,16 @@
     "note": "Old estimate of 2023 (from the Dec 2022 'start construction ... next year') removed. Mod-1 Assessment Report (Apr 2024): 'Phases D and F have not commenced construction' and Phase E 'Building 6 not yet constructed' (source 22). Apollo won the EC5 & EC6 structural steel in Jan 2025 (source 1). Construction certificate CC-24-00558 for EC6 structure up to level 03 was recorded Aug 2024 (source 10, snippet). Start date not confirmed."
   },
   "construction_end": {
-    "value": null,
-    "source": null,
-    "precision": null,
-    "note": "CDC website (accessed 2026-09-27): 'Eastern Creek has six operational data centres' (source 28), so EC6 is now taken to be operational; completion date not found. Sep 2025: CDC 'nearing completion of EC5/6' (source 4, snippet). The Mod-2 GHG assessment gives practical completion of the new generators as 2025/2026 (source 25). The Mod-3 Assessment Report (Sep 2026) still calls the SSD-10330 expansion 'currently under construction' (source 26). master.csv notes 103 MW added at Eastern Creek in the Mar-2026 quarter (Infratil Apr 2026 newsletter; infratil.com returns 403)."
+    "value": "2026",
+    "source": 29,
+    "precision": "year",
+    "note": "Taken as completed by the June 2026 quarter: Infratil (6 Jul 2026, source 29) says data centres 'became operational at the Eastern Creek (NSW)' campus in Apr-Jun 2026, with NSW operating capacity up from 150MW to 220MW; CDC website (Sep 2026, source 28) 'Eastern Creek has six operational data centres'. Infratil does not name buildings, so whether EC5 and EC6 each reached full operation, and the exact dates, are not confirmed. CDC website (accessed 2026-09-27): 'Eastern Creek has six operational data centres' (source 28), so EC6 is now taken to be operational; completion date not found. Sep 2025: CDC 'nearing completion of EC5/6' (source 4, snippet). The Mod-2 GHG assessment gives practical completion of the new generators as 2025/2026 (source 25). The Mod-3 Assessment Report (Sep 2026) still calls the SSD-10330 expansion 'currently under construction' (source 26). master.csv notes 103 MW added at Eastern Creek in the Mar-2026 quarter (Infratil Apr 2026 newsletter; infratil.com returns 403)."
   },
   "open_questions": [
-    "status: changed to operational on the basis of CDC's website ('six operational data centres'); completion date not confirmed (Infratil 2026 material returns 403)",
     "mw_it per building not stated (108 MW combined with EC5; ITK 79 MW each)",
     "cost is a combined EC5+EC6 figure; jobs figures are SSD-10330 totals for Buildings 4-6",
-    "construction start date not confirmed"
+    "construction start date not confirmed",
+    "status: operational on CDC website ('six operational data centres') plus Infratil Jun-2026 quarter ('became operational at the Eastern Creek' campus); exact completion date per building not published"
   ],
-  "last_checked": "2026-09-27"
+  "last_checked": "2026-11-18"
 }

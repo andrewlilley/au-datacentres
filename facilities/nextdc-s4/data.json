@@ -143,7 +143,7 @@
     "precision": "year",
     "note": "expected mid-2027 for the first stage (Multiplex). Planning documents: construction in four stages over about five years (Stage 1 = Building C, HV switching building, 330 kV substation), operations to commence 2028 (RTS)"
   },
-  "last_checked": "2026-09-27",
+  "last_checked": "2026-11-18",
   "open_questions": [
     "exact SSD lodgement date not stated (EIS dated 20 June 2024)",
     "MW: portal description 250 MW vs approved power consumption 294 MW vs NEXTDC 365 MW IT; Phase 2 SSD-108864209 (134.4 MW, 2 buildings, Prepare EIS) may need its own record or merging",

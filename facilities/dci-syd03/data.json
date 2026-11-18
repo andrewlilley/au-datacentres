@@ -40,7 +40,7 @@
   "mw_it": {
     "value": null,
     "source": null,
-    "note": "planning documents state power consumption only (see mw_grid); no IT figure. Listings' ~36 MW relates to the superseded 2020 Council-approved SYD02 design"
+    "note": "planning documents state power consumption only (see mw_grid); no IT figure. Listings' ~36 MW relates to the superseded 2020 Council-approved SYD02 design. Linesight (source 16) describes 'DCI's 64MW SYD02 hyperscale data centre', '30,000 sqm across 5 storeys'; not stated whether IT or total"
   },
   "mw_grid": {
     "value": 63,
@@ -120,15 +120,15 @@
     "note": "DCI notice (13 Jun 2025): construction commencing 30 June 2025 with Stage 1 enabling works (demolition); Stage 2 tanks from 13 Oct 2025; Stage 3 main works (civil, substation, then SYD02 building) notified to commence 22 Jun 2026 (source 14)"
   },
   "construction_end": {
-    "value": null,
-    "precision": null,
-    "source": 10,
-    "note": "AR: construction 'expected to take up to 24 months to complete'; no completion date published"
+    "value": "2028",
+    "precision": "year",
+    "source": 16,
+    "note": "expected: Linesight project page (undated, fetched 2026-11-18): 'main construction scheduled to begin in mid-2026 and completion expected in early 2028'. AR: construction up to 24 months"
   },
-  "last_checked": "2026-09-27",
+  "last_checked": "2026-11-18",
   "open_questions": [
     "merged: former row dci-syd02 folded into this record (decision 2026-09-27). The 2020 Council-approved SYD02 design (SPP-19-00009, 36 MW, A$400m announced) was never commenced and DCI committed to relinquish it; DCI now uses the name 'SYD02' for this SSD-21342738 building. Whether SPP-19-00009 was formally surrendered is unconfirmed",
     "no IT MW stated; mw_grid 63 MW is power consumption after Mod 2",
-    "completion date unknown; Multiplex confirmed as builder for Stage 3b (building)"
+    "completion early 2028 per Linesight (cost manager), not DCI; Multiplex confirmed as builder for Stage 3b (building)"
   ]
 }
