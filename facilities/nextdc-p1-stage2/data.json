@@ -117,10 +117,11 @@
     "note": "expected: practical completion scheduled Q3 2026 (sources 3, 7, Nov 2025); completion not confirmed as of 2026-09-27",
     "precision": "year"
   },
-  "last_checked": "2026-09-27",
+  "last_checked": "2026-11-18",
   "open_questions": [
     "construction start date not found",
     "planning lodged date not found (DAP responsible authority report not retrieved)",
-    "confirm practical completion (scheduled Q3 2026)"
+    "confirm practical completion (scheduled Q3 2026)",
+    "refresh 2026-11-18: no practical-completion announcement found for the Q3 2026 target; NEXTDC P1 page (read 2026-11-18) now gives 'IT load capacity of approximately 10MW+' with no stage 2 status; 21 Oct 2026 capex review (source 9) outcome due at AGM 20 Nov 2026"
   ]
 }

@@ -108,12 +108,13 @@
     "precision": "year",
     "note": "Expected at PDS: 'Construction completion is estimated in calendar year 2027.' Superseded: by Aug 2025 DigiCo was still 'in discussions with Brisbane Airport Corporation' (source 5), and the FY26 results/Annual Report 2026 portfolio lists no BNE3 at all (source 6)."
   },
-  "last_checked": "2026-09-27",
+  "last_checked": "2026-11-18",
   "open_questions": [
     "scope: excluded - Not approved or under construction: greenfield site at Cycas Lane, Brisbane Airport (PDS 'BNE4', renamed BNE3 Aug 2025), 19.6 MW proposed; removed from master.csv and listed in excluded.csv (decision 2026-09-27)",
     "status: 'under_construction' (from master.csv) is contradicted by DigiCo disclosures; schema has no 'announced' value",
     "street number (4 vs 6 Cycas Lane) unconfirmed",
     "builder, cost, jobs not found",
-    "status set to announced on 2026-09-28 (pipeline listing)"
+    "status set to announced on 2026-09-28 (pipeline listing)",
+    "refresh 2026-11-18: DigiCo 2026 AGM presentation (11 Nov 2026) does not mention BNE3; only ADL1 and unnamed 'greenfield opportunities'"
   ]
 }

@@ -5,9 +5,9 @@
   "status": "lodged",
   "location": {
     "address": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "23 Tantalum Street, Beard ACT 2620 (Block 25 Section 11)",
+      "source": 4,
+      "note": "snippet only; same block as BE1"
     },
     "suburb": "Beard",
     "state": "ACT",
@@ -17,14 +17,14 @@
       "note": "suburb postcode"
     },
     "lat": {
-      "value": -35.3413,
+      "value": -35.34012,
       "source": null,
-      "note": "approximate: centroid of Beard ACT (postcode 2620) from matthewproctor/australianpostcodes; site location not geocoded"
+      "note": "Geocoded 2026-11-18 from '23 Tantalum Street, Beard ACT 2620' with the ArcGIS World Geocoder (PointAddress, score 100)"
     },
     "lon": {
-      "value": 149.21,
+      "value": 149.21035,
       "source": null,
-      "note": ""
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -38,9 +38,9 @@
     "note": ""
   },
   "mw_it": {
-    "value": null,
-    "source": null,
-    "note": ""
+    "value": 84,
+    "source": 3,
+    "note": "'84MW across 12 data halls' (W.Media); generators up to 20MW"
   },
   "mw_grid": {
     "value": null,
@@ -48,20 +48,20 @@
     "note": ""
   },
   "cost_aud_m": {
-    "value": null,
-    "source": null,
-    "note": ""
+    "value": 203.5,
+    "source": 3,
+    "note": "'total cost of works' AU$203.5m"
   },
   "planning": {
     "authority": {
-      "value": null,
-      "source": null,
+      "value": "ACT Territory Planning Authority",
+      "source": 3,
       "note": ""
     },
     "pathway": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "Development application (merit track) with Environmental Significance Opinion ESO202600012",
+      "source": 3,
+      "note": "ESO issued conditionally (reported 30 Sep 2026)"
     },
     "reference": {
       "value": "DA 202645149",
@@ -76,7 +76,7 @@
     "determined": {
       "value": null,
       "source": null,
-      "note": ""
+      "note": "DA 202645149 decision not found as of 2026-11-18 (ACT DA finder 403); the conditional ESO is not the DA decision"
     },
     "url": null
   },
@@ -102,8 +102,8 @@
     "source": null,
     "note": ""
   },
-  "last_checked": "2026-09-28",
+  "last_checked": "2026-11-18",
   "open_questions": [
-    "pipeline record from discovery only; per-facility collection not yet done"
+    "DA 202645149 decision not found (ESO issued conditionally ~Sep 2026); check ACT DA finder"
   ]
 }

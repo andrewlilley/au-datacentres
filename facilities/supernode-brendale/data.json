@@ -108,12 +108,13 @@
     "precision": null,
     "note": "BESS Stage 1 (260 MW / 619 MWh) commercial operations Feb 2026; Stage 2 July 2026 (Stages 1+2 = 520 MW / 1,858 MWh); Stage 3 (Stanwell offtake) under construction (sources 4, 9). No data centre timing; Baxtel's 2028-2031 is unsourced."
   },
-  "last_checked": "2026-09-27",
+  "last_checked": "2026-11-18",
   "open_questions": [
     "scope: excluded - no data centre planning approval found (BESS-only DA/2023/1419); removed from master.csv and listed in excluded.csv (decision 2026-09-27)",
     "council DA Tracker and planning-scheme PDFs return 403 to scripts; DA/2023/1419 documents (lot list, applicant) not read - confirm whether it covers Lot 121 M31114 as well as Lot 3 SP213172",
     "location of any future data centre pad within the '30 ha' campus unknown (Lot 121 M31114 appears fully allocated to BESS per May 2026 map)",
     "per-building IT MW, tenant, cost split and jobs unknown; revisit if a DC DA (MCU for research and technology industry) is lodged",
-    "status set to announced on 2026-09-28 (pipeline listing)"
+    "status set to announced on 2026-09-28 (pipeline listing)",
+    "refresh 2026-11-18: no new data-centre DA lodged or approved found (search only; Moreton Bay DA register not re-checked)"
   ]
 }

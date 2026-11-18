@@ -48,9 +48,9 @@
     "note": ""
   },
   "cost_aud_m": {
-    "value": null,
-    "source": null,
-    "note": ""
+    "value": 2100,
+    "source": 3,
+    "note": "'$2.1-billion project' (Urban Developer); not from a planning document"
   },
   "planning": {
     "authority": {
@@ -59,9 +59,9 @@
       "note": ""
     },
     "pathway": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "Referred by Latrobe Council to the Planning Minister for possible major project assessment",
+      "source": 3,
+      "note": "complete proposal due 15 Dec 2026, else treated as withdrawn"
     },
     "reference": {
       "value": null,
@@ -102,8 +102,9 @@
     "source": null,
     "note": ""
   },
-  "last_checked": "2026-09-28",
+  "last_checked": "2026-11-18",
   "open_questions": [
-    "pipeline record from discovery only; per-facility collection not yet done"
+    "major project proposal due 15 Dec 2026 - if not lodged the application is treated as withdrawn",
+    "ABC 10 Nov 2026 headline: a Firmus R&D lab at Wesley Vale was approved without a council vote (separate small facility; not verified)"
   ]
 }

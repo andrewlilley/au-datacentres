@@ -1,15 +1,15 @@
 {
   "id": "macquarie-sydney-150",
-  "name": "Macquarie Data Centres 150 MW Sydney facility",
+  "name": "Macquarie Engineering and Technology Campus (2 Alma Road)",
   "operator": "Macquarie Data Centres",
-  "status": "announced",
+  "status": "lodged",
   "location": {
     "address": {
-      "value": null,
-      "source": null,
+      "value": "2 Alma Road, Macquarie Park NSW 2113 (Lot 1 DP1318560)",
+      "source": 3,
       "note": ""
     },
-    "suburb": "",
+    "suburb": "Macquarie Park",
     "state": "NSW",
     "postcode": {
       "value": null,
@@ -38,9 +38,9 @@
     "note": ""
   },
   "mw_it": {
-    "value": 150.0,
-    "source": 1,
-    "note": "headline figure from announcement or application; may be campus total or grid demand, not verified as IT load"
+    "value": 200,
+    "source": 3,
+    "note": "SSD scoping figure; replaces the 150 MW announcement figure"
   },
   "mw_grid": {
     "value": null,
@@ -54,19 +54,19 @@
   },
   "planning": {
     "authority": {
-      "value": null,
-      "source": null,
+      "value": "NSW DPHI",
+      "source": 3,
       "note": ""
     },
     "pathway": {
-      "value": null,
-      "source": null,
+      "value": "SSD",
+      "source": 3,
       "note": ""
     },
     "reference": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "SSD-151494240",
+      "source": 3,
+      "note": "SEARs requested 28 Oct 2026"
     },
     "lodged": {
       "value": null,
@@ -105,6 +105,7 @@
   "last_checked": "2026-11-18",
   "open_questions": [
     "pipeline record from discovery only; per-facility collection not yet done",
-    "refresh 2026-11-18: possible match SSD-151494240 Macquarie Engineering and Technology Campus (Macquarie Data Centres, 2 Alma Rd Macquarie Park, 200 MW compute facility, SEARs requested Oct 2026) - MW differs (200 vs 150); not linked"
+    "refresh 2026-11-18: possible match SSD-151494240 Macquarie Engineering and Technology Campus (Macquarie Data Centres, 2 Alma Rd Macquarie Park, 200 MW compute facility, SEARs requested Oct 2026) - MW differs (200 vs 150); not linked",
+    "link between the 2025 '150 MW Sydney facility' announcement and SSD-151494240 (200 MW) inferred from operator and suburb"
   ]
 }

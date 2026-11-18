@@ -113,17 +113,18 @@
     "note": "after 10 Sep 2025 approval; planning report says stage 1 to commence within 2 years of determination (src 7); site reported 'under construction' by 30 Jul 2026 (src 10). Exact start not found"
   },
   "construction_end": {
-    "value": "2026",
-    "source": 9,
+    "value": "2027",
+    "source": 13,
     "precision": "year",
-    "note": "expected; CDC (Aug 2025) said the centre 'will be operational in 2026'"
+    "note": "expected: CDC Sep 2026 update says first stage expected 'to begin operating in early 2027' (was 2026 per CDC Aug 2025, source 9)"
   },
-  "last_checked": "2026-09-27",
+  "last_checked": "2026-11-18",
   "open_questions": [
     "builder unknown",
     "per-building IT MW not stated (campus 150MW in DA vs 200MW marketed)",
     "whether A$415m DA value covers stage 1 only or the whole campus",
     "exact construction start date",
-    "DCn-to-MA.n building mapping assumed (datacentermap naming vs DA plan labels)"
+    "DCn-to-MA.n building mapping assumed (datacentermap naming vs DA plan labels)",
+    "construction jobs: CDC Sep 2026 says only 'hundreds of local jobs' (no figure)"
   ]
 }

@@ -102,8 +102,9 @@
     "source": null,
     "note": ""
   },
-  "last_checked": "2026-09-28",
+  "last_checked": "2026-11-18",
   "open_questions": [
-    "pipeline record from discovery only; per-facility collection not yet done"
+    "pipeline record from discovery only; per-facility collection not yet done",
+    "refresh 2026-11-18: no GC1 development application found; NEXTDC put 'all new development projects and land acquisitions on hold for the foreseeable future' on 21 Oct 2026 (source 4), which likely covers GC1 (in design/town planning) but GC1 is not named"
   ]
 }

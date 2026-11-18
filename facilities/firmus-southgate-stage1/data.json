@@ -132,13 +132,14 @@
     "note": "expected. ABC 15 Jun 2026: 'expected to be operational early next year'. Earlier targets were mid-2026 (w.media Sep 2025) and end of 2026 (The Examiner).",
     "precision": "year"
   },
-  "last_checked": "2026-09-27",
+  "last_checked": "2026-11-18",
   "open_questions": [
     "builder not found",
     "construction start date not found",
     "planning lodgement date not found",
     "mw_it 90 MW (44 + 46) not stated as IT or grid",
     "operational jobs conflict: up to 100 (Firmus launch) vs max 30 on site (DA) vs ~52 (Curtis)",
-    "Stage 1a/1b could be split into separate rows"
+    "Stage 1a/1b could be split into separate rows",
+    "refresh 2026-11-18: still under construction ('well advanced', ABC 21 Oct 2026); 'Project Southgate' name now refers to the ended Firmus-CDC partnership - the St Leonards site may be renamed"
   ]
 }
