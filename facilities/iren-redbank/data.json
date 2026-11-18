@@ -1,0 +1,126 @@
+{
+  "id": "iren-redbank",
+  "name": "Redbank Data Centre, Wagga Wagga",
+  "operator": "IREN",
+  "status": "lodged",
+  "location": {
+    "address": {
+      "value": "286 Boiling Down Road, Rowan NSW 2650 and adjoining lots (bounded by Boiling Down, Redbank and Plumpton Roads)",
+      "source": 2,
+      "note": "scoping report legal description lists several lots"
+    },
+    "suburb": "Rowan (Wagga Wagga)",
+    "state": "NSW",
+    "postcode": {
+      "value": "2650",
+      "source": null,
+      "note": "Rowan postcode"
+    },
+    "lat": {
+      "value": -35.192879,
+      "source": null,
+      "note": "geocoded with ArcGIS World Geocoder (PointAddress) from 286 Boiling Down Road, Rowan; one of several site lots"
+    },
+    "lon": {
+      "value": 147.363734,
+      "source": null,
+      "note": "see lat"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "developer": {
+    "value": "TAS 1 Holdings Pty Ltd (wholly owned subsidiary of IREN Limited)",
+    "source": 2,
+    "note": ""
+  },
+  "mw_it": {
+    "value": 600,
+    "source": 2,
+    "note": "'approximately 600 MW of IT load'; ~50 MW IT blocks every ~6 months, 2029-2035"
+  },
+  "mw_grid": {
+    "value": 900,
+    "source": 1,
+    "note": "'total power consumption of up to 900 megawatts'"
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "planning": {
+    "authority": {
+      "value": "NSW DPHI",
+      "source": 1,
+      "note": ""
+    },
+    "pathway": {
+      "value": "SSD",
+      "source": 1,
+      "note": "with amendment to Wagga Wagga LEP 2010"
+    },
+    "reference": {
+      "value": "SSD-155572991",
+      "source": 1,
+      "note": ""
+    },
+    "lodged": {
+      "value": "2026-11",
+      "source": 2,
+      "note": "scoping report uploaded 9-10 Nov 2026; status Prepare SEARs"
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/redbank-data-centre"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_construction_other": [
+    {
+      "value": 1100,
+      "source": 2,
+      "basis": "peak",
+      "scope": "direct",
+      "note": "'Peak on-site construction headcount is anticipated to be approximately 1,100 persons'"
+    }
+  ],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_operational_other": [
+    {
+      "value": 200,
+      "source": 2,
+      "basis": "unstated",
+      "scope": "direct",
+      "note": "'ramp from approximately 50 FTE at initial energisation to more than 200 FTE at full operation'"
+    }
+  ],
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "last_checked": "2026-11-18",
+  "open_questions": [
+    "pipeline record from discovery only; per-facility collection not yet done",
+    "campus of five buildings; consider splitting into phases once EIS is out"
+  ]
+}

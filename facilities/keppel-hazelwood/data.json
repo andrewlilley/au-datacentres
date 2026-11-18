@@ -1,0 +1,110 @@
+{
+  "id": "keppel-hazelwood",
+  "name": "Keppel Hazelwood AI campus (Morwell)",
+  "operator": "Keppel",
+  "status": "announced",
+  "location": {
+    "address": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "suburb": "Morwell (Hazelwood)",
+    "state": "VIC",
+    "postcode": {
+      "value": "3840",
+      "source": null,
+      "note": ""
+    },
+    "lat": {
+      "value": -38.2345026,
+      "source": null,
+      "note": "geocoded with ArcGIS World Geocoder: Morwell postcode 3840 centroid; 123 ha site next to former Hazelwood Power Station not geocoded"
+    },
+    "lon": {
+      "value": 146.394531,
+      "source": null,
+      "note": "see lat"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "developer": {
+    "value": "Keppel (lease rights from landowner Lightwood Group)",
+    "source": 1,
+    "note": ""
+  },
+  "mw_it": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "mw_grid": {
+    "value": 720,
+    "source": 1,
+    "note": "720 MW power capacity across phases (IT vs total not stated)"
+  },
+  "cost_aud_m": {
+    "value": 10000,
+    "source": 1,
+    "note": "$10 billion"
+  },
+  "planning": {
+    "authority": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "pathway": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "last_checked": "2026-11-18",
+  "open_questions": [
+    "pipeline record from discovery only; per-facility collection not yet done",
+    "announced Feb 2026 (before refresh window) but missing from master; planning application to Latrobe City Council expected"
+  ]
+}

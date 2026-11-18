@@ -1,0 +1,110 @@
+{
+  "id": "quantumdc-tungkillo",
+  "name": "Tungkillo Compute and Energy Hub",
+  "operator": "Quantum DC",
+  "status": "announced",
+  "location": {
+    "address": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "suburb": "Tungkillo",
+    "state": "SA",
+    "postcode": {
+      "value": "5236",
+      "source": null,
+      "note": "suburb postcode"
+    },
+    "lat": {
+      "value": -34.8229956,
+      "source": null,
+      "note": "geocoded with ArcGIS World Geocoder: postcode 5236 centroid (Tungkillo); site not geocoded"
+    },
+    "lon": {
+      "value": 139.0693601,
+      "source": null,
+      "note": "see lat"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "developer": {
+    "value": "Quantum DC Pty Ltd",
+    "source": 1,
+    "note": ""
+  },
+  "mw_it": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "mw_grid": {
+    "value": 1200,
+    "source": 1,
+    "note": "1,200 MW proposed hyperscale hub; includes gas-fired generation and two substations"
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "planning": {
+    "authority": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "pathway": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "last_checked": "2026-11-18",
+  "open_questions": [
+    "pipeline record from discovery only; per-facility collection not yet done",
+    "paused 12 Nov 2026: no development application this year after community opposition"
+  ]
+}

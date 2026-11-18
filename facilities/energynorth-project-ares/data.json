@@ -1,0 +1,111 @@
+{
+  "id": "energynorth-project-ares",
+  "name": "Project Ares hyperscale data centre (Murranji Station)",
+  "operator": "Energy North",
+  "status": "announced",
+  "location": {
+    "address": {
+      "value": "Murranji Station, NT Portion 851, Barkly Region",
+      "source": 2,
+      "note": ""
+    },
+    "suburb": "Murranji Station (Barkly)",
+    "state": "NT",
+    "postcode": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "lat": {
+      "value": -16.836,
+      "source": null,
+      "note": "geocoded with ArcGIS World Geocoder: Murranji locality; site not geocoded"
+    },
+    "lon": {
+      "value": 132.8107,
+      "source": null,
+      "note": "see lat"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "developer": {
+    "value": "Energy North Pty Ltd",
+    "source": 2,
+    "note": ""
+  },
+  "mw_it": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "mw_grid": {
+    "value": 1000,
+    "source": 1,
+    "note": "1 GW off-grid (solar, gas, battery)"
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "planning": {
+    "authority": {
+      "value": "NT EPA (environmental assessment)",
+      "source": 2,
+      "note": ""
+    },
+    "pathway": {
+      "value": "NT EPA referral (s48 EP Act); EPBC referral",
+      "source": 2,
+      "note": "no planning application found"
+    },
+    "reference": {
+      "value": "EP2026/052",
+      "source": 2,
+      "note": "NT EPA notice of decision"
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "last_checked": "2026-11-18",
+  "open_questions": [
+    "pipeline record from discovery only; per-facility collection not yet done",
+    "NT EPA paused assessment clock 7 Oct 2026; June 2028 first-power date dropped (Reuters, 1 Nov 2026)",
+    "status: environmental referral only, kept as announced"
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "id": "hyperdc-mbl1",
+  "name": "HyperDC MBL1 (Moorabool)",
+  "operator": "HyperDC",
+  "status": "lodged",
+  "location": {
+    "address": {
+      "value": "715 Ballan Road, Moorabool VIC 3213",
+      "source": 1,
+      "note": ""
+    },
+    "suburb": "Moorabool",
+    "state": "VIC",
+    "postcode": {
+      "value": "3213",
+      "source": 1,
+      "note": ""
+    },
+    "lat": {
+      "value": -38.034804,
+      "source": null,
+      "note": "geocoded with ArcGIS World Geocoder (PointAddress, score 100) from 715 Ballan Road, Moorabool"
+    },
+    "lon": {
+      "value": 144.290991,
+      "source": null,
+      "note": "see lat"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "developer": {
+    "value": "Hyper DC Pty Ltd",
+    "source": 1,
+    "note": ""
+  },
+  "mw_it": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "mw_grid": {
+    "value": 480,
+    "source": 2,
+    "note": "The Urban Developer: 480 MW (IT vs total not stated); Baxtel/DCD report 400 MW"
+  },
+  "cost_aud_m": {
+    "value": 6100,
+    "source": 2,
+    "note": "$6.1 billion (media)"
+  },
+  "planning": {
+    "authority": {
+      "value": "Minister for Planning (VIC)",
+      "source": 1,
+      "note": "Development Facilitation Program"
+    },
+    "pathway": {
+      "value": "DFP ministerial permit (cl 53.22)",
+      "source": 1,
+      "note": ""
+    },
+    "reference": {
+      "value": "PA2604671",
+      "source": 1,
+      "note": ""
+    },
+    "lodged": {
+      "value": "2026-09-22",
+      "source": 1,
+      "note": "application received 22 Sep 2026"
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "url": "https://www.planning.vic.gov.au/planning-approvals/ministerial-permits-register/ministerial-permits/8acfef7f-1ab6-f111-aaac-000d3acbdfba"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_operational_other": [
+    {
+      "value": 107,
+      "source": 2,
+      "basis": "unstated",
+      "scope": "direct",
+      "note": "'107 full-time equivalent jobs on completion'"
+    },
+    {
+      "value": 1996,
+      "source": 2,
+      "basis": "unstated",
+      "scope": "direct_indirect",
+      "note": "'up to 1996 indirect jobs'"
+    }
+  ],
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "last_checked": "2026-11-18",
+  "open_questions": [
+    "pipeline record from discovery only; per-facility collection not yet done",
+    "MW: 400 vs 480 MW across sources",
+    "planning.vic.gov.au returns 403; register details from search snippet"
+  ]
+}

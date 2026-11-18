@@ -1,0 +1,127 @@
+{
+  "id": "nextdc-s4-phase2",
+  "name": "NEXTDC S4 Sydney Phase 2 (Horsley Park)",
+  "operator": "NEXTDC",
+  "status": "lodged",
+  "location": {
+    "address": {
+      "value": "6 Johnston Crescent, Horsley Park NSW 2175 (Lot 306 DP1275011)",
+      "source": 2,
+      "note": "application form spells it 'Johston Crescent'"
+    },
+    "suburb": "Horsley Park",
+    "state": "NSW",
+    "postcode": {
+      "value": "2175",
+      "source": null,
+      "note": "suburb postcode"
+    },
+    "lat": {
+      "value": -33.831375,
+      "source": 2,
+      "note": "site co-ordinates in SSD application form"
+    },
+    "lon": {
+      "value": 150.826,
+      "source": 2,
+      "note": "application form"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "developer": {
+    "value": "NEXTDC (applicant Horsley Park Property Pty Ltd)",
+    "source": 2,
+    "note": ""
+  },
+  "mw_it": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "mw_grid": {
+    "value": 134.4,
+    "source": 1,
+    "note": "'maximum power consumption of 134.4 megawatts', two buildings"
+  },
+  "cost_aud_m": {
+    "value": 1790.82,
+    "source": 2,
+    "note": "EDC $1,790,818,146 (application form)"
+  },
+  "planning": {
+    "authority": {
+      "value": "NSW DPHI",
+      "source": 1,
+      "note": ""
+    },
+    "pathway": {
+      "value": "SSD",
+      "source": 1,
+      "note": ""
+    },
+    "reference": {
+      "value": "SSD-108864209",
+      "source": 1,
+      "note": ""
+    },
+    "lodged": {
+      "value": "2026-09-04",
+      "source": 2,
+      "note": "application submitted 4 Sep 2026; exhibited Oct 2026 (notice 12 Oct 2026); status Response to Submissions"
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-phase-2-horsley-park"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_construction_other": [
+    {
+      "value": 1100,
+      "source": 2,
+      "basis": "unstated",
+      "scope": "unstated",
+      "note": "application form 'Indicative Construction Jobs 1,100'"
+    }
+  ],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_operational_other": [
+    {
+      "value": 217,
+      "source": 2,
+      "basis": "unstated",
+      "scope": "unstated",
+      "note": "application form 'Indicative Operation Jobs 217'"
+    }
+  ],
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "last_checked": "2026-11-18",
+  "open_questions": [
+    "pipeline record from discovery only; per-facility collection not yet done",
+    "NEXTDC paused uncontracted developments (Oct-Nov 2026); check whether Phase 2 assessment continues",
+    "already mentioned in facilities/nextdc-s4 open_questions"
+  ]
+}

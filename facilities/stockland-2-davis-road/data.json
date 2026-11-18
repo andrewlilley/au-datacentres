@@ -1,0 +1,126 @@
+{
+  "id": "stockland-2-davis-road",
+  "name": "Wetherill Park Data Centre (2 Davis Road)",
+  "operator": "Stockland / EdgeConneX",
+  "status": "lodged",
+  "location": {
+    "address": {
+      "value": "2 Davis Road, Wetherill Park NSW 2164 (Lot 202 DP709613)",
+      "source": 2,
+      "note": ""
+    },
+    "suburb": "Wetherill Park",
+    "state": "NSW",
+    "postcode": {
+      "value": "2164",
+      "source": null,
+      "note": "suburb postcode"
+    },
+    "lat": {
+      "value": -33.841,
+      "source": 2,
+      "note": "site co-ordinates in SEARs request form (3 decimals)"
+    },
+    "lon": {
+      "value": 150.912,
+      "source": 2,
+      "note": "SEARs request form"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "developer": {
+    "value": "Stockland Development Pty Limited",
+    "source": 2,
+    "note": "Stockland/EdgeConneX 50:50 JV per earlier reporting (see excluded.csv row)"
+  },
+  "mw_it": {
+    "value": 170,
+    "source": 1,
+    "note": "portal: 'total capacity of approx 238 MW, an IT Load of 170 MW'"
+  },
+  "mw_grid": {
+    "value": 238,
+    "source": 1,
+    "note": ""
+  },
+  "cost_aud_m": {
+    "value": 2250,
+    "source": 2,
+    "note": "EDC $2,250,000,000 (SEARs request form)"
+  },
+  "planning": {
+    "authority": {
+      "value": "NSW DPHI",
+      "source": 1,
+      "note": ""
+    },
+    "pathway": {
+      "value": "SSD",
+      "source": 1,
+      "note": ""
+    },
+    "reference": {
+      "value": "SSD-153190740",
+      "source": 1,
+      "note": ""
+    },
+    "lodged": {
+      "value": "2026-11-04",
+      "source": 2,
+      "note": "SEARs requested 4 Nov 2026; scoping report uploaded 16 Oct 2026; status Prepare SEARs"
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/wetherill-park-data-centre"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_construction_other": [
+    {
+      "value": 800,
+      "source": 2,
+      "basis": "unstated",
+      "scope": "unstated",
+      "note": "SEARs request 'Indicative Construction Jobs 800'"
+    }
+  ],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_operational_other": [
+    {
+      "value": 108,
+      "source": 2,
+      "basis": "unstated",
+      "scope": "unstated",
+      "note": "SEARs request 'Indicative Operation Jobs 108'"
+    }
+  ],
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "last_checked": "2026-11-18",
+  "open_questions": [
+    "pipeline record from discovery only; per-facility collection not yet done",
+    "moved from excluded.csv ('2 Davis Road Data Centre', not approved) on evidence of SSD SEARs request"
+  ]
+}

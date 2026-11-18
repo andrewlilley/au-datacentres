@@ -1,0 +1,126 @@
+{
+  "id": "airtrunk-mars-road",
+  "name": "Mars Road Data Centre (AirTrunk SYD2 precinct extension)",
+  "operator": "AirTrunk (reported)",
+  "status": "lodged",
+  "location": {
+    "address": {
+      "value": "3-4 Apollo Place and 87-91 Mars Road, Lane Cove West NSW 2066 (Lots 8-9 DP241877, Lot 100 DP622160, Lot 1 DP732557)",
+      "source": 2,
+      "note": "SEARs request form"
+    },
+    "suburb": "Lane Cove West",
+    "state": "NSW",
+    "postcode": {
+      "value": "2066",
+      "source": null,
+      "note": "suburb postcode"
+    },
+    "lat": {
+      "value": -33.80862,
+      "source": 2,
+      "note": "site co-ordinates in SEARs request form"
+    },
+    "lon": {
+      "value": 151.146,
+      "source": 2,
+      "note": "SEARs request form"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "developer": {
+    "value": "AirTrunk (reported)",
+    "source": 3,
+    "note": "SEARs request lodged by Willowtree Planning (source 2); local news and Lane Cove Council describe it as an AirTrunk precinct extension (source 3)"
+  },
+  "mw_it": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "mw_grid": {
+    "value": 140,
+    "source": 1,
+    "note": "portal: '140-megawatt data centre'"
+  },
+  "cost_aud_m": {
+    "value": 1000,
+    "source": 2,
+    "note": "EDC $1,000,000,000 (round figure in SEARs request)"
+  },
+  "planning": {
+    "authority": {
+      "value": "NSW DPHI",
+      "source": 1,
+      "note": ""
+    },
+    "pathway": {
+      "value": "SSD",
+      "source": 1,
+      "note": ""
+    },
+    "reference": {
+      "value": "SSD-108835458",
+      "source": 1,
+      "note": ""
+    },
+    "lodged": {
+      "value": "2026-03-12",
+      "source": 2,
+      "note": "SEARs requested 12 Mar 2026; SEARs issued 9 Apr 2026, amended 31 Aug 2026; status Prepare EIS"
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/mars-road-data-centre"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_construction_other": [
+    {
+      "value": 1000,
+      "source": 2,
+      "basis": "unstated",
+      "scope": "unstated",
+      "note": "SEARs request 'Indicative Construction Jobs 1,000'"
+    }
+  ],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_operational_other": [
+    {
+      "value": 50,
+      "source": 2,
+      "basis": "unstated",
+      "scope": "unstated",
+      "note": "SEARs request 'Indicative Operation Jobs 50'"
+    }
+  ],
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "last_checked": "2026-11-18",
+  "open_questions": [
+    "pipeline record from discovery only; per-facility collection not yet done",
+    "may be the same project as master row lane-cove-dc-alliance (IDA 'Lane Cove Data Centre Development')"
+  ]
+}

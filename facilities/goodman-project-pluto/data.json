@@ -1,0 +1,117 @@
+{
+  "id": "goodman-project-pluto",
+  "name": "Project Pluto Data Centre (Guildford West)",
+  "operator": "Goodman",
+  "status": "approved",
+  "location": {
+    "address": {
+      "value": "132 McCredie Road, Guildford West NSW 2161 (Lot 1 DP 828392)",
+      "source": 2,
+      "note": "Assessment Report; lot from SSD application form (source 3)"
+    },
+    "suburb": "Guildford West",
+    "state": "NSW",
+    "postcode": {
+      "value": "2161",
+      "source": 3,
+      "note": "site address in application form"
+    },
+    "lat": {
+      "value": -33.851132,
+      "source": 3,
+      "note": "site co-ordinates stated in SSD application form (not independently geocoded)"
+    },
+    "lon": {
+      "value": 150.955,
+      "source": 3,
+      "note": "application form gives 150.955 (3 decimals)"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": "no head contractor found as at 2026-11-18"
+  },
+  "developer": {
+    "value": "Goodman Property Services (Aust) Pty Limited",
+    "source": 2,
+    "note": "applicant"
+  },
+  "mw_it": {
+    "value": 68,
+    "source": 2,
+    "note": "Assessment Report: 'Total power consumption of 100 MW with an IT Load of 68 MW'. Application form/EIS described 126 MW load capacity (source 3); approved scheme is 100 MW total"
+  },
+  "mw_grid": {
+    "value": 100,
+    "source": 2,
+    "note": "total power consumption"
+  },
+  "cost_aud_m": {
+    "value": 1114.47,
+    "source": 2,
+    "note": "Estimated development cost $1,114,474,328 (Assessment Report; same in application form)"
+  },
+  "planning": {
+    "authority": {
+      "value": "NSW DPHI",
+      "source": 2,
+      "note": "determined by Director under delegation"
+    },
+    "pathway": {
+      "value": "SSD",
+      "source": 1,
+      "note": ""
+    },
+    "reference": {
+      "value": "SSD-69223466",
+      "source": 1,
+      "note": ""
+    },
+    "lodged": {
+      "value": "2025-04-28",
+      "source": 3,
+      "note": "application form dated 28 Apr 2025; EIS exhibited 9 May-6 Jun 2025 (source 2)"
+    },
+    "determined": {
+      "value": "2026-07-23",
+      "source": 1,
+      "note": "portal: Decision Approved, Determination Date 23/07/2026; consent documents uploaded 24 Jul 2026"
+    },
+    "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/project-pluto-data-centre"
+  },
+  "jobs_construction": {
+    "value": 467,
+    "source": 2,
+    "note": "Assessment Report: '467 full-time equivalent construction jobs' (Introduction: 'up to 467 construction jobs'); application form 'Indicative Construction Jobs 467'",
+    "basis": "unstated",
+    "scope": "unstated"
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": 60,
+    "source": 2,
+    "note": "Assessment Report: '60 operational jobs'",
+    "basis": "ongoing_headcount",
+    "scope": "unstated"
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "note": "",
+    "precision": null
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "note": "two stages of 18 months each per Assessment Report",
+    "precision": null
+  },
+  "last_checked": "2026-11-18",
+  "open_questions": [
+    "construction start and builder not found",
+    "jobs basis: AR says '467 full-time equivalent construction jobs' - peak vs average not stated; EIS economic appendix not checked",
+    "not in master.csv before refresh 2026-11 despite July 2026 approval"
+  ]
+}

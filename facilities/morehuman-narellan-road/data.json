@@ -1,0 +1,118 @@
+{
+  "id": "morehuman-narellan-road",
+  "name": "192 Narellan Road Data Centre, Campbelltown",
+  "operator": "Morehuman Property Group",
+  "status": "lodged",
+  "location": {
+    "address": {
+      "value": "192 Narellan Road, Campbelltown NSW 2560 (Lot 102 DP 1323758)",
+      "source": 2,
+      "note": "scoping report"
+    },
+    "suburb": "Campbelltown",
+    "state": "NSW",
+    "postcode": {
+      "value": "2560",
+      "source": 2,
+      "note": ""
+    },
+    "lat": {
+      "value": -34.061877,
+      "source": null,
+      "note": "geocoded with ArcGIS World Geocoder (PointAddress, score 100) from 192 Narellan Road, Campbelltown"
+    },
+    "lon": {
+      "value": 150.790134,
+      "source": null,
+      "note": "see lat"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "developer": {
+    "value": "Morehuman Property Group",
+    "source": 2,
+    "note": "proponent per scoping report (prepared by Patch Planning)"
+  },
+  "mw_it": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "mw_grid": {
+    "value": 100,
+    "source": 1,
+    "note": "'100 megawatt data centre' / 'Ultimate Power Capacity 100 Megawatts (MW) total load'"
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": "scoping report: 'capital investment exceeding $1 Billion' (not a precise figure)"
+  },
+  "planning": {
+    "authority": {
+      "value": "NSW DPHI",
+      "source": 1,
+      "note": ""
+    },
+    "pathway": {
+      "value": "SSD",
+      "source": 1,
+      "note": ""
+    },
+    "reference": {
+      "value": "SSD-150514738",
+      "source": 1,
+      "note": ""
+    },
+    "lodged": {
+      "value": "2026-10",
+      "source": 2,
+      "note": "scoping report v3 dated October 2026, uploaded 21 Oct 2026; status Prepare SEARs"
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/192-narellan-road-data-centre-campbelltown"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_operational_other": [
+    {
+      "value": 1100,
+      "source": 2,
+      "basis": "unstated",
+      "scope": "unstated",
+      "note": "scoping report: '1,100 ongoing, high-skilled jobs at full build-out' (claim; basis unclear)"
+    }
+  ],
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "last_checked": "2026-11-18",
+  "open_questions": [
+    "pipeline record from discovery only; per-facility collection not yet done",
+    "two buildings in two stages"
+  ]
+}

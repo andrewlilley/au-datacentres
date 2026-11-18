@@ -1,0 +1,126 @@
+{
+  "id": "airtrunk-kurri-kurri",
+  "name": "Kurri Kurri Data Centre (former Hydro smelter site)",
+  "operator": "AirTrunk",
+  "status": "lodged",
+  "location": {
+    "address": {
+      "value": "145 Bishops Bridge Road, Sawyers Gully NSW 2326 (Lot 4 DP1314331)",
+      "source": 2,
+      "note": "application form; media describe the site as the former Hydro Aluminium smelter, Hart Road, Loxford"
+    },
+    "suburb": "Sawyers Gully (Kurri Kurri/Loxford)",
+    "state": "NSW",
+    "postcode": {
+      "value": "2326",
+      "source": 2,
+      "note": ""
+    },
+    "lat": {
+      "value": -32.790799,
+      "source": 2,
+      "note": "site co-ordinates in SSD application form"
+    },
+    "lon": {
+      "value": 151.479,
+      "source": 2,
+      "note": "application form"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "developer": {
+    "value": "AirTrunk",
+    "source": 3,
+    "note": "applicant/consultant ADW Johnson Pty Ltd (source 2); AirTrunk named as developer in media (sources 3-4)"
+  },
+  "mw_it": {
+    "value": null,
+    "source": null,
+    "note": "IT load not found"
+  },
+  "mw_grid": {
+    "value": 550.5,
+    "source": 2,
+    "note": "'550.5 megawatt (MW) data centre' total power (application form); scoping report said 540 MW"
+  },
+  "cost_aud_m": {
+    "value": 3709.8,
+    "source": 2,
+    "note": "Estimated development cost $3,709,798,202 (application form)"
+  },
+  "planning": {
+    "authority": {
+      "value": "NSW DPHI",
+      "source": 1,
+      "note": ""
+    },
+    "pathway": {
+      "value": "SSD",
+      "source": 1,
+      "note": "fit-out and operation of a building approved by complying development certificate"
+    },
+    "reference": {
+      "value": "SSD-128819490",
+      "source": 1,
+      "note": ""
+    },
+    "lodged": {
+      "value": "2026-09-16",
+      "source": 2,
+      "note": "application form submitted 16 Sep 2026; EIS exhibited Oct-Nov 2026 (exhibition notice 13 Oct 2026); 759 submissions; Response to Submissions requested 11 Nov 2026"
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/kurri-kurri-data-centre"
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_construction_other": [
+    {
+      "value": 1210,
+      "source": 2,
+      "basis": "unstated",
+      "scope": "unstated",
+      "note": "application form 'Indicative Construction Jobs 1,210'"
+    }
+  ],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_operational_other": [
+    {
+      "value": 254,
+      "source": 2,
+      "basis": "unstated",
+      "scope": "unstated",
+      "note": "application form 'Indicative Operation Jobs 254'"
+    }
+  ],
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "last_checked": "2026-11-18",
+  "open_questions": [
+    "pipeline record from discovery only; per-facility collection not yet done",
+    "building shell approved via CDC; check whether shell construction has started"
+  ]
+}

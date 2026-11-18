@@ -1,0 +1,111 @@
+{
+  "id": "firmus-port-augusta",
+  "name": "Firmus Port Augusta (Stirling North) AI Factory",
+  "operator": "Firmus Technologies",
+  "status": "announced",
+  "location": {
+    "address": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "suburb": "Stirling North (Port Augusta)",
+    "state": "SA",
+    "postcode": {
+      "value": "5710",
+      "source": null,
+      "note": ""
+    },
+    "lat": {
+      "value": -32.5175101,
+      "source": null,
+      "note": "geocoded with ArcGIS World Geocoder: postcode 5710 centroid; site is ~4.5 km SE of Stirling North, not geocoded"
+    },
+    "lon": {
+      "value": 137.8166318,
+      "source": null,
+      "note": "see lat"
+    }
+  },
+  "builder": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "developer": {
+    "value": "Firmus Technologies",
+    "source": 1,
+    "note": ""
+  },
+  "mw_it": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "mw_grid": {
+    "value": 1300,
+    "source": 1,
+    "note": "1,300 MW per council report; ten AI data halls"
+  },
+  "cost_aud_m": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "planning": {
+    "authority": {
+      "value": "SA Minister for Infrastructure and Planning",
+      "source": 1,
+      "note": "data centres treated as essential infrastructure"
+    },
+    "pathway": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "reference": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "lodged": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "determined": {
+      "value": null,
+      "source": null,
+      "note": ""
+    },
+    "url": null
+  },
+  "jobs_construction": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_construction_other": [],
+  "jobs_operational": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "jobs_operational_other": [],
+  "construction_start": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "construction_end": {
+    "value": null,
+    "source": null,
+    "note": ""
+  },
+  "last_checked": "2026-11-18",
+  "open_questions": [
+    "pipeline record from discovery only; per-facility collection not yet done",
+    "DA not formally lodged as at 6 Nov 2026",
+    "check relation to master row aurora-port-augusta (different developer)"
+  ]
+}
