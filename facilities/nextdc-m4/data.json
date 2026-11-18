@@ -102,7 +102,7 @@
     "value": null,
     "source": null,
     "precision": null,
-    "note": "FY26 results (master.csv; Listcorp page 403 so not re-checked): early works progressing; EstimateOne stage 1 trade tenders closed 28 Aug 2026; NEXTDC site page still says 'In Planning'"
+    "note": "FY26 results (master.csv; Listcorp page 403 so not re-checked): early works progressing; EstimateOne stage 1 trade tenders closed 28 Aug 2026; NEXTDC site page still says 'In Planning' | 2026-11-18: FY26 release (read directly) confirms early works in progress; 21 Oct 2026 release puts all new development projects on hold pending a capex review due at the 20 Nov 2026 AGM - whether M4 is affected not stated"
   },
   "construction_end": {
     "value": null,
@@ -110,11 +110,12 @@
     "precision": null,
     "note": "no date from operator; Baxtel (aggregator) says 'Site planned for 2027 and has expansions through 2029'"
   },
-  "last_checked": "2026-09-27",
+  "last_checked": "2026-11-18",
   "open_questions": [
     "status: approved vs under_construction (early works per FY26 results; NEXTDC site page says 'In Planning')",
     "mw_it: 162 (Jan 2026 release) vs 150 (site page)",
     "builder not confirmed (Multiplex claim appears only in search summaries)",
-    "construction_start unknown"
+    "construction_start unknown",
+    "status: M4 may be paused under NEXTDC Oct 2026 hold on new developments; check capex review outcome at 20 Nov 2026 AGM"
   ]
 }

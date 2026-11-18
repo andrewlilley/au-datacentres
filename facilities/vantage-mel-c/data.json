@@ -110,11 +110,12 @@
     "precision": "year",
     "note": "Baxtel 'Year Planned: 2027' (aggregator; unverified by operator)"
   },
-  "last_checked": "2026-09-27",
+  "last_checked": "2026-11-18",
   "open_questions": [
     "scope: existence unverified - only Baxtel lists MEL-C ('Under Construction / Planned', 2 floors, Year Planned 2027); Vantage's own site shows only MEL1 (Tullamarine); no Vantage Truganina land deal or permit found",
     "possible overlap with Baxtel 'Vantage: Melbourne MEL-B' (second Melbourne campus, 29 acres, planned 2028, no address); ITK notes Vantage 'has flagged a separate second Melbourne site'",
     "PA2403416 at 171 Leakes Rd appears to be Amazon (AWS), not Vantage",
-    "status and MW unverified"
+    "status and MW unverified",
+    "Baxtel (2026-11-18) now lists MEL-C 'In Doubt' and says Aljasser Group bought the 185 Leakes Rd site in Feb 2026 - under_construction status unsupported; consider moving out of scope"
   ]
 }

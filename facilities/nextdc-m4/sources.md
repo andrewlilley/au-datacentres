@@ -17,3 +17,8 @@ Second pass 2026-09-27: sources 2-7 and 10-15 fetched and checked; 1 (planning.v
 13. Premier of Victoria - New $2 Billion Tech Hub For Fishermans Bend (12 Jun 2025) — https://www.premier.vic.gov.au/new-2-billion-tech-hub-fishermans-bend — accessed 2026-09-27 — supports: $2bn, government "facilitation support", "thousands of jobs" (no figure)
 14. NEXTDC M4 Melbourne site page — https://www.nextdc.com/data-centres/melbourne-data-centres/m4-melbourne — accessed 2026-09-27 — supports: 150MW IT, 26,400 m2 technical space, status "In Planning"
 15. Baxtel - NEXTDC: M4 Melbourne — https://baxtel.com/data-center/nextdc-m4-melbourne — accessed 2026-09-27 — supports: "Site planned for 2027 and has expansions through 2029" (aggregator; note only)
+
+Refresh check 2026-11-18:
+16. NEXTDC ASX release, FY26 results (27 Aug 2026) — https://announcements.asx.com.au/asxpdf/20260827/pdf/073c04gt4ts40y.pdf — accessed 2026-11-18 — supports: '10MW at M4 Melbourne' in capacity being progressed at 30 Jun 2026; 'M4 Melbourne early works are in progress'
+17. NEXTDC ASX release, M3 Melbourne power delay and revised FY27 guidance (21 Oct 2026), via EQS/placera.se copy — https://www.placera.se/pressmeddelanden/nextdc-limited-m3-melbourne-power-delay-and-revised-fy27-guidance-20261020 — accessed 2026-11-18 — supports: 'NEXTDC has put all new development projects and land acquisitions on hold for the foreseeable future'; projects not backed by customer contracts paused; capex review outcome to be announced by AGM 20 Nov 2026
+18. NEXTDC ASX release, Board renewal and AGM voting items (26 Oct 2026) — https://announcements.asx.com.au/asxpdf/20261026/pdf/075rjd9h0g5q68.pdf — accessed 2026-11-18 — supports: AGM on 20 Nov 2026

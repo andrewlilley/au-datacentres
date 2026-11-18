@@ -102,8 +102,9 @@
     "source": null,
     "note": ""
   },
-  "last_checked": "2026-09-28",
+  "last_checked": "2026-11-18",
   "open_questions": [
-    "pipeline record from discovery only; per-facility collection not yet done"
+    "pipeline record from discovery only; per-facility collection not yet done",
+    "planning_ref: PA2604378 (250MVA two-storey data centre, IN2Z) is a candidate but address not confirmed; 72-76 Cherry Lane has AusNet connection permit correction PA2604458"
   ]
 }

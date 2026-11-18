@@ -8,3 +8,6 @@ Second pass 2026-09-27: sources 1, 2, 4, 5 and 6 fetched and checked; 3 (plannin
 4. The Industrialist - Melbourne vacancy and industrial land supply (AND Property), 4 Sep 2024 — https://www.theindustrialist.com.au/news/2024/09/04/melbourne-vacancy-and-industrial-land-supply-transaction-trends-%E2%80%93-and-property — accessed 2026-09-27 — supports: 171 Leakes Road is "Amazon's new data centre site" (12.3 ha, sold Aug 2023)
 5. Baxtel - Vantage: Melbourne MEL-B — https://baxtel.com/data-center/vantage-melbourne-mel-b — accessed 2026-09-27 — supports: Vantage second Melbourne campus planned 2028, 29 acres, no address (possible overlap; context)
 6. ITK Research - Top 10 data centres under construction in Australia — https://itkservices3.com/background/data_centres_australia_top10_construction — accessed 2026-09-27 — supports: Vantage "has flagged a separate second Melbourne site" (context)
+
+Refresh check 2026-11-18:
+7. Baxtel - Vantage Melbourne MEL-C — https://baxtel.com/data-center/vantage-melbourne-mel-c — accessed 2026-11-18 — supports: status now 'In Doubt' (regulatory/community opposition); 185 Leakes Road, Truganina; Aljasser Group bought the site Feb 2026; 'Vantage's plans for the campus are unconfirmed'

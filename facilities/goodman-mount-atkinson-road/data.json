@@ -5,26 +5,26 @@
   "status": "lodged",
   "location": {
     "address": {
-      "value": null,
-      "source": null,
+      "value": "433 Mount Atkinson Road, Truganina VIC 3029",
+      "source": 2,
       "note": ""
     },
     "suburb": "Truganina",
     "state": "VIC",
     "postcode": {
       "value": "3029",
-      "source": null,
-      "note": "suburb postcode"
+      "source": 2,
+      "note": ""
     },
     "lat": {
-      "value": -37.8283,
-      "source": null,
-      "note": "approximate: centroid of Truganina VIC (postcode 3029) from matthewproctor/australianpostcodes; site location not geocoded"
+      "value": -37.76866,
+      "source": 4,
+      "note": "geocoded: ArcGIS World Geocoder, PointAddress score 100 for \"433 Mount Atkinson Road, Truganina VIC 3029\" (2026-11-18)"
     },
     "lon": {
-      "value": 144.7083,
-      "source": null,
-      "note": ""
+      "value": 144.67559,
+      "source": 4,
+      "note": "see lat note"
     }
   },
   "builder": {
@@ -54,31 +54,33 @@
   },
   "planning": {
     "authority": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "Minister for Planning (VIC)",
+      "source": 2,
+      "note": "Development Facilitation Program (ministerial permits register)"
     },
     "pathway": {
-      "value": null,
-      "source": null,
+      "value": "Development Facilitation Program (cl 53.22)",
+      "source": 2,
       "note": ""
     },
     "reference": {
-      "value": null,
-      "source": null,
+      "value": "PA2604503",
+      "source": 2,
       "note": ""
     },
     "lodged": {
-      "value": null,
-      "source": null,
+      "value": "2026-06-30",
+      "source": 2,
+      "precision": "day",
       "note": ""
     },
     "determined": {
       "value": null,
       "source": null,
-      "note": ""
+      "precision": null,
+      "note": "no decision shown at 2026-11-18"
     },
-    "url": null
+    "url": "https://www.planning.vic.gov.au/planning-approvals/ministerial-permits-register/ministerial-permits/fdc8d827-6b74-f111-ab0f-7c1e522a8afb"
   },
   "jobs_construction": {
     "value": null,
@@ -102,8 +104,9 @@
     "source": null,
     "note": ""
   },
-  "last_checked": "2026-09-28",
+  "last_checked": "2026-11-18",
   "open_questions": [
-    "pipeline record from discovery only; per-facility collection not yet done"
+    "pipeline record from discovery only; per-facility collection not yet done",
+    "MW not stated - check >=5MW"
   ]
 }

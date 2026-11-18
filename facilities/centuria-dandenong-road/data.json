@@ -5,9 +5,9 @@
   "status": "lodged",
   "location": {
     "address": {
-      "value": null,
-      "source": null,
-      "note": ""
+      "value": "1816-1832 Dandenong Road, Clayton VIC",
+      "source": 3,
+      "note": "Telstra-leased campus"
     },
     "suburb": "Clayton",
     "state": "VIC",
@@ -54,8 +54,8 @@
   },
   "planning": {
     "authority": {
-      "value": null,
-      "source": null,
+      "value": "Monash City Council",
+      "source": 3,
       "note": ""
     },
     "pathway": {
@@ -76,7 +76,8 @@
     "determined": {
       "value": null,
       "source": null,
-      "note": ""
+      "precision": null,
+      "note": "the separate 38MW/$137m application on this site was REFUSED by Monash Council on 2026-09-29; the 40MW DA (this row) not determined"
     },
     "url": null
   },
@@ -102,8 +103,10 @@
     "source": null,
     "note": ""
   },
-  "last_checked": "2026-09-28",
+  "last_checked": "2026-11-18",
   "open_questions": [
-    "pipeline record from discovery only; per-facility collection not yet done"
+    "pipeline record from discovery only; per-facility collection not yet done",
+    "refused 38MW Clayton application (29 Sep 2026) is not on master.csv - add as separate row (refused) or note? Centuria may go to VCAT or minister",
+    "permit numbers not found"
   ]
 }

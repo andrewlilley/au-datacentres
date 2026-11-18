@@ -110,11 +110,12 @@
     "precision": "year",
     "note": "expected commissioning: ITK says 'still under construction with most sources targeting a 2026 commissioning date'; Baxtel 'Year Planned: 2026'. First building only"
   },
-  "last_checked": "2026-09-27",
+  "last_checked": "2026-11-18",
   "open_questions": [
     "mw_it: 64 (current Vantage page, ITK) vs 48 (2022 figure, Baxtel)",
     "building count: Vantage page now says '1 data center' vs three multi-storey buildings (iTWire, Baxtel)",
     "planning permit not found (council vs ministerial)",
-    "builder and construction start not found"
+    "builder and construction start not found",
+    "no operational/go-live announcement found at 2026-11-18; Baxtel now says two phases 2026 and 2027"
   ]
 }

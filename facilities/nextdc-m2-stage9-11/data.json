@@ -107,13 +107,13 @@
     "precision": "year",
     "note": "expected by end of Q2 2027: 'These works are expected to take until the second quarter of 2027 to complete'"
   },
-  "last_checked": "2026-09-27",
+  "last_checked": "2026-11-18",
   "open_questions": [
     "mw_it: 60MW (NEXTDC FY26) vs 72MW (Kapitol)",
     "three new buildings (Kapitol) vs 'within existing building' (master.csv note from NEXTDC FY26 announcement)",
     "planning approval: P589/2016 Pt 7 decision not found; link to this expansion not confirmed",
     "construction start date not found",
     "cost not found",
-    "FY26 results read only via Investing.com summary"
+    "FY26 results now read directly (2026-11-18); 60MW M2 in progress, works on schedule"
   ]
 }
